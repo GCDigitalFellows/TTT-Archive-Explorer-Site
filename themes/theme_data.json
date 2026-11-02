@@ -1428,13 +1428,13 @@
       "title": "Organizing Image Collections handout",
       "year": "2012–2013",
       "authors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "reviewed institutional guide credit",
+      "creditQuote": "Organizing Image Collections handout — A.L. McMichael",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/05/16/organizing-image-collections-handout/",
       "sample": false,
       "signals": {
@@ -1460,13 +1460,13 @@
       "title": "Linked Data for the Uninitiated (Part 1)",
       "year": "2012–2013",
       "authors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
-      "creditStatus": "author taxonomy",
-      "creditQuote": "",
+      "creditStatus": "reviewed export metadata credit",
+      "creditQuote": "author_name: A. L. McMichael | item_author: A. L. McMichael",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/05/31/linked-data-for-the-uninitiated-part-1/",
       "sample": false,
       "signals": {
@@ -1503,7 +1503,7 @@
         "Laura Kane",
         "Micki Kaufman",
         "Keith Miyake",
-        "A.L. McMichael"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
         "Andrew G McKinney",
@@ -1763,13 +1763,13 @@
       "title": "Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",
       "year": "2013–2014",
       "authors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
-      "creditStatus": "author taxonomy",
-      "creditQuote": "",
+      "creditStatus": "reviewed export metadata credit",
+      "creditQuote": "item_author: A. L. McMichael",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/",
       "sample": false,
       "signals": {
@@ -2282,13 +2282,13 @@
       "title": "Intro to Data Cleaning and Visualization Tools Handout",
       "year": "2013–2014",
       "authors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "reviewed institutional guide credit",
+      "creditQuote": "Intro to Data Cleaning and Visualization Tools Handout — A.L. McMichael",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/",
       "sample": false,
       "signals": {
@@ -2904,13 +2904,13 @@
       "title": "DH and Design",
       "year": "2014–2015",
       "authors": [
-        "Sam O'Hana"
+        "A. L. McMichael"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "reviewed institutional guide credit",
+      "creditQuote": "DH and Design — A.L. McMichael",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/",
       "sample": false,
       "signals": {
@@ -3026,13 +3026,13 @@
       "title": "Databases for Smart People Who Are Scared of Databases",
       "year": "2014–2015",
       "authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "reviewed institutional guide credit",
+      "creditQuote": "Databases for Smart People Who Are Scared of Databases — Keith Miyake",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/",
       "sample": false,
       "signals": {
@@ -3807,13 +3807,13 @@
       "title": "Finding Digital Archives",
       "year": "2015–2016",
       "authors": [
-        "Sam O'Hana"
+        "Jeff Binder"
       ],
       "originalAuthors": [
-        "Sam O'Hana"
+        "Jeff Binder"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "reviewed institutional guide credit",
+      "creditQuote": "Finding Digital Archives — Jeff Binder",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/11/10/finding-digital-archives/",
       "sample": false,
       "signals": {
@@ -7977,13 +7977,15 @@
       "title": "GCDI is Here for You!",
       "year": "2020–2021",
       "authors": [
-        "Stefano Morello"
+        "Stefano Morello",
+        "Olivia Ildefonso"
       ],
       "originalAuthors": [
-        "Stefano Morello"
+        "Stefano Morello",
+        "Olivia Ildefonso"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso",
       "url": "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
       "sample": false,
       "signals": {
@@ -8412,8 +8414,8 @@
       "originalAuthors": [
         "Connor M French"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This updated post by GC Digital Fellow Connor French",
       "url": "https://gcdi.commons.gc.cuny.edu/2021/02/19/gcdi-is-here-for-you-2-2/",
       "sample": false,
       "signals": {
@@ -8826,8 +8828,8 @@
       "originalAuthors": [
         "Param Ajmera"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Param Ajmera",
       "url": "https://gcdi.commons.gc.cuny.edu/2021/09/15/gcdi-is-here-for-you-3-2/",
       "sample": false,
       "signals": {
@@ -9118,8 +9120,8 @@
       "originalAuthors": [
         "Zachary Lloyd"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Zachary Lloyd",
       "url": "https://gcdi.commons.gc.cuny.edu/2022/02/07/greetings-digital-gc-welcome-back/",
       "sample": false,
       "signals": {
@@ -9491,8 +9493,8 @@
       "originalAuthors": [
         "Rebecca Krisel"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Rebecca Krisel",
       "url": "https://gcdi.commons.gc.cuny.edu/2022/09/21/gcdi-welcomes-you-to-the-fall-semester-2/",
       "sample": false,
       "signals": {
@@ -9832,8 +9834,8 @@
       "originalAuthors": [
         "Rebecca Krisel"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Rebecca Krisel",
       "url": "https://gcdi.commons.gc.cuny.edu/2023/01/30/spring-is-in-the-air-welcome-back-from-gcdi-and-the-digital-fellows/",
       "sample": false,
       "signals": {
@@ -10254,8 +10256,8 @@
       "originalAuthors": [
         "Rebecca Krisel"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Rebecca Krisel",
       "url": "https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/",
       "sample": false,
       "signals": {
@@ -10560,8 +10562,8 @@
       "originalAuthors": [
         "Tuka Al-Sahlani"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
       "url": "https://gcdi.commons.gc.cuny.edu/2024/01/29/welcome-back-for-the-spring-24-semester/",
       "sample": false,
       "signals": {
@@ -10883,8 +10885,8 @@
       "originalAuthors": [
         "Tuka Al-Sahlani"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
       "url": "https://gcdi.commons.gc.cuny.edu/2024/09/10/gcdi-welcomes-you-back-for-fall-24/",
       "sample": false,
       "signals": {
@@ -11297,8 +11299,8 @@
       "originalAuthors": [
         "Tuka Al-Sahlani"
       ],
-      "creditStatus": "provisional posting-account attribution",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
       "url": "https://gcdi.commons.gc.cuny.edu/2025/02/04/welcome-to-spring-2025/",
       "sample": false,
       "signals": {
@@ -11883,8 +11885,8 @@
       "originalAuthors": [
         "Tuka Al-Sahlani"
       ],
-      "creditStatus": "author taxonomy",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
       "url": "https://gcdi.commons.gc.cuny.edu/2025/09/09/welcome-to-fall-25/",
       "sample": false,
       "signals": {
@@ -12839,8 +12841,8 @@
       "originalAuthors": [
         "Sophie Bala"
       ],
-      "creditStatus": "author taxonomy",
-      "creditQuote": "",
+      "creditStatus": "explicit body credit",
+      "creditQuote": "This post by GC Digital Fellow Sophie Bala",
       "url": "https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/",
       "sample": false,
       "signals": {

@@ -36,7 +36,7 @@
     {
       "role": "Validation",
       "meaning": "Check claims, methods or results.",
-      "human": "Ian G. Williams identified missing authors and required re-analysis. Numerical tests and browser checks were agent-run; independent human replication is not documented.",
+      "human": "Ian G. Williams identified missing authors and required re-analysis. Numerical tests and browser checks were agent-run; independent human replication is not documented. Ian identified the incorrect account attribution for Linked Data for the Uninitiated (Part 1), named McMichael, and requested this archive-wide correction.",
       "status": "Documented issue identification"
     },
     {

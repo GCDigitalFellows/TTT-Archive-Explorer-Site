@@ -59,7 +59,9 @@
         curated
           ? "Curated / reblogged · source credit: " +
               (post.authors.join(", ") || "not recorded")
-          : "Credited writer(s): " +
+          : (post.creditStatus === "provisional posting-account attribution"
+              ? "Account-only credit (writer unverified): "
+              : "Credited writer(s): ") +
               (post.authors.join(", ") || "not recorded"),
       ),
     );
@@ -91,7 +93,7 @@
     if (post.creditQuote) {
       const evidence = node("details");
       evidence.append(
-        node("summary", "Read the body-credit evidence"),
+        node("summary", "Read the attribution evidence"),
         node("blockquote", post.creditQuote),
       );
       article.append(evidence);

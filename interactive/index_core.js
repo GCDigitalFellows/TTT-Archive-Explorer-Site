@@ -19,7 +19,7 @@ function filterIndexPosts(posts, model, choices) {
       return false;
     if (
       choices.evidence === "explicit" &&
-      !["explicit body credit", "author taxonomy"].includes(post.creditStatus)
+      !["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio"].includes(post.creditStatus)
     )
       return false;
     if (choices.theme && choices.theme !== "all" && !(post.themeSignals || []).includes(choices.theme)) return false;

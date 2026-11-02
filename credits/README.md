@@ -55,3 +55,7 @@ Ian G. Williams identified the supplied review as produced by **Deepseek V4.1 Fl
 ## Thematic visualization revision
 
 The current work log and contribution profile include Ian’s theme-visualization request and Codex’s data joining, counting definitions, charts, index/network integration, documentation and checks. Eight dictionary categories, six selected-example interpretations and MALLET topics remain distinct. No new human coding or model refit is claimed. See ../themes/METHODOLOGY.md and ../process/work_log.json.
+
+## November 2 source-credit correction
+
+The current register contains 162 grouped human-name entries and 71 published-local names (72 raw spelling strings); 258 local account credits remain provisional. Earlier counts above describe earlier snapshots. The new McMichael spacing merge is evidence-supported. Ten records have corrected names; additional revision-note checks confirm existing names. See ../ATTRIBUTION_REVIEW.html and ../attribution_revision/review_2026-11-02.json.

@@ -1,14 +1,16 @@
 {
   "records_scanned": 430,
-  "reviewed_body_credit_records": 22,
-  "records_with_changed_names": 8,
+  "reviewed_body_credit_records": 43,
+  "records_with_changed_names": 18,
   "previous_local_author_names": 60,
-  "corrected_local_author_names": 70,
+  "corrected_local_author_names": 72,
   "newly_recovered_names": [
+    "A. L. McMichael",
     "A.L. McMichael",
     "Angela Crumdy",
     "Carly Batist",
     "Carmela Muzio Dormani",
+    "Jeff Binder",
     "Keith Miyake",
     "Maren Rothfritz",
     "Marisa Iovino",
@@ -16,7 +18,7 @@
     "Yoshiko Oka",
     "Yu-Hsuan Liu"
   ],
-  "local_posts_with_provisional_account_credits": 273,
+  "local_posts_with_provisional_account_credits": 258,
   "model_retrained": false,
   "corpus_recleaned": false
 }

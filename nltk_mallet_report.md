@@ -1,5 +1,7 @@
 # NLTK and MALLET analysis of Tagging the Tower
 
+**Attribution update, November 2, 2026:** Current writer labels and author filters follow the corrected source inventory. Posting-account-only labels remain provisional, including historical imported records. See [the source-credit audit](ATTRIBUTION_REVIEW.html). The fitted words and per-post topic weights are unchanged.
+
 **Attribution update, November 1, 2026:** Writer credits and cohort matches have been corrected from body bylines and signed contributions. Roster-subset summaries use those corrected matches. The 299-post cleaned corpus and fitted topic weights remain frozen; this is not a new NLP fit. See the [source-based correction review](ATTRIBUTION_REVIEW.html).
 
 Interactive companion: [explore the charts](interactive_explorer.html), or read the [interactive usage and code guide](INTERACTIVE_GUIDE.html).

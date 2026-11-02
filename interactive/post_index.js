@@ -95,7 +95,9 @@
       node(
         "p",
         (post.kind === "local/unflagged"
-          ? "Credited writer(s): "
+          ? (post.creditStatus === "provisional posting-account attribution"
+              ? "Account-only credit (writer unverified): "
+              : "Credited writer(s): ")
           : "Credited source writer(s): ") +
           (post.authors.join(", ") || "Not recorded"),
       ),
@@ -221,7 +223,7 @@
     const shownPosts = selection.filter((post) => post.status === "publish" &&
       post.kind === "local/unflagged" && post.authors.some((name) => authors.includes(name)));
     const provisional = shownPosts.filter((post) => post.creditStatus === "provisional posting-account attribution").length;
-    byId("network-uncertainty").textContent = `${provisional} of ${shownPosts.length} distinct posts behind the displayed network use provisional posting-account attribution. Other credits use body bylines or author taxonomy. The network records publication credits, not verified personal productivity. Compare the Credit evidence filter above; changing it changes the population.`;
+    byId("network-uncertainty").textContent = `${provisional} of ${shownPosts.length} distinct posts behind the displayed network use provisional posting-account attribution. Other credits use reviewed evidence or author taxonomy. The network records publication credits, not verified personal productivity. Compare the Credit evidence filter above; changing it changes the population.`;
     // The table describes precisely the same limited graph, avoiding a hidden denominator.
     const table = node("table");
     const caption = node(
@@ -407,7 +409,7 @@
       original_credits: (post.originalAuthors || post.authors).join("; "),
       posting_account: post.creator,
       credit_basis: post.creditStatus,
-      body_credit_evidence: post.creditQuote,
+      attribution_evidence: post.creditQuote,
       source_author: post.sourceAuthor,
       title_tag_theme_signals: (post.themeSignals || []).join("; "),
       theme_filter: byId("index-theme").value,

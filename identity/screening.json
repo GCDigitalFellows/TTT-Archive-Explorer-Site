@@ -1,8 +1,14 @@
 {
-  "input_name_entries": 163,
+  "input_name_entries": 165,
   "similarity_threshold": 0.78,
   "rule": "Shared final name token or SequenceMatcher similarity >= 0.78; suggestions only, decisions in review.json",
   "candidates": [
+    {
+      "first": "A. L. McMichael",
+      "second": "A.L. McMichael",
+      "same_surname": true,
+      "name_similarity": 0.9655
+    },
     {
       "first": "Cen Liu",
       "second": "Yu-Hsuan Liu",

@@ -1,37 +1,27 @@
 {
-  "release": "2026-11-02-thematic-views",
+  "release": "2026-11-02-source-credit-correction",
   "date": "2026-11-02",
-  "status": "45 automated tests passed; HTTP thematic browser checks passed; inherited verification limits retained",
+  "status": "52 automated tests passed; attribution metadata checks and local HTTP browser checks passed",
   "automated": {
     "node_tests": 28,
-    "python_tests": 17,
+    "python_tests": 24,
     "all_passed": true,
-    "new_checks": [
-      "Seven thematic math/source/index tests",
-      "One embedded-data consistency test"
-    ],
-    "test_maintenance": "The history link checker was extended to recognize a view=themes bookmark as an application route targeting view-themes, while retaining literal-anchor checks. Its four tests passed on rerun."
+    "test_scope": "Credits, identity grouping, history, process, attribution evidence, index/network, themes, topic/word preservation, styles and navigation."
   },
   "preservation": {
-    "result": "34 original reference files unchanged; nine established author/cohort corrections still match the verified ledger",
+    "result": "33 original reference files unchanged; 10 intentional attribution/cohort file changes independently verified against preserved baseline",
     "model_refitted": false,
     "original_word_corpus_unchanged": true,
-    "main_analysis_data_sha256": "674a5ab4e39ff96f19bf0065b2589a466432227cae1bb8ff18c5cc2cbf08c326",
-    "thematic_data_sha256": "e7844e558c555234acac091a7fd0f36907e90e91517382893fcee0ed54831665"
+    "main_analysis_data_sha256": "7464f45fa567d3dfcac9dc6b53fdd7f3f0070eb726f33cc5dd2f7c87905c15ac",
+    "thematic_data_sha256": "7e4423cc7cfd2365850d25e8889c4df1a8e0d8dbe44743ff5585da66e4727fc4"
   },
   "http_browser_checks": [
-    "Direct view=themes bookmark opens the new tab",
-    "Default dictionary population: 325 eligible, 273 provisional",
-    "AI 2025–2026 heatmap selection opens 9 of 24 eligible posts",
-    "Ethics/AI pair reports 4 shared posts, margins 30 and 16, union 42",
-    "Essay layer: 19 eligible posts; share control disabled and unsupported overlap matrix withheld",
-    "Broader text mode explicitly includes title, tags and body",
-    "Contradictory writer/year filters show 0 eligible and 0 matching posts",
-    "Index keyword-theme filter plus published/local scope returns 16 AI-signal records",
-    "Filtered author–year network reports 7 provisional credits among those 16 posts",
-    "Browser CSV download inspected: 120 rows; per-theme denominators sum to 325; AI 2025–2026 numerator 9",
-    "Writer-theme selection in 2024–2025 shows 4 of 24 AI-signal posts",
-    "No JavaScript error logs observed"
+    "Index shows 71 grouped local names and 258 provisional credits among 325 local published posts",
+    "Both linked-data posts credit A. L. McMichael",
+    "Reviewed-credit filter retains both linked-data posts; network shows one writer across two years",
+    "Unverified account-only records visibly labeled writer unverified",
+    "Curated SQL article credits Rebecca Krisel; raw Author on Source field and curator role remain separate",
+    "No captured browser error logs during focused checks"
   ],
   "limits": {
     "file_protocol": "Direct file:// browser test was rejected by browser-tool URL policy. No workaround was attempted. File-mode execution remains unverified; embedded-data architecture was checked separately.",
@@ -40,10 +30,9 @@
     "accessibility": "No complete WCAG or assistive-technology conformance audit.",
     "full_retraining": "Not performed or benchmarked in this revision."
   },
-  "previous_release_checks": "process/validation_research_revision.json",
+  "previous_release_checks": "process/validation_thematic_views.json",
   "previews": [
-    "themes/theme-heatmap-preview.png",
-    "themes/theme-writers-preview.png"
+    "attribution_revision/corrected-source-credit-preview.png"
   ],
   "project_name": "Tagging The Tower Archives Explorer",
   "repository_verification": {

@@ -1,0 +1,36 @@
+{
+  "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+  "page": 23,
+  "source_sha256": "88626c80c52b516abc628af23f5222b17553d518724b4d5b2b72c165e3f4ece2",
+  "verification": "Codex inspected the rendered page 23 table; transcription of title/author cells, not OCR inference.",
+  "entries": {
+    "19756": {
+      "title": "Linked Data for the Uninitiated (Part 1)",
+      "author": "A.L. McMichael"
+    },
+    "19765": {
+      "title": "Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",
+      "author": "A.L. McMichael"
+    },
+    "19755": {
+      "title": "Organizing Image Collections handout",
+      "author": "A.L. McMichael"
+    },
+    "19778": {
+      "title": "Intro to Data Cleaning and Visualization Tools Handout",
+      "author": "A.L. McMichael"
+    },
+    "19793": {
+      "title": "DH and Design",
+      "author": "A.L. McMichael"
+    },
+    "19797": {
+      "title": "Databases for Smart People Who Are Scared of Databases",
+      "author": "Keith Miyake"
+    },
+    "19814": {
+      "title": "Finding Digital Archives",
+      "author": "Jeff Binder"
+    }
+  }
+}

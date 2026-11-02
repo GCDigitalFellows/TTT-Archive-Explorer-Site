@@ -369,6 +369,38 @@
         "../scripts/prepare_public_site.py"
       ],
       "limit": "Public website data and browser code are accessible to anyone. Source repository privacy does not make published site content private. Licensing remains unassigned."
+    },
+    {
+      "id": "source-credit-error-correction",
+      "date": "2026-11-02",
+      "status": "implemented; 52 automated tests and local browser credit checks passed; publication state is recorded by GitHub",
+      "task": "error correction in source data",
+      "human": "Ian identified the incorrect Sam O’Hana attribution for Linked Data for the Uninitiated (Part 1), supplied McMichael’s name, requested archive-wide review, correction, website rebuild and GitHub publication, and specified the commit message.",
+      "agent": "Codex screened all 430 records for author fields and full-body credit signals, reviewed accepted bylines/revision notes/source biographies, visually checked institutional guide page 23, corrected ten additional names, grouped McMichael spacing variants, rebuilt dependent attribution views and documented remaining provisional records.",
+      "credit_roles": [
+        "Project administration",
+        "Supervision",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000024",
+        "0000025",
+        "0000028",
+        "0000031",
+        "0000044",
+        "0000046"
+      ],
+      "evidence": [
+        "ATTRIBUTION_REVIEW.html",
+        "attribution_revision/credit_changes_2026-11-02.csv",
+        "attribution_revision/full_credit_review.csv",
+        "attribution_revision/review_2026-11-02.json",
+        "attribution_revision/institutional_guide_credits.json",
+        "identity/review.json"
+      ],
+      "limit": "No new model fitting or independent human verification. 258 local account credits remain provisional, including 53 older Sam O’Hana account records. Existing author/cohort and word-model baselines are retained."
     }
   ],
   "remaining": [

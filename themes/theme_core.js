@@ -15,7 +15,7 @@ function eligibleThemePosts(posts, mode, choices) {
       (choices.year === "all" || post.year === choices.year) &&
       (choices.author === "all" || post.authors.includes(choices.author)) &&
       (!choices.explicit ||
-        ["explicit body credit", "author taxonomy"].includes(post.creditStatus)),
+        ["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio"].includes(post.creditStatus)),
   );
 }
 

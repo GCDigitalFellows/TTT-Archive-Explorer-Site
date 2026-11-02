@@ -1,24 +1,56 @@
 {
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "policy": "Merge only explicitly reviewed name variants. Preserve original credit strings and attribution status. Canonical labels are grouping labels, not independently confirmed preferred public names. A merge does not prove authorship of a provisionally attributed post or imply cohort membership.",
   "groups": [
     {
       "canonical": "Ian G. Williams",
-      "variants": ["Ian G. Williams", "Ian Williams"],
+      "variants": [
+        "Ian G. Williams",
+        "Ian Williams"
+      ],
       "basis": "Explicit requester confirmation: ‘Ian G. Williams is also Ian Williams.’ Preferred public credit Ian G. Williams was supplied earlier in the project.",
-      "sources": ["https://gcdi.commons.gc.cuny.edu/2022/05/06/language-meaning-making-and-wrangling-text-as-data-a-social-workers-perspective-gc-digital-fellows/", "https://gcdi.commons.gc.cuny.edu/2026/02/20/thoughts-on-situating-ai-literacy/"],
+      "sources": [
+        "https://gcdi.commons.gc.cuny.edu/2022/05/06/language-meaning-making-and-wrangling-text-as-data-a-social-workers-perspective-gc-digital-fellows/",
+        "https://gcdi.commons.gc.cuny.edu/2026/02/20/thoughts-on-situating-ai-literacy/"
+      ],
       "confirmation": "User-confirmed identity equivalence"
     },
     {
       "canonical": "Laura Kane",
-      "variants": ["Laura Kane", "Laura Wildemann Kane"],
+      "variants": [
+        "Laura Kane",
+        "Laura Wildemann Kane"
+      ],
       "basis": "The archive credits Laura Kane for early Fellows posts and Laura Wildemann Kane in the later interview. The GCDI 2020–2021 annual report identifies Laura Wildemann Kane as a 2012–2015 Fellow and philosophy PhD; her own publications page records the same 2012–2015 fellowship. This combination supports the match. Laura Kane is retained as the existing local-network display label; no preference for the shorter form is asserted.",
-      "sources": ["https://files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2022/03/GCDI_AR20-21sm.pdf", "https://laurawkane.com/publications-awards/", "https://gcdi.commons.gc.cuny.edu/2022/04/15/interview-with-laura-wildemann-kane-gc-digital-fellows/"],
+      "sources": [
+        "https://files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2022/03/GCDI_AR20-21sm.pdf",
+        "https://laurawkane.com/publications-awards/",
+        "https://gcdi.commons.gc.cuny.edu/2022/04/15/interview-with-laura-wildemann-kane-gc-digital-fellows/"
+      ],
       "confirmation": "Evidence-supported match; individual confirmation not recorded"
+    },
+    {
+      "canonical": "A. L. McMichael",
+      "variants": [
+        "A. L. McMichael",
+        "A.L. McMichael"
+      ],
+      "basis": "Identical linked-data article titles in saved item_author/author_name fields and institutional guide page 23; punctuation/spacing variants.",
+      "sources": [
+        "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+        "https://documentingcappadocia.newmedialab.cuny.edu/blog-page/index.html"
+      ],
+      "confirmation": "Evidence-supported spelling equivalence; preferred public spacing not independently confirmed."
     }
   ],
   "retained_separately": [
-    {"names": ["Cen Liu", "Yu-Hsuan Liu"], "reason": "Different given names; no evidence of identity equivalence. Shared surname is insufficient."}
+    {
+      "names": [
+        "Cen Liu",
+        "Yu-Hsuan Liu"
+      ],
+      "reason": "Different given names; no evidence of identity equivalence. Shared surname is insufficient."
+    }
   ],
   "review_scope": "All 163 prior human-name entries were screened for matching surname or high name similarity. The three resulting candidate pairs were reviewed. This is a name-variant review, not an exhaustive biographical identity investigation; unrelated pseudonyms or substantially different names could remain unresolved.",
   "process": "Ian G. Williams requested the review and confirmed his alias. Codex screened the names, consulted linked sources, proposed the Laura match, implemented the grouping and ran checks. Full independent human verification is not claimed."

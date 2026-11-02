@@ -35,8 +35,8 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19752,Curating the Non-Digital Digital Bookshelf,2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/,590,295,True,
 19753,Interface to Face: Touching with Technology,2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/,561,296,True,
 19754,"""Doing"" the Digital: Panic and Persistence",2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/,1277,625,True,
-19755,Organizing Image Collections handout,2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/05/16/organizing-image-collections-handout/,22,11,False,fewer than 30 cleaned tokens
-19756,Linked Data for the Uninitiated (Part 1),2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/05/31/linked-data-for-the-uninitiated-part-1/,1622,888,True,
+19755,Organizing Image Collections handout,2012–2013,2012–16,A.L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/05/16/organizing-image-collections-handout/,22,11,False,fewer than 30 cleaned tokens
+19756,Linked Data for the Uninitiated (Part 1),2012–2013,2012–16,A. L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/05/31/linked-data-for-the-uninitiated-part-1/,1622,888,True,
 19757,Reflections on a New Academic Year,2013–2014,2012–16,Andrew G McKinney; Erin Glass; Laura Kane; Micki Kaufman; Keith Miyake; A.L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/09/30/reflections-on-a-new-academic-year/,1115,588,True,
 19758,Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/09/30/1452/,96,54,True,
 19759,3D Printing and Maker Culture,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/10/01/3d-printing-and-maker-culture/,687,346,True,
@@ -44,7 +44,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19761,3D Printing in the Lab,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/,45,25,False,fewer than 30 cleaned tokens
 19762,What's in it for me?,2013–2014,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2013/10/13/whats-in-it-for-me/,529,253,True,
 19763,Tool refresh: a crash course,2013–2014,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2013/10/14/tool-refresh-a-crash-course/,438,219,True,
-19765,"Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/,1396,750,True,
+19765,"Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",2013–2014,2012–16,A. L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/,1396,750,True,
 19767,All That is Digital Melts into Code,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/,2341,1268,True,
 19766,Technically Speaking,2013–2014,2012–16,Andrew G McKinney,Andrew G McKinney,https://gcdi.commons.gc.cuny.edu/2013/10/28/technically-speaking/,585,263,True,
 19768,Learn Bootstrap Part 1: Getting Acquainted with Bootstrap,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/,1717,852,True,
@@ -57,7 +57,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19776,tech versus culture: what makes for good digital collaboration?,2013–2014,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2014/02/10/tech-versus-culture-what-makes-for-good-digital-collaboration/,844,440,True,
 1911,What's in a Wiki?,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/,755,386,True,
 19777,PSA: Backup Your Data Now,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/,1270,624,True,
-19778,Intro to Data Cleaning and Visualization Tools Handout,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/,107,70,True,
+19778,Intro to Data Cleaning and Visualization Tools Handout,2013–2014,2012–16,A.L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/,107,70,True,
 19779,Learning to Map with ArcGIS StoryMaps,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/,1364,701,True,
 19780,Beating Back Your Digital Doppleganger,2013–2014,2012–16,Andrew G McKinney,Andrew G McKinney,https://gcdi.commons.gc.cuny.edu/2014/04/24/beating-back-your-digital-doppleganger/,488,230,True,
 19781,Introduction to Image Editing Handout,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/,58,29,False,fewer than 30 cleaned tokens
@@ -74,10 +74,10 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 2300,Tabless Thursday,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/10/30/tabless-thursday/,646,316,True,
 2313,Digital Dissertations and Ticking Clocks,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/11/04/digital-dissertations-and-ticking-clocks/,444,236,True,
 19792,Announcing the launch of the Islamic History Commons,2014–2015,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2014/12/02/announcing-the-launch-of-the-islamic-history-commons/,750,415,True,
-19793,DH and Design,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/,611,336,True,
+19793,DH and Design,2014–2015,2012–16,A.L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/,611,336,True,
 2292,Django Hack Night,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/,402,207,True,
 19796,Upcomming Workshop 3/10: Intro to Github,2014–2015,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2015/03/04/upcomming-workshop-310-intro-to-github/,100,52,True,
-19797,Databases for Smart People Who Are Scared of Databases,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/,2791,1519,True,
+19797,Databases for Smart People Who Are Scared of Databases,2014–2015,2012–16,Keith Miyake,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/,2791,1519,True,
 19799,Intro to Mapping with CartoDB,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/,2213,1114,True,
 2755,"Evaluating, Valuing, and Promoting Digital Scholarship Event",2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/,379,213,True,
 19800,MEDIA RES #1: lightning talks by NYC graduate students on DH projects,2014–2015,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2015/05/03/media-res-1-lightning-talks-by-nyc-graduate-students-on-dh-projects/,225,132,True,
@@ -96,7 +96,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19811,Your Most Valuable Resource…People!,2015–2016,2012–16,Ian Phillips,Ian Phillips,https://gcdi.commons.gc.cuny.edu/2015/10/30/your-most-valuable-resourcepeople/,933,465,True,
 19812,Python Users' Group Recap,2015–2016,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/11/03/python-users-group-recap/,708,322,True,
 19813,Getting started with free software: computation is too important to be left to CS Departments,2015–2016,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2015/11/07/3239/,412,224,True,
-19814,Finding Digital Archives,2015–2016,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/11/10/finding-digital-archives/,700,380,True,
+19814,Finding Digital Archives,2015–2016,2012–16,Jeff Binder,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/11/10/finding-digital-archives/,700,380,True,
 19815,"The Contours of Community: Recap of ""CUNY DHI, Building a DH Community"" Lightning Talks",2015–2016,2012–16,Mary Catherine Kinniburgh,Mary Catherine Kinniburgh,https://gcdi.commons.gc.cuny.edu/2015/11/11/the-contours-of-community-recap-of-cuny-dhi-building-a-dh-community-lightning-talks/,712,395,True,
 19816,Teaching Ancient Greek with iOS and Android,2015–2016,2012–16,Jeremy March,Jeremy March,https://gcdi.commons.gc.cuny.edu/2015/11/12/teaching-ancient-greek-with-ios-and-android/,638,317,True,
 19817,Come to the GC Python Installathon!,2015–2016,2012–16,Hannah Aizenman,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2015/11/18/come-to-the-gc-python-installathon/,70,36,True,
@@ -240,7 +240,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 5583,RStudio Cloud for Education,2019–2020,2016–20,Connor M French,Connor M French,https://gcdi.commons.gc.cuny.edu/2020/05/06/rstudio-cloud-for-education-2/,705,355,True,
 5569,Working with HathiTrust Data - Part 2,2019–2020,2016–20,Param Ajmera,Param Ajmera,https://gcdi.commons.gc.cuny.edu/2020/05/15/working-with-hathitrust-data-part-2/,1548,782,True,
 19860,Working with HathiTrust Data - Part 3,2019–2020,2016–20,Param Ajmera,Param Ajmera,https://gcdi.commons.gc.cuny.edu/2020/05/21/working-with-hathitrust-data-part-3/,1097,608,True,
-5760,GCDI is Here for You!,2020–2021,2020–24,Stefano Morello,Stefano Morello,https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/,1679,0,False,welcome/roster boilerplate
+5760,GCDI is Here for You!,2020–2021,2020–24,Stefano Morello; Olivia Ildefonso,Stefano Morello,https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/,1679,0,False,welcome/roster boilerplate
 16994,Bias in AI and New York City's governance,2020–2021,2020–24,Shirin Ghaffary ,Param Ajmera,https://gcdi.commons.gc.cuny.edu/2020/09/14/new-york-city-wanted-to-make-sure-the-algorithms-are-fair-vox/,156,0,False,curated/source-linked
 16991,Tech's ever-growing deepfake problem,2020–2021,2020–24,Ashley Gold,Filipa Calado,https://gcdi.commons.gc.cuny.edu/2020/09/14/techs-ever-growing-deepfake-problem-axios/,87,0,False,curated/source-linked
 17032,What Can America Learn from Europe About Regulating Big Tech?,2020–2021,2020–24,Nick Romeo,Param Ajmera,https://gcdi.commons.gc.cuny.edu/2020/09/21/what-can-america-learn-from-europe-about-regulating-big-tech-the-new-yorker/,152,0,False,curated/source-linked
@@ -352,8 +352,8 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19886,Recap: Dissertation Futures,2022–2023,2020–24,Di Yoong,Di Yoong,https://gcdi.commons.gc.cuny.edu/2023/05/04/recap-dissertation-futures/,1949,1017,True,
 6794,GCDI Welcomes You Back!,2023–2024,2020–24,Rebecca Krisel,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/,1608,0,False,welcome/roster boilerplate
 19888,"Opening our house, opening our lab!",2023–2024,2020–24,Silvia Rivera Alfaro,Silvia Rivera Alfaro,https://gcdi.commons.gc.cuny.edu/2023/09/21/opening-our-house-opening-our-lab/,356,159,True,
-19375,The GCDI Guide to Password Management - GC Digital Fellows,2023–2024,2020–24,Author on Source,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/27/the-gcdi-guide-to-password-management-gc-digital-fellows/,592,0,False,curated/source-linked
-19385,Building Your First Database in SQL - GC Digital Fellows,2023–2024,2020–24,Author on Source,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql-gc-digital-fellows/,831,0,False,curated/source-linked
+19375,The GCDI Guide to Password Management - GC Digital Fellows,2023–2024,2020–24,Sam O'Hana,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/27/the-gcdi-guide-to-password-management-gc-digital-fellows/,592,0,False,curated/source-linked
+19385,Building Your First Database in SQL - GC Digital Fellows,2023–2024,2020–24,Rebecca Krisel,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql-gc-digital-fellows/,831,0,False,curated/source-linked
 19889,Death of a Project,2023–2024,2020–24,Leanne Fan,Leanne Fan,https://gcdi.commons.gc.cuny.edu/2023/10/05/death-of-a-project/,829,439,True,
 19890,Creating Visual Novels with Python and Ren'Py,2023–2024,2020–24,Zachary Lloyd,Zachary Lloyd,https://gcdi.commons.gc.cuny.edu/2023/10/19/creating-visual-novels-with-python-and-renpy/,1289,647,True,
 19891,Mapping and its Discontents,2023–2024,2020–24,Anna Corbett,Anna Corbett,https://gcdi.commons.gc.cuny.edu/2023/11/10/mapping-and-its-discontents-denaturalizing-the-map-in-cartographic-history-part-1/,962,489,True,

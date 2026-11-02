@@ -221,5 +221,226 @@
     "quotes": [
       "This post is written by guest contributor Nicole Walker"
     ]
+  },
+  "19756": {
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "basis": "export author_name and item_author agree; institutional guide independently corroborates",
+    "evidence_type": "export metadata",
+    "quotes": [
+      "author_name: A. L. McMichael",
+      "item_author: A. L. McMichael"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23,
+    "metadata_fields": {
+      "author_name": "A. L. McMichael",
+      "item_author": "A. L. McMichael"
+    }
+  },
+  "19765": {
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "basis": "export item_author; institutional guide independently corroborates",
+    "evidence_type": "export metadata",
+    "quotes": [
+      "item_author: A. L. McMichael"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23,
+    "metadata_fields": {
+      "item_author": "A. L. McMichael"
+    }
+  },
+  "19755": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "author/title row in GCDI Fall 2020 Open House guide, page 23",
+    "evidence_type": "institutional guide",
+    "quotes": [
+      "Organizing Image Collections handout — A.L. McMichael"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23
+  },
+  "19778": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "author/title row in GCDI Fall 2020 Open House guide, page 23",
+    "evidence_type": "institutional guide",
+    "quotes": [
+      "Intro to Data Cleaning and Visualization Tools Handout — A.L. McMichael"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23
+  },
+  "19793": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "author/title row in GCDI Fall 2020 Open House guide, page 23",
+    "evidence_type": "institutional guide",
+    "quotes": [
+      "DH and Design — A.L. McMichael"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23
+  },
+  "19797": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "author/title row in GCDI Fall 2020 Open House guide, page 23",
+    "evidence_type": "institutional guide",
+    "quotes": [
+      "Databases for Smart People Who Are Scared of Databases — Keith Miyake"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23
+  },
+  "19814": {
+    "authors": [
+      "Jeff Binder"
+    ],
+    "basis": "author/title row in GCDI Fall 2020 Open House guide, page 23",
+    "evidence_type": "institutional guide",
+    "quotes": [
+      "Finding Digital Archives — Jeff Binder"
+    ],
+    "source_url": "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
+    "source_page": 23
+  },
+  "5760": {
+    "authors": [
+      "Stefano Morello",
+      "Olivia Ildefonso"
+    ],
+    "basis": "explicit current-version joint credit; earlier authors and image artist are separate contribution history",
+    "quotes": [
+      "This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso"
+    ]
+  },
+  "19871": {
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Zachary Lloyd"
+    ]
+  },
+  "6091": {
+    "authors": [
+      "Param Ajmera"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Param Ajmera"
+    ]
+  },
+  "6943": {
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Tuka Al-Sahlani"
+    ]
+  },
+  "20216": {
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Tuka Al-Sahlani"
+    ]
+  },
+  "20845": {
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Tuka Al-Sahlani"
+    ]
+  },
+  "22123": {
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Tuka Al-Sahlani"
+    ]
+  },
+  "19866": {
+    "authors": [
+      "Connor M French"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This updated post by GC Digital Fellow Connor French"
+    ]
+  },
+  "6794": {
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Rebecca Krisel"
+    ]
+  },
+  "19875": {
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Rebecca Krisel"
+    ]
+  },
+  "19881": {
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Rebecca Krisel"
+    ]
+  },
+  "24691": {
+    "authors": [
+      "Sophie Bala"
+    ],
+    "basis": "explicit current-version credit in revision note; earlier contributors retained in source note",
+    "quotes": [
+      "This post by GC Digital Fellow Sophie Bala"
+    ]
+  },
+  "19375": {
+    "authors": [
+      "Sam O'Hana"
+    ],
+    "basis": "embedded source article author biography; posting account remains curator",
+    "quotes": [
+      "About Sam O'Hana"
+    ],
+    "applies_to_source_author": true
+  },
+  "19385": {
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "basis": "embedded source article author biography; posting account remains curator",
+    "quotes": [
+      "About Rebecca Krisel (she/her)"
+    ],
+    "applies_to_source_author": true
   }
 }
