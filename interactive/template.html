@@ -99,6 +99,7 @@
           <label
             >Exclude posts crediting<select id="exclude-author"></select
           ></label>
+          <label>Authorship evidence<select id="topic-evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported credits only</option></select></label>
           <label class="check"
             ><input type="checkbox" id="cohort-only" />Require a same-semester
             roster match</label
@@ -107,6 +108,7 @@
         </div>
         </details>
         __ROSTER_CONTEXT__
+        <p class="secondary">A roster match is a match to a recorded credit, not independent proof of authorship. Use the source-supported evidence filter to inspect the narrower evidential subset. <a href="ARCHIVE_COVERAGE.html">Every article’s scope and authorship decision</a>.</p>
         <p id="topic-scope" class="scope"></p>
         <p id="topic-error" role="alert" hidden></p>
         <div id="topic-heatmap" class="table-scroll"></div>
@@ -149,6 +151,7 @@
           <h3 id="words-heading">Words in the filtered text</h3>
           <div class="controls">
             <label>Academic year<select id="word-year"></select></label>
+            <label>Authorship evidence<select id="word-evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported credits only</option></select></label>
             <label
               >Rank by<select id="word-measure">
                 <option value="count">Occurrences</option>
@@ -260,6 +263,7 @@
             <label
               >Exclude posts crediting<select id="sensitivity-author"></select
             ></label>
+            <label>Authorship evidence<select id="sensitivity-evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported credits only</option></select></label>
           </div>
           <div id="author-comparison" class="table-scroll"></div>
           <p class="secondary">
@@ -357,6 +361,7 @@
             <option value="explicit">
               Reviewed credits or author taxonomy only
             </option>
+            <option value="supported">Source-supported credits only</option>
           </select></label
         >
         <p class="secondary">

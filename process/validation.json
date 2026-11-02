@@ -1,26 +1,43 @@
 {
-  "release": "2026-11-02-source-credit-correction",
+  "release": "2026-11-02-complete-coverage",
   "date": "2026-11-02",
-  "status": "52 automated tests passed; attribution metadata checks and local HTTP browser checks passed",
+  "status": "60 automated tests passed; exact-population, attribution-join and local HTTP browser checks passed",
   "automated": {
-    "node_tests": 28,
-    "python_tests": 24,
+    "node_tests": 31,
+    "python_tests": 29,
     "all_passed": true,
-    "test_scope": "Credits, identity grouping, history, process, attribution evidence, index/network, themes, topic/word preservation, styles and navigation."
+    "scope": "Index/network and theme evidence subsets; topic/word evidence subsets; exact baseline corrections; credits, identity, history, process and full coverage."
+  },
+  "coverage": {
+    "export_items": 857,
+    "ordinary_posts": 436,
+    "category_records": 430,
+    "published": 421,
+    "drafts": 9,
+    "outside_category_posts": 6,
+    "published_evidence": {
+      "source-supported": 52,
+      "declared-credit": 120,
+      "unresolved-account": 249
+    },
+    "actual_embedded_datasets_checked": true,
+    "audit": "coverage/coverage_audit.json"
   },
   "preservation": {
-    "result": "33 original reference files unchanged; 10 intentional attribution/cohort file changes independently verified against preserved baseline",
+    "result": "33 original reference files unchanged; 10 intentional attribution/cohort file changes independently checked against retained originals",
     "model_refitted": false,
     "original_word_corpus_unchanged": true,
-    "main_analysis_data_sha256": "7464f45fa567d3dfcac9dc6b53fdd7f3f0070eb726f33cc5dd2f7c87905c15ac",
-    "thematic_data_sha256": "7e4423cc7cfd2365850d25e8889c4df1a8e0d8dbe44743ff5585da66e4727fc4"
+    "main_analysis_data_sha256": "726ebb0d2ad835e396acd10f0d573c009f1a8e48ecf258ce24aa73043c88a4dd",
+    "thematic_data_sha256": "2e54a5b3378338d2a89db5b4088ac67c7e35fffeb2a828c675982472bf5c076f"
   },
   "http_browser_checks": [
-    "Index shows 71 grouped local names and 258 provisional credits among 325 local published posts",
-    "Both linked-data posts credit A. L. McMichael",
-    "Reviewed-credit filter retains both linked-data posts; network shows one writer across two years",
-    "Unverified account-only records visibly labeled writer unverified",
-    "Curated SQL article credits Rebecca Krisel; raw Author on Source field and curator role remain separate",
+    "Index: 430 records; network: 325 local records, 249 account-only credits",
+    "Source-supported index: 52 published records; network: 50 local records, zero account-only",
+    "Thematic source-supported subset: 50 eligible posts, zero declared-only or account-only",
+    "Topic evidence subset: 35 of 299 modeled posts across 12 academic years",
+    "Word evidence subset: 35 modeled posts, 16,584 cleaned word occurrences before MALLET vocabulary pruning",
+    "Writer sensitivity source-supported comparison recomputes group counts and handles empty roster subsets",
+    "Complete coverage page reports all item/article populations and distinguishes review from author confirmation",
     "No captured browser error logs during focused checks"
   ],
   "limits": {
@@ -30,9 +47,9 @@
     "accessibility": "No complete WCAG or assistive-technology conformance audit.",
     "full_retraining": "Not performed or benchmarked in this revision."
   },
-  "previous_release_checks": "process/validation_thematic_views.json",
+  "previous_release_checks": "process/validation_source_credit_correction.json",
   "previews": [
-    "attribution_revision/corrected-source-credit-preview.png"
+    "coverage/coverage-preview.png"
   ],
   "project_name": "Tagging The Tower Archives Explorer",
   "repository_verification": {

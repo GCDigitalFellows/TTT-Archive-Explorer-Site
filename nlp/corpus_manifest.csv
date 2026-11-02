@@ -25,7 +25,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19742,"""Research Management"" handout",2012–2013,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2013/03/12/link-to-research-management-handout/,43,26,False,fewer than 30 cleaned tokens
 19743,"3/19 Workshop: Organizing Your Research With Evernote, Dropbox, and Zotero",2012–2013,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2013/03/12/319-workshop-organizing-your-research-with-evernote-dropbox-and-zotero/,122,62,True,
 19744,Digital Clutter (or why Inbox Zero is not a goal),2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/,771,390,True,
-19745,The lost art of spaghetti,2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/,658,348,True,
+19745,The lost art of spaghetti,2012–2013,2012–16,Micki Kaufman,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/,658,348,True,
 19746,"project management, or, your hand is not your dayplanner",2012–2013,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2013/03/25/project-management-or-your-hand-is-not-your-dayplanner/,949,479,True,
 19747,Downtime is the Best Cure for Downtime,2012–2013,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/,625,321,True,
 19748,April 10th Workshop - Organizing Image Collections for Research: An Overview,2012–2013,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2013/04/04/1186/,104,55,True,
@@ -58,7 +58,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 1911,What's in a Wiki?,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/,755,386,True,
 19777,PSA: Backup Your Data Now,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/,1270,624,True,
 19778,Intro to Data Cleaning and Visualization Tools Handout,2013–2014,2012–16,A.L. McMichael,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/,107,70,True,
-19779,Learning to Map with ArcGIS StoryMaps,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/,1364,701,True,
+19779,Learning to Map with ArcGIS StoryMaps,2013–2014,2012–16,Keith Miyake,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/,1364,701,True,
 19780,Beating Back Your Digital Doppleganger,2013–2014,2012–16,Andrew G McKinney,Andrew G McKinney,https://gcdi.commons.gc.cuny.edu/2014/04/24/beating-back-your-digital-doppleganger/,488,230,True,
 19781,Introduction to Image Editing Handout,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/,58,29,False,fewer than 30 cleaned tokens
 2050,A Crash Course in Digital Photo Editing,2013–2014,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/,953,481,True,
@@ -78,7 +78,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 2292,Django Hack Night,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/,402,207,True,
 19796,Upcomming Workshop 3/10: Intro to Github,2014–2015,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2015/03/04/upcomming-workshop-310-intro-to-github/,100,52,True,
 19797,Databases for Smart People Who Are Scared of Databases,2014–2015,2012–16,Keith Miyake,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/,2791,1519,True,
-19799,Intro to Mapping with CartoDB,2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/,2213,1114,True,
+19799,Intro to Mapping with CartoDB,2014–2015,2012–16,Keith Miyake,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/,2213,1114,True,
 2755,"Evaluating, Valuing, and Promoting Digital Scholarship Event",2014–2015,2012–16,Sam O'Hana,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/,379,213,True,
 19800,MEDIA RES #1: lightning talks by NYC graduate students on DH projects,2014–2015,2012–16,Erin Glass,Erin Glass,https://gcdi.commons.gc.cuny.edu/2015/05/03/media-res-1-lightning-talks-by-nyc-graduate-students-on-dh-projects/,225,132,True,
 19801,The Digital GC: Year-End Showcase,2014–2015,2012–16,Laura Kane,Laura Kane,https://gcdi.commons.gc.cuny.edu/2015/05/06/the-digital-gc-year-end-showcase/,369,224,True,
@@ -150,7 +150,7 @@ id,title,academic_year,period,credited_authors,creator,url,raw_word_tokens,clean
 19844,Intro to Mapping using QGIS,2017–2018,2016–20,Javier Otero Peña,Javier Otero Peña,https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/,4726,2221,True,
 4647,What is GCDI? (Spring 2018 Edition),2017–2018,2016–20,Jojo Karlin,Jojo Karlin,https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/,1573,0,False,welcome/roster boilerplate
 4685,The Spring Semester Lineup for the GCDI Sound Series,2017–2018,2016–20,Kelsey Chatlosh,Kelsey Chatlosh,https://gcdi.commons.gc.cuny.edu/2018/02/08/the-spring-semester-lineup-for-the-gcdi-sound-series/,845,484,True,
-4456,How do I solve [insert problem here] with Python?,2017–2018,2016–20,Hannah Aizenman,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/,776,481,True,
+4456,How do I solve [insert problem here] with Python?,2017–2018,2016–20,Rachel Rakov,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/,776,481,True,
 19845,Problems with Python? The Python Users' Group is Here to Help!,2017–2018,2016–20,Rachel Rakov,Rachel Rakov,https://gcdi.commons.gc.cuny.edu/2018/02/16/problems-with-python-the-python-users-group-is-here-to-help/,341,182,True,
 4698,First ever GC Digital Scholarship Lab Open House - Join us on February 27th,2017–2018,2016–20,Rachel Rakov,Rachel Rakov,https://gcdi.commons.gc.cuny.edu/2018/02/22/first-ever-gc-digital-scholarship-lab-open-house-join-us-on-february-27th/,251,124,True,
 6934,My Experience at the Digital Research Institute 2018,2017–2018,2016–20,Manuel C. Co Jr,Tom Ribitzky,https://gcdi.commons.gc.cuny.edu/2018/03/05/my-experience-at-the-digital-research-institute-2018/,328,173,True,

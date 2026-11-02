@@ -58,4 +58,8 @@ The current work log and contribution profile include Ian’s theme-visualizatio
 
 ## November 2 source-credit correction
 
-The current register contains 162 grouped human-name entries and 71 published-local names (72 raw spelling strings); 258 local account credits remain provisional. Earlier counts above describe earlier snapshots. The new McMichael spacing merge is evidence-supported. Ten records have corrected names; additional revision-note checks confirm existing names. See ../ATTRIBUTION_REVIEW.html and ../attribution_revision/review_2026-11-02.json.
+The current register contains 162 grouped human-name entries and 71 published-local names (72 raw spelling strings); 249 local account credits remain provisional. Earlier counts above describe earlier snapshots. The new McMichael spacing merge is evidence-supported. Ten records have corrected names; additional revision-note checks confirm existing names. See ../ATTRIBUTION_REVIEW.html and ../attribution_revision/review_2026-11-02.json.
+
+## Complete export and authorship accounting
+
+The comprehensive ledger accounts for every export item and every category article. Named article references add four writer corrections and strengthen five existing credits. All 421 published records have a documented evidence disposition: 52 source-supported, 120 declared-only and 249 unresolved account credits. “Source-supported” describes checked evidence; it does not claim personal author confirmation or independent human verification. The browser offers source-supported subsets for the index/network, themes, topic summaries and word counts. Population changes must accompany any comparison. See [complete archive coverage](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/ARCHIVE_COVERAGE.html).

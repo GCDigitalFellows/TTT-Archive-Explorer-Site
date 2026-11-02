@@ -112,7 +112,7 @@ id,title,academic_year,period,credited_authors,url,excluded_welcome,words,questi
 3028,Treebanking with Arethusa,2015–2016,2012–16,Jeremy March,https://gcdi.commons.gc.cuny.edu/2015/10/08/treebanking-with-arethusa/,False,640,0,False,False,False,False,False,False
 3130,How to Get Started with Python,2015–2016,2012–16,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2015/10/15/how-to-python/,False,457,4,True,False,True,False,True,False
 3351,The mostly non-STEM guide to data literacy,2016–2017,2016–20,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2017/02/22/the-mostly-non-stem-guide-to-data-literacy/,False,715,5,False,False,True,False,False,False
-4456,How do I solve [insert problem here] with Python?,2017–2018,2016–20,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/,False,770,24,False,True,True,False,False,True
+4456,How do I solve [insert problem here] with Python?,2017–2018,2016–20,Rachel Rakov,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/,False,770,24,False,True,True,False,False,True
 4570,GCDI and Comp Sci Visualization Seminar: How to See 1 Billion Images?,2017–2018,2016–20,Hannah Aizenman,https://gcdi.commons.gc.cuny.edu/2017/11/29/gcdi-and-comp-sci-visualization-seminar-how-to-see-1-billion-images/,False,91,1,False,False,False,False,False,False
 5140,Transforming TEI for the Web,2018–2019,2016–20,Filipa Calado,https://gcdi.commons.gc.cuny.edu/2019/04/24/transforming-tei-for-the-web-2/,False,1276,3,False,False,False,False,False,False
 19816,Teaching Ancient Greek with iOS and Android,2015–2016,2012–16,Jeremy March,https://gcdi.commons.gc.cuny.edu/2015/11/12/teaching-ancient-greek-with-ios-and-android/,False,638,0,False,False,False,False,False,False
@@ -229,7 +229,7 @@ id,title,academic_year,period,credited_authors,url,excluded_welcome,words,questi
 19737,Microblogging the Drama,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/02/13/microblogging-the-drama/,False,358,2,True,False,False,False,False,False
 19739,March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/,False,128,0,False,True,False,False,False,False
 19744,Digital Clutter (or why Inbox Zero is not a goal),2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/,False,764,3,False,True,False,False,False,False
-19745,The lost art of spaghetti,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/,False,652,2,True,True,False,False,False,False
+19745,The lost art of spaghetti,2012–2013,2012–16,Micki Kaufman,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/,False,652,2,True,True,False,False,False,False
 19747,Downtime is the Best Cure for Downtime,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/,False,622,2,True,True,False,False,False,False
 19752,Curating the Non-Digital Digital Bookshelf,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/,False,582,15,False,False,False,False,False,False
 19753,Interface to Face: Touching with Technology,2012–2013,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/,False,560,2,True,False,False,False,True,False
@@ -251,7 +251,7 @@ id,title,academic_year,period,credited_authors,url,excluded_welcome,words,questi
 19774,On Being Stuck,2013–2014,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/,False,451,0,True,True,False,False,False,False
 19777,PSA: Backup Your Data Now,2013–2014,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/,False,1279,7,True,True,False,False,False,False
 19778,Intro to Data Cleaning and Visualization Tools Handout,2013–2014,2012–16,A.L. McMichael,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/,False,120,0,False,False,False,False,False,False
-19779,Learning to Map with ArcGIS StoryMaps,2013–2014,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/,False,1363,1,True,False,True,False,False,False
+19779,Learning to Map with ArcGIS StoryMaps,2013–2014,2012–16,Keith Miyake,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/,False,1363,1,True,False,True,False,False,False
 19781,Introduction to Image Editing Handout,2013–2014,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/,False,60,0,False,False,False,False,False,False
 19784,DH Strangelove or: How I Learned to Stop Worrying and Love the Digital Humanities,2014–2015,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/09/25/dh-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-digital-humanities/,False,1350,3,True,True,True,True,True,True
 19785,"Announcing ""Digital Dissertations Resources""",2014–2015,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2014/10/07/announcing-digital-dissertations-resources/,False,234,0,False,False,False,False,False,True
@@ -262,7 +262,7 @@ id,title,academic_year,period,credited_authors,url,excluded_welcome,words,questi
 6794,GCDI Welcomes You Back!,2023–2024,2020–24,Rebecca Krisel,https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/,True,1640,7,False,False,True,False,False,True
 19793,DH and Design,2014–2015,2012–16,A.L. McMichael,https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/,False,603,0,False,False,True,False,False,False
 19797,Databases for Smart People Who Are Scared of Databases,2014–2015,2012–16,Keith Miyake,https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/,False,2762,3,True,False,False,False,False,True
-19799,Intro to Mapping with CartoDB,2014–2015,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/,False,2198,2,False,True,False,False,False,True
+19799,Intro to Mapping with CartoDB,2014–2015,2012–16,Keith Miyake,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/,False,2198,2,False,True,False,False,False,True
 19802,Beyond the Same Old Static Course Website,2015–2016,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/,False,1003,0,False,False,True,True,False,True
 19805,Getting the Most out of a Humble Technology: Word Search,2015–2016,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/,False,1553,0,True,False,False,False,False,True
 19809,An Introduction to Web Servers,2015–2016,2012–16,Sam O'Hana,https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/,False,3178,6,False,True,False,False,False,True

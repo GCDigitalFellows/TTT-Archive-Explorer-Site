@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-02",
+  "scope": "Complete accounting of this export; not a claim that the export contains every historical article ever published.",
+  "export_sha256": "ba4bb721c4f32b3340126f78e93f8b812e0ef79cd31810a9bc1c6f6dccb49ee7",
+  "export_items": 857,
+  "ordinary_posts": 436,
+  "in_archive": 430,
+  "published": 421,
+  "drafts": 9,
+  "local_published": 325,
+  "curated_published": 96,
+  "ordinary_posts_outside_category": 6,
+  "modeled": 299,
+  "model_excluded_published": 122,
+  "body_signal_rows": 325,
+  "earlier_motif_population": 307,
+  "published_credit_dispositions": {
+    "declared-credit": 120,
+    "source-supported": 52,
+    "unresolved-account": 249
+  },
+  "local_credit_dispositions": {
+    "source-supported": 50,
+    "unresolved-account": 249,
+    "declared-credit": 26
+  },
+  "all_credit_dispositions": {
+    "unresolved-account": 255,
+    "source-supported": 52,
+    "declared-credit": 123
+  },
+  "item_types": {
+    "post": 436,
+    "revision": 94,
+    "attachment": 300,
+    "wooframework": 5,
+    "tribe_organizer": 1,
+    "slide": 4,
+    "tribe_events": 11,
+    "custom_css": 1,
+    "tribe_rsvp_attendees": 2,
+    "tribe_venue": 1,
+    "oembed_cache": 1,
+    "nomination": 1
+  },
+  "checks": [
+    "Exact XML/category/index population match",
+    "Unique IDs in every full-population table",
+    "Every published record has a model inclusion or exclusion decision",
+    "Every local published record has body-signal coverage",
+    "Saved author columns agree with current accepted credits",
+    "Actual index.html embeds current index, reader, models and themes; compatibility copy matches",
+    "All five browser model runs contain exactly the modeled IDs",
+    "Reading copies cover every published record and exclude drafts",
+    "Themes cover all local posts, including unmodeled posts",
+    "All browser datasets use current grouped credits, evidence statuses and tiers",
+    "Credits register covers all category records",
+    "Selected interpretation sources use current credits"
+  ],
+  "browser_datasets_verified": true,
+  "independent_human_verification": false,
+  "model_refitted": false
+}

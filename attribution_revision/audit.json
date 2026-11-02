@@ -1,7 +1,7 @@
 {
   "records_scanned": 430,
-  "reviewed_body_credit_records": 43,
-  "records_with_changed_names": 18,
+  "reviewed_body_credit_records": 52,
+  "records_with_changed_names": 22,
   "previous_local_author_names": 60,
   "corrected_local_author_names": 72,
   "newly_recovered_names": [
@@ -18,7 +18,7 @@
     "Yoshiko Oka",
     "Yu-Hsuan Liu"
   ],
-  "local_posts_with_provisional_account_credits": 258,
+  "local_posts_with_provisional_account_credits": 249,
   "model_retrained": false,
   "corpus_recleaned": false
 }

@@ -87,7 +87,7 @@
       /* An invalid source URL is not made clickable. */
     }
     article.append(
-      node("p", "Credit basis: " + post.creditStatus, "secondary"),
+      node("p", "Review disposition: " + post.authorshipTier + " · Credit basis: " + post.creditStatus, "secondary"),
       node("p", "Original credit: " + (post.originalAuthors || post.authors).join("; "), "secondary"),
     );
     if (post.creditQuote) {

@@ -23,7 +23,7 @@
     }));
   }
   function mode() {return byId("theme-mode").value;}
-  function choices() {return {year:byId("theme-year").value,author:byId("theme-author").value,explicit:byId("theme-explicit").checked};}
+  function choices() {return {year:byId("theme-year").value,author:byId("theme-author").value,explicit:byId("theme-explicit").checked,supportedOnly:byId("theme-supported").checked};}
   // Cell and pair selections narrow only the evidence list, not the global chart filters.
   function chooseEvidence(theme,year="all",pair=null) {
     selectedTheme=theme;selectedPair=pair;inspectYear=year;postLimit=12;
@@ -128,7 +128,7 @@
       const title=node("a",post.title);
       try{const url=new URL(post.url);if(["https:","http:"].includes(url.protocol)){title.href=url.href;title.target="_blank";title.rel="noopener noreferrer";}}catch(_){/* Unusable URLs stay plain labels. */}
       heading.append(title);
-      card.append(heading,node("p",`${post.year} · ${post.authors.join("; ")}`),node("p",`Credit basis: ${post.creditStatus}. Original credit: ${post.originalAuthors.join("; ")}.`,"secondary"));
+      card.append(heading,node("p",`${post.year} · ${post.authors.join("; ")} · ${post.authorshipTier}`),node("p",`Credit basis: ${post.creditStatus}. Original credit: ${post.originalAuthors.join("; ")}.`,"secondary"));
       const detail=node("details");detail.append(node("summary","Why this post appears"));
       if(mode()==="headline") detail.append(node("p",`Recorded matching terms: ${[...new Set([selectedTheme,selectedPair].filter(Boolean).flatMap((theme)=>post.titleTagTerms[theme]||[]))].join(", ") || "See saved dictionary flag"}.`));
       else if(mode()==="fulltext") detail.append(node("p","Saved title/tag/body dictionary flag. Literal body-match locations were not stored in the original metadata; inspect the original post before interpreting the match. A match may be incidental or negated."));
@@ -158,7 +158,7 @@
     byId("theme-measure").disabled=mode()==="essay";
     byId("theme-method").textContent=`${definition.population}. ${definition.basis} ${mode()==="essay" ? "Counts only: missing sample years and unselected posts cannot be interpreted as no theme." : "Denominators include eligible posts with no dictionary match. These charts use 325 possible records, unlike the 299-post topic corpus and older 307-post body-motif analysis."}`;
     const provisional=currentPosts.filter((p)=>p.creditStatus==="provisional posting-account attribution").length;
-    byId("theme-scope").textContent=`${currentPosts.length} eligible posts · ${provisional} provisionally attributed · ${themes.length} ${mode()==="essay" ? "interpretive headings" : "overlapping theme signals"} · ${definition.label}. No model was refitted.`;
+    byId("theme-scope").textContent=`${currentPosts.length} eligible posts · ${provisional} account-only; ${currentPosts.filter(p=>p.authorshipTier==="source-supported").length} source-supported; ${currentPosts.filter(p=>p.authorshipTier==="declared-credit").length} declared-only · ${themes.length} ${mode()==="essay" ? "interpretive headings" : "overlapping theme signals"} · ${definition.label}. No model was refitted.`;
     byId("theme-overlap-detail").textContent="Select a pair to inspect its intersection and denominator.";
     renderHeatmap();renderOverlap();renderAuthors();renderPosts();
   }
@@ -167,7 +167,7 @@
     data=JSON.parse(byId("theme-data").textContent);ready=true;
     options("theme-year",[["all","All academic years"],...[...new Set(data.posts.map((p)=>p.year))].sort().map((year)=>[year,year])]);
     options("theme-author",[["all","All credited writers"],...[...new Set(data.posts.flatMap((p)=>p.authors))].sort().map((author)=>[author,author])]);
-    for(const id of ["theme-mode","theme-year","theme-author","theme-explicit","theme-measure"])
+    for(const id of ["theme-mode","theme-year","theme-author","theme-explicit","theme-supported","theme-measure"])
       byId(id).addEventListener("change",()=>{inspectYear="all";selectedPair=null;postLimit=12;render();});
     byId("theme-focus").addEventListener("change",()=>chooseEvidence(byId("theme-focus").value));
     byId("theme-author-limit").addEventListener("change",renderAuthors);
@@ -175,11 +175,11 @@
     byId("theme-more").addEventListener("click",()=>{postLimit+=20;renderPosts();});
     byId("theme-reset").addEventListener("click",()=>{
       byId("theme-mode").value="headline";byId("theme-year").value="all";byId("theme-author").value="all";
-      byId("theme-explicit").checked=false;byId("theme-measure").value="share";byId("theme-author-limit").value="10";
+      byId("theme-explicit").checked=false;byId("theme-supported").checked=false;byId("theme-measure").value="share";byId("theme-author-limit").value="10";
       selectedTheme="";selectedPair=null;inspectYear="all";postLimit=12;render();
     });
-    byId("theme-export-years").addEventListener("click",()=>exportRows("tagging-the-tower-theme-years.csv",currentRows.flatMap((row)=>data.modes[mode()].themes.map((theme,index)=>({evidence_layer:mode(),academic_year:row.year,theme,matching_posts:row.counts[index],eligible_posts:row.denominator,writer_filter:choices().author,explicit_credit_required:choices().explicit})))));
-    byId("theme-export-posts").addEventListener("click",()=>exportRows("tagging-the-tower-theme-posts.csv",matchingPosts.map((post)=>({evidence_layer:mode(),theme:selectedTheme,second_theme:selectedPair||"",inspected_year:inspectYear,id:post.id,title:post.title,academic_year:post.year,credited_writers:post.authors.join("; "),original_credit:post.originalAuthors.join("; "),credit_basis:post.creditStatus,url:post.url}))));
+    byId("theme-export-years").addEventListener("click",()=>exportRows("tagging-the-tower-theme-years.csv",currentRows.flatMap((row)=>data.modes[mode()].themes.map((theme,index)=>({evidence_layer:mode(),academic_year:row.year,theme,matching_posts:row.counts[index],eligible_posts:row.denominator,writer_filter:choices().author,explicit_credit_required:choices().explicit,source_supported_required:choices().supportedOnly})))));
+    byId("theme-export-posts").addEventListener("click",()=>exportRows("tagging-the-tower-theme-posts.csv",matchingPosts.map((post)=>({evidence_layer:mode(),theme:selectedTheme,second_theme:selectedPair||"",inspected_year:inspectYear,id:post.id,title:post.title,academic_year:post.year,credited_writers:post.authors.join("; "),original_credit:post.originalAuthors.join("; "),credit_basis:post.creditStatus,authorship_disposition:post.authorshipTier,url:post.url}))));
     render();
   }
   window.TowerThemes={open};

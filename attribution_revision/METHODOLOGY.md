@@ -8,7 +8,7 @@ All 430 category records were screened for author-related XML fields and credit 
 
 The earlier November 1 review recovered opening bylines and signed sections but did not use the separate `author_name` field. The November 2 review adds metadata and source-biography checks, current-version revision notes and institutional-guide evidence. Accepted decisions are in `reviewed_credits.json`; the extractor checks each against its actual evidence location. The preserved November 1 ledger and pre-November-2 inventory support comparison without resetting the original baseline.
 
-## Ten new name corrections
+## November 2 name corrections and broader evidence review
 
 - McMichael: both linked-data posts, Organizing Image Collections handout, Intro to Data Cleaning and Visualization Tools Handout, and DH and Design.
 - Keith Miyake: Databases for Smart People Who Are Scared of Databases.
@@ -19,11 +19,13 @@ The earlier November 1 review recovered opening bylines and signed sections but 
 
 The seven historical replacements are supported by the [GCDI Fall 2020 Open House guide](https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf), page 23. The rendered page was visually inspected, and its title/author rows were transcribed into `institutional_guide_credits.json`; its source hash and page image are retained. The linked-data posts also contain explicit saved `author_name`/`item_author` metadata naming A. L. McMichael. These matching titles support grouping McMichael spacing variants; raw strings remain preserved.
 
+The subsequent coverage review adds four writer corrections through explicit named references with matching target links: Rachel Rakov for the Python problem-solving post, Micki Kaufman for The lost art of spaghetti, and Keith Miyake for the ArcGIS StoryMaps and CartoDB guides. Five same-name article references also strengthen existing credits. Each accepted reference is checked against the source post and target URL; repeated welcome-page lists are one inherited source family, not independent confirmations. Contextual mentions and workshop/project credits were rejected as article authorship. See `cross_reference_decisions.json`.
+
 ## Rules and remaining uncertainty
 
 Explicit current-post credits outrank a posting account. The posting account, original author taxonomy and raw source-author field remain separate. A biography embedded in an imported source article identifies the source writer, not the curator or necessarily the local summary writer. Earlier-version authors and image artists remain in the revision note; they are not automatically coauthors of every subsequent version. Body mentions, cited authors and OCR sample bylines are not accepted as current article credits.
 
-258 published local/unflagged records still use provisional posting-account attribution. Among these are 53 older records under Sam O’Hana’s account. Their historical writers have not been established; no replacement names were guessed. Some cached live account headers conflict with saved source evidence, and direct requests encountered HTTP 403. Live headers were not accepted alone. The unresolved ledger is a research queue, not a claim that each named account is wrong. The archive-wide review does not guarantee complete author recovery.
+249 published local/unflagged records still use provisional posting-account attribution. Among these are 50 older records under Sam O’Hana’s account. Their historical writers have not been established; no replacement names were guessed. Some cached live account headers conflict with saved source evidence, and direct requests encountered HTTP 403. Live headers were not accepted alone. The unresolved ledger is a research queue, not a claim that each named account is wrong. The archive-wide review does not guarantee complete author recovery.
 
 There are 71 grouped published-local names (72 raw spelling strings) and 162 grouped human-name entries in the broader register. These are credit labels, not verified headcounts. Authorship does not establish fellowship membership; only the existing same-semester signed-list evidence supplies that match.
 

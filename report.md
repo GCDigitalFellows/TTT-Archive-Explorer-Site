@@ -10,6 +10,8 @@ Update after further body-text analysis: participant credits for two 2016 posts 
 
 Computational extension: `nltk_mallet_report.html` presents NLTK stopword cleaning, lexical analysis, five actual MALLET LDA runs, seed/topic-count diagnostics, and eight additional visualizations. Its main corpus has 299 posts after explicit modeling exclusions; it complements the broader descriptive counts below.
 
+**Complete export accounting, November 2:** [The coverage ledger](ARCHIVE_COVERAGE.html) accounts for all 857 items, including 436 ordinary posts, 430 category records and six ordinary posts outside the category. Every published article has a review disposition: 52 source-supported, 120 declared-only and 249 unresolved account credits. Named references support four further writer corrections. These are evidence categories, not personal author confirmations.
+
 ## Findings
 
 **The blog combines original writing, program communication, guest contributions, and web curation. Treating all entries as fellow-authored essays would substantially distort both production counts and cohort interpretations.** The export contains 421 published posts in the Tagging the Tower category, 9 drafts in that category, and 427 other items. Of the published category posts, 325 are local/unflagged and 96 are curated/source-linked. “Local/unflagged” means no detected curation markers; it is not a guarantee of original authorship or a claim that every item is an essay.

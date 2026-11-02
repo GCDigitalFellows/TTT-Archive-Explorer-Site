@@ -1,0 +1,858 @@
+id,item_type,status,in_archive,decision
+1,post,draft,True,Included category post
+5614,post,draft,True,Included category post
+12179,post,draft,True,Included category post
+17119,post,draft,True,Included category post
+18026,post,draft,True,Included category post
+19721,post,publish,True,Included category post
+19729,post,publish,True,Included category post
+19731,post,publish,True,Included category post
+19732,post,publish,True,Included category post
+19735,post,publish,True,Included category post
+19738,post,publish,True,Included category post
+19743,post,publish,True,Included category post
+19748,post,publish,True,Included category post
+19751,post,publish,True,Included category post
+19762,post,publish,True,Included category post
+19764,post,draft,True,Included category post
+19772,post,draft,True,Included category post
+19775,post,publish,True,Included category post
+19794,post,draft,True,Included category post
+21643,post,draft,True,Included category post
+3889,post,publish,True,Included category post
+19722,post,publish,True,Included category post
+19726,post,publish,True,Included category post
+19730,post,publish,True,Included category post
+19736,post,publish,True,Included category post
+19740,post,publish,True,Included category post
+19742,post,publish,True,Included category post
+19746,post,publish,True,Included category post
+19749,post,publish,True,Included category post
+19750,post,publish,True,Included category post
+19763,post,publish,True,Included category post
+19776,post,publish,True,Included category post
+19782,post,publish,True,Included category post
+19783,post,publish,True,Included category post
+19786,post,publish,True,Included category post
+19789,post,publish,True,Included category post
+19792,post,publish,True,Included category post
+19796,post,publish,True,Included category post
+19800,post,publish,True,Included category post
+19801,post,publish,True,Included category post
+889,post,publish,True,Included category post
+5111,post,publish,True,Included category post
+5527,post,publish,True,Included category post
+10294,post,publish,True,Included category post
+10329,post,publish,True,Included category post
+10554,post,publish,True,Included category post
+10560,post,publish,True,Included category post
+10589,post,publish,True,Included category post
+10617,post,publish,True,Included category post
+10633,post,publish,True,Included category post
+10644,post,publish,True,Included category post
+19723,post,publish,True,Included category post
+19734,post,publish,True,Included category post
+19741,post,publish,True,Included category post
+19766,post,publish,True,Included category post
+19780,post,publish,True,Included category post
+19806,post,publish,True,Included category post
+19813,post,publish,True,Included category post
+19820,post,publish,True,Included category post
+19822,post,publish,True,Included category post
+10698,post,publish,True,Included category post
+10726,post,publish,True,Included category post
+10728,post,publish,True,Included category post
+10740,post,publish,True,Included category post
+10788,post,publish,True,Included category post
+10796,post,publish,True,Included category post
+10855,post,publish,True,Included category post
+10857,post,publish,True,Included category post
+10859,post,publish,True,Included category post
+10885,post,publish,True,Included category post
+10975,post,publish,True,Included category post
+11133,post,publish,True,Included category post
+11134,post,publish,True,Included category post
+11737,post,publish,True,Included category post
+11785,post,publish,True,Included category post
+11786,post,publish,True,Included category post
+11830,post,publish,True,Included category post
+15857,post,publish,True,Included category post
+16028,post,publish,True,Included category post
+16030,post,publish,True,Included category post
+3393,post,publish,True,Included category post
+3776,post,publish,True,Included category post
+3798,post,publish,True,Included category post
+3866,post,publish,True,Included category post
+4364,post,publish,True,Included category post
+4726,post,publish,True,Included category post
+4903,post,publish,True,Included category post
+7527,post,publish,True,Included category post
+19788,post,publish,True,Included category post
+19807,post,publish,True,Included category post
+19821,post,publish,True,Included category post
+19825,post,publish,True,Included category post
+19830,post,publish,True,Included category post
+19831,post,publish,True,Included category post
+19832,post,publish,True,Included category post
+19843,post,publish,True,Included category post
+19849,post,publish,True,Included category post
+19850,post,publish,True,Included category post
+19854,post,publish,True,Included category post
+19857,post,publish,True,Included category post
+3788,post,publish,True,Included category post
+4348,post,publish,True,Included category post
+4388,post,publish,True,Included category post
+4459,post,publish,True,Included category post
+4474,post,publish,True,Included category post
+4508,post,publish,True,Included category post
+4685,post,publish,True,Included category post
+4698,post,publish,True,Included category post
+4714,post,publish,True,Included category post
+4747,post,publish,True,Included category post
+4809,post,publish,True,Included category post
+4819,post,publish,True,Included category post
+4825,post,publish,True,Included category post
+6221,post,publish,True,Included category post
+6526,post,publish,True,Included category post
+19811,post,publish,True,Included category post
+19827,post,publish,True,Included category post
+19845,post,publish,True,Included category post
+19846,post,publish,True,Included category post
+19847,post,publish,True,Included category post
+3206,post,publish,True,Included category post
+3823,post,publish,True,Included category post
+4259,post,publish,True,Included category post
+4414,post,publish,True,Included category post
+4647,post,publish,True,Included category post
+6346,post,publish,True,Included category post
+17057,post,publish,True,Included category post
+17227,post,publish,True,Included category post
+17258,post,publish,True,Included category post
+17293,post,publish,True,Included category post
+18365,post,publish,True,Included category post
+18368,post,publish,True,Included category post
+19803,post,publish,True,Included category post
+19808,post,publish,True,Included category post
+19815,post,publish,True,Included category post
+19826,post,publish,True,Included category post
+19835,post,publish,True,Included category post
+19837,post,publish,True,Included category post
+19839,post,publish,True,Included category post
+19840,post,publish,True,Included category post
+4920,post,publish,True,Included category post
+4934,post,publish,True,Included category post
+5080,post,publish,True,Included category post
+5386,post,publish,True,Included category post
+5544,post,publish,True,Included category post
+5760,post,publish,True,Included category post
+5881,post,publish,True,Included category post
+18378,post,publish,True,Included category post
+18432,post,publish,True,Included category post
+18435,post,publish,True,Included category post
+18438,post,publish,True,Included category post
+18440,post,publish,True,Included category post
+18486,post,publish,True,Included category post
+18489,post,publish,True,Included category post
+18498,post,publish,True,Included category post
+18536,post,publish,True,Included category post
+18542,post,publish,True,Included category post
+19864,post,publish,True,Included category post
+19868,post,publish,True,Included category post
+19869,post,publish,True,Included category post
+3028,post,publish,True,Included category post
+3130,post,publish,True,Included category post
+3351,post,publish,True,Included category post
+4456,post,publish,True,Included category post
+4570,post,publish,True,Included category post
+5140,post,publish,True,Included category post
+6595,post,publish,True,Included category post
+18870,post,publish,True,Included category post
+19816,post,publish,True,Included category post
+19817,post,publish,True,Included category post
+19823,post,publish,True,Included category post
+19829,post,publish,True,Included category post
+19834,post,publish,True,Included category post
+19836,post,publish,True,Included category post
+19838,post,publish,True,Included category post
+19841,post,publish,True,Included category post
+19842,post,publish,True,Included category post
+19844,post,publish,True,Included category post
+21255,post,publish,True,Included category post
+24057,post,publish,True,Included category post
+5355,post,publish,True,Included category post
+5513,post,publish,True,Included category post
+5772,post,publish,True,Included category post
+5781,post,publish,True,Included category post
+5873,post,publish,True,Included category post
+6047,post,publish,True,Included category post
+6380,post,publish,True,Included category post
+6934,post,publish,True,Included category post
+7060,post,publish,True,Included category post
+11246,post,publish,True,Included category post
+11248,post,publish,True,Included category post
+11255,post,publish,True,Included category post
+11396,post,publish,True,Included category post
+11450,post,publish,True,Included category post
+11543,post,publish,True,Included category post
+13139,post,publish,True,Included category post
+16991,post,publish,True,Included category post
+19848,post,publish,True,Included category post
+19852,post,publish,True,Included category post
+19867,post,publish,True,Included category post
+5549,post,publish,True,Included category post
+5569,post,publish,True,Included category post
+5804,post,publish,True,Included category post
+6001,post,publish,True,Included category post
+6196,post,publish,True,Included category post
+6217,post,publish,True,Included category post
+6243,post,publish,True,Included category post
+6358,post,publish,True,Included category post
+6662,post,publish,True,Included category post
+7016,post,publish,True,Included category post
+16480,post,publish,True,Included category post
+19858,post,publish,True,Included category post
+19871,post,publish,True,Included category post
+19874,post,publish,True,Included category post
+19876,post,publish,True,Included category post
+19877,post,publish,True,Included category post
+19886,post,publish,True,Included category post
+19890,post,publish,True,Included category post
+20557,post,publish,True,Included category post
+21509,post,publish,True,Included category post
+6091,post,publish,True,Included category post
+11553,post,publish,True,Included category post
+11570,post,publish,True,Included category post
+12195,post,publish,True,Included category post
+12199,post,publish,True,Included category post
+16601,post,publish,True,Included category post
+16994,post,publish,True,Included category post
+17032,post,publish,True,Included category post
+17035,post,publish,True,Included category post
+17052,post,publish,True,Included category post
+17108,post,publish,True,Included category post
+17111,post,publish,True,Included category post
+17144,post,publish,True,Included category post
+17290,post,publish,True,Included category post
+17662,post,publish,True,Included category post
+17702,post,publish,True,Included category post
+17754,post,publish,True,Included category post
+17786,post,publish,True,Included category post
+17798,post,publish,True,Included category post
+17816,post,publish,True,Included category post
+18408,post,publish,True,Included category post
+18412,post,publish,True,Included category post
+18417,post,publish,True,Included category post
+18421,post,publish,True,Included category post
+18426,post,publish,True,Included category post
+18470,post,publish,True,Included category post
+18475,post,publish,True,Included category post
+18479,post,publish,True,Included category post
+18482,post,publish,True,Included category post
+18521,post,publish,True,Included category post
+18526,post,publish,True,Included category post
+18529,post,publish,True,Included category post
+18569,post,publish,True,Included category post
+18576,post,publish,True,Included category post
+18595,post,publish,True,Included category post
+18600,post,publish,True,Included category post
+18940,post,publish,True,Included category post
+18998,post,publish,True,Included category post
+19029,post,publish,True,Included category post
+19036,post,publish,True,Included category post
+5064,post,publish,True,Included category post
+5162,post,publish,True,Included category post
+5184,post,publish,True,Included category post
+5994,post,publish,True,Included category post
+6057,post,publish,True,Included category post
+6927,post,publish,True,Included category post
+6943,post,publish,True,Included category post
+7075,post,publish,True,Included category post
+7099,post,publish,True,Included category post
+19066,post,publish,True,Included category post
+19115,post,publish,True,Included category post
+19851,post,publish,True,Included category post
+19853,post,publish,True,Included category post
+19855,post,publish,True,Included category post
+19860,post,publish,True,Included category post
+19861,post,publish,True,Included category post
+19862,post,publish,True,Included category post
+19865,post,publish,True,Included category post
+19872,post,publish,True,Included category post
+20216,post,publish,True,Included category post
+5401,post,publish,True,Included category post
+5583,post,publish,True,Included category post
+6005,post,publish,True,Included category post
+11277,post,publish,True,Included category post
+20481,post,publish,True,Included category post
+20486,post,publish,True,Included category post
+20594,post,publish,True,Included category post
+20693,post,publish,True,Included category post
+20845,post,publish,True,Included category post
+21151,post,publish,True,Included category post
+21495,post,publish,True,Included category post
+21773,post,publish,True,Included category post
+21891,post,publish,True,Included category post
+21969,post,publish,True,Included category post
+22123,post,publish,True,Included category post
+22801,post,publish,True,Included category post
+22867,post,publish,True,Included category post
+23741,post,publish,True,Included category post
+24079,post,publish,True,Included category post
+24393,post,publish,True,Included category post
+315,post,publish,True,Included category post
+1911,post,publish,True,Included category post
+2050,post,publish,True,Included category post
+2292,post,publish,True,Included category post
+2300,post,publish,True,Included category post
+2313,post,publish,True,Included category post
+2755,post,publish,True,Included category post
+6431,post,publish,True,Included category post
+6729,post,publish,True,Included category post
+11623,post,publish,True,Included category post
+11673,post,publish,True,Included category post
+11729,post,publish,True,Included category post
+13188,post,publish,True,Included category post
+19856,post,publish,True,Included category post
+19863,post,publish,True,Included category post
+19866,post,publish,True,Included category post
+19892,post,publish,True,Included category post
+19893,post,publish,True,Included category post
+23199,post,publish,True,Included category post
+24455,post,publish,True,Included category post
+3507,post,publish,True,Included category post
+4574,post,publish,True,Included category post
+6337,post,publish,True,Included category post
+6446,post,publish,True,Included category post
+19724,post,publish,True,Included category post
+19725,post,publish,True,Included category post
+19727,post,publish,True,Included category post
+19728,post,publish,True,Included category post
+19733,post,publish,True,Included category post
+19737,post,publish,True,Included category post
+19739,post,publish,True,Included category post
+19744,post,publish,True,Included category post
+19745,post,publish,True,Included category post
+19747,post,publish,True,Included category post
+19752,post,publish,True,Included category post
+19753,post,publish,True,Included category post
+19754,post,publish,True,Included category post
+19755,post,publish,True,Included category post
+19756,post,publish,True,Included category post
+19757,post,publish,True,Included category post
+19758,post,publish,True,Included category post
+19759,post,publish,True,Included category post
+19760,post,publish,True,Included category post
+19761,post,publish,True,Included category post
+19765,post,publish,True,Included category post
+19767,post,publish,True,Included category post
+19768,post,publish,True,Included category post
+19769,post,publish,True,Included category post
+19770,post,publish,True,Included category post
+19771,post,publish,True,Included category post
+19773,post,publish,True,Included category post
+19774,post,publish,True,Included category post
+19777,post,publish,True,Included category post
+19778,post,publish,True,Included category post
+19779,post,publish,True,Included category post
+19781,post,publish,True,Included category post
+19784,post,publish,True,Included category post
+19785,post,publish,True,Included category post
+19787,post,publish,True,Included category post
+19790,post,publish,True,Included category post
+6153,post,publish,True,Included category post
+6755,post,publish,True,Included category post
+6794,post,publish,True,Included category post
+18968,post,publish,True,Included category post
+19375,post,publish,True,Included category post
+19793,post,publish,True,Included category post
+19797,post,publish,True,Included category post
+19799,post,publish,True,Included category post
+19802,post,publish,True,Included category post
+19805,post,publish,True,Included category post
+19809,post,publish,True,Included category post
+19810,post,publish,True,Included category post
+19812,post,publish,True,Included category post
+19814,post,publish,True,Included category post
+19818,post,publish,True,Included category post
+19819,post,publish,True,Included category post
+19824,post,publish,True,Included category post
+19828,post,publish,True,Included category post
+19882,post,publish,True,Included category post
+23481,post,publish,True,Included category post
+6053,post,publish,True,Included category post
+6520,post,publish,True,Included category post
+6651,post,publish,True,Included category post
+6655,post,publish,True,Included category post
+6877,post,publish,True,Included category post
+6961,post,publish,True,Included category post
+7042,post,publish,True,Included category post
+19385,post,publish,True,Included category post
+19870,post,publish,True,Included category post
+19875,post,publish,True,Included category post
+19878,post,publish,True,Included category post
+19880,post,publish,True,Included category post
+19881,post,publish,True,Included category post
+19884,post,publish,True,Included category post
+19885,post,publish,True,Included category post
+19888,post,publish,True,Included category post
+19889,post,publish,True,Included category post
+20646,post,publish,True,Included category post
+21025,post,publish,True,Included category post
+21649,post,publish,True,Included category post
+6198,post,publish,True,Included category post
+7114,post,publish,True,Included category post
+19879,post,publish,True,Included category post
+19883,post,publish,True,Included category post
+19891,post,publish,True,Included category post
+20506,post,publish,True,Included category post
+20620,post,publish,True,Included category post
+20674,post,publish,True,Included category post
+21235,post,publish,True,Included category post
+21329,post,publish,True,Included category post
+21395,post,publish,True,Included category post
+21699,post,publish,True,Included category post
+22629,post,publish,True,Included category post
+23141,post,publish,True,Included category post
+23177,post,publish,True,Included category post
+23261,post,publish,True,Included category post
+23509,post,publish,True,Included category post
+23845,post,publish,True,Included category post
+24351,post,publish,True,Included category post
+24429,post,publish,True,Included category post
+477,revision,inherit,False,Not an ordinary post: revision
+652,revision,inherit,False,Not an ordinary post: revision
+724,revision,inherit,False,Not an ordinary post: revision
+1257,revision,inherit,False,Not an ordinary post: revision
+1259,post,publish,False,Ordinary post outside the Tagging the Tower category
+12180,attachment,inherit,False,Not an ordinary post: attachment
+17120,attachment,inherit,False,Not an ordinary post: attachment
+18027,attachment,inherit,False,Not an ordinary post: attachment
+21645,attachment,inherit,False,Not an ordinary post: attachment
+21647,attachment,inherit,False,Not an ordinary post: attachment
+23009,post,publish,True,Included category post
+23273,post,publish,True,Included category post
+23981,post,publish,True,Included category post
+24201,post,publish,True,Included category post
+24263,post,publish,True,Included category post
+24321,post,publish,True,Included category post
+24691,post,publish,True,Included category post
+24783,post,publish,True,Included category post
+24843,post,publish,True,Included category post
+24863,post,publish,True,Included category post
+481,revision,inherit,False,Not an ordinary post: revision
+587,revision,inherit,False,Not an ordinary post: revision
+682,revision,inherit,False,Not an ordinary post: revision
+806,revision,inherit,False,Not an ordinary post: revision
+878,revision,inherit,False,Not an ordinary post: revision
+971,revision,inherit,False,Not an ordinary post: revision
+1061,revision,inherit,False,Not an ordinary post: revision
+1197,revision,inherit,False,Not an ordinary post: revision
+1229,revision,inherit,False,Not an ordinary post: revision
+1287,revision,inherit,False,Not an ordinary post: revision
+1527,attachment,inherit,False,Not an ordinary post: attachment
+1531,revision,inherit,False,Not an ordinary post: revision
+1677,revision,inherit,False,Not an ordinary post: revision
+1842,wooframework,draft,False,Not an ordinary post: wooframework
+1863,revision,inherit,False,Not an ordinary post: revision
+2632,revision,inherit,False,Not an ordinary post: revision
+484,revision,inherit,False,Not an ordinary post: revision
+777,revision,inherit,False,Not an ordinary post: revision
+2076,tribe_organizer,publish,False,Not an ordinary post: tribe_organizer
+2222,revision,inherit,False,Not an ordinary post: revision
+2261,revision,inherit,False,Not an ordinary post: revision
+2355,revision,inherit,False,Not an ordinary post: revision
+2446,revision,inherit,False,Not an ordinary post: revision
+2794,revision,inherit,False,Not an ordinary post: revision
+2812,attachment,inherit,False,Not an ordinary post: attachment
+4061,slide,publish,False,Not an ordinary post: slide
+8562,attachment,inherit,False,Not an ordinary post: attachment
+8565,attachment,inherit,False,Not an ordinary post: attachment
+8573,attachment,inherit,False,Not an ordinary post: attachment
+8590,attachment,inherit,False,Not an ordinary post: attachment
+8595,attachment,inherit,False,Not an ordinary post: attachment
+8596,attachment,inherit,False,Not an ordinary post: attachment
+10295,attachment,inherit,False,Not an ordinary post: attachment
+10603,attachment,inherit,False,Not an ordinary post: attachment
+1021,revision,inherit,False,Not an ordinary post: revision
+1596,revision,inherit,False,Not an ordinary post: revision
+2038,wooframework,draft,False,Not an ordinary post: wooframework
+3074,tribe_events,publish,False,Not an ordinary post: tribe_events
+3241,tribe_events,publish,False,Not an ordinary post: tribe_events
+3403,slide,publish,False,Not an ordinary post: slide
+3426,slide,publish,False,Not an ordinary post: slide
+8563,attachment,inherit,False,Not an ordinary post: attachment
+8576,attachment,inherit,False,Not an ordinary post: attachment
+8578,attachment,inherit,False,Not an ordinary post: attachment
+8589,attachment,inherit,False,Not an ordinary post: attachment
+8604,attachment,inherit,False,Not an ordinary post: attachment
+8605,attachment,inherit,False,Not an ordinary post: attachment
+8614,attachment,inherit,False,Not an ordinary post: attachment
+8615,attachment,inherit,False,Not an ordinary post: attachment
+8616,attachment,inherit,False,Not an ordinary post: attachment
+11503,attachment,inherit,False,Not an ordinary post: attachment
+16031,attachment,inherit,False,Not an ordinary post: attachment
+2247,revision,inherit,False,Not an ordinary post: revision
+3090,revision,inherit,False,Not an ordinary post: revision
+3417,revision,inherit,False,Not an ordinary post: revision
+3485,revision,inherit,False,Not an ordinary post: revision
+3759,revision,inherit,False,Not an ordinary post: revision
+3777,revision,inherit,False,Not an ordinary post: revision
+3802,revision,inherit,False,Not an ordinary post: revision
+3851,revision,inherit,False,Not an ordinary post: revision
+7528,attachment,inherit,False,Not an ordinary post: attachment
+7531,attachment,inherit,False,Not an ordinary post: attachment
+7532,attachment,inherit,False,Not an ordinary post: attachment
+8571,attachment,inherit,False,Not an ordinary post: attachment
+8599,attachment,inherit,False,Not an ordinary post: attachment
+11502,attachment,inherit,False,Not an ordinary post: attachment
+11504,attachment,inherit,False,Not an ordinary post: attachment
+3215,tribe_events,publish,False,Not an ordinary post: tribe_events
+3646,attachment,inherit,False,Not an ordinary post: attachment
+3789,post,publish,False,Ordinary post outside the Tagging the Tower category
+4739,revision,inherit,False,Not an ordinary post: revision
+4751,revision,inherit,False,Not an ordinary post: revision
+5507,revision,inherit,False,Not an ordinary post: revision
+6222,attachment,inherit,False,Not an ordinary post: attachment
+6527,attachment,inherit,False,Not an ordinary post: attachment
+2931,attachment,inherit,False,Not an ordinary post: attachment
+3102,attachment,inherit,False,Not an ordinary post: attachment
+3143,attachment,inherit,False,Not an ordinary post: attachment
+3154,tribe_events,publish,False,Not an ordinary post: tribe_events
+3260,revision,inherit,False,Not an ordinary post: revision
+3618,attachment,inherit,False,Not an ordinary post: attachment
+4083,revision,inherit,False,Not an ordinary post: revision
+4141,revision,inherit,False,Not an ordinary post: revision
+4202,revision,inherit,False,Not an ordinary post: revision
+11509,attachment,inherit,False,Not an ordinary post: attachment
+17058,attachment,inherit,False,Not an ordinary post: attachment
+17228,attachment,inherit,False,Not an ordinary post: attachment
+17241,attachment,inherit,False,Not an ordinary post: attachment
+17259,attachment,inherit,False,Not an ordinary post: attachment
+17339,attachment,inherit,False,Not an ordinary post: attachment
+17341,attachment,inherit,False,Not an ordinary post: attachment
+17695,attachment,inherit,False,Not an ordinary post: attachment
+18370,attachment,inherit,False,Not an ordinary post: attachment
+18380,attachment,inherit,False,Not an ordinary post: attachment
+18433,attachment,inherit,False,Not an ordinary post: attachment
+18436,attachment,inherit,False,Not an ordinary post: attachment
+18441,attachment,inherit,False,Not an ordinary post: attachment
+18442,attachment,inherit,False,Not an ordinary post: attachment
+18444,attachment,inherit,False,Not an ordinary post: attachment
+18446,attachment,inherit,False,Not an ordinary post: attachment
+18448,attachment,inherit,False,Not an ordinary post: attachment
+18468,attachment,inherit,False,Not an ordinary post: attachment
+18487,attachment,inherit,False,Not an ordinary post: attachment
+18490,attachment,inherit,False,Not an ordinary post: attachment
+18499,attachment,inherit,False,Not an ordinary post: attachment
+18500,attachment,inherit,False,Not an ordinary post: attachment
+18502,attachment,inherit,False,Not an ordinary post: attachment
+18505,attachment,inherit,False,Not an ordinary post: attachment
+18538,attachment,inherit,False,Not an ordinary post: attachment
+3031,revision,inherit,False,Not an ordinary post: revision
+3132,tribe_events,publish,False,Not an ordinary post: tribe_events
+3271,slide,publish,False,Not an ordinary post: slide
+3294,attachment,inherit,False,Not an ordinary post: attachment
+3463,revision,inherit,False,Not an ordinary post: revision
+3635,attachment,inherit,False,Not an ordinary post: attachment
+3725,post,publish,False,Ordinary post outside the Tagging the Tower category
+4158,custom_css,publish,False,Not an ordinary post: custom_css
+5088,revision,inherit,False,Not an ordinary post: revision
+5894,revision,inherit,False,Not an ordinary post: revision
+5921,revision,inherit,False,Not an ordinary post: revision
+5978,attachment,inherit,False,Not an ordinary post: attachment
+5987,revision,inherit,False,Not an ordinary post: revision
+8612,attachment,inherit,False,Not an ordinary post: attachment
+18543,attachment,inherit,False,Not an ordinary post: attachment
+18545,attachment,inherit,False,Not an ordinary post: attachment
+4127,revision,inherit,False,Not an ordinary post: revision
+4529,attachment,inherit,False,Not an ordinary post: attachment
+4843,revision,inherit,False,Not an ordinary post: revision
+5348,attachment,inherit,False,Not an ordinary post: attachment
+5358,attachment,inherit,False,Not an ordinary post: attachment
+8564,attachment,inherit,False,Not an ordinary post: attachment
+8601,attachment,inherit,False,Not an ordinary post: attachment
+8603,attachment,inherit,False,Not an ordinary post: attachment
+8609,attachment,inherit,False,Not an ordinary post: attachment
+11256,attachment,inherit,False,Not an ordinary post: attachment
+11271,attachment,inherit,False,Not an ordinary post: attachment
+11508,attachment,inherit,False,Not an ordinary post: attachment
+16992,attachment,inherit,False,Not an ordinary post: attachment
+5972,revision,inherit,False,Not an ordinary post: revision
+6306,tribe_rsvp_attendees,publish,False,Not an ordinary post: tribe_rsvp_attendees
+6382,attachment,inherit,False,Not an ordinary post: attachment
+16481,attachment,inherit,False,Not an ordinary post: attachment
+20558,attachment,inherit,False,Not an ordinary post: attachment
+20564,attachment,inherit,False,Not an ordinary post: attachment
+20565,attachment,inherit,False,Not an ordinary post: attachment
+21515,attachment,inherit,False,Not an ordinary post: attachment
+21521,attachment,inherit,False,Not an ordinary post: attachment
+5966,revision,inherit,False,Not an ordinary post: revision
+6779,revision,inherit,False,Not an ordinary post: revision
+6854,revision,inherit,False,Not an ordinary post: revision
+8577,attachment,inherit,False,Not an ordinary post: attachment
+8593,attachment,inherit,False,Not an ordinary post: attachment
+8602,attachment,inherit,False,Not an ordinary post: attachment
+11497,attachment,inherit,False,Not an ordinary post: attachment
+11506,attachment,inherit,False,Not an ordinary post: attachment
+11507,attachment,inherit,False,Not an ordinary post: attachment
+11575,attachment,inherit,False,Not an ordinary post: attachment
+16995,attachment,inherit,False,Not an ordinary post: attachment
+17033,attachment,inherit,False,Not an ordinary post: attachment
+17036,attachment,inherit,False,Not an ordinary post: attachment
+17109,attachment,inherit,False,Not an ordinary post: attachment
+17112,attachment,inherit,False,Not an ordinary post: attachment
+17145,attachment,inherit,False,Not an ordinary post: attachment
+17291,attachment,inherit,False,Not an ordinary post: attachment
+17663,attachment,inherit,False,Not an ordinary post: attachment
+17799,attachment,inherit,False,Not an ordinary post: attachment
+8568,attachment,inherit,False,Not an ordinary post: attachment
+8588,attachment,inherit,False,Not an ordinary post: attachment
+16730,attachment,inherit,False,Not an ordinary post: attachment
+18413,attachment,inherit,False,Not an ordinary post: attachment
+18418,attachment,inherit,False,Not an ordinary post: attachment
+18422,attachment,inherit,False,Not an ordinary post: attachment
+18427,attachment,inherit,False,Not an ordinary post: attachment
+18471,attachment,inherit,False,Not an ordinary post: attachment
+18476,attachment,inherit,False,Not an ordinary post: attachment
+18483,attachment,inherit,False,Not an ordinary post: attachment
+18522,attachment,inherit,False,Not an ordinary post: attachment
+18570,attachment,inherit,False,Not an ordinary post: attachment
+18577,attachment,inherit,False,Not an ordinary post: attachment
+18596,attachment,inherit,False,Not an ordinary post: attachment
+18601,attachment,inherit,False,Not an ordinary post: attachment
+18999,attachment,inherit,False,Not an ordinary post: attachment
+19030,attachment,inherit,False,Not an ordinary post: attachment
+19037,attachment,inherit,False,Not an ordinary post: attachment
+19067,attachment,inherit,False,Not an ordinary post: attachment
+20542,attachment,inherit,False,Not an ordinary post: attachment
+5368,revision,inherit,False,Not an ordinary post: revision
+5486,revision,inherit,False,Not an ordinary post: revision
+5858,attachment,inherit,False,Not an ordinary post: attachment
+5927,revision,inherit,False,Not an ordinary post: revision
+6329,revision,inherit,False,Not an ordinary post: revision
+11278,attachment,inherit,False,Not an ordinary post: attachment
+11280,attachment,inherit,False,Not an ordinary post: attachment
+11281,attachment,inherit,False,Not an ordinary post: attachment
+19116,attachment,inherit,False,Not an ordinary post: attachment
+20183,attachment,inherit,False,Not an ordinary post: attachment
+20482,attachment,inherit,False,Not an ordinary post: attachment
+20597,attachment,inherit,False,Not an ordinary post: attachment
+20598,attachment,inherit,False,Not an ordinary post: attachment
+20608,attachment,inherit,False,Not an ordinary post: attachment
+20694,attachment,inherit,False,Not an ordinary post: attachment
+20695,attachment,inherit,False,Not an ordinary post: attachment
+20697,attachment,inherit,False,Not an ordinary post: attachment
+20698,attachment,inherit,False,Not an ordinary post: attachment
+20699,attachment,inherit,False,Not an ordinary post: attachment
+20700,attachment,inherit,False,Not an ordinary post: attachment
+20708,attachment,inherit,False,Not an ordinary post: attachment
+20709,attachment,inherit,False,Not an ordinary post: attachment
+20710,attachment,inherit,False,Not an ordinary post: attachment
+20711,attachment,inherit,False,Not an ordinary post: attachment
+20712,attachment,inherit,False,Not an ordinary post: attachment
+20847,attachment,inherit,False,Not an ordinary post: attachment
+21153,attachment,inherit,False,Not an ordinary post: attachment
+21497,attachment,inherit,False,Not an ordinary post: attachment
+21781,attachment,inherit,False,Not an ordinary post: attachment
+21783,attachment,inherit,False,Not an ordinary post: attachment
+21785,attachment,inherit,False,Not an ordinary post: attachment
+5605,attachment,inherit,False,Not an ordinary post: attachment
+6027,attachment,inherit,False,Not an ordinary post: attachment
+11168,attachment,inherit,False,Not an ordinary post: attachment
+21787,attachment,inherit,False,Not an ordinary post: attachment
+21789,attachment,inherit,False,Not an ordinary post: attachment
+21791,attachment,inherit,False,Not an ordinary post: attachment
+21793,attachment,inherit,False,Not an ordinary post: attachment
+21795,attachment,inherit,False,Not an ordinary post: attachment
+21799,attachment,inherit,False,Not an ordinary post: attachment
+21803,attachment,inherit,False,Not an ordinary post: attachment
+21817,attachment,inherit,False,Not an ordinary post: attachment
+21899,attachment,inherit,False,Not an ordinary post: attachment
+21977,attachment,inherit,False,Not an ordinary post: attachment
+22131,attachment,inherit,False,Not an ordinary post: attachment
+22807,attachment,inherit,False,Not an ordinary post: attachment
+22869,attachment,inherit,False,Not an ordinary post: attachment
+22923,attachment,inherit,False,Not an ordinary post: attachment
+24083,attachment,inherit,False,Not an ordinary post: attachment
+24395,attachment,inherit,False,Not an ordinary post: attachment
+514,revision,inherit,False,Not an ordinary post: revision
+2071,tribe_venue,publish,False,Not an ordinary post: tribe_venue
+2760,revision,inherit,False,Not an ordinary post: revision
+6728,oembed_cache,publish,False,Not an ordinary post: oembed_cache
+6909,tribe_events,publish,False,Not an ordinary post: tribe_events
+8591,attachment,inherit,False,Not an ordinary post: attachment
+11169,attachment,inherit,False,Not an ordinary post: attachment
+11625,attachment,inherit,False,Not an ordinary post: attachment
+11626,attachment,inherit,False,Not an ordinary post: attachment
+11627,attachment,inherit,False,Not an ordinary post: attachment
+11730,attachment,inherit,False,Not an ordinary post: attachment
+23201,attachment,inherit,False,Not an ordinary post: attachment
+23755,attachment,inherit,False,Not an ordinary post: attachment
+24415,attachment,inherit,False,Not an ordinary post: attachment
+24465,attachment,inherit,False,Not an ordinary post: attachment
+487,revision,inherit,False,Not an ordinary post: revision
+495,revision,inherit,False,Not an ordinary post: revision
+597,revision,inherit,False,Not an ordinary post: revision
+645,revision,inherit,False,Not an ordinary post: revision
+763,revision,inherit,False,Not an ordinary post: revision
+839,attachment,inherit,False,Not an ordinary post: attachment
+1100,revision,inherit,False,Not an ordinary post: revision
+1158,revision,inherit,False,Not an ordinary post: revision
+1178,post,private,False,Ordinary post outside the Tagging the Tower category
+1264,revision,inherit,False,Not an ordinary post: revision
+1293,revision,inherit,False,Not an ordinary post: revision
+1345,revision,inherit,False,Not an ordinary post: revision
+1371,wooframework,draft,False,Not an ordinary post: wooframework
+1400,revision,inherit,False,Not an ordinary post: revision
+1445,revision,inherit,False,Not an ordinary post: revision
+1478,revision,inherit,False,Not an ordinary post: revision
+3531,revision,inherit,False,Not an ordinary post: revision
+4576,nomination,draft,False,Not an ordinary post: nomination
+6939,revision,inherit,False,Not an ordinary post: revision
+1268,revision,inherit,False,Not an ordinary post: revision
+1463,revision,inherit,False,Not an ordinary post: revision
+1518,revision,inherit,False,Not an ordinary post: revision
+1586,revision,inherit,False,Not an ordinary post: revision
+1632,revision,inherit,False,Not an ordinary post: revision
+1737,revision,inherit,False,Not an ordinary post: revision
+1760,attachment,inherit,False,Not an ordinary post: attachment
+1779,revision,inherit,False,Not an ordinary post: revision
+1823,wooframework,draft,False,Not an ordinary post: wooframework
+1960,tribe_events,publish,False,Not an ordinary post: tribe_events
+1973,tribe_events,publish,False,Not an ordinary post: tribe_events
+2018,revision,inherit,False,Not an ordinary post: revision
+2118,revision,inherit,False,Not an ordinary post: revision
+2164,attachment,inherit,False,Not an ordinary post: attachment
+2235,revision,inherit,False,Not an ordinary post: revision
+2266,revision,inherit,False,Not an ordinary post: revision
+18969,attachment,inherit,False,Not an ordinary post: attachment
+18970,attachment,inherit,False,Not an ordinary post: attachment
+19377,attachment,inherit,False,Not an ordinary post: attachment
+2560,revision,inherit,False,Not an ordinary post: revision
+2719,revision,inherit,False,Not an ordinary post: revision
+2747,wooframework,draft,False,Not an ordinary post: wooframework
+2836,attachment,inherit,False,Not an ordinary post: attachment
+2992,tribe_events,publish,False,Not an ordinary post: tribe_events
+3116,post,draft,False,Ordinary post outside the Tagging the Tower category
+3160,tribe_events,publish,False,Not an ordinary post: tribe_events
+3184,tribe_events,publish,False,Not an ordinary post: tribe_events
+3232,revision,inherit,False,Not an ordinary post: revision
+3256,revision,inherit,False,Not an ordinary post: revision
+3341,revision,inherit,False,Not an ordinary post: revision
+3655,revision,inherit,False,Not an ordinary post: revision
+19387,attachment,inherit,False,Not an ordinary post: attachment
+20647,attachment,inherit,False,Not an ordinary post: attachment
+21059,attachment,inherit,False,Not an ordinary post: attachment
+23499,attachment,inherit,False,Not an ordinary post: attachment
+23501,attachment,inherit,False,Not an ordinary post: attachment
+6278,tribe_rsvp_attendees,publish,False,Not an ordinary post: tribe_rsvp_attendees
+6839,revision,inherit,False,Not an ordinary post: revision
+20507,attachment,inherit,False,Not an ordinary post: attachment
+20621,attachment,inherit,False,Not an ordinary post: attachment
+20623,attachment,inherit,False,Not an ordinary post: attachment
+20627,attachment,inherit,False,Not an ordinary post: attachment
+20675,attachment,inherit,False,Not an ordinary post: attachment
+21069,attachment,inherit,False,Not an ordinary post: attachment
+21245,attachment,inherit,False,Not an ordinary post: attachment
+21397,attachment,inherit,False,Not an ordinary post: attachment
+21661,attachment,inherit,False,Not an ordinary post: attachment
+21399,attachment,inherit,False,Not an ordinary post: attachment
+21401,attachment,inherit,False,Not an ordinary post: attachment
+21701,attachment,inherit,False,Not an ordinary post: attachment
+21707,attachment,inherit,False,Not an ordinary post: attachment
+22631,attachment,inherit,False,Not an ordinary post: attachment
+22633,attachment,inherit,False,Not an ordinary post: attachment
+22635,attachment,inherit,False,Not an ordinary post: attachment
+22637,attachment,inherit,False,Not an ordinary post: attachment
+22639,attachment,inherit,False,Not an ordinary post: attachment
+22641,attachment,inherit,False,Not an ordinary post: attachment
+22643,attachment,inherit,False,Not an ordinary post: attachment
+22645,attachment,inherit,False,Not an ordinary post: attachment
+22647,attachment,inherit,False,Not an ordinary post: attachment
+22649,attachment,inherit,False,Not an ordinary post: attachment
+22651,attachment,inherit,False,Not an ordinary post: attachment
+22653,attachment,inherit,False,Not an ordinary post: attachment
+22655,attachment,inherit,False,Not an ordinary post: attachment
+22657,attachment,inherit,False,Not an ordinary post: attachment
+22659,attachment,inherit,False,Not an ordinary post: attachment
+22661,attachment,inherit,False,Not an ordinary post: attachment
+22663,attachment,inherit,False,Not an ordinary post: attachment
+22665,attachment,inherit,False,Not an ordinary post: attachment
+22667,attachment,inherit,False,Not an ordinary post: attachment
+22669,attachment,inherit,False,Not an ordinary post: attachment
+22671,attachment,inherit,False,Not an ordinary post: attachment
+22673,attachment,inherit,False,Not an ordinary post: attachment
+22675,attachment,inherit,False,Not an ordinary post: attachment
+22677,attachment,inherit,False,Not an ordinary post: attachment
+22679,attachment,inherit,False,Not an ordinary post: attachment
+22681,attachment,inherit,False,Not an ordinary post: attachment
+22683,attachment,inherit,False,Not an ordinary post: attachment
+22685,attachment,inherit,False,Not an ordinary post: attachment
+22687,attachment,inherit,False,Not an ordinary post: attachment
+22689,attachment,inherit,False,Not an ordinary post: attachment
+22691,attachment,inherit,False,Not an ordinary post: attachment
+22693,attachment,inherit,False,Not an ordinary post: attachment
+22695,attachment,inherit,False,Not an ordinary post: attachment
+22697,attachment,inherit,False,Not an ordinary post: attachment
+22699,attachment,inherit,False,Not an ordinary post: attachment
+22701,attachment,inherit,False,Not an ordinary post: attachment
+22703,attachment,inherit,False,Not an ordinary post: attachment
+22705,attachment,inherit,False,Not an ordinary post: attachment
+22707,attachment,inherit,False,Not an ordinary post: attachment
+22709,attachment,inherit,False,Not an ordinary post: attachment
+22711,attachment,inherit,False,Not an ordinary post: attachment
+22713,attachment,inherit,False,Not an ordinary post: attachment
+22715,attachment,inherit,False,Not an ordinary post: attachment
+22717,attachment,inherit,False,Not an ordinary post: attachment
+22719,attachment,inherit,False,Not an ordinary post: attachment
+22721,attachment,inherit,False,Not an ordinary post: attachment
+22723,attachment,inherit,False,Not an ordinary post: attachment
+22725,attachment,inherit,False,Not an ordinary post: attachment
+22751,attachment,inherit,False,Not an ordinary post: attachment
+23145,attachment,inherit,False,Not an ordinary post: attachment
+23155,attachment,inherit,False,Not an ordinary post: attachment
+23157,attachment,inherit,False,Not an ordinary post: attachment
+23179,attachment,inherit,False,Not an ordinary post: attachment
+23263,attachment,inherit,False,Not an ordinary post: attachment
+23511,attachment,inherit,False,Not an ordinary post: attachment
+23853,attachment,inherit,False,Not an ordinary post: attachment
+6543,revision,inherit,False,Not an ordinary post: revision
+6865,post,draft,False,Ordinary post outside the Tagging the Tower category
+23011,attachment,inherit,False,Not an ordinary post: attachment
+23017,attachment,inherit,False,Not an ordinary post: attachment
+23189,attachment,inherit,False,Not an ordinary post: attachment
+23275,attachment,inherit,False,Not an ordinary post: attachment
+23277,attachment,inherit,False,Not an ordinary post: attachment
+23279,attachment,inherit,False,Not an ordinary post: attachment
+23303,attachment,inherit,False,Not an ordinary post: attachment
+23991,attachment,inherit,False,Not an ordinary post: attachment
+23993,attachment,inherit,False,Not an ordinary post: attachment
+24353,attachment,inherit,False,Not an ordinary post: attachment
+24355,attachment,inherit,False,Not an ordinary post: attachment
+24357,attachment,inherit,False,Not an ordinary post: attachment
+24359,attachment,inherit,False,Not an ordinary post: attachment
+24365,attachment,inherit,False,Not an ordinary post: attachment
+24433,attachment,inherit,False,Not an ordinary post: attachment
+24435,attachment,inherit,False,Not an ordinary post: attachment
+23995,attachment,inherit,False,Not an ordinary post: attachment
+23997,attachment,inherit,False,Not an ordinary post: attachment
+24203,attachment,inherit,False,Not an ordinary post: attachment
+24265,attachment,inherit,False,Not an ordinary post: attachment
+24267,attachment,inherit,False,Not an ordinary post: attachment
+24269,attachment,inherit,False,Not an ordinary post: attachment
+24271,attachment,inherit,False,Not an ordinary post: attachment
+24323,attachment,inherit,False,Not an ordinary post: attachment
+24331,attachment,inherit,False,Not an ordinary post: attachment
+24699,attachment,inherit,False,Not an ordinary post: attachment
+24785,attachment,inherit,False,Not an ordinary post: attachment
+24801,attachment,inherit,False,Not an ordinary post: attachment
+24803,attachment,inherit,False,Not an ordinary post: attachment
+24805,attachment,inherit,False,Not an ordinary post: attachment
+24823,attachment,inherit,False,Not an ordinary post: attachment
+24825,attachment,inherit,False,Not an ordinary post: attachment
+24845,attachment,inherit,False,Not an ordinary post: attachment
+24865,attachment,inherit,False,Not an ordinary post: attachment
+24867,attachment,inherit,False,Not an ordinary post: attachment
+24869,attachment,inherit,False,Not an ordinary post: attachment
+24871,attachment,inherit,False,Not an ordinary post: attachment
+24885,attachment,inherit,False,Not an ordinary post: attachment

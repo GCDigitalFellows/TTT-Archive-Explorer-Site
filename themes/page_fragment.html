@@ -1,12 +1,14 @@
 <div class="theme-explorer">
 <p class="eyebrow">Thematic patterns and their evidence</p>
 <h2 id="themes-heading">Themes across years, writing and writers</h2>
+<p><a href="ARCHIVE_COVERAGE.html">Archive accounting and every article’s authorship decision</a></p>
 <p>Choose an evidence layer before comparing themes. <strong>Keyword signals</strong> describe matches to a dictionary. The <strong>six interpretive themes</strong> describe the essay’s selected examples. <strong>MALLET topics</strong>, in Topics over time, are statistical word groupings; their numbers and labels do not define either layer here.</p>
 <div class="theme-controls">
 <label>Evidence layer<select id="theme-mode"><option value="headline">Title &amp; tag keyword signals</option><option value="fulltext">Title, tag &amp; body keyword signals</option><option value="essay">Six interpretive themes · selected examples only</option></select></label>
 <label>Academic year<select id="theme-year"></select></label>
 <label>Credited writer<select id="theme-author"></select></label>
-<label class="check"><input id="theme-explicit" type="checkbox" />Require explicit body credit or author taxonomy</label>
+<label class="check"><input id="theme-explicit" type="checkbox" />Require reviewed credit or author taxonomy</label>
+<label class="check"><input id="theme-supported" type="checkbox" />Source-supported credits only (excludes taxonomy-only)</label>
 <label>Heatmap measure<select id="theme-measure"><option value="share">Share of eligible posts within each year</option><option value="count">Number of matching posts</option></select></label>
 <button type="button" id="theme-reset">Reset thematic filters</button>
 </div>

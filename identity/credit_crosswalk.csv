@@ -26,7 +26,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19742,"""Research Management"" handout",Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/03/12/link-to-research-management-handout/
 19743,"3/19 Workshop: Organizing Your Research With Evernote, Dropbox, and Zotero",Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/03/12/319-workshop-organizing-your-research-with-evernote-dropbox-and-zotero/
 19744,Digital Clutter (or why Inbox Zero is not a goal),Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/
-19745,The lost art of spaghetti,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/
+19745,The lost art of spaghetti,Micki Kaufman,Micki Kaufman,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/
 19746,"project management, or, your hand is not your dayplanner",Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/03/25/project-management-or-your-hand-is-not-your-dayplanner/
 19747,Downtime is the Best Cure for Downtime,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/
 19748,April 10th Workshop - Organizing Image Collections for Research: An Overview,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/04/04/1186/
@@ -62,7 +62,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19794,Inclusive Programming with Django and Python,"Patrick Smyth, PhD","Patrick Smyth, PhD",provisional posting-account attribution,
 19777,PSA: Backup Your Data Now,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/
 19778,Intro to Data Cleaning and Visualization Tools Handout,A.L. McMichael,A. L. McMichael,reviewed institutional guide credit,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/
-19779,Learning to Map with ArcGIS StoryMaps,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/
+19779,Learning to Map with ArcGIS StoryMaps,Keith Miyake,Keith Miyake,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/
 19780,Beating Back Your Digital Doppleganger,Andrew G McKinney,Andrew G McKinney,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/04/24/beating-back-your-digital-doppleganger/
 19781,Introduction to Image Editing Handout,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/
 2050,A Crash Course in Digital Photo Editing,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/
@@ -82,7 +82,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 2292,Django Hack Night,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/
 19796,Upcomming Workshop 3/10: Intro to Github,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/03/04/upcomming-workshop-310-intro-to-github/
 19797,Databases for Smart People Who Are Scared of Databases,Keith Miyake,Keith Miyake,reviewed institutional guide credit,https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/
-19799,Intro to Mapping with CartoDB,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/
+19799,Intro to Mapping with CartoDB,Keith Miyake,Keith Miyake,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/
 2755,"Evaluating, Valuing, and Promoting Digital Scholarship Event",Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/
 19800,MEDIA RES #1: lightning talks by NYC graduate students on DH projects,Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/05/03/media-res-1-lightning-talks-by-nyc-graduate-students-on-dh-projects/
 19801,The Digital GC: Year-End Showcase,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/05/06/the-digital-gc-year-end-showcase/
@@ -96,7 +96,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 3130,How to Get Started with Python,Hannah Aizenman,Hannah Aizenman,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/10/15/how-to-python/
 19809,An Introduction to Web Servers,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/
 19810,Introduction to Web Scraping for Researchers,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/
-3206,Workshop Recap: The Lexicon of DH,Mary Catherine Kinniburgh,Mary Catherine Kinniburgh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/10/28/workshop-recap-the-lexicon-of-dh/
+3206,Workshop Recap: The Lexicon of DH,Mary Catherine Kinniburgh,Mary Catherine Kinniburgh,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2015/10/28/workshop-recap-the-lexicon-of-dh/
 19811,Your Most Valuable Resource…People!,Ian Phillips,Ian Phillips,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/10/30/your-most-valuable-resourcepeople/
 19812,Python Users' Group Recap,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/11/03/python-users-group-recap/
 19813,Getting started with free software: computation is too important to be left to CS Departments,Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2015/11/07/3239/
@@ -134,7 +134,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19839,What is a Maker Space? An Invitation to Ours,Mary Catherine Kinniburgh,Mary Catherine Kinniburgh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/03/09/what-is-a-maker-space-an-invitation-to-ours/
 19840,Visualizing the Local Impact of the NEH,Jojo Karlin,Jojo Karlin,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/03/16/where-have-all-the-neh-funds-gone/
 4348,"Learning to program, for everybody",Rachel Rakov,Rachel Rakov,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/03/29/learning-to-program-for-everybody/
-4259,Visualizing NEH Open Data,Jojo Karlin,Jojo Karlin,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/04/04/visualizing-neh-open-data/
+4259,Visualizing NEH Open Data,Jojo Karlin,Jojo Karlin,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2017/04/04/visualizing-neh-open-data/
 4364,Exploring the local impact of the NEH - NEH Impact Index,"Patrick Smyth, PhD","Patrick Smyth, PhD",provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/04/10/exploring-the-local-impact-of-the-neh-neh-impact-index/
 4388,Organize your WordPress blog posts with the List Category Posts plugin!,Ian Phillips,Ian Phillips,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/04/17/organize-your-wordpress-blog-posts-with-the-list-category-posts-plugin/
 4414,Multifaceted Access: Modeling Possibility in Maker Spaces with Arduino,Mary Catherine Kinniburgh,Mary Catherine Kinniburgh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/04/19/multifaceted-access-modeling-possibility-in-maker-spaces-with-arduino/
@@ -147,14 +147,14 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19841,GCDI & Comp Sci Visualization Seminar: Intro to Viz in Python,Hannah Aizenman,Hannah Aizenman,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/10/30/matplotlib/
 6526,Digital Forensics: A GC Student’s Success Story with the Help of the GC Library,Kelsey Chatlosh; Angela Crumdy,Kelsey Chatlosh; Angela Crumdy,explicit body credit,https://gcdi.commons.gc.cuny.edu/2017/11/09/digital-forensics/
 19842,GCDI and Comp Sci Visualization Seminar: Computational Data Analysis,Hannah Aizenman,Hannah Aizenman,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/11/13/cda/
-19843,"Getting Started with Social Explorer: A GC Resource for Spatializing Demographic Data, Part 1",Kristen Hackett,Kristen Hackett,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/
+19843,"Getting Started with Social Explorer: A GC Resource for Spatializing Demographic Data, Part 1",Kristen Hackett,Kristen Hackett,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/
 6595,From Social Mediums: Making Social Media More Social,Huber (David) Jaramillo,Huber (David) Jaramillo,source metadata,https://gcdi.commons.gc.cuny.edu/2017/11/16/making-social-media-more-social/
 4570,GCDI and Comp Sci Visualization Seminar: How to See 1 Billion Images?,Hannah Aizenman,Hannah Aizenman,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/11/29/gcdi-and-comp-sci-visualization-seminar-how-to-see-1-billion-images/
 4574,GCDI and Comp Sci Visualization Seminar: The Book of Circles,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/12/05/gcdi-and-comp-sci-visualization-seminar-the-book-of-circles/
 19844,Intro to Mapping using QGIS,Javier Otero Peña,Javier Otero Peña,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/
-4647,What is GCDI? (Spring 2018 Edition),Jojo Karlin,Jojo Karlin,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/
+4647,What is GCDI? (Spring 2018 Edition),Jojo Karlin,Jojo Karlin,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/
 4685,The Spring Semester Lineup for the GCDI Sound Series,Kelsey Chatlosh,Kelsey Chatlosh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/02/08/the-spring-semester-lineup-for-the-gcdi-sound-series/
-4456,How do I solve [insert problem here] with Python?,Hannah Aizenman,Hannah Aizenman,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/
+4456,How do I solve [insert problem here] with Python?,Rachel Rakov,Rachel Rakov,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/
 19845,Problems with Python? The Python Users' Group is Here to Help!,Rachel Rakov,Rachel Rakov,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/02/16/problems-with-python-the-python-users-group-is-here-to-help/
 4698,First ever GC Digital Scholarship Lab Open House - Join us on February 27th,Rachel Rakov,Rachel Rakov,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/02/22/first-ever-gc-digital-scholarship-lab-open-house-join-us-on-february-27th/
 6934,My Experience at the Digital Research Institute 2018,Manuel C. Co Jr,Manuel C. Co Jr,explicit body credit,https://gcdi.commons.gc.cuny.edu/2018/03/05/my-experience-at-the-digital-research-institute-2018/
@@ -163,7 +163,7 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19846,Audio Annotation with Praat and Python: Reflections on a workshop,Rachel Rakov,Rachel Rakov,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/03/29/audio-annotation-with-praat-and-python-reflections-on-a-workshop/
 7060,How Participating in the GCDRI can Develop Your Research,Tom Ribitzky,Tom Ribitzky,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/04/02/how-participating-in-the-gcdri-can-develop-your-research/
 4747,Livestreaming the sounds of morning: I went to SoundCamp for International Dawn Chorus Day,Kelsey Chatlosh,Kelsey Chatlosh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/04/27/soundcamp/
-19847,What is GCDI? (Fall 2018 Edition),Kelsey Chatlosh,Kelsey Chatlosh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/
+19847,What is GCDI? (Fall 2018 Edition),Kelsey Chatlosh,Kelsey Chatlosh,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/
 4809,"I Forced a Bot to Read 1,000 of My Blog Posts, Then Asked It to Write Its Own.",Rachel Rakov,Rachel Rakov,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/09/27/i-forced-a-bot-to-read-1000-of-my-blog-posts-then-asked-it-to-write-its-own/
 4819,A Reflection on the Mediation and Intimacy of Sounds: Searching for Collective Pleasure through Group ASMR,Michelle Yom,Michelle Yom,explicit body credit,https://gcdi.commons.gc.cuny.edu/2018/10/18/group-asmr/
 4825,Uses of tech while drafting my second exam bibs: taxonomies and track changes,Kelsey Chatlosh,Kelsey Chatlosh,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2018/10/25/uses-of-tech-while-drafting-my-second-exam-bibs/

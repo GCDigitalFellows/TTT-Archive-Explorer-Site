@@ -14,8 +14,9 @@ function eligibleThemePosts(posts, mode, choices) {
       (mode !== "essay" || post.sample) &&
       (choices.year === "all" || post.year === choices.year) &&
       (choices.author === "all" || post.authors.includes(choices.author)) &&
+      (!choices.supportedOnly || post.authorshipTier === "source-supported") &&
       (!choices.explicit ||
-        ["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio"].includes(post.creditStatus)),
+        ["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio", "reviewed cross-reference credit"].includes(post.creditStatus)),
   );
 }
 

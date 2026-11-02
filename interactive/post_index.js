@@ -134,7 +134,7 @@
     if (post.tags.length)
       article.append(node("p", "Tags: " + post.tags.join(", "), "secondary"));
     article.append(
-      node("p", "Credit basis: " + post.creditStatus, "secondary"),
+      node("p", "Review disposition: " + post.authorshipTier + " · Credit basis: " + post.creditStatus, "secondary"),
     );
     const evidence = node("details");
     evidence.append(
@@ -409,6 +409,7 @@
       original_credits: (post.originalAuthors || post.authors).join("; "),
       posting_account: post.creator,
       credit_basis: post.creditStatus,
+      authorship_disposition: post.authorshipTier,
       attribution_evidence: post.creditQuote,
       source_author: post.sourceAuthor,
       title_tag_theme_signals: (post.themeSignals || []).join("; "),

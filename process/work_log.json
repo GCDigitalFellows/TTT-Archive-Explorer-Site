@@ -401,6 +401,39 @@
         "identity/review.json"
       ],
       "limit": "No new model fitting or independent human verification. 258 local account credits remain provisional, including 53 older Sam O’Hana account records. Existing author/cohort and word-model baselines are retained."
+    },
+    {
+      "id": "complete-export-and-authorship-accounting",
+      "date": "2026-11-02",
+      "status": "implemented; 60 automated tests, complete embedded-data checks and focused local browser checks passed; see GitHub for publication state",
+      "task": "Reconcile all articles and propagate review dispositions across analyses and visualizations",
+      "human": "Ian requested that every article be accounted for, every authorship attribution vetted, and all analyses/visualizations updated. Ian asked for examples of unresolved account credits; four source-linked examples were supplied without asserting that their account holder was necessarily wrong.",
+      "agent": "Codex reconciled all 857 XML items and 436 ordinary posts to 430 category records, recorded six ordinary-post exclusions, classified all article credits by evidence strength, reviewed named article-reference candidates, corrected four additional names and strengthened five existing credits, and added source-supported subset controls and current-credit checks across actual embedded browser datasets.",
+      "credit_roles": [
+        "Project administration",
+        "Supervision",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000023",
+        "0000024",
+        "0000025",
+        "0000028",
+        "0000031",
+        "0000044",
+        "0000046"
+      ],
+      "evidence": [
+        "ARCHIVE_COVERAGE.html",
+        "coverage/coverage_audit.json",
+        "coverage/article_review_ledger.csv",
+        "coverage/ordinary_posts_accounting.csv",
+        "attribution_revision/cross_reference_decisions.json",
+        "attribution_revision/reviewed_credits.json"
+      ],
+      "limit": "Completeness is within the supplied export, not the entire historical website. Among 421 published records, 52 have accepted source support, 120 retain declared-only metadata/taxonomy credits and 249 remain unresolved account credits. No personal author confirmation, independent human review or model refit is claimed."
     }
   ],
   "remaining": [

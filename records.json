@@ -1317,11 +1317,11 @@
     "creator_login": "samohana",
     "creator_name": "Sam O'Hana",
     "credited_authors": [
-      "Sam O'Hana"
+      "Micki Kaufman"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2022/10/12/the-right-to-repair-why-we-should-be-given-the-information-and-tools-to-repair-our-personal-electronics/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "I’m lucky to have grown up in a household where repairing things was standard procedure. My parents still use their electric oven that they bought in the mid-90’s, which still looks nearly brand new as a result of my dad’s annual ritual of pulling it out of the wall and cleaning down most of the removable components. I distinctly remember one weekend awhere I was given free rein to disassemble an old VCR machine and get a closer look for the first time at those cityscape circuit boards hidden inside the body of that typically bulky 90’s recording hardware. Micki Kaufman, a former fellow here at the GCDI, has also covered the childhood joys of tech-wrangling with much more compelling detail.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -3122,11 +3122,11 @@
     "creator_login": "samohana",
     "creator_name": "Sam O'Hana",
     "credited_authors": [
-      "Sam O'Hana"
+      "Keith Miyake"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -4071,11 +4071,11 @@
     "creator_login": "samohana",
     "creator_name": "Sam O'Hana",
     "credited_authors": [
-      "Sam O'Hana"
+      "Keith Miyake"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -4844,9 +4844,9 @@
     "credited_authors": [
       "Mary Catherine Kinniburgh"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2016/09/27/lexicon-of-dh-2016/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much applause (read her recap here , and a review from a participant). I am looking forward to reprising the workshop ( Thursday, September 29th at 6:30 in Room 6421 ) and want to use this blog post to make a few recommendations to people who are excited, annoyed, or overwhelmed by “digital humanities.” In the seemingly nebulous space of digital humanities, some basic terms can ground us tremendously.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -6866,9 +6866,9 @@
     "credited_authors": [
       "Jojo Karlin"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2017/04/10/exploring-the-local-impact-of-the-neh-neh-impact-index/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "The NEH Impact Index was created as part of a wider effort by Graduate Center Digital Initiatives to show why the NEH is worth standing up for. This effort has included visualizations by Hannah Aizenman and Tahir Butt and writing by Jojo Karlin . We encourage anyone wishing to address similar questions through open data to reach out to us on Twitter at @cunygcdi or @DigitalFellows or by email at gc.digitalfellows@gmail.com. You can also send me a message on Twitter.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -7573,9 +7573,9 @@
     "credited_authors": [
       "Kristen Hackett"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -7832,9 +7832,9 @@
     "credited_authors": [
       "Jojo Karlin"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "Note that this is an updated post from one originally written by Digital Fellow Jojo Karlin for the past spring 2018 semester here and updated by Kelsey Chatlosh in Fall 2018. Hand-drawn images or \"Jojo Doodles\" above and below are also by Jojo Karlin.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -7977,11 +7977,11 @@
     "creator_login": "haizenman",
     "creator_name": "Hannah Aizenman",
     "credited_authors": [
-      "Hannah Aizenman"
+      "Rachel Rakov"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "How do I solve [insert problem here] with Python? By Rachel Rakov",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",
@@ -8032,7 +8032,7 @@
       "Ethics, access & power",
       "AI & machine learning"
     ],
-    "cohort_link": "Hannah Aizenman",
+    "cohort_link": "Rachel Rakov",
     "cohort_link_status": "same-semester roster match"
   },
   {
@@ -8490,9 +8490,9 @@
     "credited_authors": [
       "Kelsey Chatlosh"
     ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
+    "author_evidence": "reviewed cross-reference credit: explicit named reference to the linked article in another exported post; target account retained separately; source: https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
+    "author_credit_status": "reviewed cross-reference credit",
+    "author_credit_quote": "Note : This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , and by Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
     "author_terms": [],
     "kind": "local/unflagged",
     "source_url": "",

@@ -15,6 +15,7 @@ function filterPosts(posts, choices) {
     (post) =>
       post.startYear >= choices.firstYear &&
       post.startYear <= choices.lastYear &&
+      (!choices.supportedOnly || post.authorshipTier === "source-supported") &&
       (!choices.cohortOnly || post.cohortNames.length > 0) &&
       (!choices.author || post.authors.includes(choices.author)) &&
       (!choices.excludeAuthor || !post.authors.includes(choices.excludeAuthor)),

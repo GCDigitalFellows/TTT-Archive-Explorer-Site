@@ -1,6 +1,6 @@
 # NLTK and MALLET analysis of Tagging the Tower
 
-**Attribution update, November 2, 2026:** Current writer labels and author filters follow the corrected source inventory. Posting-account-only labels remain provisional, including historical imported records. See [the source-credit audit](ATTRIBUTION_REVIEW.html). The fitted words and per-post topic weights are unchanged.
+**Attribution update, November 2, 2026:** The [complete coverage ledger](ARCHIVE_COVERAGE.html) distinguishes source-supported, declared-only and unresolved credits for every record. All 421 published records have a model inclusion/exclusion decision; 299 are fitted. Source-supported subsets in the browser recompute summaries of the saved weights and words without retraining.  Current writer labels and author filters follow the corrected source inventory. Posting-account-only labels remain provisional, including historical imported records. See [the source-credit audit](ATTRIBUTION_REVIEW.html). The fitted words and per-post topic weights are unchanged.
 
 **Attribution update, November 1, 2026:** Writer credits and cohort matches have been corrected from body bylines and signed contributions. Roster-subset summaries use those corrected matches. The 299-post cleaned corpus and fitted topic weights remain frozen; this is not a new NLP fit. See the [source-based correction review](ATTRIBUTION_REVIEW.html).
 

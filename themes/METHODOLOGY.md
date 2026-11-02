@@ -44,3 +44,7 @@ python3 analysis/verify_revision.py
 ```
 
 The builder refreshes this evidence view but does not run NLTK/MALLET. In the distributed package, omit the `analysis/` prefix when running from its root, and supply the original export for a rebuild.
+
+## Complete coverage and authorship evidence
+
+The full thematic population remains 325 published local/unflagged records. After named-reference review, 50 have source-supported credits, 26 have taxonomy-only declarations and 249 remain account-only. The new source-supported control excludes both taxonomy-only and account-only records. It changes every relevant denominator and writer/network population; it is an evidence sensitivity view, not the default archive-wide estimate. Counts and per-post exports retain the disposition. See ../ARCHIVE_COVERAGE.html and ../coverage/article_review_ledger.csv.

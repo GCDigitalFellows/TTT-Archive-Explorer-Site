@@ -147,7 +147,7 @@
           element("span", "post-weight", " · " + percentage(post.weight)),
         );
       item.append(
-        element("p", "post-meta", post.year + " · " + post.authors.join("; ")),
+        element("p", "post-meta", post.year + " · " + post.authors.join("; ") + " · " + (post.authorshipTier || post.creditStatus)),
       );
       if (audit) {
         item.append(
@@ -182,6 +182,7 @@
       firstYear: Number(byId("first-year").value),
       lastYear: Number(byId("last-year").value),
       cohortOnly: byId("cohort-only").checked,
+      supportedOnly: byId("topic-evidence").value === "supported",
       author: byId("include-author").value,
       excludeAuthor: byId("exclude-author").value,
     };
@@ -316,7 +317,7 @@
       model.count +
       " topics, seed " +
       model.seed +
-      " · darker fill means greater weight within this view";
+      " · " + posts.filter(p => p.authorshipTier === "source-supported").length + " source-supported credits; " + posts.filter(p => p.authorshipTier === "unresolved-account").length + " account-only credits · darker fill means greater weight within this view";
     renderTopicHeatmap(rows, model);
     const selectedTopic = model.topics[topic];
     byId("selected-topic-heading").textContent =
@@ -350,7 +351,8 @@
       (post) =>
         (byId("word-year").value === "all" ||
           post.year === byId("word-year").value) &&
-        (!byId("word-cohort").checked || post.cohortNames.length > 0),
+        (!byId("word-cohort").checked || post.cohortNames.length > 0) &&
+        (byId("word-evidence").value !== "supported" || post.authorshipTier === "source-supported"),
     );
   }
 
@@ -362,7 +364,7 @@
       posts.length +
       " modeled posts · " +
       integer(posts.reduce((sum, post) => sum + post.cleanedTokens, 0)) +
-      " cleaned word occurrences · before MALLET vocabulary pruning";
+      " cleaned word occurrences · " + posts.filter(p => p.authorshipTier === "source-supported").length + " source-supported credits · before MALLET vocabulary pruning";
     renderBars(
       "frequency-bars",
       rows.slice(0, 20).map((row) => ({
@@ -567,7 +569,7 @@
     table.append(thead);
     const body = element("tbody");
     for (const year of ["2023–2024", "2024–2025", "2025–2026"]) {
-      const posts = data.posts.filter((post) => post.year === year);
+      const posts = data.posts.filter((post) => post.year === year && (byId("sensitivity-evidence").value !== "supported" || post.authorshipTier === "source-supported"));
       const groups = [
         posts,
         posts.filter((post) => !post.authors.includes(excluded)),
@@ -773,6 +775,8 @@
       title: post.title,
       academic_year: post.year,
       credited_writers: post.authors.join("; "),
+      authorship_disposition: post.authorshipTier,
+      authorship_evidence_filter: choices.supportedOnly ? "source-supported" : "all",
       roster_matches: post.cohortNames.join("; "),
       topic_weight: post.weight,
       writer_filter: choices.author,
@@ -888,6 +892,7 @@
     [
       "topic-model",
       "topic-weighting",
+      "topic-evidence",
       "first-year",
       "last-year",
       "include-author",
@@ -919,13 +924,14 @@
       byId("include-author").value = "";
       byId("exclude-author").value = "";
       byId("cohort-only").checked = false;
+      byId("topic-evidence").value = "all";
       topic = 1;
       detailYear = "all";
       postLimit = 12;
       renderTopics();
       announce("Restored the primary model and all 299 modeled posts.");
     });
-    ["word-year", "word-measure", "word-cohort"].forEach((id) =>
+    ["word-year", "word-measure", "word-cohort", "word-evidence"].forEach((id) =>
       byId(id).addEventListener("change", () => {
         chosenWord = "";
         renderWordFrequencies();
@@ -939,7 +945,7 @@
     ["quality-measure", "stability-topic"].forEach((id) =>
       byId(id).addEventListener("change", renderModelChecks),
     );
-    ["author-topic", "sensitivity-author"].forEach((id) =>
+    ["author-topic", "sensitivity-author", "sensitivity-evidence"].forEach((id) =>
       byId(id).addEventListener("change", renderAuthorComparison),
     );
     ["audit-year", "audit-kind"].forEach((id) =>

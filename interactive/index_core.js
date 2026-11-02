@@ -19,9 +19,10 @@ function filterIndexPosts(posts, model, choices) {
       return false;
     if (
       choices.evidence === "explicit" &&
-      !["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio"].includes(post.creditStatus)
+      !["explicit body credit", "author taxonomy", "reviewed export metadata credit", "reviewed institutional guide credit", "explicit source-author bio", "reviewed cross-reference credit"].includes(post.creditStatus)
     )
       return false;
+    if (choices.evidence === "supported" && post.authorshipTier !== "source-supported") return false;
     if (choices.theme && choices.theme !== "all" && !(post.themeSignals || []).includes(choices.theme)) return false;
     const weights = model.mixtures[post.id];
     if (choices.topic === "unmodeled" && weights) return false;

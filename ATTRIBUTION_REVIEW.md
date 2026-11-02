@@ -1,6 +1,6 @@
 # Author-credit correction review
 
-**Updated November 2, 2026:** The review covers all 430 category records, including author metadata, full-body credit signals, revision notes and source-author biographies. Ten additional records have corrected writer/source-author names in this round. The original November 1 baseline remains preserved. See the new-round ledger and unresolved cases below; a posting account is not proof of authorship.
+**Updated November 2, 2026:** The review covers all 430 category records, including author metadata, full-body credit signals, revision notes and source-author biographies. The November 2 dated ledger includes the subsequent named-reference corrections as well as the earlier author-field/source-biography corrections. The original November 1 baseline remains preserved. See the new-round ledger and unresolved cases below; a posting account is not proof of authorship.
 
 [Open the rebuilt explorer](interactive_explorer.html) · [Change ledger](attribution_revision/credit_changes.csv) · [All-record opening review](attribution_revision/opening_review.csv)
 
@@ -11,25 +11,29 @@
 | [How just 4 days of workshops at GC DRI re-defined my research](https://gcdi.commons.gc.cuny.edu/2019/02/11/how-just-4-days-of-workshops-re-defined-my-research/) | Patrick Sweeney | Carly Batist |
 | [Digital Forensics: A GC Student’s Success Story with the Help of the GC Library](https://gcdi.commons.gc.cuny.edu/2017/11/09/digital-forensics/) | Kelsey Chatlosh | Kelsey Chatlosh; Angela Crumdy |
 | [GCDI is Here for You!](https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/) | Stefano Morello | Stefano Morello; Olivia Ildefonso |
+| [How do I solve [insert problem here] with Python?](https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/) | Hannah Aizenman | Rachel Rakov |
 | [PDIG Training Grant Spotlight: Yu-Hsuan Liu](https://gcdi.commons.gc.cuny.edu/2019/09/10/pdig-training-grant-spotlight-yu-hsuan-liu/) | Tom Ribitzky | Yu-Hsuan Liu |
 | [PDIG Training Grant Spotlight: Yoshiko Oka](https://gcdi.commons.gc.cuny.edu/2019/09/10/pdig-training-grant-spotlight-yoshiko-oka/) | Tom Ribitzky | Yoshiko Oka |
 | [PDIG Training Grant Spotlight: Carmela Muzio Dormani](https://gcdi.commons.gc.cuny.edu/2019/09/10/pdig-training-grant-spotlight-carmela-muzio-dormani/) | Tom Ribitzky | Carmela Muzio Dormani |
+| [The lost art of spaghetti](https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/) | Sam O'Hana | Micki Kaufman |
 | [Organizing Image Collections handout](https://gcdi.commons.gc.cuny.edu/2013/05/16/organizing-image-collections-handout/) | Sam O'Hana | A.L. McMichael |
 | [Linked Data for the Uninitiated (Part 1)](https://gcdi.commons.gc.cuny.edu/2013/05/31/linked-data-for-the-uninitiated-part-1/) | Sam O'Hana | A. L. McMichael |
 | [Reflections on a New Academic Year](https://gcdi.commons.gc.cuny.edu/2013/09/30/reflections-on-a-new-academic-year/) | Sam O'Hana | Andrew G McKinney; Erin Glass; Laura Kane; Micki Kaufman; Keith Miyake; A.L. McMichael |
 | [Linking Outside the Box (Linked Data for the Uninitiated, Part 2)](https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/) | Sam O'Hana | A. L. McMichael |
 | [Intro to Data Cleaning and Visualization Tools Handout](https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/) | Sam O'Hana | A.L. McMichael |
+| [Learning to Map with ArcGIS StoryMaps](https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/) | Sam O'Hana | Keith Miyake |
 | [Attending the DRI is like Savoring a Multi-Course Coding Meal](https://gcdi.commons.gc.cuny.edu/2023/05/01/attending-the-dri-is-like-savoring-a-multi-course-coding-meal/) | Rebecca Krisel | Maren Rothfritz |
 | [The GCDI Guide to Password Management - GC Digital Fellows](https://gcdi.commons.gc.cuny.edu/2023/09/27/the-gcdi-guide-to-password-management-gc-digital-fellows/) | Author on Source | Sam O'Hana |
 | [DH and Design](https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/) | Sam O'Hana | A.L. McMichael |
 | [Databases for Smart People Who Are Scared of Databases](https://gcdi.commons.gc.cuny.edu/2015/03/11/databases-for-smart-people-who-are-scared-of-databases/) | Sam O'Hana | Keith Miyake |
+| [Intro to Mapping with CartoDB](https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/) | Sam O'Hana | Keith Miyake |
 | [Finding Digital Archives](https://gcdi.commons.gc.cuny.edu/2015/11/10/finding-digital-archives/) | Sam O'Hana | Jeff Binder |
 | [Building Your First Database in SQL - GC Digital Fellows](https://gcdi.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql-gc-digital-fellows/) | Author on Source | Rebecca Krisel |
 | [Why the DRI was exactly what I needed to get started with programming.](https://gcdi.commons.gc.cuny.edu/2023/05/01/why-the-dri-was-exactly-what-i-needed-to-get-started-with-programming/) | Rebecca Krisel | Marisa Iovino |
 
 [November 2 correction ledger](attribution_revision/credit_changes_2026-11-02.csv) · [All-record field/body screening](attribution_revision/full_credit_review.csv) · [Unresolved account-only cases](attribution_revision/unresolved_account_credits.csv) · [Institutional guide evidence](attribution_revision/institutional_guide_credits.json) · [Rendered guide page 23](attribution_revision/institutional-guide-page23.png)
 
-The guide credits McMichael for both linked-data posts, the image-collection and data-cleaning handouts, and DH and Design; Keith Miyake for Databases for Smart People; and Jeff Binder for Finding Digital Archives. A current-version note adds Olivia Ildefonso alongside Stefano Morello. Embedded source biographies recover Sam O'Hana and Rebecca Krisel for two curated records; their posting accounts remain curators. Earlier-version writers and image artists are not automatically coauthors of every later revision. Remaining account-only credits are explicitly provisional, not certified authorship. Some live article account headers conflict with the saved author evidence; they were not used alone to reassign writers.
+The guide credits McMichael for both linked-data posts, the image-collection and data-cleaning handouts, and DH and Design; Keith Miyake for Databases for Smart People; and Jeff Binder for Finding Digital Archives. A current-version note adds Olivia Ildefonso alongside Stefano Morello. Explicit named article references additionally credit Rachel Rakov for How do I solve [insert problem here] with Python?, Micki Kaufman for The lost art of spaghetti, and Keith Miyake for both mapping tutorials. Checked same-name references strengthen five other credits. [Every article’s review disposition](ARCHIVE_COVERAGE.html) separates supported credits from declared-only names and unresolved account credits. Embedded source biographies recover Sam O'Hana and Rebecca Krisel for two curated records; their posting accounts remain curators. Earlier-version writers and image artists are not automatically coauthors of every later revision. Remaining account-only credits are explicitly provisional, not certified authorship. Some live article account headers conflict with the saved author evidence; they were not used alone to reassign writers.
 
 ## Accepted reviewed-credit sources, including earlier recovered credits
 
@@ -76,6 +80,15 @@ The guide credits McMichael for both linked-data posts, the image-collection and
 - [Welcome Back Fall '26!](https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/): Sophie Bala. Basis: explicit current-version credit in revision note; earlier contributors retained in source note.
 - [The GCDI Guide to Password Management - GC Digital Fellows](https://gcdi.commons.gc.cuny.edu/2023/09/27/the-gcdi-guide-to-password-management-gc-digital-fellows/): Sam O'Hana. Basis: embedded source article author biography; posting account remains curator.
 - [Building Your First Database in SQL - GC Digital Fellows](https://gcdi.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql-gc-digital-fellows/): Rebecca Krisel. Basis: embedded source article author biography; posting account remains curator.
+- [How do I solve [insert problem here] with Python?](https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/): Rachel Rakov. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [The lost art of spaghetti](https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/): Micki Kaufman. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [Learning to Map with ArcGIS StoryMaps](https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/): Keith Miyake. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [Intro to Mapping with CartoDB](https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/): Keith Miyake. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [What is GCDI? (Spring 2018 Edition)](https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/): Jojo Karlin. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [What is GCDI? (Fall 2018 Edition)](https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/): Kelsey Chatlosh. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [Workshop Recap: The Lexicon of DH](https://gcdi.commons.gc.cuny.edu/2015/10/28/workshop-recap-the-lexicon-of-dh/): Mary Catherine Kinniburgh. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [Visualizing NEH Open Data](https://gcdi.commons.gc.cuny.edu/2017/04/04/visualizing-neh-open-data/): Jojo Karlin. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
+- [Getting Started with Social Explorer: A GC Resource for Spatializing Demographic Data, Part 1](https://gcdi.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/): Kristen Hackett. Basis: explicit named reference to the linked article in another exported post; target account retained separately.
 
 
 Updated November 2, 2026 after Ian G. Williams identified a wrong credit on **Linked Data for the Uninitiated (Part 1)**. This is an agent-executed attribution correction under Ian’s direction, not independent human verification.
@@ -86,7 +99,7 @@ All 430 category records were screened for author-related XML fields and credit 
 
 The earlier November 1 review recovered opening bylines and signed sections but did not use the separate `author_name` field. The November 2 review adds metadata and source-biography checks, current-version revision notes and institutional-guide evidence. Accepted decisions are in `reviewed_credits.json`; the extractor checks each against its actual evidence location. The preserved November 1 ledger and pre-November-2 inventory support comparison without resetting the original baseline.
 
-## Ten new name corrections
+## November 2 name corrections and broader evidence review
 
 - McMichael: both linked-data posts, Organizing Image Collections handout, Intro to Data Cleaning and Visualization Tools Handout, and DH and Design.
 - Keith Miyake: Databases for Smart People Who Are Scared of Databases.
@@ -97,11 +110,13 @@ The earlier November 1 review recovered opening bylines and signed sections but 
 
 The seven historical replacements are supported by the [GCDI Fall 2020 Open House guide](https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf), page 23. The rendered page was visually inspected, and its title/author rows were transcribed into `institutional_guide_credits.json`; its source hash and page image are retained. The linked-data posts also contain explicit saved `author_name`/`item_author` metadata naming A. L. McMichael. These matching titles support grouping McMichael spacing variants; raw strings remain preserved.
 
+The subsequent coverage review adds four writer corrections through explicit named references with matching target links: Rachel Rakov for the Python problem-solving post, Micki Kaufman for The lost art of spaghetti, and Keith Miyake for the ArcGIS StoryMaps and CartoDB guides. Five same-name article references also strengthen existing credits. Each accepted reference is checked against the source post and target URL; repeated welcome-page lists are one inherited source family, not independent confirmations. Contextual mentions and workshop/project credits were rejected as article authorship. See `cross_reference_decisions.json`.
+
 ## Rules and remaining uncertainty
 
 Explicit current-post credits outrank a posting account. The posting account, original author taxonomy and raw source-author field remain separate. A biography embedded in an imported source article identifies the source writer, not the curator or necessarily the local summary writer. Earlier-version authors and image artists remain in the revision note; they are not automatically coauthors of every subsequent version. Body mentions, cited authors and OCR sample bylines are not accepted as current article credits.
 
-258 published local/unflagged records still use provisional posting-account attribution. Among these are 53 older records under Sam O’Hana’s account. Their historical writers have not been established; no replacement names were guessed. Some cached live account headers conflict with saved source evidence, and direct requests encountered HTTP 403. Live headers were not accepted alone. The unresolved ledger is a research queue, not a claim that each named account is wrong. The archive-wide review does not guarantee complete author recovery.
+249 published local/unflagged records still use provisional posting-account attribution. Among these are 50 older records under Sam O’Hana’s account. Their historical writers have not been established; no replacement names were guessed. Some cached live account headers conflict with saved source evidence, and direct requests encountered HTTP 403. Live headers were not accepted alone. The unresolved ledger is a research queue, not a claim that each named account is wrong. The archive-wide review does not guarantee complete author recovery.
 
 There are 71 grouped published-local names (72 raw spelling strings) and 162 grouped human-name entries in the broader register. These are credit labels, not verified headcounts. Authorship does not establish fellowship membership; only the existing same-semester signed-list evidence supplies that match.
 

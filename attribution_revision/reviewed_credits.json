@@ -442,5 +442,131 @@
       "About Rebecca Krisel (she/her)"
     ],
     "applies_to_source_author": true
+  },
+  "4456": {
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "How do I solve [insert problem here] with Python? By Rachel Rakov"
+    ],
+    "source_post": "19850",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2018/02/13/python_libraries/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19745": {
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "I’m lucky to have grown up in a household where repairing things was standard procedure. My parents still use their electric oven that they bought in the mid-90’s, which still looks nearly brand new as a result of my dad’s annual ritual of pulling it out of the wall and cleaning down most of the removable components. I distinctly remember one weekend awhere I was given free rein to disassemble an old VCR machine and get a closer look for the first time at those cityscape circuit boards hidden inside the body of that typically bulky 90’s recording hardware. Micki Kaufman, a former fellow here at the GCDI, has also covered the childhood joys of tech-wrangling with much more compelling detail."
+    ],
+    "source_post": "6446",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2022/10/12/the-right-to-repair-why-we-should-be-given-the-information-and-tools-to-repair-our-personal-electronics/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19779": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG."
+    ],
+    "source_post": "19844",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19799": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG."
+    ],
+    "source_post": "19844",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "4647": {
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "Note that this is an updated post from one originally written by Digital Fellow Jojo Karlin for the past spring 2018 semester here and updated by Kelsey Chatlosh in Fall 2018. Hand-drawn images or \"Jojo Doodles\" above and below are also by Jojo Karlin."
+    ],
+    "source_post": "19850",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19847": {
+    "authors": [
+      "Kelsey Chatlosh"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "Note : This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , and by Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin."
+    ],
+    "source_post": "5760",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "3206": {
+    "authors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much applause (read her recap here , and a review from a participant). I am looking forward to reprising the workshop ( Thursday, September 29th at 6:30 in Room 6421 ) and want to use this blog post to make a few recommendations to people who are excited, annoyed, or overwhelmed by “digital humanities.” In the seemingly nebulous space of digital humanities, some basic terms can ground us tremendously."
+    ],
+    "source_post": "3823",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2016/09/27/lexicon-of-dh-2016/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2015/10/28/workshop-recap-the-lexicon-of-dh/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "4259": {
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "The NEH Impact Index was created as part of a wider effort by Graduate Center Digital Initiatives to show why the NEH is worth standing up for. This effort has included visualizations by Hannah Aizenman and Tahir Butt and writing by Jojo Karlin . We encourage anyone wishing to address similar questions through open data to reach out to us on Twitter at @cunygcdi or @DigitalFellows or by email at gc.digitalfellows@gmail.com. You can also send me a message on Twitter."
+    ],
+    "source_post": "4364",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2017/04/10/exploring-the-local-impact-of-the-neh-neh-impact-index/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2017/04/04/visualizing-neh-open-data/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19843": {
+    "authors": [
+      "Kristen Hackett"
+    ],
+    "basis": "explicit named reference to the linked article in another exported post; target account retained separately",
+    "evidence_type": "cross-reference",
+    "quotes": [
+      "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG."
+    ],
+    "source_post": "19844",
+    "source_url": "https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
+    "target_link": "https://digitalfellows.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/",
+    "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
   }
 }

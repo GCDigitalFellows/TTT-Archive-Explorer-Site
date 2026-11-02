@@ -1,0 +1,710 @@
+{
+  "scope": "51 named-person/link candidate contexts reviewed; candidates are not automatic bylines.",
+  "decisions": [
+    {
+      "source": "19750",
+      "target": "19736",
+      "title": "Text mining at the GC",
+      "names": [
+        "Amanda Licastro"
+      ],
+      "text": "Last February, I posted about English doctoral candidate Amanda Licastro's use of some basic text mining methods to extract frequent keywords from a set of novel prefaces. In her paper \"The Rise of the Preface,\" Amanda suggests that these keywords relate to the changing role of the novel and author in the 18th century. The first important thing to note about her data is that she uses it to supports traditional literary critic Cynthia Nixon's argument that prefaces in the 18th century defend against and reflect upon the \"shifting place of the novel in literary culture\" (Nixon). But second, and perhaps more interestingly, Amanda's project enabled her to develop methods that could help her analyze literature during other periods of technological change, such as the period of early web writing.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "19820",
+      "target": "3393",
+      "title": "DRB Recap!",
+      "names": [
+        "Julia Lipkins"
+      ],
+      "text": "As Digital Fellows, we occasionally share our reflections on the process of exploring digital research here on Tagging the Tower. During the Digital Research Bootcamp we invited 35 interdisciplinary scholars to join us in that exploration, learning new skills and building community along the way. So what was it like for those who joined us for 28-hours of learning? In a series of guest posts, several #GCDRB participants will share their experiences. Below are the reflections of Julia Lipkins , an archivist and student in the MALS Program:",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "19822",
+      "target": "3393",
+      "title": "DRB Recap!",
+      "names": [
+        "Lavelle Porter"
+      ],
+      "text": "In our series of guest posts by #GCDRB participants, Dr. Lavelle Porter shares his experiences as a faculty member at our inaugural Digital Research Bootcamp . Lavelle is a graduate of the Ph.D. Program in English at the CUNY Graduate Center, and an Assistant Professor of English at the New York City College of Technology, CUNY.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "4364",
+      "target": "4259",
+      "title": "Visualizing NEH Open Data",
+      "names": [
+        "Hannah Aizenman",
+        "Jojo Karlin"
+      ],
+      "text": "The NEH Impact Index was created as part of a wider effort by Graduate Center Digital Initiatives to show why the NEH is worth standing up for. This effort has included visualizations by Hannah Aizenman and Tahir Butt and writing by Jojo Karlin . We encourage anyone wishing to address similar questions through open data to reach out to us on Twitter at @cunygcdi or @DigitalFellows or by email at gc.digitalfellows@gmail.com. You can also send me a message on Twitter.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19850",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? By Rachel Rakov",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19850",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Kelsey Chatlosh",
+        "Jojo Karlin"
+      ],
+      "text": "Note that this is an updated post from one originally written by Digital Fellow Jojo Karlin for the past spring 2018 semester here and updated by Kelsey Chatlosh in Fall 2018. Hand-drawn images or \"Jojo Doodles\" above and below are also by Jojo Karlin.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19847",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? By Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "3823",
+      "target": "3206",
+      "title": "Workshop Recap: The Lexicon of DH",
+      "names": [
+        "Mary Catherine Kinniburgh",
+        "Patrick Sweeney"
+      ],
+      "text": "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much applause (read her recap here , and a review from a participant). I am looking forward to reprising the workshop ( Thursday, September 29th at 6:30 in Room 6421 ) and want to use this blog post to make a few recommendations to people who are excited, annoyed, or overwhelmed by “digital humanities.” In the seemingly nebulous space of digital humanities, some basic terms can ground us tremendously.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "3823",
+      "target": "19831",
+      "title": "Upcoming Workshop (9/29): The Lexicon of DH",
+      "names": [
+        "Mary Catherine Kinniburgh",
+        "Patrick Sweeney"
+      ],
+      "text": "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much applause (read her recap here , and a review from a participant). I am looking forward to reprising the workshop ( Thursday, September 29th at 6:30 in Room 6421 ) and want to use this blog post to make a few recommendations to people who are excited, annoyed, or overwhelmed by “digital humanities.” In the seemingly nebulous space of digital humanities, some basic terms can ground us tremendously.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "19837",
+      "target": "3507",
+      "title": "Create Your (FREE) Website Using Github and Jekyll",
+      "names": [
+        "Keith Miyake"
+      ],
+      "text": "I wanted to take a moment (i.e. a brief blog post) to list a few of the reasons git version control is worth the effort it takes to learn. The mixed metaphor of git commands can often be confusing (forks? push? commit? branch? origin?), but when the individual parts start to fit the jobs they do, the power of the tool becomes more apparent. When I describe what I'm teaching to friends or my parents or, if I'm feeling ambitious or I succumb to her curiosity, to my 98 year old grandmother, I talk about the uses of a software that tracks your changes. I often spend a lot of time describing the necessity of fine grain version control that doesn't proliferate copies (final.doc, finalfinal.doc, reallytrulyfinal.doc, etc) . I talk about how GitHub enables collaboration and a degree of project management. I talk about how you can use GitHub to create a quick-and-dirty website, or, if you're me, a string of messy drafts of websites (using GitHub pages like Digital Fellow alum Keith Miyake , or using GitLab pages like Digital Fellow Tahir Butt). When I want to discuss Open Source software, I mention that GitHub is (according to a 2014 article ) the largest code host in the world. I talk about how following projects ( DH Box ! Manifold Scholarship (which uses GitHub in releases)!) can help ",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "5080",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Jojo Karlin"
+      ],
+      "text": "Note that this is an updated post from one originally written by Digital Fellow Jojo Karlin for the past spring 2018 semester here . Hand-drawn image above by Javier Otero Peña ( Javodibujitos ), and below by Jojo Karlin ( \"Jojo Doodles\") .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "5760",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "5760",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , and by Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "5760",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , and by Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19844",
+      "target": "19779",
+      "title": "Learning to Map with ArcGIS StoryMaps",
+      "names": [
+        "Kristen Hackett",
+        "Keith Miyake"
+      ],
+      "text": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19844",
+      "target": "19799",
+      "title": "Intro to Mapping with CartoDB",
+      "names": [
+        "Kristen Hackett",
+        "Keith Miyake"
+      ],
+      "text": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19844",
+      "target": "19843",
+      "title": "Getting Started with Social Explorer: A GC Resource for Spatializing Demographic Data, Part 1",
+      "names": [
+        "Kristen Hackett",
+        "Keith Miyake"
+      ],
+      "text": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19844",
+      "target": "4259",
+      "title": "Visualizing NEH Open Data",
+      "names": [
+        "Kristen Hackett",
+        "Keith Miyake"
+      ],
+      "text": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "19871",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19871",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This post by GC Digital Fellow Zachary Lloyd is updated from the post by GC Digital Fellows Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19871",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This post by GC Digital Fellow Zachary Lloyd is updated from the post by GC Digital Fellows Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6091",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6091",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This post by GC Digital Fellow Param Ajmera is updated from the post by GC Digital Fellows Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6091",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This post by GC Digital Fellow Param Ajmera is updated from the post by GC Digital Fellows Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6943",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6943",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is updated from the post by GC Digital Fellows Rebecca Krisel in fall 2023 , GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6943",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is updated from the post by GC Digital Fellows Rebecca Krisel in fall 2023 , GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "20216",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "20216",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "20216",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "20845",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "20845",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "22123",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "22123",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19866",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This updated post by GC Digital Fellow Connor French is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , by Kristen Hackett in fall of 2019, and by Olivia Ildefonso and Stefano Morello in fall of 2020 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19866",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Jojo Karlin"
+      ],
+      "text": "Note : This updated post by GC Digital Fellow Connor French is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , by Kristen Hackett in fall of 2019, and by Olivia Ildefonso and Stefano Morello in fall of 2020 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6446",
+      "target": "19745",
+      "title": "The lost art of spaghetti",
+      "names": [
+        "Micki Kaufman"
+      ],
+      "text": "I’m lucky to have grown up in a household where repairing things was standard procedure. My parents still use their electric oven that they bought in the mid-90’s, which still looks nearly brand new as a result of my dad’s annual ritual of pulling it out of the wall and cleaning down most of the removable components. I distinctly remember one weekend awhere I was given free rein to disassemble an old VCR machine and get a closer look for the first time at those cityscape circuit boards hidden inside the body of that typically bulky 90’s recording hardware. Micki Kaufman, a former fellow here at the GCDI, has also covered the childhood joys of tech-wrangling with much more compelling detail.",
+      "decision": "accepted named article-reference evidence; see reviewed ledger for exact author and target link"
+    },
+    {
+      "source": "19761",
+      "target": "19759",
+      "title": "3D Printing and Maker Culture",
+      "names": [
+        "Keith Miyake"
+      ],
+      "text": "With a library, colorful furniture, decorations, and a Makerbot Replicator 2, the GC Digital Scholarship Lab has become a hub of digital scholarship and maker culture . GC Digital Fellow Keith Miyake's 3D rendering of the CUNY Academic Commons logo is the most recent creation.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "6794",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6794",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "6794",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19875",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19875",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19875",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19881",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19881",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "19881",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "21235",
+      "target": "20620",
+      "title": "What is metadata, and why does it matter?",
+      "names": [
+        "Library of Congress"
+      ],
+      "text": "Metadata is a foundational element of many digital projects, from tagging posts on a blog, to categorizing resources, to describing archival materials. Metadata is the information that describes the data or content that comprise our digital projects – and it plays a powerful role in the shaping of our project's outcomes, such as how content is discovered, interpreted, and shared. In a previous Tagging the Tower blog post , I discussed how metadata reflects both the biases of the creators of widely used metadata standards (such as the Library of Congress), as well as the biases of individuals as they apply metadata in their projects. If you use a digital tool like our library catalog, it’s important to be aware of how these biases influence your ability to find resources. And if you are embarking on creating your own digital project, it is important to thoughtfully work towards creating transparent and ethical metadata for the resources you are describing. Fortunately, information workers – such as librarians, archivists, curators, and catalogers – have developed lots of resources that can guide us through the process of creating ethical metadata and descriptive language.",
+      "decision": "not accepted as article authorship: contextual mention, workshop/project credit, self-reference or link not attached to a named writer"
+    },
+    {
+      "source": "24691",
+      "target": "4456",
+      "title": "How do I solve [insert problem here] with Python?",
+      "names": [
+        "Rachel Rakov"
+      ],
+      "text": "How do I solve [insert problem here] with Python? by Rachel Rakov",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "24691",
+      "target": "4647",
+      "title": "What is GCDI? (Spring 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Sophie Bala",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Sophie Bala is revised and updated from the post by GC Digital Fellows Tuka Al-Sahlani in 2025 , Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    },
+    {
+      "source": "24691",
+      "target": "19847",
+      "title": "What is GCDI? (Fall 2018 Edition)",
+      "names": [
+        "Javier Otero Peña",
+        "Olivia Ildefonso",
+        "Kristen Hackett",
+        "Stefano Morello",
+        "Kelsey Chatlosh",
+        "Tuka Al-Sahlani",
+        "Rebecca Krisel",
+        "Zachary Lloyd",
+        "Param Ajmera",
+        "Sophie Bala",
+        "Jojo Karlin"
+      ],
+      "text": "Note: This post by GC Digital Fellow Sophie Bala is revised and updated from the post by GC Digital Fellows Tuka Al-Sahlani in 2025 , Rebecca Krisel in 2023 , Zachary Lloyd in 2022 , Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020 . Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018 , Javier Otero Peña in the spring of 2019 , and Kristen Hackett in fall of 2019 .",
+      "decision": "corroborating inherited reference; not counted as an independent confirmation"
+    }
+  ]
+}
