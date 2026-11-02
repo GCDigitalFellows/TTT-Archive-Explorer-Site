@@ -1,0 +1,386 @@
+{
+  "release": "2026-11-02-thematic-views",
+  "date": "2026-11-02",
+  "status": "Working research/examination companion; independent human approval and institutional endorsement not documented",
+  "maintainer": {
+    "name": "Ian G. Williams",
+    "email": "ian.williams52@gc.cuny.edu",
+    "github": "https://github.com/perlsdiver",
+    "evidence": "Public correction contact supplied by the requester on November 2, 2026; GitHub account perlsdiver subsequently supplied and authenticated.",
+    "turnaround": "No response-time commitment specified"
+  },
+  "decisions": {
+    "priority": "Research or examination use first",
+    "event_mode": "Deferred; not required for this research-first release",
+    "license": "Awaiting requester-specified licenses for newly created code and analysis; no license assigned by the agent",
+    "institutional_relationship": "Endorsement/official status not established; do not imply it"
+  },
+  "events": [
+    {
+      "id": "interpretation",
+      "date": "2026-11-01",
+      "status": "implemented",
+      "task": "Develop and integrate the source-linked interpretation",
+      "human": "Ian requested the interpretation, its website integration and framework-based attribution.",
+      "agent": "Codex selected 14 passages, checked them against the XML, proposed six themes and drafted the essay and source companion.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000032",
+        "0000033"
+      ],
+      "evidence": [
+        "archive_reading/source_evidence.json",
+        "archive_reading/interpretation_attribution.json"
+      ],
+      "limit": "The original selection was purposive, temporally uneven and not independently human-validated."
+    },
+    {
+      "id": "identity",
+      "date": "2026-11-01",
+      "status": "implemented",
+      "task": "Review and group duplicate author-name forms",
+      "human": "Ian requested identity review and confirmed Ian Williams / Ian G. Williams.",
+      "agent": "Codex screened 163 names, reviewed three candidate pairs and merged two supported pairs while preserving original credits.",
+      "credit_roles": [
+        "Validation",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000025",
+        "0000017"
+      ],
+      "evidence": [
+        "identity/review.json",
+        "identity/screening.json",
+        "identity/credit_crosswalk.csv"
+      ],
+      "limit": "Laura Kane / Laura Wildemann Kane is evidence-supported but not individually confirmed. The register has 161 grouped entries, not a verified census."
+    },
+    {
+      "id": "landing",
+      "date": "2026-11-01",
+      "status": "implemented",
+      "task": "Create the project overview and reading routes",
+      "human": "Ian requested a project-wide landing page.",
+      "agent": "Codex drafted the overview, derived scope counts, implemented routes and performed automated and browser checks.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000027",
+        "0000030",
+        "0000044"
+      ],
+      "evidence": [
+        "overview/page_fragment.html",
+        "overview/landing-preview.png"
+      ],
+      "limit": "Browser QA checks implementation; it is not a human usability study."
+    },
+    {
+      "id": "two-simulated-reviews",
+      "date": "2026-11-01",
+      "status": "completed AI review",
+      "task": "Run two audience-perspective sub-agent reviews",
+      "human": "Ian explicitly requested a partly informed insider and a first-time public perspective, then authorized implementation.",
+      "agent": "Two separate Codex sub-agents inspected site sources; the primary agent synthesized their critiques and cross-checked the missing-period count.",
+      "credit_roles": [
+        "Methodology",
+        "Supervision",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "reviews/2026-11-01-review-and-plan.md"
+      ],
+      "limit": "These were simulated AI perspectives, not human reviewers, user testing, contributor endorsement or independent human validation."
+    },
+    {
+      "id": "additional-simulation",
+      "date": "2026-11-02",
+      "status": "incorporated with verification limits",
+      "task": "Assess an external-model review of an earlier ZIP export",
+      "human": "Ian supplied TTT-Website-review.md and requested a revised plan, questions and continued implementation. Ian subsequently identified the producing model as Deepseek V4.1 Flash 1017, in the CAIL sandbox in OpenWebUI, reviewing a ZIP export of the previous iteration.",
+      "agent": "Deepseek V4.1 Flash 1017 produced the supplied five-persona review in the CAIL sandbox in OpenWebUI, according to Ian. Codex read that external critique, distinguished its stated manifest evidence from inferred claims, checked the current site sources and revised the backlog.",
+      "credit_roles": [
+        "Resources",
+        "Methodology",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000032",
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "reviews/additional_simulation_assessment.json"
+      ],
+      "limit": "The supplied review says it inspected only the manifest. Its May 2026 prepared date is reported as written, not independently established. It does not prove broken offline fetching, human coding, most-read analytics or a ten-topic primary model. The exact reviewed ZIP filename, hash and iteration identifier are not recorded; the current ZIP must not be substituted as its input.",
+      "external_review_provenance": {
+        "reported_by": "Ian G. Williams",
+        "reported_on": "2026-11-02",
+        "model_label_as_supplied": "Deepseek V4.1 Flash 1017",
+        "interface": "OpenWebUI",
+        "environment": "CAIL sandbox",
+        "input": "ZIP export of a previous iteration of the project",
+        "input_zip_filename": null,
+        "input_zip_sha256": null,
+        "input_iteration_identifier": null,
+        "output_document": "TTT-Website-review.md",
+        "verification": "Model/environment/input provenance supplied by the requester; no external session logs or exact input archive were inspected.",
+        "inspection_limit": "The review document itself reports manifest/directory inspection rather than individual HTML/CSV/JSON prose. This describes its stated evidence base, not the full capabilities of the model or CAIL sandbox.",
+        "task_boundary": "External model: supplied five-persona structural/heuristic critique. Codex and two Codex sub-agents: separate source-based simulations, synthesis, verification and implementation. Neither activity constitutes human user testing."
+      }
+    },
+    {
+      "id": "orientation-and-coverage",
+      "date": "2026-11-02",
+      "status": "implemented; HTTP browser and automated release checks passed",
+      "task": "Revise orientation, evidence status and roster coverage",
+      "human": "Ian prioritized research/examination use and supplied the public correction contact.",
+      "agent": "Codex checked institutional primary sources, revised terminology and disclosures, exposed signed-list coverage and provisional-credit counts, and retained unconfirmed institutional status.",
+      "credit_roles": [
+        "Project administration",
+        "Supervision",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000008",
+        "0000017",
+        "0000023",
+        "0000027",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "overview/page_fragment.html",
+        "interactive/roster_coverage.json",
+        "interactive/post_index.js",
+        "process/source_checks.json"
+      ],
+      "limit": "Unmatched authors are not classified as non-Fellows. Historical appointment lists and institutional endorsement still require human evidence."
+    },
+    {
+      "id": "expanded-reading",
+      "date": "2026-11-02",
+      "status": "implemented",
+      "task": "Test the interpretation against missing-period examples",
+      "human": "Ian authorized implementation of the reviewer recommendations.",
+      "agent": "Codex screened titles of the 98 local/unflagged posts dated 2018–2022, read five selected posts in full and added five literal export-verified passages. Claims now address earlier AI skepticism, governance, pandemic adaptation, code as thinking and repair politics.",
+      "credit_roles": [
+        "Methodology",
+        "Supervision"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000025",
+        "0000032",
+        "0000033",
+        "0000046"
+      ],
+      "evidence": [
+        "archive_reading/selection_revision.json",
+        "archive_reading/source_evidence.json"
+      ],
+      "limit": "Nineteen purposively selected sources do not establish saturation, representativeness or prevalence. No model was refitted; historic technical and legal source claims are not current advice."
+    },
+    {
+      "id": "journeys-and-support",
+      "date": "2026-11-02",
+      "status": "implemented; HTTP browser and automated release checks passed",
+      "task": "Create research-first entry, author lookup, methods/report routes and sharing",
+      "human": "Ian chose research/examination use over an event-first or hosted-public priority.",
+      "agent": "Codex implemented a root index entry, author-first search, grouped navigation, stable view links, worked chart guidance, saved-analysis labels, support pages and release documentation.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000027",
+        "0000030",
+        "0000031",
+        "0000044"
+      ],
+      "evidence": [
+        "README.md",
+        "index.html",
+        "METHODS_AND_DATA.html",
+        "FOR_REPORTS.html",
+        "interactive/navigation_core.js"
+      ],
+      "limit": "View links do not serialize research filters or particular random posts. Full NLP setup requires external dependencies and the original export. Full retraining runtime has not been benchmarked in this revision."
+    },
+    {
+      "id": "governance-and-checks",
+      "date": "2026-11-02",
+      "status": "implemented; remaining decisions explicit",
+      "task": "Update CRediT, GAIDeT, history, correction and reuse documentation",
+      "human": "Ian supplied contact details; licenses remain for Ian to specify. No response-time commitment was made.",
+      "agent": "Codex mapped actual tasks to canonical taxonomy terms, retained source-author credits, documented unknowns, created the correction template and runs preservation/browser tests with results recorded in process/validation.json.",
+      "credit_roles": [
+        "Resources",
+        "Project administration",
+        "Supervision",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000028",
+        "0000030",
+        "0000031",
+        "0000040",
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "credits/process_profile.json",
+        "process/validation.json",
+        "CORRECTIONS.md",
+        "REUSE_AND_CITATION.html",
+        "ACCESSIBILITY.html"
+      ],
+      "limit": "No legal license, accessibility certification, ethics approval, human user test or contributor-confirmed role agreement is implied."
+    },
+    {
+      "id": "external-review-provenance",
+      "date": "2026-11-02",
+      "status": "recorded and propagated",
+      "task": "Clarify the external review model, environment and prior-version input",
+      "human": "Ian identified Deepseek V4.1 Flash 1017, CAIL sandbox, OpenWebUI and the previous-iteration ZIP as the review provenance.",
+      "agent": "Codex updated the assessment, GAIDeT tool/task attribution, methods explanation, interpretation disclosure, contribution profile and work log. No model output or source-post credit was changed.",
+      "credit_roles": [
+        "Resources",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/additional_simulation_assessment.json",
+        "credits/process_profile.json"
+      ],
+      "limit": "User-reported provenance is distinguished from independent inspection of the external session or exact reviewed ZIP."
+    },
+    {
+      "id": "thematic-visualizations",
+      "date": "2026-11-02",
+      "status": "implemented; numerical, preservation and HTTP browser checks passed",
+      "task": "Add thematic heatmaps, co-occurrence, writer bars and theme-aware index/network filtering",
+      "human": "Ian requested revision of the visualizations to incorporate themes.",
+      "agent": "Codex distinguished eight saved dictionary categories from six essay themes and MALLET topics; reused the original flags, joined the 19 selected source groupings, implemented interactive year/theme and co-occurrence tables, writer bars, evidence lists and exports, and integrated title/tag theme filtering into the post index and author–year network.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000023",
+        "0000025",
+        "0000026",
+        "0000027",
+        "0000028",
+        "0000030",
+        "0000031",
+        "0000044",
+        "0000046"
+      ],
+      "evidence": [
+        "themes/METHODOLOGY.md",
+        "themes/theme_data.json",
+        "themes/annual_theme_counts.csv",
+        "themes/build_audit.json",
+        "themes/test_themes.js",
+        "process/validation.json",
+        "themes/theme-heatmap-preview.png"
+      ],
+      "limit": "No new corpus-wide semantic coding, model refit or independent human validation. Dictionary matches are signals; the 19-post essay layer cannot estimate archive prevalence. Co-occurrence is withheld for the non-exhaustively coded essay sample. Publication credits do not prove fellowship membership."
+    },
+    {
+      "id": "private-github-repository",
+      "date": "2026-11-02",
+      "status": "implemented; private visibility and initial main-branch push verified",
+      "task": "Rename the project and establish its private organization repository",
+      "human": "Ian named the project Tagging The Tower Archives Explorer and authorized creation of GCDigitalFellows/TTT-Archive-Explorer as a private repository, followed by pushing the project. The authenticated account is perlsdiver.",
+      "agent": "Codex prepared shared project metadata, renamed the current explorer and documentation, corrected the profile link, excluded local dependencies/caches/bundles from Git, and prepared verification before repository creation. Final repository status is recorded after GitHub confirmation. GitHub confirmed PRIVATE visibility and ADMIN access to the new repository. Codex pushed the initial source commit and confirmed that GitHub main matched the local commit. Two failed HTTP uploads preceded a successful per-command transport compatibility retry; no global configuration or TLS verification was changed.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration",
+        "Resources",
+        "Supervision"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000025",
+        "0000031",
+        "0000044"
+      ],
+      "evidence": [
+        "project.json",
+        "README.md",
+        "process/validation.json",
+        "process/repository_setup.json"
+      ],
+      "limit": "Private repository hosting does not establish institutional endorsement or a license for code, analysis or source texts. No public website deployment is authorized by this repository request."
+    }
+  ],
+  "remaining": [
+    {
+      "task": "Assign licenses for new code and analysis",
+      "status": "awaiting requester choice"
+    },
+    {
+      "task": "Verify institutional relationship, historical editorial policy and missing appointment records",
+      "status": "requires stakeholder evidence"
+    },
+    {
+      "task": "Real participant usability testing and contributor review",
+      "status": "planned; no participants recruited or contacted"
+    },
+    {
+      "task": "Full field-by-field data-dictionary annotation and all-chart PNG exports",
+      "status": "schema index available; remaining documentation/export work tracked"
+    },
+    {
+      "task": "Event/kiosk mode, idle reset and public URL/QR sharing",
+      "status": "deferred by research/examination priority"
+    },
+    {
+      "task": "Public hosting",
+      "status": "Website hosting not requested; private source repository requested separately."
+    },
+    {
+      "task": "Direct file-mode and narrow-screen browser verification",
+      "status": "not verified with the current browser tool; see validation limits"
+    }
+  ],
+  "project_name": "Tagging The Tower Archives Explorer",
+  "repository": {
+    "url": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer",
+    "visibility": "private",
+    "github_account": "perlsdiver",
+    "source_status": "source pushed to main; initial local and remote commit matched"
+  }
+}

@@ -1,0 +1,12 @@
+/* Inherit the active annual design's colors and fonts; keep the essay legible. */
+.archive-reading { max-width: 920px; margin-inline: auto; }
+.reading-lead { font-size: 1.3em; line-height: 1.55; max-width: 65ch; }
+.reading-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-block: 24px; }
+.reading-map a { padding: 14px; border: 1px solid var(--rule); border-radius: 6px; background: var(--soft); }
+.reading-theme { border-top: 2px solid var(--rule); padding-block: 28px; scroll-margin-top: 20px; }
+.reading-theme h3 { font-size: 1.3em; }
+.reading-note { padding: 20px; background: var(--soft); border-inline-start: 4px solid var(--series); margin-block: 24px; }
+.reading-source { border: 1px solid var(--rule); padding: 16px; margin-block: 12px; border-radius: 6px; overflow-wrap: anywhere; }
+.reading-source summary { cursor: pointer; padding-block: 8px; }
+.reading-source blockquote { margin: 12px 0; padding-inline-start: 16px; border-inline-start: 3px solid var(--rule); }
+@media (max-width: 600px) { .reading-map { grid-template-columns: 1fr; } .reading-note { padding: 14px; } }

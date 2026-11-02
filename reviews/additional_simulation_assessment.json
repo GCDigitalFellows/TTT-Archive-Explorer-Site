@@ -1,0 +1,47 @@
+{
+  "received": "2026-11-02",
+  "source_filename": "TTT-Website-review.md",
+  "source_sha256": "5d58a4920fbfe3076a1d1d2f644543acd78e427b6dc61879aab8a71305025afb",
+  "prepared_date_as_written": "May 2026; not independently verified",
+  "evidence_scope": "The supplied review reports inspecting a package manifest, not individual document prose. Persona responses are simulations, not human observations.",
+  "accepted": [
+    "Author-first entry and traceable identity decisions",
+    "Package root index and README",
+    "Research/report/reuse routes",
+    "Plain-language definitions and offline QA",
+    "Current-versus-historical evidence labeling"
+  ],
+  "corrected_or_qualified": [
+    "The existing app embeds JSON and has no runtime fetch of explorer_data.json; offline behavior must be tested rather than presumed broken.",
+    "The primary model is k=8 seed42; k=10 is an alternative with higher in-sample coherence, not the selected primary model.",
+    "The publication graph is a deterministic bipartite graph with a legend and table, not an inspected force-layout hairball.",
+    "The site already has credit and identity explanations; the revision improves their entry paths rather than inventing them from scratch.",
+    "A theme_coding or interpretation_review filename does not establish independent human coding.",
+    "No readership analytics support a most-read post claim.",
+    "The preserved before/ snapshot must remain byte-stable for reproducibility; label it through current documentation, not by renaming/editing its contents.",
+    "Licenses cannot be assigned by inference; the requester will specify them."
+  ],
+  "user_decisions": {
+    "priority": "Research or examination use first",
+    "correction_contact": "Ian G. Williams; ian.williams52@gc.cuny.edu; https://github.com/perldiver",
+    "response_time": "not specified; none promised",
+    "license": "requester will specify; pending"
+  },
+  "implementation_note": "No event-first kiosk, automatic idle reset, QR destination, hosting, readership metric or human-test claim is introduced.",
+  "external_review_provenance": {
+    "reported_by": "Ian G. Williams",
+    "reported_on": "2026-11-02",
+    "model_label_as_supplied": "Deepseek V4.1 Flash 1017",
+    "interface": "OpenWebUI",
+    "environment": "CAIL sandbox",
+    "input": "ZIP export of a previous iteration of the project",
+    "input_zip_filename": null,
+    "input_zip_sha256": null,
+    "input_iteration_identifier": null,
+    "output_document": "TTT-Website-review.md",
+    "verification": "Model/environment/input provenance supplied by the requester; no external session logs or exact input archive were inspected.",
+    "inspection_limit": "The review document itself reports manifest/directory inspection rather than individual HTML/CSV/JSON prose. This describes its stated evidence base, not the full capabilities of the model or CAIL sandbox.",
+    "task_boundary": "External model: supplied five-persona structural/heuristic critique. Codex and two Codex sub-agents: separate source-based simulations, synthesis, verification and implementation. Neither activity constitutes human user testing."
+  },
+  "iteration_scope": "Critique of the earlier ZIP export, not a fresh inspection of the current rebuilt website."
+}

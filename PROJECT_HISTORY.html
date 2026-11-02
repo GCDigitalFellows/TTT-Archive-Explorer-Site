@@ -1,0 +1,737 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Project history & methodology · Tagging The Tower Archives Explorer</title><style>/* The standalone page supplies neutral defaults; the embedded tab inherits the
+   explorer's annual theme. Selectors stay within this page wherever possible. */
+.credits-standalone {
+  --paper: #f4f1e8;
+  --surface: #fffefa;
+  --ink: #24382b;
+  --quiet: #505a51;
+  --rule: #868d7e;
+  --series: #315c45;
+  --radius: 12px;
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    17px/1.65 system-ui,
+    sans-serif;
+}
+.credits-standalone main {
+  max-width: 1160px;
+  margin: auto;
+  padding: clamp(18px, 4vw, 56px);
+}
+.credits-standalone a {
+  color: var(--series);
+  text-underline-offset: 3px;
+}
+.credits-standalone h1 {
+  font:
+    700 clamp(2.2rem, 5vw, 4.3rem) / 1.1 Georgia,
+    serif;
+}
+.credits-standalone h3 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+}
+.credits-standalone h4 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.credits-standalone .secondary {
+  color: var(--quiet);
+  font-size: 0.93rem;
+}
+.credits-standalone .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.credits-standalone label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.credits-standalone input,
+.credits-standalone select,
+.credits-standalone button {
+  box-sizing: border-box;
+  font: inherit;
+  min-height: 44px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.6rem;
+  max-width: 100%;
+}
+.credits-standalone button,
+.credits-page summary {
+  cursor: pointer;
+}
+.credits-standalone :focus-visible {
+  outline: 3px solid var(--series);
+  outline-offset: 3px;
+}
+.credits-standalone [hidden],
+.credits-page [hidden] {
+  display: none !important;
+}
+.credits-page {
+  overflow-wrap: anywhere;
+}
+.credits-hero {
+  padding: 2rem 0 1rem;
+}
+.credits-lead {
+  max-width: 60ch;
+  font-size: 1.25rem;
+}
+.credits-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.credits-stat-grid p {
+  margin: 0;
+  border-top: 2px solid var(--series);
+  padding: 1rem 0;
+}
+.credits-stat-grid strong {
+  display: block;
+  font:
+    700 2.7rem/1.1 Georgia,
+    serif;
+  margin-bottom: 0.6rem;
+}
+.credits-stat-grid span {
+  display: block;
+  max-width: 25ch;
+}
+.credits-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  padding: 1rem 0;
+  border-block: 1px solid var(--rule);
+  margin-bottom: 2rem;
+}
+.credits-section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+.credits-note {
+  padding: 1.3rem;
+  margin: 1.3rem 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+}
+.credits-table {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.credits-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 850px;
+  font-size: 0.95rem;
+}
+.credits-table caption {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.credits-table th,
+.credits-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+.credits-table th {
+  background: var(--surface);
+}
+.credits-table td:nth-child(3),
+.credits-table td:nth-child(4) {
+  min-width: 22ch;
+}
+.credits-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.credits-controls label {
+  flex: 1 1 250px;
+}
+.credits-people {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.credit-person {
+  padding: 1.3rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+}
+.credit-person h4 {
+  margin-top: 0;
+}
+.credit-person ul {
+  padding-left: 1.2rem;
+}
+.credit-person li {
+  margin: 1.2rem 0;
+}
+.credit-person blockquote {
+  margin: 1rem 0;
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--series);
+}
+.credits-process-list {
+  padding-left: 1.4rem;
+}
+.credits-process-list li {
+  margin: 1rem 0;
+}
+@media (max-width: 700px) {
+  .credits-people {
+    grid-template-columns: 1fr;
+  }
+  .credits-stat-grid {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+  .credits-stat-grid p {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  .credits-stat-grid strong {
+    min-width: 100px;
+  }
+}
+
+/* The history tab inherits the selected annual theme. Its standalone companion
+   uses the credits page's neutral reading defaults; no external assets load. */
+.history-page {
+  overflow-wrap: anywhere;
+}
+.history-hero {
+  padding: 2rem 0 1rem;
+}
+.history-lead {
+  font-size: 1.3rem;
+  max-width: 62ch;
+}
+.history-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+.history-stat-grid p {
+  border-top: 2px solid var(--series);
+  padding-top: 1rem;
+}
+.history-stat-grid strong {
+  display: block;
+  font:
+    700 clamp(2rem, 4vw, 3rem) / 1.2 Georgia,
+    serif;
+  margin-bottom: 0.5rem;
+}
+.history-stat-grid span {
+  display: block;
+  max-width: 28ch;
+}
+.history-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  border-block: 1px solid var(--rule);
+  padding: 1.1rem 0;
+  margin: 1rem 0 2rem;
+}
+.history-section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+.history-note {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+  padding: 1.3rem;
+  margin: 1.3rem 0;
+}
+.history-method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.history-method-grid .history-note {
+  margin: 0;
+}
+.history-stage {
+  margin: 1.5rem 0 2rem;
+  padding: 1.6rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+}
+.history-stage h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+.history-stage .history-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.6rem;
+  min-height: 2.6rem;
+  border: 2px solid var(--series);
+  border-radius: 50%;
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+.history-stage ul {
+  padding-left: 1.3rem;
+}
+.history-stage li {
+  margin: 0.8rem 0;
+}
+.history-prompt {
+  margin: 1.5rem 0;
+  padding: 1.4rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+  scroll-margin-top: 1rem;
+}
+.history-prompt blockquote {
+  border-left: 3px solid var(--series);
+  padding-left: 1.1rem;
+  margin: 1rem 0;
+  white-space: pre-wrap;
+}
+.history-artifact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.3rem;
+  margin: 1rem 0;
+}
+.history-page summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .history-method-grid,
+  .history-stat-grid {
+    grid-template-columns: 1fr;
+  }
+  .history-stat-grid {
+    gap: 0;
+  }
+  .history-stage {
+    padding: 1rem;
+  }
+}
+@media print {
+  .history-page details {
+    display: block;
+  }
+  .history-stage,
+  .history-prompt {
+    break-inside: avoid;
+  }
+}
+</style></head><body class="credits-standalone history-standalone"><main><a href="interactive_explorer.html">← Return to the explorer</a><article class="history-page" aria-labelledby="history-heading">
+  <header class="history-hero">
+    <p class="eyebrow">From finding posts to tracing evidence</p>
+    <h1 id="history-heading">How this project evolved</h1>
+    <p class="history-lead">
+      An index became an evidence trail. Reader feedback reshaped the data, the
+      interface, and how contributions and responsibility are documented.
+    </p>
+    <p>
+      This account begins with Ian G. Williams’s request for a searchable index
+      of <em>Tagging the Tower</em> posts. It follows the author-credit
+      correction, the GAIDeT/CRediT explanation, and this history page. Recorded
+      through November 1, 2026.
+    </p>
+    <div class="history-stat-grid">
+      <p><strong>430</strong><span>records made discoverable</span></p>
+      <p>
+        <strong>60 → 70</strong><span>local credited names after review</span>
+      </p>
+      <p>
+        <strong>163</strong><span>names in the original broader register</span>
+      </p>
+    </div>
+  </header>
+  <nav class="history-jump" aria-label="Project history sections">
+    <a href="#history-evolution">The evolution</a
+    ><a href="#history-methods">Methodological choices</a
+    ><a href="#history-counts">What the counts mean</a
+    ><a href="#history-prompts">Read the prompts</a
+    ><a href="#history-evidence">Evidence and checks</a>
+  </nav>
+  <section class="history-note">
+    <h3>The starting point</h3>
+    <p>
+      The explorer already had interactive analytical views, annual design
+      presets, a random-post reader, and access to saved NLTK/MALLET profiles.
+      Those features are background here. The index request added a new purpose:
+      help people discover the archive by year, author and topic, and connect
+      that browsing to the evidence underneath.
+    </p>
+    <p>
+      Ian supplied the objectives and critical feedback. The agent proposed
+      implementation details, generated and ran code, drafted explanations, and
+      performed automated and browser checks. The
+      <a href="CREDITS_AND_PROCESS.html">attribution-and-process page</a>
+      explains those contributions and the limits of established human review.
+    </p>
+  </section>
+  <section class="work-log"><h3>Current release and work log</h3><p>Release 2026-11-02-thematic-views · Working research/examination companion; independent human approval and institutional endorsement not documented.</p><p>Two Codex sub-agent simulations and an external five-persona review informed this revision. Ian identifies the external reviewer as Deepseek V4.1 Flash 1017 in the CAIL sandbox in OpenWebUI, using a ZIP of a previous iteration; the exact archive is not recorded. They are not human user research. Source checks, browser QA and human contribution confirmation are distinct activities.</p><article id="work-interpretation"><h3>Develop and integrate the source-linked interpretation</h3><p>2026-11-01 · implemented</p><p><strong>Human direction:</strong> Ian requested the interpretation, its website integration and framework-based attribution.</p><p><strong>AI execution:</strong> Codex selected 14 passages, checked them against the XML, proposed six themes and drafted the essay and source companion.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Conceptualization; Methodology; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000030">0000030</a>, <a href="https://w3id.org/gaidet/0000032">0000032</a>, <a href="https://w3id.org/gaidet/0000033">0000033</a>.</p><p><a href="archive_reading/source_evidence.json">archive_reading/source_evidence.json</a> · <a href="archive_reading/interpretation_attribution.json">archive_reading/interpretation_attribution.json</a></p></details><p><strong>Limit:</strong> The original selection was purposive, temporally uneven and not independently human-validated.</p></article><article id="work-identity"><h3>Review and group duplicate author-name forms</h3><p>2026-11-01 · implemented</p><p><strong>Human direction:</strong> Ian requested identity review and confirmed Ian Williams / Ian G. Williams.</p><p><strong>AI execution:</strong> Codex screened 163 names, reviewed three candidate pairs and merged two supported pairs while preserving original credits.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Validation; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000017">0000017</a>.</p><p><a href="identity/review.json">identity/review.json</a> · <a href="identity/screening.json">identity/screening.json</a> · <a href="identity/credit_crosswalk.csv">identity/credit_crosswalk.csv</a></p></details><p><strong>Limit:</strong> Laura Kane / Laura Wildemann Kane is evidence-supported but not individually confirmed. The register has 161 grouped entries, not a verified census.</p></article><article id="work-landing"><h3>Create the project overview and reading routes</h3><p>2026-11-01 · implemented</p><p><strong>Human direction:</strong> Ian requested a project-wide landing page.</p><p><strong>AI execution:</strong> Codex drafted the overview, derived scope counts, implemented routes and performed automated and browser checks.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Conceptualization; Project administration.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000017">0000017</a>, <a href="https://w3id.org/gaidet/0000027">0000027</a>, <a href="https://w3id.org/gaidet/0000030">0000030</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>.</p><p><a href="overview/page_fragment.html">overview/page_fragment.html</a> · <a href="overview/landing-preview.png">overview/landing-preview.png</a></p></details><p><strong>Limit:</strong> Browser QA checks implementation; it is not a human usability study.</p></article><article id="work-two-simulated-reviews"><h3>Run two audience-perspective sub-agent reviews</h3><p>2026-11-01 · completed AI review</p><p><strong>Human direction:</strong> Ian explicitly requested a partly informed insider and a first-time public perspective, then authorized implementation.</p><p><strong>AI execution:</strong> Two separate Codex sub-agents inspected site sources; the primary agent synthesized their critiques and cross-checked the missing-period count.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Methodology; Supervision; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000044">0000044</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>, <a href="https://w3id.org/gaidet/0000047">0000047</a>.</p><p><a href="reviews/2026-11-01-review-and-plan.md">reviews/2026-11-01-review-and-plan.md</a></p></details><p><strong>Limit:</strong> These were simulated AI perspectives, not human reviewers, user testing, contributor endorsement or independent human validation.</p></article><article id="work-additional-simulation"><h3>Assess an external-model review of an earlier ZIP export</h3><p>2026-11-02 · incorporated with verification limits</p><p><strong>Human direction:</strong> Ian supplied TTT-Website-review.md and requested a revised plan, questions and continued implementation. Ian subsequently identified the producing model as Deepseek V4.1 Flash 1017, in the CAIL sandbox in OpenWebUI, reviewing a ZIP export of the previous iteration.</p><p><strong>AI execution:</strong> Deepseek V4.1 Flash 1017 produced the supplied five-persona review in the CAIL sandbox in OpenWebUI, according to Ian. Codex read that external critique, distinguished its stated manifest evidence from inferred claims, checked the current site sources and revised the backlog.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Resources; Methodology; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000032">0000032</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>, <a href="https://w3id.org/gaidet/0000047">0000047</a>.</p><p><a href="reviews/additional_simulation_assessment.json">reviews/additional_simulation_assessment.json</a></p></details><p><strong>Limit:</strong> The supplied review says it inspected only the manifest. Its May 2026 prepared date is reported as written, not independently established. It does not prove broken offline fetching, human coding, most-read analytics or a ten-topic primary model. The exact reviewed ZIP filename, hash and iteration identifier are not recorded; the current ZIP must not be substituted as its input.</p></article><article id="work-orientation-and-coverage"><h3>Revise orientation, evidence status and roster coverage</h3><p>2026-11-02 · implemented; HTTP browser and automated release checks passed</p><p><strong>Human direction:</strong> Ian prioritized research/examination use and supplied the public correction contact.</p><p><strong>AI execution:</strong> Codex checked institutional primary sources, revised terminology and disclosures, exposed signed-list coverage and provisional-credit counts, and retained unconfirmed institutional status.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Project administration; Supervision; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000008">0000008</a>, <a href="https://w3id.org/gaidet/0000017">0000017</a>, <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000027">0000027</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>.</p><p><a href="overview/page_fragment.html">overview/page_fragment.html</a> · <a href="interactive/roster_coverage.json">interactive/roster_coverage.json</a> · <a href="interactive/post_index.js">interactive/post_index.js</a> · <a href="process/source_checks.json">process/source_checks.json</a></p></details><p><strong>Limit:</strong> Unmatched authors are not classified as non-Fellows. Historical appointment lists and institutional endorsement still require human evidence.</p></article><article id="work-expanded-reading"><h3>Test the interpretation against missing-period examples</h3><p>2026-11-02 · implemented</p><p><strong>Human direction:</strong> Ian authorized implementation of the reviewer recommendations.</p><p><strong>AI execution:</strong> Codex screened titles of the 98 local/unflagged posts dated 2018–2022, read five selected posts in full and added five literal export-verified passages. Claims now address earlier AI skepticism, governance, pandemic adaptation, code as thinking and repair politics.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Methodology; Supervision.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000032">0000032</a>, <a href="https://w3id.org/gaidet/0000033">0000033</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>.</p><p><a href="archive_reading/selection_revision.json">archive_reading/selection_revision.json</a> · <a href="archive_reading/source_evidence.json">archive_reading/source_evidence.json</a></p></details><p><strong>Limit:</strong> Nineteen purposively selected sources do not establish saturation, representativeness or prevalence. No model was refitted; historic technical and legal source claims are not current advice.</p></article><article id="work-journeys-and-support"><h3>Create research-first entry, author lookup, methods/report routes and sharing</h3><p>2026-11-02 · implemented; HTTP browser and automated release checks passed</p><p><strong>Human direction:</strong> Ian chose research/examination use over an event-first or hosted-public priority.</p><p><strong>AI execution:</strong> Codex implemented a root index entry, author-first search, grouped navigation, stable view links, worked chart guidance, saved-analysis labels, support pages and release documentation.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Conceptualization; Project administration.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000017">0000017</a>, <a href="https://w3id.org/gaidet/0000019">0000019</a>, <a href="https://w3id.org/gaidet/0000027">0000027</a>, <a href="https://w3id.org/gaidet/0000030">0000030</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>.</p><p><a href="README.md">README.md</a> · <a href="index.html">index.html</a> · <a href="METHODS_AND_DATA.html">METHODS_AND_DATA.html</a> · <a href="FOR_REPORTS.html">FOR_REPORTS.html</a> · <a href="interactive/navigation_core.js">interactive/navigation_core.js</a></p></details><p><strong>Limit:</strong> View links do not serialize research filters or particular random posts. Full NLP setup requires external dependencies and the original export. Full retraining runtime has not been benchmarked in this revision.</p></article><article id="work-governance-and-checks"><h3>Update CRediT, GAIDeT, history, correction and reuse documentation</h3><p>2026-11-02 · implemented; remaining decisions explicit</p><p><strong>Human direction:</strong> Ian supplied contact details; licenses remain for Ian to specify. No response-time commitment was made.</p><p><strong>AI execution:</strong> Codex mapped actual tasks to canonical taxonomy terms, retained source-author credits, documented unknowns, created the correction template and runs preservation/browser tests with results recorded in process/validation.json.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Resources; Project administration; Supervision; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000028">0000028</a>, <a href="https://w3id.org/gaidet/0000030">0000030</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>, <a href="https://w3id.org/gaidet/0000040">0000040</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>, <a href="https://w3id.org/gaidet/0000047">0000047</a>.</p><p><a href="credits/process_profile.json">credits/process_profile.json</a> · <a href="process/validation.json">process/validation.json</a> · <a href="CORRECTIONS.md">CORRECTIONS.md</a> · <a href="REUSE_AND_CITATION.html">REUSE_AND_CITATION.html</a> · <a href="ACCESSIBILITY.html">ACCESSIBILITY.html</a></p></details><p><strong>Limit:</strong> No legal license, accessibility certification, ethics approval, human user test or contributor-confirmed role agreement is implied.</p></article><article id="work-external-review-provenance"><h3>Clarify the external review model, environment and prior-version input</h3><p>2026-11-02 · recorded and propagated</p><p><strong>Human direction:</strong> Ian identified Deepseek V4.1 Flash 1017, CAIL sandbox, OpenWebUI and the previous-iteration ZIP as the review provenance.</p><p><strong>AI execution:</strong> Codex updated the assessment, GAIDeT tool/task attribution, methods explanation, interpretation disclosure, contribution profile and work log. No model output or source-post credit was changed.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Resources; Writing – review &amp; editing.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>.</p><p><a href="reviews/additional_simulation_assessment.json">reviews/additional_simulation_assessment.json</a> · <a href="credits/process_profile.json">credits/process_profile.json</a></p></details><p><strong>Limit:</strong> User-reported provenance is distinguished from independent inspection of the external session or exact reviewed ZIP.</p></article><article id="work-thematic-visualizations"><h3>Add thematic heatmaps, co-occurrence, writer bars and theme-aware index/network filtering</h3><p>2026-11-02 · implemented; numerical, preservation and HTTP browser checks passed</p><p><strong>Human direction:</strong> Ian requested revision of the visualizations to incorporate themes.</p><p><strong>AI execution:</strong> Codex distinguished eight saved dictionary categories from six essay themes and MALLET topics; reused the original flags, joined the 19 selected source groupings, implemented interactive year/theme and co-occurrence tables, writer bars, evidence lists and exports, and integrated title/tag theme filtering into the post index and author–year network.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Conceptualization; Methodology; Project administration.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000017">0000017</a>, <a href="https://w3id.org/gaidet/0000019">0000019</a>, <a href="https://w3id.org/gaidet/0000023">0000023</a>, <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000026">0000026</a>, <a href="https://w3id.org/gaidet/0000027">0000027</a>, <a href="https://w3id.org/gaidet/0000028">0000028</a>, <a href="https://w3id.org/gaidet/0000030">0000030</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>, <a href="https://w3id.org/gaidet/0000046">0000046</a>.</p><p><a href="themes/METHODOLOGY.md">themes/METHODOLOGY.md</a> · <a href="themes/theme_data.json">themes/theme_data.json</a> · <a href="themes/annual_theme_counts.csv">themes/annual_theme_counts.csv</a> · <a href="themes/build_audit.json">themes/build_audit.json</a> · <a href="themes/test_themes.js">themes/test_themes.js</a> · <a href="process/validation.json">process/validation.json</a> · <a href="themes/theme-heatmap-preview.png">themes/theme-heatmap-preview.png</a></p></details><p><strong>Limit:</strong> No new corpus-wide semantic coding, model refit or independent human validation. Dictionary matches are signals; the 19-post essay layer cannot estimate archive prevalence. Co-occurrence is withheld for the non-exhaustively coded essay sample. Publication credits do not prove fellowship membership.</p></article><article id="work-private-github-repository"><h3>Rename the project and establish its private organization repository</h3><p>2026-11-02 · implemented; private visibility and initial main-branch push verified</p><p><strong>Human direction:</strong> Ian named the project Tagging The Tower Archives Explorer and authorized creation of GCDigitalFellows/TTT-Archive-Explorer as a private repository, followed by pushing the project. The authenticated account is perlsdiver.</p><p><strong>AI execution:</strong> Codex prepared shared project metadata, renamed the current explorer and documentation, corrected the profile link, excluded local dependencies/caches/bundles from Git, and prepared verification before repository creation. Final repository status is recorded after GitHub confirmation. GitHub confirmed PRIVATE visibility and ADMIN access to the new repository. Codex pushed the initial source commit and confirmed that GitHub main matched the local commit. Two failed HTTP uploads preceded a successful per-command transport compatibility retry; no global configuration or TLS verification was changed.</p><details><summary>Contribution mapping and evidence</summary><p>Documented human project roles (CRediT): Conceptualization; Project administration; Resources; Supervision.</p><p>Delegated task IDs (GAIDeT): <a href="https://w3id.org/gaidet/0000017">0000017</a>, <a href="https://w3id.org/gaidet/0000019">0000019</a>, <a href="https://w3id.org/gaidet/0000025">0000025</a>, <a href="https://w3id.org/gaidet/0000031">0000031</a>, <a href="https://w3id.org/gaidet/0000044">0000044</a>.</p><p><a href="project.json">project.json</a> · <a href="README.md">README.md</a> · <a href="process/validation.json">process/validation.json</a> · <a href="process/repository_setup.json">process/repository_setup.json</a></p></details><p><strong>Limit:</strong> Private repository hosting does not establish institutional endorsement or a license for code, analysis or source texts. No public website deployment is authorized by this repository request.</p></article><h3>Remaining decisions and work</h3><ul><li>Assign licenses for new code and analysis — awaiting requester choice</li><li>Verify institutional relationship, historical editorial policy and missing appointment records — requires stakeholder evidence</li><li>Real participant usability testing and contributor review — planned; no participants recruited or contacted</li><li>Full field-by-field data-dictionary annotation and all-chart PNG exports — schema index available; remaining documentation/export work tracked</li><li>Event/kiosk mode, idle reset and public URL/QR sharing — deferred by research/examination priority</li><li>Public hosting — Website hosting not requested; private source repository requested separately.</li><li>Direct file-mode and narrow-screen browser verification — not verified with the current browser tool; see validation limits</li></ul><p><a href="process/work_log.json">Machine-readable work log</a> · <a href="process/validation.json">Release checks</a> · <a href="reviews/revision_plan.json">Revised plan and decisions</a> · <a href="CORRECTIONS.md">Correction template and contact</a></p></section>
+  <section id="history-evolution" class="history-section">
+    <p class="eyebrow">The first four stages, preserved as a historical record</p>
+    <h3>Requests, decisions, and revisions</h3>
+    <div class="history-timeline"><section class="history-stage" id="history-stage-index">
+              <p class="eyebrow"><span class="history-number">01</span>Project evolution</p>
+              <h4>Make the archive discoverable</h4>
+              <p><strong>The question:</strong> How can a reader find posts by year, writer, or analyzed topic, and see who published across years?</p>
+              <p>The post index brought all 430 category records into one searchable view, with year, credited-name, status, post-type and topic controls. Results could be organized by year, credited name or strongest topic, and exported as CSV. A two-column author–year network connected published local writing to its academic years.</p>
+              <p><a href="#history-prompt-index">Read the exact request ↓</a></p>
+              <details>
+                <summary>Method and implementation choices</summary>
+                <ul><li>Search published reading-copy text as well as titles, tags and recorded names. Keep draft bodies out of the distributable page and show their metadata with a draft label.</li><li>Use the saved primary MALLET model (8 topics, seed 42). Topic filtering accepts every post meeting the selected weight threshold; topic grouping uses only the strongest weight as a browsing convenience.</li><li>Count one author–year edge credit per distinct credited writer on each published local post. Exclude curated/source-linked records and drafts from the network while retaining their labeled credits in the index. An edge is a publication credit, not evidence of fellowship membership or collaboration.</li><li>Keep index choices independent of the analysis tabs, so browsing does not silently change the other charts.</li></ul>
+              </details>
+              <p><strong>What the evidence shows:</strong> The initial full network contained 60 credited local names, but its default display showed only the 20 most prolific in the selection. This display limit and incomplete body-credit extraction were separate issues.</p>
+              <p><strong>How it was checked:</strong> Population-boundary tests checked 430 records, 421 published posts, nine drafts, topic thresholds, and collective-author edge counts. Browser checks covered search, node selection, grouping, pagination, downloads and narrow layouts.</p>
+              <div class="history-artifact-links"><a href="INTERACTIVE_GUIDE.html">Index and network guide</a><a href="interactive/index_validation.json">Initial browser-check record</a></div>
+            </section>
+<section class="history-stage" id="history-stage-attribution-correction">
+              <p class="eyebrow"><span class="history-number">02</span>Project evolution</p>
+              <h4>Let the post text correct the metadata</h4>
+              <p><strong>The question:</strong> Are all writers represented when a posting account differs from the person named in the article?</p>
+              <p>Ian identified missing authors and asked for the opening sentences and paragraphs to be checked. The review recovered plain “By…” bylines, guest introductions, and signed contributions inside collective articles. The corrected credits were then joined back to the index, reader, network and analysis summaries.</p>
+              <p><a href="#history-prompt-attribution-correction">Read the exact request ↓</a></p>
+              <details>
+                <summary>Method and implementation choices</summary>
+                <ul><li>Scan the export for candidate bylines, then accept credits through a reviewed ledger containing literal quotations. A candidate match alone does not assign authorship.</li><li>Inspect signed sections beyond the opening: Angela Crumdy’s first-person account and contributors to the 2013 collective reflection would be missed by a first-sentence-only rule.</li><li>Keep workshop instructors, people thanked, quoted scholars, photographers, curators and original writers distinct. Preserve the WordPress account separately from the corrected writer credit.</li><li>Show all network authors by default and add an evidence filter. Retain unresolved account-based attributions as visibly provisional.</li><li>Recompute author- and roster-dependent summaries from the existing per-post topic weights; preserve the original baseline and record intentional corrections in a separate verified ledger.</li></ul>
+              </details>
+              <p><strong>What the evidence shows:</strong> Eight posts received changed writer names; ten additional local credited names were recovered. The full local network grew from 60 to 70 name strings. Two guest posts ceased to inherit Rebecca Krisel’s cohort match. The all-local matched count for 2022–2023 fell from 19 to 17; within the narrower modeled corpus it fell from 17 to 15.</p>
+              <p><strong>How it was checked:</strong> Literal quotation tests and positive/negative attribution cases checked the accepted credits. Separate automated checks reconstructed author/year counts and roster-subset topic means. Of the original 43 reference files, 34 stayed unchanged and nine matched the documented correction ledger. The fitted topic weights and saved word corpus were unchanged.</p>
+              <div class="history-artifact-links"><a href="ATTRIBUTION_REVIEW.html">Correction report and method</a><a href="attribution_revision/credit_changes.csv">Eight-post change ledger</a><a href="attribution_revision/opening_review.csv">All-record opening review</a><a href="attribution_revision/revision_changes.json">Verified revision ledger</a></div>
+            </section>
+<section class="history-stage" id="history-stage-credit-frameworks">
+              <p class="eyebrow"><span class="history-number">03</span>Project evolution</p>
+              <h4>Make contributions and AI delegation inspectable</h4>
+              <p><strong>The question:</strong> Who should receive credit for the original writing, this project’s direction, and the work delegated to the agent?</p>
+              <p>The attribution-and-process page separated source-writing acknowledgment, Ian G. Williams’s documented project contributions, and AI-delegated work. CRediT organized the human-role explanation; GAIDeT organized the task disclosure. A complete, searchable source-author register replaced a shortlist.</p>
+              <p><a href="#history-prompt-credit-frameworks">Read the exact request ↓</a></p>
+              <details>
+                <summary>Method and implementation choices</summary>
+                <ul><li>Build the register from the corrected inventory and link each name to its source records, status and attribution evidence.</li><li>Expand explicitly reviewed joint-source author strings into individual names. Preserve possible name variants rather than silently merging identities. Keep organizations and unresolved labels in a separate list.</li><li>Credit source writers for the writing attributed to them, without automatically treating them as coauthors of the new analysis or assigning unverified individual CRediT roles.</li><li>Name Ian G. Williams using the public credit he supplied. Distinguish documented direction and critical feedback from hands-on execution or independent human verification that the record does not establish.</li><li>Disclose agent-assisted code generation, analysis orchestration, source investigation, drafting and checks. Record uncertainty about exact earlier AI versions and the scope of human review.</li></ul>
+              </details>
+              <p><strong>What the evidence shows:</strong> The register contains 163 human-name entries across local writing, curated source works and draft metadata, including the 70 published-local names. Seven institutional or unresolved labels are listed separately. These are different counting populations, and neither is a verified census of distinct people.</p>
+              <p><strong>How it was checked:</strong> Register tests checked every recorded credit against either a human-name entry or an explicit non-person classification. The generated page includes all 14 CRediT role rows and all eight GAIDeT category rows. Browser checks covered joint authors, linked evidence, the all-name reset, filters, and both standalone and embedded layouts.</p>
+              <div class="history-artifact-links"><a href="CREDITS_AND_PROCESS.html">Attribution and process page</a><a href="credits/human_author_register.csv">Complete source-writing credit register</a><a href="credits/process_profile.json">Role and delegation profile</a><a href="credits/name_classification.json">Reviewed joint-name and non-person mappings</a></div>
+            </section>
+<section class="history-stage" id="history-stage-project-history">
+              <p class="eyebrow"><span class="history-number">04</span>Project evolution</p>
+              <h4>Document how the project itself changed</h4>
+              <p><strong>The question:</strong> Can a reader follow how the index request became the present evidence-centered website?</p>
+              <p>This page preserves the relevant prompts and connects them to implementation choices, evidence, tests and remaining limitations. Its starting point is the index request, rather than a retrospective retelling of every earlier analysis or design change.</p>
+              <p><a href="#history-prompt-project-history">Read the exact request ↓</a></p>
+              <details>
+                <summary>Method and implementation choices</summary>
+                <ul><li>Use exact user requests retrieved from the project chat and identify the source thread and message records in a small provenance file.</li><li>Provide stable local links to the preserved prompt excerpts. Label their scope clearly because the thread reader supplied no supported original-message permalink.</li><li>Distinguish the initial implementation from the attribution correction, and distinguish current recorded results from claims of complete authorship recovery or independent human review.</li><li>Keep the explanation and selected prompts in editable source files, generate the standalone page and embedded tab from one fragment, and verify their links and navigation.</li></ul>
+              </details>
+              <p><strong>What the evidence shows:</strong> The history uses four selected user requests and the saved project artifacts. It is a documented account of this workflow, not a full conversation transcript, a version-control commit history, or a claim that every methodological decision appeared explicitly in a prompt.</p>
+              <p><strong>How it was checked:</strong> Build checks verify one prompt per stage, unique anchors, local source links and consistent scope counts. Browser review checks the new tab, prompt jumps and narrow layouts. Adding this explanatory page leaves the scientific result files unchanged relative to the verified attribution-correction state.</p>
+              <div class="history-artifact-links"><a href="history/prompts.json">Selected prompt provenance</a><a href="history/stages.json">Editable stage narrative</a><a href="history/README.md">History-page build and review notes</a></div>
+            </section></div>
+  </section>
+  <section id="history-methods" class="history-section">
+    <p class="eyebrow">The method behind the interface</p>
+    <h3>Decisions that make the results interpretable</h3>
+    <div class="history-method-grid">
+      <section class="history-note">
+        <h4>Keep the populations distinct</h4>
+        <p>
+          The full index, published reader, local-publication network, modeled
+          corpus and broad credit register answer different questions. A filter
+          result or author count is meaningful only with its scope stated.
+          Academic-year labels run August–July. Roster matches use same-semester
+          evidence; summer publications do not inherit fall or spring matches.
+        </p>
+        <p>
+          The network counts published local post credits by academic year. It
+          does not infer cohort membership, social ties, collaboration or
+          individual shares of collective writing.
+        </p>
+      </section>
+      <section class="history-note">
+        <h4>Separate discovery from attribution</h4>
+        <p>
+          Search can find a person mentioned in a post, but a mention is not a
+          byline. Author assignment uses explicit credits, signed contributions,
+          source metadata or labeled provisional accounts. Literal quotations
+          and the change ledger make corrections reviewable.
+        </p>
+        <p>
+          Missing roster evidence means a writer is unconfirmed by the available
+          lists; it does not prove they were never a fellow.
+        </p>
+      </section>
+      <section class="history-note">
+        <h4>Preserve topic mixtures</h4>
+        <p>
+          The index uses the saved eight-topic, seed-42 MALLET run. A topic
+          filter checks whether a post meets the selected minimum weight.
+          Grouping by strongest topic is a browsing convenience; a post can have
+          several substantial topic weights.
+        </p>
+        <p>
+          Weights are statistical mixture components, not certainty, quality
+          scores or exclusive themes. Topic names are interpretive labels.
+        </p>
+      </section>
+      <section class="history-note">
+        <h4>Change attribution without claiming a new model fit</h4>
+        <p>
+          The author-credit revision rejoined corrected names to fixed per-post
+          topic weights and recalculated the affected aggregates. It did not
+          rerun NLTK cleaning or refit MALLET.
+        </p>
+        <p>
+          Some previously unrecognized bylines may remain in that historical
+          cleaned corpus. Removing them in a future cleaning revision would
+          require a new corpus version, refitting and renewed interpretation.
+        </p>
+      </section>
+      <section class="history-note">
+        <h4>Make uncertainty usable</h4>
+        <p>
+          The full published-local inventory still has 273
+          posts provisionally attributed to their posting accounts. Readers can
+          see the credit basis and select explicit evidence. Possible name
+          variants remain distinct until evidence supports merging them.
+        </p>
+        <p>
+          The initial top-20 network display was a visibility choice. Making all
+          authors visible fixed that issue; recovering missed bylines required a
+          separate data review.
+        </p>
+      </section>
+      <section class="history-note">
+        <h4>Keep human and tool contributions legible</h4>
+        <p>
+          The CRediT/GAIDeT page distinguishes source writers, human project
+          direction, and delegated agent tasks. It records what the available
+          workflow establishes, without assigning unsupported roles or claiming
+          that automated checks are independent human verification.
+        </p>
+        <p>
+          Source-writing acknowledgment does not imply approval of this project
+          or authorship of its new analysis.
+        </p>
+      </section>
+    </div>
+  </section>
+  <section id="history-counts" class="history-section">
+    <p class="eyebrow">A guide to denominators</p>
+    <h3>The counts describe different things</h3>
+    <div class="credits-table">
+      <table>
+        <caption>
+          Current scope counts, derived from the saved project artifacts
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Count</th>
+            <th scope="col">Population</th>
+            <th scope="col">How it is used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>430</td><td>Category records</td><td>The index includes published records and labeled draft metadata.</td></tr><tr><td>421</td><td>Published posts</td><td>The random reader draws from this population; it excludes drafts.</td></tr><tr><td>9</td><td>Draft records</td><td>Metadata remains inspectable; draft bodies and public-post links are omitted.</td></tr><tr><td>325</td><td>Published local/unflagged posts</td><td>The publication network draws from local writing, before any active index filters.</td></tr><tr><td>299</td><td>Modeled posts</td><td>The saved NLTK/MALLET corpus has additional exclusions; its topic weights are not assigned to all index records.</td></tr><tr><td>70</td><td>Published-local credited name strings</td><td>All 70 are available in the full network; original accounts may remain provisional.</td></tr><tr><td>161</td><td>Names in the broader credit register</td><td>Includes local, named curated-source and draft credits, using reviewed joint-name expansions and two documented alias merges. The earlier snapshot had 163 entries.</td></tr><tr><td>7</td><td>Institutional or unresolved credit labels</td><td>These are retained separately from human-name entries.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="secondary">
+      Name entries are recorded credit strings after the documented handling of
+      joint-source names; they are not independently resolved identities. The current register has 161 grouped entries after <a href="identity/review.html">two supported alias merges</a>, compared with the earlier 163-name snapshot. It includes the 70 local names, named source writers and draft metadata. These are not successive estimates of the same population.
+    </p>
+  </section>
+  <section id="history-prompts" class="history-section">
+    <p class="eyebrow">The request trail</p>
+    <h3>Prompts that shaped this phase</h3>
+    <p>
+      The excerpts below preserve the wording of four user-authored requests
+      from <strong>Analyze Tagging the Tower trends</strong>. The prompt date is taken from the
+      request’s recorded turn start and displayed in the project’s
+      America/New_York time zone. Only these relevant requests are reproduced.
+    </p>
+    <p class="history-note">
+      Each “Link to this excerpt” opens a stable section in the standalone
+      history page, usable with the local files or downloaded bundle. The app’s
+      thread reader supplied message identifiers but no supported
+      original-message URLs. These links point to the preserved excerpts, not to
+      purported original-chat message permalinks.
+    </p>
+    <section class="history-prompt" id="history-prompt-index">
+              <p class="eyebrow">Prompt 01 · November 1, 2026</p>
+              <h4>Make the archive discoverable</h4>
+              <blockquote>now create a new tab that is searchable index of all posts, which the viewer can organize by academic year, author, and topics (as identified by the analysis). I would like a network visualization of authors and academic years.</blockquote>
+              <p><a href="PROJECT_HISTORY.html#history-prompt-index">Link to this excerpt ↗</a> ·
+                <a href="#history-stage-index">Return to the stage explanation ↑</a></p>
+              <details>
+                <summary>Source reference</summary>
+                <p>Project chat: Analyze Tagging the Tower trends.</p>
+                <p class="secondary">Recorded user-message ID: 01a197d5-0ac8-7ef2-b87e-a8750aca5253.
+                  This is a provenance identifier, not a supported message URL.</p>
+              </details>
+            </section>
+<section class="history-prompt" id="history-prompt-attribution-correction">
+              <p class="eyebrow">Prompt 02 · November 1, 2026</p>
+              <h4>Let the post text correct the metadata</h4>
+              <blockquote>this draft does not seem to include all authors. should identify when authors are named in the post text (often in the first sentence or paragraph). re-analyze the data and rebuild.</blockquote>
+              <p><a href="PROJECT_HISTORY.html#history-prompt-attribution-correction">Link to this excerpt ↗</a> ·
+                <a href="#history-stage-attribution-correction">Return to the stage explanation ↑</a></p>
+              <details>
+                <summary>Source reference</summary>
+                <p>Project chat: Analyze Tagging the Tower trends.</p>
+                <p class="secondary">Recorded user-message ID: 01a197dd-4d43-7373-a33a-6e8913b7b367.
+                  This is a provenance identifier, not a supported message URL.</p>
+              </details>
+            </section>
+<section class="history-prompt" id="history-prompt-credit-frameworks">
+              <p class="eyebrow">Prompt 03 · November 1, 2026</p>
+              <h4>Make contributions and AI delegation inspectable</h4>
+              <blockquote>now create a page that explains attribution and process using both the GAIDeT and CReDiT taxonomy. Including in the credit, all identified human authors of posts.</blockquote>
+              <p><a href="PROJECT_HISTORY.html#history-prompt-credit-frameworks">Link to this excerpt ↗</a> ·
+                <a href="#history-stage-credit-frameworks">Return to the stage explanation ↑</a></p>
+              <details>
+                <summary>Source reference</summary>
+                <p>Project chat: Analyze Tagging the Tower trends.</p>
+                <p class="secondary">Recorded user-message ID: 01a197f4-2f74-7450-a276-b232675a4f2e.
+                  This is a provenance identifier, not a supported message URL.</p>
+              </details>
+            </section>
+<section class="history-prompt" id="history-prompt-project-history">
+              <p class="eyebrow">Prompt 04 · November 1, 2026</p>
+              <h4>Document how the project itself changed</h4>
+              <blockquote>An additional request - add a tab that also serves as an explanation of the evolution and methodology of this website project, which can include links to specific prompts. Focus here from the starting point of adding the index of Tagging The Tower posts.</blockquote>
+              <p><a href="PROJECT_HISTORY.html#history-prompt-project-history">Link to this excerpt ↗</a> ·
+                <a href="#history-stage-project-history">Return to the stage explanation ↑</a></p>
+              <details>
+                <summary>Source reference</summary>
+                <p>Project chat: Analyze Tagging the Tower trends.</p>
+                <p class="secondary">Recorded user-message ID: 01a19800-0218-7c20-880b-0593314f1210.
+                  This is a provenance identifier, not a supported message URL.</p>
+              </details>
+            </section>
+    <p>
+      <a href="history/prompts.json"
+        >Download the selected prompt provenance (JSON)</a
+      >
+    </p>
+  </section>
+  <section id="history-evidence" class="history-section">
+    <p class="eyebrow">How to assess this account</p>
+    <h3>Evidence, verification, and limits</h3>
+    <p>
+      The narrative combines retrieved user requests with saved data, source
+      code, documentation and check records. Prompts establish what was
+      requested; artifacts establish what was built. Interpretation of the
+      relationship between a request and an implementation choice is the agent’s
+      documented synthesis.
+    </p>
+    <ul>
+      <li>
+        <a href="attribution_revision/credit_changes.csv"
+          >The eight-post change ledger</a
+        >
+        and
+        <a href="attribution_revision/reviewed_credits.json"
+          >accepted quotations</a
+        >
+        document recovered writer credits.
+      </li>
+      <li>
+        <a href="attribution_revision/revision_changes.json"
+          >The correction verification ledger</a
+        >
+        retains the original baseline and identifies nine intentional
+        author/cohort file corrections; 34 original reference files remain
+        unchanged.
+      </li>
+      <li>
+        <a href="interactive/index_validation.json"
+          >The initial index check record</a
+        >
+        and
+        <a href="attribution_revision/browser_validation.json"
+          >the corrected-index browser review</a
+        >
+        distinguish the 60-name initial network from the 70-name corrected one.
+      </li>
+      <li>
+        <a href="credits/browser_validation.json"
+          >The credits-page check record</a
+        >
+        and
+        <a href="credits/credits_and_process.json"
+          >the full credit/disclosure data</a
+        >
+        support the register and framework explanation.
+      </li>
+      <li>
+        <a href="history/validation.json">The history-page check record</a>
+        records build and browser checks for this addition.
+      </li>
+    </ul>
+    <p>
+      This selected history does not establish complete historical author
+      recovery, exhaustive identity resolution, contributor consent, independent
+      human replication, or exact reconstruction of every earlier AI session.
+      The unresolved cases are part of the project record. A future data,
+      cleaning or model change should create a new documented revision rather
+      than quietly replacing this evidence.
+    </p>
+    <details class="history-note">
+      <summary>For a reviewer: how this explanation is maintained</summary>
+      <p>
+        The four prompts are stored in
+        <a href="history/prompts.json">prompts.json</a> with their retrieved
+        message identifiers. The stage narratives are in
+        <a href="history/stages.json">stages.json</a>.
+        <a href="https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/build_history.py">build_history.py</a> combines them with
+        current scope counts to generate the standalone page and embedded tab
+        from the same fragment.
+      </p>
+      <p>
+        The generator and its tests are annotated for reviewers. Updating the
+        historical narrative requires checking the quoted requests and
+        referenced artifacts; a successful build alone does not validate the
+        historical interpretation. See
+        <a href="history/README.md">the build and review notes</a>.
+      </p>
+    </details>
+    <p>
+      <a href="INTERACTIVE_GUIDE.html">Explorer guide</a> ·
+      <a href="ATTRIBUTION_REVIEW.html">Attribution correction</a> ·
+      <a href="CREDITS_AND_PROCESS.html">Attribution &amp; process</a> ·
+      <a href="STYLE_METHODOLOGY.html">Earlier design methodology</a>
+    </p>
+  </section>
+</article>
+</main></body></html>

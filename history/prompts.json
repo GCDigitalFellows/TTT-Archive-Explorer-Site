@@ -1,0 +1,47 @@
+{
+  "sourceThread": {
+    "id": "01a19471-b465-7353-ba8b-f4367b8d477f",
+    "title": "Analyze Tagging the Tower trends"
+  },
+  "retrieved": "2026-11-01",
+  "scope": "Selected user-authored requests beginning with the post-index request. No tool logs, commands, assistant reasoning or unrelated messages are included.",
+  "linkPolicy": "Local prompt-section anchors are usable offline. The thread reader supplied message identifiers but no supported original-message URLs; no chat permalink has been invented.",
+  "prompts": [
+    {
+      "id": "index",
+      "turnId": "01a197d5-0714-7e82-b9f7-d83e96db779e",
+      "messageId": "01a197d5-0ac8-7ef2-b87e-a8750aca5253",
+      "prompt": "now create a new tab that is searchable index of all posts, which the viewer can organize by academic year, author, and topics (as identified by the analysis). I would like a network visualization of authors and academic years.",
+      "startedAtUtc": "2026-11-01T15:58:03.000Z",
+      "dateLabel": "November 1, 2026",
+      "sha256": "aa3c47b253297c0ee1920e7a01e0d8d577751ef3d195aaeb15510098700c8523"
+    },
+    {
+      "id": "attribution-correction",
+      "turnId": "01a197dd-4be2-7fc3-9621-53c7e5bcbfa5",
+      "messageId": "01a197dd-4d43-7373-a33a-6e8913b7b367",
+      "prompt": "this draft does not seem to include all authors. should identify when authors are named in the post text (often in the first sentence or paragraph). re-analyze the data and rebuild.",
+      "startedAtUtc": "2026-11-01T16:07:05.000Z",
+      "dateLabel": "November 1, 2026",
+      "sha256": "36814a430bbc10634dffbf46a41e4b65068c6f218a9d55ee69647935e7b2ae77"
+    },
+    {
+      "id": "credit-frameworks",
+      "turnId": "01a197f4-2e54-7c61-bca7-a6f77bdf4232",
+      "messageId": "01a197f4-2f74-7450-a276-b232675a4f2e",
+      "prompt": "now create a page that explains attribution and process using both the GAIDeT and CReDiT taxonomy. Including in the credit, all identified human authors of posts.",
+      "startedAtUtc": "2026-11-01T16:32:04.000Z",
+      "dateLabel": "November 1, 2026",
+      "sha256": "dfa33ecd3b79b776429ad216e22b713e36e621772dd94822f54653814d24df87"
+    },
+    {
+      "id": "project-history",
+      "turnId": "01a19800-01be-71e0-a20a-0f26dcfc45eb",
+      "messageId": "01a19800-0218-7c20-880b-0593314f1210",
+      "prompt": "An additional request - add a tab that also serves as an explanation of the evolution and methodology of this website project, which can include links to specific prompts. Focus here from the starting point of adding the index of Tagging The Tower posts.",
+      "startedAtUtc": "2026-11-01T16:44:59.000Z",
+      "dateLabel": "November 1, 2026",
+      "sha256": "639d286c3fb990ca0d8fd924107ac29258cf150451245f2324f519275a20687e"
+    }
+  ]
+}

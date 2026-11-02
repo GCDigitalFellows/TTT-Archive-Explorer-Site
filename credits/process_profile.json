@@ -1,0 +1,303 @@
+{
+  "as_of": "2026-11-02",
+  "human_project_contributor": "Ian G. Williams",
+  "human_name_evidence": "Preferred public credit supplied by the requester in this conversation.",
+  "ai_tool": "OpenAI Codex (OpenAI); exact underlying model/build not recorded in project artifacts",
+  "version_limit": "Earlier ChatGPT-assisted analysis is inherited from the project history. Exact model versions and every earlier session cannot be reconstructed from the saved artifacts. Ian identified the separate external review as Deepseek V4.1 Flash 1017 in the CAIL sandbox in OpenWebUI, using a previous-iteration ZIP. That model label is user-supplied; the exact reviewed archive and external session were not independently inspected.",
+  "credit_roles": [
+    {
+      "role": "Conceptualization",
+      "meaning": "Set the study’s central aims.",
+      "human": "Ian G. Williams defined the cohort-trend and archive-exploration objectives.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Data curation",
+      "meaning": "Organize and annotate usable data.",
+      "human": "No separate human execution of the record-by-record curation is documented; the agent implemented it under Ian’s direction.",
+      "status": "Human execution not established"
+    },
+    {
+      "role": "Formal analysis",
+      "meaning": "Apply quantitative or computational methods.",
+      "human": "The agent wrote and ran the analysis recipes using Python, NLTK and MALLET. Human recomputation is not documented.",
+      "status": "Human execution not established"
+    },
+    {
+      "role": "Funding acquisition",
+      "meaning": "Secure financial support.",
+      "human": "No funding-acquisition contribution is established in the available record.",
+      "status": "Not documented"
+    },
+    {
+      "role": "Investigation",
+      "meaning": "Gather evidence for the study.",
+      "human": "No separate human evidence-collection role beyond supplying the export is established; source investigation was agent-assisted.",
+      "status": "Human execution not established"
+    },
+    {
+      "role": "Methodology",
+      "meaning": "Choose and shape the approach.",
+      "human": "Ian G. Williams requested academic-year cohort comparisons, NLTK/MALLET analysis, and a body-credit re-audit. Implementation details were agent-developed. Ian requested two simulated reviewer perspectives and incorporation of the additional persona review, then prioritized research/examination use. Ian requested the theme-oriented visualization revision; the evidence layers and counting definitions were operationalized by the agent.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Project administration",
+      "meaning": "Coordinate the work.",
+      "human": "Ian G. Williams set priorities through successive requests and revisions. Ian designated a public correction contact and retained licensing decisions. Ian selected the project title and authorized a private GCDigitalFellows repository under the authenticated perlsdiver account.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Resources",
+      "meaning": "Supply materials or tools.",
+      "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details.",
+      "status": "Documented provision"
+    },
+    {
+      "role": "Software",
+      "meaning": "Build and test programs.",
+      "human": "The agent generated the Python/JavaScript implementation. No human programming contribution is claimed from the available record.",
+      "status": "Human execution not established"
+    },
+    {
+      "role": "Supervision",
+      "meaning": "Direct and oversee the project.",
+      "human": "Ian G. Williams directed the work and requested corrections; this does not establish line-by-line human review of all outputs.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Validation",
+      "meaning": "Check claims, methods or results.",
+      "human": "Ian G. Williams identified missing authors and required re-analysis. Numerical tests and browser checks were agent-run; independent human replication is not documented.",
+      "status": "Documented issue identification"
+    },
+    {
+      "role": "Visualization",
+      "meaning": "Prepare visual presentations.",
+      "human": "Ian G. Williams requested interactive charts, annual design controls and the network. The agent implemented the visuals; human chart production is not claimed. Ian additionally requested incorporating themes into the visualizations. Thematic chart implementation and verification were agent-executed, not claimed as human chart production.",
+      "status": "Human execution not established"
+    },
+    {
+      "role": "Writing – original draft",
+      "meaning": "Produce initial prose.",
+      "human": "The analysis notes, documentation and this page were agent-drafted. Original post writers are credited for their source texts, not automatically as authors of this analysis.",
+      "status": "Project human drafting not established"
+    },
+    {
+      "role": "Writing – review & editing",
+      "meaning": "Critique and revise the work.",
+      "human": "Ian G. Williams requested clearer explanations, human-readable annotations, and attribution corrections. Human rewriting of every passage is not claimed. Ian authorized implementation of the review recommendations; this is not confirmation of every resulting claim.",
+      "status": "Documented critical feedback"
+    }
+  ],
+  "gaidet": [
+    {
+      "category": "Conceptualization",
+      "tasks": [
+        [
+          "0000002",
+          "Idea generation"
+        ],
+        [
+          "0000004",
+          "Formulating research questions and hypotheses"
+        ]
+      ],
+      "work": "Suggested additional patterns and questions for exploration.",
+      "boundary": "Ian set the objectives; generated suggestions are not established findings or tested hypotheses."
+    },
+    {
+      "category": "Literature Review",
+      "tasks": [
+        [
+          "0000008",
+          "Literature search and systematization"
+        ]
+      ],
+      "work": "Located design-history and taxonomy sources and assembled linked documentation. Checked institutional primary sources for the GCDI/Fellows orientation; distinguished inaccessible source pages from retrieved institutional descriptions.",
+      "boundary": "Targeted source discovery, not an exhaustive systematic review."
+    },
+    {
+      "category": "Methodology",
+      "tasks": [
+        [
+          "0000013",
+          "Research design"
+        ],
+        [
+          "0000015",
+          "Selection of research methods"
+        ]
+      ],
+      "work": "Developed corpus rules, attribution checks, topic summaries and network definitions.",
+      "boundary": "Ian requested the methods and corrections; the agent proposed operational details."
+    },
+    {
+      "category": "Software Development and Automation",
+      "tasks": [
+        [
+          "0000017",
+          "Code generation"
+        ],
+        [
+          "0000019",
+          "Process automation"
+        ]
+      ],
+      "work": "Generated and executed scripts, interface code, rebuilds and tests. Implemented research-first entry, author search, stable navigation, support documents and offline inspection. Added the thematic interface, pure counting functions, evidence exports and keyword-theme filtering/grouping for the existing index/network. Prepared Git version control, project identity and private organization-repository setup at Ian’s request.",
+      "boundary": "Generated code and automated checks remain inspectable; no human code audit is implied."
+    },
+    {
+      "category": "Data Management",
+      "tasks": [
+        [
+          "0000024",
+          "Data cleaning"
+        ],
+        [
+          "0000025",
+          "Data curation and organization"
+        ],
+        [
+          "0000026",
+          "Data analysis"
+        ],
+        [
+          "0000027",
+          "Visualization"
+        ],
+        [
+          "0000028",
+          "Reproducibility testing"
+        ],
+        [
+          "0000023",
+          "Validation"
+        ]
+      ],
+      "work": "Parsed the XML, prepared metadata, ran NLTK/MALLET recipes, constructed charts, corrected credits and compared outputs. Reviewed the 98-title missing-period list, checked five additional full posts and literal passages, built roster-coverage and credit-uncertainty displays, and preserved original/model baselines. Joined the saved title/tag and broader text flags, built thematic year and overlap counts and writer summaries, kept the 19-post essay layer separate, and checked thematic aggregates against the frozen audit. Organized source and saved evidence for version control while excluding local environments, caches and downloaded software dependencies.",
+      "boundary": "NLTK, MALLET and counting code execute the recipes. Their numeric outputs are not LLM-generated observations. The latest attribution correction held the fitted corpus/model fixed."
+    },
+    {
+      "category": "Writing and Editing",
+      "tasks": [
+        [
+          "0000030",
+          "Text generation"
+        ],
+        [
+          "0000031",
+          "Proofreading and editing"
+        ],
+        [
+          "0000032",
+          "Summarizing text"
+        ],
+        [
+          "0000033",
+          "Formulation of conclusions"
+        ]
+      ],
+      "work": "Drafted analysis prose, code comments, guides and this explanation; proposed the six-theme archive interpretation and its conclusions, with a separate scoped contribution declaration. Expanded the essay from 14 to 19 sources, qualified its conclusions, revised the research journeys, and documented the new processes and open decisions. Documented thematic definitions, denominators, attribution and sample-coding limits for nonadvanced readers. Updated the explorer name, README, citation, profile links and process documentation while preserving the source blog’s original title.",
+      "boundary": "The original archive posts were not generated by this project. Their historical AI use is not assessed. The external review text is attributed separately to the requester-identified Deepseek model; it is not claimed as Codex-generated prose."
+    },
+    {
+      "category": "Ethics Review",
+      "tasks": [
+        [
+          "0000040",
+          "Ethical risk analysis"
+        ]
+      ],
+      "work": "Considered attribution risks, unsupported author claims, and the separation of drafts and curators. Kept simulated reviewers distinct from actual humans, avoided unverified institutional endorsement and headcounts, preserved historical credits and left licensing for the requester.",
+      "boundary": "This is a limited project-process mapping, not formal ethics approval or a compliance certification."
+    },
+    {
+      "category": "Supervision",
+      "tasks": [
+        [
+          "0000044",
+          "Quality assessment"
+        ],
+        [
+          "0000046",
+          "Identification of limitations"
+        ],
+        [
+          "0000047",
+          "Recommendations"
+        ]
+      ],
+      "work": "Performed agent-assisted checks and documented ambiguity, exclusions and limits. Ran two separate role-based AI reviewer sub-agents, assessed the supplied manifest-based five-persona simulation, synthesized recommendations and checked implementation. These activities are not human user testing. Tool separation: the supplied five-persona review was produced by Deepseek V4.1 Flash 1017 via OpenWebUI in the CAIL sandbox (requester-reported); Codex produced the two local sub-agent reviews and performed the synthesis and implementation. Checked theme counts, co-occurrence sets, coauthor counting and index integration; withheld unsupported essay overlap estimates.",
+      "boundary": "This GAIDeT category names delegated checking tasks; the AI is not a human supervisor or accountable author."
+    }
+  ],
+  "sources": [
+    {
+      "id": "credit-standard",
+      "title": "ANSI/NISO Z39.104-2022: CRediT, Contributor Roles Taxonomy",
+      "url": "https://www.niso.org/publications/z39104-2022-credit",
+      "use": "Standard identity and publication metadata"
+    },
+    {
+      "id": "credit-roles",
+      "title": "NISO CRediT role descriptors",
+      "url": "https://credit.niso.org/contributor-roles-defined/",
+      "use": "Canonical role labels; short descriptions here are paraphrases"
+    },
+    {
+      "id": "credit-implementation",
+      "title": "NISO: How to implement CRediT",
+      "url": "https://credit.niso.org/implementing-credit/",
+      "use": "Role assignment and contributor confirmation guidance"
+    },
+    {
+      "id": "gaidet-paper",
+      "title": "Suchikova, Tsybuliak, Teixeira da Silva & Nazarovets: GAIDeT (2026; online 2025)",
+      "url": "https://doi.org/10.1080/08989621.2025.2544331",
+      "use": "Framework citation; publisher full text was not accessible in this session"
+    },
+    {
+      "id": "gaidet-pubmed",
+      "title": "PubMed record 40781729",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40781729/",
+      "use": "Verified paper metadata and abstract"
+    },
+    {
+      "id": "gaidet-generator",
+      "title": "GAIDeT Declaration Generator",
+      "url": "https://panbibliotekar.github.io/gaidet-declaration/",
+      "use": "Public category/task wording and declaration fields"
+    },
+    {
+      "id": "gaidet-terms",
+      "title": "GAIDeT source taxonomy: terms.yml",
+      "url": "https://raw.githubusercontent.com/panbibliotekar/gaidet-declaration/main/_data/terms.yml",
+      "use": "Selected task labels and persistent term identifiers; snapshot accessed November 1, 2026"
+    },
+    {
+      "id": "gaidet-repository",
+      "title": "GAIDeT generator repository and license",
+      "url": "https://github.com/panbibliotekar/gaidet-declaration",
+      "use": "Framework authorship and source provenance; no generator code copied"
+    }
+  ],
+  "activity_log": "process/work_log.json",
+  "review_status": "Simulated AI reviews, automated preservation tests and agent-run browser checks are distinct from actual participant review. Complete human approval remains undocumented.",
+  "external_review_tool": {
+    "reported_by": "Ian G. Williams",
+    "reported_on": "2026-11-02",
+    "model_label_as_supplied": "Deepseek V4.1 Flash 1017",
+    "interface": "OpenWebUI",
+    "environment": "CAIL sandbox",
+    "input": "ZIP export of a previous iteration of the project",
+    "input_zip_filename": null,
+    "input_zip_sha256": null,
+    "input_iteration_identifier": null,
+    "output_document": "TTT-Website-review.md",
+    "verification": "Model/environment/input provenance supplied by the requester; no external session logs or exact input archive were inspected.",
+    "inspection_limit": "The review document itself reports manifest/directory inspection rather than individual HTML/CSV/JSON prose. This describes its stated evidence base, not the full capabilities of the model or CAIL sandbox.",
+    "task_boundary": "External model: supplied five-persona structural/heuristic critique. Codex and two Codex sub-agents: separate source-based simulations, synthesis, verification and implementation. Neither activity constitutes human user testing."
+  },
+  "project_name": "Tagging The Tower Archives Explorer"
+}

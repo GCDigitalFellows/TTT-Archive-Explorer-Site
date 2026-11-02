@@ -1,0 +1,578 @@
+{
+  "source": "digitalinitiativesatthegradcenter.WordPress.2026-11-01.xml",
+  "sha256": "ba4bb721c4f32b3340126f78e93f8b812e0ef79cd31810a9bc1c6f6dccb49ee7",
+  "total_items": 857,
+  "item_status_counts": {
+    "('post', 'draft')": 11,
+    "('post', 'publish')": 424,
+    "('revision', 'inherit')": 94,
+    "('attachment', 'inherit')": 300,
+    "('wooframework', 'draft')": 5,
+    "('tribe_organizer', 'publish')": 1,
+    "('slide', 'publish')": 4,
+    "('tribe_events', 'publish')": 11,
+    "('custom_css', 'publish')": 1,
+    "('tribe_rsvp_attendees', 'publish')": 2,
+    "('tribe_venue', 'publish')": 1,
+    "('oembed_cache', 'publish')": 1,
+    "('post', 'private')": 1,
+    "('nomination', 'draft')": 1
+  },
+  "tower_status_counts": {
+    "draft": 9,
+    "publish": 421
+  },
+  "published": 421,
+  "local": 325,
+  "curated": 96,
+  "local_roster_matched": 149,
+  "unclassified_local": 105,
+  "rosters": [
+    {
+      "academic_year": "2017–2018",
+      "semester": "spring",
+      "members": [
+        "Hannah Aizenman",
+        "Tahir H. Butt",
+        "Kelsey Chatlosh",
+        "Kristen Hackett",
+        "Jojo Karlin",
+        "Jeremy March",
+        "Javier Otero Peña",
+        "Rachel Rakov",
+        "Patrick [surname unresolved]",
+        "Patrick [surname unresolved]"
+      ],
+      "evidence_post": "4647",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/"
+    },
+    {
+      "academic_year": "2018–2019",
+      "semester": "fall",
+      "members": [
+        "Filipa Calado",
+        "Javier Otero Peña",
+        "Kelsey Chatlosh",
+        "Kristen Hackett",
+        "Olivia Ildefonso",
+        "Pablo [surname unresolved]",
+        "Patrick [surname unresolved]",
+        "Rachel Rakov",
+        "Rafael Davis Portela",
+        "Stefano Morello"
+      ],
+      "evidence_post": "19847",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/"
+    },
+    {
+      "academic_year": "2018–2019",
+      "semester": "spring",
+      "members": [
+        "Filipa Calado",
+        "Javier Otero Peña",
+        "Kristen Hackett",
+        "Olivia Ildefonso",
+        "Patrick [surname unresolved]",
+        "Rachel Rakov",
+        "Rafael Davis Portela",
+        "Stefano Morello"
+      ],
+      "evidence_post": "5080",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2019/02/11/what-is-gcdi-spring-2019-edition-2/"
+    },
+    {
+      "academic_year": "2019–2020",
+      "semester": "fall",
+      "members": [
+        "Filipa Calado",
+        "Javier Otero Peña",
+        "Kristen Hackett",
+        "Olivia Ildefonso",
+        "Rafael Davis Portela",
+        "Stefano Morello",
+        "Natalie O'Shea",
+        "Di Yoong",
+        "Connor M French",
+        "Param Ajmera"
+      ],
+      "evidence_post": "19850",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/"
+    },
+    {
+      "academic_year": "2019–2020",
+      "semester": "spring",
+      "members": [
+        "Filipa Calado",
+        "Javier Otero Peña",
+        "Kristen Hackett",
+        "Olivia Ildefonso",
+        "Rafael Davis Portela",
+        "Stefano Morello",
+        "Natalie O'Shea",
+        "Di Yoong",
+        "Connor M French",
+        "Param Ajmera"
+      ],
+      "evidence_post": "19857",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2020/02/06/welcome-back-3/"
+    },
+    {
+      "academic_year": "2020–2021",
+      "semester": "fall",
+      "members": [
+        "Connor M French",
+        "Di Yoong",
+        "Filipa Calado",
+        "Olivia Ildefonso",
+        "Param Ajmera",
+        "Rafael Davis Portela",
+        "Stefano Morello",
+        "Yuxiao Luo"
+      ],
+      "evidence_post": "5760",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/"
+    },
+    {
+      "academic_year": "2020–2021",
+      "semester": "spring",
+      "members": [
+        "Filipa Calado",
+        "Olivia Ildefonso",
+        "Rafael Davis Portela",
+        "Stefano Morello",
+        "Yuxiao Luo",
+        "Di Yoong",
+        "Connor M French",
+        "Param Ajmera"
+      ],
+      "evidence_post": "19866",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2021/02/19/gcdi-is-here-for-you-2-2/"
+    },
+    {
+      "academic_year": "2021–2022",
+      "semester": "fall",
+      "members": [
+        "Chelsea Lane",
+        "Di Yoong",
+        "Rebecca Krisel",
+        "Rilquer Mascarenhas",
+        "Param Ajmera",
+        "Leanne Fan",
+        "Zachary Lloyd",
+        "Yuxiao Luo"
+      ],
+      "evidence_post": "6091",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2021/09/15/gcdi-is-here-for-you-3-2/"
+    },
+    {
+      "academic_year": "2021–2022",
+      "semester": "spring",
+      "members": [
+        "Chelsea Lane",
+        "Di Yoong",
+        "Rebecca Krisel",
+        "Rilquer Mascarenhas",
+        "Param Ajmera",
+        "Leanne Fan",
+        "Zachary Lloyd",
+        "Yuxiao Luo"
+      ],
+      "evidence_post": "19871",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2022/02/07/greetings-digital-gc-welcome-back/"
+    },
+    {
+      "academic_year": "2022–2023",
+      "semester": "fall",
+      "members": [
+        "Leanne Fan",
+        "Nicole Cote",
+        "Rebecca Krisel",
+        "Rilquer Mascarenhas",
+        "Sam O'Hana",
+        "Silvia Rivera Alfaro",
+        "Yuxiao Luo",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "19875",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2022/09/21/gcdi-welcomes-you-to-the-fall-semester-2/"
+    },
+    {
+      "academic_year": "2022–2023",
+      "semester": "spring",
+      "members": [
+        "Leanne Fan",
+        "Nicole Cote",
+        "Rebecca Krisel",
+        "Rilquer Mascarenhas",
+        "Sam O'Hana",
+        "Silvia Rivera Alfaro",
+        "Yuxiao Luo",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "19881",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2023/01/30/spring-is-in-the-air-welcome-back-from-gcdi-and-the-digital-fellows/"
+    },
+    {
+      "academic_year": "2023–2024",
+      "semester": "fall",
+      "members": [
+        "Anna Corbett",
+        "Gregory Hartmann",
+        "Leanne Fan",
+        "Rebecca Krisel",
+        "Sam O'Hana",
+        "Silvia Rivera Alfaro",
+        "Tuka Al-Sahlani",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "6794",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/"
+    },
+    {
+      "academic_year": "2023–2024",
+      "semester": "spring",
+      "members": [
+        "Anna Corbett",
+        "Gregory Hartmann",
+        "Leanne Fan",
+        "Sam O'Hana",
+        "Silvia Rivera Alfaro",
+        "Tuka Al-Sahlani",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "6943",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2024/01/29/welcome-back-for-the-spring-24-semester/"
+    },
+    {
+      "academic_year": "2024–2025",
+      "semester": "fall",
+      "members": [
+        "Anna Corbett",
+        "Chen Zhou",
+        "Maggie Schreiner",
+        "Parisa Setayesh",
+        "Peyton Cordero",
+        "Silvia Rivera Alfaro",
+        "Tuka Al-Sahlani",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "20216",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2024/09/10/gcdi-welcomes-you-back-for-fall-24/"
+    },
+    {
+      "academic_year": "2024–2025",
+      "semester": "spring",
+      "members": [
+        "Anna Corbett",
+        "Chen Zhou",
+        "Maggie Schreiner",
+        "Parisa Setayesh",
+        "Peyton Cordero",
+        "Silvia Rivera Alfaro",
+        "Tuka Al-Sahlani",
+        "Zachary Lloyd"
+      ],
+      "evidence_post": "20845",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2025/02/04/welcome-to-spring-2025/"
+    },
+    {
+      "academic_year": "2025–2026",
+      "semester": "fall",
+      "members": [
+        "Anna Corbett",
+        "Pranav Chinmay",
+        "Christopher Colon",
+        "Eunah Cho",
+        "Maggie Schreiner",
+        "Meha Gupta",
+        "Parisa Setayesh",
+        "Tuka Al-Sahlani"
+      ],
+      "evidence_post": "22123",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2025/09/09/welcome-to-fall-25/"
+    },
+    {
+      "academic_year": "2025–2026",
+      "semester": "spring",
+      "members": [
+        "Anna Corbett",
+        "Tuka Al-Sahlani",
+        "Maggie Schreiner",
+        "Parisa Setayesh",
+        "Pranav Chinmay",
+        "Meha Gupta",
+        "Christopher Colon",
+        "Eunah Cho"
+      ],
+      "evidence_post": "23509",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2026/02/02/welcome-to-spring26/"
+    },
+    {
+      "academic_year": "2026–2027",
+      "semester": "fall",
+      "members": [
+        "Zhilang [surname unresolved]",
+        "Shokran [surname unresolved]",
+        "Ian G. Williams",
+        "Meha Gupta",
+        "Sara [surname unresolved]",
+        "Peyton Cordero",
+        "Sophie Bala"
+      ],
+      "evidence_post": "24691",
+      "evidence_url": "https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/"
+    }
+  ],
+  "summary": [
+    {
+      "academic_year": "2012–2013",
+      "published": 38,
+      "local_unflagged": 38,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 0,
+      "Web & scholarly identity": 4,
+      "Code & computational methods": 5,
+      "Maps & visualization": 2,
+      "Archives, text & media": 3,
+      "Teaching & learning": 13,
+      "Community & collaboration": 5,
+      "Ethics, access & power": 4,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2013–2014",
+      "published": 27,
+      "local_unflagged": 27,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 0,
+      "Web & scholarly identity": 5,
+      "Code & computational methods": 4,
+      "Maps & visualization": 2,
+      "Archives, text & media": 0,
+      "Teaching & learning": 10,
+      "Community & collaboration": 5,
+      "Ethics, access & power": 1,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2014–2015",
+      "published": 18,
+      "local_unflagged": 18,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 0,
+      "Web & scholarly identity": 1,
+      "Code & computational methods": 4,
+      "Maps & visualization": 1,
+      "Archives, text & media": 0,
+      "Teaching & learning": 4,
+      "Community & collaboration": 0,
+      "Ethics, access & power": 2,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2015–2016",
+      "published": 32,
+      "local_unflagged": 32,
+      "curated": 0,
+      "summer": 1,
+      "confirmed_local_posts": 0,
+      "Web & scholarly identity": 6,
+      "Code & computational methods": 10,
+      "Maps & visualization": 0,
+      "Archives, text & media": 4,
+      "Teaching & learning": 12,
+      "Community & collaboration": 9,
+      "Ethics, access & power": 3,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2016–2017",
+      "published": 21,
+      "local_unflagged": 21,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 0,
+      "Web & scholarly identity": 5,
+      "Code & computational methods": 8,
+      "Maps & visualization": 2,
+      "Archives, text & media": 1,
+      "Teaching & learning": 10,
+      "Community & collaboration": 4,
+      "Ethics, access & power": 1,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2017–2018",
+      "published": 24,
+      "local_unflagged": 23,
+      "curated": 1,
+      "summer": 0,
+      "confirmed_local_posts": 8,
+      "Web & scholarly identity": 1,
+      "Code & computational methods": 8,
+      "Maps & visualization": 7,
+      "Archives, text & media": 6,
+      "Teaching & learning": 8,
+      "Community & collaboration": 3,
+      "Ethics, access & power": 1,
+      "AI & machine learning": 1
+    },
+    {
+      "academic_year": "2018–2019",
+      "published": 35,
+      "local_unflagged": 16,
+      "curated": 19,
+      "summer": 6,
+      "confirmed_local_posts": 12,
+      "Web & scholarly identity": 3,
+      "Code & computational methods": 3,
+      "Maps & visualization": 4,
+      "Archives, text & media": 5,
+      "Teaching & learning": 4,
+      "Community & collaboration": 4,
+      "Ethics, access & power": 2,
+      "AI & machine learning": 1
+    },
+    {
+      "academic_year": "2019–2020",
+      "published": 46,
+      "local_unflagged": 24,
+      "curated": 22,
+      "summer": 0,
+      "confirmed_local_posts": 21,
+      "Web & scholarly identity": 2,
+      "Code & computational methods": 3,
+      "Maps & visualization": 0,
+      "Archives, text & media": 4,
+      "Teaching & learning": 5,
+      "Community & collaboration": 3,
+      "Ethics, access & power": 0,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2020–2021",
+      "published": 40,
+      "local_unflagged": 21,
+      "curated": 19,
+      "summer": 0,
+      "confirmed_local_posts": 19,
+      "Web & scholarly identity": 0,
+      "Code & computational methods": 5,
+      "Maps & visualization": 4,
+      "Archives, text & media": 5,
+      "Teaching & learning": 4,
+      "Community & collaboration": 1,
+      "Ethics, access & power": 1,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2021–2022",
+      "published": 42,
+      "local_unflagged": 17,
+      "curated": 25,
+      "summer": 0,
+      "confirmed_local_posts": 12,
+      "Web & scholarly identity": 3,
+      "Code & computational methods": 5,
+      "Maps & visualization": 1,
+      "Archives, text & media": 1,
+      "Teaching & learning": 3,
+      "Community & collaboration": 0,
+      "Ethics, access & power": 2,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2022–2023",
+      "published": 28,
+      "local_unflagged": 20,
+      "curated": 8,
+      "summer": 0,
+      "confirmed_local_posts": 19,
+      "Web & scholarly identity": 3,
+      "Code & computational methods": 3,
+      "Maps & visualization": 2,
+      "Archives, text & media": 1,
+      "Teaching & learning": 3,
+      "Community & collaboration": 0,
+      "Ethics, access & power": 1,
+      "AI & machine learning": 0
+    },
+    {
+      "academic_year": "2023–2024",
+      "published": 18,
+      "local_unflagged": 16,
+      "curated": 2,
+      "summer": 0,
+      "confirmed_local_posts": 14,
+      "Web & scholarly identity": 0,
+      "Code & computational methods": 6,
+      "Maps & visualization": 2,
+      "Archives, text & media": 0,
+      "Teaching & learning": 2,
+      "Community & collaboration": 1,
+      "Ethics, access & power": 2,
+      "AI & machine learning": 1
+    },
+    {
+      "academic_year": "2024–2025",
+      "published": 24,
+      "local_unflagged": 24,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 21,
+      "Web & scholarly identity": 2,
+      "Code & computational methods": 2,
+      "Maps & visualization": 3,
+      "Archives, text & media": 2,
+      "Teaching & learning": 2,
+      "Community & collaboration": 1,
+      "Ethics, access & power": 10,
+      "AI & machine learning": 4
+    },
+    {
+      "academic_year": "2025–2026",
+      "published": 24,
+      "local_unflagged": 24,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 19,
+      "Web & scholarly identity": 1,
+      "Code & computational methods": 2,
+      "Maps & visualization": 3,
+      "Archives, text & media": 1,
+      "Teaching & learning": 3,
+      "Community & collaboration": 0,
+      "Ethics, access & power": 0,
+      "AI & machine learning": 9
+    },
+    {
+      "academic_year": "2026–2027",
+      "published": 4,
+      "local_unflagged": 4,
+      "curated": 0,
+      "summer": 0,
+      "confirmed_local_posts": 4,
+      "Web & scholarly identity": 0,
+      "Code & computational methods": 0,
+      "Maps & visualization": 1,
+      "Archives, text & media": 0,
+      "Teaching & learning": 0,
+      "Community & collaboration": 2,
+      "Ethics, access & power": 0,
+      "AI & machine learning": 0
+    }
+  ],
+  "themes": {
+    "Web & scholarly identity": "wordpress|\\bweb(?:site|sites|design|development|framework|server|scraping)?\\b|bootstrap|html|css|digital identity|academic identity|online identity",
+    "Code & computational methods": "python|\\b(?:code|coders?)\\b|coding|programming|github|\\bgit\\b|javascript|\\bsql\\b|database|command line|\\bunix\\b|\\blinux\\b|docker|algorithm|networkx|\\brstudio\\b|vscode",
+    "Maps & visualization": "\\bmap(?:s|ping)?\\b|\\bgis\\b|qgis|arcgis|carto(?:db|graphy)?|geospatial|spatial|visualiz|visualis|tableau|matplotlib|charts|graphs|storymaps",
+    "Archives, text & media": "archiv|metadata|\\bocr\\b|text (?:mining|analysis)|tei|tropy|oral histor|audacity|audio|sound|video|digital edition|digitiz|digitis",
+    "Teaching & learning": "pedagog|teach|classroom|syllabus|syllabi|student|learn|workshop|institute|\\bdri\\b|\\bgcdri\\b|\\bdhri\\b",
+    "Community & collaboration": "communit|collaborat|working group|users.? group|user.? group|collective|civic|public interest|mutual|coalition",
+    "Ethics, access & power": "ethic|accessib|\\baccess\\b|inclus|equity|racial|racis|justice|decoloni|coloni|privacy|surveillance|genocide|feminis|queer|luddite|repair|copyright|net neutrality|open (?:source|access|science)|\\boer\\b|alt text|anthropocene|hidden costs",
+    "AI & machine learning": "\\bai\\b|\\ba\\.i\\.|artificial intelligence|machine learning|chatgpt|generative|large language model|\\bllm\\b|neural|vibe coding"
+  }
+}

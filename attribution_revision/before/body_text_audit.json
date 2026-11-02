@@ -1,0 +1,108 @@
+{
+  "local_posts": 325,
+  "welcome_excluded": 18,
+  "analyzed": 307,
+  "patterns": {
+    "Difficulty & learning affect": "\\banxiet\\w*|\\bafraid\\b|\\bfear\\w*|\\bfrustrat\\w*|\\boverwhelm\\w*|\\bintimidat\\w*|\\bconfiden\\w*|\\bstuck\\b|\\bimpost[eo]r\\w*",
+    "Failure, repair & upkeep": "\\bfail(?:ure|ures|ed|ing)?\\b|\\btroubleshoot\\w*|\\bdebug\\w*|\\brepair\\w*|\\bmaint(?:ain|enance)\\w*|\\bbackup\\w*|\\bback up\\b|\\bpreserv\\w*|\\bsustainab\\w*",
+    "Relations & collective practice": "\\bcommunit\\w*|\\bcollaborat\\w*|\\bcollectiv\\w*|\\bpeer\\w*|\\bmutual\\w*",
+    "Labor & material resources": "\\blabo[u]?r\\w*|\\bworker\\w*|\\bwages?\\b|\\bunpaid\\b|\\bfunding\\b|\\bbudget\\w*|\\binfrastructur\\w*|\\bdata cent(?:er|re)\\w*",
+    "Authority, protection & power": "\\bconsent\\b|\\bsovereign\\w*|\\bgovernance\\b|\\bsurveillance\\b|\\bextractiv\\w*|\\bextraction\\b|\\bprivacy\\b|\\bownership\\b|\\bpower\\b",
+    "Openness": "\\bopen[- ]source\\b|\\bopen access\\b|\\bopenness\\b|\\bopen education\\w*|\\bcommons\\b"
+  },
+  "summary": [
+    {
+      "period": "2012–16",
+      "posts": 115,
+      "median_words": 603,
+      "Difficulty & learning affect": 31,
+      "Failure, repair & upkeep": 25,
+      "Relations & collective practice": 56,
+      "Labor & material resources": 17,
+      "Authority, protection & power": 12,
+      "Openness": 48
+    },
+    {
+      "period": "2016–20",
+      "posts": 79,
+      "median_words": 732,
+      "Difficulty & learning affect": 18,
+      "Failure, repair & upkeep": 28,
+      "Relations & collective practice": 39,
+      "Labor & material resources": 18,
+      "Authority, protection & power": 12,
+      "Openness": 31
+    },
+    {
+      "period": "2020–24",
+      "posts": 66,
+      "median_words": 753.0,
+      "Difficulty & learning affect": 23,
+      "Failure, repair & upkeep": 26,
+      "Relations & collective practice": 39,
+      "Labor & material resources": 7,
+      "Authority, protection & power": 14,
+      "Openness": 27
+    },
+    {
+      "period": "2024–26",
+      "posts": 44,
+      "median_words": 833.5,
+      "Difficulty & learning affect": 14,
+      "Failure, repair & upkeep": 23,
+      "Relations & collective practice": 29,
+      "Labor & material resources": 21,
+      "Authority, protection & power": 22,
+      "Openness": 16
+    },
+    {
+      "period": "2026–27 partial",
+      "posts": 3,
+      "median_words": 1702,
+      "Difficulty & learning affect": 0,
+      "Failure, repair & upkeep": 0,
+      "Relations & collective practice": 2,
+      "Labor & material resources": 2,
+      "Authority, protection & power": 2,
+      "Openness": 1
+    }
+  ],
+  "internal_link_pairs": 89,
+  "posts_with_internal_links": 63,
+  "different_year_link_pairs": 38,
+  "no_shared_author_pairs": 46,
+  "most_linked": [
+    [
+      "DRB Recap!",
+      3
+    ],
+    [
+      "How to Get Started with Python",
+      3
+    ],
+    [
+      "Python resources",
+      3
+    ],
+    [
+      "Text mining at the GC",
+      2
+    ],
+    [
+      "Visualizing NEH Open Data",
+      2
+    ],
+    [
+      "An Anthropologist’s Visit to DHSI to Learn about Sound",
+      2
+    ],
+    [
+      "Databases for Smart People Who Are Scared of Databases",
+      2
+    ],
+    [
+      "Visualizing the Local Impact of the NEH",
+      2
+    ]
+  ]
+}

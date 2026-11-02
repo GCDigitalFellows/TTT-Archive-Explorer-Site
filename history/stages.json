@@ -1,0 +1,128 @@
+[
+  {
+    "id": "index",
+    "number": "01",
+    "title": "Make the archive discoverable",
+    "promptId": "index",
+    "question": "How can a reader find posts by year, writer, or analyzed topic, and see who published across years?",
+    "response": "The post index brought all 430 category records into one searchable view, with year, credited-name, status, post-type and topic controls. Results could be organized by year, credited name or strongest topic, and exported as CSV. A two-column author–year network connected published local writing to its academic years.",
+    "decisions": [
+      "Search published reading-copy text as well as titles, tags and recorded names. Keep draft bodies out of the distributable page and show their metadata with a draft label.",
+      "Use the saved primary MALLET model (8 topics, seed 42). Topic filtering accepts every post meeting the selected weight threshold; topic grouping uses only the strongest weight as a browsing convenience.",
+      "Count one author–year edge credit per distinct credited writer on each published local post. Exclude curated/source-linked records and drafts from the network while retaining their labeled credits in the index. An edge is a publication credit, not evidence of fellowship membership or collaboration.",
+      "Keep index choices independent of the analysis tabs, so browsing does not silently change the other charts."
+    ],
+    "evidence": "The initial full network contained 60 credited local names, but its default display showed only the 20 most prolific in the selection. This display limit and incomplete body-credit extraction were separate issues.",
+    "review": "Population-boundary tests checked 430 records, 421 published posts, nine drafts, topic thresholds, and collective-author edge counts. Browser checks covered search, node selection, grouping, pagination, downloads and narrow layouts.",
+    "links": [
+      [
+        "INTERACTIVE_GUIDE.html",
+        "Index and network guide"
+      ],
+      [
+        "interactive/index_validation.json",
+        "Initial browser-check record"
+      ]
+    ]
+  },
+  {
+    "id": "attribution-correction",
+    "number": "02",
+    "title": "Let the post text correct the metadata",
+    "promptId": "attribution-correction",
+    "question": "Are all writers represented when a posting account differs from the person named in the article?",
+    "response": "Ian identified missing authors and asked for the opening sentences and paragraphs to be checked. The review recovered plain “By…” bylines, guest introductions, and signed contributions inside collective articles. The corrected credits were then joined back to the index, reader, network and analysis summaries.",
+    "decisions": [
+      "Scan the export for candidate bylines, then accept credits through a reviewed ledger containing literal quotations. A candidate match alone does not assign authorship.",
+      "Inspect signed sections beyond the opening: Angela Crumdy’s first-person account and contributors to the 2013 collective reflection would be missed by a first-sentence-only rule.",
+      "Keep workshop instructors, people thanked, quoted scholars, photographers, curators and original writers distinct. Preserve the WordPress account separately from the corrected writer credit.",
+      "Show all network authors by default and add an evidence filter. Retain unresolved account-based attributions as visibly provisional.",
+      "Recompute author- and roster-dependent summaries from the existing per-post topic weights; preserve the original baseline and record intentional corrections in a separate verified ledger."
+    ],
+    "evidence": "Eight posts received changed writer names; ten additional local credited names were recovered. The full local network grew from 60 to 70 name strings. Two guest posts ceased to inherit Rebecca Krisel’s cohort match. The all-local matched count for 2022–2023 fell from 19 to 17; within the narrower modeled corpus it fell from 17 to 15.",
+    "review": "Literal quotation tests and positive/negative attribution cases checked the accepted credits. Separate automated checks reconstructed author/year counts and roster-subset topic means. Of the original 43 reference files, 34 stayed unchanged and nine matched the documented correction ledger. The fitted topic weights and saved word corpus were unchanged.",
+    "links": [
+      [
+        "ATTRIBUTION_REVIEW.html",
+        "Correction report and method"
+      ],
+      [
+        "attribution_revision/credit_changes.csv",
+        "Eight-post change ledger"
+      ],
+      [
+        "attribution_revision/opening_review.csv",
+        "All-record opening review"
+      ],
+      [
+        "attribution_revision/revision_changes.json",
+        "Verified revision ledger"
+      ]
+    ]
+  },
+  {
+    "id": "credit-frameworks",
+    "number": "03",
+    "title": "Make contributions and AI delegation inspectable",
+    "promptId": "credit-frameworks",
+    "question": "Who should receive credit for the original writing, this project’s direction, and the work delegated to the agent?",
+    "response": "The attribution-and-process page separated source-writing acknowledgment, Ian G. Williams’s documented project contributions, and AI-delegated work. CRediT organized the human-role explanation; GAIDeT organized the task disclosure. A complete, searchable source-author register replaced a shortlist.",
+    "decisions": [
+      "Build the register from the corrected inventory and link each name to its source records, status and attribution evidence.",
+      "Expand explicitly reviewed joint-source author strings into individual names. Preserve possible name variants rather than silently merging identities. Keep organizations and unresolved labels in a separate list.",
+      "Credit source writers for the writing attributed to them, without automatically treating them as coauthors of the new analysis or assigning unverified individual CRediT roles.",
+      "Name Ian G. Williams using the public credit he supplied. Distinguish documented direction and critical feedback from hands-on execution or independent human verification that the record does not establish.",
+      "Disclose agent-assisted code generation, analysis orchestration, source investigation, drafting and checks. Record uncertainty about exact earlier AI versions and the scope of human review."
+    ],
+    "evidence": "The register contains 163 human-name entries across local writing, curated source works and draft metadata, including the 70 published-local names. Seven institutional or unresolved labels are listed separately. These are different counting populations, and neither is a verified census of distinct people.",
+    "review": "Register tests checked every recorded credit against either a human-name entry or an explicit non-person classification. The generated page includes all 14 CRediT role rows and all eight GAIDeT category rows. Browser checks covered joint authors, linked evidence, the all-name reset, filters, and both standalone and embedded layouts.",
+    "links": [
+      [
+        "CREDITS_AND_PROCESS.html",
+        "Attribution and process page"
+      ],
+      [
+        "credits/human_author_register.csv",
+        "Complete source-writing credit register"
+      ],
+      [
+        "credits/process_profile.json",
+        "Role and delegation profile"
+      ],
+      [
+        "credits/name_classification.json",
+        "Reviewed joint-name and non-person mappings"
+      ]
+    ]
+  },
+  {
+    "id": "project-history",
+    "number": "04",
+    "title": "Document how the project itself changed",
+    "promptId": "project-history",
+    "question": "Can a reader follow how the index request became the present evidence-centered website?",
+    "response": "This page preserves the relevant prompts and connects them to implementation choices, evidence, tests and remaining limitations. Its starting point is the index request, rather than a retrospective retelling of every earlier analysis or design change.",
+    "decisions": [
+      "Use exact user requests retrieved from the project chat and identify the source thread and message records in a small provenance file.",
+      "Provide stable local links to the preserved prompt excerpts. Label their scope clearly because the thread reader supplied no supported original-message permalink.",
+      "Distinguish the initial implementation from the attribution correction, and distinguish current recorded results from claims of complete authorship recovery or independent human review.",
+      "Keep the explanation and selected prompts in editable source files, generate the standalone page and embedded tab from one fragment, and verify their links and navigation."
+    ],
+    "evidence": "The history uses four selected user requests and the saved project artifacts. It is a documented account of this workflow, not a full conversation transcript, a version-control commit history, or a claim that every methodological decision appeared explicitly in a prompt.",
+    "review": "Build checks verify one prompt per stage, unique anchors, local source links and consistent scope counts. Browser review checks the new tab, prompt jumps and narrow layouts. Adding this explanatory page leaves the scientific result files unchanged relative to the verified attribution-correction state.",
+    "links": [
+      [
+        "history/prompts.json",
+        "Selected prompt provenance"
+      ],
+      [
+        "history/stages.json",
+        "Editable stage narrative"
+      ],
+      [
+        "history/README.md",
+        "History-page build and review notes"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "release": "2026-11-02-review-revision",
+  "date": "2026-11-02",
+  "status": "Automated checks passed; HTTP browser checks passed; explicit verification limits below",
+  "automated": {
+    "node_tests": 21,
+    "python_tests": 16,
+    "all_passed": true,
+    "groups": [
+      "Existing statistical calculations, model populations and design controls",
+      "Three view-navigation tests",
+      "Four credit-register tests",
+      "Four history/provenance tests",
+      "Four identity-preservation tests",
+      "Four release/process consistency tests"
+    ],
+    "test_maintenance": "The existing link checker initially treated mailto: as a local file. Its protocol handling was corrected and the four history tests passed on rerun."
+  },
+  "preservation": {
+    "result": "34 original reference files unchanged; nine intentional attribution/cohort corrections still match the established ledger",
+    "original_baseline_retained": true,
+    "source_inventory_preserved": true,
+    "model_refitted": false,
+    "fitted_word_corpus_unchanged": true,
+    "interpretive_sources": 19
+  },
+  "http_browser_checks": [
+    "Root index opens the overview",
+    "Author-first Ian Williams lookup opens Ian G. Williams with five records",
+    "All-credit network shows 273 provisional attributions among 325 distinct posts",
+    "Explicit-credit filter shows 0 provisional among 52 distinct posts",
+    "Signed-list coverage table explains unknown versus absent",
+    "Reload and browser Back restore named views",
+    "Expanded source selection shows one added source in each year 2018–2022",
+    "Changing design year retains reading view",
+    "Reports route shows correctly qualified 421/325/299 counts",
+    "Random-reader action opens saved analysis under the revised label",
+    "Project history includes the task/work log",
+    "No JavaScript error logs observed"
+  ],
+  "static_checks": [
+    "Data and scripts embedded; no runtime fetch() found in generated app",
+    "index.html and interactive_explorer.html are identical compatibility copies",
+    "Tested local link targets exist",
+    "All work-log GAIDeT IDs and CRediT roles are declared in the project profile"
+  ],
+  "limits": {
+    "file_protocol": "Direct file:// browser test was rejected by browser-tool URL policy. No workaround was attempted. File-mode execution remains unverified; embedded-data architecture was checked separately.",
+    "narrow_viewport": "A requested 360px override did not apply: DOM measurements remained 1280px. Override reset. Narrow-screen execution is not claimed verified in this release.",
+    "human_review": "No actual human user study, contributor role confirmation, institutional endorsement or final approval of every conclusion is established.",
+    "accessibility": "No complete WCAG or assistive-technology conformance audit.",
+    "full_retraining": "Not performed or benchmarked in this revision."
+  },
+  "preview": "process/research-revision-preview.png"
+}

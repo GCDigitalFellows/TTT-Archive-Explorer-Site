@@ -1,0 +1,352 @@
+{
+  "scope": "325 published local/unflagged posts; statuses concern recorded evidence, not verified appointments",
+  "post_status_counts": {
+    "roster unavailable": 147,
+    "summer unconfirmed": 2,
+    "matched": 147,
+    "roster available; no resolved credit match": 29
+  },
+  "semesters": [
+    {
+      "year": "2012–2013",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2012–2013",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2013–2014",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2013–2014",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2014–2015",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2014–2015",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2015–2016",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2015–2016",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2016–2017",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2016–2017",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2017–2018",
+      "semester": "fall",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    },
+    {
+      "year": "2017–2018",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 9,
+      "unresolved_names": [
+        "Patrick [surname unresolved]"
+      ],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2018/02/07/what-is-gcdi-spring-2018-edition/",
+          "What is GCDI? (Spring 2018 Edition)"
+        ]
+      ]
+    },
+    {
+      "year": "2018–2019",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 10,
+      "unresolved_names": [
+        "Pablo [surname unresolved]",
+        "Patrick [surname unresolved]"
+      ],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/",
+          "What is GCDI? (Fall 2018 Edition)"
+        ]
+      ]
+    },
+    {
+      "year": "2018–2019",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [
+        "Patrick [surname unresolved]"
+      ],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2019/02/11/what-is-gcdi-spring-2019-edition-2/",
+          "What is GCDI? (Spring 2019 edition)"
+        ]
+      ]
+    },
+    {
+      "year": "2019–2020",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 10,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2019/08/29/gcdi-is-here-for-you-3/",
+          "GCDI is Here for You!"
+        ]
+      ]
+    },
+    {
+      "year": "2019–2020",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 10,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2020/02/06/welcome-back-3/",
+          "Welcome Back!"
+        ]
+      ]
+    },
+    {
+      "year": "2020–2021",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
+          "GCDI is Here for You!"
+        ]
+      ]
+    },
+    {
+      "year": "2020–2021",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2021/02/19/gcdi-is-here-for-you-2-2/",
+          "GCDI is Here for You!"
+        ]
+      ]
+    },
+    {
+      "year": "2021–2022",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2021/09/15/gcdi-is-here-for-you-3-2/",
+          "GCDI is Here for You!"
+        ]
+      ]
+    },
+    {
+      "year": "2021–2022",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2022/02/07/greetings-digital-gc-welcome-back/",
+          "Greetings Digital GC – Welcome back!"
+        ]
+      ]
+    },
+    {
+      "year": "2022–2023",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2022/09/21/gcdi-welcomes-you-to-the-fall-semester-2/",
+          "GCDI Welcomes You to the Fall Semester!"
+        ]
+      ]
+    },
+    {
+      "year": "2022–2023",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2023/01/30/spring-is-in-the-air-welcome-back-from-gcdi-and-the-digital-fellows/",
+          "Spring is in the air! Welcome back from GCDI and the Digital Fellows!"
+        ]
+      ]
+    },
+    {
+      "year": "2023–2024",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/",
+          "GCDI Welcomes You Back!"
+        ]
+      ]
+    },
+    {
+      "year": "2023–2024",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 7,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2024/01/29/welcome-back-for-the-spring-24-semester/",
+          "Welcome back for the Spring '24 semester!"
+        ]
+      ]
+    },
+    {
+      "year": "2024–2025",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2024/09/10/gcdi-welcomes-you-back-for-fall-24/",
+          "GCDI Welcomes You Back for Fall '24!"
+        ]
+      ]
+    },
+    {
+      "year": "2024–2025",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2025/02/04/welcome-to-spring-2025/",
+          "Welcome to Spring 2025!"
+        ]
+      ]
+    },
+    {
+      "year": "2025–2026",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2025/09/09/welcome-to-fall-25/",
+          "Welcome to Fall '25!"
+        ]
+      ]
+    },
+    {
+      "year": "2025–2026",
+      "semester": "spring",
+      "signed_list_available": true,
+      "listed_names": 8,
+      "unresolved_names": [],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2026/02/02/welcome-to-spring26/",
+          "Welcome to Spring'26!"
+        ]
+      ]
+    },
+    {
+      "year": "2026–2027",
+      "semester": "fall",
+      "signed_list_available": true,
+      "listed_names": 7,
+      "unresolved_names": [
+        "Sara [surname unresolved]",
+        "Shokran [surname unresolved]",
+        "Zhilang [surname unresolved]"
+      ],
+      "sources": [
+        [
+          "https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/",
+          "Welcome Back Fall '26!"
+        ]
+      ]
+    },
+    {
+      "year": "2026–2027",
+      "semester": "spring",
+      "signed_list_available": false,
+      "listed_names": 0,
+      "unresolved_names": [],
+      "sources": []
+    }
+  ]
+}

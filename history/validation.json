@@ -1,0 +1,33 @@
+{
+  "reviewed": "2026-11-01",
+  "status": "passed",
+  "automated_checks": {
+    "history_tests": 4,
+    "existing_javascript_tests": 18,
+    "selected_prompts": 4,
+    "prompt_wording": "SHA-256 fingerprints match retrieved user requests",
+    "links": "All generated local links and anchors resolve; HTML IDs are unique",
+    "scope_counts": [
+      430,
+      421,
+      9,
+      325,
+      299,
+      70,
+      163,
+      7
+    ],
+    "analysis_continuity": "Data fingerprint unchanged from the verified author-correction state; original 34 unchanged / 9 documented corrections ledger still matches"
+  },
+  "browser_checks": [
+    "Standalone stage-to-prompt and prompt-to-stage anchors work",
+    "Portable excerpt link opens its actual standalone section",
+    "Method details expand with keyboard input",
+    "New Project history tab hides other views and sets its selected state",
+    "Returning to the index preserves a selected author and result scope",
+    "All four selected prompt excerpts are present",
+    "Standalone and embedded pages remain 360px wide at a 360px viewport",
+    "No browser console errors"
+  ],
+  "link_scope": "Local preserved prompt excerpts; no original-message permalink was supplied or invented."
+}

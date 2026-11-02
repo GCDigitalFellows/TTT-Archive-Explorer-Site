@@ -1,0 +1,99 @@
+{
+  "updated": "2026-11-02",
+  "basis": [
+    "Two source-inspection AI sub-agent simulations",
+    "Supplied five-persona manifest-based simulation",
+    "Source checks and requester answers"
+  ],
+  "priority": "Research/examination first",
+  "stages": [
+    {
+      "stage": "Orientation, credit and roster evidence",
+      "status": "implemented; checked in release validation",
+      "items": [
+        "Sourced GCDI/Fellows introduction and project-status statement",
+        "Author-first entry and contact",
+        "Distinct record/model/register populations",
+        "Selection-specific provisional-credit counts",
+        "Semester-level signed-list coverage"
+      ]
+    },
+    {
+      "stage": "Interpretation and source coverage",
+      "status": "implemented",
+      "items": [
+        "19 export-verified passages",
+        "Five additional posts from 2018–2022",
+        "Purposive-selection and remaining zero-year coverage account",
+        "Historically situated AI, pandemic, ownership and governance qualifications",
+        "Multimodal and curation limits"
+      ]
+    },
+    {
+      "stage": "Research journeys and sharing",
+      "status": "implemented; browser checks recorded separately",
+      "items": [
+        "Package index front door",
+        "Read / Explore / How we know groups",
+        "Methods/data and reporting routes",
+        "Worked chart example and contextual definitions",
+        "Stable view/appearance links with no research-filter serialization",
+        "Accurate saved-analysis action label"
+      ]
+    },
+    {
+      "stage": "Governance and reproducibility",
+      "status": "implemented with explicit outstanding decisions",
+      "items": [
+        "Public correction contact and reusable template",
+        "README, suggested citation and license status",
+        "Current-data map and CSV header index",
+        "Accessibility limitations",
+        "CRediT/GAIDeT activity mappings, updated history and validation log"
+      ]
+    }
+  ],
+  "outstanding": [
+    "Requester-specified licenses",
+    "Stakeholder verification of institutional status, editorial history and missing appointments",
+    "Actual human usability and contributor review",
+    "Fully annotated data dictionary",
+    "All-chart PNG exports",
+    "Optional event mode and hosted release",
+    "Direct file-mode and narrow-screen verification: current browser tool restricted file URLs and did not apply the requested width override"
+  ],
+  "do_not_infer": [
+    "Institutional endorsement",
+    "Actual human user testing",
+    "Readership/popularity metrics",
+    "Complete authorship or cohort identity validation",
+    "A three-command full NLP setup or benchmarked runtime"
+  ],
+  "external_review_provenance": {
+    "reported_by": "Ian G. Williams",
+    "reported_on": "2026-11-02",
+    "model_label_as_supplied": "Deepseek V4.1 Flash 1017",
+    "interface": "OpenWebUI",
+    "environment": "CAIL sandbox",
+    "input": "ZIP export of a previous iteration of the project",
+    "input_zip_filename": null,
+    "input_zip_sha256": null,
+    "input_iteration_identifier": null,
+    "output_document": "TTT-Website-review.md",
+    "verification": "Model/environment/input provenance supplied by the requester; no external session logs or exact input archive were inspected.",
+    "inspection_limit": "The review document itself reports manifest/directory inspection rather than individual HTML/CSV/JSON prose. This describes its stated evidence base, not the full capabilities of the model or CAIL sandbox.",
+    "task_boundary": "External model: supplied five-persona structural/heuristic critique. Codex and two Codex sub-agents: separate source-based simulations, synthesis, verification and implementation. Neither activity constitutes human user testing."
+  },
+  "implemented_thematic_extension": {
+    "date": "2026-11-02",
+    "basis": "Subsequent requester instruction to incorporate themes",
+    "views": [
+      "Theme/year heatmap",
+      "Keyword co-occurrence",
+      "Writer/theme bars",
+      "Evidence lists and exports",
+      "Theme-aware index/network filter"
+    ],
+    "limit": "Saved keyword flags and the explicitly selected 19-post essay layer; no new semantic corpus coding or fit."
+  }
+}

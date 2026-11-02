@@ -1,0 +1,226 @@
+{
+  "reviewed": "2026-10-31",
+  "desktop": [
+    {
+      "depth": "flat",
+      "layout": "open",
+      "pageWidth": 729,
+      "type": "sans-light",
+      "width": 729,
+      "year": "2012"
+    },
+    {
+      "depth": "flat",
+      "layout": "open",
+      "pageWidth": 729,
+      "type": "sans-light",
+      "width": 729,
+      "year": "2013"
+    },
+    {
+      "depth": "lifted",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2014"
+    },
+    {
+      "depth": "quiet",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2015"
+    },
+    {
+      "depth": "flat",
+      "layout": "open",
+      "pageWidth": 729,
+      "type": "display",
+      "width": 729,
+      "year": "2016"
+    },
+    {
+      "depth": "glass",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2017"
+    },
+    {
+      "depth": "quiet",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "editorial",
+      "width": 729,
+      "year": "2018"
+    },
+    {
+      "depth": "quiet",
+      "layout": "open",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2019"
+    },
+    {
+      "depth": "soft",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "rounded",
+      "width": 729,
+      "year": "2020"
+    },
+    {
+      "depth": "glass",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2021"
+    },
+    {
+      "depth": "quiet",
+      "layout": "panels",
+      "pageWidth": 729,
+      "type": "rounded",
+      "width": 729,
+      "year": "2022"
+    },
+    {
+      "depth": "quiet",
+      "layout": "bento",
+      "pageWidth": 729,
+      "type": "sans",
+      "width": 729,
+      "year": "2023"
+    },
+    {
+      "depth": "hard",
+      "layout": "bento",
+      "pageWidth": 729,
+      "type": "display",
+      "width": 729,
+      "year": "2024"
+    },
+    {
+      "depth": "lifted",
+      "layout": "bento",
+      "pageWidth": 729,
+      "type": "rounded",
+      "width": 729,
+      "year": "2025"
+    },
+    {
+      "depth": "quiet",
+      "layout": "bento",
+      "pageWidth": 729,
+      "type": "editorial",
+      "width": 729,
+      "year": "2026"
+    }
+  ],
+  "mobile": [
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2012"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2013"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2014"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2015"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2016"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2017"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2018"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2019"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2020"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2021"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2022"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2023"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2024"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2025"
+    },
+    {
+      "pageWidth": 360,
+      "scope": "8 of 299 modeled posts · 2 academic years · 8 topics, seed 42 · darker fill means greater weight within this view",
+      "width": 360,
+      "year": "2026"
+    }
+  ],
+  "additionalChecks": [
+    "Appearance controls preserve selected writer/year scope and heatmap values",
+    "Typography, depth, layout, spacing and appearance overrides",
+    "Reader mode and reset",
+    "Keyboard year and strength ranges",
+    "Selected-year source links",
+    "Default 2026 and 2012 screenshots"
+  ],
+  "consoleErrors": []
+}

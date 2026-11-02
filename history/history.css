@@ -1,0 +1,134 @@
+/* The history tab inherits the selected annual theme. Its standalone companion
+   uses the credits page's neutral reading defaults; no external assets load. */
+.history-page {
+  overflow-wrap: anywhere;
+}
+.history-hero {
+  padding: 2rem 0 1rem;
+}
+.history-lead {
+  font-size: 1.3rem;
+  max-width: 62ch;
+}
+.history-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+.history-stat-grid p {
+  border-top: 2px solid var(--series);
+  padding-top: 1rem;
+}
+.history-stat-grid strong {
+  display: block;
+  font:
+    700 clamp(2rem, 4vw, 3rem) / 1.2 Georgia,
+    serif;
+  margin-bottom: 0.5rem;
+}
+.history-stat-grid span {
+  display: block;
+  max-width: 28ch;
+}
+.history-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  border-block: 1px solid var(--rule);
+  padding: 1.1rem 0;
+  margin: 1rem 0 2rem;
+}
+.history-section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+.history-note {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+  padding: 1.3rem;
+  margin: 1.3rem 0;
+}
+.history-method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.history-method-grid .history-note {
+  margin: 0;
+}
+.history-stage {
+  margin: 1.5rem 0 2rem;
+  padding: 1.6rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+}
+.history-stage h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+.history-stage .history-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.6rem;
+  min-height: 2.6rem;
+  border: 2px solid var(--series);
+  border-radius: 50%;
+  font-weight: 700;
+  margin-right: 0.7rem;
+}
+.history-stage ul {
+  padding-left: 1.3rem;
+}
+.history-stage li {
+  margin: 0.8rem 0;
+}
+.history-prompt {
+  margin: 1.5rem 0;
+  padding: 1.4rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+  scroll-margin-top: 1rem;
+}
+.history-prompt blockquote {
+  border-left: 3px solid var(--series);
+  padding-left: 1.1rem;
+  margin: 1rem 0;
+  white-space: pre-wrap;
+}
+.history-artifact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.3rem;
+  margin: 1rem 0;
+}
+.history-page summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .history-method-grid,
+  .history-stat-grid {
+    grid-template-columns: 1fr;
+  }
+  .history-stat-grid {
+    gap: 0;
+  }
+  .history-stage {
+    padding: 1rem;
+  }
+}
+@media print {
+  .history-page details {
+    display: block;
+  }
+  .history-stage,
+  .history-prompt {
+    break-inside: avoid;
+  }
+}

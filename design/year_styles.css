@@ -1,0 +1,652 @@
+/* The annual design layer. Data rules stay in interactive/core.js.
+ * Each visual role is a CSS variable calculated by style_math.js.
+ * Year selectors add a few deliberate composition changes; local font stacks
+ * approximate a direction without downloading historical brand assets.
+ */
+:root {
+  --surface: #fffdf7;
+  --accent: #e7b084;
+  --heading-font: Georgia, serif;
+  --heading-weight: 500;
+  --heading-tracking: -0.055em;
+  --heading-scale: 4.6rem;
+  --panel-radius: 16px;
+  --control-radius: 10px;
+  --shadow-size: 10px;
+  --panel-border: 1px;
+  --ornament: 1;
+  --selected: color-mix(in srgb, var(--series) 12%, var(--surface));
+}
+html {
+  scroll-behavior: auto;
+}
+body {
+  background: var(--paper);
+}
+main {
+  max-width: 1280px;
+  padding: 28px 40px 52px;
+}
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 20px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+.brand small {
+  display: block;
+  color: var(--quiet);
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.015em;
+  margin-top: 2px;
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  height: 44px;
+  width: 44px;
+  flex: 0 0 44px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--control-radius);
+  font:
+    500 1.9rem/0.8 Georgia,
+    serif;
+  letter-spacing: -0.14em;
+  padding-right: 6px;
+}
+.method-link {
+  font-size: 0.8rem;
+  color: var(--ink);
+  text-align: right;
+}
+header.page-hero {
+  max-width: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 40px;
+  align-items: center;
+  padding: 54px 0 38px;
+  position: relative;
+  isolation: isolate;
+}
+.hero-copy {
+  min-width: 0;
+}
+h1 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-weight);
+  font-size: clamp(2rem, 5.4vw, var(--heading-scale));
+  letter-spacing: var(--heading-tracking);
+  line-height: 1.04;
+  margin: 12px 0 22px;
+}
+h1 em {
+  color: var(--series);
+  font-style: normal;
+}
+[data-typography="editorial"] h1 em {
+  font-style: italic;
+}
+.hero-description {
+  font-size: 1.03rem;
+  max-width: 650px;
+  line-height: 1.55;
+}
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.era-signature {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  border-left: 1px solid var(--rule);
+  gap: 10px;
+  position: relative;
+}
+.era-signature strong {
+  font: var(--heading-weight) clamp(3.3rem, 7vw, 5.4rem) / 1 var(--heading-font);
+  letter-spacing: -0.075em;
+}
+#design-name {
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+.evidence-kind {
+  color: var(--quiet);
+  font-size: 0.72rem;
+}
+.design-studio {
+  background: var(--surface);
+  border: var(--panel-border) solid var(--rule);
+  border-radius: var(--panel-radius);
+  padding: 24px;
+  margin: 4px 0 30px;
+}
+.studio-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 24px;
+}
+.studio-heading .eyebrow {
+  margin-top: 0;
+}
+.studio-heading h2 {
+  font-size: 1.25rem;
+  letter-spacing: -0.035em;
+  margin-bottom: 20px;
+}
+.studio-heading button {
+  flex-shrink: 0;
+}
+.year-controller {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) minmax(220px, 1.1fr) auto;
+  gap: 24px;
+  align-items: center;
+}
+.year-range-label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 9px;
+}
+.year-range-label input,
+.range-endpoints {
+  grid-column: 1 / -1;
+}
+.year-range-label output {
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+.range-endpoints {
+  display: flex;
+  justify-content: space-between;
+  color: var(--quiet);
+  font-size: 0.72rem;
+}
+input[type="range"] {
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  accent-color: var(--series);
+  min-height: 28px;
+}
+input[type="checkbox"] {
+  accent-color: var(--series);
+}
+.year-preset-label select {
+  width: 100%;
+  min-width: 0;
+}
+.year-step-buttons {
+  display: flex;
+  gap: 8px;
+}
+.design-context {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(0, 1.4fr);
+  column-gap: 26px;
+  margin: 20px 0 12px;
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+}
+.design-context strong {
+  font-weight: 650;
+  font-size: 0.9rem;
+}
+.design-context p {
+  font-size: 0.86rem;
+  margin: 0 0 7px;
+}
+.design-context .secondary {
+  grid-column: 2;
+  font-size: 0.77rem;
+}
+.design-tuning {
+  margin-top: 12px;
+}
+.design-tuning summary {
+  font-size: 0.86rem;
+  font-weight: 550;
+  cursor: pointer;
+  width: fit-content;
+}
+.tuning-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 20px 0;
+}
+.tuning-grid select {
+  min-width: 0;
+  width: 100%;
+}
+.design-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 15px 0;
+}
+.design-status {
+  font-size: 0.77rem;
+  color: var(--quiet);
+  margin: 14px 0 6px;
+}
+.design-studio > .secondary {
+  margin: 0;
+  font-size: 0.77rem;
+}
+button,
+select,
+input[type="number"] {
+  min-height: 44px;
+  border-color: var(--rule);
+  border-radius: var(--control-radius);
+  background: var(--surface);
+}
+button:hover {
+  background: var(--selected);
+}
+.view-nav {
+  gap: 6px;
+  margin-top: 26px;
+  padding: 0 0 14px;
+}
+.view-nav button {
+  border: 1px solid transparent;
+  background: transparent;
+  padding: 10px 16px;
+}
+.view-nav button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+.controls {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--panel-radius);
+  padding: 20px;
+  margin: 20px 0;
+  gap: 18px;
+}
+.controls label {
+  flex: 1 1 180px;
+}
+.controls select {
+  width: 100%;
+  min-width: 0;
+  max-width: 100% !important;
+}
+.controls > button {
+  align-self: end;
+}
+h2,
+h3 {
+  letter-spacing: -0.025em;
+}
+.table-scroll {
+  border-radius: var(--panel-radius);
+}
+.heatmap {
+  min-width: 640px;
+}
+.heatmap th:first-child {
+  min-width: 140px;
+}
+.heatmap th button {
+  border-radius: 4px;
+}
+.heatmap .heat-cell {
+  border-radius: min(var(--control-radius), 10px);
+  background: color-mix(
+    in srgb,
+    var(--series) calc(var(--intensity) * 0.62),
+    var(--surface)
+  );
+}
+.heatmap td {
+  padding: 4px;
+}
+.post-list li {
+  padding: 14px 0;
+}
+.bar-list {
+  margin-bottom: 24px;
+}
+.bar-row {
+  margin: 10px 0;
+}
+.bar-label {
+  border-radius: 3px;
+  background: transparent;
+}
+.bar-track,
+.bar-fill,
+.stack-track {
+  border-radius: min(var(--control-radius), 8px);
+}
+.bar-track,
+.stack-track {
+  background: color-mix(in srgb, var(--series) 8%, var(--surface));
+}
+.selection {
+  background: var(--surface);
+  border-radius: 0 var(--control-radius) var(--control-radius) 0;
+  padding: 10px 14px;
+}
+.style-evidence h3 {
+  margin: 20px 0 12px;
+}
+.design-source-list {
+  padding-left: 22px;
+}
+.design-source-list li {
+  padding: 10px 0;
+}
+.design-source-list p {
+  margin: 4px 0;
+}
+.reading-note {
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--panel-radius);
+}
+.reading-note p {
+  max-width: 900px;
+}
+
+/* Composition changes affect grouping, never reading order or chart values. */
+[data-layout="panels"] .two-column > section,
+[data-layout="panels"] .subsection,
+[data-layout="bento"] .two-column > section,
+[data-layout="bento"] .subsection {
+  background: var(--surface);
+  border: var(--panel-border) solid var(--rule);
+  padding: 24px;
+  border-radius: var(--panel-radius);
+  min-width: 0;
+}
+[data-layout="bento"] .two-column {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 18px;
+}
+[data-layout="bento"] .subsection {
+  margin: 22px 0;
+}
+[data-layout="bento"] .table-scroll {
+  background: var(--surface);
+  padding: 12px;
+  border: var(--panel-border) solid var(--rule);
+}
+[data-layout="open"] .controls {
+  background: transparent;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+[data-depth="quiet"] .design-studio,
+[data-depth="quiet"] .subsection {
+  box-shadow: 0 3px 0 color-mix(in srgb, var(--ink) 7%, transparent);
+}
+[data-depth="lifted"] .design-studio,
+[data-depth="lifted"] .two-column > section,
+[data-depth="lifted"] .subsection {
+  box-shadow: 0 var(--shadow-size) calc(var(--shadow-size) * 2.8)
+    color-mix(in srgb, var(--ink) 12%, transparent);
+}
+[data-depth="soft"] .design-studio,
+[data-depth="soft"] .controls,
+[data-depth="soft"] .two-column > section,
+[data-depth="soft"] .subsection {
+  box-shadow:
+    var(--shadow-size) var(--shadow-size) calc(var(--shadow-size) * 2)
+      color-mix(in srgb, var(--ink) 15%, transparent),
+    calc(var(--shadow-size) * -1) calc(var(--shadow-size) * -1)
+      calc(var(--shadow-size) * 2) color-mix(in srgb, var(--surface) 90%, white);
+}
+[data-depth="soft"] select {
+  box-shadow:
+    inset 3px 3px 7px color-mix(in srgb, var(--ink) 9%, transparent),
+    inset -3px -3px 7px color-mix(in srgb, var(--surface) 90%, white);
+}
+[data-depth="glass"] .design-studio,
+[data-depth="glass"] .two-column > section,
+[data-depth="glass"] .subsection {
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 var(--shadow-size) 32px
+    color-mix(in srgb, var(--series) 9%, transparent);
+}
+[data-depth="hard"] .design-studio,
+[data-depth="hard"] .two-column > section,
+[data-depth="hard"] .subsection {
+  box-shadow: calc(var(--shadow-size) * 0.55) calc(var(--shadow-size) * 0.55) 0
+    var(--ink);
+}
+[data-depth="hard"] button:not(.bar-label):not(.heat-cell) {
+  border-width: 2px;
+}
+[data-pattern="duotone"] .page-hero {
+  padding: 40px 30px;
+  margin: 24px 0;
+  background: linear-gradient(
+    110deg,
+    color-mix(in srgb, var(--series) 9%, var(--paper)) 52%,
+    color-mix(in srgb, var(--accent) 17%, var(--paper)) 52%
+  );
+  border-radius: var(--panel-radius);
+}
+[data-pattern="aurora"] body {
+  background:
+    radial-gradient(
+      ellipse at 6% 0%,
+      color-mix(in srgb, var(--series) 12%, transparent),
+      transparent 48rem
+    ),
+    radial-gradient(
+      ellipse at 95% 24rem,
+      color-mix(in srgb, var(--accent) 14%, transparent),
+      transparent 40rem
+    ),
+    var(--paper);
+}
+[data-pattern="grid"] .era-signature {
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--rule) 18%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--rule) 18%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 22px 22px;
+  border: 2px solid var(--ink);
+}
+[data-pattern="paper"] .era-signature {
+  background-color: color-mix(in srgb, var(--accent) 14%, var(--paper));
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--ink) 18%, transparent) 0.65px,
+    transparent 0.65px
+  );
+  background-size: 5px 5px;
+  border: 1px solid var(--rule);
+  border-radius: 48% 48% 8px 8px;
+}
+[data-typography="display"] .page-hero h1 {
+  text-transform: uppercase;
+}
+[data-design-year="2012"]:not([data-reader="true"])
+  .view-nav
+  button[aria-pressed="true"] {
+  background: var(--series);
+  color: var(--surface);
+}
+[data-design-year="2012"]:not([data-reader="true"]) .era-signature {
+  border: 0;
+  background: var(--series);
+  color: var(--surface);
+}
+[data-design-year="2012"]:not([data-reader="true"]) .era-signature .eyebrow,
+[data-design-year="2012"]:not([data-reader="true"]) .era-signature .evidence-kind {
+  color: inherit;
+}
+[data-design-year="2025"]:not([data-reader="true"]) .design-studio {
+  border-radius: 36px 12px 36px 12px;
+}
+[data-density="compact"] .design-studio {
+  padding: 18px;
+}
+[data-density="compact"] .controls {
+  gap: 12px;
+  padding: 14px;
+}
+[data-density="compact"] .bar-row {
+  margin: 6px 0;
+}
+[data-density="compact"] th,
+[data-density="compact"] td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  body,
+  .design-studio,
+  .view-nav button {
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      border-color 160ms ease;
+  }
+}
+@media (max-width: 960px) {
+  main {
+    padding: 24px;
+  }
+  header.page-hero {
+    grid-template-columns: minmax(0, 1fr) 180px;
+    gap: 22px;
+    padding: 36px 0;
+  }
+  .year-controller {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .year-step-buttons {
+    grid-column: 1 / -1;
+    justify-content: end;
+  }
+  .two-column,
+  [data-layout="bento"] .two-column {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 620px) {
+  main {
+    padding: 18px 16px 36px;
+  }
+  .masthead {
+    align-items: start;
+  }
+  .method-link {
+    max-width: 115px;
+  }
+  header.page-hero {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  h1 {
+    font-size: clamp(2rem, 8.5vw, 3.3rem);
+  }
+  .era-signature {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 8px 18px;
+    padding: 16px;
+    border: 1px solid var(--rule);
+  }
+  .era-signature strong {
+    grid-row: 1 / 4;
+    grid-column: 1;
+    font-size: 3.1rem;
+  }
+  .era-signature .eyebrow,
+  #design-name,
+  .evidence-kind {
+    grid-column: 2;
+  }
+  .studio-heading {
+    flex-direction: column;
+    gap: 0;
+  }
+  .design-studio {
+    padding: 18px;
+  }
+  .year-controller,
+  .tuning-grid,
+  .design-context {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .design-context .secondary {
+    grid-column: 1;
+  }
+  .year-step-buttons {
+    justify-content: start;
+  }
+  .tuning-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .design-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .controls {
+    padding: 14px;
+  }
+  [data-layout="panels"] .two-column > section,
+  [data-layout="panels"] .subsection,
+  [data-layout="bento"] .two-column > section,
+  [data-layout="bento"] .subsection {
+    padding: 16px;
+  }
+  [data-pattern="duotone"] .page-hero {
+    padding: 24px 16px;
+  }
+}
+@media (max-width: 380px) {
+  .tuning-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  .design-studio,
+  .era-signature {
+    display: none;
+  }
+  .page-hero {
+    display: block !important;
+  }
+}

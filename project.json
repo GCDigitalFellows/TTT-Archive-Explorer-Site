@@ -1,0 +1,19 @@
+{
+  "name": "Tagging The Tower Archives Explorer",
+  "slug": "TTT-Archive-Explorer",
+  "bundle_basename": "Tagging_The_Tower_Archives_Explorer",
+  "repository": {
+    "owner": "GCDigitalFellows",
+    "name": "TTT-Archive-Explorer",
+    "visibility": "private",
+    "url": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer",
+    "status": "created; PRIVATE visibility and ADMIN access verified; initial source pushed to main and remote commit matched"
+  },
+  "maintainer": {
+    "name": "Ian G. Williams",
+    "github_account": "perlsdiver",
+    "email": "ian.williams52@gc.cuny.edu"
+  },
+  "source_publication": "Tagging the Tower",
+  "rights_status": "New code and analysis licenses await Ian's specification; original source works retain separate rights."
+}

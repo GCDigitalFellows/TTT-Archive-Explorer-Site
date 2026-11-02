@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "checks": [
+    {
+      "url": "https://www.gc.cuny.edu/events/gc-digital-fellows-open-house",
+      "status": "Retrieved official primary source",
+      "used_for": "Fellows workshop, consultation, resource and convening role; GCDI institutional name"
+    },
+    {
+      "url": "https://www.gc.cuny.edu/news/graduate-center-fellowship-builds-digital-skills-also-yields-jobs-alumni",
+      "status": "Retrieved official primary source",
+      "used_for": "Relationship of Fellows program to GCDI; not used to claim this companion is endorsed"
+    },
+    {
+      "url": "https://gcdi.commons.gc.cuny.edu/",
+      "status": "403 during this review",
+      "used_for": "No live-page verification claimed; original publication identity also comes from supplied export"
+    },
+    {
+      "url": "https://digitalfellows.commons.gc.cuny.edu/about/",
+      "status": "Not accessible with the web tool",
+      "used_for": "No retrieved-page claims based on this link"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/panbibliotekar/gaidet-declaration/main/_data/terms.yml",
+      "status": "Retrieved primary taxonomy",
+      "used_for": "Canonical task IDs and labels for delegated quality assessment, validation, recommendations and other tasks"
+    },
+    {
+      "url": "https://credit.niso.org/implementing-credit/",
+      "status": "Retrieved primary guidance",
+      "used_for": "Contribution mapping does not establish authorship or contributor-confirmed agreement"
+    },
+    {
+      "source": "Supplied WordPress XML",
+      "status": "19 literal excerpts verified by the evidence builder",
+      "used_for": "Interpretive source trail; original live page access is not implied for each post"
+    }
+  ]
+}

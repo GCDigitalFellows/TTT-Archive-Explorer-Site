@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "initial_posts": 14,
+  "revised_posts": 19,
+  "screened_population": "Titles of 98 published local/unflagged records dated 2018–2022",
+  "read_in_full": [
+    "4809",
+    "5111",
+    "19864",
+    "19868",
+    "6446"
+  ],
+  "method": "Targeted purposive selection to test or qualify existing themes, not random sampling, exhaustive counterexample search or saturation analysis.",
+  "qualifications": [
+    "Goal-first account modified by coding as thinking",
+    "Shared-learning account situated in pandemic disruption",
+    "Access extends to governance and power",
+    "Repair includes ownership and political economy",
+    "AI critique precedes recent prominence; 2018 capability claims remain historically situated"
+  ],
+  "human_review": "Not independently human-coded; Codex source reading and literal excerpt verification."
+}

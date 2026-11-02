@@ -1,0 +1,22 @@
+{
+  "records": 430,
+  "published": 421,
+  "drafts": 9,
+  "automated_tests": 17,
+  "scientific_reference_files_unchanged": 43,
+  "browser_checks": [
+    "Initial 430-record population",
+    "Draft-only selection has 9 metadata cards and no network edges",
+    "41 topic-1 results at 20 percent threshold",
+    "Grouping by topic and credited name",
+    "Literal search and empty results",
+    "Keyboard author-node and year-node activation",
+    "All-author network: 60 authors, 15 years, 128 edges",
+    "Pagination expands to 100 unique records",
+    "Downloaded CSV has all 430 matching records; draft URLs blank",
+    "360px viewport retains 360px page width; graph scrolls internally",
+    "No browser console errors"
+  ],
+  "network_scope": "Published local/unflagged post credits only; not fellowship membership",
+  "superseded_attribution_counts": "See ../attribution_revision/browser_validation.json for the November 1 body-credit correction and full 70-name network."
+}

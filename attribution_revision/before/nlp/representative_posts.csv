@@ -1,0 +1,65 @@
+topic,rank,id,title,academic_year,authors,weight,url
+0,1,5549,Working with HathiTrust Data - Part 1,2019–2020,Param Ajmera,0.8856802622512466,https://gcdi.commons.gc.cuny.edu/2020/05/01/working-with-hathitrust-data-part-1-2/
+0,2,5569,Working with HathiTrust Data - Part 2,2019–2020,Param Ajmera,0.8215993533058427,https://gcdi.commons.gc.cuny.edu/2020/05/15/working-with-hathitrust-data-part-2/
+0,3,20620,"What is metadata, and why does it matter?",2024–2025,Maggie Schreiner,0.7838035892267176,https://gcdi.commons.gc.cuny.edu/2024/11/15/what-is-metadata/
+0,4,19860,Working with HathiTrust Data - Part 3,2019–2020,Param Ajmera,0.7737285904674186,https://gcdi.commons.gc.cuny.edu/2020/05/21/working-with-hathitrust-data-part-3/
+0,5,19814,Finding Digital Archives,2015–2016,Sam O'Hana,0.6688723517594692,https://gcdi.commons.gc.cuny.edu/2015/11/10/finding-digital-archives/
+0,6,21235,Ethical Metadata for Digital Projects,2024–2025,Maggie Schreiner,0.6554053490085625,https://gcdi.commons.gc.cuny.edu/2025/02/28/ethical-metadata-for-digital-projects/
+0,7,5386,A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site,2019–2020,Stefano Morello,0.6180822465100346,https://gcdi.commons.gc.cuny.edu/2019/11/07/a-legible-digital-archive-displaying-and-sorting-content-on-an-omeka-site/
+0,8,19805,Getting the Most out of a Humble Technology: Word Search,2015–2016,Sam O'Hana,0.5715639121612976,https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/
+1,1,21151,Rethinking Participatory Mapping as a Justice-Oriented Practice,2024–2025,Parisa Setayesh,0.8488824160443641,https://gcdi.commons.gc.cuny.edu/2025/02/21/rethinking-participatory-mapping-as-a-justice-oriented-practice/
+1,2,22867,The Walled Garden: Care and Containment in AI Research,2025–2026,Parisa Setayesh,0.8269653096618288,https://gcdi.commons.gc.cuny.edu/2025/10/17/the-walled-garden-care-and-containment-in-ai-research/
+1,3,22801,Human in the Loop: Interpretive and Participatory AI in Research,2025–2026,Parisa Setayesh,0.796405506170141,https://gcdi.commons.gc.cuny.edu/2025/10/10/human-in-the-loop-interpretive-and-participatory-ai-in-research/
+1,4,20486,"AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 2)",2024–2025,Parisa Setayesh,0.6789794199885916,https://gcdi.commons.gc.cuny.edu/2024/10/25/ai-is-everywhere-is-it-in-qualitative-research-too-potentials-pitfalls-and-open-source-solutions-part-2/
+1,5,20674,Racialized Aspects of Data Collection & Data Use,2024–2025,Peyton Cordero,0.6641594367937006,https://gcdi.commons.gc.cuny.edu/2024/12/06/racialized-aspects-of-data-collection-data-use/
+1,6,5111,"Community Wireless Networks Address Missed Connections: Expanded Notions of ""Access"" (Pt. 1)",2018–2019,Kristen Hackett,0.65079784669525,https://gcdi.commons.gc.cuny.edu/2019/02/18/community-wireless-networks-address-missed-connections-expanded-notions-of-access-pt-1-2/
+1,7,19849,Community Wireless Networks Address Missed Connections: “Access” as Digital Insurgency (Pt. 2),2018–2019,Kristen Hackett,0.6357476805933553,https://gcdi.commons.gc.cuny.edu/2019/03/27/community-wireless-networks-address-missed-connections-access-as-digital-insurgency-pt-2-2/
+1,8,24201,There is a question more important than “Does AI have consciousness?”,2025–2026,Meha Gupta,0.6312056592701543,https://gcdi.commons.gc.cuny.edu/2026/03/27/there-is-a-question-more-important-than-does-ai-have-consciousness/
+2,1,21773,Reordering Graphs in ggplot Plot: A Step-by-Step Guide,2024–2025,Chen Zhou,0.8219703967919986,https://gcdi.commons.gc.cuny.edu/2025/05/02/reordering-graphs-in-ggplot-plot-a-step-by-step-guide/
+2,2,19827,"Fun Times with SQLite! Or, a Beginner's Tutorial to Data Management and Databases with SQL",2015–2016,Ian Phillips,0.8152864401550559,https://gcdi.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/
+2,3,20594,Tidying Data Using tidyverse in R,2024–2025,Chen Zhou,0.7916577060810217,https://gcdi.commons.gc.cuny.edu/2024/11/08/tidying-data-using-tidyverse-in-r/
+2,4,4726,An Introduction to Programming Paradigms,2017–2018,"Patrick Smyth, PhD",0.7900619691343018,https://gcdi.commons.gc.cuny.edu/2018/03/12/an-introduction-to-programming-paradigms/
+2,5,19877,"How to Update R from R using the ""installr"" Package",2022–2023,Yuxiao Luo,0.7663366442828942,https://gcdi.commons.gc.cuny.edu/2022/10/25/how-to-update-r-from-r-using-the-installr-package/
+2,6,19838,Building a New Polytonic Greek Keyboard for iOS and Android,2016–2017,Jeremy March,0.7460121900065328,https://gcdi.commons.gc.cuny.edu/2017/05/12/building-a-new-polytonic-greek-keyboard-for-ios-and-android/
+2,7,19874,Introduction to R Markdown,2021–2022,Yuxiao Luo,0.7228584261415926,https://gcdi.commons.gc.cuny.edu/2022/05/18/introduction-to-r-markdown/
+2,8,6662,Comparing Floating Point Numbers in R,2022–2023,Yuxiao Luo,0.696118478825544,https://gcdi.commons.gc.cuny.edu/2023/03/15/comparing-floating-point-numbers-in-r/
+3,1,6047,Basic Audio Editing with Audacity,2020–2021,Di Yoong,0.7629000554831833,https://gcdi.commons.gc.cuny.edu/2021/04/27/basic-audio-editing-with-audacity/
+3,2,19858,Using Audacity for Interviews,2019–2020,Di Yoong,0.6819862580502872,https://gcdi.commons.gc.cuny.edu/2020/03/16/using-audacity-for-interviews/
+3,3,5355,Getting the Best Recording (within your budget) for your Interview,2019–2020,Di Yoong,0.6665698300955428,https://gcdi.commons.gc.cuny.edu/2019/10/16/getting-the-best-recording-within-your-budget-for-your-interview-2/
+3,4,4747,Livestreaming the sounds of morning: I went to SoundCamp for International Dawn Chorus Day,2017–2018,Kelsey Chatlosh,0.5740875795355558,https://gcdi.commons.gc.cuny.edu/2018/04/27/soundcamp/
+3,5,4508,Kicking off the GCDI Sound Series: A Workshop on Sound,2017–2018,Kelsey Chatlosh,0.5266114460720229,https://gcdi.commons.gc.cuny.edu/2017/10/10/kicking-off-the-gcdi-sound-series-a-workshop-on-sound/
+3,6,4685,The Spring Semester Lineup for the GCDI Sound Series,2017–2018,Kelsey Chatlosh,0.4740245285095443,https://gcdi.commons.gc.cuny.edu/2018/02/08/the-spring-semester-lineup-for-the-gcdi-sound-series/
+3,7,4474,An Anthropologist’s Visit to DHSI to Learn about Sound,2017–2018,Kelsey Chatlosh,0.47334928608668414,https://gcdi.commons.gc.cuny.edu/2017/09/20/an-anthropologists-visit-to-dhsi-to-learn-about-sound/
+3,8,4819,A Reflection on the Mediation and Intimacy of Sounds: Searching for Collective Pleasure through Group ASMR,2018–2019,Michelle Yom,0.4660756304735961,https://gcdi.commons.gc.cuny.edu/2018/10/18/group-asmr/
+4,1,19883,Using raster spatial data in R,2022–2023,Rilquer Mascarenhas,0.8140707894333675,https://gcdi.commons.gc.cuny.edu/2023/02/22/using-raster-spatial-data-in-r/
+4,2,19879,How to Organize Data for Maps,2022–2023,Rilquer Mascarenhas,0.7821955104821778,https://gcdi.commons.gc.cuny.edu/2022/11/21/how-to-organize-data-for-maps/
+4,3,19844,Intro to Mapping using QGIS,2017–2018,Javier Otero Peña,0.7653053501553537,https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/
+4,4,24863,A few important considerations when making charts and graphs,2026–2027,Sophie Bala,0.745536823892959,https://gcdi.commons.gc.cuny.edu/2026/10/27/a-few-important-considerations-when-making-charts-and-graphs/
+4,5,2050,A Crash Course in Digital Photo Editing,2013–2014,Sam O'Hana,0.7171118765974036,https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/
+4,6,4920,Finding Data for Mapping: Tips and Tricks,2018–2019,Javier Otero Peña,0.669892839338219,https://gcdi.commons.gc.cuny.edu/2018/11/24/finding-data-for-mapping-tips-and-tricks/
+4,7,19843,"Getting Started with Social Explorer: A GC Resource for Spatializing Demographic Data, Part 1",2017–2018,Kristen Hackett,0.6457383624865646,https://gcdi.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/
+4,8,6057,Top Mapping Mistakes,2020–2021,Olivia Ildefonso,0.6044456505615855,https://gcdi.commons.gc.cuny.edu/2021/05/12/top-mapping-mistakes/
+5,1,19893,Think Like a Coder: Introduction to Algorithms Part 2,2023–2024,Gregory Hartmann,0.8756292200572819,https://gcdi.commons.gc.cuny.edu/2024/01/29/think-like-a-coder-introduction-to-algorithms-part-2/
+5,2,19892,Think Like a Coder,2023–2024,Gregory Hartmann,0.8377275186378578,https://gcdi.commons.gc.cuny.edu/2023/11/29/think-like-a-coder/
+5,3,19777,PSA: Backup Your Data Now,2013–2014,Sam O'Hana,0.7658683997052788,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/
+5,4,19818,The Complexity of Machine Writing,2015–2016,Sam O'Hana,0.7564306271613588,https://gcdi.commons.gc.cuny.edu/2015/11/30/nanogenmo/
+5,5,19789,User versus subject: a critique of word processing software,2014–2015,Erin Glass,0.7315443265480155,https://gcdi.commons.gc.cuny.edu/2014/10/21/user-versus-subject-a-critique-of-word-processing-software/
+5,6,4809,"I Forced a Bot to Read 1,000 of My Blog Posts, Then Asked It to Write Its Own.",2018–2019,Rachel Rakov,0.7145719287493733,https://gcdi.commons.gc.cuny.edu/2018/09/27/i-forced-a-bot-to-read-1000-of-my-blog-posts-then-asked-it-to-write-its-own/
+5,7,19876,Reading Documentation: A Practical Approach for Beginners,2022–2023,Zachary Lloyd,0.7140539560276797,https://gcdi.commons.gc.cuny.edu/2022/10/18/reading-documentation-a-practical-approach-for-beginners/
+5,8,19746,"project management, or, your hand is not your dayplanner",2012–2013,Erin Glass,0.7010769827646244,https://gcdi.commons.gc.cuny.edu/2013/03/25/project-management-or-your-hand-is-not-your-dayplanner/
+6,1,19773,Learn Bootstrap Part 3: Customize Bootstrap and Add a Header,2013–2014,Sam O'Hana,0.9559010674439956,https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/
+6,2,19769,Learn Bootstrap Part 2: Adding Bootstrap to WordPress,2013–2014,Sam O'Hana,0.9542452549074063,https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/
+6,3,3507,Create Your (FREE) Website Using Github and Jekyll,2015–2016,Sam O'Hana,0.9462585456452504,https://gcdi.commons.gc.cuny.edu/2016/03/21/create-your-free-website-using-github-and-jekyll/
+6,4,19809,An Introduction to Web Servers,2015–2016,Sam O'Hana,0.9154374023337266,https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/
+6,5,21509,Let's Build a Browser Extension!,2024–2025,Zachary Lloyd,0.8586551516963167,https://gcdi.commons.gc.cuny.edu/2025/03/28/lets-build-a-browser-extension/
+6,6,5781,Creating a Dissertation Blog with Open Source Tools,2020–2021,Filipa Calado,0.8161320464465788,https://gcdi.commons.gc.cuny.edu/2020/09/29/creating-a-dissertation-blog-with-open-source-tools-2/
+6,7,19819,Introduction to Web Frameworks,2015–2016,Sam O'Hana,0.8064703470770404,https://gcdi.commons.gc.cuny.edu/2015/12/08/introduction-to-web-frameworks/
+6,8,6153,How to create websites with audio and visual elements on the CUNY Academic Commons,2021–2022,Rebecca Krisel,0.7925557501661669,https://gcdi.commons.gc.cuny.edu/2021/10/27/how-to-create-websites-with-audio-and-visual-elements-on-the-cuny-academic-commons/
+7,1,19830,Digital Fellows Fall Workshops Announced,2016–2017,Patrick Sweeney,0.9579914668172648,https://gcdi.commons.gc.cuny.edu/2016/09/13/digital-fellows-fall-workshops-announced-2/
+7,2,19829,Summer Office Hours & PUG,2015–2016,Hannah Aizenman,0.9472371532460796,https://gcdi.commons.gc.cuny.edu/2016/06/28/summer-office-hours-pug/
+7,3,4903,GC Digital Research Institute Applications Open,2018–2019,Patrick Sweeney,0.9334054626088208,https://gcdi.commons.gc.cuny.edu/2018/11/16/4903/
+7,4,19735,Feb 13th Workshop - Social Media and Academia: Creating Digital Research Communities,2012–2013,Laura Kane,0.9323970350132578,https://gcdi.commons.gc.cuny.edu/2013/02/06/feb-13th-workshop-social-media-and-academia-creating-digital-research-communities/
+7,5,19836,Spring 2017 Office Hours & Python Users Group,2016–2017,Hannah Aizenman,0.9223505548930403,https://gcdi.commons.gc.cuny.edu/2017/02/09/spring-2017-office-hours-python-users-group/
+7,6,19828,Applications for Digital Research Institute due APRIL 22nd!!!,2015–2016,Sam O'Hana,0.9185435985847249,https://gcdi.commons.gc.cuny.edu/2016/04/21/applications-for-digital-research-institute-due/
+7,7,19808,Call for Presentations: Building a Digital Humanities Community at the City University of New York,2015–2016,Mary Catherine Kinniburgh,0.9087704705761441,https://gcdi.commons.gc.cuny.edu/2015/10/12/cfpcunydhi/
+7,8,19732,About Workshops,2012–2013,Laura Kane,0.9060915361950718,https://gcdi.commons.gc.cuny.edu/2013/02/01/about-workshops/

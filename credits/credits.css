@@ -1,0 +1,217 @@
+/* The standalone page supplies neutral defaults; the embedded tab inherits the
+   explorer's annual theme. Selectors stay within this page wherever possible. */
+.credits-standalone {
+  --paper: #f4f1e8;
+  --surface: #fffefa;
+  --ink: #24382b;
+  --quiet: #505a51;
+  --rule: #868d7e;
+  --series: #315c45;
+  --radius: 12px;
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    17px/1.65 system-ui,
+    sans-serif;
+}
+.credits-standalone main {
+  max-width: 1160px;
+  margin: auto;
+  padding: clamp(18px, 4vw, 56px);
+}
+.credits-standalone a {
+  color: var(--series);
+  text-underline-offset: 3px;
+}
+.credits-standalone h1 {
+  font:
+    700 clamp(2.2rem, 5vw, 4.3rem) / 1.1 Georgia,
+    serif;
+}
+.credits-standalone h3 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+}
+.credits-standalone h4 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.credits-standalone .secondary {
+  color: var(--quiet);
+  font-size: 0.93rem;
+}
+.credits-standalone .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.credits-standalone label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.credits-standalone input,
+.credits-standalone select,
+.credits-standalone button {
+  box-sizing: border-box;
+  font: inherit;
+  min-height: 44px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.6rem;
+  max-width: 100%;
+}
+.credits-standalone button,
+.credits-page summary {
+  cursor: pointer;
+}
+.credits-standalone :focus-visible {
+  outline: 3px solid var(--series);
+  outline-offset: 3px;
+}
+.credits-standalone [hidden],
+.credits-page [hidden] {
+  display: none !important;
+}
+.credits-page {
+  overflow-wrap: anywhere;
+}
+.credits-hero {
+  padding: 2rem 0 1rem;
+}
+.credits-lead {
+  max-width: 60ch;
+  font-size: 1.25rem;
+}
+.credits-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.credits-stat-grid p {
+  margin: 0;
+  border-top: 2px solid var(--series);
+  padding: 1rem 0;
+}
+.credits-stat-grid strong {
+  display: block;
+  font:
+    700 2.7rem/1.1 Georgia,
+    serif;
+  margin-bottom: 0.6rem;
+}
+.credits-stat-grid span {
+  display: block;
+  max-width: 25ch;
+}
+.credits-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  padding: 1rem 0;
+  border-block: 1px solid var(--rule);
+  margin-bottom: 2rem;
+}
+.credits-section {
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+.credits-note {
+  padding: 1.3rem;
+  margin: 1.3rem 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+}
+.credits-table {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.credits-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 850px;
+  font-size: 0.95rem;
+}
+.credits-table caption {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.credits-table th,
+.credits-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+.credits-table th {
+  background: var(--surface);
+}
+.credits-table td:nth-child(3),
+.credits-table td:nth-child(4) {
+  min-width: 22ch;
+}
+.credits-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.credits-controls label {
+  flex: 1 1 250px;
+}
+.credits-people {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.credit-person {
+  padding: 1.3rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius, 12px);
+  background: var(--surface);
+}
+.credit-person h4 {
+  margin-top: 0;
+}
+.credit-person ul {
+  padding-left: 1.2rem;
+}
+.credit-person li {
+  margin: 1.2rem 0;
+}
+.credit-person blockquote {
+  margin: 1rem 0;
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--series);
+}
+.credits-process-list {
+  padding-left: 1.4rem;
+}
+.credits-process-list li {
+  margin: 1rem 0;
+}
+@media (max-width: 700px) {
+  .credits-people {
+    grid-template-columns: 1fr;
+  }
+  .credits-stat-grid {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+  .credits-stat-grid p {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  .credits-stat-grid strong {
+    min-width: 100px;
+  }
+}

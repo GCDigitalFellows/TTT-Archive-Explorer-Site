@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "project_name": "Tagging The Tower Archives Explorer",
+  "github_account": "perlsdiver",
+  "organization": "GCDigitalFellows",
+  "repository": "TTT-Archive-Explorer",
+  "url": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer",
+  "visibility_verified": "PRIVATE",
+  "viewer_permission_verified": "ADMIN",
+  "branch": "main",
+  "status": "private repository created; initial source push verified on main",
+  "included": "Project source, generated research pages, saved analysis outputs and preserved audit evidence",
+  "excluded": "Local virtual environments, downloaded NLTK resources and MALLET software, machine caches and ZIP build artifacts",
+  "license": "Not assigned; awaiting Ian’s specification",
+  "website_deployed": false,
+  "initial_source_commit_verified": "d6ff36930104a203e978acb7ae254bd9efb556ed",
+  "transport_note": "Initial HTTP upload failed twice. A per-command HTTP/1.1 setting and 50 MiB request buffer succeeded; TLS verification and global configuration were unchanged."
+}

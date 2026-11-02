@@ -1,0 +1,16 @@
+{
+  "reviewed": "2026-11-01",
+  "checks": [
+    "Standalone page contains 163 human-name cards, 14 CRediT role rows and 8 GAIDeT category rows",
+    "Maren Rothfritz name filter shows one card and literal By Maren Rothfritz evidence",
+    "Local-writing context shows all 70 local names",
+    "Draft context shows 9 names with draft metadata labeled",
+    "No-match state and Show everyone reset work",
+    "Embedded site tab displays credits while other views hide",
+    "Joint-source author Juan Pablo Alperin appears individually with two linked works",
+    "Both standalone and embedded pages fit a 360px viewport without horizontal page overflow; wide tables scroll internally",
+    "No browser console errors",
+    "Local links exist and generated HTML IDs are unique"
+  ],
+  "framework_sources": "See process_profile.json; consulted primary framework resources on 2026-11-01."
+}

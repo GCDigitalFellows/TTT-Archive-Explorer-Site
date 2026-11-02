@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "checks": [
+    "Default all-author network: 70 of 70 credited names, 15 academic years, 137 edges",
+    "Maren Rothfritz selectable; article displays By Maren Rothfritz and retains Rebecca Krisel as posting account",
+    "Angela Crumdy selectable; joint Kelsey Chatlosh/Angela credit displayed",
+    "Explicit-evidence filter: 52 records, 42 local credited names, 11 academic years, 50 edges",
+    "Maren Rothfritz with cohort-match requirement: zero matching modeled posts",
+    "360px page has no horizontal overflow",
+    "No browser console errors"
+  ],
+  "model_fit": "Frozen; attribution and roster-subset summaries updated separately"
+}

@@ -1,0 +1,167 @@
+{
+  "as_of": "2026-11-02",
+  "scope": "Six-theme archive interpretation and its 19-post evidence companion",
+  "human_contributor": "Ian G. Williams",
+  "human_roles": [
+    {
+      "role": "Conceptualization",
+      "meaning": "Set the study’s central aims.",
+      "human": "Ian G. Williams defined the cohort-trend and archive-exploration objectives.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Methodology",
+      "meaning": "Choose and shape the approach.",
+      "human": "Ian G. Williams requested academic-year cohort comparisons, NLTK/MALLET analysis, and a body-credit re-audit. Implementation details were agent-developed. Ian requested two simulated reviewer perspectives and incorporation of the additional persona review, then prioritized research/examination use. Ian requested the theme-oriented visualization revision; the evidence layers and counting definitions were operationalized by the agent.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Project administration",
+      "meaning": "Coordinate the work.",
+      "human": "Ian G. Williams set priorities through successive requests and revisions. Ian designated a public correction contact and retained licensing decisions. Ian selected the project title and authorized a private GCDigitalFellows repository under the authenticated perlsdiver account.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Resources",
+      "meaning": "Supply materials or tools.",
+      "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details.",
+      "status": "Documented provision"
+    },
+    {
+      "role": "Supervision",
+      "meaning": "Direct and oversee the project.",
+      "human": "Ian G. Williams directed the work and requested corrections; this does not establish line-by-line human review of all outputs.",
+      "status": "Documented direction"
+    },
+    {
+      "role": "Validation",
+      "meaning": "Check claims, methods or results.",
+      "human": "Ian G. Williams identified missing authors and required re-analysis. Numerical tests and browser checks were agent-run; independent human replication is not documented.",
+      "status": "Documented issue identification"
+    },
+    {
+      "role": "Writing – review & editing",
+      "meaning": "Critique and revise the work.",
+      "human": "Ian G. Williams requested clearer explanations, human-readable annotations, and attribution corrections. Human rewriting of every passage is not claimed. Ian authorized implementation of the review recommendations; this is not confirmation of every resulting claim.",
+      "status": "Documented critical feedback"
+    }
+  ],
+  "role_confirmation": "Evidence-based project mapping; contributor confirmation of individual roles and final approval of this essay are not recorded.",
+  "delegator": "Ian G. Williams, through requests for source-linked interpretation, website integration and attribution revision",
+  "ai_tool": "OpenAI Codex (OpenAI); exact underlying model/build not recorded in project artifacts",
+  "ai_tasks": [
+    {
+      "category": "Supervision",
+      "id": "0000044",
+      "task": "Quality assessment",
+      "work": "Two Codex sub-agents inspected the site; Codex also assessed the external persona review identified by Ian as Deepseek V4.1 Flash 1017 in the CAIL sandbox in OpenWebUI, using a previous-iteration ZIP. These were not human reviews."
+    },
+    {
+      "category": "Supervision",
+      "id": "0000047",
+      "task": "Recommendations",
+      "work": "Synthesized the review findings and proposed/implemented a research-first revision plan with explicitly unresolved human decisions."
+    },
+    {
+      "category": "Data Management",
+      "id": "0000025",
+      "task": "Data curation and organization",
+      "work": "Selected 19 posts, joined corrected author credits and organized the source ledger."
+    },
+    {
+      "category": "Data Management",
+      "id": "0000023",
+      "task": "Validation",
+      "work": "Checked selected passages against the XML; these were agent-run checks, not independent human verification."
+    },
+    {
+      "category": "Writing and Editing",
+      "id": "0000032",
+      "task": "Summarizing text",
+      "work": "Summarized the selected source posts."
+    },
+    {
+      "category": "Writing and Editing",
+      "id": "0000033",
+      "task": "Formulation of conclusions",
+      "work": "Proposed the six themes and their interpretive connections; no new statistical finding was computed."
+    },
+    {
+      "category": "Writing and Editing",
+      "id": "0000030",
+      "task": "Text generation",
+      "work": "Drafted the essay and explanatory attribution text."
+    },
+    {
+      "category": "Writing and Editing",
+      "id": "0000031",
+      "task": "Proofreading and editing",
+      "work": "Revised wording and attribution disclosure in response to the requester."
+    },
+    {
+      "category": "Software Development and Automation",
+      "id": "0000017",
+      "task": "Code generation",
+      "work": "Built the source-evidence companion and website interpretation tab."
+    },
+    {
+      "category": "Supervision",
+      "id": "0000046",
+      "task": "Identification of limitations",
+      "work": "Documented selection, attribution, access and causal-inference limits; this taxonomy heading does not make AI a human supervisor."
+    }
+  ],
+  "human_review_limit": "Project direction and critical feedback are documented. Human passage-by-passage verification, independent replication and approval of all conclusions are not established.",
+  "source_writer_boundary": "Source writers are credited at each cited post. They are not assigned CRediT roles in this new interpretation; their endorsement and historical AI use are not assessed.",
+  "computation_boundary": "The revised interpretation includes a targeted reading of five additional posts from 2018–2022 after simulated AI review. No NLTK/MALLET refit was performed. Existing software outputs are separate from the generative-AI interpretation.",
+  "framework_sources": [
+    {
+      "id": "credit-standard",
+      "title": "ANSI/NISO Z39.104-2022: CRediT, Contributor Roles Taxonomy",
+      "url": "https://www.niso.org/publications/z39104-2022-credit",
+      "use": "Standard identity and publication metadata"
+    },
+    {
+      "id": "credit-roles",
+      "title": "NISO CRediT role descriptors",
+      "url": "https://credit.niso.org/contributor-roles-defined/",
+      "use": "Canonical role labels; short descriptions here are paraphrases"
+    },
+    {
+      "id": "credit-implementation",
+      "title": "NISO: How to implement CRediT",
+      "url": "https://credit.niso.org/implementing-credit/",
+      "use": "Role assignment and contributor confirmation guidance"
+    },
+    {
+      "id": "gaidet-paper",
+      "title": "Suchikova, Tsybuliak, Teixeira da Silva & Nazarovets: GAIDeT (2026; online 2025)",
+      "url": "https://doi.org/10.1080/08989621.2025.2544331",
+      "use": "Framework citation; publisher full text was not accessible in this session"
+    },
+    {
+      "id": "gaidet-pubmed",
+      "title": "PubMed record 40781729",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40781729/",
+      "use": "Verified paper metadata and abstract"
+    },
+    {
+      "id": "gaidet-generator",
+      "title": "GAIDeT Declaration Generator",
+      "url": "https://panbibliotekar.github.io/gaidet-declaration/",
+      "use": "Public category/task wording and declaration fields"
+    },
+    {
+      "id": "gaidet-terms",
+      "title": "GAIDeT source taxonomy: terms.yml",
+      "url": "https://raw.githubusercontent.com/panbibliotekar/gaidet-declaration/main/_data/terms.yml",
+      "use": "Selected task labels and persistent term identifiers; snapshot accessed November 1, 2026"
+    },
+    {
+      "id": "gaidet-repository",
+      "title": "GAIDeT generator repository and license",
+      "url": "https://github.com/panbibliotekar/gaidet-declaration",
+      "use": "Framework authorship and source provenance; no generator code copied"
+    }
+  ]
+}

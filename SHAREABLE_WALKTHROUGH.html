@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tagging the Tower: analysis and review</title><style>body{margin:0;background:#faf9f6;color:#203340;font:17px/1.65 Georgia,serif}main{max-width:1060px;margin:55px auto;padding:0 32px}h1,h2{font-family:Arial,sans-serif;line-height:1.2}h1{font-size:40px}h2{font-size:25px;margin-top:48px}a{color:#096977}table{border-collapse:collapse;width:100%;font:14px/1.5 Arial,sans-serif}td{padding:10px 12px;border-bottom:1px solid #d9dfdd;vertical-align:top}tr:first-child{font-weight:bold;background:#e8efec}.table{overflow:auto}figure{margin:32px 0}svg{width:100%;height:auto}figcaption{font:13px Arial,sans-serif;color:#53676b}code{font-size:.85em;overflow-wrap:anywhere}pre{padding:18px;background:#e8efec;overflow:auto;font:14px/1.6 monospace}li{margin:8px 0}@media print{main{margin:0}h2{break-after:avoid}figure,tr{break-inside:avoid}}</style><main><h1>From blog posts to patterns: a short, shareable walkthrough</h1><p>This walkthrough explains how we analyzed Tagging the Tower without requiring an audience to learn NLTK, MALLET, or advanced Python. The small examples can be used in a talk or workshop. The analysis report contains the full findings and qualifications.</p><h2>First decide what we are counting</h2><p>The export contains posts, drafts, images, revisions, and other records. We first identify published posts in the relevant category and distinguish original/local writing from curated material. We also distinguish the person whose account posted an item from the person credited with writing it.</p><p>For the topic-modeling analysis, 299 posts remain after excluding curated items, recurring welcome messages, and very short texts. Those are research choices. The full inventory preserves what was excluded and why.</p><p>This real example reads the inclusion ledger. It does not fit a model, change any files, or need an NLP package. Run it from the project folder containing <code>analysis</code>.</p><pre><code>import csv
+from collections import Counter
+from pathlib import Path
+
+ledger = Path(&quot;analysis/nlp/corpus_manifest.csv&quot;)
+with ledger.open() as file:
+    posts = list(csv.DictReader(file))
+
+decisions = Counter()
+for post in posts:
+    reason = post[&quot;exclusion&quot;] or &quot;included&quot;
+    decisions[reason] += 1
+
+for reason, count in decisions.items():
+    print(count, reason)
+</code></pre><p>The current ledger accounts for 299 included posts, 96 curated/source-linked items, 18 welcome messages, and 8 items with fewer than 30 cleaned tokens. This is the model&#x27;s corpus, not the complete history of fellows&#x27; work.</p><h2>Cleaning makes counting easier and reading harder</h2><p>Web formatting is not part of an article&#x27;s argument. We remove common markup, then make two versions of the text: a readable extraction for interpretation and a filtered word list for counting and modeling.</p><p>Consider this invented teaching sentence, not a quotation from the corpus:</p><p>“We do not need a new tool. We need time and support.”</p><p>The following is the word-selection function used in the actual pipeline. It receives words that have already been normalized, plus the documented stoplist. A stopword is a word we have chosen not to count in this stage.</p><pre><code>def select_content_words(words, stop_words):
+    selected_words = []
+    for word in words:
+        if word in stop_words:
+            continue
+        if len(word) &lt; 3 and word not in (&quot;ai&quot;, &quot;r&quot;):
+            continue
+        selected_words.append(word)
+    return selected_words
+</code></pre><p>In ordinary language: examine each word, skip words on the stoplist, skip very short words except AI and R, and retain everything else. No theme names are supplied here.</p><p>Using this study&#x27;s stoplist, the invented sentence becomes:</p><pre><code>need new tool need time support
+</code></pre><p>The word “not” has disappeared. The remaining words cannot tell us whether the writer wants another tool. That is why the readable version remains essential. This demonstration shows word selection only; the full pipeline also separates sentences, guesses grammatical roles, and reduces word forms such as “workers” to “worker.”</p><h2>A frequent phrase can still be a small conversation</h2><p>NLTK helps count words and identify associated phrases. We report both how often a phrase appears and how many posts contain it. “AI literacy,” for example, appears 37 times across six modeled posts; “open source” appears 117 times across 60.</p><p>Those are different kinds of prominence. Repetition within a few texts is not the same as discussion across a wide community. Phrase scores help locate passages to read; they do not establish the importance or truth of an argument.</p><h2>MALLET groups words; people interpret the groups</h2><p>MALLET&#x27;s topic model finds recurring word distributions. A topic containing words about websites, WordPress, pages, and servers is recognizable as web publishing. A person supplies that label after inspecting the words and representative posts.</p><p>Each post receives a mixture of topics. The mixture describes a pattern in this particular model. It is not a verdict on the post&#x27;s meaning, a measure of quality, or a confidence score that the human label is correct.</p><p>We run multiple model sizes and starting seeds because the groupings can change. The eight-topic model combines AI with access, power, and community; the ten-topic model separates AI research from civic/community technology more clearly. That difference is part of the evidence, not an inconvenience to hide.</p><h2>A chart average is another decision</h2><p>Here is a real example that reads saved model results. It needs only ordinary Python and does not rerun MALLET.</p><pre><code>import csv
+from statistics import mean
+
+with open(&quot;analysis/nlp/document_topic_weights.csv&quot;) as file:
+    posts = list(csv.DictReader(file))
+
+selected_year = []
+for post in posts:
+    if post[&quot;academic_year&quot;] == &quot;2024–2025&quot;:
+        selected_year.append(float(post[&quot;topic_1&quot;]))
+
+print(f&quot;Mean topic weight: {mean(selected_year):.1%}&quot;)
+</code></pre><p>The output for the saved eight-topic, seed-42 model is <strong>29.2%</strong>. Here Topic 1 has the human label “AI, access &amp; sociotechnical power.” That topic number and label must not be transferred to a different model run.</p><p>The average gives each included post equal influence. It does not mean exactly 29.2% of posts are exclusively about AI or that each writer endorses it. A long essay and a short announcement can affect the model and the yearly average differently. The report shows alternative aggregations and author/cohort checks.</p><h2>Keep the chain of evidence visible</h2><p>A useful explanation can move from a chart to its table, from a table row to a post ID, and from that post to its readable text and attribution evidence. The saved files make those steps inspectable.</p><p>The code can reliably count the words it was told to count. People still have to examine exclusions, missing evidence, author concentration, genre, and the arguments in context. The goal is an analysis whose choices can be discussed and challenged.</p><p>For a live demonstration, run <code>.venv-nlp/bin/python analysis/explain_analysis.py</code>. It prints the invented cleaning example and a clearly distinguished actual saved post result. It does not train a model or rewrite the corpus.</p></main></html>
