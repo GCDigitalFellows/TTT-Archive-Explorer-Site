@@ -344,6 +344,31 @@
         "process/repository_setup.json"
       ],
       "limit": "Private repository hosting does not establish institutional endorsement or a license for code, analysis or source texts. No public website deployment is authorized by this repository request."
+    },
+    {
+      "id": "public-github-pages",
+      "date": "2026-11-02",
+      "status": "implemented; initial GitHub Pages build succeeded; source remains private",
+      "task": "Publish a browsable website while retaining the private research repository",
+      "human": "Ian requested GitHub deployment for organization colleagues, then explicitly approved a public website with the source repository remaining private after the Free-plan limitation was explained.",
+      "agent": "Codex checked GitHub plan and Pages documentation, created a separate public website repository, prepared static outputs and browser code, redirected Python-source links to the private source repository, and enabled GitHub Pages. No billing changes or model refit.",
+      "credit_roles": [
+        "Project administration",
+        "Supervision"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000025",
+        "0000031",
+        "0000044"
+      ],
+      "evidence": [
+        "project.json",
+        "process/deployment.json",
+        "../scripts/prepare_public_site.py"
+      ],
+      "limit": "Public website data and browser code are accessible to anyone. Source repository privacy does not make published site content private. Licensing remains unassigned."
     }
   ],
   "remaining": [
@@ -369,7 +394,7 @@
     },
     {
       "task": "Public hosting",
-      "status": "Website hosting not requested; private source repository requested separately."
+      "status": "Public GitHub Pages initial build succeeded, with Ian’s authorization; source repository remains private."
     },
     {
       "task": "Direct file-mode and narrow-screen browser verification",

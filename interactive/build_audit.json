@@ -3,7 +3,7 @@
   "model_runs": 5,
   "motif_posts": 307,
   "data_sha256": "674a5ab4e39ff96f19bf0065b2589a466432227cae1bb8ff18c5cc2cbf08c326",
-  "html_bytes": 4892093,
+  "html_bytes": 4894056,
   "model_retrained": false,
   "thematic_views": "Eight saved dictionary signals and six selected-example interpretive groups; separate from MALLET topics",
   "theme_data_sha256": "e7844e558c555234acac091a7fd0f36907e90e91517382893fcee0ed54831665",

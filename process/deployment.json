@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "public_site_url": "https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/",
+  "source_repository": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer",
+  "source_visibility": "private",
+  "deployment_repository": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site",
+  "deployment_visibility": "public",
+  "authorization": "Ian explicitly chose a public website, keeping the source repository private.",
+  "plan_verified": "Organization API returned free. Private Pages requires Enterprise Cloud.",
+  "status": "GitHub Pages initial build succeeded",
+  "sources": [
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+    "https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site"
+  ],
+  "initial_built_commit": "9bb5c73dc5cea0fb5ea6df0b1f673c96ec04aef3",
+  "checks": "13 process, credit and history tests passed; source repository still private; no model refit.",
+  "public_http_check": "Unauthenticated HTTPS fetch succeeded and contained the project title. Python urllib lacked a local issuer certificate; system curl succeeded with normal certificate verification."
+}

@@ -15,5 +15,12 @@
     "email": "ian.williams52@gc.cuny.edu"
   },
   "source_publication": "Tagging the Tower",
-  "rights_status": "New code and analysis licenses await Ian's specification; original source works retain separate rights."
+  "rights_status": "New code and analysis licenses await Ian's specification; original source works retain separate rights.",
+  "website": {
+    "url": "https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/",
+    "visibility": "public",
+    "deployment_repository": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site",
+    "status": "GitHub Pages initial build succeeded; public HTTP verification recorded separately",
+    "source_repository_visibility": "private"
+  }
 }
