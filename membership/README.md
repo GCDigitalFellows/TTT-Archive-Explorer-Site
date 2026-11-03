@@ -16,6 +16,10 @@ An initial-only or first-name signed credit is resolved only when the dated role
 
 A directory match never supplies an article byline. All 430 article records and their authorship dispositions are preserved. Matching a provisional account credit to a historical Fellow does not make that article source-supported. Keep the source-supported authorship filter separate from the membership filter.
 
+## Guest authors and participants
+
+The archive also includes guest-authored posts by students who were not Fellows at publication, including participants in the Graduate Center Digital Research Institute (GCDRI). Ian supplied this contextual clarification. Guest authorship is an authorship relationship; participation and fellowship appointments are separate roles. Assess fellowship status at the post date, rather than treating it as a lifetime identity. A missing directory match alone establishes neither guest status nor nonmembership. Participant reflections remain in the full archive and its applicable analytical populations; a Fellow-only filter intentionally selects a narrower population.
+
 ## Comparison choices
 
 - **Original signed teams:** the unchanged semester-level baseline.

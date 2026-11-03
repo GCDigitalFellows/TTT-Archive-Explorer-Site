@@ -461,6 +461,27 @@
         "FELLOWS_HISTORY.html"
       ],
       "limit": "Membership contextualizes recorded credits and cannot resolve unsupported article authorship. Directory intervals are annual evidence, not exact appointment dates."
+    },
+    {
+      "id": "guest-participant-context",
+      "date": "2026-11-02",
+      "status": "implemented",
+      "task": "Distinguish guest participant writing from fellowship membership at publication",
+      "human": "Ian clarified that guest authors include students who were not Fellows at publication, such as GCDRI participants.",
+      "agent": "Codex recorded the clarification in membership documentation, the role-history page and analysis methods. No individual participant/non-Fellow labels were inferred, no bylines changed, and participant posts remain in full-archive populations.",
+      "credit_roles": [
+        "Methodology",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000032"
+      ],
+      "evidence": [
+        "membership/README.md",
+        "FELLOWS_HISTORY.html"
+      ],
+      "limit": "The contextual clarification does not independently establish any named individual’s appointment or authorship status."
     }
   ],
   "remaining": [
