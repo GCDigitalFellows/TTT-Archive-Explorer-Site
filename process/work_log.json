@@ -564,6 +564,29 @@
         "../README.md"
       ],
       "limit": "These are workflow instructions, not a repository lock or automated conflict resolver. No significant incoming change was present in either fetched branch during this update; future significant integration requires Ian’s specific approval unless already given."
+    },
+    {
+      "id": "assisting-agent-review-instructions",
+      "date": "2026-11-03",
+      "status": "implemented",
+      "task": "Extend repository instructions for assisting review and revision agents",
+      "human": "Ian requested an AGENTS file integrating relevant instructions for other agents that may assist with review and revision.",
+      "agent": "Codex extended the existing canonical AGENTS.md rather than creating a competing case-variant file; added task boundaries, read-only review defaults, coordination and file ownership, evidence and attribution standards, corpus/model preservation, human-readable implementation, proportionate validation and an auditable handoff format. No additional reviewer agents were launched. Codex added a deployment-specific AGENTS.md companion through the public packager, pointing to canonical source instructions and documenting source-access limits.",
+      "credit_roles": [
+        "Project administration",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000032"
+      ],
+      "evidence": [
+        "../AGENTS.md",
+        "../README.md",
+        "../scripts/public_site_AGENTS.md",
+        "../scripts/prepare_public_site.py"
+      ],
+      "limit": "These instructions guide future agents but do not constitute an actual review, automated enforcement or authorization for additional delegation. Existing remote-preservation and significant-change approval requirements remain in effect."
     }
   ],
   "remaining": [

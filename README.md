@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Extend repository instructions for assisting review and revision agents
+
+- **Human — Ian G. Williams:** Ian requested an AGENTS file integrating relevant instructions for other agents that may assist with review and revision.
+- **AI:** Codex extended the existing canonical AGENTS.md rather than creating a competing case-variant file; added task boundaries, read-only review defaults, coordination and file ownership, evidence and attribution standards, corpus/model preservation, human-readable implementation, proportionate validation and an auditable handoff format. No additional reviewer agents were launched. Codex added a deployment-specific AGENTS.md companion through the public packager, pointing to canonical source instructions and documenting source-access limits.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-assisting-agent-review-instructions). These instructions guide future agents but do not constitute an actual review, automated enforcement or authorization for additional delegation. Existing remote-preservation and significant-change approval requirements remain in effect.
+
 ### 2026-11-02 — Preserve shared GitHub and remote-terminal contributions with approval for significant integration
 
 - **Human — Ian G. Williams:** Ian explained that he and other contributors edit through GitHub and remote terminals, and required preservation and integration of those changes, with his approval for significant changes.
