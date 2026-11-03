@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-02 — Preserve shared GitHub and remote-terminal contributions with approval for significant integration
+
+- **Human — Ian G. Williams:** Ian explained that he and other contributors edit through GitHub and remote terminals, and required preservation and integration of those changes, with his approval for significant changes.
+- **AI:** Codex checked both remote branches against clean local checkouts, added persistent fetch/compare and non-destructive integration instructions, defined impact-based approval thresholds, addressed generated-output preservation and concurrent edits, and recorded separate contributor versus AI-integration attribution.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-shared-remote-contributions). These are workflow instructions, not a repository lock or automated conflict resolver. No significant incoming change was present in either fetched branch during this update; future significant integration requires Ian’s specific approval unless already given.
+
 ### 2026-11-02 — Require and backfill a human/AI-attributed README changelog
 
 - **Human — Ian G. Williams:** Ian required every update and change to appear in a README changelog with human and AI attribution.

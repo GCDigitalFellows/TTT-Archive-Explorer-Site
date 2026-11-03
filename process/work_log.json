@@ -543,6 +543,27 @@
         "process/changelog_validation.json"
       ],
       "limit": "Backfill uses the available task ledger, saved user requests and Git history; it is not a complete reconstruction of undocumented early sessions. Human execution or approval is not inferred from a request."
+    },
+    {
+      "id": "shared-remote-contributions",
+      "date": "2026-11-02",
+      "status": "implemented",
+      "task": "Preserve shared GitHub and remote-terminal contributions with approval for significant integration",
+      "human": "Ian explained that he and other contributors edit through GitHub and remote terminals, and required preservation and integration of those changes, with his approval for significant changes.",
+      "agent": "Codex checked both remote branches against clean local checkouts, added persistent fetch/compare and non-destructive integration instructions, defined impact-based approval thresholds, addressed generated-output preservation and concurrent edits, and recorded separate contributor versus AI-integration attribution.",
+      "credit_roles": [
+        "Project administration",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000032"
+      ],
+      "evidence": [
+        "../AGENTS.md",
+        "../README.md"
+      ],
+      "limit": "These are workflow instructions, not a repository lock or automated conflict resolver. No significant incoming change was present in either fetched branch during this update; future significant integration requires Ian’s specific approval unless already given."
     }
   ],
   "remaining": [
