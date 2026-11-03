@@ -610,6 +610,30 @@
         "credits/process_profile.json"
       ],
       "limit": "The instruction update records a process requirement, not proof of human contribution, contributor confirmation or completion of future attribution reviews. Structural tests cannot independently establish participation."
+    },
+    {
+      "id": "simplification-feature-review",
+      "date": "2026-11-03",
+      "status": "review complete; all simplification proposals await approval; no website implementation",
+      "task": "Maintain an active feature-simplification backlog without implementing website changes",
+      "human": "Ian requested analysis of unnecessary bells and whistles, rationales and revision plans, asked to keep the list active, and explicitly instructed that changes not be implemented now. The review uses his documented research/examination-first preference.",
+      "agent": "Codex inspected the current source/deployment revisions and feature code, counted navigation/control/data structures, and drafted 13 prioritized proposals with evidence, tradeoffs, decisions, acceptance criteria and stable tracking IDs. The backlog distinguishes essential research/accountability evidence from optional presentation. No new reviewer agents, usability sessions or runtime benchmarks were used. Only planning records and README changelogs are updated; website code, pages, data and fitted models are protected by recorded fingerprints. The maintained proposal list is available as [the active simplification backlog](https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site/blob/main/reviews/simplification_backlog.md).",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/simplification_backlog.md",
+        "reviews/simplification_backlog.json",
+        "reviews/simplification_validation.json"
+      ],
+      "limit": "This is an AI source-based heuristic assessment, not demonstrated user difficulty, performance improvement, human validation or authorization to remove a feature. Earlier requested capabilities are candidates for secondary placement, not silently revoked requirements. The live website is not rebuilt for this planning task."
     }
   ],
   "remaining": [

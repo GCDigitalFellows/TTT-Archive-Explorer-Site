@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Maintain an active feature-simplification backlog without implementing website changes
+
+- **Human — Ian G. Williams:** Ian requested analysis of unnecessary bells and whistles, rationales and revision plans, asked to keep the list active, and explicitly instructed that changes not be implemented now. The review uses his documented research/examination-first preference.
+- **AI:** Codex inspected the current source/deployment revisions and feature code, counted navigation/control/data structures, and drafted 13 prioritized proposals with evidence, tradeoffs, decisions, acceptance criteria and stable tracking IDs. The backlog distinguishes essential research/accountability evidence from optional presentation. No new reviewer agents, usability sessions or runtime benchmarks were used. Only planning records and README changelogs are updated; website code, pages, data and fitted models are protected by recorded fingerprints. The maintained proposal list is available as [the active simplification backlog](https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site/blob/main/reviews/simplification_backlog.md).
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-simplification-feature-review). This is an AI source-based heuristic assessment, not demonstrated user difficulty, performance improvement, human validation or authorization to remove a feature. Earlier requested capabilities are candidates for secondary placement, not silently revoked requirements. The live website is not rebuilt for this planning task.
+
 ### 2026-11-03 — Require explicit CRediT and GAIDeT attribution in source and deployment agent instructions
 
 - **Human — Ian G. Williams:** Ian requested attribution instructions using GAIDeT and CRediT for the agents assisting this project.

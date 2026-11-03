@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-03",
+  "review_type": "Source-based heuristic feature review; planning artifacts only",
+  "source_revision": "d7620afe66b57b821e4aceef479bd35db48a3aca",
+  "deployment_revision": "8fe72495cdd6d85ddf685c86aa0022a7371519de",
+  "proposal_count": 13,
+  "implemented_proposals": 0,
+  "protected_site_files_verified_unchanged": 799,
+  "all_referenced_source_paths_exist": true,
+  "attribution_structure_checks": "4 credits tests and 8 process tests passed before adding this validation evidence",
+  "not_performed": [
+    "New human usability sessions",
+    "New browser QA",
+    "Runtime/performance benchmarks",
+    "Model refitting",
+    "Implementation of proposed revisions"
+  ],
+  "publication_scope": "Planning documents, task-ledger JSON and synchronized README only; no app HTML, CSS, JavaScript, analysis data, model outputs or site builders rebuilt or changed."
+}
