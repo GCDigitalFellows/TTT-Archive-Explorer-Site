@@ -434,6 +434,33 @@
         "attribution_revision/reviewed_credits.json"
       ],
       "limit": "Completeness is within the supplied export, not the entire historical website. Among 421 published records, 52 have accepted source support, 120 retain declared-only metadata/taxonomy credits and 249 remain unresolved account credits. No personal author confirmation, independent human review or model refit is claimed."
+    },
+    {
+      "id": "historical-membership",
+      "date": "2026-11-02",
+      "status": "implemented",
+      "task": "Integrate historical GCDI role evidence, academic-year comparisons and confirmed identity pairs",
+      "human": "Ian supplied the People page, confirmed the academic calendar, and confirmed Margaret/Maggie Schreiner and Anna Schlenz/Anna Corbett.",
+      "agent": "Codex extracted dated alumni claims and a separate undated current snapshot; documented name crosswalks; built role visualizations, evidence-basis filters and fixed-model topic summaries. Article credits and fitted model weights remain unchanged.",
+      "credit_roles": [
+        "Data curation",
+        "Investigation",
+        "Methodology",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000032"
+      ],
+      "evidence": [
+        "membership/README.md",
+        "membership/review.json",
+        "membership/audit.json",
+        "FELLOWS_HISTORY.html"
+      ],
+      "limit": "Membership contextualizes recorded credits and cannot resolve unsupported article authorship. Directory intervals are annual evidence, not exact appointment dates."
     }
   ],
   "remaining": [

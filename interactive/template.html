@@ -101,20 +101,18 @@
           ></label>
           <label>Authorship evidence<select id="topic-evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported credits only</option></select></label>
           <label class="check"
-            ><input type="checkbox" id="cohort-only" />Require a same-semester
-            roster match</label
-          >
+            ><input type="checkbox" id="cohort-only" />Require membership evidence</label
+          ><label>Membership evidence basis<select id="membership-basis"><option value="signed">Original signed team snapshots</option><option value="resolved-signed">Signed teams with reviewed names</option><option value="directory-digital">Dated Digital Fellow intervals</option><option value="directory-any">Any dated GCDI role</option><option value="combined" selected>Resolved signed team or dated Digital Fellow interval</option></select></label>
           <button type="button" id="reset-topics">Reset topic filters</button>
         </div>
         </details>
         __ROSTER_CONTEXT__
-        <p class="secondary">A roster match is a match to a recorded credit, not independent proof of authorship. Use the source-supported evidence filter to inspect the narrower evidential subset. <a href="ARCHIVE_COVERAGE.html">Every article’s scope and authorship decision</a>.</p>
+        <p class="secondary"><a href="FELLOWS_HISTORY.html">Explore historical Fellows, other roles and source evidence</a>. A roster match is a match to a recorded credit, not independent proof of authorship. Use the source-supported evidence filter to inspect the narrower evidential subset. <a href="ARCHIVE_COVERAGE.html">Every article’s scope and authorship decision</a>.</p>
         <p id="topic-scope" class="scope"></p>
         <p id="topic-error" role="alert" hidden></p>
         <div id="topic-heatmap" class="table-scroll"></div>
         <p class="secondary">
-          Academic years run August–July. 2026–27 is partial. Missing early
-          rosters limit the matched subset; a collective post needs at least one
+          Academic years run August–July. 2026–27 is partial. The original signed lists have early gaps; historical intervals are a separate evidence choice. A collective post needs at least one
           matched writer.
         </p>
         <div class="section-heading">
@@ -159,9 +157,8 @@
               </select></label
             >
             <label class="check"
-              ><input type="checkbox" id="word-cohort" />Require a same-semester
-              roster match</label
-            >
+              ><input type="checkbox" id="word-cohort" />Require membership evidence</label
+            ><label>Membership evidence basis<select id="word-membership-basis"><option value="signed">Original signed team snapshots</option><option value="resolved-signed">Signed teams with reviewed names</option><option value="directory-digital">Dated Digital Fellow intervals</option><option value="directory-any">Any dated GCDI role</option><option value="combined" selected>Resolved signed team or dated Digital Fellow interval</option></select></label>
           </div>
           <p id="word-scope" class="scope"></p>
           <div id="frequency-bars"></div>
@@ -303,7 +300,7 @@
               type="search"
               placeholder="Title, person, tag, or phrase"
           /></label>
-          <label>Academic year<select id="index-year"></select></label>
+          <label>Academic year<select id="index-year"></select></label><label>Membership evidence<select id="index-membership"><option value="all">All records, regardless of membership evidence</option><option value="signed">Original signed teams</option><option value="resolved-signed">Signed teams with reviewed names</option><option value="directory-digital">Dated Digital Fellow intervals</option><option value="directory-any">Any dated GCDI role</option><option value="combined">Resolved signed team or dated Digital Fellow interval</option></select></label>
           <label
             >Author / source writer<select id="index-author"></select
           ></label>

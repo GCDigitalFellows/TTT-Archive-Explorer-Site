@@ -167,8 +167,8 @@
             "p",
             "post-meta",
             post.cohortNames.length
-              ? "Roster evidence: " + post.cohortNames.join("; ")
-              : "No confirmed same-semester roster match in this evidence",
+              ? "Original signed-team evidence: " + post.cohortNames.join("; ")
+              : "No match in the original signed-team snapshots; other membership bases may differ",
           ),
         );
       }
@@ -182,6 +182,7 @@
       firstYear: Number(byId("first-year").value),
       lastYear: Number(byId("last-year").value),
       cohortOnly: byId("cohort-only").checked,
+      membershipBasis: byId("membership-basis").value,
       supportedOnly: byId("topic-evidence").value === "supported",
       author: byId("include-author").value,
       excludeAuthor: byId("exclude-author").value,
@@ -312,6 +313,7 @@
     byId("topic-scope").textContent =
       integer(posts.length) +
       " of 299 modeled posts · " +
+      (choices.cohortOnly ? data.membershipBasisLabels[choices.membershipBasis] + " · " : "") +
       rows.length +
       " academic years · " +
       model.count +
@@ -351,7 +353,7 @@
       (post) =>
         (byId("word-year").value === "all" ||
           post.year === byId("word-year").value) &&
-        (!byId("word-cohort").checked || post.cohortNames.length > 0) &&
+        (!byId("word-cohort").checked || math.membershipNames(post, byId("word-membership-basis").value).length > 0) &&
         (byId("word-evidence").value !== "supported" || post.authorshipTier === "source-supported"),
     );
   }
@@ -778,6 +780,8 @@
       authorship_disposition: post.authorshipTier,
       authorship_evidence_filter: choices.supportedOnly ? "source-supported" : "all",
       roster_matches: post.cohortNames.join("; "),
+      membership_basis: choices.membershipBasis,
+      membership_matches: math.membershipNames(post, choices.membershipBasis).join("; "),
       topic_weight: post.weight,
       writer_filter: choices.author,
       excluded_writer: choices.excludeAuthor,
@@ -898,6 +902,7 @@
       "include-author",
       "exclude-author",
       "cohort-only",
+      "membership-basis",
     ].forEach((id) =>
       byId(id).addEventListener("change", () => {
         detailYear = "all";
@@ -924,6 +929,7 @@
       byId("include-author").value = "";
       byId("exclude-author").value = "";
       byId("cohort-only").checked = false;
+      byId("membership-basis").value = "combined";
       byId("topic-evidence").value = "all";
       topic = 1;
       detailYear = "all";
@@ -931,7 +937,7 @@
       renderTopics();
       announce("Restored the primary model and all 299 modeled posts.");
     });
-    ["word-year", "word-measure", "word-cohort", "word-evidence"].forEach((id) =>
+    ["word-year", "word-measure", "word-cohort", "word-evidence", "word-membership-basis"].forEach((id) =>
       byId(id).addEventListener("change", () => {
         chosenWord = "";
         renderWordFrequencies();

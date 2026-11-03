@@ -29,6 +29,7 @@
   function choices() {
     return {
       evidence: byId("index-evidence").value,
+      membershipBasis: byId("index-membership").value,
       query: byId("index-search").value,
       year: byId("index-year").value,
       author: byId("index-author").value,
@@ -391,6 +392,7 @@
       "index-topic",
       "index-theme",
       "index-evidence",
+      "index-membership",
     ])
       byId(id).value = "all";
     byId("index-threshold").value = "0.2";
@@ -410,6 +412,8 @@
       posting_account: post.creator,
       credit_basis: post.creditStatus,
       authorship_disposition: post.authorshipTier,
+      membership_basis: byId("index-membership").value,
+      membership_matches: (post.membershipByBasis?.[byId("index-membership").value] || []).join("; "),
       attribution_evidence: post.creditQuote,
       source_author: post.sourceAuthor,
       title_tag_theme_signals: (post.themeSignals || []).join("; "),
@@ -480,6 +484,7 @@
         "index-topic",
         "index-theme",
         "index-evidence",
+      "index-membership",
         "index-threshold",
         "index-group",
       ])

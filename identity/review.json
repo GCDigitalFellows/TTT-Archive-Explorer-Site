@@ -33,14 +33,41 @@
       "canonical": "A. L. McMichael",
       "variants": [
         "A. L. McMichael",
-        "A.L. McMichael"
+        "A.L. McMichael",
+        "Alice Lynn McMichael"
       ],
-      "basis": "Identical linked-data article titles in saved item_author/author_name fields and institutional guide page 23; punctuation/spacing variants.",
+      "basis": "Identical linked-data article titles in saved item_author/author_name fields and institutional guide page 23; punctuation/spacing variants. The Barnard Digital Humanities Center profile is headed A.L. McMichael and explicitly names Alice Lynn McMichael in its biography, supporting the full-name variant.",
       "sources": [
         "https://raw.githubusercontent.com/GCDigitalFellows/workshop-resources/master/GCDF_OH2020.pdf",
-        "https://documentingcappadocia.newmedialab.cuny.edu/blog-page/index.html"
+        "https://documentingcappadocia.newmedialab.cuny.edu/blog-page/index.html",
+        "https://digitalhumanities.barnard.edu/profiles/al-mcmichael",
+        "https://gcdi.commons.gc.cuny.edu/people/"
       ],
       "confirmation": "Evidence-supported spelling equivalence; preferred public spacing not independently confirmed."
+    },
+    {
+      "canonical": "Maggie Schreiner",
+      "variants": [
+        "Maggie Schreiner",
+        "Margaret Schreiner"
+      ],
+      "basis": "Ian G. Williams explicitly confirmed the two named pairs refer to the same people after comparing the People page with archive credits. Existing archive display label retained; no preferred current name is inferred.",
+      "sources": [
+        "https://gcdi.commons.gc.cuny.edu/people/"
+      ],
+      "confirmation": "User-confirmed identity equivalence, November 2, 2026"
+    },
+    {
+      "canonical": "Anna Corbett",
+      "variants": [
+        "Anna Corbett",
+        "Anna Schlenz"
+      ],
+      "basis": "Ian G. Williams explicitly confirmed the two named pairs refer to the same people after comparing the People page with archive credits. Existing archive display label retained; no preferred current name is inferred.",
+      "sources": [
+        "https://gcdi.commons.gc.cuny.edu/people/"
+      ],
+      "confirmation": "User-confirmed identity equivalence, November 2, 2026"
     }
   ],
   "retained_separately": [
@@ -53,5 +80,5 @@
     }
   ],
   "review_scope": "All 163 prior human-name entries were screened for matching surname or high name similarity. The three resulting candidate pairs were reviewed. This is a name-variant review, not an exhaustive biographical identity investigation; unrelated pseudonyms or substantially different names could remain unresolved.",
-  "process": "Ian G. Williams requested the review and confirmed his alias. Codex screened the names, consulted linked sources, proposed the Laura match, implemented the grouping and ran checks. Full independent human verification is not claimed."
+  "process": "Ian G. Williams requested the review and confirmed his alias. Codex screened the names, consulted linked sources, proposed the Laura match, implemented the grouping and ran checks. Full independent human verification is not claimed. On November 2 Ian also supplied the People directory and explicitly confirmed Margaret/Maggie Schreiner and Anna Schlenz/Anna Corbett as two identity pairs. Codex retained the archive labels and original directory strings; no article authorship was inferred from membership."
 }

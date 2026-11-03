@@ -1,3 +1,12 @@
+## Historical membership extension · November 2, 2026
+
+The [GCDI People directory](https://gcdi.commons.gc.cuny.edu/people/) now supplies separately documented academic-year role histories. [Explore the historical role matrix](FELLOWS_HISTORY.html) or read the [methodology](membership/README.md). Ian confirmed Margaret/Maggie Schreiner and Anna Schlenz/Anna Corbett; original source names remain inspectable.
+
+Earlier signed-roster tables remain a preserved baseline. The topic and word views, index/network and thematic charts now offer alternative evidence bases: original signed lists, reviewed signed names, dated Digital Fellow intervals, any dated GCDI role, or a combined Digital Fellow definition. Of 325 local records, 147 match the original signed lists, 237 match dated Digital Fellow intervals, and 246 match the combined basis. Of 299 modeled posts, the corresponding counts are 129, 216 and 223. These match **recorded credits**, including provisional accounts; they do not verify additional bylines. Apply the separate source-supported filter when needed.
+
+The directory also changes how unmatched or guest credits should be interpreted: a guest byline does not establish that someone was outside GCDI. For example, the directory lists Ian Williams as a Social Media Fellow in 2022–2026; that is a different role from a dated GC Digital Fellow interval. Current roles are undated snapshots and are not backdated. All 430 records and their authorship decisions remain intact. No model fitting or word cleaning was rerun.
+
+
 # Tagging The Tower Archives Explorer
 
 The project has been renamed; the original publication remains **Tagging the Tower**. The GitHub account is **perlsdiver**. Repository status is recorded in project.json and the work log; this does not imply a public website deployment.

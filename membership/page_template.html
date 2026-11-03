@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Historical Fellows and GCDI roles · Tagging The Tower Archives Explorer</title>
+  <style>
+    body{max-width:1150px;margin:30px auto;padding:0 20px;color:#253d35;background:#faf9f6;font:17px/1.6 system-ui}
+    h1,h2{line-height:1.2}a{color:#176575}button,select{font:inherit;color:inherit}button{cursor:pointer}
+    .controls{display:flex;gap:20px;flex-wrap:wrap;padding:16px 0}label{display:grid;gap:5px}select,button{padding:8px;border:1px solid #8fa397;border-radius:5px;background:white}
+    .table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px;border:1px solid #bdc9c1;text-align:left}td button{width:100%;background:hsl(145 20% calc(98% - var(--strength)*45%))}
+    article{margin:14px 0;padding:18px;border:1px solid #bdc9c1;border-radius:8px}.note{padding:16px;border-left:4px solid #176575;background:#edf2ed}.secondary{font-size:14px;color:#455d51}blockquote{border-left:2px solid #789987;padding-left:14px}
+  </style>
+</head>
+<body><main>
+  <p><a href="index.html">Project overview</a> · <a href="ARCHIVE_COVERAGE.html">Article and authorship accounting</a></p>
+  <h1>Historical Fellows and other GCDI roles</h1>
+  <p>The <a href="https://gcdi.commons.gc.cuny.edu/people/#alum">GCDI People page</a> supplies dated alumni role histories. These records add institutional context to the archive; membership does not establish who wrote a post.</p>
+  <p class="note">Academic-calendar interpretation, confirmed by Ian G. Williams: a range such as 2012–2015 covers 2012–2013, 2013–2014 and 2014–2015. These are role intervals, rather than exact appointment dates or complete semester rosters. A fall-only entry stays fall-only. Summer matches are not inferred.</p>
+  <p id="directory-summary"></p>
+  <h2>Recorded role histories across academic years</h2>
+  <p>Select a cell to inspect the names and original source statements. Counts describe distinct reviewed name/role entries in this directory. People can appear in multiple programs; column totals are not exclusive human headcounts. A zero means no dated claim in this source, rather than confirmed absence.</p>
+  <div class="controls">
+    <label>Academic year<select id="directory-year"></select></label>
+    <label>Role family<select id="directory-role"></select></label>
+    <button type="button" id="directory-reset">Show all dated roles</button>
+    <a href="membership/annual_memberships.csv">Download annual evidence</a>
+  </div>
+  <div class="table" id="directory-matrix"></div>
+  <p id="directory-selection" role="status"></p>
+  <div id="directory-members"></div>
+  <h2>Current role snapshot, with no invented appointment years</h2>
+  <p>These are the labels displayed on November 2, 2026. They are kept separate from dated annual intervals. The snapshot can help resolve a name in a contemporaneous signed team list, but is not extrapolated into a historical tenure.</p>
+  <div id="directory-current"></div>
+  <h2>What changes in the archive analyses?</h2>
+  <p>The topic and word views can compare the original signed lists, reviewed name resolutions, dated Digital Fellow intervals, any dated GCDI role, and the union of resolved signed teams with dated Digital Fellow intervals. A match concerns a recorded writer credit; account-only authorship remains unresolved. The source-supported authorship filter is a separate restriction.</p>
+  <div class="table" id="directory-bases"></div>
+  <p>The original signed-list CSV and its saved topic means are preserved. New summaries re-average the same fitted post weights; no NLTK cleaning or MALLET fitting was rerun. Neither an appointment interval nor a lack of a directory match settles article authorship.</p>
+  <p><a href="membership/signed_name_resolutions.csv">Signed-name resolutions and remaining ambiguities</a> · <a href="membership/role_claims.csv">Every role claim, including undated entries</a> · <a href="membership/post_membership_matches.csv">Post-credit matches by evidence basis</a> · <a href="membership/topic_means_by_membership_basis.csv">Saved topic averages for each basis</a></p>
+  <p><a href="membership/README.md">Methodology and limitations</a> · <a href="membership/review.json">Reviewed name crosswalk and sources</a> · <a href="membership/people_page_text.txt">Preserved source text</a> · <a href="membership/audit.json">Validation and counts</a> · <a href="CREDITS_AND_PROCESS.html">CRediT/GAIDeT contribution disclosure</a>.</p>
+  <p class="secondary">Source: GCDI People page, accessed November 2, 2026. The page displays CC BY-NC-SA 4.0; its original rights remain separate from this project’s code and analysis licensing. Ian supplied the source, confirmed the academic-calendar interpretation and confirmed the Schreiner and Corbett/Schlenz identity pairs. Codex prepared the extraction, crosswalk, matching, calculations and display. Individual author confirmation and a complete human audit are not claimed.</p>
+</main>
+<script type="application/json" id="directory-data">__DIRECTORY_DATA__</script>
+<script>__MEMBERSHIP_UI__</script>
+</body>
+</html>

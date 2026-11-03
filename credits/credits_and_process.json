@@ -15,8 +15,8 @@
       {
         "role": "Data curation",
         "meaning": "Organize and annotate usable data.",
-        "human": "No separate human execution of the record-by-record curation is documented; the agent implemented it under Ian’s direction.",
-        "status": "Human execution not established"
+        "human": "Ian supplied the historical People directory and confirmed two identity pairs: Margaret/Maggie Schreiner and Anna Schlenz/Anna Corbett. Codex performed the wider extraction, crosswalk and record joins; a complete human record-by-record audit is not documented.",
+        "status": "Documented source provision and two identity confirmations; agent implementation"
       },
       {
         "role": "Formal analysis",
@@ -33,13 +33,13 @@
       {
         "role": "Investigation",
         "meaning": "Gather evidence for the study.",
-        "human": "No separate human evidence-collection role beyond supplying the export is established; source investigation was agent-assisted.",
+        "human": "Ian supplied the XML export and historical GCDI People directory. Codex consulted linked institutional sources and extracted directory evidence; separate human source-by-source investigation is not documented.",
         "status": "Human execution not established"
       },
       {
         "role": "Methodology",
         "meaning": "Choose and shape the approach.",
-        "human": "Ian G. Williams requested academic-year cohort comparisons, NLTK/MALLET analysis, and a body-credit re-audit. Implementation details were agent-developed. Ian requested two simulated reviewer perspectives and incorporation of the additional persona review, then prioritized research/examination use. Ian requested the theme-oriented visualization revision; the evidence layers and counting definitions were operationalized by the agent.",
+        "human": "Ian G. Williams requested academic-year cohort comparisons, NLTK/MALLET analysis, and a body-credit re-audit. Implementation details were agent-developed. Ian requested two simulated reviewer perspectives and incorporation of the additional persona review, then prioritized research/examination use. Ian requested the theme-oriented visualization revision; the evidence layers and counting definitions were operationalized by the agent. Ian confirmed academic-year interpretation for the historical directory; Codex operationalized separate role families and evidence-basis comparisons.",
         "status": "Documented direction"
       },
       {
@@ -308,7 +308,8 @@
       "name": "A. L. McMichael",
       "variants": [
         "A. L. McMichael",
-        "A.L. McMichael"
+        "A.L. McMichael",
+        "Alice Lynn McMichael"
       ],
       "entries": [
         {
@@ -737,7 +738,8 @@
     {
       "name": "Anna Corbett",
       "variants": [
-        "Anna Corbett"
+        "Anna Corbett",
+        "Anna Schlenz"
       ],
       "entries": [
         {
@@ -3801,7 +3803,8 @@
     {
       "name": "Maggie Schreiner",
       "variants": [
-        "Maggie Schreiner"
+        "Maggie Schreiner",
+        "Margaret Schreiner"
       ],
       "entries": [
         {

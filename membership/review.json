@@ -1,0 +1,122 @@
+{
+  "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+  "retrieved_on": "2026-11-02",
+  "retrieval_method": "Rendered public page read in the in-app browser after web retrieval returned HTTP 403. Text snapshot preserves names, role labels and date strings.",
+  "source_text_sha256": "b0f8ef06c6a346f1f099c9a82132c1ec630d972142b49ed99589069b13736772",
+  "calendar": "Per Ian: academic calendar. A 2012–2015 range expands to 2012–2013, 2013–2014 and 2014–2015. It supplies annual interval evidence, not exact appointment days or independent proof of semester-level activity. Summer posts remain unmatched.",
+  "source_rights": "People page displays CC BY-NC-SA 4.0; original source rights remain separate from unassigned project-code/analysis licenses.",
+  "aliases": [
+    {
+      "source_name": "Zach Lloyd",
+      "archive_name": "Zachary Lloyd",
+      "basis": "Short name in directory; existing signed-list mapping uses Zachary Lloyd.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Christopher Colón",
+      "archive_name": "Christopher Colon",
+      "basis": "Diacritic variant; same full given name and surname.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Rebecca Krissel",
+      "archive_name": "Rebecca Krisel",
+      "basis": "Directory spelling differs by one s; same Political Science and 2021–2024 role context. Source spelling retained.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Kristin Hackett",
+      "archive_name": "Kristen Hackett",
+      "basis": "Directory spelling variant; exported Sound Series text also names Kristin while account and signed lists use Kristen.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Connor French",
+      "archive_name": "Connor M French",
+      "basis": "Explicit current-version byline in post 19866 says Connor French and is attached to the Connor M French account.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Patrick Smyth",
+      "archive_name": "Patrick Smyth, PhD",
+      "basis": "Honorific omission; same full first and last name.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Tahir Butt",
+      "archive_name": "Tahir H. Butt",
+      "basis": "Middle initial omission; workshop credits and account directory connect both forms.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Jeffrey Binder",
+      "archive_name": "Jeff Binder",
+      "basis": "Directory role 2015–2016 matches Jeffrey M. Binder’s professional CV; archived guide credits Jeff Binder. Evidence-supported shortening, not personal confirmation.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Laura Wildermann Kane",
+      "archive_name": "Laura Kane",
+      "basis": "Directory spelling variant of the independently reviewed Laura Wildemann Kane / Laura Kane identity; same Philosophy fellowship period 2012–2015.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Andrew G. McKinney",
+      "archive_name": "Andrew G McKinney",
+      "basis": "Punctuation-only variant.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Natalie O’Shea",
+      "archive_name": "Natalie O'Shea",
+      "basis": "Apostrophe typography only.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Alice Lynn McMichael",
+      "archive_name": "A. L. McMichael",
+      "basis": "Barnard institutional biography explicitly connects full name and initials.",
+      "confirmation": "evidence-supported normalization; not individual confirmation"
+    },
+    {
+      "source_name": "Ian Williams",
+      "archive_name": "Ian G. Williams",
+      "basis": "Previously confirmed by Ian.",
+      "confirmation": "user-confirmed"
+    },
+    {
+      "source_name": "Margaret Schreiner",
+      "archive_name": "Maggie Schreiner",
+      "basis": "Explicitly confirmed by Ian for this directory review.",
+      "confirmation": "user-confirmed"
+    },
+    {
+      "source_name": "Anna Schlenz",
+      "archive_name": "Anna Corbett",
+      "basis": "Explicitly confirmed by Ian for this directory review.",
+      "confirmation": "user-confirmed"
+    }
+  ],
+  "additional_sources": [
+    {
+      "url": "https://digitalhumanities.barnard.edu/profiles/al-mcmichael",
+      "use": "Explicit full-name/initials equivalence for McMichael."
+    },
+    {
+      "url": "https://jeffreymbinder.net/wp-content/uploads/2025/10/Academic-CV-Jeffrey-M.-Binder.pdf?attachment_id=534",
+      "use": "CUNY English PhD; Digital Fellow August 2015–May 2016, matching directory interval. No contact details copied."
+    },
+    {
+      "url": "https://www.gc.cuny.edu/news/digital-gc-expands-new-initiatives",
+      "use": "Independent August 22, 2012 founding announcement names six Digital Fellows; used to check first-year interval expansion."
+    }
+  ],
+  "signed_name_resolutions": {
+    "Pablo": "Pablo Gonzalez",
+    "Zhilang": "Zhilang Liu",
+    "Sara": "Sara Feinstein",
+    "Shokran": "Shokraan Rahiminezhad"
+  },
+  "signed_name_resolution_limits": "Pablo is restricted to Fall 2018. Current names resolve 2026–2027 Fall signature labels only, using the observed current Digital Fellows list. Shokran/Shokraan is a reviewed spelling match to the unique current team member; source signature spelling remains visible. Spring 2018 Patrick remains ambiguous; later Patrick can resolve to Patrick Sweeney only when the annual directory supplies a unique candidate.",
+  "pre_membership_records_sha256": "ded7ed2248a7ca1082723635257f2097082db985052867caf384d6625a44400d"
+}

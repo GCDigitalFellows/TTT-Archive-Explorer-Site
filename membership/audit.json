@@ -1,0 +1,30 @@
+{
+  "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+  "retrieved_on": "2026-11-02",
+  "alumni_source_rows": 94,
+  "dated_role_claims": 100,
+  "undated_alumni_role_claims": 5,
+  "annual_name_role_cells": 245,
+  "current_role_names": 20,
+  "current_roles_have_inferred_appointment_years": false,
+  "local_post_matches_by_basis": {
+    "signed": 147,
+    "resolved-signed": 148,
+    "directory-digital": 237,
+    "directory-any": 242,
+    "combined": 246
+  },
+  "modeled_post_matches_by_basis": {
+    "signed": 129,
+    "resolved-signed": 130,
+    "directory-digital": 216,
+    "directory-any": 221,
+    "combined": 223
+  },
+  "unresolved_signed_entries": 2,
+  "reviewed_signed_name_resolutions": 6,
+  "authorship_statuses_unchanged": true,
+  "model_refitted": false,
+  "calendar": "Per Ian: academic calendar. A 2012–2015 range expands to 2012–2013, 2013–2014 and 2014–2015. It supplies annual interval evidence, not exact appointment days or independent proof of semester-level activity. Summer posts remain unmatched.",
+  "limits": "Directory intervals and signed semester lists are distinct evidence. Role counts overlap across programs; duplicates are deduplicated by reviewed name/role/year with all claims retained. Missing matches are not proof of nonmembership or incorrect authorship."
+}

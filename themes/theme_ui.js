@@ -23,7 +23,7 @@
     }));
   }
   function mode() {return byId("theme-mode").value;}
-  function choices() {return {year:byId("theme-year").value,author:byId("theme-author").value,explicit:byId("theme-explicit").checked,supportedOnly:byId("theme-supported").checked};}
+  function choices() {return {membershipBasis:byId("theme-membership").value,year:byId("theme-year").value,author:byId("theme-author").value,explicit:byId("theme-explicit").checked,supportedOnly:byId("theme-supported").checked};}
   // Cell and pair selections narrow only the evidence list, not the global chart filters.
   function chooseEvidence(theme,year="all",pair=null) {
     selectedTheme=theme;selectedPair=pair;inspectYear=year;postLimit=12;
@@ -167,18 +167,18 @@
     data=JSON.parse(byId("theme-data").textContent);ready=true;
     options("theme-year",[["all","All academic years"],...[...new Set(data.posts.map((p)=>p.year))].sort().map((year)=>[year,year])]);
     options("theme-author",[["all","All credited writers"],...[...new Set(data.posts.flatMap((p)=>p.authors))].sort().map((author)=>[author,author])]);
-    for(const id of ["theme-mode","theme-year","theme-author","theme-explicit","theme-supported","theme-measure"])
+    for(const id of ["theme-mode","theme-membership","theme-year","theme-author","theme-explicit","theme-supported","theme-measure"])
       byId(id).addEventListener("change",()=>{inspectYear="all";selectedPair=null;postLimit=12;render();});
     byId("theme-focus").addEventListener("change",()=>chooseEvidence(byId("theme-focus").value));
     byId("theme-author-limit").addEventListener("change",renderAuthors);
     byId("theme-all-years").addEventListener("click",()=>{inspectYear="all";postLimit=12;renderPosts();});
     byId("theme-more").addEventListener("click",()=>{postLimit+=20;renderPosts();});
     byId("theme-reset").addEventListener("click",()=>{
-      byId("theme-mode").value="headline";byId("theme-year").value="all";byId("theme-author").value="all";
+      byId("theme-membership").value="all";byId("theme-mode").value="headline";byId("theme-year").value="all";byId("theme-author").value="all";
       byId("theme-explicit").checked=false;byId("theme-supported").checked=false;byId("theme-measure").value="share";byId("theme-author-limit").value="10";
       selectedTheme="";selectedPair=null;inspectYear="all";postLimit=12;render();
     });
-    byId("theme-export-years").addEventListener("click",()=>exportRows("tagging-the-tower-theme-years.csv",currentRows.flatMap((row)=>data.modes[mode()].themes.map((theme,index)=>({evidence_layer:mode(),academic_year:row.year,theme,matching_posts:row.counts[index],eligible_posts:row.denominator,writer_filter:choices().author,explicit_credit_required:choices().explicit,source_supported_required:choices().supportedOnly})))));
+    byId("theme-export-years").addEventListener("click",()=>exportRows("tagging-the-tower-theme-years.csv",currentRows.flatMap((row)=>data.modes[mode()].themes.map((theme,index)=>({evidence_layer:mode(),academic_year:row.year,theme,matching_posts:row.counts[index],eligible_posts:row.denominator,writer_filter:choices().author,explicit_credit_required:choices().explicit,source_supported_required:choices().supportedOnly,membership_basis:choices().membershipBasis})))));
     byId("theme-export-posts").addEventListener("click",()=>exportRows("tagging-the-tower-theme-posts.csv",matchingPosts.map((post)=>({evidence_layer:mode(),theme:selectedTheme,second_theme:selectedPair||"",inspected_year:inspectYear,id:post.id,title:post.title,academic_year:post.year,credited_writers:post.authors.join("; "),original_credit:post.originalAuthors.join("; "),credit_basis:post.creditStatus,authorship_disposition:post.authorshipTier,url:post.url}))));
     render();
   }

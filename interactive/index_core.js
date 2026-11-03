@@ -24,6 +24,8 @@ function filterIndexPosts(posts, model, choices) {
       return false;
     if (choices.evidence === "supported" && post.authorshipTier !== "source-supported") return false;
     if (choices.theme && choices.theme !== "all" && !(post.themeSignals || []).includes(choices.theme)) return false;
+    // Membership qualifies a recorded credit; it does not validate a byline.
+    if (choices.membershipBasis && choices.membershipBasis !== "all" && !(post.membershipByBasis?.[choices.membershipBasis] || []).length) return false;
     const weights = model.mixtures[post.id];
     if (choices.topic === "unmodeled" && weights) return false;
     if (

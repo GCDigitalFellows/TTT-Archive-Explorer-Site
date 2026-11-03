@@ -8,6 +8,14 @@
 
 "use strict";
 
+// A membership match describes a recorded credit, not verified authorship.
+// Keep the original signed-list basis when no choice is supplied, so older
+// calculations and their independently saved reference tables stay reproducible.
+function membershipNames(post, basis = "signed") {
+  if (basis === "signed") return post.cohortNames || post.membershipByBasis?.signed || [];
+  return post.membershipByBasis?.[basis] || [];
+}
+
 function filterPosts(posts, choices) {
   // Collective posts contain several names. Include/exclude means membership
   // in that credited-name list, not sole authorship or a causal author effect.
@@ -16,7 +24,7 @@ function filterPosts(posts, choices) {
       post.startYear >= choices.firstYear &&
       post.startYear <= choices.lastYear &&
       (!choices.supportedOnly || post.authorshipTier === "source-supported") &&
-      (!choices.cohortOnly || post.cohortNames.length > 0) &&
+      (!choices.cohortOnly || membershipNames(post, choices.membershipBasis).length > 0) &&
       (!choices.author || post.authors.includes(choices.author)) &&
       (!choices.excludeAuthor || !post.authors.includes(choices.excludeAuthor)),
   );
@@ -130,6 +138,7 @@ function csvText(rows) {
 
 // One shared implementation works in the page and in the independent Node tests.
 const TowerMath = {
+  membershipNames,
   filterPosts,
   topicAverages,
   rankPosts,

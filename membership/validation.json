@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-02",
+  "python_tests": 35,
+  "node_tests": 37,
+  "coverage_verified": {
+    "export_items": 857,
+    "category_records": 430,
+    "published": 421,
+    "drafts": 9
+  },
+  "frozen_reference_check": "33 reference files unchanged; 10 previously accepted correction files match ledger; model/corpus unchanged",
+  "browser_checks": {
+    "directory_cell": "2024\u20132025 Digital Fellows: 8 names, original and archive grouping names displayed",
+    "topic_combined_posts": 223,
+    "topic_original_signed_posts": 129,
+    "index_dated_digital_records_including_drafts": 248,
+    "theme_any_dated_role_local_posts": 242,
+    "word_any_dated_role_modeled_posts": 221,
+    "console_errors": []
+  },
+  "authorship_unchanged": true,
+  "limits": "Desktop browser checks only; no formal accessibility audit or independent human verification."
+}
