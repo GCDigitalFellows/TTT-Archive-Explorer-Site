@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Require explicit CRediT and GAIDeT attribution in source and deployment agent instructions
+
+- **Human — Ian G. Williams:** Ian requested attribution instructions using GAIDeT and CRediT for the agents assisting this project.
+- **AI:** Codex added framework-specific rules, saved-taxonomy references and task examples, human-contribution/confirmation boundaries, per-agent provenance requirements, disclosure and changelog steps, and relevant validation commands to both agent guides. The update uses the project’s saved framework mappings rather than claiming a fresh taxonomy audit.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-agent-framework-attribution-instructions). The instruction update records a process requirement, not proof of human contribution, contributor confirmation or completion of future attribution reviews. Structural tests cannot independently establish participation.
+
 ### 2026-11-03 — Extend repository instructions for assisting review and revision agents
 
 - **Human — Ian G. Williams:** Ian requested an AGENTS file integrating relevant instructions for other agents that may assist with review and revision.

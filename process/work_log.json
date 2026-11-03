@@ -587,6 +587,29 @@
         "../scripts/prepare_public_site.py"
       ],
       "limit": "These instructions guide future agents but do not constitute an actual review, automated enforcement or authorization for additional delegation. Existing remote-preservation and significant-change approval requirements remain in effect."
+    },
+    {
+      "id": "agent-framework-attribution-instructions",
+      "date": "2026-11-03",
+      "status": "implemented",
+      "task": "Require explicit CRediT and GAIDeT attribution in source and deployment agent instructions",
+      "human": "Ian requested attribution instructions using GAIDeT and CRediT for the agents assisting this project.",
+      "agent": "Codex added framework-specific rules, saved-taxonomy references and task examples, human-contribution/confirmation boundaries, per-agent provenance requirements, disclosure and changelog steps, and relevant validation commands to both agent guides. The update uses the project’s saved framework mappings rather than claiming a fresh taxonomy audit.",
+      "credit_roles": [
+        "Project administration",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000030",
+        "0000031",
+        "0000023"
+      ],
+      "evidence": [
+        "../AGENTS.md",
+        "../scripts/public_site_AGENTS.md",
+        "credits/process_profile.json"
+      ],
+      "limit": "The instruction update records a process requirement, not proof of human contribution, contributor confirmation or completion of future attribution reviews. Structural tests cannot independently establish participation."
     }
   ],
   "remaining": [
