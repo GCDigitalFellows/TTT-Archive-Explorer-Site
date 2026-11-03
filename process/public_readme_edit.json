@@ -1,0 +1,10 @@
+{
+  "commit": "d99d0fc",
+  "url": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site/commit/d99d0fc",
+  "author_name_in_git": "Ian Williams",
+  "authored_at": "2026-11-02T20:41:14-05:00",
+  "title": "Revise README to enhance project clarity and AI disclosure",
+  "scope": "Public README adds demonstration/work-in-progress wording, describes the project as mostly AI generated, and adds @perlsdiver.",
+  "attribution_limit": "Git author metadata records attribution; manual authorship or the use/non-use of an AI editing tool is not independently established.",
+  "integration": "Codex preserved the remote commit by rebasing and synchronized its wording into the source README and public packager, retaining the original spelling."
+}

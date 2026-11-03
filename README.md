@@ -16,3 +16,138 @@ This disclosure covers the recorded project workflow. It does not assess possibl
 
 The [full disclosure and contributor register](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/CREDITS_AND_PROCESS.html) maps documented human contributions using **CRediT** and delegated AI tasks using **GAIDeT**. The [work log](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html) records activities, verification and limits. These mappings describe recorded work; they do not imply contributor confirmation, complete human approval or institutional endorsement.
 
+
+## Changelog
+
+Every project update must be recorded here with separate **Human** and **AI** attribution. Entries are grouped by task, rather than treating every generated file or deployment commit as a separate contribution. Update the task ledger and regenerate this section in the same change; the public website README carries the same changelog. This requirement is also recorded in `AGENTS.md`.
+
+Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
+
+### 2026-11-02 — Require and backfill a human/AI-attributed README changelog
+
+- **Human — Ian G. Williams:** Ian required every update and change to appear in a README changelog with human and AI attribution.
+- **AI:** Codex backfilled saved task history, labelled inherited summaries and unknowns, added a repeatable README renderer and persistent project instructions, and updated the public-site packager to preserve the changelog. Task evidence and source-author attribution remain separate. Codex also corrected root-level evidence links in the work-log renderer and added checks for README/ledger agreement and public README preservation.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-readme-attributed-changelog). Backfill uses the available task ledger, saved user requests and Git history; it is not a complete reconstruction of undocumented early sessions. Human execution or approval is not inferred from a request.
+
+### 2026-11-02 — Preserve the public README’s demonstration and experimental-project wording
+
+- **Human — Ian G. Williams:** GitHub commit d99d0fc is attributed in Git to Ian Williams and adds work-in-progress, mostly AI-generated and @perlsdiver wording. This metadata does not establish manual authorship.
+- **AI:** No AI editing provenance is recorded for the separate GitHub edit. Codex fetched and preserved that commit, rebased the changelog addition, and synchronized its wording into the source README and public-site packager to prevent later export from undoing it.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-public-readme-editorial-update). The external edit’s production method is unknown; Git attribution is not proof that it was written without AI. Original wording is retained.
+
+### 2026-11-02 — Distinguish guest participant writing from fellowship membership at publication
+
+- **Human — Ian G. Williams:** Ian clarified that guest authors include students who were not Fellows at publication, such as GCDRI participants.
+- **AI:** Codex recorded the clarification in membership documentation, the role-history page and analysis methods. No individual participant/non-Fellow labels were inferred, no bylines changed, and participant posts remain in full-archive populations.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-guest-participant-context). The contextual clarification does not independently establish any named individual’s appointment or authorship status.
+
+### 2026-11-02 — Integrate historical GCDI role evidence, academic-year comparisons and confirmed identity pairs
+
+- **Human — Ian G. Williams:** Ian supplied the People page, confirmed the academic calendar, and confirmed Margaret/Maggie Schreiner and Anna Schlenz/Anna Corbett.
+- **AI:** Codex extracted dated alumni claims and a separate undated current snapshot; documented name crosswalks; built role visualizations, evidence-basis filters and fixed-model topic summaries. Article credits and fitted model weights remain unchanged.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-historical-membership). Membership contextualizes recorded credits and cannot resolve unsupported article authorship. Directory intervals are annual evidence, not exact appointment dates.
+
+### 2026-11-02 — Reconcile all articles and propagate review dispositions across analyses and visualizations
+
+- **Human — Ian G. Williams:** Ian requested that every article be accounted for, every authorship attribution vetted, and all analyses/visualizations updated. Ian asked for examples of unresolved account credits; four source-linked examples were supplied without asserting that their account holder was necessarily wrong.
+- **AI:** Codex reconciled all 857 XML items and 436 ordinary posts to 430 category records, recorded six ordinary-post exclusions, classified all article credits by evidence strength, reviewed named article-reference candidates, corrected four additional names and strengthened five existing credits, and added source-supported subset controls and current-credit checks across actual embedded browser datasets.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-complete-export-and-authorship-accounting). Completeness is within the supplied export, not the entire historical website. Among 421 published records, 52 have accepted source support, 120 retain declared-only metadata/taxonomy credits and 249 remain unresolved account credits. No personal author confirmation, independent human review or model refit is claimed.
+
+### 2026-11-02 — error correction in source data
+
+- **Human — Ian G. Williams:** Ian identified the incorrect Sam O’Hana attribution for Linked Data for the Uninitiated (Part 1), supplied McMichael’s name, requested archive-wide review, correction, website rebuild and GitHub publication, and specified the commit message.
+- **AI:** Codex screened all 430 records for author fields and full-body credit signals, reviewed accepted bylines/revision notes/source biographies, visually checked institutional guide page 23, corrected ten additional names, grouped McMichael spacing variants, rebuilt dependent attribution views and documented remaining provisional records.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-source-credit-error-correction). No new model fitting or independent human verification. 258 local account credits remain provisional, including 53 older Sam O’Hana account records. Existing author/cohort and word-model baselines are retained.
+
+### 2026-11-02 — Add the site’s AI-use disclosure to repository READMEs
+
+- **Human — Ian G. Williams:** Ian requested incorporation of the site’s AI disclosure into README.md and pushing the changes.
+- **AI:** Codex adapted the project-specific disclosure, identified human oversight limits and separate source authorship, and synchronized the public README. The change is preserved in source commit 9cd85f4.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-readme-ai-disclosure). This is a retrospective ledger entry supported by the saved request and commit history; it does not establish additional human review.
+
+### 2026-11-02 — Publish a browsable website while retaining the private research repository
+
+- **Human — Ian G. Williams:** Ian requested GitHub deployment for organization colleagues, then explicitly approved a public website with the source repository remaining private after the Free-plan limitation was explained.
+- **AI:** Codex checked GitHub plan and Pages documentation, created a separate public website repository, prepared static outputs and browser code, redirected Python-source links to the private source repository, and enabled GitHub Pages. No billing changes or model refit.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-public-github-pages). Public website data and browser code are accessible to anyone. Source repository privacy does not make published site content private. Licensing remains unassigned.
+
+### 2026-11-02 — Rename the project and establish its private organization repository
+
+- **Human — Ian G. Williams:** Ian named the project Tagging The Tower Archives Explorer and authorized creation of GCDigitalFellows/TTT-Archive-Explorer as a private repository, followed by pushing the project. The authenticated account is perlsdiver.
+- **AI:** Codex prepared shared project metadata, renamed the current explorer and documentation, corrected the profile link, excluded local dependencies/caches/bundles from Git, and prepared verification before repository creation. Final repository status is recorded after GitHub confirmation. GitHub confirmed PRIVATE visibility and ADMIN access to the new repository. Codex pushed the initial source commit and confirmed that GitHub main matched the local commit. Two failed HTTP uploads preceded a successful per-command transport compatibility retry; no global configuration or TLS verification was changed.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-private-github-repository). Private repository hosting does not establish institutional endorsement or a license for code, analysis or source texts. No public website deployment is authorized by this repository request.
+
+### 2026-11-02 — Add thematic heatmaps, co-occurrence, writer bars and theme-aware index/network filtering
+
+- **Human — Ian G. Williams:** Ian requested revision of the visualizations to incorporate themes.
+- **AI:** Codex distinguished eight saved dictionary categories from six essay themes and MALLET topics; reused the original flags, joined the 19 selected source groupings, implemented interactive year/theme and co-occurrence tables, writer bars, evidence lists and exports, and integrated title/tag theme filtering into the post index and author–year network.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-thematic-visualizations). No new corpus-wide semantic coding, model refit or independent human validation. Dictionary matches are signals; the 19-post essay layer cannot estimate archive prevalence. Co-occurrence is withheld for the non-exhaustively coded essay sample. Publication credits do not prove fellowship membership.
+
+### 2026-11-02 — Clarify the external review model, environment and prior-version input
+
+- **Human — Ian G. Williams:** Ian identified Deepseek V4.1 Flash 1017, CAIL sandbox, OpenWebUI and the previous-iteration ZIP as the review provenance.
+- **AI:** Codex updated the assessment, GAIDeT tool/task attribution, methods explanation, interpretation disclosure, contribution profile and work log. No model output or source-post credit was changed.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-external-review-provenance). User-reported provenance is distinguished from independent inspection of the external session or exact reviewed ZIP.
+
+### 2026-11-02 — Update CRediT, GAIDeT, history, correction and reuse documentation
+
+- **Human — Ian G. Williams:** Ian supplied contact details; licenses remain for Ian to specify. No response-time commitment was made.
+- **AI:** Codex mapped actual tasks to canonical taxonomy terms, retained source-author credits, documented unknowns, created the correction template and runs preservation/browser tests with results recorded in process/validation.json.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-governance-and-checks). No legal license, accessibility certification, ethics approval, human user test or contributor-confirmed role agreement is implied.
+
+### 2026-11-02 — Create research-first entry, author lookup, methods/report routes and sharing
+
+- **Human — Ian G. Williams:** Ian chose research/examination use over an event-first or hosted-public priority.
+- **AI:** Codex implemented a root index entry, author-first search, grouped navigation, stable view links, worked chart guidance, saved-analysis labels, support pages and release documentation.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-journeys-and-support). View links do not serialize research filters or particular random posts. Full NLP setup requires external dependencies and the original export. Full retraining runtime has not been benchmarked in this revision.
+
+### 2026-11-02 — Test the interpretation against missing-period examples
+
+- **Human — Ian G. Williams:** Ian authorized implementation of the reviewer recommendations.
+- **AI:** Codex screened titles of the 98 local/unflagged posts dated 2018–2022, read five selected posts in full and added five literal export-verified passages. Claims now address earlier AI skepticism, governance, pandemic adaptation, code as thinking and repair politics.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-expanded-reading). Nineteen purposively selected sources do not establish saturation, representativeness or prevalence. No model was refitted; historic technical and legal source claims are not current advice.
+
+### 2026-11-02 — Revise orientation, evidence status and roster coverage
+
+- **Human — Ian G. Williams:** Ian prioritized research/examination use and supplied the public correction contact.
+- **AI:** Codex checked institutional primary sources, revised terminology and disclosures, exposed signed-list coverage and provisional-credit counts, and retained unconfirmed institutional status.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-orientation-and-coverage). Unmatched authors are not classified as non-Fellows. Historical appointment lists and institutional endorsement still require human evidence.
+
+### 2026-11-02 — Assess an external-model review of an earlier ZIP export
+
+- **Human — Ian G. Williams:** Ian supplied TTT-Website-review.md and requested a revised plan, questions and continued implementation. Ian subsequently identified the producing model as Deepseek V4.1 Flash 1017, in the CAIL sandbox in OpenWebUI, reviewing a ZIP export of the previous iteration.
+- **AI:** Deepseek V4.1 Flash 1017 produced the supplied five-persona review in the CAIL sandbox in OpenWebUI, according to Ian. Codex read that external critique, distinguished its stated manifest evidence from inferred claims, checked the current site sources and revised the backlog.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-additional-simulation). The supplied review says it inspected only the manifest. Its May 2026 prepared date is reported as written, not independently established. It does not prove broken offline fetching, human coding, most-read analytics or a ten-topic primary model. The exact reviewed ZIP filename, hash and iteration identifier are not recorded; the current ZIP must not be substituted as its input.
+
+### 2026-11-01 — Run two audience-perspective sub-agent reviews
+
+- **Human — Ian G. Williams:** Ian explicitly requested a partly informed insider and a first-time public perspective, then authorized implementation.
+- **AI:** Two separate Codex sub-agents inspected site sources; the primary agent synthesized their critiques and cross-checked the missing-period count.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-two-simulated-reviews). These were simulated AI perspectives, not human reviewers, user testing, contributor endorsement or independent human validation.
+
+### 2026-11-01 — Create the project overview and reading routes
+
+- **Human — Ian G. Williams:** Ian requested a project-wide landing page.
+- **AI:** Codex drafted the overview, derived scope counts, implemented routes and performed automated and browser checks.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-landing). Browser QA checks implementation; it is not a human usability study.
+
+### 2026-11-01 — Review and group duplicate author-name forms
+
+- **Human — Ian G. Williams:** Ian requested identity review and confirmed Ian Williams / Ian G. Williams.
+- **AI:** Codex screened 163 names, reviewed three candidate pairs and merged two supported pairs while preserving original credits.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-identity). Laura Kane / Laura Wildemann Kane is evidence-supported but not individually confirmed. The register has 161 grouped entries, not a verified census.
+
+### 2026-11-01 — Develop and integrate the source-linked interpretation
+
+- **Human — Ian G. Williams:** Ian requested the interpretation, its website integration and framework-based attribution.
+- **AI:** Codex selected 14 passages, checked them against the XML, proposed six themes and drafted the essay and source companion.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-interpretation). The original selection was purposive, temporally uneven and not independently human-validated.
+
+### Earlier inherited work — retrospective summary; exact task dates not established here
+
+These stages precede the detailed task ledger. They are reconstructed from the supplied project history and saved outputs, not a complete session or commit audit.
+
+- **Corpus and text analysis. Human — Ian:** supplied the WordPress export and requested academic-year cohort analysis, further patterns, NLTK/MALLET, stop-word cleaning and visualizations. **AI:** the earlier ChatGPT-assisted workflow prepared Python analysis, cleaned text and saved computational outputs. Exact underlying model versions and a full session audit are unavailable. [Saved analysis](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/nltk_mallet_report.html).
+- **Readable code and interactive design. Human — Ian:** requested annotations accessible to less experienced reviewers, interactive visualizations and year-specific web styles from 2012–2026 with source documentation. **AI:** prepared annotated code, interactive controls and documented style presets. These are documented design interpretations, not proven annual consensus. [Design methodology](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/STYLE_METHODOLOGY.html).
+- **Post reader and analysis controls. Human — Ian:** requested a random-post tab and a text-analysis button. **AI:** implemented the reader and saved-analysis interface; browser controls do not imply a new live MALLET fit. [Interactive guide](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/INTERACTIVE_GUIDE.html).
+- **Post index, body bylines, credit frameworks and project history. Human — Ian:** requested a searchable index, author/year network, body-byline re-audit, GAIDeT/CRediT disclosure and prompt-linked history. **AI:** implemented these features and retained source evidence. These requests are documented as November 1, 2026; this retrospective entry supplements their preserved prompt record. [Prompts and implementation history](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/PROJECT_HISTORY.html).

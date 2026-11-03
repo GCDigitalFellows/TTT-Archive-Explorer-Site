@@ -371,6 +371,24 @@
       "limit": "Public website data and browser code are accessible to anyone. Source repository privacy does not make published site content private. Licensing remains unassigned."
     },
     {
+      "id": "readme-ai-disclosure",
+      "date": "2026-11-02",
+      "status": "implemented; retrospectively added to task ledger",
+      "task": "Add the site’s AI-use disclosure to repository READMEs",
+      "human": "Ian requested incorporation of the site’s AI disclosure into README.md and pushing the changes.",
+      "agent": "Codex adapted the project-specific disclosure, identified human oversight limits and separate source authorship, and synchronized the public README. The change is preserved in source commit 9cd85f4.",
+      "credit_roles": [
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000032"
+      ],
+      "evidence": [
+        "../README.md"
+      ],
+      "limit": "This is a retrospective ledger entry supported by the saved request and commit history; it does not establish additional human review."
+    },
+    {
       "id": "source-credit-error-correction",
       "date": "2026-11-02",
       "status": "implemented; 52 automated tests and local browser credit checks passed; publication state is recorded by GitHub",
@@ -482,6 +500,49 @@
         "FELLOWS_HISTORY.html"
       ],
       "limit": "The contextual clarification does not independently establish any named individual’s appointment or authorship status."
+    },
+    {
+      "id": "public-readme-editorial-update",
+      "date": "2026-11-02",
+      "status": "preserved and synchronized",
+      "task": "Preserve the public README’s demonstration and experimental-project wording",
+      "human": "GitHub commit d99d0fc is attributed in Git to Ian Williams and adds work-in-progress, mostly AI-generated and @perlsdiver wording. This metadata does not establish manual authorship.",
+      "agent": "No AI editing provenance is recorded for the separate GitHub edit. Codex fetched and preserved that commit, rebased the changelog addition, and synchronized its wording into the source README and public-site packager to prevent later export from undoing it.",
+      "credit_roles": [
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000032"
+      ],
+      "evidence": [
+        "process/public_readme_edit.json"
+      ],
+      "limit": "The external edit’s production method is unknown; Git attribution is not proof that it was written without AI. Original wording is retained."
+    },
+    {
+      "id": "readme-attributed-changelog",
+      "date": "2026-11-02",
+      "status": "implemented",
+      "task": "Require and backfill a human/AI-attributed README changelog",
+      "human": "Ian required every update and change to appear in a README changelog with human and AI attribution.",
+      "agent": "Codex backfilled saved task history, labelled inherited summaries and unknowns, added a repeatable README renderer and persistent project instructions, and updated the public-site packager to preserve the changelog. Task evidence and source-author attribution remain separate. Codex also corrected root-level evidence links in the work-log renderer and added checks for README/ledger agreement and public README preservation.",
+      "credit_roles": [
+        "Methodology",
+        "Project administration",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000032"
+      ],
+      "evidence": [
+        "../README.md",
+        "../AGENTS.md",
+        "../scripts/update_readme_changelog.py",
+        "../scripts/prepare_public_site.py",
+        "process/changelog_validation.json"
+      ],
+      "limit": "Backfill uses the available task ledger, saved user requests and Git history; it is not a complete reconstruction of undocumented early sessions. Human execution or approval is not inferred from a request."
     }
   ],
   "remaining": [
