@@ -2,9 +2,9 @@
 
 **Status: planning only. No site revision is approved or implemented.** Updated November 3, 2026.
 
-The strongest candidates are optional styling, the number of primary routes, duplicate explanations and competing controls. The research evidence and accountability functions remain essential. Most recommendations reduce prominence or duplication rather than remove the original capability or evidence. Several candidates were expressly requested earlier, so their value depends on the project’s current priorities.
+The strongest candidates are optional styling, the number of primary routes, duplicate explanations and competing controls. The research evidence and accountability functions remain essential. **Updated audience direction:** general public first, Fellows/alumni second. Search and random discovery are core tasks, the machine-assisted synthesis remains visible, and design history is preserved in some form. [Compare three mockup directions](mockups/README.md). Most recommendations reduce prominence or duplication rather than remove the original capability or evidence. Several candidates were expressly requested earlier, so their value depends on the project’s current priorities.
 
-This is a source-based heuristic review by Codex, not a human usability study. The inspected source/deployment revisions and static inventory are recorded in [the machine-readable backlog](simplification_backlog.json). Priority reflects the project’s documented research/examination-first purpose, not usage analytics. Effort and risk are estimates.
+This is a source-based heuristic review by Codex, not a human usability study. The inspected source/deployment revisions and static inventory are recorded in [the machine-readable backlog](simplification_backlog.json). Priority now reflects Ian’s November 3 public-first clarification; the earlier review used the previous research/examination-first preference. This is not usage analytics. Effort and risk are estimates.
 
 ## Priorities at a glance
 
@@ -18,7 +18,7 @@ This is a source-based heuristic review by Codex, not a human usability study. T
 | SIM-06 | P1 | Standalone random-post route and separate reader tools | Consolidate post reading with the searchable index and retain Draw a random post as an optional action there. Use one post-detail component with original link, credit evidence and expandable saved analysis. |
 | SIM-07 | P1 | Duplicate publication and keyword charts in the legacy audit route | Retire the legacy audit view from primary navigation and link its preserved tables/charts from Methods. Use Themes as the primary place for interactive keyword comparisons. |
 | SIM-08 | P1 | Repeated methods, report guidance, histories and long disclosures | Keep one concise methods hub, one contributor/AI disclosure, and linked report/reuse/history appendices. Replace repeated paragraphs with short context-specific caveats plus links to authoritative detail. |
-| SIM-09 | P2 | Advanced statistics in ordinary exploration and every post profile | Keep one primary model in ordinary views; place model-run choice, token weighting, seed stability, quality metrics and writer-exclusion sensitivity in a coherent advanced-research section. |
+| SIM-09 | P1 | Advanced statistics in ordinary exploration and every post profile | Keep one primary model in ordinary views; place model-run choice, token weighting, seed stability, quality metrics and writer-exclusion sensitivity in a coherent advanced-research section. |
 | SIM-10 | P2 | Several thematic charts competing on one page | Lead with the theme/year view and supporting post list. Make co-occurrence and writer bars optional secondary analyses rather than presenting every chart at equal prominence. |
 | SIM-11 | P2 | Phrase statistics and fixed early/recent comparison in the word route | Keep basic word counts visible and place phrase association measures and fixed-period contrasts behind an advanced disclosure or in Methods. |
 | SIM-12 | P2 | Multiple export/control actions with limited primary-task value | Prioritize matching-post CSVs, displayed chart-table exports and stable source/view links. Consider retiring appearance-settings JSON and redundant chart copies from the main interface while preserving archived files. |
@@ -156,7 +156,7 @@ Evidence: [interactive/template.html](https://github.com/GCDigitalFellows/TTT-Ar
 
 Evidence: [overview/page_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/overview/page_fragment.html) · [overview/methods_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/overview/methods_fragment.html) · [overview/reports_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/overview/reports_fragment.html) · [credits/page_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/credits/page_fragment.html) · [history/page_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/history/page_fragment.html) · [process/log_fragment.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/process/log_fragment.html).
 
-### SIM-09 · P2 · Advanced statistics in ordinary exploration and every post profile
+### SIM-09 · P1 · Advanced statistics in ordinary exploration and every post profile
 
 **Proposal:** Keep one primary model in ordinary views; place model-run choice, token weighting, seed stability, quality metrics and writer-exclusion sensitivity in a coherent advanced-research section.
 
@@ -234,11 +234,11 @@ Evidence: [interactive/template.html](https://github.com/GCDigitalFellows/TTT-Ar
 
 **Estimated effort / risk:** High / High. **Status:** proposed, not approved or implemented.
 
-Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/reviews/https:/github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
+Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
 
 ## Suggested sequence
 
-1. **Choose the scope:** decide whether design history is a core research object or optional exhibit, approve the five-part navigation proposal, and choose the landing-page action.
+1. **Choose the scope:** compare the three public-first mockup directions (or a deliberate blend), keep search/random/synthesis prominent, and choose a preserved optional design-history form.
 2. **Reduce surface complexity:** basic/advanced filters, results before the optional network, concise local caveats and canonical methods/credit documentation. Preserve current calculations and evidence distinctions.
 3. **Consolidate related tools:** one reader, a coherent Patterns area, advanced diagnostics, archived legacy charts and prioritized data exports. These require focused plans before implementation.
 4. **Consider architecture last:** benchmark the current page and confirm offline requirements before proposing a split web/offline edition.

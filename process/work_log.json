@@ -10,10 +10,21 @@
     "turnaround": "No response-time commitment specified"
   },
   "decisions": {
-    "priority": "Research or examination use first",
+    "priority": "Public audience first, followed by Fellows and alumni",
     "event_mode": "Deferred; not required for this research-first release",
     "license": "Awaiting requester-specified licenses for newly created code and analysis; no license assigned by the agent",
-    "institutional_relationship": "Endorsement/official status not established; do not imply it"
+    "institutional_relationship": "Endorsement/official status not established; do not imply it",
+    "priority_history": [
+      {
+        "priority": "Research or examination use first",
+        "status": "previous preference, superseded by Ian’s November 3 audience clarification"
+      },
+      {
+        "date": "2026-11-03",
+        "priority": "Public audience first, followed by Fellows and alumni",
+        "basis": "Explicit requester instruction during the three-mockup planning task; production revision still awaits approval."
+      }
+    ]
   },
   "events": [
     {
@@ -634,6 +645,33 @@
         "reviews/simplification_validation.json"
       ],
       "limit": "This is an AI source-based heuristic assessment, not demonstrated user difficulty, performance improvement, human validation or authorization to remove a feature. Earlier requested capabilities are candidates for secondary placement, not silently revoked requirements. The live website is not rebuilt for this planning task."
+    },
+    {
+      "id": "public-first-layout-mockups",
+      "date": "2026-11-03",
+      "status": "three discussion mockups prepared; no production implementation or option approval",
+      "task": "Explore three public-first archive and collective-wisdom layouts",
+      "human": "Ian G. Williams specified the audiences and their order, archive/search/random/synthesis priorities, human interpretability, data quality and preservation of design history, and requested three mockups without production implementation. No option preference or approval is inferred.",
+      "agent": "OpenAI Codex developed the three alternatives, drafted illustrative interface copy, reused saved post credits/text, built local preview interactions, inspected browser results and recorded the proposal history. Exact underlying model/build is not recorded. Updated the active backlog’s priority basis while retaining all proposals as pending; public-first planning replaces the previous examination-first preference.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000027",
+        "0000030",
+        "0000023",
+        "0000047"
+      ],
+      "evidence": [
+        "reviews/mockups/README.md",
+        "reviews/mockups/layout_options.json",
+        "reviews/mockups/layout_options_fragment.html",
+        "reviews/simplification_backlog.md"
+      ],
+      "limit": "The mockups use six saved sample records and an existing selected-source interpretation; they do not implement the live website, refit models, establish outcomes or demonstrate human usability preferences. Source code/credits remain reviewable, and production work still needs authorization."
     }
   ],
   "remaining": [

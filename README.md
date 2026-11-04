@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Explore three public-first archive and collective-wisdom layouts
+
+- **Human — Ian G. Williams:** Ian G. Williams specified the audiences and their order, archive/search/random/synthesis priorities, human interpretability, data quality and preservation of design history, and requested three mockups without production implementation. No option preference or approval is inferred.
+- **AI:** OpenAI Codex developed the three alternatives, drafted illustrative interface copy, reused saved post credits/text, built local preview interactions, inspected browser results and recorded the proposal history. Exact underlying model/build is not recorded. Updated the active backlog’s priority basis while retaining all proposals as pending; public-first planning replaces the previous examination-first preference.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-public-first-layout-mockups). The mockups use six saved sample records and an existing selected-source interpretation; they do not implement the live website, refit models, establish outcomes or demonstrate human usability preferences. Source code/credits remain reviewable, and production work still needs authorization.
+
 ### 2026-11-03 — Maintain an active feature-simplification backlog without implementing website changes
 
 - **Human — Ian G. Williams:** Ian requested analysis of unnecessary bells and whistles, rationales and revision plans, asked to keep the list active, and explicitly instructed that changes not be implemented now. The review uses his documented research/examination-first preference.

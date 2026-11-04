@@ -5,7 +5,7 @@
   "source_revision": "d7620afe66b57b821e4aceef479bd35db48a3aca",
   "deployment_revision": "8fe72495cdd6d85ddf685c86aa0022a7371519de",
   "review_method": "Primary Codex agent inspected the current checked-in site template, generated page, UI code, documentation and build audit. No new sub-agents, human usability sessions, browser QA or runtime performance benchmarks were conducted.",
-  "priority_basis": "Ian’s documented research/examination-first preference; the current user requested analysis and an active list, expressly withholding implementation.",
+  "priority_basis": "Ian’s November 3 clarification: public audience first, Fellows/alumni second; easy archive navigation with prominent search and random discovery, machine-assisted synthesis, data quality and human interpretability. Design history is preserved in some form. No production simplification is approved.",
   "observed": {
     "primary_routes": 13,
     "primary_route_ids": [
@@ -77,7 +77,7 @@
       "effort_estimate": "Medium",
       "risk_estimate": "Medium",
       "preserve": "The design-history experiment was explicitly requested earlier. Retain its sources, saved presets and project-history account; do not erase this work.",
-      "decision_needed": "Confirm whether design history remains a primary research object or becomes an optional exhibit.",
+      "decision_needed": "Choose a discoverable but secondary design-history form; preserve the feature and sourced research, as Ian requested.",
       "acceptance_criteria": "A visitor can read, search and inspect evidence without encountering year-style controls; the optional exhibit and sources remain reachable.",
       "confidence": "Source inspection supports the described controls and structure; user-benefit estimates are hypotheses, not usability findings.",
       "last_reviewed": "2026-11-03"
@@ -123,7 +123,7 @@
       "effort_estimate": "Low–medium",
       "risk_estimate": "Low–medium",
       "preserve": "Keep a short AI/project-status notice, original-site link and correction route. Retain detailed population counts where they are used.",
-      "decision_needed": "Choose whether the primary action is Browse posts or Read the interpretation; research-first suggests Browse posts.",
+      "decision_needed": "Choose a public-first orientation with search, random discovery and synthesis all readily available; compare the three mockup directions.",
       "acceptance_criteria": "The first screen gives a clear purpose and primary action; 421 published records and the snapshot remain clear without presenting grouped author entries as a verified headcount.",
       "confidence": "Source inspection supports the described controls and structure; user-benefit estimates are hypotheses, not usability findings.",
       "last_reviewed": "2026-11-03"
@@ -217,7 +217,7 @@
       ],
       "effort_estimate": "Medium",
       "risk_estimate": "Medium",
-      "preserve": "Random discovery and per-post analysis were explicitly requested. Preserve them as actions, including honest exclusions for unmodeled posts and plain-text/multimedia limits.",
+      "preserve": "Random discovery and per-post analysis were explicitly requested. Preserve them as actions, including honest exclusions for unmodeled posts and plain-text/multimedia limits. Ian’s November 3 clarification makes random discovery a core task: it must remain prominent even if the reader is consolidated.",
       "decision_needed": "Approve one shared reader and retain random discovery as a secondary action.",
       "acceptance_criteria": "Any selected published post can be read with the same evidence tools; drafts remain metadata-only; random sampling stays documented and does not invent model results.",
       "confidence": "Source inspection supports the described controls and structure; user-benefit estimates are hypotheses, not usability findings.",
@@ -295,11 +295,11 @@
     },
     {
       "id": "SIM-09",
-      "priority": "P2",
+      "priority": "P1",
       "status": "proposed — not approved or implemented",
       "component": "Advanced statistics in ordinary exploration and every post profile",
       "proposed_revision": "Keep one primary model in ordinary views; place model-run choice, token weighting, seed stability, quality metrics and writer-exclusion sensitivity in a coherent advanced-research section.",
-      "rationale": "Five saved runs, weighting choices and diagnostics have legitimate examination value, but most readers need first to understand a primary chart. Post-level model selectors repeat the run-selection task.",
+      "rationale": "Five saved runs, weighting choices and diagnostics have legitimate examination value, but most readers need first to understand a primary chart. Post-level model selectors repeat the run-selection task. Public-first orientation strengthens the case for progressive disclosure while preserving reviewer access.",
       "evidence": [
         {
           "path": "analysis/interactive/template.html",
@@ -440,7 +440,7 @@
         "SIM-02",
         "SIM-03"
       ],
-      "gate": "Decide design-history placement, primary entry task and navigation grouping."
+      "gate": "Compare Open library, Collective wisdom and Welcoming pathways (or a deliberate blend); agree public orientation, prominent search/random/synthesis tasks and a preserved optional design-history form."
     },
     {
       "stage": "B",
@@ -1289,5 +1289,13 @@
     "analysis/project.json": "e75e3bce0e2993f7b9b9da46b958adad4c00a5cc6381b8d56068b48994d6e4e7",
     "analysis/build_support_pages.py": "c9038aa0200031d291430ffd7e44eae136d893a673728f267ebcff6982153b03",
     "scripts/prepare_public_site.py": "90014ab7b599129c7520a5e0c6f3a5ba82021e8091ae6ec2fe73b4b641ef3045"
-  }
+  },
+  "priority_history": [
+    {
+      "date": "2026-11-03",
+      "previous_basis": "Ian’s documented research/examination-first preference; the current user requested analysis and an active list, expressly withholding implementation.",
+      "change": "Reframed by explicit requester priorities; mockups are exploratory, not implementation approval."
+    }
+  ],
+  "mockup_options": "mockups/README.md"
 }

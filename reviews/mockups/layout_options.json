@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-03",
+  "status": "Three mockups for discussion; no production layout selected or implemented",
+  "audience_priority": [
+    "General public without Digital Fellows/GCDI/Graduate Center background",
+    "Current and former Digital Fellows, alumni and post authors"
+  ],
+  "additional_audiences": [
+    "Students seeking support and using services",
+    "Faculty, mentors and student-facing administrators",
+    "Administrators interested in university mission, identifiable outcomes and deliverables",
+    "Past/current/potential funders"
+  ],
+  "core_jobs": [
+    "Explain who the Digital Fellows are and situate the Graduate Center in CUNY",
+    "Make Tagging the Tower searchable and navigable",
+    "Keep random-post discovery prominent",
+    "Offer a machine-driven synthesis and interpretation grounded in the authors’ voices",
+    "Make data quality and interpretation reviewable by humans in both interface and code",
+    "Preserve design history in an optional but discoverable form"
+  ],
+  "evidence_boundaries": [
+    "No claim that the archive alone establishes program effectiveness or causal university outcomes",
+    "A selected 19-post interpretation is not a consensus or the complete 421-post archive",
+    "Differentiate guest/participant writing, article authorship and fellowship status at publication",
+    "Retain annotated back-end methods, source evidence, CRediT/GAIDeT and unresolved-credit disclosures"
+  ],
+  "options": [
+    {
+      "name": "Open library",
+      "organizing_principle": "Search and reading first; a visible invitation to the collective synthesis.",
+      "public_orientation": "A short explanation of CUNY, the Graduate Center and Digital Fellows before search.",
+      "discovery": "Prominent search and Surprise me together; results in the main column.",
+      "synthesis": "A supporting panel introduces the AI-assisted reading and a named source voice.",
+      "design_history": "A small footer disclosure with optional era previews.",
+      "strength": "Fast route into the archive for both newcomers and returning writers.",
+      "tradeoff": "The interpretive project receives less attention than search.",
+      "screenshot": "open-library.png"
+    },
+    {
+      "name": "Collective wisdom",
+      "organizing_principle": "Editorial synthesis first, with the authors’ voices adjacent and archive search in a sidebar.",
+      "public_orientation": "Institutional context precedes the interpretive headline; selection limits are near the claim.",
+      "discovery": "Sidebar search and Meet a random post remain available.",
+      "synthesis": "The main reading experience explicitly labels the AI interpretation and leads to its supporting source.",
+      "design_history": "An editorial interlude, rather than an ever-present appearance studio.",
+      "strength": "Communicates the project’s attempt to synthesize the authors’ collective wisdom.",
+      "tradeoff": "Can privilege the AI’s narrative over direct browsing; source names, passages and limits must remain prominent.",
+      "screenshot": "collective-wisdom.png"
+    },
+    {
+      "name": "Welcoming pathways",
+      "organizing_principle": "Introduce the people and institution, then offer three clear tasks: find, discover, interpret.",
+      "public_orientation": "A visible Who are the Digital Fellows? block and plain-language context assume no institutional knowledge.",
+      "discovery": "Separate search/browse and random-discovery actions; sample results directly below.",
+      "synthesis": "A parallel pathway gives the machine-assisted reading equal conceptual standing with archive discovery.",
+      "design_history": "A separate optional exhibit entered from the footer.",
+      "strength": "Strongest newcomer orientation and clearest explanation of what a visitor can do.",
+      "tradeoff": "Introduces an extra choice before the post list and needs a concise introduction to avoid recreating a long landing page.",
+      "screenshot": "welcoming-pathways.png"
+    }
+  ],
+  "sample": {
+    "posts": [
+      "19756",
+      "6755",
+      "23845",
+      "19765",
+      "20693",
+      "18595"
+    ],
+    "source": "Existing embedded reader-data in the unchanged analysis/index.html",
+    "search_scope": "Six saved example posts only; explicitly labelled in each mockup",
+    "source_authorship": "Five source-supported records and one declared-credit record; current canonical display names retained",
+    "random_rule": "Uniform draw among sample posts excluding the immediately previous random draw in that option",
+    "interpretive_example": "Maren Rothfritz, post 6755, an explicitly credited participant reflection; excerpt supports a proposed reading about future independence, not a program-wide outcome"
+  },
+  "reviewed_source_revision": "cb25afc5bd4e539929ed881adf0f2f11ce3bb46a",
+  "preview_fragment_sha256": "ffcaeb89c0f15abd93948e2dc51e4bc862faeea852cb566f24a2249a87bc8665",
+  "validation": {
+    "javascript_syntax": "node --check passed",
+    "markup": "Unique element IDs; three named variants; fragment under 1 MB; no network requests in prototype script",
+    "browser": "Default desktop browser, dark appearance; all three variants inspected and screenshots saved",
+    "sample_search": [
+      "Open library: linked data -> 2 of 6 matches",
+      "Collective wisdom: no such example -> 0 of 6 matches",
+      "Welcoming pathways: Maren -> 1 of 6 matches"
+    ],
+    "random": "Two consecutive Welcoming pathways random draws returned distinct saved post IDs; exclusion is also explicit in source",
+    "synthesis": "Interpretation panel opens with named Maren Rothfritz source and scope caveat",
+    "era_preview": "Welcoming pathways selector changes data-era to 2012 and back to 2026",
+    "console_errors": [],
+    "not_verified": [
+      "Narrow-screen/browser-specific behavior",
+      "Formal accessibility compliance",
+      "Actual user preferences or usability outcomes",
+      "Full-archive search or model fitting; these are sample interactions only",
+      "Long-term validity of external source URLs"
+    ],
+    "attribution_structure_tests": "4 credits tests and 8 process tests passed",
+    "production_preservation": "All 799 protected site/evidence file fingerprints unchanged"
+  },
+  "attribution": {
+    "human": "Ian G. Williams specified the audiences and their order, archive/search/random/synthesis priorities, human interpretability, data quality and preservation of design history, and requested three mockups without production implementation. No option preference or approval is inferred.",
+    "credit_roles": [
+      "Conceptualization",
+      "Methodology",
+      "Project administration"
+    ],
+    "ai": "OpenAI Codex developed the three alternatives, drafted illustrative interface copy, reused saved post credits/text, built local preview interactions, inspected browser results and recorded the proposal history. Exact underlying model/build is not recorded.",
+    "gaidet": [
+      "0000017",
+      "0000027",
+      "0000030",
+      "0000023",
+      "0000047"
+    ]
+  }
+}
