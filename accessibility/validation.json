@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "source_project_revision": "0257713",
+  "upstream_revision": "6e0740f04b2130af60bc57abe3401b91e460e70d",
+  "performed_by": "OpenAI Codex; exact model build not recorded",
+  "checks": {
+    "installed_skill_tests": "4 passed: unique discovery names, 39 pinned hashes/six categories, preserved duplicate, license and allowlist",
+    "attribution_tests": "4 passed",
+    "process_tests": "8 passed",
+    "source_rights_tests": "2 passed",
+    "offline_extracted_skill_tests": "4 passed in extracted bundle layout",
+    "public_package": "39 matching skill files plus original MIT notice; README attributed changelog matches source",
+    "offline_bundle": "39 skills plus original MIT notice; no unrelated local skills selected",
+    "coverage": "430 category records, 421 published; browser datasets verified",
+    "frozen_reference": "33 reference files unchanged; ten previously documented corrections match ledger; fitted models and word corpora unchanged",
+    "python_compilation": "Packaging and installation-test modules compile",
+    "whitespace": "git diff --check passed"
+  },
+  "not_performed": [
+    "Whole-site accessibility assessment",
+    "Browser or assistive-technology accessibility testing for this installation",
+    "Testing with actual disabled participants",
+    "Verification of every upstream quantitative claim or citation"
+  ],
+  "interpretation": "These checks verify installation, provenance and evidence preservation, not accessibility conformance or human approval."
+}

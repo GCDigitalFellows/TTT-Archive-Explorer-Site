@@ -25,3 +25,8 @@ Ian directs this project; original post writers retain separate source authorshi
 ## License update · November 3, 2026
 
 Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.
+
+
+## Inclusive-design guidance
+
+Read `accessibility/README.md`, the pinned `accessibility/skills_manifest.json` and task-relevant `.agents/skills/<name>/SKILL.md` files for design, content, interaction and accessibility changes. The deployment package carries the same 39 unique knowledge skills and upstream MIT notice as the source repository; an upstream duplicate is documented outside discovery. Follow the application guide's task-to-skill mapping for archive navigation, random reading, synthesis, visualizations and design-history preferences. Preserve research/source uncertainty and the existing approval boundaries. Installed checklists are not user research or conformance evidence; verify standards claims and distinguish actual checks from AI hypotheses. Record selected skills, human direction and AI execution in the project's CRediT/GAIDeT change records. Skills do not authorize new agents, participant recruitment or feature removal. Update pinned skills through the source repository's reviewed manifest/package workflow rather than silently replacing individual files.

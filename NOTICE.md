@@ -30,3 +30,8 @@ Notices identify exported evidence, not independent legal verification or a comp
 Dependencies (including NLTK and MALLET) and CRediT/GAIDeT resources retain their own licenses and notices; MIT here is no sublicense of those works. See their saved provenance and source links in the methods and attribution documentation. The People directory’s separately observed CC BY-NC-SA 4.0 notice does not establish the version of article-level export metadata.
 
 MIT reference: [Open Source Initiative](https://opensource.org/license/mit). Creative Commons guidance: [license overview](https://creativecommons.org/cc-licenses/). This notice describes project scope and observed evidence; unresolved source terms remain unresolved.
+
+
+## Inclusive-design skill guidance
+
+This project incorporates unchanged skill texts from [Owl-Listener/inclusive-design-skills](https://github.com/Owl-Listener/inclusive-design-skills/tree/6e0740f04b2130af60bc57abe3401b91e460e70d), commit `6e0740f04b2130af60bc57abe3401b91e460e70d` (retrieved November 3, 2026), under MIT. **Copyright (c) 2026 MC Dean.** The original permission and warranty notice is retained in `.agents/skills/LICENSE` and `accessibility/INCLUSIVE_DESIGN_LICENSE.txt` in the published package (`analysis/accessibility/INCLUSIVE_DESIGN_LICENSE.txt` in the source repository). The source-rights exceptions above remain in force. This is third-party source attribution, not a project CRediT role, human review or endorsement. See the inclusive-design integration guide and manifest for 39 enabled skills, one preserved upstream duplicate, exact file hashes and scope limitations.

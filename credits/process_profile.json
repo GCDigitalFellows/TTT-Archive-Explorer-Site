@@ -309,5 +309,16 @@
     ],
     "evidence": "Explicit requester instruction; see work-mit-and-source-rights and NOTICE.md.",
     "oversight": "License choice authorized; no independent human verification of the source-rights inventory recorded."
+  },
+  "inclusive_design_guidance": {
+    "date": "2026-11-03",
+    "requester": "Ian G. Williams",
+    "source": "https://github.com/Owl-Listener/inclusive-design-skills",
+    "revision": "6e0740f04b2130af60bc57abe3401b91e460e70d",
+    "manifest": "accessibility/skills_manifest.json",
+    "source_credit": "Upstream MIT copyright notice names MC Dean; not a documented project contributor or human reviewer. Production methods and contributor confirmation unknown.",
+    "delegation": "Codex inspected and installed guidance, identified an upstream duplicate, wrote project application instructions, preserved notices and checked installation/provenance. Exact model build not recorded.",
+    "scope": "39 unique project-local knowledge skills; no whole-site accessibility audit, new human study, source-author decision or model refit. Ian authorized incorporating the repository; no human validation of each recommendation recorded.",
+    "input_project_revision": "0257713"
   }
 }

@@ -1,0 +1,334 @@
+{
+  "repository": "https://github.com/Owl-Listener/inclusive-design-skills",
+  "revision": "6e0740f04b2130af60bc57abe3401b91e460e70d",
+  "retrieved_on": "2026-11-03",
+  "installation_scope": "Project-local .agents/skills, not account-wide",
+  "license": "MIT",
+  "copyright_notice": "Copyright (c) 2026 MC Dean",
+  "license_file": "INCLUSIVE_DESIGN_LICENSE.txt",
+  "license_sha256": "1400d572fb60897f7970a763fb73d1aa7804b71bad41bf6e45061de7b7a09ac1",
+  "installation": "Codex skill-installer helper, --method git, pinned --ref; direct download failed local certificate verification. No certificate checks were disabled.",
+  "selection": "39 unique knowledge skills enabled. The fortieth knowledge directory, adaptive-personalisation, duplicates contextual-help-design and is retained outside discovery. Eighteen workflow prompts omitted from automatic discovery to avoid generic command-name collisions; available at pinned upstream links.",
+  "quarantined_duplicate": {
+    "upstream_path": "cognitive-accessibility/skills/adaptive-personalisation/SKILL.md",
+    "preserved_path": "upstream_reference/adaptive-personalisation/SKILL.md",
+    "reason": "Frontmatter name and content duplicate contextual-help-design; not an independent personalisation skill.",
+    "sha256": "ca49b0b26c01d58dd80fa841cfcb42a55f431cbe3ea6459183bba9c44d6a4626"
+  },
+  "modifications": "None to the installed SKILL.md files. Project-specific application and qualifications are separate.",
+  "upstream_contribution": "MC Dean is named in the upstream copyright notice. This is third-party source attribution, not a project CRediT role or evidence of manual authorship, approval or participation.",
+  "skills": [
+    {
+      "name": "ability-spectrum-mapping",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/ability-spectrum-mapping/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/ability-spectrum-mapping/SKILL.md",
+      "sha256": "86bd8dbc2570182b3eae677645f0caf22175ebe12b4e4956b5d0df0583bc4089",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/ability-spectrum-mapping/SKILL.md"
+    },
+    {
+      "name": "accessibility-debt-tracking",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/accessibility-debt-tracking/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/accessibility-debt-tracking/SKILL.md",
+      "sha256": "b2b0915378418ebed0c5817c406b3710693304f54ed9b83cb732d7d51523dd2a",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/accessibility-debt-tracking/SKILL.md"
+    },
+    {
+      "name": "accessibility-testing-strategy",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/accessibility-testing-strategy/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/accessibility-testing-strategy/SKILL.md",
+      "sha256": "51f905302a674e2852006136bf5c0ee9acf27b50669fde2627128d664dfcb888",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/accessibility-testing-strategy/SKILL.md"
+    },
+    {
+      "name": "alt-text-design",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/alt-text-design/SKILL.md",
+      "upstream_path": "accessible-content/skills/alt-text-design/SKILL.md",
+      "sha256": "35ca6efa8fc611791fdad75d0d59a599963a8b952d66cfede11428f5c5e19988",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/alt-text-design/SKILL.md"
+    },
+    {
+      "name": "assistive-technology-scenarios",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/assistive-technology-scenarios/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/assistive-technology-scenarios/SKILL.md",
+      "sha256": "5cc55b0a67c9d84e715f469d634c3a97a3707b1ca227a6b028744e1b8eeb00b5",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/assistive-technology-scenarios/SKILL.md"
+    },
+    {
+      "name": "cognitive-load-assessment",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/cognitive-load-assessment/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/cognitive-load-assessment/SKILL.md",
+      "sha256": "666c74971ba790ec81bb86bdaee8362bed791423386021e90eb1d6fd1c9a56cb",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/cognitive-load-assessment/SKILL.md"
+    },
+    {
+      "name": "colour-independence",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/colour-independence/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/colour-independence/SKILL.md",
+      "sha256": "4a24e41dabfbcdd144514c3894fe14972822974cd799352adb2c0d85f01df6bd",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/colour-independence/SKILL.md"
+    },
+    {
+      "name": "compliance-mapping",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/compliance-mapping/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/compliance-mapping/SKILL.md",
+      "sha256": "91a30a1892396caba2aea3608ca97f7ec758a81ae79b75b7e46a979ee241320e",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/compliance-mapping/SKILL.md"
+    },
+    {
+      "name": "contextual-help-design",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/contextual-help-design/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/contextual-help-design/SKILL.md",
+      "sha256": "ca49b0b26c01d58dd80fa841cfcb42a55f431cbe3ea6459183bba9c44d6a4626",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/contextual-help-design/SKILL.md"
+    },
+    {
+      "name": "decision-documentation",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/decision-documentation/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/decision-documentation/SKILL.md",
+      "sha256": "25e6477fc17aa0021294e6fd0fb34b332b153e5294427187a4361f70da21f0e6",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/decision-documentation/SKILL.md"
+    },
+    {
+      "name": "disability-inclusive-personas",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/disability-inclusive-personas/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/disability-inclusive-personas/SKILL.md",
+      "sha256": "a72b8e124d83cdc7e848dccf077c31bc03049cfc72f8664ebe3ac8ab8dad5dd3",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/disability-inclusive-personas/SKILL.md"
+    },
+    {
+      "name": "edge-case-identification",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/edge-case-identification/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/edge-case-identification/SKILL.md",
+      "sha256": "cabbd42c2d758c0989c89a08c15ee3db6ac321692fb2b3be71890bb8da73fb66",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/edge-case-identification/SKILL.md"
+    },
+    {
+      "name": "error-prevention-recovery",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/error-prevention-recovery/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/error-prevention-recovery/SKILL.md",
+      "sha256": "34f51f51b2bad8b9ac76e23a66a05c82066bf0225abe951d7fa744797885dfa7",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/error-prevention-recovery/SKILL.md"
+    },
+    {
+      "name": "feedback-and-status",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/feedback-and-status/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/feedback-and-status/SKILL.md",
+      "sha256": "17264f4a3c64f3f92c22fe98d15f9ac2bcd3374b78e0d4b6c40bfe6c83ce193e",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/feedback-and-status/SKILL.md"
+    },
+    {
+      "name": "flexible-typography",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/flexible-typography/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/flexible-typography/SKILL.md",
+      "sha256": "60ed6308b9434bcb50cbe4c4bad17cb6efa8841b14dbbcfb52ba35bd630374fc",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/flexible-typography/SKILL.md"
+    },
+    {
+      "name": "focus-attention-design",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/focus-attention-design/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/focus-attention-design/SKILL.md",
+      "sha256": "604c83463a3bcdcd0609f4aa366d421122312d29574db3046672e00d8b955ad5",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/focus-attention-design/SKILL.md"
+    },
+    {
+      "name": "form-labelling",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/form-labelling/SKILL.md",
+      "upstream_path": "accessible-content/skills/form-labelling/SKILL.md",
+      "sha256": "480cc1c558281d75610e4a83821fc9d56c81a38195b1252f7b45fa0f84c3cee2",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/form-labelling/SKILL.md"
+    },
+    {
+      "name": "gesture-alternatives",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/gesture-alternatives/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/gesture-alternatives/SKILL.md",
+      "sha256": "a30ec9e35f143ffa6de5585b985c7683b1e1fc4116c23ff55dacf7ac01430c44",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/gesture-alternatives/SKILL.md"
+    },
+    {
+      "name": "heading-structure",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/heading-structure/SKILL.md",
+      "upstream_path": "accessible-content/skills/heading-structure/SKILL.md",
+      "sha256": "a26e74b21e910c382709c20fb1a9ab345fef4b2411302c8a3dd4c1dda5bbf75a",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/heading-structure/SKILL.md"
+    },
+    {
+      "name": "inclusive-user-stories",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/inclusive-user-stories/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/inclusive-user-stories/SKILL.md",
+      "sha256": "4fe49741c2e67b3a53f596549c423967edcb56f9966566b89242544753e573f7",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/inclusive-user-stories/SKILL.md"
+    },
+    {
+      "name": "information-density",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/information-density/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/information-density/SKILL.md",
+      "sha256": "31611ebe01db6af2d2673cdd587523dd149ee08c48f4f85ca19653a3539199f8",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/information-density/SKILL.md"
+    },
+    {
+      "name": "keyboard-navigation",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/keyboard-navigation/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/keyboard-navigation/SKILL.md",
+      "sha256": "44ad1cc578cf8ed3287c8dfea1cb91f1fe663480d41afa4b87272c8a28dbc240",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/keyboard-navigation/SKILL.md"
+    },
+    {
+      "name": "link-text-design",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/link-text-design/SKILL.md",
+      "upstream_path": "accessible-content/skills/link-text-design/SKILL.md",
+      "sha256": "93108888450e33a1ad09577af5f969c7319c33f8b23743cee26e1c9871ed2e6c",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/link-text-design/SKILL.md"
+    },
+    {
+      "name": "memory-load-reduction",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/memory-load-reduction/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/memory-load-reduction/SKILL.md",
+      "sha256": "9f44acc844d2cab57d77fa011a3e737b8f53e06aba2b315ed9154ac4ce29d5c3",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/memory-load-reduction/SKILL.md"
+    },
+    {
+      "name": "motion-sensitivity",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/motion-sensitivity/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/motion-sensitivity/SKILL.md",
+      "sha256": "5faddb723f51e31f2780320703ec67ba0eb555b633cbdbf3afc702d9df04c7b9",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/motion-sensitivity/SKILL.md"
+    },
+    {
+      "name": "multi-modal-input",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/multi-modal-input/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/multi-modal-input/SKILL.md",
+      "sha256": "f45997b13701e4d97857ab3768cdbf045ceabab0527959f04fa2d3481d754c1d",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/multi-modal-input/SKILL.md"
+    },
+    {
+      "name": "multimedia-accessibility",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/multimedia-accessibility/SKILL.md",
+      "upstream_path": "accessible-content/skills/multimedia-accessibility/SKILL.md",
+      "sha256": "5295d765bf62498bd9212bed33d366ae55999ef2fe8e55c8a74e062393d97ea2",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/multimedia-accessibility/SKILL.md"
+    },
+    {
+      "name": "plain-language-design",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/plain-language-design/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/plain-language-design/SKILL.md",
+      "sha256": "26564e0c388dcf83dbd0d271edb99dbabbd43d41349d080b190ed4bd94910acd",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/plain-language-design/SKILL.md"
+    },
+    {
+      "name": "readable-content",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/readable-content/SKILL.md",
+      "upstream_path": "accessible-content/skills/readable-content/SKILL.md",
+      "sha256": "36085347118a15fa4d5ff4d737a3d988e0a5ced8ca56d9069ef6daa226a33514",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/readable-content/SKILL.md"
+    },
+    {
+      "name": "responsive-accessibility",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/responsive-accessibility/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/responsive-accessibility/SKILL.md",
+      "sha256": "0c233392a42591100a3f85f068cc387a8347e5b7e228ceb646a5f9618892d025",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/responsive-accessibility/SKILL.md"
+    },
+    {
+      "name": "simplified-views",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/simplified-views/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/simplified-views/SKILL.md",
+      "sha256": "03b85a7a36f0fbec4c647e38a0c7627ae45949c2cd7898078705ff284dc6918a",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/simplified-views/SKILL.md"
+    },
+    {
+      "name": "situational-impairment-mapping",
+      "category": "inclusive-personas",
+      "installed_path": ".agents/skills/situational-impairment-mapping/SKILL.md",
+      "upstream_path": "inclusive-personas/skills/situational-impairment-mapping/SKILL.md",
+      "sha256": "fa84b042af487371a78ff15ce2ed6510b8197efd4f02d928250ed2ee87002857",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-personas/skills/situational-impairment-mapping/SKILL.md"
+    },
+    {
+      "name": "stakeholder-communication",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/stakeholder-communication/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/stakeholder-communication/SKILL.md",
+      "sha256": "6f1ba6498458571f59f792e1e5ae9c8f8b53f8f3ac85e001daec8db14c81e5a5",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/stakeholder-communication/SKILL.md"
+    },
+    {
+      "name": "table-accessibility",
+      "category": "accessible-content",
+      "installed_path": ".agents/skills/table-accessibility/SKILL.md",
+      "upstream_path": "accessible-content/skills/table-accessibility/SKILL.md",
+      "sha256": "d55634132bc8495c46f72103e518d57606ad36691a6cc476cf20f2e093b8274f",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessible-content/skills/table-accessibility/SKILL.md"
+    },
+    {
+      "name": "touch-target-design",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/touch-target-design/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/touch-target-design/SKILL.md",
+      "sha256": "bf0fb1e11ec621e766995fd5fd53ed4f64b1d593378467a0e8ac096964939335",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/touch-target-design/SKILL.md"
+    },
+    {
+      "name": "tradeoff-analysis",
+      "category": "accessibility-decisions",
+      "installed_path": ".agents/skills/tradeoff-analysis/SKILL.md",
+      "upstream_path": "accessibility-decisions/skills/tradeoff-analysis/SKILL.md",
+      "sha256": "3f5d035bf7b8b92660480c80208c6793aabc569a5eea149cb8774c2ff5d472f3",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/accessibility-decisions/skills/tradeoff-analysis/SKILL.md"
+    },
+    {
+      "name": "user-preference-respect",
+      "category": "adaptive-interfaces",
+      "installed_path": ".agents/skills/user-preference-respect/SKILL.md",
+      "upstream_path": "adaptive-interfaces/skills/user-preference-respect/SKILL.md",
+      "sha256": "003da44c4cd9ed6826657bf2651b7f8adb5961065cec1ed24d1984bd4dded452",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/adaptive-interfaces/skills/user-preference-respect/SKILL.md"
+    },
+    {
+      "name": "voice-interaction",
+      "category": "inclusive-interaction",
+      "installed_path": ".agents/skills/voice-interaction/SKILL.md",
+      "upstream_path": "inclusive-interaction/skills/voice-interaction/SKILL.md",
+      "sha256": "091bbbaed8dd0ca90a961e9caa78dd0a4da5b233dc2d976164b46f03e92a9a80",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/inclusive-interaction/skills/voice-interaction/SKILL.md"
+    },
+    {
+      "name": "wayfinding-navigation",
+      "category": "cognitive-accessibility",
+      "installed_path": ".agents/skills/wayfinding-navigation/SKILL.md",
+      "upstream_path": "cognitive-accessibility/skills/wayfinding-navigation/SKILL.md",
+      "sha256": "a58fb18487238841e93edee2f2548e5c94e710d7dcf76f1a1797a319725a8892",
+      "source_url": "https://github.com/Owl-Listener/inclusive-design-skills/blob/6e0740f04b2130af60bc57abe3401b91e460e70d/cognitive-accessibility/skills/wayfinding-navigation/SKILL.md"
+    }
+  ]
+}

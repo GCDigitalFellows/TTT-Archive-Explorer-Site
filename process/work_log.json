@@ -762,6 +762,37 @@
         "rights/test_rights.py"
       ],
       "limit": "MIT applies only to original project work to the extent project rights permit. The export gives no version for 276 by-nc-sa fields and no per-post license field for 154 records. Media notices have separate scope; contextual mentions do not establish permission. This is an evidence inventory, not verification of copyright ownership, completeness of external-site licenses or legal clearance. All implementation/checks are AI-run; human authorization is the license choice, not validation of every record. No new browser usability/accessibility audit was conducted for this documentation and rights-label change."
+    },
+    {
+      "id": "inclusive-design-skills-integration",
+      "date": "2026-11-03",
+      "status": "implemented and checked",
+      "task": "Incorporate version-pinned inclusive-design skills into project review and revision workflows",
+      "human": "Ian G. Williams requested incorporating skills from Owl-Listener/inclusive-design-skills and supplied its repository link. This establishes method direction and authorization to install the guidance, not human review of its recommendations or execution of the installation.",
+      "agent": "OpenAI Codex (exact model build not recorded) inspected upstream repository documentation and selected skill texts, installed the 40 knowledge directories with the Codex skill-installer helper at commit 6e0740f04b2130af60bc57abe3401b91e460e70d, identified a duplicate discovery name/content, retained that duplicate outside discovery and enabled 39 unique project-local skills. Codex preserved upstream MC Dean MIT notices, recorded per-file hashes, wrote project task-to-skill guidance and limits, updated agent instructions and attribution, and added a manifest allowlist to public/offline packaging. No whole-site review or UI redesign was performed. Input project revision: 0257713. Validation: four skill/provenance tests, four attribution tests, eight process tests and two source-rights tests passed; four skill tests also passed in an extracted offline bundle. Public-package hashes, license preservation and identical README changelogs passed. Complete 430-record/421-published coverage verification passed, as did the frozen-reference check (33 unchanged references and ten previously documented corrections). Python compilation and whitespace checks passed. See accessibility/validation.json for exact scope and unperformed checks.",
+      "credit_roles": [
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "accessibility/README.md",
+        "accessibility/skills_manifest.json",
+        "accessibility/INCLUSIVE_DESIGN_LICENSE.txt",
+        "accessibility/package_skills.py",
+        "accessibility/test_skills.py",
+        "credits/process_profile.json",
+        "accessibility/validation.json"
+      ],
+      "limit": "Installation is not accessibility conformance, disabled-user testing, a full audit of upstream citations or evidence that all recommendations apply. Upstream numeric heuristics/coverage percentages are not validated project measurements. MC Dean is named in the upstream copyright notice; production methods and project participation are unknown, and no human project role or endorsement is inferred. One duplicate and eighteen workflow prompts are excluded from automatic discovery. Existing simplification proposals, prototype scope, source authorship, cohorts, model fits and licensing boundaries remain unchanged."
     }
   ],
   "remaining": [
