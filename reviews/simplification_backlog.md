@@ -269,3 +269,5 @@ No new human usability testing, browser validation, performance benchmarking, mo
 ## Interactive Welcoming pathways follow-up
 
 Ian requested an interactive mock of Welcoming pathways. The [isolated prototype and checks](mockups/welcoming-pathways/README.md) cover real published-record navigation, random discovery, excerpts, saved analysis, source passages and optional design history. This authorizes prototype exploration only; the live site and all production SIM decisions remain unchanged.
+
+The interactive prototype now also has an **Analysis & networks** tab, requested by Ian: saved topic/year and title/tag-signal charts plus author/year and shared-byline credit networks, linked source records and full-name tables. This is a prototype extension; production SIM decisions remain pending.

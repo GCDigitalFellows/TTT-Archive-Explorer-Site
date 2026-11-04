@@ -4,10 +4,18 @@
   "essay_sources": 19,
   "interpretive_groups": 6,
   "design_presets": 15,
-  "bytes": 790569,
+  "bytes": 829902,
   "source_html_sha256": "4ef95e480e60c2ad01ff5463e05976b0feca3af47f46bf8c2f4fb59523fceadb",
-  "prototype_sha256": "f527bea546f412e6f672b55f2fb4b13e86dec7dda7a18ba675f3b2c56734990b",
+  "prototype_sha256": "840deb7c3087947bb438fb8580ced6876944080b5178f28ba1936d244dcf8045",
   "full_text_search": false,
   "new_model_fit": false,
-  "production_written": false
+  "production_written": false,
+  "analysis_local_posts": 325,
+  "network_credited_names": 71,
+  "analysis_views": [
+    "Topic-year means",
+    "Title/tag signal shares",
+    "Author-year network",
+    "Shared-byline network"
+  ]
 }

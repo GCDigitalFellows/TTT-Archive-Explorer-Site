@@ -700,6 +700,34 @@
         "reviews/mockups/welcoming-pathways/ui.js"
       ],
       "limit": "Prototype search covers saved titles, credits/aliases, tags and displayed excerpts, not complete original texts. Short reading copies omit multimedia. Existing source uncertainty and selected-example limits remain. Production replacement, human usability validation and formal accessibility approval are not established."
+    },
+    {
+      "id": "prototype-analysis-authorship-tab",
+      "date": "2026-11-03",
+      "status": "implemented and checked in isolated prototype; production site unchanged",
+      "task": "Add saved text-analysis visualizations and recorded-authorship networks to the prototype",
+      "human": "Ian requested one additional tab incorporating text-analysis visualizations and authorship networks, continuing the previously specified public-first and human-interpretable evidence priorities. This request applies to the interactive mock, not production replacement.",
+      "agent": "Codex generated pure analysis functions, independent reference fixtures and a prototype Analysis & networks tab with topic/year means, keyword/year shares, author/year graphs, shared-byline graphs and complete credit/pair tables. Codex linked chart/network selections to source records and their credit evidence, retained whole coauthored posts under name filtering, and checked population boundaries, saved-table agreement, empty cases, source-supported subsets, all-name coverage, reader returns and narrow-screen alternatives.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000026",
+        "0000027",
+        "0000023",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/README.md",
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/analysis_references.json",
+        "reviews/mockups/welcoming-pathways/validation.json"
+      ],
+      "limit": "Graphs describe recorded publication credits, not verified fellowship membership, productivity or inferred collaboration. Topic weights, keyword signals and selected essay themes are distinct. Default graphs limit drawn names but complete tables preserve all eligible names. All checks are agent-run; no new model fit, human usability study or live-site implementation occurred."
     }
   ],
   "remaining": [

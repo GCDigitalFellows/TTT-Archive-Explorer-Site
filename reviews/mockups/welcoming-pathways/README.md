@@ -44,3 +44,24 @@ The eight Node checks compare coverage, saved model profiles, credited-name/alia
 **AI — OpenAI Codex:** generated the isolated builder/interface, condensed the existing interpretation for display, joined saved evidence, implemented interactions and performed source, automated and browser checks. GAIDeT: Code generation (0000017), Process automation (0000019), Visualization (0000027), Text generation (0000030), Validation (0000023). Exact underlying model/build is not recorded. No additional agents or human usability participants were used.
 
 Original authors retain source-text credit; they are not automatically contributors to this prototype or endorsers of its interpretation. The project’s existing source rights and unassigned new-code/analysis license status remain in force.
+
+## Analysis & networks extension · November 3, 2026
+
+Ian requested one additional tab for text-analysis visualizations and authorship networks. The isolated prototype now includes **Analysis & networks**, with two focused displays:
+
+- **Text patterns:** equal-post mean weights for a selected saved MALLET topic across academic years (299 modeled posts before filters); and title/tag dictionary-signal shares with explicit numerators/denominators (325 published local/unflagged posts before filters). Missing denominators are unavailable, not zero. Keyword signals, statistical topics and the 19-post interpretive synthesis remain distinct.
+- **Authorship networks:** author–academic-year credit edges and a shared-byline network around one credited name. Each edge retains its source post IDs. Shared bylines are not inferred collaboration. Curated/source-linked records and drafts are excluded. A named-person filter retains whole coauthored posts and therefore their coauthors.
+
+Analysis filters (year, credited name, evidence tier) are separate from archive search. The source-supported subset has 50 local posts and 35 modeled posts. The complete local-credit network contains 71 names. Graphs initially limit display to 12 names/partners by recorded credits; the All option expands the graph, while complete tables always retain every eligible name and all 72 unfiltered shared-byline pairs. Narrow layouts use these tables instead of squeezing the graph. Any displayed name, year, edge, pair or chart year can lead to the recorded source posts and their byline evidence.
+
+`analysis_core.js` contains pure population, topic/year, keyword/year and credit-network calculations. `analysis_ui.js` renders the one new tab using those calculations; it does not modify the source records. `analysis_references.json` contains independent expected results: original Python/MALLET annual CSV values, saved dictionary-count CSVs, and a Python calculation of deduplicated current author/year and shared-byline counts.
+
+Run the original and new checks together:
+
+```sh
+node --test analysis/reviews/mockups/welcoming-pathways/test_core.js analysis/reviews/mockups/welcoming-pathways/test_analysis.js
+```
+
+All 16 prototype checks pass. Eight new checks protect populations, every unfiltered topic/year mean and keyword/year count, independent network counts, duplicate-name handling, no-data versus zero cases, and immutability under filtering. Browser checks covered chart-to-post-to-analysis navigation, the source-supported subset, all 71 names in the complete table/graph, shared-byline edges, sparse/empty subsets and 360px reflow. No new model fitting or production-page build occurred. Visual and browser checks are agent-run, not human usability research or formal accessibility certification.
+
+**Attribution:** Ian supplied the request and the continuing public-first/evidence requirements (CRediT: Conceptualization, Project administration). Codex generated the tab and calculation/display code, re-aggregated saved data, prepared independent references, checked results and documented limitations (GAIDeT: Code generation 0000017; Process automation 0000019; Data analysis 0000026; Visualization 0000027; Validation 0000023; Text generation 0000030). Exact model/build is unrecorded. Original authors retain source-text credit and are not presumed to endorse this analysis.

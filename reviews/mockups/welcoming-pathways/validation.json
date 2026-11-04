@@ -41,5 +41,30 @@
     "Excerpt-based search and reading, not full original text",
     "No new NLP cleaning, inference or model fitting",
     "Discussion prototype only; not an approval to replace the live site"
-  ]
+  ],
+  "analysis_extension": {
+    "date": "2026-11-03",
+    "prototype_node_checks_passed": 16,
+    "new_checks": 8,
+    "independent_references": "Frozen topic/year CSV; saved title/tag dictionary counts; independent Python credit/pair counters",
+    "populations": {
+      "local": 325,
+      "modeled": 299,
+      "credited_names": 71,
+      "shared_byline_pairs": 72,
+      "source_supported_local": 50,
+      "source_supported_modeled": 35
+    },
+    "browser_checks": [
+      "Topic-year click -> 35 ranked 2012\u20132013 source posts; post reader returns to analysis",
+      "Source-supported filter -> 50 local / 35 modeled records",
+      "All graph names and table -> 71 names",
+      "Shared-byline edge -> actual shared source post",
+      "Maren Rothfritz + 2012\u20132013 -> zero eligible records and unavailable mean",
+      "Keyword observed-zero selection -> zero matching source posts with denominator retained",
+      "360px viewport: text charts and complete network table reflow without horizontal overflow; viewport reset"
+    ],
+    "browser_console_errors": [],
+    "limits": "Default desktop dark appearance and targeted 360px checks; not human user research, formal accessibility certification or a new NLP fit."
+  }
 }

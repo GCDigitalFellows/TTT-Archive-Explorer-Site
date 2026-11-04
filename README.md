@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Add saved text-analysis visualizations and recorded-authorship networks to the prototype
+
+- **Human — Ian G. Williams:** Ian requested one additional tab incorporating text-analysis visualizations and authorship networks, continuing the previously specified public-first and human-interpretable evidence priorities. This request applies to the interactive mock, not production replacement.
+- **AI:** Codex generated pure analysis functions, independent reference fixtures and a prototype Analysis & networks tab with topic/year means, keyword/year shares, author/year graphs, shared-byline graphs and complete credit/pair tables. Codex linked chart/network selections to source records and their credit evidence, retained whole coauthored posts under name filtering, and checked population boundaries, saved-table agreement, empty cases, source-supported subsets, all-name coverage, reader returns and narrow-screen alternatives.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-prototype-analysis-authorship-tab). Graphs describe recorded publication credits, not verified fellowship membership, productivity or inferred collaboration. Topic weights, keyword signals and selected essay themes are distinct. Default graphs limit drawn names but complete tables preserve all eligible names. All checks are agent-run; no new model fit, human usability study or live-site implementation occurred.
+
 ### 2026-11-03 — Build an interactive Welcoming pathways discussion prototype
 
 - **Human — Ian G. Williams:** Ian selected the Welcoming pathways direction for an interactive mock, continuing the public-first audience priorities, prominent search/random discovery, source-grounded synthesis, human-readable methods and optional design history. This authorizes a prototype, not production replacement.
