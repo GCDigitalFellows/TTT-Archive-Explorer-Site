@@ -95,7 +95,7 @@
       appearance.preset.name +
       " · " +
       (choices.strength === 0 ? "reader view" : choices.strength + "% styling") +
-      ". Analysis selections are unchanged.";
+      ". Applied across every explorer view. Analysis selections are unchanged.";
     renderEvidence(appearance.preset);
     if (remember) {
       // A bookmark carries appearance only. It does not leak a selected writer

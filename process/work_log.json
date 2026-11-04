@@ -50,6 +50,18 @@
       "review": "inclusive_design_review_2026-11-03.md",
       "source_project_revision": "994c8eadb3aadada4c4ed61e25e1419c39adf34d",
       "deployment_revision": "fa14d07517627fc43c74fd4cff117adad8f1743d"
+    },
+    "network_framing_appearance": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "approved": {
+        "network": "Offer toggles for all years/names or a selected year/person, independently combined with all recorded credits or source-supported credits. Preserve visible uncertainty and denominators.",
+        "synthesis": "Use the more tentative title What the archive suggests, retaining the 19-selected-post and AI-assistance qualifications.",
+        "design_history": "Apply the selected design era across the whole explorer application, including navigation and reading. Preserve data, route identifiers and accessibility overrides.",
+        "human_evaluation": "Human-review availability is limited; scheduling, support and scope TBD. No new evaluation session or participants established."
+      },
+      "limits": "Network filters reaggregate saved publication credits; they do not verify authorship, fellowship appointments, productivity or collaboration. Whole-application appearance means internal explorer views, not external original posts or separately opened reference documents. No institutional endorsement or comprehensive human validation is inferred.",
+      "remaining": "Human evaluation arrangements; separate approval still required to replace the production layout with the five-destination preview."
     }
   },
   "events": [
@@ -842,6 +854,35 @@
         "reviews/reading_revision_validation_2026-11-04.json"
       ],
       "limit": "Full text means the saved plain-text reading copy, not images, embeds, original formatting or every live-site revision. Phrase matching ignores punctuation/case/accents and requires adjacent whole words within one field or paragraph; it is not semantic search. No new authorship decisions, NLTK/MALLET fit, participant study or blanket approval of the prototype-to-production port is implied. The standalone full-text preview exceeds the former inline conversation size budget; earlier inline previews remain historical."
+    },
+    {
+      "id": "network-framing-whole-appearance",
+      "date": "2026-11-04",
+      "status": "implemented and checked",
+      "task": "Add network scope/evidence toggles, tentative synthesis framing and whole-explorer appearance",
+      "human": "Ian G. Williams requested toggles among all years/names, selected year/person and source-supported credit views; approved more tentative synthesis framing and design eras across the whole application; reported limited human reviewers with evaluation support and scheduling TBD. This is direction and design/content approval, not evidence of a new participant or screen-reader test.",
+      "agent": "OpenAI Codex (exact model build not recorded) applied the installed user-preference-respect and decision-documentation guidance; added independent scope/evidence switches to both interfaces by mirroring existing saved-data filters; renamed the visible synthesis to What the archive suggests while preserving route identifiers and source passages; clarified whole-explorer era application and added reduced-motion/forced-colour safeguards. Codex recorded limited human-evaluation availability, updated project and interpretation attribution, and checked both interfaces. Thirty-two Node checks, eight process checks and four attribution checks passed. Coverage and frozen-reference checks passed. Browser checks combined scope/evidence choices (325 -> 50 -> one post and back), verified the tentative heading and global 2022 appearance across views, and found no page overflow at 320px in the production controls. A direct network jump bypasses the result list. Selected toggles have underlined/outlined states as well as programmatic pressed states. Actual OS preference modes and human assistive-technology sessions remain untested.",
+      "credit_roles": [
+        "Methodology",
+        "Project administration",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/network_framing_decisions_2026-11-04.json",
+        "interactive/post_index.js",
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "archive_reading/build_page.py",
+        "design/year_styles.css",
+        "reviews/network_framing_validation_2026-11-04.json"
+      ],
+      "limit": "Filters count saved publication credits, with uncertainty retained; no new authorship decision, appointment inference, semantic coding or MALLET/NLTK fit. Whole-application styling retains route/data behavior but is an interpretation of eras, not exact historical reconstruction. Limited human reviewers are anticipated; new accessibility sessions, identities, dates and findings are not recorded. The standalone prototype remains separate from the production layout."
     }
   ],
   "remaining": [

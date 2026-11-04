@@ -6,6 +6,7 @@
 function createPathwaysAnalysis({root,data,posts,openPost,announce}){
   const id=name=>root.querySelector('#'+name);
   const math=PathwaysAnalysis;
+  let selectionOpen=false;
   const byPost=new Map(posts.map(p=>[p.id,p]));
   const years=[...new Set(posts.filter(p=>p.kind==='local/unflagged').map(p=>p.year))].sort();
   const state={year:'all',author:'all',supported:false,tab:'texts',topic:1,signal:data.keywordNames[0],mode:'years',limit:'12',detailIds:[],detailLabel:'',postLimit:6};
@@ -90,6 +91,13 @@ function createPathwaysAnalysis({root,data,posts,openPost,announce}){
   }
   function render(){
     const pool=selected();
+    const choosing=selectionOpen||state.year!=='all'||state.author!=='all';
+    id('wp-net-selection').hidden=!choosing;
+    id('wp-net-year').value=state.year;id('wp-net-author').value=state.author;
+    id('wp-net-all').setAttribute('aria-pressed',String(!choosing));
+    id('wp-net-choose').setAttribute('aria-pressed',String(choosing));
+    id('wp-net-credits-all').setAttribute('aria-pressed',String(!state.supported));
+    id('wp-net-credits-supported').setAttribute('aria-pressed',String(state.supported));
     id('wp-a-year').value=state.year;id('wp-a-author').value=state.author;id('wp-a-evidence').value=state.supported?'supported':'all';
     id('wp-a-texts').hidden=state.tab!=='texts';id('wp-a-networks').hidden=state.tab!=='networks';
     for(const b of root.querySelectorAll('[data-analysis-view]'))b.setAttribute('aria-pressed',String(b.dataset.analysisView===state.tab));
@@ -103,11 +111,19 @@ function createPathwaysAnalysis({root,data,posts,openPost,announce}){
   for(const b of root.querySelectorAll('[data-analysis-view]'))b.addEventListener('click',()=>{state.tab=b.dataset.analysisView;clearDetails();render();});
   for(const [name,key]of[['wp-a-year','year'],['wp-a-author','author']])id(name).addEventListener('change',event=>{state[key]=event.target.value;clearDetails();render();});
   id('wp-a-evidence').addEventListener('change',event=>{state.supported=event.target.value==='supported';clearDetails();render();});
-  id('wp-a-clear').addEventListener('click',()=>{state.year='all';state.author='all';state.supported=false;clearDetails();render();});
+  id('wp-a-clear').addEventListener('click',()=>{state.year='all';state.author='all';state.supported=false;selectionOpen=false;clearDetails();render();});
   id('wp-a-topic').addEventListener('change',event=>{state.topic=Number(event.target.value);clearDetails();render();});
   id('wp-a-signal').addEventListener('change',event=>{state.signal=event.target.value;clearDetails();render();});
   id('wp-a-network-mode').addEventListener('change',event=>{state.mode=event.target.value;clearDetails();render();});
   id('wp-a-network-limit').addEventListener('change',event=>{state.limit=event.target.value;render();});
+  // Mirror the analysis filters so year/person and evidence can be combined.
+  // No arbitrary person/year is selected on the reader's behalf.
+  options(id('wp-net-year'),[['all','All academic years'],...years.map(y=>[y,y])]);
+  options(id('wp-net-author'),[['all','All credited names'],...math.authorTotals(math.population(posts)).map(r=>r.author).sort((a,b)=>a.localeCompare(b)).map(a=>[a,a])]);
+  id('wp-net-all').addEventListener('click',()=>{state.year='all';state.author='all';selectionOpen=false;clearDetails();render();});
+  id('wp-net-choose').addEventListener('click',()=>{selectionOpen=true;render();id('wp-net-year').focus();});
+  for(const [name,key]of[['wp-net-year','year'],['wp-net-author','author']])id(name).addEventListener('change',event=>{state[key]=event.target.value;clearDetails();render();});
+  for(const [name,supported]of[['wp-net-credits-all',false],['wp-net-credits-supported',true]])id(name).addEventListener('click',()=>{state.supported=supported;clearDetails();render();});
   id('wp-a-more').addEventListener('click',()=>{state.postLimit+=6;renderDetails();});
   if(globalThis.ResizeObserver){const observer=new ResizeObserver(()=>{if(!root.querySelector('[data-view="analysis"]').hidden&&state.tab==='networks')renderNetwork(selected());});observer.observe(id('wp-a-network'));}
   return{render};

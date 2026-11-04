@@ -551,3 +551,6 @@ footer {
 
 /* Keep repeated navigation bypassable without adding permanent visual clutter. */
 .skip-content{position:absolute;left:-10000px}.skip-content:focus{position:static;display:inline-block;padding:10px}
+
+/* Scope/evidence switches have non-colour selected cues and can reflow. */
+.network-switches{min-inline-size:0;min-width:0;padding:14px;margin-block:14px}.network-switches select{width:100%;max-width:100%;min-width:0}.network-switches button[aria-pressed="true"]{outline:2px solid currentColor;outline-offset:2px;text-decoration:underline}

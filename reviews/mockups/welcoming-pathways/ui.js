@@ -49,7 +49,7 @@
     if(view==='browse')renderBrowse();
     if(view==='wisdom')renderWisdom();
     if(view==='analysis')analysisView.render();
-    announce(view==='read'?'Post excerpt opened':view==='browse'?'Browse published posts':view==='wisdom'?'Collective wisdom and source passages':view==='analysis'?'Text analysis and authorship networks':view==='about'?'People, methods and attribution':view==='design'?'Optional design-history exhibit':'Welcome to the archive');
+    announce(view==='read'?'Post excerpt opened':view==='browse'?'Browse published posts':view==='wisdom'?'What the archive suggests and source passages':view==='analysis'?'Text analysis and authorship networks':view==='about'?'People, methods and attribution':view==='design'?'Optional design-history exhibit':'Welcome to the archive');
     const heading=root.querySelector('[data-view="'+view+'"] h1');
     root.querySelectorAll('#wp-active-heading').forEach(n=>n.removeAttribute('id'));
     if(heading){heading.id='wp-active-heading';heading.tabIndex=-1;if(remember)heading.focus();}
@@ -110,7 +110,7 @@
     reader.append(element('div','Shortened plain-text excerpt. The original may contain more text, images, embeds and formatting.','small'),link('Read the complete original post ↗',post.url));
     reader.append(savedAnalysis(post));container.append(reader);
     byId('wp-another-random').hidden=!randomScope;
-    byId('wp-read-back').textContent=state.readOrigin==='analysis'?'← Back to analysis':state.readOrigin==='wisdom'?'← Back to collective wisdom':state.readOrigin==='home'?'← Back to the welcome page':'← Back to results';
+    byId('wp-read-back').textContent=state.readOrigin==='analysis'?'← Back to analysis':state.readOrigin==='wisdom'?'← Back to what the archive suggests':state.readOrigin==='home'?'← Back to the welcome page':'← Back to results';
     navigate('read');
   }
   function savedAnalysis(post){
@@ -154,6 +154,7 @@
   function contrast(first,second){const a=luminance(first),b=luminance(second);return (Math.max(a,b)+.05)/(Math.min(a,b)+.05);}
   function renderEra(){
     const preset=data.design.presets.find(p=>p.year===Number(state.era))||data.design.presets[data.design.presets.length-1];
+    root.dataset.designYear=String(preset.year); // One root treatment for every internal view.
     const p=preset.palette;
     const readableAction=contrast(p.series,p.paper)>=4.5?p.series:p.ink;
     root.style.setProperty('--on-action','light-dark('+(luminance(readableAction)>.179?'#000000':'#ffffff')+',#193929)');
@@ -161,7 +162,7 @@
     for(const [token,light,dark] of [['paper',p.paper,'#1b2420'],['ink',p.ink,'#e6eee8'],['muted',p.quiet,'#b8cabe'],['line',p.rule,'#4a6153'],['wash',p.surface,'#2c3e33'],['action',readableAction,'#b7dbc5']])root.style.setProperty('--'+token,'light-dark('+light+','+dark+')');
     root.style.setProperty('--heading',['sans-light','sans','display','rounded'].includes(preset.typography)?'system-ui,sans-serif':preset.typography==='monospace'?'monospace':'Georgia,serif');
     root.style.setProperty('--round',Math.min(preset.controlRadius,16)+'px');
-    byId('wp-design-year').value=String(preset.year);byId('wp-era-status').textContent='Appearance: '+preset.year;
+    byId('wp-design-year').value=String(preset.year);byId('wp-era-status').textContent='Whole explorer appearance: '+preset.year;
     byId('wp-era-kind').textContent=preset.evidenceLabel;byId('wp-era-name').textContent=preset.year+' · '+preset.name;byId('wp-era-description').textContent=preset.description;byId('wp-era-caveat').textContent=preset.caveat;
     byId('wp-era-sources').replaceChildren(...preset.sources.map(id=>{const source=data.design.sources.find(s=>s.id===id);return source?link(source.title+' · '+source.publisher,source.url):element('p','Source record unavailable.');}));
   }

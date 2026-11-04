@@ -2,7 +2,7 @@
 
 **Status: original proposals retained; limited actions approved November 4, 2026.** The dated observations below remain the original review snapshot.
 
-Ian approved both full-text search modes, excerpt/full reading and published-only public browsing with a draft-metadata accounting route. Related fixes put results before a collapsed network and improve focus/rights access. This partially addresses SIM-04, SIM-05, SIM-06 and SIM-08 without approving all their proposed changes. Network defaults, synthesis framing, design-history scope and human evaluation remain open. [Approval record](approved_reading_revision_2026-11-04.json).
+Ian approved both full-text search modes, excerpt/full reading and published-only public browsing with a draft-metadata accounting route. Related fixes put results before a collapsed network and improve focus/rights access. This partially addresses SIM-04, SIM-05, SIM-06 and SIM-08 without approving all their proposed changes. Those four questions were open at the partial approval; the subsequent November 4 decision below resolves the design choices, while human evaluation arrangements remain TBD. [Approval record](approved_reading_revision_2026-11-04.json).
 
 The strongest candidates are optional styling, the number of primary routes, duplicate explanations and competing controls. The research evidence and accountability functions remain essential. **Updated audience direction:** general public first, Fellows/alumni second. Search and random discovery are core tasks, the machine-assisted synthesis remains visible, and design history is preserved in some form. [Compare three mockup directions](mockups/README.md). Most recommendations reduce prominence or duplication rather than remove the original capability or evidence. Several candidates were expressly requested earlier, so their value depends on the project’s current priorities.
 
@@ -273,3 +273,8 @@ No new human usability testing, browser validation, performance benchmarking, mo
 Ian requested an interactive mock of Welcoming pathways. The [isolated prototype and checks](mockups/welcoming-pathways/README.md) cover real published-record navigation, random discovery, excerpts, saved analysis, source passages and optional design history. This authorizes prototype exploration only; the live site and all production SIM decisions remain unchanged.
 
 The interactive prototype now also has an **Analysis & networks** tab, requested by Ian: saved topic/year and title/tag-signal charts plus author/year and shared-byline credit networks, linked source records and full-name tables. This is a prototype extension; production SIM decisions remain pending.
+
+
+## Further decisions · November 4, 2026
+
+Ian selected network toggles, tentative synthesis framing and whole-explorer restyling. The optional-exhibit-only recommendation in SIM-01 was not selected; retain the optional source explanation but apply the chosen era globally. Human reviewer availability is limited, with arrangements TBD. See [the decision record](network_framing_decisions_2026-11-04.json). No blanket approval of the remaining backlog or production layout replacement is inferred.

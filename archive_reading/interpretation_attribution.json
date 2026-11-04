@@ -163,5 +163,11 @@
       "url": "https://github.com/panbibliotekar/gaidet-declaration",
       "use": "Framework authorship and source provenance; no generator code copied"
     }
-  ]
+  ],
+  "framing_revision": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams approved the tentative framing What the archive suggests.",
+    "agent": "Codex changed the visible heading and lead framing; the six groups, 19 source passages and byline evidence remain unchanged.",
+    "limit": "Approval of framing is not passage-by-passage verification or consensus of source authors. Human evaluation resources remain limited/TBD."
+  }
 }

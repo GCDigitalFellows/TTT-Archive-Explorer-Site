@@ -328,5 +328,23 @@
     "agent_scope": "Codex implementation, saved-text propagation, interface checks and documentation; exact model build not recorded.",
     "evidence": "reviews/approved_reading_revision_2026-11-04.json",
     "oversight": "Three choices explicitly approved; four open decisions retained. No human testing or approval of each implementation detail recorded."
+  },
+  "network_framing_appearance": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "decisions": {
+      "network": "Offer toggles for all years/names or a selected year/person, independently combined with all recorded credits or source-supported credits. Preserve visible uncertainty and denominators.",
+      "synthesis": "Use the more tentative title What the archive suggests, retaining the 19-selected-post and AI-assistance qualifications.",
+      "design_history": "Apply the selected design era across the whole explorer application, including navigation and reading. Preserve data, route identifiers and accessibility overrides.",
+      "human_evaluation": "Human-review availability is limited; scheduling, support and scope TBD. No new evaluation session or participants established."
+    },
+    "credit_roles": [
+      "Methodology",
+      "Project administration",
+      "Writing – review & editing"
+    ],
+    "agent": "Codex implementation, documentation and checks; model/build unknown/not recorded",
+    "human_oversight": "Design/content choices explicitly supplied; no new human accessibility session inferred.",
+    "evidence": "reviews/network_framing_decisions_2026-11-04.json"
   }
 }

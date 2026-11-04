@@ -11,6 +11,7 @@
     ready = false,
     limit = 50,
     selection = [];
+  let networkSelectionOpen = false;
   function node(tag, text = "", className = "") {
     const n = document.createElement(tag);
     n.textContent = text;
@@ -387,11 +388,20 @@
     mount.append(graph);
   }
   function render() {
+    const selecting = networkSelectionOpen || byId("index-year").value !== "all" || byId("index-author").value !== "all";
+    byId("network-selection").hidden = !selecting;
+    byId("network-year").value = byId("index-year").value;
+    byId("network-author").value = byId("index-author").value;
+    byId("network-all").setAttribute("aria-pressed", String(!selecting));
+    byId("network-choose").setAttribute("aria-pressed", String(selecting));
+    byId("network-credits-all").setAttribute("aria-pressed", String(byId("index-evidence").value === "all"));
+    byId("network-credits-supported").setAttribute("aria-pressed", String(byId("index-evidence").value === "supported"));
     selection = math.filterIndexPosts(posts, model, choices());
     renderResults();
     renderNetwork();
   }
   function reset() {
+    networkSelectionOpen = false;
     byId("index-search").value = "";
     for (const id of [
       "index-year",
@@ -514,6 +524,21 @@
       byId("index-search").addEventListener("input", () => {
         limit = 50;
         render();
+      });
+      // Populate the mirrored controls from the same reviewed names/years.
+      for (const [target, source] of [["network-year", "index-year"], ["network-author", "index-author"]])
+        options(target, [...byId(source).options].map(option => [option.value, option.textContent]));
+      byId("network-all").addEventListener("click", () => {
+        networkSelectionOpen = false; byId("index-year").value = "all"; byId("index-author").value = "all"; limit = 50; render();
+      });
+      byId("network-choose").addEventListener("click", () => { networkSelectionOpen = true; render(); byId("network-year").focus(); });
+      for (const [target, source] of [["network-year", "index-year"], ["network-author", "index-author"]])
+        byId(target).addEventListener("change", () => { byId(source).value = byId(target).value; limit = 50; render(); });
+      for (const [target, value] of [["network-credits-all", "all"], ["network-credits-supported", "supported"]])
+        byId(target).addEventListener("click", () => { byId("index-evidence").value = value; limit = 50; render(); });
+      byId("network-jump").addEventListener("click", () => {
+        document.querySelector(".index-network").open = true;
+        const heading = byId("network-controls-heading"); heading.tabIndex = -1; heading.focus(); heading.scrollIntoView({block:"start"});
       });
       byId("network-limit").addEventListener("change", renderNetwork);
       byId("index-reset").addEventListener("click", reset);

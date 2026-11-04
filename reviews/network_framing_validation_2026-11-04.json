@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "performed_by": "OpenAI Codex; exact model build not recorded",
+  "source_revision": "063ecdb",
+  "checks": {
+    "automated": "32 Node checks passed across index/navigation, appearance calculations and both prototype suites; eight process and four attribution checks passed",
+    "coverage": "430 category records, 421 published and nine drafts; browser datasets verified",
+    "preservation": "33 reference files unchanged; ten prior corrections match ledger; fitted models/word corpora unchanged",
+    "draft_network": "All -> 325 local posts/299 modeled/71 names; supported -> 50 local/35 modeled/48 names; supported + Maren Rothfritz + 2022\u201323 -> one post; All years/names preserves evidence choice; restoring All credits returns 325",
+    "production_network": "Supported -> 50 distinct local posts, zero account-only; selected Maren Rothfritz/2022\u201323 -> one author-year edge; restore All credits -> 325 local posts, 249 account-only",
+    "framing": "What the archive suggests is present in navigation and synthesis; 19 selected examples and AI-assisted qualifiers retained",
+    "whole_appearance": "2022 preset persists through prototype browse, synthesis and welcome; production index and synthesis retain 2022 with 421 published records and no population change",
+    "narrow_layout": "320px production network controls: document width equals viewport, no page overflow; direct network route focuses its heading"
+  },
+  "limits": [
+    "No new human reviewer session, participant evidence or screen-reader test recorded",
+    "OS reduced-motion and forced-colour modes were not interactively emulated; overrides added, not certified",
+    "No full WCAG audit or every-era/viewport usability test",
+    "No new authorship, membership or model inference"
+  ],
+  "human_evaluation": "Limited reviewer availability reported by Ian; scheduling and support TBD."
+}

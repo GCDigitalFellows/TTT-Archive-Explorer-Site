@@ -5,7 +5,7 @@ This is an isolated prototype of the direction Ian selected for further explorat
 ## What works
 
 - A public-first welcome explaining the Graduate Center/CUNY context and Digital Fellows without assuming institutional knowledge.
-- Navigation among Start here, Browse posts, Collective wisdom and People & methods, with an optional design-history exhibit.
+- Navigation among Start here, Browse posts, What the archive suggests and People & methods, with an optional design-history exhibit.
 - All **421 published records**, including **96 curated/source-linked** records; search across titles, credited names/known aliases, tags and complete saved plain-text reading copies. **All words** matches whole words in any order; **Exact phrase** matches adjacent words within one indexed field or paragraph. Both normalize case, accents and punctuation. Original formatting, images and embeds are not searched.
 - Academic-year and exact credited-name filters, optional type/evidence filters, visible result scope, reset, pagination and empty-state handling.
 - Uniform random discovery from the complete published archive or the current search result set; the previous random draw is excluded when another record is eligible.
@@ -81,3 +81,10 @@ Open `index.html` in this directory for the current standalone preview. Full tex
 Search submission and post opening focus a visible heading/summary; returning from a result restores its activating button. A skip route bypasses repeated navigation. Source-license evidence links to the current rights ledger, with missing or unversioned terms explicit. Public draft metadata remains separate from reader bodies.
 
 Network defaults, synthesis framing, design-history scope and human evaluation remain open decisions. The current production interface receives bounded reading/search improvements; this prototype does not replace the live layout.
+
+
+## Network, framing and appearance decisions · November 4, 2026
+
+Ian approved independent network scope/evidence toggles, the tentative synthesis label **What the archive suggests**, and design-year styling across all internal explorer views. Network choices expose all years/names or a chosen year/person, combined with all recorded or source-supported credits; existing uncertainty, coauthored-post inclusion and saved model weights remain explicit. Main-site network choices retain other active post filters. The selected era restyles navigation, analysis and reading without changing the content or academic-year scope; motion/system-colour safeguards and reset remain available. Separately opened reference documents and original external posts are not part of that appearance setting.
+
+Human evaluation arrangements remain TBD, with limited reviewer availability reported by Ian. No new screen-reader session or participant study is claimed. These choices supersede the four open design questions in the earlier partial approval; human evaluation logistics and production replacement of the five-route preview still require separate decisions.

@@ -44,7 +44,7 @@
       <nav class="view-nav" aria-label="Project routes">
         <div class="nav-group"><span>Read</span>
           <button type="button" data-view="overview" aria-pressed="true">Overview</button>
-          <button type="button" data-view="reading" aria-pressed="false">The story</button>
+          <button type="button" data-view="reading" aria-pressed="false">What the archive suggests</button>
           <button type="button" data-view="random" aria-pressed="false">Read a post</button>
         </div>
         <div class="nav-group"><span>Explore</span>
@@ -376,14 +376,15 @@
         </p>
         <p class="secondary">Theme signals are saved title/category/tag dictionary matches, not MALLET topics or validated semantic codes. Theme groups overlap. The Themes &amp; connections view compares other evidence layers.</p>
         </details>
-        <p id="index-scope" role="status" aria-live="polite"></p>
+        <p id="index-scope" role="status" aria-live="polite"></p><button type="button" id="network-jump">Explore authors/year network</button>
         <div id="index-results"></div>
         <button type="button" id="index-more">
           Show 50 more matching posts
         </button>
 
         <details class="index-network">
-          <summary>Explore authors and academic years</summary>
+          <summary>Explore authors and academic years</summary><h3 id="network-controls-heading">Network scope and evidence</h3><fieldset class="network-switches"><legend>Network scope</legend><p>These switches use the current post filters. All years and names clears only year/name choices. Selecting a person retains whole coauthored posts, so coauthors may remain visible.</p><button type="button" id="network-all" aria-pressed="true">All years and names</button> <button type="button" id="network-choose" aria-pressed="false">Select year / person</button><div id="network-selection" hidden><label>Network academic year<select id="network-year"></select></label><label>Network credited name<select id="network-author"></select></label><p>Choose either or both; All leaves that dimension unrestricted.</p></div></fieldset>
+<fieldset class="network-switches"><legend>Credit evidence in this network</legend><button type="button" id="network-credits-all" aria-pressed="true">All recorded credits</button> <button type="button" id="network-credits-supported" aria-pressed="false">Source-supported credits only</button><p>Source-supported means checked source evidence, not personal confirmation. Switching changes the population; unresolved credits remain available through All recorded credits. Neither view establishes fellowship membership or productivity.</p></fieldset>
           <p>
             Edges count published local posts crediting an author in an academic
             year, within the current index filters. This is a publication
