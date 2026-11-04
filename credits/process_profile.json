@@ -346,5 +346,13 @@
     "agent": "Codex implementation, documentation and checks; model/build unknown/not recorded",
     "human_oversight": "Design/content choices explicitly supplied; no new human accessibility session inferred.",
     "evidence": "reviews/network_framing_decisions_2026-11-04.json"
+  },
+  "word_views": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested word clouds, year scope, top-five sunburst and methods; Conceptualization and Project administration. No human calculation/test execution inferred.",
+    "agent_scope": "Codex code, saved-token aggregation, visualization, explanation and checks; model/build unknown/not recorded.",
+    "evidence": "reviews/mockups/welcoming-pathways/word_methods.md",
+    "oversight": "Requested implementation; comprehensive human verification, screen-reader and participant review not established."
   }
 }

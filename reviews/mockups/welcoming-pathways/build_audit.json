@@ -4,19 +4,24 @@
   "essay_sources": 19,
   "interpretive_groups": 6,
   "design_presets": 15,
-  "bytes": 2800924,
-  "source_html_sha256": "a13e1a0c80725c247a9917adf360f1312131c9e19bd0c2eab1dcfaabcc8f41da",
-  "prototype_sha256": "4d2447c42e4b94f252e0dae862d1330d18cb114bf1ea00e8c7b8ce33c3ca7cbf",
+  "bytes": 2976684,
+  "source_html_sha256": "0beea2c30d25d5088f03babb94cf3a02724839c1ffd10d9b4a1e2e520ac2eff6",
+  "prototype_sha256": "b575c1cd6da9e0afc6c28e2350fcfef1ba1864725f6dee537e3aa88d917289c5",
   "full_text_search": true,
   "new_model_fit": false,
   "production_written": false,
   "delivery": "Standalone full-text preview; not an inline conversation fragment",
   "analysis_local_posts": 325,
   "network_credited_names": 71,
+  "word_corpus_posts": 299,
+  "word_corpus_tokens": 137094,
+  "word_years": 15,
   "analysis_views": [
     "Topic-year means",
     "Title/tag signal shares",
     "Author-year network",
-    "Shared-byline network"
+    "Shared-byline network",
+    "Word clouds",
+    "Top-five annual sunburst"
   ]
 }

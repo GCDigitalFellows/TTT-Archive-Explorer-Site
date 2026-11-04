@@ -883,6 +883,34 @@
         "reviews/network_framing_validation_2026-11-04.json"
       ],
       "limit": "Filters count saved publication credits, with uncertainty retained; no new authorship decision, appointment inference, semantic coding or MALLET/NLTK fit. Whole-application styling retains route/data behavior but is an interpretation of eras, not exact historical reconstruction. Limited human reviewers are anticipated; new accessibility sessions, identities, dates and findings are not recorded. The standalone prototype remains separate from the production layout."
+    },
+    {
+      "id": "word-clouds-annual-sunburst",
+      "date": "2026-11-04",
+      "status": "implemented and checked",
+      "task": "Add corpus/year word clouds and top-five annual sunburst to Welcoming pathways draft",
+      "human": "Ian G. Williams requested a visualization subtab with toggleable entire-corpus and academic-year word clouds, a sunburst of the five leading words per year, and analysis/method explanations. This is direction, not evidence of human execution or verification.",
+      "agent": "OpenAI Codex (exact model/build not recorded) read and applied colour-independence and table-accessibility skills; implemented and annotated build-time sums of the preserved NLTK-cleaned corpus, native scope/display controls, responsive cloud, source-linked SVG sunburst and exact tables; drafted methods and limitations. Four independent Python word-count tests and 18 existing prototype Node tests passed. Browser checks verified corpus/year counts, source selection, keyboard activation, 75 sunburst leaves, 360px reflow and no observed console errors. Python counts saved tokens; neither NLTK cleaning nor MALLET fitting was rerun. Eight process and four credit-structure checks also passed, as did coverage propagation and frozen-reference verification (33 reference files unchanged; ten previously documented corrections retained).",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000026",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/build_prototype.py",
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/test_words.py",
+        "reviews/mockups/welcoming-pathways/word_methods.md",
+        "reviews/mockups/welcoming-pathways/word_validation.json"
+      ],
+      "limit": "Entire corpus means all 299 saved analyzed posts, not all 421 published archive records. Raw token frequency weights longer posts; sunburst angles count only each year’s top-five words; 2026–2027 is partial. Other author/evidence filters do not apply to this independent word scope. No new source-author decisions, topic fit, human user study, screen-reader session or production layout replacement. Source index temporarily inaccessible; a separate temporary index compared working files to HEAD and left the shared index intact."
     }
   ],
   "remaining": [

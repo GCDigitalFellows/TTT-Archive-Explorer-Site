@@ -89,6 +89,7 @@ function createPathwaysAnalysis({root,data,posts,openPost,announce}){
       graphNodes(focus?[{key:focus,label:focus,ids:pool.filter(p=>p.authors.includes(focus)).map(p=>p.id)}]:[],right,connections.map((p,i)=>({left:focus,right:right[i].key,count:p.count,ids:p.ids,label:focus+' / '+right[i].label+' · '+p.count+' shared recorded posts'})),'Shared-byline network around '+(focus||'no selected author')+'; not inferred collaboration');
     }
   }
+  const wordViews=createPathwaysWords({root,data,showPosts,clearDetails,announce});
   function render(){
     const pool=selected();
     const choosing=selectionOpen||state.year!=='all'||state.author!=='all';
@@ -99,10 +100,11 @@ function createPathwaysAnalysis({root,data,posts,openPost,announce}){
     id('wp-net-credits-all').setAttribute('aria-pressed',String(!state.supported));
     id('wp-net-credits-supported').setAttribute('aria-pressed',String(state.supported));
     id('wp-a-year').value=state.year;id('wp-a-author').value=state.author;id('wp-a-evidence').value=state.supported?'supported':'all';
+    id('wp-a-words').hidden=state.tab!=='words';id('wp-standard-analysis-filters').hidden=state.tab==='words';id('wp-a-scope').hidden=state.tab==='words';
     id('wp-a-texts').hidden=state.tab!=='texts';id('wp-a-networks').hidden=state.tab!=='networks';
     for(const b of root.querySelectorAll('[data-analysis-view]'))b.setAttribute('aria-pressed',String(b.dataset.analysisView===state.tab));
     id('wp-a-scope').textContent=pool.length+' eligible local posts · '+pool.filter(p=>p.weights).length+' modeled posts · '+math.authorTotals(pool).length+' credited names · '+pool.filter(p=>p.tier==='unresolved-account').length+' account-only credits. These filters are independent of archive search. Choosing a name retains entire coauthored posts; publication credits do not establish membership.';
-    if(state.tab==='texts')renderText(pool);else renderNetwork(pool);
+    if(state.tab==='words')wordViews.render();else if(state.tab==='texts')renderText(pool);else renderNetwork(pool);
   }
   options(id('wp-a-year'),[['all','All academic years'],...years.map(y=>[y,y])]);
   options(id('wp-a-author'),[['all','All credited names'],...math.authorTotals(math.population(posts)).map(r=>r.author).sort((a,b)=>a.localeCompare(b)).map(a=>[a,a])]);

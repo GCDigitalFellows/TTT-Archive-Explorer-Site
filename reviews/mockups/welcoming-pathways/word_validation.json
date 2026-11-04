@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "input_source_revision": "9d438e2",
+  "input_public_revision": "2284357",
+  "scope": "Welcoming pathways draft only; production layout retained",
+  "automated": {
+    "word_aggregate_tests": 4,
+    "existing_prototype_node_tests": 18,
+    "counts": {
+      "posts": 299,
+      "tokens": 137094,
+      "unique_forms": 10988,
+      "academic_years": 15,
+      "sunburst_leaves": 75,
+      "sunburst_top_five_total": 6572
+    },
+    "process_tests": 8,
+    "credit_tests": 4,
+    "coverage_verified": true,
+    "frozen_reference_check": "33 unchanged, ten existing ledger corrections match"
+  },
+  "browser": [
+    "Whole corpus shows 299 posts, 137094 tokens and 10988 forms",
+    "2025\u20132026 shows 22 posts and 10953 tokens; ai 201 occurrences in 11 posts",
+    "All-year sunburst exposes 75 named source controls",
+    "Keyboard Enter on annual ai sector lists 11 contributing posts",
+    "Cloud and sunburst have no page overflow at 360px",
+    "No browser console errors observed"
+  ],
+  "skills_used": [
+    "colour-independence",
+    "table-accessibility"
+  ],
+  "limits": [
+    "No human participant or screen-reader session",
+    "No new NLTK run or MALLET fit",
+    "Counts describe the saved 299-post analyzed subset, not all 421 published records",
+    "OS forced-colour mode not exercised; text/table alternatives preserved"
+  ]
+}
