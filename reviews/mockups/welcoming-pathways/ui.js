@@ -49,6 +49,7 @@
     if(view==='browse')renderBrowse();
     if(view==='wisdom')renderWisdom();
     if(view==='analysis')analysisView.render();
+    if(view==='about')peopleView.render();
     announce(view==='read'?'Post excerpt opened':view==='browse'?'Browse published posts':view==='wisdom'?'What the archive suggests and source passages':view==='analysis'?'Text analysis and authorship networks':view==='about'?'People, methods and attribution':view==='design'?'Optional design-history exhibit':'Welcome to the archive');
     const heading=root.querySelector('[data-view="'+view+'"] h1');
     root.querySelectorAll('#wp-active-heading').forEach(n=>n.removeAttribute('id'));
@@ -85,6 +86,7 @@
   function resetFilters(){state.query='';state.searchMode='words';state.year='all';state.author='all';state.kind='all';state.supported=false;state.limit=12;renderBrowse();}
   function openPost(post,randomScope,returnTarget){
     state.returnPostId=returnTarget?post.id:null;
+    state.returnControlId=returnTarget?.id||null; // Restore the actual originating control, including People evidence.
     if(state.view!=='read')state.readOrigin=state.view;
     const container=byId('wp-read');container.replaceChildren();container.dataset.postId=post.id;
     const reader=element('article',undefined,'reading');
@@ -110,7 +112,7 @@
     reader.append(element('div','Shortened plain-text excerpt. The original may contain more text, images, embeds and formatting.','small'),link('Read the complete original post ↗',post.url));
     reader.append(savedAnalysis(post));container.append(reader);
     byId('wp-another-random').hidden=!randomScope;
-    byId('wp-read-back').textContent=state.readOrigin==='analysis'?'← Back to analysis':state.readOrigin==='wisdom'?'← Back to what the archive suggests':state.readOrigin==='home'?'← Back to the welcome page':'← Back to results';
+    byId('wp-read-back').textContent=state.readOrigin==='analysis'?'← Back to analysis':state.readOrigin==='wisdom'?'← Back to what the archive suggests':state.readOrigin==='home'?'← Back to the welcome page':state.readOrigin==='about'?'← Back to the people':'← Back to results';
     navigate('read');
   }
   function savedAnalysis(post){
@@ -166,6 +168,7 @@
     byId('wp-era-kind').textContent=preset.evidenceLabel;byId('wp-era-name').textContent=preset.year+' · '+preset.name;byId('wp-era-description').textContent=preset.description;byId('wp-era-caveat').textContent=preset.caveat;
     byId('wp-era-sources').replaceChildren(...preset.sources.map(id=>{const source=data.design.sources.find(s=>s.id===id);return source?link(source.title+' · '+source.publisher,source.url):element('p','Source record unavailable.');}));
   }
+  const peopleView=createPathwaysPeople({root,data,openPost,announce});
   const analysisView=createPathwaysAnalysis({root,data,posts,openPost,announce});
   // Initialize named choices from the actual included records, preserving all names.
   options(byId('wp-year'),[['all','All academic years'],...[...new Set(posts.map(p=>p.year))].sort().reverse().map(y=>[y,y])]);
@@ -190,7 +193,7 @@
   byId('wp-search-mode').addEventListener('change',event=>{state.searchMode=event.target.value;state.limit=12;renderBrowse();});
   byId('wp-clear').addEventListener('click',resetFilters);
   byId('wp-more').addEventListener('click',()=>{state.limit+=12;renderBrowse();});
-  byId('wp-read-back').addEventListener('click',()=>{navigate(state.readOrigin);const target=state.returnPostId?byId('wp-post-'+state.returnPostId):null;if(target){target.focus();target.scrollIntoView({block:'center'});}});
+  byId('wp-read-back').addEventListener('click',()=>{navigate(state.readOrigin);const target=state.returnControlId?byId(state.returnControlId):state.returnPostId?byId('wp-post-'+state.returnPostId):null;if(target){target.focus();target.scrollIntoView({block:'center'});}});
   byId('wp-another-random').addEventListener('click',()=>randomPost((state.randomPool||[]).map(id=>byPost.get(id)).filter(Boolean)));
   byId('wp-design-year').addEventListener('change',event=>{state.era=Number(event.target.value);renderEra();savePresentation();});
   byId('wp-design-reset').addEventListener('click',()=>{state.era=2026;renderEra();savePresentation();});

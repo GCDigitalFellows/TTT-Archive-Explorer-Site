@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "version": "1.0",
+  "source_input_revision": "e9c6cd9",
+  "public_input_revision": "530f6bf",
+  "scope": "People & methods in Welcoming pathways discussion draft; production layout retained",
+  "automated": {
+    "people_tests": 5,
+    "prior_python_word_tests": 13,
+    "prior_node_prototype_tests": 18,
+    "coverage": "430 category records, 421 published, nine drafts; browser views verified",
+    "preservation": "33 references unchanged; ten existing source corrections retained; corpus/models unchanged",
+    "process_tests": 8,
+    "credit_tests": 4,
+    "total_tests": 48
+  },
+  "observed_default": {
+    "local_named_writers": 52,
+    "documented_digital_writers": 31,
+    "dated_digital_writers": 28,
+    "current_only_digital_writers": 3,
+    "broader_fellow_writers": 35,
+    "academic_labels": 20,
+    "affiliation_covered_people": 36,
+    "unknown_affiliation_people": 16,
+    "all_archive_named_writers": 144,
+    "account_only_names_excluded": 13
+  },
+  "browser": [
+    "Home Meet the people button opens the revised route and default count cards",
+    "All-published scope yields 144 names, 36 documented Digital Fellow writers, 23 academic labels for 42 people and 41 broader Fellow writers",
+    "Checked-only yields 48 names, 28 documented Digital Fellow writers, 18 academic labels for 33 names and 32 broader Fellow writers",
+    "Selected-writer roster control yields 26 dated Digital Fellow names under checked-only scope; all-role view yields 29 distinct recorded people",
+    "Annual/matrix source actions show names and literal claim evidence and focus the evidence heading",
+    "McMichael person evidence opens Linked Data Part 1 and returns via Back to the people, restoring wp-person-post-19756 focus",
+    "At 360px document and scroll widths both 360; matrix has 320px viewport with 1187px local scroll content",
+    "No browser console errors observed in tested paths"
+  ],
+  "skills_used": [
+    "colour-independence",
+    "table-accessibility",
+    "plain-language-design"
+  ],
+  "limits": [
+    "No independent human writer/affiliation census, participant or screen-reader session",
+    "Current-team snapshot is undated; never assigned to 2026\u20132027 historical cells",
+    "Cosmetic display mappings are disclosed implementation choices; no new identity merge",
+    "Academic labels include mixed levels and institutions; not a complete formal-program census"
+  ]
+}
