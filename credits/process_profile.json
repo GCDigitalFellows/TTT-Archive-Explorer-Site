@@ -299,5 +299,15 @@
     "inspection_limit": "The review document itself reports manifest/directory inspection rather than individual HTML/CSV/JSON prose. This describes its stated evidence base, not the full capabilities of the model or CAIL sandbox.",
     "task_boundary": "External model: supplied five-persona structural/heuristic critique. Codex and two Codex sub-agents: separate source-based simulations, synthesis, verification and implementation. Neither activity constitutes human user testing."
   },
-  "project_name": "Tagging The Tower Archives Explorer"
+  "project_name": "Tagging The Tower Archives Explorer",
+  "license_decision": {
+    "date": "2026-11-03",
+    "human": "Ian G. Williams",
+    "decision": "MIT for original project code, documentation and analysis, subject to project rights and separate source rights.",
+    "credit_roles": [
+      "Project administration"
+    ],
+    "evidence": "Explicit requester instruction; see work-mit-and-source-rights and NOTICE.md.",
+    "oversight": "License choice authorized; no independent human verification of the source-rights inventory recorded."
+  }
 }

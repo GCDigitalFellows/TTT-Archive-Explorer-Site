@@ -65,3 +65,8 @@ node --test analysis/reviews/mockups/welcoming-pathways/test_core.js analysis/re
 All 16 prototype checks pass. Eight new checks protect populations, every unfiltered topic/year mean and keyword/year count, independent network counts, duplicate-name handling, no-data versus zero cases, and immutability under filtering. Browser checks covered chart-to-post-to-analysis navigation, the source-supported subset, all 71 names in the complete table/graph, shared-byline edges, sparse/empty subsets and 360px reflow. No new model fitting or production-page build occurred. Visual and browser checks are agent-run, not human usability research or formal accessibility certification.
 
 **Attribution:** Ian supplied the request and the continuing public-first/evidence requirements (CRediT: Conceptualization, Project administration). Codex generated the tab and calculation/display code, re-aggregated saved data, prepared independent references, checked results and documented limitations (GAIDeT: Code generation 0000017; Process automation 0000019; Data analysis 0000026; Visualization 0000027; Validation 0000023; Text generation 0000030). Exact model/build is unrecorded. Original authors retain source-text credit and are not presumed to endorse this analysis.
+
+
+## License update · November 3, 2026
+
+Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.

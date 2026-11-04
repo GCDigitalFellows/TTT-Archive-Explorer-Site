@@ -90,6 +90,11 @@
       node("p", "Review disposition: " + post.authorshipTier + " · Credit basis: " + post.creditStatus, "secondary"),
       node("p", "Original credit: " + (post.originalAuthors || post.authors).join("; "), "secondary"),
     );
+    const rights = node("p", "Source rights: " + post.sourceLicense + ". MIT applies to original project work, not this source text. ", "secondary");
+    const rightsLink = node("a", "License evidence and notices");
+    rightsLink.href = "SOURCE_RIGHTS.html#post-" + encodeURIComponent(post.id);
+    rights.append(rightsLink);
+    article.append(rights);
     if (post.creditQuote) {
       const evidence = node("details");
       evidence.append(

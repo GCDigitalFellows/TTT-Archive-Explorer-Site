@@ -20,3 +20,8 @@ Ian directs this project; original post writers retain separate source authorshi
 - Coordinate the matching source work-log fields (`human`, `agent`, `credit_roles`, `gaidet`, `evidence`, `limit`) and project/scoped disclosures with the source maintainer. The public README changelog must reflect the same human/AI attribution. Preserve historical statements as historical; do not backdate later verification. If source access is unavailable, supply the proposed attribution and evidence as a handoff and state that synchronization is pending.
 - For examples from the saved taxonomy: Code generation `0000017`, Validation `0000023`, Text generation `0000030`, Proofreading and editing `0000031`, Summarizing text `0000032`, Quality assessment `0000044`, Identification of limitations `0000046`, Recommendations `0000047`. Choose by actual work, not by convenience; do not label all drafting as summarization or claim unperformed checks.
 - When source checks are available, run the relevant `analysis/credits` and `analysis/process` tests and inspect the substantive attribution. Report only checks actually performed. Published profile access does not imply access to the private source or contributor confirmation. See the [contribution disclosure](CREDITS_AND_PROCESS.html) and [work log](WORK_LOG.html).
+
+
+## License update · November 3, 2026
+
+Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.

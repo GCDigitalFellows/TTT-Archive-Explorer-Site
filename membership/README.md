@@ -43,3 +43,8 @@ The independent [2012 GC announcement](https://www.gc.cuny.edu/news/digital-gc-e
 Ian supplied the directory, academic-calendar interpretation and two identity confirmations (CRediT: Data curation, Investigation and Methodology). Codex performed extraction, crosswalk documentation, matching, calculations, visualization, software changes and validation; these are agent-assisted tasks, not human-executed work. The project-wide CRediT/GAIDeT disclosure and work log record this extension. No complete human verification of the directory or archive authorship is claimed.
 
 The source page displays CC BY-NC-SA 4.0; its rights remain separate from the newly created code and analysis, whose licenses await Ian's specification.
+
+
+## License update · November 3, 2026
+
+Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.

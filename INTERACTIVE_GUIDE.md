@@ -224,3 +224,8 @@ Ten additional records have corrected names after checking author fields, full-b
 ## Complete export and authorship accounting
 
 The comprehensive ledger accounts for every export item and every category article. Named article references add four writer corrections and strengthen five existing credits. All 421 published records have a documented evidence disposition: 52 source-supported, 120 declared-only and 249 unresolved account credits. “Source-supported” describes checked evidence; it does not claim personal author confirmation or independent human verification. The browser offers source-supported subsets for the index/network, themes, topic summaries and word counts. Population changes must accompany any comparison. See [complete archive coverage](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/ARCHIVE_COVERAGE.html).
+
+
+## License update · November 3, 2026
+
+Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.

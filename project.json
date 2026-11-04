@@ -15,7 +15,7 @@
     "email": "ian.williams52@gc.cuny.edu"
   },
   "source_publication": "Tagging the Tower",
-  "rights_status": "New code and analysis licenses await Ian's specification; original source works retain separate rights.",
+  "rights_status": "MIT for original project code, documentation and analysis to the extent project rights permit; original source works retain separate rights. See LICENSE, NOTICE.md and SOURCE_RIGHTS.html.",
   "website": {
     "url": "https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/",
     "visibility": "public",
@@ -23,5 +23,6 @@
     "status": "GitHub Pages initial build succeeded; public HTTP verification recorded separately",
     "source_repository_visibility": "private"
   },
-  "release": "2026-11-02-complete-coverage"
+  "release": "2026-11-02-complete-coverage",
+  "license": "MIT"
 }

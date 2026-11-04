@@ -16,13 +16,13 @@
   "earlier_motif_population": 307,
   "published_credit_dispositions": {
     "declared-credit": 120,
-    "unresolved-account": 249,
-    "source-supported": 52
+    "source-supported": 52,
+    "unresolved-account": 249
   },
   "local_credit_dispositions": {
-    "declared-credit": 26,
+    "source-supported": 50,
     "unresolved-account": 249,
-    "source-supported": 50
+    "declared-credit": 26
   },
   "all_credit_dispositions": {
     "unresolved-account": 255,

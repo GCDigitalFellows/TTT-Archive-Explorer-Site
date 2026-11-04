@@ -12,7 +12,7 @@
   "decisions": {
     "priority": "Public audience first, followed by Fellows and alumni",
     "event_mode": "Deferred; not required for this research-first release",
-    "license": "Awaiting requester-specified licenses for newly created code and analysis; no license assigned by the agent",
+    "license": "MIT for original project code, documentation and analysis to the extent project rights permit; source posts, media and third-party resources retain separate terms.",
     "institutional_relationship": "Endorsement/official status not established; do not imply it",
     "priority_history": [
       {
@@ -23,6 +23,12 @@
         "date": "2026-11-03",
         "priority": "Public audience first, followed by Fellows and alumni",
         "basis": "Explicit requester instruction during the three-mockup planning task; production revision still awaits approval."
+      }
+    ],
+    "license_history": [
+      {
+        "status": "Awaiting requester-specified licenses for newly created code and analysis; no license assigned by the agent",
+        "superseded": "2026-11-03: explicit MIT instruction from Ian G. Williams"
       }
     ]
   },
@@ -728,12 +734,40 @@
         "reviews/mockups/welcoming-pathways/validation.json"
       ],
       "limit": "Graphs describe recorded publication credits, not verified fellowship membership, productivity or inferred collaboration. Topic weights, keyword signals and selected essay themes are distinct. Default graphs limit drawn names but complete tables preserve all eligible names. All checks are agent-run; no new model fit, human usability study or live-site implementation occurred."
+    },
+    {
+      "id": "mit-and-source-rights",
+      "date": "2026-11-03",
+      "status": "implemented and checked; license and source-rights disclosures prepared for source and public repositories",
+      "task": "Apply MIT to original project work and acknowledge exported Creative Commons source notices",
+      "human": "Ian G. Williams explicitly selected MIT and required acknowledgment of all CC licenses identified in the original Tagging The Tower source data. Ian provided the source export earlier. No human execution of the audit or independent legal verification is recorded.",
+      "agent": "OpenAI Codex (exact model build not recorded) inspected the original XML, extracted per-post metadata and contextual media notices, generated a 430-record rights ledger, added standard MIT text with separate source exceptions, updated reader and reuse disclosures and distribution packaging. Checks are recorded below after execution. No NLTK/MALLET fit or authorship inference was performed. Validation: 2 rights tests, 4 attribution tests, 8 process tests and 19 numerical/index/navigation JavaScript checks passed. Complete coverage verification passed for 430 records and 421 published posts. Frozen-reference verification passed: 33 reference files unchanged, 10 previously documented corrections matched; models and word corpora unchanged. JavaScript syntax and Python compilation checks passed. Public packaging was reviewed against the deployment checkout; only licensing-related files were selected, preserving unpublished prototype scope.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "LICENSE",
+        "NOTICE.md",
+        "rights/build_rights.py",
+        "rights/source_rights.json",
+        "SOURCE_RIGHTS.html",
+        "rights/test_rights.py"
+      ],
+      "limit": "MIT applies only to original project work to the extent project rights permit. The export gives no version for 276 by-nc-sa fields and no per-post license field for 154 records. Media notices have separate scope; contextual mentions do not establish permission. This is an evidence inventory, not verification of copyright ownership, completeness of external-site licenses or legal clearance. All implementation/checks are AI-run; human authorization is the license choice, not validation of every record. No new browser usability/accessibility audit was conducted for this documentation and rights-label change."
     }
   ],
   "remaining": [
     {
       "task": "Assign licenses for new code and analysis",
-      "status": "awaiting requester choice"
+      "status": "Resolved 2026-11-03: Ian selected MIT; source works retain separate rights."
     },
     {
       "task": "Verify institutional relationship, historical editorial policy and missing appointment records",

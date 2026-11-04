@@ -2,7 +2,7 @@
 
 Published website files. This is a project demonstration and a work in progress.
 
-The project source and research work history are maintained separately in the private GCDigitalFellows/TTT-Archive-Explorer repository. Browser code and published data here are public. Original posts retain separate rights; no new blanket license is assigned.
+The project source and research work history are maintained separately in the private GCDigitalFellows/TTT-Archive-Explorer repository. Browser code and published data here are public. Original project code, documentation and analysis are [MIT-licensed](LICENSE), to the extent project rights permit. Original posts and media retain separate terms; see [Creative Commons acknowledgments and license scope](NOTICE.md) and [source rights](SOURCE_RIGHTS.html). MIT does not override those terms.
 
 ## AI-use disclosure
 
@@ -22,6 +22,12 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 Every project update must be recorded here with separate **Human** and **AI** attribution. Entries are grouped by task, rather than treating every generated file or deployment commit as a separate contribution. Update the task ledger and regenerate this section in the same change; the public website README carries the same changelog. This requirement is also recorded in `AGENTS.md`.
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
+
+### 2026-11-03 — Apply MIT to original project work and acknowledge exported Creative Commons source notices
+
+- **Human — Ian G. Williams:** Ian G. Williams explicitly selected MIT and required acknowledgment of all CC licenses identified in the original Tagging The Tower source data. Ian provided the source export earlier. No human execution of the audit or independent legal verification is recorded.
+- **AI:** OpenAI Codex (exact model build not recorded) inspected the original XML, extracted per-post metadata and contextual media notices, generated a 430-record rights ledger, added standard MIT text with separate source exceptions, updated reader and reuse disclosures and distribution packaging. Checks are recorded below after execution. No NLTK/MALLET fit or authorship inference was performed. Validation: 2 rights tests, 4 attribution tests, 8 process tests and 19 numerical/index/navigation JavaScript checks passed. Complete coverage verification passed for 430 records and 421 published posts. Frozen-reference verification passed: 33 reference files unchanged, 10 previously documented corrections matched; models and word corpora unchanged. JavaScript syntax and Python compilation checks passed. Public packaging was reviewed against the deployment checkout; only licensing-related files were selected, preserving unpublished prototype scope.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-mit-and-source-rights). MIT applies only to original project work to the extent project rights permit. The export gives no version for 276 by-nc-sa fields and no per-post license field for 154 records. Media notices have separate scope; contextual mentions do not establish permission. This is an evidence inventory, not verification of copyright ownership, completeness of external-site licenses or legal clearance. All implementation/checks are AI-run; human authorization is the license choice, not validation of every record. No new browser usability/accessibility audit was conducted for this documentation and rights-label change.
 
 ### 2026-11-03 — Add saved text-analysis visualizations and recorded-authorship networks to the prototype
 
