@@ -940,6 +940,34 @@
         "reviews/mockups/welcoming-pathways/hierarchy_validation.json"
       ],
       "limit": "New phrase and distinctiveness calculations are versioned descriptive extensions on the existing 299-post subset, not new NLTK cleaning, MALLET fitting, consensus coding or evidence about all 421 posts. Different units/denominators and leading-five rescaling remain explicit. Distinctive rankings are sensitive to the two-versus-three containing-post threshold; 2026–2027 has only three modeled posts and is partial. No human participant/screen-reader validation or complete robustness analysis; exact model/build unknown. Production layout remains separate. Original shared source index remains untouched; temporary index used to inspect and stage only task changes."
+    },
+    {
+      "id": "year-exclusive-vocabulary-companion",
+      "date": "2026-11-04",
+      "status": "implemented and checked",
+      "task": "Add a year-exclusive vocabulary comparison attached to the sunburst",
+      "human": "Ian G. Williams requested a graph from each year’s unique words, preferably an additional ring or attached graphic. The request supplies the analytical aim and integration preference; the operational definition and chart design below are AI implementation choices, not independent human confirmation of the counts.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) applied colour-independence and table-accessibility guidance. Implemented annotated set-of-years calculations on all saved cleaned forms in the existing 299-post population; identified 5,731 year-exclusive forms, comprising 5,490 single-post and 241 multi-post forms. Added an attached stacked-bar comparison with exact labels, year-selector synchronization, searchable evidence-filtered complete word list, pagination and source-post/credit links. Used a companion rather than nesting incompatible type counts below topic weights or top-five incidences. Drafted methods and limitations. Thirteen Python word/hierarchy/exclusivity tests and 18 existing Node prototype tests passed; coverage and frozen references passed. Browser checks verified 15 comparison rows, 50-to-100 pagination, 241 multi-post forms, literal search/empty states, btn = 30 occurrences in two 2013–2014 posts, linked partial-year expansion and no page overflow at 360px. Eight process and four credit-structure tests passed after regenerating the attributed README and using file-level evidence references (43 automated tests total).",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000026",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/build_year_exclusive.py",
+        "reviews/mockups/welcoming-pathways/exclusive_ui.js",
+        "reviews/mockups/welcoming-pathways/test_year_exclusive.py",
+        "reviews/mockups/welcoming-pathways/word_methods.md",
+        "reviews/mockups/welcoming-pathways/exclusive_validation.json"
+      ],
+      "limit": "Year-exclusive means observed only in one academic year within the same saved 299-post subset, not unique in all writing, historically new, a first use, a consensus theme or absent from excluded posts. Single-post forms may repeat; names/code/noise may qualify; multiple posts may share an author. 2026–2027 is partial and has three modeled posts. No extra threshold, corpus/model/author change, human participant or screen-reader study; human verification of all forms is not established. Source index left intact; temporary index used for shared-work inspection."
     }
   ],
   "remaining": [

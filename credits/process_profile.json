@@ -362,5 +362,13 @@
     "agent_contribution": "Codex designed and implemented versioned descriptive aggregations, SVG hierarchy controls, heatmap, methods and checks; exact model/build unknown/not recorded.",
     "evidence": "reviews/mockups/welcoming-pathways/word_methods.md",
     "oversight": "Implementation requested; numeric thresholds selected and disclosed by AI, not independently confirmed by Ian. No new human participant review or model fit."
+  },
+  "year_exclusive_companion": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested annual unique-word graph and sunburst attachment; CRediT Conceptualization and Project administration.",
+    "agent_scope": "Codex operationalized year exclusivity, computed saved-data sets/counts, built companion/list/source interactions, explained limits and performed recorded checks. Exact model/build unknown/not recorded.",
+    "evidence": "reviews/mockups/welcoming-pathways/word_methods.md#year-exclusive-companion",
+    "oversight": "Human request documented; no separate confirmation of the operational definition, every form, computation or accessibility claim."
   }
 }

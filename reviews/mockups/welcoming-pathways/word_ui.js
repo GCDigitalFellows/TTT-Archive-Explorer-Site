@@ -92,6 +92,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
       for(const cell of row.cells){const td=make('td');if(cell.value===null){td.textContent='—';td.title='No eligible value under this lens; not an observed zero';}else{
         const b=make('button',cell.value.toFixed(2));b.type='button';b.style.backgroundColor=`hsl(207 45% ${97-28*Math.max(0,cell.value)/max}%)`;b.setAttribute('aria-label',`${cell.year}, ${row.label}: ${cell.value.toFixed(3)} ${view().heatUnit}; inspect sources`);b.addEventListener('click',()=>inspect({label:cell.year},{word:row.label,count:cell.count,ids:cell.ids}));td.append(b);}tr.append(td);}body.append(tr);}target.append(table);
   }
+  const exclusiveView=createYearExclusive({root,data,chooseYear,showPosts,announce});
   function render(){
     const group=year==='all'?evidence.all:evidence.years.find(g=>g.label===year),cloud=mode==='cloud';
     get('wp-word-cloud').hidden=!cloud;get('wp-word-sun').hidden=mode!=='sun';get('wp-word-heat').hidden=mode!=='heat';get('wp-word-selection').hidden=cloud;get('wp-word-lens-controls').hidden=cloud;
@@ -102,7 +103,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
     else if(mode==='sun')sunburst();else heatmap();
     const buttons=get('wp-word-year-buttons');buttons.replaceChildren();
     if(!cloud)for(const g of view().groups){const b=make('button',g.label+(g.label==='2026–2027'?' · partial':'')+' · n='+g.posts);b.type='button';b.setAttribute('aria-pressed',String(year===g.label));b.addEventListener('click',()=>chooseYear(g.label));buttons.append(b);}
-    countTable();
+    countTable();exclusiveView.render(year,mode==='sun');
   }
   const select=get('wp-word-year');for(const [value,label]of[['all','Entire analyzed corpus · all years'],...evidence.years.map(g=>[g.label,g.label+(g.label==='2026–2027'?' · partial':'')+' · '+g.posts+' analyzed posts'])]){const o=make('option',label);o.value=value;select.append(o);}
   select.addEventListener('change',()=>chooseYear(select.value));

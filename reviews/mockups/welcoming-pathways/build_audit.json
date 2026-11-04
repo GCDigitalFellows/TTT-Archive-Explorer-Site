@@ -4,9 +4,9 @@
   "essay_sources": 19,
   "interpretive_groups": 6,
   "design_presets": 15,
-  "bytes": 3431330,
-  "source_html_sha256": "fa42a3947034b1c04f8605cc65b32f2f13828642e79347b8baf9107e3f792eaf",
-  "prototype_sha256": "aef64ec0f8531927e75c6a859c1312701dd447c27de2aed1b05f0166e72c2154",
+  "bytes": 3798399,
+  "source_html_sha256": "e7edc05b5a1c5100f5335c83f5bdb252eec24d23fa54f5666800e6d9db03717e",
+  "prototype_sha256": "9ab51d2d29d9b4633406d6a82e706134f66ac621491867de48c266b348746932",
   "full_text_search": true,
   "new_model_fit": false,
   "production_written": false,
@@ -16,6 +16,7 @@
   "word_corpus_posts": 299,
   "word_corpus_tokens": 137094,
   "word_years": 15,
+  "year_exclusive_types": 5731,
   "hierarchy_version": "2.0",
   "hierarchy_lenses": [
     "shared",
@@ -31,6 +32,7 @@
     "Shared-byline network",
     "Word clouds",
     "Five-lens sunburst",
-    "Year comparison heatmaps"
+    "Year comparison heatmaps",
+    "Year-exclusive vocabulary companion"
   ]
 }

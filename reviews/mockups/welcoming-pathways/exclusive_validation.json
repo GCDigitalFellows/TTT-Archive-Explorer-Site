@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "version": "1.0",
+  "source_input_revision": "42d08aa",
+  "public_input_revision": "c495f8e",
+  "scope": "Year-exclusive companion in Welcoming pathways draft; production layout unchanged",
+  "automated": {
+    "python_word_hierarchy_exclusivity_tests": 13,
+    "node_existing_prototype_tests": 18,
+    "coverage": "430 accounted, 421 published, nine drafts; views verified",
+    "preservation": "33 frozen files unchanged; ten existing corrections retained; saved corpus/models unchanged",
+    "process_tests": 8,
+    "credit_structure_tests": 4,
+    "total_tests": 43
+  },
+  "observed_counts": {
+    "exclusiveForms": 5731,
+    "onePostForms": 5490,
+    "multiplePostForms": 241,
+    "oneOccurrenceForms": 4665,
+    "wholeVocabulary": 10988,
+    "analyzedPosts": 299,
+    "academicYears": 15
+  },
+  "browser": [
+    "All 15 comparison rows and exact counts present",
+    "Evidence selector changes list from 5731 to 241 multi-post forms without changing bar totals",
+    "Literal search btn finds one form with 30 occurrences in two 2013\u20132014 posts; keyboard source activation lists those two posts",
+    "Selecting partial 2026\u20132027 row expands sunburst and lists 13 multi-post exclusive forms for that year",
+    "Show 50 more increases displayed rows from 50 to 100",
+    "Impossible search yields explicit zero-result state and recovery guidance",
+    "360px document width and scroll width both 360px; 15 rows retained",
+    "No browser console errors observed in tested paths"
+  ],
+  "skills_used": [
+    "colour-independence",
+    "table-accessibility"
+  ],
+  "limits": [
+    "No participant/screen-reader study or full spelling/context validation",
+    "Observed exclusivity only within the retained 299-post corpus",
+    "No additional NLTK run, topic fit or authorship decision",
+    "The original shared Git index remains inaccessible; kept intact while using a temporary index"
+  ]
+}
