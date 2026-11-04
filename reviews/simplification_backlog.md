@@ -265,3 +265,7 @@ Canonical records: this file and `simplification_backlog.json`, with stable SIM 
 **AI — OpenAI Codex:** inspected source components and recorded static counts; assessed feature fit and uncertainty; drafted the backlog and revision sequence. GAIDeT tasks: Quality assessment (0000044), Identification of limitations (0000046), Recommendations (0000047), Text generation (0000030). Exact underlying model/build is not recorded. No additional reviewer agents were launched.
 
 No new human usability testing, browser validation, performance benchmarking, model fitting or semantic coding occurred. No claim is made about actual feature use or measured time savings. The JSON includes fingerprints of protected site code, pages, data and evidence so this planning change can be checked for unintended implementation.
+
+## Interactive Welcoming pathways follow-up
+
+Ian requested an interactive mock of Welcoming pathways. The [isolated prototype and checks](mockups/welcoming-pathways/README.md) cover real published-record navigation, random discovery, excerpts, saved analysis, source passages and optional design history. This authorizes prototype exploration only; the live site and all production SIM decisions remain unchanged.

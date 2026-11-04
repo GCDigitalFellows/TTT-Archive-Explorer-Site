@@ -23,6 +23,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-03 — Build an interactive Welcoming pathways discussion prototype
+
+- **Human — Ian G. Williams:** Ian selected the Welcoming pathways direction for an interactive mock, continuing the public-first audience priorities, prominent search/random discovery, source-grounded synthesis, human-readable methods and optional design history. This authorizes a prototype, not production replacement.
+- **AI:** Codex built an isolated standard-library data projection, annotated interface/calculation code and a local interactive preview. It includes all 421 published records with shortened excerpts, saved profiles for 299 posts, six existing interpretive groups and 19 source examples, 15 sourced design presets, filters, random discovery, attribution evidence and methods. Codex checked source invariants, core calculations and browser navigation, fixed preview search/state issues found during testing, and recorded limits. No new analysis fit or production build was performed.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-welcoming-pathways-interactive-prototype). Prototype search covers saved titles, credits/aliases, tags and displayed excerpts, not complete original texts. Short reading copies omit multimedia. Existing source uncertainty and selected-example limits remain. Production replacement, human usability validation and formal accessibility approval are not established.
+
 ### 2026-11-03 — Explore three public-first archive and collective-wisdom layouts
 
 - **Human — Ian G. Williams:** Ian G. Williams specified the audiences and their order, archive/search/random/synthesis priorities, human interpretability, data quality and preservation of design history, and requested three mockups without production implementation. No option preference or approval is inferred.

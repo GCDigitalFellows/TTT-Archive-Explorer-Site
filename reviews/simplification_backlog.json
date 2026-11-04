@@ -50,7 +50,7 @@
       "rejected"
     ],
     "rule": "No item changes to approved or implementation solely because it is listed here. Keep stable IDs, rationale, decision, affected evidence and verification result; preserve historical decisions.",
-    "next_action": "Ian may select priorities or revise the proposed information hierarchy; no implementation approval is requested by this planning deliverable."
+    "next_action": "Review the interactive Welcoming pathways prototype and identify further revisions. Existing SIM items remain production proposals until separately approved."
   },
   "items": [
     {
@@ -1297,5 +1297,12 @@
       "change": "Reframed by explicit requester priorities; mockups are exploratory, not implementation approval."
     }
   ],
-  "mockup_options": "mockups/README.md"
+  "mockup_options": "mockups/README.md",
+  "interactive_prototype": {
+    "direction": "Welcoming pathways",
+    "authorized_scope": "Interactive discussion prototype only, requested November 3, 2026",
+    "status": "implemented in isolated prototype; no production approval",
+    "path": "mockups/welcoming-pathways/README.md",
+    "validation": "mockups/welcoming-pathways/validation.json"
+  }
 }

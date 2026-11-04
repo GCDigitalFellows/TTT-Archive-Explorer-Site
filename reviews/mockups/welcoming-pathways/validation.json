@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-03",
+  "status": "Isolated interactive prototype checked; no production replacement",
+  "scope": {
+    "published_records": 421,
+    "curated_records": 96,
+    "saved_model_profiles": 299,
+    "selected_essay_sources": 19,
+    "design_presets": 15,
+    "full_original_text_search": false,
+    "production_files_changed": false
+  },
+  "automated": {
+    "node_tests_passed": 8,
+    "javascript_syntax": "core.js and ui.js passed node --check",
+    "protected_site_and_evidence_files_unchanged": 799,
+    "attribution_checks_passed": {
+      "credits": 4,
+      "process": 8
+    }
+  },
+  "browser_checks": {
+    "home_search_button": "Maren Rothfritz -> 1 matching post, reader stays open",
+    "keyboard_search": "linked data + Enter -> 3 published records",
+    "clear_and_paginate": "421 records restored; 24 visible after Show 12 more",
+    "supported_filter": "52 published records",
+    "curated_filter": "96 records; saved model unavailability explained",
+    "empty_state": "0 records; random-from-results disabled",
+    "random": "Consecutive draws returned different eligible IDs",
+    "reader": "Maren Rothfritz title, source link, original/account credit and saved topic profile inspected",
+    "synthesis": "Theme changes and literal source passage display inspected",
+    "design": "2012 Metro treatment and source links inspected, reset to 2026",
+    "navigation": "Home, browse, read/back, wisdom, about and design routes checked",
+    "narrow_layout": "360px browser viewport: welcome and browse root width/clientWidth/scrollWidth agree at 328px; viewport reset afterward",
+    "console_errors": []
+  },
+  "limitations": [
+    "No human usability study or contributor approval",
+    "No formal accessibility audit",
+    "Default dark appearance visually inspected; no full cross-browser or all-era visual audit",
+    "Excerpt-based search and reading, not full original text",
+    "No new NLP cleaning, inference or model fitting",
+    "Discussion prototype only; not an approval to replace the live site"
+  ]
+}

@@ -672,6 +672,34 @@
         "reviews/simplification_backlog.md"
       ],
       "limit": "The mockups use six saved sample records and an existing selected-source interpretation; they do not implement the live website, refit models, establish outcomes or demonstrate human usability preferences. Source code/credits remain reviewable, and production work still needs authorization."
+    },
+    {
+      "id": "welcoming-pathways-interactive-prototype",
+      "date": "2026-11-03",
+      "status": "isolated prototype implemented and checked; production site unchanged",
+      "task": "Build an interactive Welcoming pathways discussion prototype",
+      "human": "Ian selected the Welcoming pathways direction for an interactive mock, continuing the public-first audience priorities, prominent search/random discovery, source-grounded synthesis, human-readable methods and optional design history. This authorizes a prototype, not production replacement.",
+      "agent": "Codex built an isolated standard-library data projection, annotated interface/calculation code and a local interactive preview. It includes all 421 published records with shortened excerpts, saved profiles for 299 posts, six existing interpretive groups and 19 source examples, 15 sourced design presets, filters, random discovery, attribution evidence and methods. Codex checked source invariants, core calculations and browser navigation, fixed preview search/state issues found during testing, and recorded limits. No new analysis fit or production build was performed.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000019",
+        "0000027",
+        "0000030",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/README.md",
+        "reviews/mockups/welcoming-pathways/build_audit.json",
+        "reviews/mockups/welcoming-pathways/validation.json",
+        "reviews/mockups/welcoming-pathways/build_prototype.py",
+        "reviews/mockups/welcoming-pathways/ui.js"
+      ],
+      "limit": "Prototype search covers saved titles, credits/aliases, tags and displayed excerpts, not complete original texts. Short reading copies omit multimedia. Existing source uncertainty and selected-example limits remain. Production replacement, human usability validation and formal accessibility approval are not established."
     }
   ],
   "remaining": [
