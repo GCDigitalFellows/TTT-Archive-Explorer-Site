@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "version": "2.0",
+  "source_revision": "c148de6",
+  "public_input_revision": "eb1a552",
+  "scope": "Welcoming pathways discussion draft, with project attribution pages rebuilt",
+  "automated": {
+    "word_and_hierarchy_tests": 10,
+    "existing_prototype_node_tests": 18,
+    "topic_reference": "Every modeled annual mean matches saved topics_by_academic_year.csv",
+    "coverage": "430 accounted, 421 published, nine drafts; views verified",
+    "preservation": "33 frozen files unchanged; ten prior corrections retained; corpus/models unchanged",
+    "process_tests": 8,
+    "credit_structure_tests": 4,
+    "total_tests": 40
+  },
+  "browser": [
+    "All 15 year labels present in both leading-five and complete shared-vocabulary sunburst",
+    "2022\u20132023 keyboard expansion yields one-year view and summary focus",
+    "Leading-five switch restores Other in full distribution; table retains Other in both modes",
+    "Topic-first focus retains 15 year leaves for selected topic; all-year selected topic has 26.015 fractional units for topic 1",
+    "Topic source panel lists 299 contributing posts ranked by saved topic weight, with caveat on positive weights",
+    "Topic heatmap has eight rows and 120 cells, all source-linked; selected 2012\u20132013 topic 1 yields 1.691 fractional post units",
+    "Distinctive heatmap has 75 common term rows; phrase heatmap 63; raw 35; shared 31",
+    "360px page width equals scroll width; matrix scrolls locally (320px viewport, 1240px content)",
+    "Source jump focuses Posts behind the selection heading; no console errors observed in tested final paths",
+    "Final dark-mode heatmap cells use computed text rgb(22,44,60) on light numeric backgrounds after correcting inherited button text colour; screenshots rechecked"
+  ],
+  "skills_used": [
+    "colour-independence",
+    "table-accessibility",
+    "plain-language-design"
+  ],
+  "limits": [
+    "No actual screen-reader or participant session; OS forced-colour modes not exercised",
+    "Distinctiveness sensitivity check is one threshold comparison, not exhaustive validation",
+    "All views use the saved 299-post analyzed subset; no corpus expansion or topic-model refit",
+    "Earlier word_validation.json describes the version-1 checks only"
+  ]
+}

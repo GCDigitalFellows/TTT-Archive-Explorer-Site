@@ -4,9 +4,9 @@
   "essay_sources": 19,
   "interpretive_groups": 6,
   "design_presets": 15,
-  "bytes": 2976684,
-  "source_html_sha256": "0beea2c30d25d5088f03babb94cf3a02724839c1ffd10d9b4a1e2e520ac2eff6",
-  "prototype_sha256": "b575c1cd6da9e0afc6c28e2350fcfef1ba1864725f6dee537e3aa88d917289c5",
+  "bytes": 3431330,
+  "source_html_sha256": "fa42a3947034b1c04f8605cc65b32f2f13828642e79347b8baf9107e3f792eaf",
+  "prototype_sha256": "aef64ec0f8531927e75c6a859c1312701dd447c27de2aed1b05f0166e72c2154",
   "full_text_search": true,
   "new_model_fit": false,
   "production_written": false,
@@ -16,12 +16,21 @@
   "word_corpus_posts": 299,
   "word_corpus_tokens": 137094,
   "word_years": 15,
+  "hierarchy_version": "2.0",
+  "hierarchy_lenses": [
+    "shared",
+    "topics",
+    "distinct",
+    "phrases",
+    "raw"
+  ],
   "analysis_views": [
     "Topic-year means",
     "Title/tag signal shares",
     "Author-year network",
     "Shared-byline network",
     "Word clouds",
-    "Top-five annual sunburst"
+    "Five-lens sunburst",
+    "Year comparison heatmaps"
   ]
 }
