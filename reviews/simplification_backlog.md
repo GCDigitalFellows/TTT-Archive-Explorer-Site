@@ -1,6 +1,8 @@
 # Active simplification backlog
 
-**Status: planning only. No site revision is approved or implemented.** Updated November 3, 2026.
+**Status: original proposals retained; limited actions approved November 4, 2026.** The dated observations below remain the original review snapshot.
+
+Ian approved both full-text search modes, excerpt/full reading and published-only public browsing with a draft-metadata accounting route. Related fixes put results before a collapsed network and improve focus/rights access. This partially addresses SIM-04, SIM-05, SIM-06 and SIM-08 without approving all their proposed changes. Network defaults, synthesis framing, design-history scope and human evaluation remain open. [Approval record](approved_reading_revision_2026-11-04.json).
 
 The strongest candidates are optional styling, the number of primary routes, duplicate explanations and competing controls. The research evidence and accountability functions remain essential. **Updated audience direction:** general public first, Fellows/alumni second. Search and random discovery are core tasks, the machine-assisted synthesis remains visible, and design history is preserved in some form. [Compare three mockup directions](mockups/README.md). Most recommendations reduce prominence or duplication rather than remove the original capability or evidence. Several candidates were expressly requested earlier, so their value depends on the project’s current priorities.
 
@@ -234,7 +236,7 @@ Evidence: [interactive/template.html](https://github.com/GCDigitalFellows/TTT-Ar
 
 **Estimated effort / risk:** High / High. **Status:** proposed, not approved or implemented.
 
-Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
+Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/reviews/https:/github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
 
 ## Suggested sequence
 

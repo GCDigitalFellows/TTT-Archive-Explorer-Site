@@ -30,7 +30,27 @@
         "status": "Awaiting requester-specified licenses for newly created code and analysis; no license assigned by the agent",
         "superseded": "2026-11-03: explicit MIT instruction from Ian G. Williams"
       }
-    ]
+    ],
+    "reading_search_revision": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "approved": {
+        "search": "Both all-words and exact-phrase modes over full saved text, with matching explanations",
+        "reading": "Excerpts with full in-depth in-app reading options",
+        "public_scope": "421 published records by default; nine drafts remain metadata-only through research/accounting"
+      },
+      "related_implementation": "Focus/return paths, matched snippets, source-rights propagation, post results before the collapsed network, and preview heading/skip improvements. Existing production layout retained; five-route prototype is a separate preview.",
+      "open_decisions": [
+        "Network starting population and selection",
+        "Synthesis title/framing",
+        "Whether design history restyles the whole application or only a preview",
+        "Human evaluation resources and participants"
+      ],
+      "not_authorized_by_unanswered_questions": "No new network/evidence default, synthesis rename, design-history policy, human recruitment or production replacement inferred.",
+      "review": "inclusive_design_review_2026-11-03.md",
+      "source_project_revision": "994c8eadb3aadada4c4ed61e25e1419c39adf34d",
+      "deployment_revision": "fa14d07517627fc43c74fd4cff117adad8f1743d"
+    }
   },
   "events": [
     {
@@ -793,6 +813,35 @@
         "accessibility/validation.json"
       ],
       "limit": "Installation is not accessibility conformance, disabled-user testing, a full audit of upstream citations or evidence that all recommendations apply. Upstream numeric heuristics/coverage percentages are not validated project measurements. MC Dean is named in the upstream copyright notice; production methods and project participation are unknown, and no human project role or endorsement is inferred. One duplicate and eighteen workflow prompts are excluded from automatic discovery. Existing simplification proposals, prototype scope, source authorship, cohorts, model fits and licensing boundaries remain unchanged."
+    },
+    {
+      "id": "approved-fulltext-reading",
+      "date": "2026-11-04",
+      "status": "implemented and checked",
+      "task": "Implement approved full-text search, excerpt/full reading and public-scope defaults",
+      "human": "Ian G. Williams approved both all-words and exact-phrase full-text search, excerpts with in-depth in-app reading, and 421 published records as the public default with nine drafts retained as metadata in the accounting route. Ian requested implementation of the recommendations. Network defaults, synthesis framing, design-history scope and human evaluation questions were repeated without answers and remain open.",
+      "agent": "OpenAI Codex (exact model build not recorded) applied the installed keyboard-navigation, wayfinding, readable-content and form-labelling guidance; wrote a shared whole-word/phrase search module and retrieval tests; preserved full saved reading copies in the standalone prototype; added matched snippets, expandable reading, source-rights links and an accounting route; improved focus/return/skip paths and placed published post results before a collapsed network. Codex preserved the November 3 read-only review and recorded the bounded approval. Existing source models, credits and populations were not refitted or reinterpreted. Validation: 41 Node checks, eight process checks, four attribution checks and two source-rights checks passed. Complete coverage and frozen-reference verification passed. Browser checks confirmed phrase/all-word controls, full-text expansion, correct result/heading focus, return-state preservation and the nine-draft metadata route; a return-focus defect found during the checks was corrected. A 320px index check found no page overflow. Research controls now use optional disclosure; the graph remains available after results with its existing population/ranking choices. Detailed checks and untested limits are recorded in the validation artifact. The prototype’s network retains its population/defaults while exposing its existing links within a labelled group, and its table alternatives gain captions and row/column header associations; actual screen-reader testing remains unperformed.",
+      "credit_roles": [
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "interactive/search_core.js",
+        "interactive/test_search.js",
+        "reviews/approved_reading_revision_2026-11-04.json",
+        "reviews/inclusive_design_review_2026-11-03.md",
+        "reviews/mockups/welcoming-pathways/index.html",
+        "reviews/reading_revision_validation_2026-11-04.json"
+      ],
+      "limit": "Full text means the saved plain-text reading copy, not images, embeds, original formatting or every live-site revision. Phrase matching ignores punctuation/case/accents and requires adjacent whole words within one field or paragraph; it is not semantic search. No new authorship decisions, NLTK/MALLET fit, participant study or blanket approval of the prototype-to-production port is implied. The standalone full-text preview exceeds the former inline conversation size budget; earlier inline previews remain historical."
     }
   ],
   "remaining": [

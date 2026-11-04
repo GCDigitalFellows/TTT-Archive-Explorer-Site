@@ -321,6 +321,14 @@
       "delegation": "Codex inspected and installed guidance, identified an upstream duplicate, wrote project application instructions, preserved notices and checked installation/provenance. Exact model build not recorded.",
       "scope": "39 unique project-local knowledge skills; no whole-site accessibility audit, new human study, source-author decision or model refit. Ian authorized incorporating the repository; no human validation of each recommendation recorded.",
       "input_project_revision": "0257713"
+    },
+    "reading_search_revision": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "role_evidence": "Approved search matching, reading depth and published-only default; CRediT Methodology and Project administration.",
+      "agent_scope": "Codex implementation, saved-text propagation, interface checks and documentation; exact model build not recorded.",
+      "evidence": "reviews/approved_reading_revision_2026-11-04.json",
+      "oversight": "Three choices explicitly approved; four open decisions retained. No human testing or approval of each implementation detail recorded."
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",

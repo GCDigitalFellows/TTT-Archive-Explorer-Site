@@ -1,0 +1,2760 @@
+{
+  "topic_years": [
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "0",
+      "mean_post_weight": "0.06878127777896305",
+      "token_weighted_share": "0.09750914239808979"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "1",
+      "mean_post_weight": "0.04831102939630561",
+      "token_weighted_share": "0.05635461315618806"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "2",
+      "mean_post_weight": "0.01861374833188957",
+      "token_weighted_share": "0.01915095388719817"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "3",
+      "mean_post_weight": "0.005671183593727362",
+      "token_weighted_share": "0.005143941814746896"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "4",
+      "mean_post_weight": "0.012539922500735528",
+      "token_weighted_share": "0.010697088079002088"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "5",
+      "mean_post_weight": "0.3373592292200128",
+      "token_weighted_share": "0.38708178301583424"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "6",
+      "mean_post_weight": "0.040588148972111195",
+      "token_weighted_share": "0.046646378512435"
+    },
+    {
+      "academic_year": "2012–2013",
+      "posts": "35",
+      "topic": "7",
+      "mean_post_weight": "0.4681354602062548",
+      "token_weighted_share": "0.3774160991365057"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "0",
+      "mean_post_weight": "0.06956549925099653",
+      "token_weighted_share": "0.0724862425272974"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "1",
+      "mean_post_weight": "0.05937423585448293",
+      "token_weighted_share": "0.05515415805572066"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "2",
+      "mean_post_weight": "0.02246487329486508",
+      "token_weighted_share": "0.05093874294509425"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "3",
+      "mean_post_weight": "0.005695048313192138",
+      "token_weighted_share": "0.004649688459820379"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "4",
+      "mean_post_weight": "0.06376954149014813",
+      "token_weighted_share": "0.06892092463567119"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "5",
+      "mean_post_weight": "0.3531974193172467",
+      "token_weighted_share": "0.33681450095863547"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "6",
+      "mean_post_weight": "0.16369204274233554",
+      "token_weighted_share": "0.25670853616257155"
+    },
+    {
+      "academic_year": "2013–2014",
+      "posts": "25",
+      "topic": "7",
+      "mean_post_weight": "0.26224133973673286",
+      "token_weighted_share": "0.15432720625518906"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "0",
+      "mean_post_weight": "0.03787448789257662",
+      "token_weighted_share": "0.04957180958605811"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "1",
+      "mean_post_weight": "0.050452716904969594",
+      "token_weighted_share": "0.037177243172682825"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "2",
+      "mean_post_weight": "0.05337255778496318",
+      "token_weighted_share": "0.16303693300457564"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "3",
+      "mean_post_weight": "0.005735142595535052",
+      "token_weighted_share": "0.005274109499191568"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "4",
+      "mean_post_weight": "0.0526227780380244",
+      "token_weighted_share": "0.1192657221248365"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "5",
+      "mean_post_weight": "0.28345169542112153",
+      "token_weighted_share": "0.27856079159341557"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "6",
+      "mean_post_weight": "0.10236397824946895",
+      "token_weighted_share": "0.10416777393206741"
+    },
+    {
+      "academic_year": "2014–2015",
+      "posts": "16",
+      "topic": "7",
+      "mean_post_weight": "0.4141266431133407",
+      "token_weighted_share": "0.24294561708717236"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "0",
+      "mean_post_weight": "0.11224715913997528",
+      "token_weighted_share": "0.1140872232079696"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "1",
+      "mean_post_weight": "0.019906622202514837",
+      "token_weighted_share": "0.01875605483854662"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "2",
+      "mean_post_weight": "0.12686581574983083",
+      "token_weighted_share": "0.15205233639783852"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "3",
+      "mean_post_weight": "0.0033263748542097377",
+      "token_weighted_share": "0.0019627783112286805"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "4",
+      "mean_post_weight": "0.007234418605412997",
+      "token_weighted_share": "0.008145984362503715"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "5",
+      "mean_post_weight": "0.179753438744017",
+      "token_weighted_share": "0.16958151122342938"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "6",
+      "mean_post_weight": "0.13066368454096705",
+      "token_weighted_share": "0.29008014762880197"
+    },
+    {
+      "academic_year": "2015–2016",
+      "posts": "32",
+      "topic": "7",
+      "mean_post_weight": "0.4200024861630723",
+      "token_weighted_share": "0.2453339640296815"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "0",
+      "mean_post_weight": "0.03514367518887772",
+      "token_weighted_share": "0.05360587958252803"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "1",
+      "mean_post_weight": "0.01703887746243974",
+      "token_weighted_share": "0.030528066824050914"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "2",
+      "mean_post_weight": "0.13046470371420776",
+      "token_weighted_share": "0.09734775191416954"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "3",
+      "mean_post_weight": "0.07973384912811413",
+      "token_weighted_share": "0.10426161629724905"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "4",
+      "mean_post_weight": "0.04928262831897753",
+      "token_weighted_share": "0.06496164476440362"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "5",
+      "mean_post_weight": "0.18659108138897165",
+      "token_weighted_share": "0.19476997166501386"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "6",
+      "mean_post_weight": "0.1095244633001135",
+      "token_weighted_share": "0.14385086909813924"
+    },
+    {
+      "academic_year": "2016–2017",
+      "posts": "21",
+      "topic": "7",
+      "mean_post_weight": "0.392220721498298",
+      "token_weighted_share": "0.3106741998544458"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "0",
+      "mean_post_weight": "0.04778930445369379",
+      "token_weighted_share": "0.027924569507965572"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "1",
+      "mean_post_weight": "0.011775581124922828",
+      "token_weighted_share": "0.0068511958814994976"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "2",
+      "mean_post_weight": "0.12222008646442249",
+      "token_weighted_share": "0.20873032948373355"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "3",
+      "mean_post_weight": "0.12339783566901924",
+      "token_weighted_share": "0.12741194903888808"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "4",
+      "mean_post_weight": "0.09076481966991379",
+      "token_weighted_share": "0.22482242838017333"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "5",
+      "mean_post_weight": "0.2092330337301282",
+      "token_weighted_share": "0.1844070125864494"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "6",
+      "mean_post_weight": "0.0442348035525075",
+      "token_weighted_share": "0.04810173270193562"
+    },
+    {
+      "academic_year": "2017–2018",
+      "posts": "21",
+      "topic": "7",
+      "mean_post_weight": "0.35058453533539213",
+      "token_weighted_share": "0.17175078241935487"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "0",
+      "mean_post_weight": "0.13535935097029433",
+      "token_weighted_share": "0.1502891581346842"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "1",
+      "mean_post_weight": "0.12517669460711298",
+      "token_weighted_share": "0.10807660321933682"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "2",
+      "mean_post_weight": "0.017922634221037344",
+      "token_weighted_share": "0.0118291804566468"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "3",
+      "mean_post_weight": "0.034238642991085706",
+      "token_weighted_share": "0.024340545780934413"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "4",
+      "mean_post_weight": "0.12712609728877927",
+      "token_weighted_share": "0.18835369340258548"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "5",
+      "mean_post_weight": "0.2727779823923685",
+      "token_weighted_share": "0.2622177889321342"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "6",
+      "mean_post_weight": "0.09243132488896268",
+      "token_weighted_share": "0.11025840333430066"
+    },
+    {
+      "academic_year": "2018–2019",
+      "posts": "14",
+      "topic": "7",
+      "mean_post_weight": "0.19496727264035926",
+      "token_weighted_share": "0.14463462673937746"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "0",
+      "mean_post_weight": "0.19694424384297934",
+      "token_weighted_share": "0.2541184137316509"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "1",
+      "mean_post_weight": "0.044181700623192405",
+      "token_weighted_share": "0.03366463031502531"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "2",
+      "mean_post_weight": "0.0649223704678888",
+      "token_weighted_share": "0.06460026727571444"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "3",
+      "mean_post_weight": "0.07748312921475521",
+      "token_weighted_share": "0.07031305784809"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "4",
+      "mean_post_weight": "0.04647119197225025",
+      "token_weighted_share": "0.058394172488471466"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "5",
+      "mean_post_weight": "0.19809848674898187",
+      "token_weighted_share": "0.16361693785969542"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "6",
+      "mean_post_weight": "0.10850546440816065",
+      "token_weighted_share": "0.14364606703573818"
+    },
+    {
+      "academic_year": "2019–2020",
+      "posts": "22",
+      "topic": "7",
+      "mean_post_weight": "0.26339341272179145",
+      "token_weighted_share": "0.21164645344561425"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "0",
+      "mean_post_weight": "0.1042341580622609",
+      "token_weighted_share": "0.12797949410163367"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "1",
+      "mean_post_weight": "0.0424801191341316",
+      "token_weighted_share": "0.06356335433441812"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "2",
+      "mean_post_weight": "0.0908722818187408",
+      "token_weighted_share": "0.07066647290950615"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "3",
+      "mean_post_weight": "0.07215890118875308",
+      "token_weighted_share": "0.09892120844967701"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "4",
+      "mean_post_weight": "0.08111411455970839",
+      "token_weighted_share": "0.10524257038386603"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "5",
+      "mean_post_weight": "0.2748658283331541",
+      "token_weighted_share": "0.21917897466711417"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "6",
+      "mean_post_weight": "0.07899285448551878",
+      "token_weighted_share": "0.12679309354956148"
+    },
+    {
+      "academic_year": "2020–2021",
+      "posts": "19",
+      "topic": "7",
+      "mean_post_weight": "0.2552817424177323",
+      "token_weighted_share": "0.1876548316042234"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "0",
+      "mean_post_weight": "0.05136168108669322",
+      "token_weighted_share": "0.04416092026530858"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "1",
+      "mean_post_weight": "0.07423202597602988",
+      "token_weighted_share": "0.022674875867254585"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "2",
+      "mean_post_weight": "0.2126776026382168",
+      "token_weighted_share": "0.2943892249292434"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "3",
+      "mean_post_weight": "0.017205916559663078",
+      "token_weighted_share": "0.009238974455262134"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "4",
+      "mean_post_weight": "0.06343837132301072",
+      "token_weighted_share": "0.07890865331288834"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "5",
+      "mean_post_weight": "0.2980475815445515",
+      "token_weighted_share": "0.20553513682628027"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "6",
+      "mean_post_weight": "0.16614302222270425",
+      "token_weighted_share": "0.2412203098955875"
+    },
+    {
+      "academic_year": "2021–2022",
+      "posts": "15",
+      "topic": "7",
+      "mean_post_weight": "0.1168937986491305",
+      "token_weighted_share": "0.10387190444817525"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "0",
+      "mean_post_weight": "0.04098414500415511",
+      "token_weighted_share": "0.039407708798404835"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "1",
+      "mean_post_weight": "0.03887054052639787",
+      "token_weighted_share": "0.042673106354768696"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "2",
+      "mean_post_weight": "0.10947811342460233",
+      "token_weighted_share": "0.08834522664705942"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "3",
+      "mean_post_weight": "0.006584374208069255",
+      "token_weighted_share": "0.007998443341142216"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "4",
+      "mean_post_weight": "0.0954852997271664",
+      "token_weighted_share": "0.1769302082553602"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "5",
+      "mean_post_weight": "0.3173014576808719",
+      "token_weighted_share": "0.3151858885565147"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "6",
+      "mean_post_weight": "0.1701327379188361",
+      "token_weighted_share": "0.12770245878141806"
+    },
+    {
+      "academic_year": "2022–2023",
+      "posts": "18",
+      "topic": "7",
+      "mean_post_weight": "0.221163331509901",
+      "token_weighted_share": "0.20175695926533185"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "0",
+      "mean_post_weight": "0.044443120717099945",
+      "token_weighted_share": "0.03884393922930362"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "1",
+      "mean_post_weight": "0.11955047629757345",
+      "token_weighted_share": "0.11122782526173311"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "2",
+      "mean_post_weight": "0.06055244839148894",
+      "token_weighted_share": "0.07499936638455922"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "3",
+      "mean_post_weight": "0.009535006390569546",
+      "token_weighted_share": "0.010589796682556928"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "4",
+      "mean_post_weight": "0.05477460912825261",
+      "token_weighted_share": "0.05580240127627037"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "5",
+      "mean_post_weight": "0.37637304432467916",
+      "token_weighted_share": "0.39913430429548324"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "6",
+      "mean_post_weight": "0.07060573372158943",
+      "token_weighted_share": "0.11219961363606976"
+    },
+    {
+      "academic_year": "2023–2024",
+      "posts": "14",
+      "topic": "7",
+      "mean_post_weight": "0.26416556102874683",
+      "token_weighted_share": "0.19720275323402364"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "0",
+      "mean_post_weight": "0.12710607901463405",
+      "token_weighted_share": "0.12194031757924727"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "1",
+      "mean_post_weight": "0.29167211658820735",
+      "token_weighted_share": "0.29643516460581576"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "2",
+      "mean_post_weight": "0.10113190504770014",
+      "token_weighted_share": "0.11126094112513955"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "3",
+      "mean_post_weight": "0.0024613240764119883",
+      "token_weighted_share": "0.0030722166104598593"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "4",
+      "mean_post_weight": "0.037824917118766205",
+      "token_weighted_share": "0.04226911705138712"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "5",
+      "mean_post_weight": "0.16288961245699315",
+      "token_weighted_share": "0.15398538416784455"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "6",
+      "mean_post_weight": "0.0724853007595832",
+      "token_weighted_share": "0.07466901045901345"
+    },
+    {
+      "academic_year": "2024–2025",
+      "posts": "22",
+      "topic": "7",
+      "mean_post_weight": "0.20442874493770383",
+      "token_weighted_share": "0.1963678484010925"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "0",
+      "mean_post_weight": "0.0755698220173727",
+      "token_weighted_share": "0.056567846883852343"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "1",
+      "mean_post_weight": "0.29822257235144595",
+      "token_weighted_share": "0.40179864263871073"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "2",
+      "mean_post_weight": "0.055528752437379286",
+      "token_weighted_share": "0.0484218850671823"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "3",
+      "mean_post_weight": "0.012559306309116064",
+      "token_weighted_share": "0.012630167747328648"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "4",
+      "mean_post_weight": "0.07691760112046613",
+      "token_weighted_share": "0.06178229924947854"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "5",
+      "mean_post_weight": "0.2123240609376593",
+      "token_weighted_share": "0.2214470426951409"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "6",
+      "mean_post_weight": "0.034899907166905136",
+      "token_weighted_share": "0.027465349803022197"
+    },
+    {
+      "academic_year": "2025–2026",
+      "posts": "22",
+      "topic": "7",
+      "mean_post_weight": "0.2339779776596555",
+      "token_weighted_share": "0.16988676591528432"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "0",
+      "mean_post_weight": "0.022587950277532225",
+      "token_weighted_share": "0.025139017174311152"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "1",
+      "mean_post_weight": "0.26481675455580994",
+      "token_weighted_share": "0.33793599312988737"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "2",
+      "mean_post_weight": "0.006190941819756091",
+      "token_weighted_share": "0.002825706368317846"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "3",
+      "mean_post_weight": "0.003576940921507878",
+      "token_weighted_share": "0.0044518877149767365"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "4",
+      "mean_post_weight": "0.2564867181231335",
+      "token_weighted_share": "0.11938480800623019"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "5",
+      "mean_post_weight": "0.17976158650243215",
+      "token_weighted_share": "0.16980884585320374"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "6",
+      "mean_post_weight": "0.0072915874923793625",
+      "token_weighted_share": "0.008131054517126942"
+    },
+    {
+      "academic_year": "2026–2027",
+      "posts": "3",
+      "topic": "7",
+      "mean_post_weight": "0.25928752030744884",
+      "token_weighted_share": "0.332322687235946"
+    }
+  ],
+  "signal_years": [
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "4",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Code & computational methods",
+      "matching_posts": "5",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Maps & visualization",
+      "matching_posts": "2",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Archives, text & media",
+      "matching_posts": "3",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Teaching & learning",
+      "matching_posts": "13",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Community & collaboration",
+      "matching_posts": "5",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "Ethics, access & power",
+      "matching_posts": "4",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2012–2013",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "38"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "5",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Code & computational methods",
+      "matching_posts": "4",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Maps & visualization",
+      "matching_posts": "2",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Archives, text & media",
+      "matching_posts": "0",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Teaching & learning",
+      "matching_posts": "10",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Community & collaboration",
+      "matching_posts": "5",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "Ethics, access & power",
+      "matching_posts": "1",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2013–2014",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "27"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "1",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Code & computational methods",
+      "matching_posts": "4",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Maps & visualization",
+      "matching_posts": "1",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Archives, text & media",
+      "matching_posts": "0",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Teaching & learning",
+      "matching_posts": "4",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Community & collaboration",
+      "matching_posts": "0",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "Ethics, access & power",
+      "matching_posts": "2",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2014–2015",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "18"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "6",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Code & computational methods",
+      "matching_posts": "10",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Maps & visualization",
+      "matching_posts": "0",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Archives, text & media",
+      "matching_posts": "4",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Teaching & learning",
+      "matching_posts": "12",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Community & collaboration",
+      "matching_posts": "9",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "Ethics, access & power",
+      "matching_posts": "3",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2015–2016",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "32"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "5",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Code & computational methods",
+      "matching_posts": "8",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Maps & visualization",
+      "matching_posts": "2",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Archives, text & media",
+      "matching_posts": "1",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Teaching & learning",
+      "matching_posts": "10",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Community & collaboration",
+      "matching_posts": "4",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "Ethics, access & power",
+      "matching_posts": "1",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2016–2017",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "1",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Code & computational methods",
+      "matching_posts": "8",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Maps & visualization",
+      "matching_posts": "7",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Archives, text & media",
+      "matching_posts": "6",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Teaching & learning",
+      "matching_posts": "8",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Community & collaboration",
+      "matching_posts": "3",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "Ethics, access & power",
+      "matching_posts": "1",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2017–2018",
+      "theme": "AI & machine learning",
+      "matching_posts": "1",
+      "eligible_posts": "23"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "3",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Code & computational methods",
+      "matching_posts": "3",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Maps & visualization",
+      "matching_posts": "4",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Archives, text & media",
+      "matching_posts": "5",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Teaching & learning",
+      "matching_posts": "4",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Community & collaboration",
+      "matching_posts": "4",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "Ethics, access & power",
+      "matching_posts": "2",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2018–2019",
+      "theme": "AI & machine learning",
+      "matching_posts": "1",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Code & computational methods",
+      "matching_posts": "3",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Maps & visualization",
+      "matching_posts": "0",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Archives, text & media",
+      "matching_posts": "4",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Teaching & learning",
+      "matching_posts": "5",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Community & collaboration",
+      "matching_posts": "3",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "Ethics, access & power",
+      "matching_posts": "0",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2019–2020",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "0",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Code & computational methods",
+      "matching_posts": "5",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Maps & visualization",
+      "matching_posts": "4",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Archives, text & media",
+      "matching_posts": "5",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Teaching & learning",
+      "matching_posts": "4",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Community & collaboration",
+      "matching_posts": "1",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "Ethics, access & power",
+      "matching_posts": "1",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2020–2021",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "21"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "3",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Code & computational methods",
+      "matching_posts": "5",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Maps & visualization",
+      "matching_posts": "1",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Archives, text & media",
+      "matching_posts": "1",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Teaching & learning",
+      "matching_posts": "3",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Community & collaboration",
+      "matching_posts": "0",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "Ethics, access & power",
+      "matching_posts": "2",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2021–2022",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "17"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "3",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Code & computational methods",
+      "matching_posts": "3",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Maps & visualization",
+      "matching_posts": "2",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Archives, text & media",
+      "matching_posts": "1",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Teaching & learning",
+      "matching_posts": "3",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Community & collaboration",
+      "matching_posts": "0",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "Ethics, access & power",
+      "matching_posts": "1",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2022–2023",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "20"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "0",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Code & computational methods",
+      "matching_posts": "6",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Maps & visualization",
+      "matching_posts": "2",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Archives, text & media",
+      "matching_posts": "0",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Teaching & learning",
+      "matching_posts": "2",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Community & collaboration",
+      "matching_posts": "1",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "Ethics, access & power",
+      "matching_posts": "2",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2023–2024",
+      "theme": "AI & machine learning",
+      "matching_posts": "1",
+      "eligible_posts": "16"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Code & computational methods",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Maps & visualization",
+      "matching_posts": "3",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Archives, text & media",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Teaching & learning",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Community & collaboration",
+      "matching_posts": "1",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "Ethics, access & power",
+      "matching_posts": "10",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2024–2025",
+      "theme": "AI & machine learning",
+      "matching_posts": "4",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "1",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Code & computational methods",
+      "matching_posts": "2",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Maps & visualization",
+      "matching_posts": "3",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Archives, text & media",
+      "matching_posts": "1",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Teaching & learning",
+      "matching_posts": "3",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Community & collaboration",
+      "matching_posts": "0",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "Ethics, access & power",
+      "matching_posts": "0",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2025–2026",
+      "theme": "AI & machine learning",
+      "matching_posts": "9",
+      "eligible_posts": "24"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Web & scholarly identity",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Code & computational methods",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Maps & visualization",
+      "matching_posts": "1",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Archives, text & media",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Teaching & learning",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Community & collaboration",
+      "matching_posts": "2",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "Ethics, access & power",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    },
+    {
+      "mode": "headline",
+      "academic_year": "2026–2027",
+      "theme": "AI & machine learning",
+      "matching_posts": "0",
+      "eligible_posts": "4"
+    }
+  ],
+  "author_years": [
+    {
+      "author": "A. L. McMichael",
+      "year": "2012–2013",
+      "count": 2
+    },
+    {
+      "author": "A. L. McMichael",
+      "year": "2013–2014",
+      "count": 3
+    },
+    {
+      "author": "A. L. McMichael",
+      "year": "2014–2015",
+      "count": 1
+    },
+    {
+      "author": "Andrew G McKinney",
+      "year": "2012–2013",
+      "count": 4
+    },
+    {
+      "author": "Andrew G McKinney",
+      "year": "2013–2014",
+      "count": 3
+    },
+    {
+      "author": "Angela Crumdy",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Anna Corbett",
+      "year": "2023–2024",
+      "count": 2
+    },
+    {
+      "author": "Anna Corbett",
+      "year": "2024–2025",
+      "count": 3
+    },
+    {
+      "author": "Anna Corbett",
+      "year": "2025–2026",
+      "count": 2
+    },
+    {
+      "author": "Annapia Borraccino",
+      "year": "2023–2024",
+      "count": 1
+    },
+    {
+      "author": "Carly Batist",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Carmela Muzio Dormani",
+      "year": "2019–2020",
+      "count": 1
+    },
+    {
+      "author": "Cen Liu",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Chelsea Lane",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Chen Zhou",
+      "year": "2024–2025",
+      "count": 3
+    },
+    {
+      "author": "Christopher Colon",
+      "year": "2025–2026",
+      "count": 2
+    },
+    {
+      "author": "Connor M French",
+      "year": "2019–2020",
+      "count": 3
+    },
+    {
+      "author": "Connor M French",
+      "year": "2020–2021",
+      "count": 3
+    },
+    {
+      "author": "Cortnie Belser",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Di Yoong",
+      "year": "2019–2020",
+      "count": 2
+    },
+    {
+      "author": "Di Yoong",
+      "year": "2020–2021",
+      "count": 3
+    },
+    {
+      "author": "Di Yoong",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Di Yoong",
+      "year": "2022–2023",
+      "count": 1
+    },
+    {
+      "author": "Erin Glass",
+      "year": "2012–2013",
+      "count": 9
+    },
+    {
+      "author": "Erin Glass",
+      "year": "2013–2014",
+      "count": 4
+    },
+    {
+      "author": "Erin Glass",
+      "year": "2014–2015",
+      "count": 3
+    },
+    {
+      "author": "Erin Glass",
+      "year": "2015–2016",
+      "count": 2
+    },
+    {
+      "author": "Eunah Cho",
+      "year": "2025–2026",
+      "count": 2
+    },
+    {
+      "author": "Filipa Calado",
+      "year": "2018–2019",
+      "count": 2
+    },
+    {
+      "author": "Filipa Calado",
+      "year": "2019–2020",
+      "count": 2
+    },
+    {
+      "author": "Filipa Calado",
+      "year": "2020–2021",
+      "count": 2
+    },
+    {
+      "author": "Gregory Hartmann",
+      "year": "2023–2024",
+      "count": 2
+    },
+    {
+      "author": "Hannah Aizenman",
+      "year": "2015–2016",
+      "count": 3
+    },
+    {
+      "author": "Hannah Aizenman",
+      "year": "2016–2017",
+      "count": 2
+    },
+    {
+      "author": "Hannah Aizenman",
+      "year": "2017–2018",
+      "count": 4
+    },
+    {
+      "author": "Ian G. Williams",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Ian G. Williams",
+      "year": "2025–2026",
+      "count": 1
+    },
+    {
+      "author": "Ian G. Williams",
+      "year": "2026–2027",
+      "count": 2
+    },
+    {
+      "author": "Ian Phillips",
+      "year": "2015–2016",
+      "count": 3
+    },
+    {
+      "author": "Ian Phillips",
+      "year": "2016–2017",
+      "count": 1
+    },
+    {
+      "author": "JD Davids",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Javier Otero Peña",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Javier Otero Peña",
+      "year": "2018–2019",
+      "count": 2
+    },
+    {
+      "author": "Jeff Binder",
+      "year": "2015–2016",
+      "count": 1
+    },
+    {
+      "author": "Jeremy March",
+      "year": "2015–2016",
+      "count": 3
+    },
+    {
+      "author": "Jeremy March",
+      "year": "2016–2017",
+      "count": 1
+    },
+    {
+      "author": "Jessie McCormack",
+      "year": "2020–2021",
+      "count": 1
+    },
+    {
+      "author": "Jessie McCormack",
+      "year": "2021–2022",
+      "count": 4
+    },
+    {
+      "author": "Jojo Karlin",
+      "year": "2016–2017",
+      "count": 5
+    },
+    {
+      "author": "Jojo Karlin",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Jonah Brucker-Cohen",
+      "year": "2025–2026",
+      "count": 1
+    },
+    {
+      "author": "Julia Lipkins",
+      "year": "2015–2016",
+      "count": 1
+    },
+    {
+      "author": "Keith Miyake",
+      "year": "2013–2014",
+      "count": 2
+    },
+    {
+      "author": "Keith Miyake",
+      "year": "2014–2015",
+      "count": 2
+    },
+    {
+      "author": "Kelsey Chatlosh",
+      "year": "2017–2018",
+      "count": 5
+    },
+    {
+      "author": "Kelsey Chatlosh",
+      "year": "2018–2019",
+      "count": 2
+    },
+    {
+      "author": "Kristen Hackett",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Kristen Hackett",
+      "year": "2018–2019",
+      "count": 2
+    },
+    {
+      "author": "Kristen Hackett",
+      "year": "2019–2020",
+      "count": 4
+    },
+    {
+      "author": "Laura Kane",
+      "year": "2012–2013",
+      "count": 9
+    },
+    {
+      "author": "Laura Kane",
+      "year": "2013–2014",
+      "count": 4
+    },
+    {
+      "author": "Laura Kane",
+      "year": "2014–2015",
+      "count": 3
+    },
+    {
+      "author": "Lavelle Porter",
+      "year": "2015–2016",
+      "count": 1
+    },
+    {
+      "author": "Leanne Fan",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Leanne Fan",
+      "year": "2022–2023",
+      "count": 2
+    },
+    {
+      "author": "Leanne Fan",
+      "year": "2023–2024",
+      "count": 1
+    },
+    {
+      "author": "Lisa Marie Rhody",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Lisa Marie Rhody",
+      "year": "2025–2026",
+      "count": 1
+    },
+    {
+      "author": "Maggie Schreiner",
+      "year": "2024–2025",
+      "count": 4
+    },
+    {
+      "author": "Maggie Schreiner",
+      "year": "2025–2026",
+      "count": 3
+    },
+    {
+      "author": "Manuel C. Co Jr",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Maren Rothfritz",
+      "year": "2022–2023",
+      "count": 1
+    },
+    {
+      "author": "Marisa Iovino",
+      "year": "2022–2023",
+      "count": 1
+    },
+    {
+      "author": "Mary Catherine Kinniburgh",
+      "year": "2015–2016",
+      "count": 5
+    },
+    {
+      "author": "Mary Catherine Kinniburgh",
+      "year": "2016–2017",
+      "count": 2
+    },
+    {
+      "author": "Maura McCreight",
+      "year": "2024–2025",
+      "count": 1
+    },
+    {
+      "author": "Meha Gupta",
+      "year": "2025–2026",
+      "count": 3
+    },
+    {
+      "author": "Michelle Yom",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Micki Kaufman",
+      "year": "2012–2013",
+      "count": 1
+    },
+    {
+      "author": "Micki Kaufman",
+      "year": "2013–2014",
+      "count": 1
+    },
+    {
+      "author": "Natalie O'Shea",
+      "year": "2019–2020",
+      "count": 2
+    },
+    {
+      "author": "Nicole Cote",
+      "year": "2022–2023",
+      "count": 2
+    },
+    {
+      "author": "Nicole Walker",
+      "year": "2025–2026",
+      "count": 1
+    },
+    {
+      "author": "Olivia Ildefonso",
+      "year": "2018–2019",
+      "count": 2
+    },
+    {
+      "author": "Olivia Ildefonso",
+      "year": "2019–2020",
+      "count": 1
+    },
+    {
+      "author": "Olivia Ildefonso",
+      "year": "2020–2021",
+      "count": 3
+    },
+    {
+      "author": "Param Ajmera",
+      "year": "2019–2020",
+      "count": 4
+    },
+    {
+      "author": "Param Ajmera",
+      "year": "2020–2021",
+      "count": 2
+    },
+    {
+      "author": "Param Ajmera",
+      "year": "2021–2022",
+      "count": 2
+    },
+    {
+      "author": "Parisa Setayesh",
+      "year": "2024–2025",
+      "count": 5
+    },
+    {
+      "author": "Parisa Setayesh",
+      "year": "2025–2026",
+      "count": 3
+    },
+    {
+      "author": "Patricia Hatcher",
+      "year": "2023–2024",
+      "count": 1
+    },
+    {
+      "author": "Patrick Smyth, PhD",
+      "year": "2014–2015",
+      "count": 1
+    },
+    {
+      "author": "Patrick Smyth, PhD",
+      "year": "2015–2016",
+      "count": 1
+    },
+    {
+      "author": "Patrick Smyth, PhD",
+      "year": "2016–2017",
+      "count": 2
+    },
+    {
+      "author": "Patrick Smyth, PhD",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Patrick Sweeney",
+      "year": "2015–2016",
+      "count": 2
+    },
+    {
+      "author": "Patrick Sweeney",
+      "year": "2016–2017",
+      "count": 5
+    },
+    {
+      "author": "Patrick Sweeney",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Peyton Cordero",
+      "year": "2024–2025",
+      "count": 3
+    },
+    {
+      "author": "Pranav Chinmay",
+      "year": "2025–2026",
+      "count": 2
+    },
+    {
+      "author": "Rachel Rakov",
+      "year": "2016–2017",
+      "count": 2
+    },
+    {
+      "author": "Rachel Rakov",
+      "year": "2017–2018",
+      "count": 7
+    },
+    {
+      "author": "Rachel Rakov",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Rafael Davis Portela",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Rafael Davis Portela",
+      "year": "2019–2020",
+      "count": 1
+    },
+    {
+      "author": "Rafael Davis Portela",
+      "year": "2020–2021",
+      "count": 2
+    },
+    {
+      "author": "Rebecca Krisel",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Rebecca Krisel",
+      "year": "2022–2023",
+      "count": 3
+    },
+    {
+      "author": "Rebecca Krisel",
+      "year": "2023–2024",
+      "count": 1
+    },
+    {
+      "author": "Rilquer Mascarenhas",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Rilquer Mascarenhas",
+      "year": "2022–2023",
+      "count": 2
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2012–2013",
+      "count": 13
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2013–2014",
+      "count": 15
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2014–2015",
+      "count": 8
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2015–2016",
+      "count": 10
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2021–2022",
+      "count": 1
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2022–2023",
+      "count": 2
+    },
+    {
+      "author": "Sam O'Hana",
+      "year": "2025–2026",
+      "count": 1
+    },
+    {
+      "author": "Silvia Rivera Alfaro",
+      "year": "2020–2021",
+      "count": 1
+    },
+    {
+      "author": "Silvia Rivera Alfaro",
+      "year": "2022–2023",
+      "count": 3
+    },
+    {
+      "author": "Silvia Rivera Alfaro",
+      "year": "2023–2024",
+      "count": 4
+    },
+    {
+      "author": "Silvia Rivera Alfaro",
+      "year": "2024–2025",
+      "count": 4
+    },
+    {
+      "author": "Sophie Bala",
+      "year": "2026–2027",
+      "count": 2
+    },
+    {
+      "author": "Stefano Morello",
+      "year": "2018–2019",
+      "count": 1
+    },
+    {
+      "author": "Stefano Morello",
+      "year": "2019–2020",
+      "count": 2
+    },
+    {
+      "author": "Stefano Morello",
+      "year": "2020–2021",
+      "count": 4
+    },
+    {
+      "author": "Tahir H. Butt",
+      "year": "2016–2017",
+      "count": 1
+    },
+    {
+      "author": "Tom Ribitzky",
+      "year": "2017–2018",
+      "count": 1
+    },
+    {
+      "author": "Tuka Al-Sahlani",
+      "year": "2023–2024",
+      "count": 2
+    },
+    {
+      "author": "Tuka Al-Sahlani",
+      "year": "2024–2025",
+      "count": 3
+    },
+    {
+      "author": "Tuka Al-Sahlani",
+      "year": "2025–2026",
+      "count": 2
+    },
+    {
+      "author": "Yoshiko Oka",
+      "year": "2019–2020",
+      "count": 1
+    },
+    {
+      "author": "Yu-Hsuan Liu",
+      "year": "2019–2020",
+      "count": 1
+    },
+    {
+      "author": "Yuxiao Luo",
+      "year": "2020–2021",
+      "count": 1
+    },
+    {
+      "author": "Yuxiao Luo",
+      "year": "2021–2022",
+      "count": 2
+    },
+    {
+      "author": "Yuxiao Luo",
+      "year": "2022–2023",
+      "count": 2
+    },
+    {
+      "author": "Zachary Lloyd",
+      "year": "2021–2022",
+      "count": 3
+    },
+    {
+      "author": "Zachary Lloyd",
+      "year": "2022–2023",
+      "count": 1
+    },
+    {
+      "author": "Zachary Lloyd",
+      "year": "2023–2024",
+      "count": 2
+    },
+    {
+      "author": "Zachary Lloyd",
+      "year": "2024–2025",
+      "count": 3
+    }
+  ],
+  "shared_bylines": [
+    {
+      "first": "A. L. McMichael",
+      "second": "Andrew G McKinney",
+      "count": 1
+    },
+    {
+      "first": "A. L. McMichael",
+      "second": "Erin Glass",
+      "count": 1
+    },
+    {
+      "first": "A. L. McMichael",
+      "second": "Keith Miyake",
+      "count": 1
+    },
+    {
+      "first": "A. L. McMichael",
+      "second": "Laura Kane",
+      "count": 1
+    },
+    {
+      "first": "A. L. McMichael",
+      "second": "Micki Kaufman",
+      "count": 1
+    },
+    {
+      "first": "Andrew G McKinney",
+      "second": "Erin Glass",
+      "count": 1
+    },
+    {
+      "first": "Andrew G McKinney",
+      "second": "Keith Miyake",
+      "count": 1
+    },
+    {
+      "first": "Andrew G McKinney",
+      "second": "Laura Kane",
+      "count": 1
+    },
+    {
+      "first": "Andrew G McKinney",
+      "second": "Micki Kaufman",
+      "count": 1
+    },
+    {
+      "first": "Angela Crumdy",
+      "second": "Kelsey Chatlosh",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Cen Liu",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Chen Zhou",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Cortnie Belser",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Maggie Schreiner",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Maura McCreight",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Anna Corbett",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Chen Zhou",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Cortnie Belser",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Maggie Schreiner",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Maura McCreight",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Cen Liu",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Cortnie Belser",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Maggie Schreiner",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Maura McCreight",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Chen Zhou",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Maggie Schreiner",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Maura McCreight",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Cortnie Belser",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Erin Glass",
+      "second": "Keith Miyake",
+      "count": 1
+    },
+    {
+      "first": "Erin Glass",
+      "second": "Laura Kane",
+      "count": 1
+    },
+    {
+      "first": "Erin Glass",
+      "second": "Micki Kaufman",
+      "count": 1
+    },
+    {
+      "first": "Keith Miyake",
+      "second": "Laura Kane",
+      "count": 1
+    },
+    {
+      "first": "Keith Miyake",
+      "second": "Micki Kaufman",
+      "count": 1
+    },
+    {
+      "first": "Laura Kane",
+      "second": "Micki Kaufman",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Maura McCreight",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Maggie Schreiner",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Maura McCreight",
+      "second": "Parisa Setayesh",
+      "count": 1
+    },
+    {
+      "first": "Maura McCreight",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Maura McCreight",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Maura McCreight",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Maura McCreight",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Olivia Ildefonso",
+      "second": "Stefano Morello",
+      "count": 1
+    },
+    {
+      "first": "Parisa Setayesh",
+      "second": "Peyton Cordero",
+      "count": 1
+    },
+    {
+      "first": "Parisa Setayesh",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Parisa Setayesh",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Parisa Setayesh",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Peyton Cordero",
+      "second": "Silvia Rivera Alfaro",
+      "count": 1
+    },
+    {
+      "first": "Peyton Cordero",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Peyton Cordero",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Silvia Rivera Alfaro",
+      "second": "Tuka Al-Sahlani",
+      "count": 1
+    },
+    {
+      "first": "Silvia Rivera Alfaro",
+      "second": "Zachary Lloyd",
+      "count": 1
+    },
+    {
+      "first": "Tuka Al-Sahlani",
+      "second": "Zachary Lloyd",
+      "count": 1
+    }
+  ]
+}

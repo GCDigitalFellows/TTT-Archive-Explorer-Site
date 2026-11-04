@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "human": "Ian G. Williams",
+  "approved": {
+    "search": "Both all-words and exact-phrase modes over full saved text, with matching explanations",
+    "reading": "Excerpts with full in-depth in-app reading options",
+    "public_scope": "421 published records by default; nine drafts remain metadata-only through research/accounting"
+  },
+  "related_implementation": "Focus/return paths, matched snippets, source-rights propagation, post results before the collapsed network, and preview heading/skip improvements. Existing production layout retained; five-route prototype is a separate preview.",
+  "open_decisions": [
+    "Network starting population and selection",
+    "Synthesis title/framing",
+    "Whether design history restyles the whole application or only a preview",
+    "Human evaluation resources and participants"
+  ],
+  "not_authorized_by_unanswered_questions": "No new network/evidence default, synthesis rename, design-history policy, human recruitment or production replacement inferred.",
+  "review": "inclusive_design_review_2026-11-03.md",
+  "source_project_revision": "994c8eadb3aadada4c4ed61e25e1419c39adf34d",
+  "deployment_revision": "fa14d07517627fc43c74fd4cff117adad8f1743d"
+}

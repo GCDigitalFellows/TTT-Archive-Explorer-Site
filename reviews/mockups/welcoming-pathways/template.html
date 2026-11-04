@@ -1,0 +1,155 @@
+<div id="welcoming-prototype" aria-label="Welcoming pathways interactive prototype">
+<style>
+#welcoming-prototype{--paper:light-dark(#faf9f4,#1b2420);--ink:light-dark(#223c32,#e6eee8);--muted:light-dark(#52675c,#b8cabe);--line:light-dark(#c4d1c6,#4a6153);--wash:light-dark(#e6eee4,#2c3e33);--action:light-dark(#255a44,#b7dbc5);--on-action:light-dark(#fffef9,#193929);--round:5px;--space:24px;--heading:Georgia,serif;--content:76ch;background:var(--paper);color:var(--ink);font:400 15px/1.55 system-ui,sans-serif;padding:25px 32px;min-height:820px;overflow-wrap:anywhere}
+#welcoming-prototype *{box-sizing:border-box}#welcoming-prototype [hidden]{display:none!important}
+#welcoming-prototype h1,#welcoming-prototype h2,#welcoming-prototype h3,#welcoming-prototype p{margin:0}
+#welcoming-prototype h1{font:400 clamp(30px,4.2vw,47px)/1.12 var(--heading);letter-spacing:-.035em;max-width:24ch}
+#welcoming-prototype h2{font:400 27px/1.22 var(--heading);letter-spacing:-.02em}
+#welcoming-prototype h3{font:500 17px/1.35 system-ui,sans-serif}
+#welcoming-prototype a{color:var(--action);text-underline-offset:3px}
+#welcoming-prototype button,#welcoming-prototype input,#welcoming-prototype select{font:inherit;max-width:100%;color:inherit}
+#welcoming-prototype button{border:1px solid var(--line);padding:9px 13px;border-radius:var(--round);background:transparent;min-height:42px}
+#welcoming-prototype button.primary{background:var(--action);color:var(--on-action);border-color:var(--action)}
+#welcoming-prototype button.link{padding:0;border:0;min-height:32px;text-align:left;color:var(--action);text-decoration:underline;text-underline-offset:4px}
+#welcoming-prototype button:disabled{opacity:.5}
+#welcoming-prototype button:focus-visible,#welcoming-prototype a:focus-visible,#welcoming-prototype input:focus-visible,#welcoming-prototype select:focus-visible,#welcoming-prototype summary:focus-visible{outline:3px solid var(--action);outline-offset:3px}
+#welcoming-prototype input,#welcoming-prototype select{background:var(--paper);border:1px solid var(--line);border-radius:var(--round);padding:10px 12px;min-width:0;width:100%}
+#welcoming-prototype .top{display:flex;justify-content:space-between;gap:22px;align-items:center;border-bottom:1px solid var(--line);padding:0 65px 19px 0;margin-bottom:25px}
+#welcoming-prototype .brand{font:400 23px/1.1 Georgia,serif;letter-spacing:-.025em;max-width:25ch}
+#welcoming-prototype .brand small{display:block;font:400 10px/1.7 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.13em;margin-top:5px}
+#welcoming-prototype nav{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+#welcoming-prototype nav button{border:0;padding:6px 0;font-size:13px;min-height:34px;border-bottom:2px solid transparent;border-radius:0}
+#welcoming-prototype nav button[aria-pressed="true"]{border-bottom-color:var(--action)}
+#welcoming-prototype .eyebrow{font:500 11px/1.5 system-ui,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+#welcoming-prototype .small{font-size:12px;color:var(--muted)}
+#welcoming-prototype .lead{font-size:16px;color:var(--muted);max-width:68ch}
+#welcoming-prototype .stack{display:grid;gap:var(--space)}
+#welcoming-prototype .tight{display:grid;gap:11px}
+#welcoming-prototype .row{display:flex;gap:11px;align-items:center;flex-wrap:wrap}
+#welcoming-prototype .hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center}
+#welcoming-prototype .context{background:var(--wash);padding:22px;border-radius:var(--round);display:grid;gap:11px}
+#welcoming-prototype .paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+#welcoming-prototype .path{border-top:2px solid var(--action);padding-top:15px;display:grid;gap:11px;align-content:start}
+#welcoming-prototype .path p{font-size:13px;color:var(--muted)}
+#welcoming-prototype .path button{justify-self:start}
+#welcoming-prototype .search{display:flex;gap:10px;align-items:end;flex-wrap:wrap}
+#welcoming-prototype .search label{flex:1;min-width:180px}
+#welcoming-prototype label>span{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}
+#welcoming-prototype .filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:14px}
+#welcoming-prototype .filters label{min-width:0}
+#welcoming-prototype .advanced{border-bottom:1px solid var(--line);padding:10px 0}
+#welcoming-prototype details summary{color:var(--action);padding:5px 0}
+#welcoming-prototype details p{margin-top:11px}
+#welcoming-prototype .results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 25px}
+#welcoming-prototype .post{display:grid;gap:8px;padding:16px 0;border-bottom:1px solid var(--line);align-content:start}
+#welcoming-prototype .post-title{font:400 22px/1.25 var(--heading);color:var(--ink);text-align:left;min-height:0;border:0;padding:0}
+#welcoming-prototype .excerpt{font-size:13px;color:var(--muted)}
+#welcoming-prototype .scope{padding:13px 0;font-size:12px;color:var(--muted);border-bottom:1px solid var(--line)}
+#welcoming-prototype .reading{max-width:var(--content);display:grid;gap:18px}
+#welcoming-prototype .reading>p{font:400 18px/1.65 Georgia,serif}
+#welcoming-prototype .reading h1{max-width:26ch;font-size:clamp(27px,3.8vw,40px)}
+#welcoming-prototype .note{background:var(--wash);padding:16px;border-radius:var(--round);font-size:13px}
+#welcoming-prototype blockquote{margin:10px 0;padding:0 0 0 16px;border-left:2px solid var(--action);font:400 17px/1.6 Georgia,serif}
+#welcoming-prototype .wisdom-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:30px;align-items:start}
+#welcoming-prototype .theme-list{display:grid;gap:8px}
+#welcoming-prototype .theme-list button{text-align:left;padding:12px;border:0;border-left:2px solid var(--line);border-radius:0}
+#welcoming-prototype .theme-list button[aria-pressed="true"]{background:var(--wash);border-left-color:var(--action)}
+#welcoming-prototype .source{border-top:1px solid var(--line);padding-top:16px;display:grid;gap:9px}
+#welcoming-prototype .profile{display:grid;grid-template-columns:minmax(90px,1fr) minmax(80px,2fr) minmax(40px,.4fr);gap:10px;align-items:center;padding:6px 0;font-size:12px}
+#welcoming-prototype .track{height:9px;background:var(--wash)}
+#welcoming-prototype .fill{height:100%;background:var(--action)}
+#welcoming-prototype .about-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}
+#welcoming-prototype footer{border-top:1px solid var(--line);margin-top:30px;padding-top:15px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;align-items:start}
+#welcoming-prototype footer button{font-size:12px}
+#welcoming-prototype .era-stage{border-top:2px solid var(--action);border-bottom:1px solid var(--line);padding:25px 0;display:grid;gap:15px}
+#welcoming-prototype .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:650px){#welcoming-prototype{padding:20px}#welcoming-prototype .top{display:grid;gap:15px;padding-right:0}#welcoming-prototype .hero,#welcoming-prototype .paths,#welcoming-prototype .wisdom-grid,#welcoming-prototype .results,#welcoming-prototype .about-grid{grid-template-columns:1fr}#welcoming-prototype .paths{gap:18px}#welcoming-prototype .filters{grid-template-columns:1fr}#welcoming-prototype .profile{grid-template-columns:1fr 2fr 42px}#welcoming-prototype nav{gap:14px}}
+@media(pointer:coarse){#welcoming-prototype button,#welcoming-prototype input,#welcoming-prototype select{min-height:44px}#welcoming-prototype input,#welcoming-prototype select{font-size:16px}}
+
+#welcoming-prototype .analysis-controls{display:flex;gap:14px;flex-wrap:wrap;align-items:end}
+#welcoming-prototype .analysis-controls label{flex:1;min-width:150px}
+#welcoming-prototype .analysis-tabs{display:flex;gap:18px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+#welcoming-prototype .analysis-tabs button{border:0;border-bottom:2px solid transparent;border-radius:0}
+#welcoming-prototype .analysis-tabs button[aria-pressed="true"]{border-bottom-color:var(--action)}
+#welcoming-prototype .annual-bars{display:grid;gap:9px;margin:12px 0}
+#welcoming-prototype .annual-row{display:grid;grid-template-columns:105px minmax(30px,1fr) 105px;gap:12px;align-items:center;border:0;padding:4px 0;border-radius:0;text-align:left;font-size:12px}
+#welcoming-prototype .annual-track{height:16px;background:var(--wash);display:block}
+#welcoming-prototype .annual-fill{height:100%;background:var(--action);display:block}
+#welcoming-prototype .analysis-section{display:grid;gap:14px;border-top:1px solid var(--line);padding-top:22px}
+#welcoming-prototype .network-svg{display:block;width:100%;overflow:visible}
+#welcoming-prototype .network-svg text{font:400 12px system-ui,sans-serif;fill:var(--ink)}
+#welcoming-prototype .network-svg a:focus{outline:2px solid var(--action)}
+#welcoming-prototype .network-svg path{stroke:var(--muted);fill:none;opacity:.65}
+#welcoming-prototype .network-svg a:hover text{text-decoration:underline}
+#welcoming-prototype .network-svg a:hover path,#welcoming-prototype .network-svg a:focus path{stroke:var(--action);opacity:1}
+#welcoming-prototype .network-svg a circle{fill:var(--action)}
+#welcoming-prototype .data-table{width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed}
+#welcoming-prototype .data-table th,#welcoming-prototype .data-table td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+#welcoming-prototype .data-table th{font-weight:500}
+#welcoming-prototype .data-table button.link{font-size:12px}
+#welcoming-prototype .narrow-network{display:none}
+#welcoming-prototype .skip-content{position:absolute;left:-10000px}#welcoming-prototype .skip-content:focus{position:static}#welcoming-prototype .path h2,#welcoming-prototype .context h2{font:500 17px/1.35 system-ui,sans-serif}
+@media(max-width:650px){#welcoming-prototype .network-only{display:none}#welcoming-prototype .narrow-network{display:block}#welcoming-prototype .annual-row{grid-template-columns:84px minmax(20px,1fr) 84px;gap:7px}#welcoming-prototype .analysis-controls label{min-width:130px}}
+</style>
+<a class="skip-content" href="#wp-active-heading">Skip to current content</a>
+<p class="eyebrow">Interactive discussion prototype · live site unchanged</p>
+<header class="top"><div class="brand">Tagging the Tower<small>Archive Explorer · Graduate Center, CUNY</small></div><nav aria-label="Prototype navigation"><button type="button" data-route="home" aria-pressed="true">Start here</button><button type="button" data-route="browse" aria-pressed="false">Browse posts</button><button type="button" data-route="wisdom" aria-pressed="false">Collective wisdom</button><button type="button" data-route="analysis" aria-pressed="false">Analysis & networks</button><button type="button" data-route="about" aria-pressed="false">People & methods</button></nav></header>
+<p id="wp-announcement" class="sr" role="status" aria-live="polite"></p>
+<section data-view="home" class="stack" aria-label="Welcome">
+<div class="hero"><div class="tight"><p class="eyebrow">A community learning in public</p><h1>New ways to work.<br>Ideas worth sharing.</h1><p class="lead">Explore the questions, experiments and people behind digital scholarship at the Graduate Center, part of the City University of New York.</p></div><aside class="context"><h2>Who are the Digital Fellows?</h2><p>They support digital research and teaching through workshops, consultations and shared resources. Their blog also includes students, institute participants and guest authors.</p><button type="button" class="link" data-route="about">Meet the people and understand the project →</button></aside></div>
+<div class="paths"><article class="path"><p class="eyebrow">Find</p><h2>Something useful</h2><p>Look for a person, tool or question. Read a post and inspect its source.</p><button type="button" data-route="browse">Browse the archive →</button></article><article class="path"><p class="eyebrow">Discover</p><h2>Something unexpected</h2><p>A random encounter with any of the 421 published records.</p><button type="button" data-random="all">Surprise me →</button></article><article class="path"><p class="eyebrow">Consider</p><h2>The bigger picture</h2><p>Follow a machine-assisted reading back to the authors’ own words.</p><button type="button" data-route="wisdom">Explore collective wisdom →</button></article></div>
+<p id="wp-home-help" class="small">Search whole words in any order, or an exact phrase, across full saved text. Case, accents and punctuation are ignored.</p><form class="search" id="wp-home-search"><label><span>Search titles, credited names, tags and full saved text</span><input name="query" type="search" placeholder="Try “linked data”, “AI” or a writer’s name" aria-label="Search from the welcome page" aria-describedby="wp-home-help"></label><label><span>Search matching</span><select id="wp-home-mode"><option value="words">All words</option><option value="phrase">Exact phrase</option></select></label><button type="button" id="wp-home-go" class="primary">Search posts</button></form>
+<div class="row"><span class="small">421 published records · 2012–2026 · November 1, 2026 snapshot</span><button type="button" class="link" data-route="about">What is included?</button></div>
+<div class="tight"><h2>A voice from the archive</h2><blockquote>“The Digital Fellows not only showed us how to use the tools, but they also explained how they acquired their own knowledge and how to figure out problems on our own in the future.”</blockquote><p class="small">Maren Rothfritz · participant reflection · 2023 · explicit article credit</p><button type="button" class="link" data-post="6755">Read the post and its attribution →</button></div>
+</section>
+<section data-view="browse" class="stack" aria-label="Browse published posts" hidden>
+<div class="tight"><p class="eyebrow">Find the writing and the writers</p><h1>Browse the archive</h1><p class="lead">Search the published records, choose a year or credited name, and open an excerpt or the full saved text.</p></div>
+<form class="search" id="wp-search"><label><span>Titles, credits, known aliases, tags and full saved text</span><input name="query" type="search" placeholder="A name, tool or idea" aria-label="Search published archive records" aria-describedby="wp-browse-help"></label><label><span>Search matching</span><select id="wp-search-mode"><option value="words">All words</option><option value="phrase">Exact phrase</option></select></label><button class="primary" id="wp-search-go" type="button">Search</button><button type="button" id="wp-clear">Clear filters</button></form>
+<div class="filters"><label><span>Academic year</span><select id="wp-year" aria-label="Academic year"></select></label><label><span>Credited name</span><select id="wp-author" aria-label="Credited name"></select></label></div>
+<details class="advanced"><summary>More filters and credit definitions</summary><div class="filters"><label><span>Post type</span><select id="wp-kind"><option value="all">All published types</option><option value="local">Local / unflagged</option><option value="curated">Curated / source-linked</option></select></label><label><span>Authorship evidence</span><select id="wp-evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported only</option></select></label></div><p class="small">An account credit does not verify who wrote a post. Recorded author metadata and source-supported credits are different evidence levels. None establishes fellowship membership. Guest and participant posts remain included.</p></details>
+<div class="row"><p id="wp-result-scope" class="scope" role="status" aria-live="polite"></p><button type="button" data-random="filtered" id="wp-random-filtered">Random from these results</button></div>
+<div class="results" id="wp-results"></div><button type="button" id="wp-more">Show 12 more posts</button>
+<p id="wp-browse-help" class="small">Search covers metadata and full saved text. All words finds every whole word in any order; Exact phrase finds adjacent whole words in one field or paragraph. Both ignore case, accents and punctuation. Draft bodies are excluded. <a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/ARCHIVE_COVERAGE.html">Research/accounting: all 430 records and nine drafts’ metadata</a>.</p>
+</section>
+<section data-view="read" class="stack" aria-label="Read a post excerpt" hidden>
+<div class="row"><button type="button" id="wp-read-back">← Back to results</button><button type="button" id="wp-another-random">Another random post</button></div><div id="wp-read"></div>
+</section>
+<section data-view="wisdom" class="stack" aria-label="Collective wisdom" hidden>
+<div class="tight"><p class="eyebrow">Machine-assisted synthesis · human-authored source posts</p><h1>What might these voices teach us together?</h1><p class="lead">An AI-assisted interpretation of 19 selected posts. Explore a theme, inspect its passages, and return to the original authors.</p><p class="small">These are interpretive groupings from the existing essay, not MALLET categories, a consensus of the authors or estimates of archive-wide prevalence.</p></div><div class="wisdom-grid"><div id="wp-theme-list" class="theme-list" aria-label="Interpretive themes"></div><div id="wp-theme-content" class="tight"></div></div>
+</section>
+
+<section data-view="analysis" class="stack" aria-label="Text analysis and authorship networks" hidden>
+<div class="tight"><p class="eyebrow">Explore saved results · follow the posts behind a pattern</p><h1>Patterns in the writing.<br>Connections in the credits.</h1><p class="lead">Compare recurring word groups across years, inspect keyword signals, and explore who is credited together and over time.</p><p class="small">These charts reuse saved evidence. No new model is fitted. Recorded authorship, fellowship membership and collaboration are different claims.</p></div>
+<div class="analysis-controls"><label><span>Academic year</span><select id="wp-a-year" aria-label="Analysis academic year"></select></label><label><span>Credited name</span><select id="wp-a-author" aria-label="Analysis credited name"></select></label><label><span>Credit evidence</span><select id="wp-a-evidence" aria-label="Analysis credit evidence"><option value="all">All recorded credits</option><option value="supported">Source-supported only</option></select></label><button type="button" id="wp-a-clear">Clear analysis filters</button></div>
+<p id="wp-a-scope" class="scope" role="status" aria-live="polite"></p>
+<div class="analysis-tabs" aria-label="Analysis displays"><button type="button" data-analysis-view="texts" aria-pressed="true">Text patterns</button><button type="button" data-analysis-view="networks" aria-pressed="false">Authorship networks</button></div>
+<div id="wp-a-texts" class="stack">
+<section class="analysis-section"><h2>Recurring word groups over time</h2><label><span>Saved MALLET topic · primary eight-topic model</span><select id="wp-a-topic" aria-label="Saved topic"></select></label><p id="wp-a-topic-words" class="small"></p><p class="small">Each bar is the mean topic weight among eligible modeled posts in that year (0–100%). It is not a percentage of posts assigned to one exclusive theme. Labels are agent-developed interpretations; inspect source posts before making historical claims. Select a year to inspect its posts.</p><div id="wp-a-topic-bars" class="annual-bars" aria-label="Mean topic weights by academic year"></div></section>
+<section class="analysis-section"><h2>Keyword signals in titles and tags</h2><label><span>Saved dictionary signal</span><select id="wp-a-signal" aria-label="Keyword signal"></select></label><p class="small">Bars show matching posts divided by eligible local posts in each year (0–100%). Signals overlap and may be incidental. They are separate from both MALLET topics and the six interpretive essay themes.</p><div id="wp-a-signal-bars" class="annual-bars" aria-label="Keyword shares by academic year"></div></section>
+</div>
+<div id="wp-a-networks" class="stack" hidden>
+<section class="analysis-section"><h2>Recorded authorship connections</h2><div class="analysis-controls"><label><span>Network view</span><select id="wp-a-network-mode" aria-label="Authorship network view"><option value="years">Authors ↔ academic years</option><option value="bylines">Shared bylines around one author</option></select></label><label><span>Names drawn in the graph</span><select id="wp-a-network-limit" aria-label="Names drawn in the graph"><option value="12">Up to 12 by recorded post credits</option><option value="all">All eligible names / partners</option></select></label></div><p id="wp-a-network-scope" class="small"></p><p class="small">Lines count published local posts carrying the recorded credits; thicker lines mean more such posts. Curated/source-linked records and drafts are excluded. A shared byline does not establish a working relationship or verified individual productivity. Select a name, year or line to inspect sources.</p><div id="wp-a-network" class="network-only"></div><p class="small narrow-network">The complete tables below provide the network at this narrow width. Use a wider view for the graph.</p><details id="wp-a-network-table"><summary>Every eligible credited name and its post counts</summary><div id="wp-a-author-table"></div></details></section>
+<section class="analysis-section"><h2>Shared recorded bylines</h2><p class="small">Each pair counts a shared post once. Collective introductions and welcome posts can contribute many pairs; these are not inferred collaborations.</p><div id="wp-a-pairs"></div></section>
+</div>
+<section class="analysis-section" id="wp-analysis-posts"><h2>Posts behind the selection</h2><p id="wp-a-detail-scope" class="small" role="status" aria-live="polite">Select a year, network connection or author to inspect the source posts.</p><div id="wp-a-posts" class="results"></div><button type="button" id="wp-a-more" hidden>Show more source posts</button></section>
+</section>
+
+<section data-view="about" class="stack" aria-label="People, methods and accountability" hidden>
+<div class="tight"><p class="eyebrow">For readers, writers and reviewers</p><h1>People, evidence and interpretation</h1><p class="lead">The archive connects practical work with reflection. Understanding who contributed and how the evidence was handled matters as much as the interface.</p></div>
+<div class="about-grid"><article class="tight"><h2>The people</h2><p>The Graduate Center is part of the City University of New York. Graduate Center Digital Initiatives supports digital research and teaching; the GC Digital Fellows help through workshops, consultations and shared resources.</p><p>Posts also come from guest authors and institute participants. A guest writer may not have been a Fellow at publication. Membership, posting account and article authorship are separate records.</p><a href="https://gcdi.commons.gc.cuny.edu/people/" target="_blank" rel="noopener noreferrer">GCDI people and role histories ↗</a></article><article class="tight"><h2>The evidence</h2><p>The full export accounts for 430 category records: 421 published records and 9 drafts. This prototype browses the 421 published records and shortened reading excerpts. Curated/source-linked material remains labelled.</p><p>Saved MALLET weights are available for 299 posts. The essay uses 19 selected examples. These populations answer different questions.</p><a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/ARCHIVE_COVERAGE.html" target="_blank" rel="noopener noreferrer">Inspect the full accounting and credit evidence ↗</a></article></div>
+<details><summary>Who made this? CRediT, GAIDeT and AI disclosure</summary><p>Ian G. Williams supplied the project direction, audience priorities and revision requests. OpenAI Codex drafted the prototype, wrote code and performed checks using saved archive evidence. This is a discussion prototype; it does not imply approval of its layout or every interpretation.</p><p>CRediT records documented human contributions; GAIDeT records tasks delegated to AI. Original post authors retain source-writing credit and are not automatically contributors to this new analysis.</p><a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/CREDITS_AND_PROCESS.html" target="_blank" rel="noopener noreferrer">Full project contributor disclosure ↗</a></details>
+<details><summary>How does the prototype work?</summary><p>Search compares words against saved titles, credits/aliases, tags and displayed excerpts. It does not search the complete original posts. Random selection gives eligible records equal chance and avoids the previous draw when another post is available.</p><p>Reading excerpts are shortened from the saved plain-text copy; images and embeds remain at the original source. The word and topic displays reuse existing NLTK/MALLET outputs. No new text model is trained or inferred here.</p><p>The back-end recipe and interface code are annotated in the source project. Data quality, original credits, uncertainty and reviewer access are preserved as design requirements.</p></details>
+<details><summary>For mentors, administrators and funders</summary><p>The archive can document published work, teaching resources, participant experiences and critical reflection. It does not on its own establish program effectiveness, verified aggregate outcomes or causal contributions to the university mission. Those claims require additional evidence.</p><p>Fellows, alumni and authors should be able to find their work, understand how it is represented and request corrections. Students and faculty can follow practical questions to the original posts and GCDI resources.</p></details>
+<div class="row"><a href="mailto:ian.williams52@gc.cuny.edu?subject=Tagging%20the%20Tower%20credit%20correction">Request a correction</a><a href="https://gcdi.commons.gc.cuny.edu/category/tagging-the-tower/" target="_blank" rel="noopener noreferrer">Visit the original publication ↗</a></div>
+</section>
+<section data-view="design" class="stack" aria-label="Optional design history exhibit" hidden>
+<div class="tight"><p class="eyebrow">A playful detour</p><h1>Travel through the archive’s visual eras</h1><p class="lead">Try a different design year. The posts, credits and interpretation stay the same.</p></div><label><span>Design year — independent of publication year</span><select id="wp-design-year" aria-label="Design year"></select></label><div class="era-stage"><p id="wp-era-kind" class="eyebrow"></p><h2 id="wp-era-name"></h2><p id="wp-era-description"></p><p class="small" id="wp-era-caveat"></p><button type="button" class="primary" data-route="browse">Try this appearance while browsing →</button></div><div class="tight"><h3>Sources behind this treatment</h3><div id="wp-era-sources" class="tight"></div></div><p class="small">Based on the existing sourced 2012–2026 design catalog. This prototype adapts type, shape and the light palette; dark colors preserve the reading contrast. It is an interpretation of design trends, not an exact reconstruction.</p><button type="button" id="wp-design-reset">Return to the default appearance</button>
+</section>
+<footer><span class="small">Working prototype · source export November 1, 2026<br>Directed by Ian G. Williams · developed with AI assistance<br><a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/REUSE_AND_CITATION.html">MIT for original project work; source posts retain separate rights</a></span><div class="row"><button class="link" type="button" data-route="about">Credits & methods</button><button class="link" type="button" data-route="design">Explore design history</button><span class="small" id="wp-era-status">Appearance: 2026</span></div></footer>
+<script type="application/json" id="wp-data">__DATA__</script>
+<script>__SEARCH_CORE__</script>
+<script>__CORE__</script>
+<script>__ANALYSIS_CORE__</script>
+<script>__ANALYSIS_UI__</script>
+<script>__UI__</script>
+</div>

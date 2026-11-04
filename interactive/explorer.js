@@ -759,6 +759,13 @@
         .setAttribute("aria-pressed", String(name === view));
     }
     renderActiveView();
+    const heading = byId("view-" + view).querySelector("h1,h2,h3");
+    if (heading) {
+      if (!heading.id) heading.id = "current-view-heading-" + view;
+      heading.tabIndex = -1;
+      byId("skip-current-content").href = "#" + heading.id;
+      if (updateAddress) heading.focus();
+    }
     if (updateAddress) {
       try { window.history.pushState(null, "", window.TowerNavigation.hashForView(view, window.location.hash)); }
       catch (_) { /* The visible view still works in restrictive local-file hosts. */ }
@@ -807,6 +814,12 @@
   }
 
   function initialize() {
+    byId("skip-current-content").addEventListener("click", event => {
+      // A content bypass must not be interpreted as an application view route.
+      event.preventDefault();
+      const heading = byId("view-" + activeView).querySelector("h1,h2,h3");
+      if (heading) { heading.tabIndex = -1; heading.focus(); heading.scrollIntoView({block:"start"}); }
+    });
     byId("snapshot").textContent =
       "299 modeled posts · five fitted models · published records through October 2026 · 2026–27 is partial";
     options(
@@ -884,7 +897,7 @@
       button.addEventListener("click", () => {
         showView(button.dataset.openView);
         announce("Opened " + button.dataset.openView + " view.");
-        document.querySelector('[data-view="' + button.dataset.openView + '"]').focus();
+        // showView focuses the destination heading, not a hidden/removed control.
       }),
     );
     document.querySelectorAll("[data-view]").forEach((button) =>

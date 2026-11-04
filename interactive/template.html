@@ -27,6 +27,7 @@
           >Design research &amp; sources ↗</a
         >
       </div>
+      <a href="#index-heading" id="skip-current-content" class="skip-content">Skip to current content</a>
       <header class="page-hero">
         <div class="hero-copy">
           <p class="eyebrow">Digital scholarship at the CUNY Graduate Center</p>
@@ -289,25 +290,32 @@
         <p class="eyebrow">Browse the archive</p>
         <h2 id="index-heading">Post index &amp; author–year network</h2>
         <p>
-          Search all 430 category records: 421 published posts and 9 drafts.
+          Browse 421 published posts by default. Research/accounting options retain all 430 category records, including nine drafts’ metadata.
           Search covers titles, credits, known name variants, tags, and published reading-copy text.
           Draft bodies are not included.
         </p>
+        <p id="index-search-help" class="secondary">All words: every whole word, in any order. Exact phrase: adjacent whole words in one field or paragraph. Both search the full saved plain-text copy; case, accents and punctuation are ignored.</p><button type="button" id="index-drafts">Research/accounting: inspect nine drafts’ metadata</button> · <a href="ARCHIVE_COVERAGE.html">Complete 430-record ledger</a>
         <div class="controls">
           <label
             >Search posts<input
               id="index-search"
+              aria-describedby="index-search-help"
               type="search"
               placeholder="Title, person, tag, or phrase"
           /></label>
-          <label>Academic year<select id="index-year"></select></label><label>Membership evidence<select id="index-membership"><option value="all">All records, regardless of membership evidence</option><option value="signed">Original signed teams</option><option value="resolved-signed">Signed teams with reviewed names</option><option value="directory-digital">Dated Digital Fellow intervals</option><option value="directory-any">Any dated GCDI role</option><option value="combined">Resolved signed team or dated Digital Fellow interval</option></select></label>
+          <label>Search matching<select id="index-search-mode"><option value="words">All words</option><option value="phrase">Exact phrase</option></select></label>
+          <label>Academic year<select id="index-year"></select></label>
           <label
             >Author / source writer<select id="index-author"></select
           ></label>
+          <button type="button" id="index-reset">Clear index filters</button>
+        </div>
+        <details id="index-research-controls"><summary>Research/accounting filters and definitions</summary>
+        <div class="controls"><label>Membership evidence<select id="index-membership"><option value="all">All records, regardless of membership evidence</option><option value="signed">Original signed teams</option><option value="resolved-signed">Signed teams with reviewed names</option><option value="directory-digital">Dated Digital Fellow intervals</option><option value="directory-any">Any dated GCDI role</option><option value="combined">Resolved signed team or dated Digital Fellow interval</option></select></label>
           <label
             >Publication status<select id="index-status">
               <option value="all">All records, including drafts</option>
-              <option value="publish">Published only</option>
+              <option value="publish" selected>Published only</option>
               <option value="draft">Drafts only</option>
             </select></label
           >
@@ -336,7 +344,6 @@
               <option value="theme">Title/tag theme signal (overlapping)</option>
             </select></label
           >
-          <button type="button" id="index-reset">Clear index filters</button>
           <button type="button" id="index-export">
             Export matching records as CSV
           </button>
@@ -368,8 +375,14 @@
           interpretations, not exclusive categories.
         </p>
         <p class="secondary">Theme signals are saved title/category/tag dictionary matches, not MALLET topics or validated semantic codes. Theme groups overlap. The Themes &amp; connections view compares other evidence layers.</p>
+        </details>
         <p id="index-scope" role="status" aria-live="polite"></p>
-        <details class="index-network" open>
+        <div id="index-results"></div>
+        <button type="button" id="index-more">
+          Show 50 more matching posts
+        </button>
+
+        <details class="index-network">
           <summary>Explore authors and academic years</summary>
           <p>
             Edges count published local posts crediting an author in an academic
@@ -400,10 +413,6 @@
             <div id="network-table" class="table-scroll"></div>
           </details>
         </details>
-        <div id="index-results"></div>
-        <button type="button" id="index-more">
-          Show 50 more matching posts
-        </button>
       </section>
 
       <section id="view-random" aria-labelledby="random-heading" hidden>
@@ -716,6 +725,7 @@
       __INDEX_DATA__
     </script>
     <script>
+      __SEARCH_CORE__
       __INDEX_MATH__
     </script>
     <script>

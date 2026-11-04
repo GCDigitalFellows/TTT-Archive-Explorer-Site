@@ -122,7 +122,14 @@
     tools.append(node("p", "Runs locally: opens saved results and paragraph search. No upload or new model fit.", "secondary"), analyze, panel);
     article.append(tools);
     const body = node("div", "", "random-body");
-    for (const paragraph of post.paragraphs) body.append(node("p", paragraph));
+    const preview = node("div");
+    for (const paragraph of window.TowerSearch.excerpt(post.paragraphs)) preview.append(node("p", paragraph));
+    const full = node("details");
+    full.append(node("summary", "Read the full saved text"));
+    full.append(node("p", "Complete saved plain-text copy. Images, embeds and original formatting remain at the original source.", "secondary"));
+    for (const paragraph of post.paragraphs) full.append(node("p", paragraph));
+    full.addEventListener("toggle", () => { preview.hidden = full.open; });
+    body.append(node("p", "Reading excerpt · expand below for the full saved text", "secondary"), preview, full);
     if (!post.paragraphs.length)
       body.append(
         node(
@@ -326,6 +333,21 @@
   }
 
   window.TowerReader = {
+    show(id, returnTarget) {
+      // Reuse the existing reader; returning preserves the index filters/cards.
+      document.querySelector('[data-view="random"]').click();
+      const post = posts.find(p => p.id === id);
+      if (!post) return;
+      currentId = id; render(post, 1);
+      byId("random-scope").textContent = "Opened from the post index · " + post.title;
+      const back = node("button", "← Back to post results"); back.type = "button";
+      back.addEventListener("click", () => {
+        document.querySelector('[data-view="index"]').click();
+        if (returnTarget?.isConnected) { returnTarget.focus(); returnTarget.scrollIntoView({block:"center"}); }
+      });
+      byId("random-article").prepend(back);
+      const heading = byId("random-title"); heading.tabIndex = -1; heading.focus();
+    },
     open() {
       if (ready) return; // Returning to this tab preserves the current article.
       ready = true;
@@ -334,7 +356,10 @@
         option.value = year;
         byId("random-year").append(option);
       }
-      byId("random-next").addEventListener("click", draw);
+      byId("random-next").addEventListener("click", () => {
+        draw(); const heading = byId("random-title");
+        if (heading) { heading.tabIndex = -1; heading.focus(); }
+      });
       for (const id of ["random-year", "random-kind"])
         byId(id).addEventListener("change", draw);
       draw();

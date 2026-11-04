@@ -2,6 +2,7 @@
  * Topic thresholds inspect each saved mixture; network edges count post credits.
  */
 "use strict";
+const indexSearch = typeof module !== "undefined" && module.exports ? require("./search_core.js") : window.TowerSearch;
 function filterIndexPosts(posts, model, choices) {
   const query = choices.query.trim().toLocaleLowerCase();
   return posts.filter((post) => {
@@ -33,7 +34,7 @@ function filterIndexPosts(posts, model, choices) {
       (!weights || weights[Number(choices.topic)] < choices.threshold)
     )
       return false;
-    return !query || post.searchText.includes(query);
+    return indexSearch.matches(post.searchFields || [post.searchText], query, choices.searchMode || "words");
   });
 }
 function strongestTopic(post, model) {

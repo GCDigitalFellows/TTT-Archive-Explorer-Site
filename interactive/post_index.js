@@ -31,6 +31,7 @@
       evidence: byId("index-evidence").value,
       membershipBasis: byId("index-membership").value,
       query: byId("index-search").value,
+      searchMode: byId("index-search-mode").value,
       year: byId("index-year").value,
       author: byId("index-author").value,
       status: byId("index-status").value,
@@ -77,6 +78,14 @@
     }
     title.append(heading);
     article.append(title);
+    if (post.status === "publish") {
+      const read = node("button", "Read excerpt and full saved text");
+      read.type = "button";
+      read.addEventListener("click", () => window.TowerReader.show(post.id, read));
+      article.append(read);
+      const snippet = window.TowerSearch.snippet(post.paragraphs || [], choices().query, choices().searchMode);
+      if (snippet) article.append(node("p", snippet, "secondary"));
+    }
     article.append(
       node(
         "p",
@@ -395,6 +404,8 @@
       "index-membership",
     ])
       byId(id).value = "all";
+    byId("index-status").value = "publish";
+    byId("index-search-mode").value = "words";
     byId("index-threshold").value = "0.2";
     limit = 50;
     render();
@@ -418,6 +429,7 @@
       source_author: post.sourceAuthor,
       title_tag_theme_signals: (post.themeSignals || []).join("; "),
       theme_filter: byId("index-theme").value,
+      search_mode: byId("index-search-mode").value,
       strongest_topic: topicLabel(math.strongestTopic(post, model)),
       url: post.status === "publish" ? post.url : "",
     }));
@@ -442,12 +454,13 @@
       const reading = new Map(
         JSON.parse(byId("reader-data").textContent).map((post) => [
           post.id,
-          post.paragraphs.join(" "),
+          post.paragraphs,
         ]),
       );
       posts = JSON.parse(byId("index-data").textContent).map((post) => ({
         ...post,
-        searchText: [
+        paragraphs: reading.get(post.id) || [],
+        searchFields: [
           post.title,
           ...post.authors,
           ...(post.originalAuthors || []),
@@ -455,10 +468,8 @@
           post.creator,
           post.sourceAuthor,
           ...post.tags,
-          reading.get(post.id) || "",
-        ]
-          .join(" ")
-          .toLocaleLowerCase(),
+          ...(reading.get(post.id) || []),
+        ],
       }));
       options("index-year", [
         ["all", "All academic years"],
@@ -477,6 +488,7 @@
         ...model.topics.map((t) => [String(t.id), topicLabel(t.id)]),
       ]);
       for (const id of [
+        "index-search-mode",
         "index-year",
         "index-author",
         "index-status",
@@ -492,6 +504,13 @@
           limit = 50;
           render();
         });
+      byId("index-drafts").addEventListener("click", () => {
+        reset(); byId("index-research-controls").open = true; byId("index-status").value = "draft"; render();
+        byId("index-scope").tabIndex = -1; byId("index-scope").focus();
+      });
+      byId("index-search").addEventListener("keydown", event => {
+        if (event.key === "Enter") { event.preventDefault(); byId("index-scope").tabIndex = -1; byId("index-scope").focus(); }
+      });
       byId("index-search").addEventListener("input", () => {
         limit = 50;
         render();

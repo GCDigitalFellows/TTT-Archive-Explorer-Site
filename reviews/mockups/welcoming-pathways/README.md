@@ -6,10 +6,10 @@ This is an isolated prototype of the direction Ian selected for further explorat
 
 - A public-first welcome explaining the Graduate Center/CUNY context and Digital Fellows without assuming institutional knowledge.
 - Navigation among Start here, Browse posts, Collective wisdom and People & methods, with an optional design-history exhibit.
-- All **421 published records**, including **96 curated/source-linked** records; search across titles, credited names/known aliases, tags and displayed excerpts. Search does **not** cover complete original text.
+- All **421 published records**, including **96 curated/source-linked** records; search across titles, credited names/known aliases, tags and complete saved plain-text reading copies. **All words** matches whole words in any order; **Exact phrase** matches adjacent words within one indexed field or paragraph. Both normalize case, accents and punctuation. Original formatting, images and embeds are not searched.
 - Academic-year and exact credited-name filters, optional type/evidence filters, visible result scope, reset, pagination and empty-state handling.
 - Uniform random discovery from the complete published archive or the current search result set; the previous random draw is excluded when another record is eligible.
-- A reading excerpt, original-source link, original credit strings, posting account, evidence tier and available credit quotation. Excerpts are shortened to a display budget; original source content remains authoritative.
+- A reading excerpt with expandable full saved text, original-source and source-rights links, original credit strings, posting account, evidence tier and available credit quotation. Excerpts are shortened to a display budget; original source content remains authoritative.
 - The **299 existing saved primary-model profiles**, where available, with labelled mixture weights and top cleaned-word counts. Unmodeled posts receive an exclusion explanation; no new fit/inference occurs.
 - Six existing interpretive groups with their **19 selected source examples** and literal saved passages. Condensed interpretive copy is AI-drafted; these are not a consensus, exhaustive coding or prevalence estimates.
 - All **15 sourced annual design presets**, with a constrained appearance adaptation, caveats, source references and a reset. Design year is independent of publication year and never changes the evidence.
@@ -70,3 +70,14 @@ All 16 prototype checks pass. Eight new checks protect populations, every unfilt
 ## License update · November 3, 2026
 
 Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.
+
+
+## Approved reading/search revision · November 4, 2026
+
+Ian approved both search modes, excerpts with in-depth reading, and 421 published records as the public default with nine drafts’ metadata retained in research/accounting. The shared `analysis/interactive/search_core.js` implements whole-word and exact-phrase rules for both interfaces; snippets come from saved reading text, not model inference. `fullParagraphs` preserves each entire saved plain-text copy exactly. Cards/excerpts are display projections only.
+
+Open `index.html` in this directory for the current standalone preview. Full text makes this preview larger than the conversation renderer’s former 1 MB limit; earlier inline previews are historical and are not the current complete-text version. `build_prototype.py` now also writes a complete standalone document. Do not pass the larger fragment to the inline renderer or silently truncate the corpus to meet its size budget.
+
+Search submission and post opening focus a visible heading/summary; returning from a result restores its activating button. A skip route bypasses repeated navigation. Source-license evidence links to the current rights ledger, with missing or unversioned terms explicit. Public draft metadata remains separate from reader bodies.
+
+Network defaults, synthesis framing, design-history scope and human evaluation remain open decisions. The current production interface receives bounded reading/search improvements; this prototype does not replace the live layout.

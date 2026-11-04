@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "performed_by": "OpenAI Codex; exact model build not recorded",
+  "scope": "Approved search, excerpt/full reading, published-only default, related focus/navigation/rights access; not prototype-to-production replacement",
+  "automated": {
+    "node_checks": 41,
+    "result": "passed",
+    "python_process_checks": 8,
+    "python_credit_checks": 4,
+    "python_rights_checks": 2,
+    "coverage": "430 category records, 421 published, nine drafts; browser datasets verified",
+    "frozen_reference": "33 reference files unchanged; ten documented corrections match ledger; fitted models/word corpora unchanged"
+  },
+  "browser_checks": [
+    "Draft phrase linked data: three results include On Being Stuck and both McMichael posts, excluding the LinkedIn substring substitution",
+    "Draft Enter submission focuses Browse the archive; post opening focuses the article heading; Back to results restores the On Being Stuck result button",
+    "Draft and current-layout reader expand full saved text; article-specific source-rights link retained",
+    "Current-layout phrase mode returns the same three example records; in-app reader Back preserves query, phrase mode and activating result",
+    "Public index starts at 421 records and zero drafts; accounting action shows nine metadata-only drafts with no reading buttons or public post links; Clear returns to 421",
+    "Current-layout graph starts collapsed after results; research controls are under an optional disclosure",
+    "320px current-layout index: no page overflow; sampled results begin about 1576px from initial page top versus about 5295px in the prior review"
+  ],
+  "not_performed": [
+    "Human participant usability research",
+    "Actual screen-reader testing",
+    "Full WCAG audit",
+    "All appearance/zoom combinations",
+    "A new NLP model fit"
+  ],
+  "approval_limits": [
+    "Network defaults unanswered",
+    "Synthesis framing unanswered",
+    "Design-history scope unanswered",
+    "Human evaluation resources unanswered"
+  ],
+  "preview_safety": "Automatic approval review rejected serving the private checkout. Browser checks used only four HTML files in a temporary directory; no private source or Git history was served."
+}

@@ -1,11 +1,11 @@
 {
   "title": "Active simplification backlog",
-  "updated": "2026-11-03",
-  "status": "planning only; no website revisions approved or implemented",
+  "updated": "2026-11-04",
+  "status": "Original proposals retained; limited search/reading/scope actions approved and implemented November 4; remaining choices open",
   "source_revision": "d7620afe66b57b821e4aceef479bd35db48a3aca",
   "deployment_revision": "8fe72495cdd6d85ddf685c86aa0022a7371519de",
   "review_method": "Primary Codex agent inspected the current checked-in site template, generated page, UI code, documentation and build audit. No new sub-agents, human usability sessions, browser QA or runtime performance benchmarks were conducted.",
-  "priority_basis": "Ian’s November 3 clarification: public audience first, Fellows/alumni second; easy archive navigation with prominent search and random discovery, machine-assisted synthesis, data quality and human interpretability. Design history is preserved in some form. No production simplification is approved.",
+  "priority_basis": "Ian’s November 3 clarification: public audience first, Fellows/alumni second; easy archive navigation with prominent search and random discovery, machine-assisted synthesis, data quality and human interpretability. Design history is preserved in some form. No production simplification is approved. November 4: the separate approval record supersedes the earlier no-implementation status only for its bounded actions.",
   "observed": {
     "primary_routes": 13,
     "primary_route_ids": [
@@ -1319,5 +1319,27 @@
         "production_approval": false
       }
     ]
-  }
+  },
+  "approval_updates": [
+    {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "approved": {
+        "search": "Both all-words and exact-phrase modes over full saved text, with matching explanations",
+        "reading": "Excerpts with full in-depth in-app reading options",
+        "public_scope": "421 published records by default; nine drafts remain metadata-only through research/accounting"
+      },
+      "related_implementation": "Focus/return paths, matched snippets, source-rights propagation, post results before the collapsed network, and preview heading/skip improvements. Existing production layout retained; five-route prototype is a separate preview.",
+      "open_decisions": [
+        "Network starting population and selection",
+        "Synthesis title/framing",
+        "Whether design history restyles the whole application or only a preview",
+        "Human evaluation resources and participants"
+      ],
+      "not_authorized_by_unanswered_questions": "No new network/evidence default, synthesis rename, design-history policy, human recruitment or production replacement inferred.",
+      "review": "inclusive_design_review_2026-11-03.md",
+      "source_project_revision": "994c8eadb3aadada4c4ed61e25e1419c39adf34d",
+      "deployment_revision": "fa14d07517627fc43c74fd4cff117adad8f1743d"
+    }
+  ]
 }
