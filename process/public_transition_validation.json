@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-04",
+  "input_source_revision": "aa1405678637742df5e1ba4e62615496d534cdb9",
+  "input_public_revision": "82d7a089c9dc1502964a3444fe4805ed05d3a81a",
+  "archive": "archives/public-site/2026-11-04-before-welcoming-pathways/",
+  "archive_files": 389,
+  "archive_bytes": 63179784,
+  "public_policy": "scripts/public_release_manifest.json; explicit source-to-destination map, no recursive publication",
+  "automated": {
+    "new_release_tests": 4,
+    "new_route_tests": 2,
+    "existing_frontend_node_tests": 18,
+    "python_word_people_hierarchy_tests": 18,
+    "process_tests": 8,
+    "credit_tests": 4,
+    "accessibility_provenance_tests": 4,
+    "total": 58,
+    "release_checks": [
+      "Every private snapshot file length/hash matches its manifest",
+      "Published files equal the explicit manifest plus declared generated/redirect files",
+      "Public frontend data JSON equals active source, with 421 published records",
+      "All retained local HTML/Markdown links exist",
+      "No duplicate destination mappings; legacy app is a redirect; private archives and raw corpus dumps excluded"
+    ],
+    "preservation": "Coverage ledger verified; 33 frozen references unchanged and ten previous source corrections retained; no corpus/model fit changes"
+  },
+  "browser": [
+    "Main page has project title and working public-release status",
+    "Former interactive_explorer browse bookmark retains design-year 2022 and displays all 421 posts",
+    "Skip link leaves the active browse route unchanged",
+    "Shared read bookmark opens Linked Data Part 1, then browser Back returns to that reader after People navigation",
+    "Methods bookmark reaches retained METHODS_AND_DATA.html",
+    "Exact phrase linked data returns three published records",
+    "Random discovery opens a published post and writes its numeric post bookmark",
+    "Unknown/unavailable post ID falls back to Browse with an explanation",
+    "Earlier draft URL redirects to root People view with 31/52/20/35 default counts"
+  ],
+  "skills_used": [
+    "wayfinding-navigation",
+    "decision-documentation"
+  ],
+  "limitations": [
+    "No participant/screen-reader testing; browser checks are agent-run",
+    "Previous public Git history remains public",
+    "External original/source URLs may change after the archived snapshot",
+    "No exact reconstruction of old control-specific settings beyond supported view/post/year mappings"
+  ]
+}

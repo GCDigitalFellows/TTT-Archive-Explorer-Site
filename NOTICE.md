@@ -8,7 +8,7 @@ The November 1, 2026 WordPress export (SHA-256 `ba4bb721c4f32b3340126f78e93f8b81
 
 The other 154 records (146 published, eight drafts) have no per-post license metadata. Missing evidence does not establish permission, public-domain status or MIT licensing. Verify the original work’s terms before reuse. A later live-site notice is not proof of a historical article’s license version.
 
-The complete record-level ledger preserves titles, source links for published posts, raw license values, recorded author credits and uncertainty. In the source repository see [source rights](analysis/SOURCE_RIGHTS.html) and [JSON ledger](analysis/rights/source_rights.json); the published website uses [Source rights](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/SOURCE_RIGHTS.html). A posting account or provisional credit is not a verified human byline. Cite the original writers and distinguish source attribution from project credit.
+The complete record-level ledger preserves titles, source links for published posts, raw license values, recorded author credits and uncertainty. In the source repository see [source rights](SOURCE_RIGHTS.html) and [JSON ledger](rights/source_rights.json); the published website uses [Source rights](SOURCE_RIGHTS.html). A posting account or provisional credit is not a verified human byline. Cite the original writers and distinguish source attribution from project credit.
 
 ## Creative Commons media and historical notices found in the export
 

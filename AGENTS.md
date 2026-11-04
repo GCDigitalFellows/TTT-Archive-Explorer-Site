@@ -35,3 +35,8 @@ Read `accessibility/README.md`, the pinned `accessibility/skills_manifest.json` 
 ## November 4 design decisions
 
 Ian approved independent network scope/evidence toggles, the tentative synthesis label “What the archive suggests,” and applying a selected era across all internal explorer views. This supersedes earlier optional-exhibit-only styling recommendations; keep the control optional, but apply the chosen treatment globally without changing route identities, research filters, credits or model data. Preserve motion/system-colour overrides and reset. Human evaluation resources are limited/TBD; do not infer participant recruitment, screen-reader testing or approval of all conclusions. The five-route preview remains separate until a production-layout replacement is authorized.
+
+
+## Current public release
+
+Ian approved Welcoming pathways as the main public interface on November 4, 2026. Public `index.html` is generated from the private source frontend under `analysis/reviews/mockups/welcoming-pathways/`; the old folder name is historical. The explicit `scripts/public_release_manifest.json` in private source governs published files. Prior public UI files are preserved in a dated private archive and must not be republished by recursive copying. Compatibility pages redirect old entry points to the current app. Preserve routine remote contributions and propagate compatible public edits back to the source or packaging rules before regenerating; significant changes still require Ian’s approval. Research documentation remains public, with original rights and attribution intact.

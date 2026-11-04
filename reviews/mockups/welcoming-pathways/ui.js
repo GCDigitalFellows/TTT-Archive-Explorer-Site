@@ -1,4 +1,4 @@
-/* Welcoming pathways: local discussion interface, not the production app.
+/* Tagging The Tower Archives Explorer: public interface built from saved evidence.
  * State selects a view and filters. Render functions only read saved evidence.
  * Every source-derived string becomes textContent, never executable HTML.
  */
@@ -40,6 +40,8 @@
     // Do not send searches or personal-name selections to the conversation.
     if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{prototype:'Welcoming pathways',view:state.view,designYear:state.era},privateContent:{version:1,theme:state.theme,era:state.era}}).catch(()=>{});
   }
+  let applyingRoute=false;
+  function writeRoute(){if(!applyingRoute)history.pushState(null,'',ExplorerRoutes.hash(state.view,root.querySelector('#wp-read')?.dataset.postId,state.era));}
   function currentPosts(){return PathwaysCore.filter(posts,state);}
   function navigate(view,remember=true){
     if(!['home','browse','read','wisdom','analysis','about','design'].includes(view))view='home';
@@ -54,7 +56,7 @@
     const heading=root.querySelector('[data-view="'+view+'"] h1');
     root.querySelectorAll('#wp-active-heading').forEach(n=>n.removeAttribute('id'));
     if(heading){heading.id='wp-active-heading';heading.tabIndex=-1;if(remember)heading.focus();}
-    if(remember)savePresentation();
+    if(remember){savePresentation();writeRoute();}
   }
   function postCard(post){
     const card=element('article',undefined,'post');
@@ -117,7 +119,7 @@
   }
   function savedAnalysis(post){
     const details=element('details');details.append(element('summary','Explore the saved text analysis'));
-    if(!post.weights){details.append(element('p','No saved model profile is available for this post. '+(post.exclusion||'It is outside the 299-post fitted corpus.')+' This prototype does not infer a new profile.'));return details;}
+    if(!post.weights){details.append(element('p','No saved model profile is available for this post. '+(post.exclusion||'It is outside the 299-post fitted corpus.')+' This explorer does not infer a new profile.'));return details;}
     details.append(element('p','Primary MALLET model: '+data.model+'. Weights describe a mixture, not certainty, quality or exclusive categories. Labels are agent-developed interpretations. No model is retrained.'));
     for(const {weight,index} of post.weights.map((weight,index)=>({weight,index})).sort((a,b)=>b.weight-a.weight)){
       const row=element('div',undefined,'profile');row.append(element('span',data.topics[index].label));
@@ -168,6 +170,7 @@
     byId('wp-era-kind').textContent=preset.evidenceLabel;byId('wp-era-name').textContent=preset.year+' · '+preset.name;byId('wp-era-description').textContent=preset.description;byId('wp-era-caveat').textContent=preset.caveat;
     byId('wp-era-sources').replaceChildren(...preset.sources.map(id=>{const source=data.design.sources.find(s=>s.id===id);return source?link(source.title+' · '+source.publisher,source.url):element('p','Source record unavailable.');}));
   }
+  root.querySelector('.skip-content').addEventListener('click',event=>{event.preventDefault();const heading=root.querySelector('#wp-active-heading');if(heading){heading.focus();heading.scrollIntoView({block:'start'});}});
   const peopleView=createPathwaysPeople({root,data,openPost,announce});
   const analysisView=createPathwaysAnalysis({root,data,posts,openPost,announce});
   // Initialize named choices from the actual included records, preserving all names.
@@ -195,8 +198,8 @@
   byId('wp-more').addEventListener('click',()=>{state.limit+=12;renderBrowse();});
   byId('wp-read-back').addEventListener('click',()=>{navigate(state.readOrigin);const target=state.returnControlId?byId(state.returnControlId):state.returnPostId?byId('wp-post-'+state.returnPostId):null;if(target){target.focus();target.scrollIntoView({block:'center'});}});
   byId('wp-another-random').addEventListener('click',()=>randomPost((state.randomPool||[]).map(id=>byPost.get(id)).filter(Boolean)));
-  byId('wp-design-year').addEventListener('change',event=>{state.era=Number(event.target.value);renderEra();savePresentation();});
-  byId('wp-design-reset').addEventListener('click',()=>{state.era=2026;renderEra();savePresentation();});
+  byId('wp-design-year').addEventListener('change',event=>{state.era=Number(event.target.value);renderEra();savePresentation();writeRoute();});
+  byId('wp-design-reset').addEventListener('click',()=>{state.era=2026;renderEra();savePresentation();writeRoute();});
   function restore(snapshot){
     const saved=snapshot?.privateContent;
     if(saved?.version!==1)return;
@@ -206,7 +209,25 @@
     // never navigate away from the post the reader just opened.
     renderEra();if(state.view==='wisdom')renderWisdom();
   }
-  renderEra();navigate('home',false);restore(window.openai?.widgetState);
+  function applyRoute(){
+    if(location.hash.startsWith('#wp-'))return; // Keep skip links and in-page anchors within the current view.
+    const route=ExplorerRoutes.parse(location.hash);applyingRoute=true;
+    if(ExplorerRoutes.documents[route.view]){
+      const anchor=/^#(?:history-|work-|credits-|credited-person-)/.test(location.hash)?location.hash:'';
+      location.replace(new URL((location.pathname.includes('/reviews/mockups/welcoming-pathways/')?'../../../':'')+ExplorerRoutes.documents[route.view]+anchor,location.href).href);return;
+    }
+    if(data.design.presets.some(p=>String(p.year)===route.era))state.era=Number(route.era);
+    state.query=route.query;state.year=data.posts.some(p=>p.year===route.year)?route.year:'all';state.author=data.posts.some(p=>p.authors.includes(route.author))?route.author:'all';
+    renderEra();
+    if(route.post&&byPost.has(route.post)){state.view='browse';openPost(byPost.get(route.post));}
+    else if(route.view==='random')randomPost(posts);
+    else if(route.view==='read'){navigate('browse',false);announce('That post bookmark has no available published post. Browse or search the archive.');}
+    else navigate(route.view,false);
+    applyingRoute=false;
+  }
+  renderEra();navigate('home',false);restore(window.openai?.widgetState);applyRoute();
+  window.addEventListener('popstate',applyRoute);
+  window.addEventListener('hashchange',applyRoute);
   window.addEventListener('openai:set_globals',event=>restore(event.detail?.globals?.widgetState));
   // Optional conversation-side layout tuning, not another product toolbar.
   if(globalThis.Tweak){const layout={spacing:24,readingWidth:76};const tweak=new Tweak({container:root,onChange:()=>{root.style.setProperty('--space',layout.spacing+'px');root.style.setProperty('--content',layout.readingWidth+'ch');}});tweak.addSlider(layout,'spacing',{label:'Section spacing',min:18,max:32,step:2,unit:'px'});tweak.addSlider(layout,'readingWidth',{label:'Reading width',min:55,max:85,step:5,unit:'ch'});}

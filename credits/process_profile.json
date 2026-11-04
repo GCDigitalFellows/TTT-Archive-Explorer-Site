@@ -378,5 +378,17 @@
     "agent_scope": "Codex saved-evidence joins, current affiliation extraction, bounded counting/normalization, charts/register/source navigation, documentation and checks; model/build unknown/not recorded.",
     "evidence": "reviews/mockups/welcoming-pathways/people_methods.md",
     "oversight": "Human request documented; complete identity/affiliation verification, numeric rules and cosmetic groupings are not separately contributor-confirmed. No participant evaluation inferred."
+  },
+  "public_promotion": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "approval": "Explicit yes to the concrete public promotion/private archiving plan, including continued public research documentation.",
+    "credit_roles": [
+      "Project administration",
+      "Methodology"
+    ],
+    "agent": "OpenAI Codex: archive/hashes, allowlist packaging, link/bookmark migration, status/docs, validation and publishing; exact model/build unknown/not recorded.",
+    "evidence": "process/public_transition.md",
+    "oversight": "Publication/design authorization established; complete human data/code/accessibility verification is not established."
   }
 }

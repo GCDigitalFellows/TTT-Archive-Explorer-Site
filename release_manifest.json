@@ -1,0 +1,939 @@
+{
+  "version": "1.0",
+  "approved_on": "2026-11-04",
+  "primary": "index.html",
+  "policy": "Explicit reviewed files only. Private archives, prior interactive UI, raw corpora, tests and fitted binaries are excluded. Rebuild is not a publication command.",
+  "files": [
+    {
+      "source": ".agents/skills/LICENSE",
+      "destination": ".agents/skills/LICENSE",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/ability-spectrum-mapping/SKILL.md",
+      "destination": ".agents/skills/ability-spectrum-mapping/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/accessibility-debt-tracking/SKILL.md",
+      "destination": ".agents/skills/accessibility-debt-tracking/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/accessibility-testing-strategy/SKILL.md",
+      "destination": ".agents/skills/accessibility-testing-strategy/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/alt-text-design/SKILL.md",
+      "destination": ".agents/skills/alt-text-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/assistive-technology-scenarios/SKILL.md",
+      "destination": ".agents/skills/assistive-technology-scenarios/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/cognitive-load-assessment/SKILL.md",
+      "destination": ".agents/skills/cognitive-load-assessment/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/colour-independence/SKILL.md",
+      "destination": ".agents/skills/colour-independence/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/compliance-mapping/SKILL.md",
+      "destination": ".agents/skills/compliance-mapping/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/contextual-help-design/SKILL.md",
+      "destination": ".agents/skills/contextual-help-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/decision-documentation/SKILL.md",
+      "destination": ".agents/skills/decision-documentation/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/disability-inclusive-personas/SKILL.md",
+      "destination": ".agents/skills/disability-inclusive-personas/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/edge-case-identification/SKILL.md",
+      "destination": ".agents/skills/edge-case-identification/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/error-prevention-recovery/SKILL.md",
+      "destination": ".agents/skills/error-prevention-recovery/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/feedback-and-status/SKILL.md",
+      "destination": ".agents/skills/feedback-and-status/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/flexible-typography/SKILL.md",
+      "destination": ".agents/skills/flexible-typography/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/focus-attention-design/SKILL.md",
+      "destination": ".agents/skills/focus-attention-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/form-labelling/SKILL.md",
+      "destination": ".agents/skills/form-labelling/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/gesture-alternatives/SKILL.md",
+      "destination": ".agents/skills/gesture-alternatives/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/heading-structure/SKILL.md",
+      "destination": ".agents/skills/heading-structure/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/inclusive-user-stories/SKILL.md",
+      "destination": ".agents/skills/inclusive-user-stories/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/information-density/SKILL.md",
+      "destination": ".agents/skills/information-density/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/keyboard-navigation/SKILL.md",
+      "destination": ".agents/skills/keyboard-navigation/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/link-text-design/SKILL.md",
+      "destination": ".agents/skills/link-text-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/memory-load-reduction/SKILL.md",
+      "destination": ".agents/skills/memory-load-reduction/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/motion-sensitivity/SKILL.md",
+      "destination": ".agents/skills/motion-sensitivity/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/multi-modal-input/SKILL.md",
+      "destination": ".agents/skills/multi-modal-input/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/multimedia-accessibility/SKILL.md",
+      "destination": ".agents/skills/multimedia-accessibility/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/plain-language-design/SKILL.md",
+      "destination": ".agents/skills/plain-language-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/readable-content/SKILL.md",
+      "destination": ".agents/skills/readable-content/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/responsive-accessibility/SKILL.md",
+      "destination": ".agents/skills/responsive-accessibility/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/simplified-views/SKILL.md",
+      "destination": ".agents/skills/simplified-views/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/situational-impairment-mapping/SKILL.md",
+      "destination": ".agents/skills/situational-impairment-mapping/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/stakeholder-communication/SKILL.md",
+      "destination": ".agents/skills/stakeholder-communication/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/table-accessibility/SKILL.md",
+      "destination": ".agents/skills/table-accessibility/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/touch-target-design/SKILL.md",
+      "destination": ".agents/skills/touch-target-design/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/tradeoff-analysis/SKILL.md",
+      "destination": ".agents/skills/tradeoff-analysis/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/user-preference-respect/SKILL.md",
+      "destination": ".agents/skills/user-preference-respect/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/voice-interaction/SKILL.md",
+      "destination": ".agents/skills/voice-interaction/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": ".agents/skills/wayfinding-navigation/SKILL.md",
+      "destination": ".agents/skills/wayfinding-navigation/SKILL.md",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/ACCESSIBILITY.html",
+      "destination": "ACCESSIBILITY.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/ARCHIVE_COVERAGE.html",
+      "destination": "ARCHIVE_COVERAGE.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/ATTRIBUTION_REVIEW.html",
+      "destination": "ATTRIBUTION_REVIEW.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/CORRECTIONS.md",
+      "destination": "CORRECTIONS.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/CREDITS_AND_PROCESS.html",
+      "destination": "CREDITS_AND_PROCESS.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/DATA_GUIDE.html",
+      "destination": "DATA_GUIDE.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/FELLOWS_HISTORY.html",
+      "destination": "FELLOWS_HISTORY.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/FOR_REPORTS.html",
+      "destination": "FOR_REPORTS.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/INTERACTIVE_GUIDE.html",
+      "destination": "INTERACTIVE_GUIDE.html",
+      "treatment": "support"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/METHODS_AND_DATA.html",
+      "destination": "METHODS_AND_DATA.html",
+      "treatment": "support"
+    },
+    {
+      "source": "NOTICE.md",
+      "destination": "NOTICE.md",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/PROJECT_HISTORY.html",
+      "destination": "PROJECT_HISTORY.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/README.md",
+      "destination": "RESEARCH_SETUP.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/REUSE_AND_CITATION.html",
+      "destination": "REUSE_AND_CITATION.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/REVIEWER_GUIDE.html",
+      "destination": "REVIEWER_GUIDE.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/SHAREABLE_WALKTHROUGH.html",
+      "destination": "SHAREABLE_WALKTHROUGH.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/SOURCE_RIGHTS.html",
+      "destination": "SOURCE_RIGHTS.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/STYLE_METHODOLOGY.html",
+      "destination": "STYLE_METHODOLOGY.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/Tagging_the_Tower_Report.html",
+      "destination": "Tagging_the_Tower_Report.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/WORK_LOG.html",
+      "destination": "WORK_LOG.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/academic_year_summary.csv",
+      "destination": "academic_year_summary.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/accessibility/INCLUSIVE_DESIGN_LICENSE.txt",
+      "destination": "accessibility/INCLUSIVE_DESIGN_LICENSE.txt",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/accessibility/README.md",
+      "destination": "accessibility/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/accessibility/skills_manifest.json",
+      "destination": "accessibility/skills_manifest.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/accessibility/validation.json",
+      "destination": "accessibility/validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/archive_reading/interpretation_attribution.json",
+      "destination": "archive_reading/interpretation_attribution.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/archive_reading/selection_revision.json",
+      "destination": "archive_reading/selection_revision.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/archive_reading/source_evidence.csv",
+      "destination": "archive_reading/source_evidence.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/archive_reading/source_evidence.html",
+      "destination": "archive_reading/source_evidence.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/archive_reading/source_evidence.json",
+      "destination": "archive_reading/source_evidence.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/browser_validation.json",
+      "destination": "attribution_revision/browser_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/credit_changes.csv",
+      "destination": "attribution_revision/credit_changes.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/credit_changes_2026-11-02.csv",
+      "destination": "attribution_revision/credit_changes_2026-11-02.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/cross_reference_decisions.json",
+      "destination": "attribution_revision/cross_reference_decisions.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/full_credit_review.csv",
+      "destination": "attribution_revision/full_credit_review.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/institutional-guide-page23.png",
+      "destination": "attribution_revision/institutional-guide-page23.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/institutional_guide_credits.json",
+      "destination": "attribution_revision/institutional_guide_credits.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/opening_review.csv",
+      "destination": "attribution_revision/opening_review.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/review_2026-11-02.json",
+      "destination": "attribution_revision/review_2026-11-02.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/reviewed_credits.json",
+      "destination": "attribution_revision/reviewed_credits.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/revision_changes.json",
+      "destination": "attribution_revision/revision_changes.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/attribution_revision/unresolved_account_credits.csv",
+      "destination": "attribution_revision/unresolved_account_credits.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/cohort_memberships_evidence.csv",
+      "destination": "cohort_memberships_evidence.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/coverage/article_review_ledger.csv",
+      "destination": "coverage/article_review_ledger.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/coverage/coverage_audit.json",
+      "destination": "coverage/coverage_audit.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/coverage/export_item_accounting.csv",
+      "destination": "coverage/export_item_accounting.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/coverage/ordinary_posts_accounting.csv",
+      "destination": "coverage/ordinary_posts_accounting.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/README.md",
+      "destination": "credits/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/browser_validation.json",
+      "destination": "credits/browser_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/credits_and_process.json",
+      "destination": "credits/credits_and_process.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/human_author_register.csv",
+      "destination": "credits/human_author_register.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/name_classification.json",
+      "destination": "credits/name_classification.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/credits/process_profile.json",
+      "destination": "credits/process_profile.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/deeper_reading.html",
+      "destination": "deeper_reading.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/design/README.md",
+      "destination": "design/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/design/year_styles.css",
+      "destination": "design/year_styles.css",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/history/README.md",
+      "destination": "history/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/history/prompts.json",
+      "destination": "history/prompts.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/history/stages.json",
+      "destination": "history/stages.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/history/validation.json",
+      "destination": "history/validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/identity/credit_crosswalk.csv",
+      "destination": "identity/credit_crosswalk.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/identity/grouped_records.json",
+      "destination": "identity/grouped_records.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/identity/review.html",
+      "destination": "identity/review.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/identity/review.json",
+      "destination": "identity/review.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/identity/screening.json",
+      "destination": "identity/screening.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/index.html",
+      "destination": "index.html",
+      "treatment": "main"
+    },
+    {
+      "source": "analysis/interactive/index_validation.json",
+      "destination": "interactive/index_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/interactive/roster_coverage.json",
+      "destination": "interactive/roster_coverage.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/README.md",
+      "destination": "membership/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/annual_memberships.csv",
+      "destination": "membership/annual_memberships.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/audit.json",
+      "destination": "membership/audit.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/current_roles_snapshot.json",
+      "destination": "membership/current_roles_snapshot.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/directory_data.json",
+      "destination": "membership/directory_data.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/people_page_text.txt",
+      "destination": "membership/people_page_text.txt",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/post_membership_matches.csv",
+      "destination": "membership/post_membership_matches.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/review.json",
+      "destination": "membership/review.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/role_claims.csv",
+      "destination": "membership/role_claims.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/signed_name_resolutions.csv",
+      "destination": "membership/signed_name_resolutions.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/membership/topic_means_by_membership_basis.csv",
+      "destination": "membership/topic_means_by_membership_basis.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/people_methods.md",
+      "destination": "methods/people_methods.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/word_methods.md",
+      "destination": "methods/word_methods.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/README.md",
+      "destination": "nlp/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/corpus_manifest.csv",
+      "destination": "nlp/corpus_manifest.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/model_comparison.csv",
+      "destination": "nlp/model_comparison.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/seed_stability.csv",
+      "destination": "nlp/seed_stability.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/stopwords_custom.txt",
+      "destination": "nlp/stopwords_custom.txt",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/stopwords_english.txt",
+      "destination": "nlp/stopwords_english.txt",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/topic1_author_sensitivity.csv",
+      "destination": "nlp/topic1_author_sensitivity.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nlp/vocabulary_exclusions.csv",
+      "destination": "nlp/vocabulary_exclusions.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/nltk_mallet_report.html",
+      "destination": "nltk_mallet_report.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/overview/landing-preview.png",
+      "destination": "overview/landing-preview.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/post_inventory.csv",
+      "destination": "post_inventory.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/changelog_validation.json",
+      "destination": "process/changelog_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/deployment.json",
+      "destination": "process/deployment.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/public_readme_edit.json",
+      "destination": "process/public_readme_edit.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/public_transition.md",
+      "destination": "process/public_transition.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/public_transition_validation.json",
+      "destination": "process/public_transition_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/repository_setup.json",
+      "destination": "process/repository_setup.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/source_checks.json",
+      "destination": "process/source_checks.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/validation.json",
+      "destination": "process/validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/process/work_log.json",
+      "destination": "process/work_log.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/project.json",
+      "destination": "project.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/publication_mix.svg",
+      "destination": "publication_mix.svg",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/2026-11-01-review-and-plan.md",
+      "destination": "reviews/2026-11-01-review-and-plan.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/additional_simulation_assessment.json",
+      "destination": "reviews/additional_simulation_assessment.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/approved_reading_revision_2026-11-04.json",
+      "destination": "reviews/approved_reading_revision_2026-11-04.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/inclusive_design_review_2026-11-03.md",
+      "destination": "reviews/inclusive_design_review_2026-11-03.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/README.md",
+      "destination": "reviews/mockups/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/collective-wisdom.png",
+      "destination": "reviews/mockups/collective-wisdom.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/layout_options.json",
+      "destination": "reviews/mockups/layout_options.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/open-library.png",
+      "destination": "reviews/mockups/open-library.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways.png",
+      "destination": "reviews/mockups/welcoming-pathways.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/README.md",
+      "destination": "reviews/mockups/welcoming-pathways/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/analysis_core.js",
+      "destination": "reviews/mockups/welcoming-pathways/analysis_core.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/analysis_references.json",
+      "destination": "reviews/mockups/welcoming-pathways/analysis_references.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/analysis_ui.js",
+      "destination": "reviews/mockups/welcoming-pathways/analysis_ui.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/build_audit.json",
+      "destination": "reviews/mockups/welcoming-pathways/build_audit.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/exclusive_ui.js",
+      "destination": "reviews/mockups/welcoming-pathways/exclusive_ui.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/exclusive_validation.json",
+      "destination": "reviews/mockups/welcoming-pathways/exclusive_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/hierarchy_validation.json",
+      "destination": "reviews/mockups/welcoming-pathways/hierarchy_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/people_ui.js",
+      "destination": "reviews/mockups/welcoming-pathways/people_ui.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/people_validation.json",
+      "destination": "reviews/mockups/welcoming-pathways/people_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/route_core.js",
+      "destination": "reviews/mockups/welcoming-pathways/route_core.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/ui.js",
+      "destination": "reviews/mockups/welcoming-pathways/ui.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/validation.json",
+      "destination": "reviews/mockups/welcoming-pathways/validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/word_ui.js",
+      "destination": "reviews/mockups/welcoming-pathways/word_ui.js",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/word_validation.json",
+      "destination": "reviews/mockups/welcoming-pathways/word_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/network_framing_decisions_2026-11-04.json",
+      "destination": "reviews/network_framing_decisions_2026-11-04.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/network_framing_validation_2026-11-04.json",
+      "destination": "reviews/network_framing_validation_2026-11-04.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/reading_revision_validation_2026-11-04.json",
+      "destination": "reviews/reading_revision_validation_2026-11-04.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/revision_plan.json",
+      "destination": "reviews/revision_plan.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/revision_plan.md",
+      "destination": "reviews/revision_plan.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/simplification_backlog.json",
+      "destination": "reviews/simplification_backlog.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/simplification_backlog.md",
+      "destination": "reviews/simplification_backlog.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/reviews/simplification_validation.json",
+      "destination": "reviews/simplification_validation.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/revision_plan.html",
+      "destination": "revision_plan.html",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/rights/source_rights.json",
+      "destination": "rights/source_rights.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/theme_trends.svg",
+      "destination": "theme_trends.svg",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/themes/METHODOLOGY.md",
+      "destination": "themes/METHODOLOGY.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/themes/annual_theme_counts.csv",
+      "destination": "themes/annual_theme_counts.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/themes/build_audit.json",
+      "destination": "themes/build_audit.json",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/themes/theme-heatmap-preview.png",
+      "destination": "themes/theme-heatmap-preview.png",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/themes/theme_data.json",
+      "destination": "themes/theme_data.json",
+      "treatment": "support"
+    }
+  ],
+  "redirects": {
+    "interactive_explorer.html": "index.html",
+    "reviews/mockups/welcoming-pathways/index.html": "index.html"
+  },
+  "generated": [
+    "README.md",
+    "AGENTS.md",
+    ".nojekyll",
+    "release_manifest.json",
+    "PUBLIC_GUIDE.html"
+  ]
+}

@@ -236,7 +236,7 @@ Evidence: [interactive/template.html](https://github.com/GCDigitalFellows/TTT-Ar
 
 **Estimated effort / risk:** High / High. **Status:** proposed, not approved or implemented.
 
-Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/reviews/https:/github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
+Evidence: [index.html](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/index.html) · [build_interactive.py](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/build_interactive.py) (locator: `write_explorer`) · [interactive/build_audit.json](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/d7620afe66b57b821e4aceef479bd35db48a3aca/analysis/interactive/build_audit.json).
 
 ## Suggested sequence
 
