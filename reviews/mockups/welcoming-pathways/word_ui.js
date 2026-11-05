@@ -92,6 +92,136 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
       for(const cell of row.cells){const td=make('td');if(cell.value===null){td.textContent='—';td.title='No eligible value under this lens; not an observed zero';}else{
         const b=make('button',cell.value.toFixed(2));b.type='button';b.style.backgroundColor=`hsl(207 45% ${97-28*Math.max(0,cell.value)/max}%)`;b.setAttribute('aria-label',`${cell.year}, ${row.label}: ${cell.value.toFixed(3)} ${view().heatUnit}; inspect sources`);b.addEventListener('click',()=>inspect({label:cell.year},{word:row.label,count:cell.count,ids:cell.ids}));td.append(b);}tr.append(td);}body.append(tr);}target.append(table);
   }
+  // Capture only the chart, in its current layout, at twice its CSS size.
+  function chartCanvas(chart) {
+    const bounds = chart.getBoundingClientRect();
+    if (!bounds.width || !bounds.height) throw new Error('Chart has no visible bounds');
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.ceil(bounds.width * 2);
+    canvas.height = Math.ceil(bounds.height * 2);
+    const context = canvas.getContext('2d');
+    context.scale(2, 2);
+    // Resolve the active theme background before drawing the chart.
+    let background = 'white';
+    for (let element = chart; element; element = element.parentElement) {
+      const color = getComputedStyle(element).backgroundColor;
+      if (color !== 'transparent' && color !== 'rgba(0, 0, 0, 0)') {
+        background = color;
+        break;
+      }
+    }
+    context.fillStyle = background;
+    context.fillRect(0, 0, canvas.width / 2, canvas.height / 2);
+    return {canvas, context, bounds};
+  }
+
+  function paintCloud(chart, context, bounds) {
+    for (const button of chart.querySelectorAll('button')) {
+      const style = getComputedStyle(button);
+      context.font = [style.fontStyle, style.fontWeight, style.fontSize, style.fontFamily].join(' ');
+      context.fillStyle = style.color;
+      context.textBaseline = 'alphabetic';
+      const metrics = context.measureText('Mg');
+      // Read the browser’s line breaks, including words wrapped on narrow screens.
+      const text = button.firstChild;
+      const range = document.createRange();
+      const lines = new Map();
+      let offset = 0;
+      for (const character of text.data) {
+        range.setStart(text, offset);
+        offset += character.length;
+        range.setEnd(text, offset);
+        const box = range.getBoundingClientRect();
+        const line = lines.get(box.top) || {box, text: ''};
+        line.text += character;
+        lines.set(box.top, line);
+      }
+      for (const {box, text: line} of lines.values()) {
+        const ascent = metrics.fontBoundingBoxAscent;
+        const descent = metrics.fontBoundingBoxDescent;
+        const baseline = Number.isFinite(ascent + descent)
+          ? (box.height + ascent - descent) / 2
+          : box.height * 0.8;
+        context.fillText(line, box.left - bounds.left, box.top - bounds.top + baseline);
+      }
+    }
+  }
+
+  async function paintSunburst(chart, context, bounds) {
+    const copy = chart.cloneNode(true);
+    copy.setAttribute('width', bounds.width);
+    copy.setAttribute('height', bounds.height);
+    // The copied SVG has no page stylesheet. Preserve computed presentation.
+    const rendered = [...chart.querySelectorAll('path, text')];
+    copy.querySelectorAll('path, text').forEach((element, index) => {
+      const style = getComputedStyle(rendered[index]);
+      for (const property of ['fill', 'stroke', 'stroke-width', 'font-family',
+        'font-size', 'font-weight', 'font-style', 'letter-spacing']) {
+        element.style.setProperty(property, style.getPropertyValue(property));
+      }
+    });
+    const svg = new XMLSerializer().serializeToString(copy);
+    const url = URL.createObjectURL(new Blob([svg], {type: 'image/svg+xml;charset=utf-8'}));
+    try {
+      const image = new Image();
+      image.src = url;
+      await image.decode();
+      context.drawImage(image, 0, 0, bounds.width, bounds.height);
+    } finally {
+      URL.revokeObjectURL(url);
+    }
+  }
+
+  let exporting = false;
+  function updateDownloadButtons() {
+    get('wp-word-downloads').hidden = mode === 'heat';
+    get('wp-word-cloud-png').hidden = mode !== 'cloud';
+    get('wp-word-sun-png').hidden = mode !== 'sun';
+    get('wp-word-cloud-png').disabled = exporting || !get('wp-word-cloud').querySelector('button');
+    get('wp-word-sun-png').disabled = exporting || !get('wp-word-sun').querySelector('svg');
+  }
+
+  async function downloadChart(kind) {
+    if (exporting) return;
+    const cloud = kind === 'cloud';
+    const chart = cloud ? get('wp-word-cloud') : get('wp-word-sun').querySelector('svg');
+    const scope = year === 'all' ? 'all-years' : year.replace('–', '-');
+    const details = lens === 'topics'
+      ? [order, topicFocus === 'all' ? 'all-topics' : 'topic-' + (Number(topicFocus) + 1)]
+      : ['shared','raw','phrases'].includes(lens) ? [leading ? 'leading-five' : 'full'] : [];
+    const name = cloud ? ['word-cloud', scope] : ['sunburst', scope, lens, ...details];
+    const status = get('wp-word-export-status');
+    exporting = true;
+    updateDownloadButtons();
+    status.textContent = 'Preparing PNG…';
+    try {
+      const {canvas, context, bounds} = chartCanvas(chart);
+      if (cloud) paintCloud(chart, context, bounds);
+      else await paintSunburst(chart, context, bounds);
+      const png = await new Promise((resolve, reject) => {
+        canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error('PNG encoding failed')), 'image/png');
+      });
+      const url = URL.createObjectURL(png);
+      const link = make('a');
+      link.href = url;
+      link.download = name.join('-') + '.png';
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1500);
+      status.textContent = 'PNG download requested.';
+    } catch (error) {
+      console.error('Chart PNG export failed', error);
+      status.textContent = 'PNG export failed. Try downloading the chart again.';
+    } finally {
+      exporting = false;
+      updateDownloadButtons();
+    }
+  }
+
+  get('wp-word-cloud-png').addEventListener('click', () => downloadChart('cloud'));
+  get('wp-word-sun-png').addEventListener('click', () => downloadChart('sun'));
+
   const exclusiveView=createYearExclusive({root,data,chooseYear,showPosts,announce});
   function render(){
     const group=year==='all'?evidence.all:evidence.years.find(g=>g.label===year),cloud=mode==='cloud';
@@ -101,6 +231,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
     get('wp-word-summary').textContent=cloud?`${group.label}: ${group.posts} analyzed posts · ${group.tokens.toLocaleString()} retained tokens · ${group.unique.toLocaleString()} cleaned forms. Up to 60 shown.`:mode==='heat'?`${view().label}: all 15 years compared regardless of the year selector. ${view().heatUnit}. Selecting a year opens its sunburst; the count table follows that year.`:`${view().label}: ${year==='all'?'all academic years':year}. ${group.posts} analyzed posts in scope. ${view().unit}; see the explanation for sector sizes.`;
     if(cloud){const target=get('wp-word-cloud');target.replaceChildren();const max=group.words[0]?.count||1;for(const row of group.words){const b=sourceButton(group,row,true);b.style.fontSize=(.85+2.8*Math.sqrt(row.count/max))+'rem';b.title=`${row.word}: ${row.count} occurrences in ${row.ids.length} posts`;b.setAttribute('aria-label',b.title+'; inspect sources');target.append(b);}if(!group.words.length)target.append(make('p','No saved analyzed words in this academic year.'));}
     else if(mode==='sun')sunburst();else heatmap();
+    updateDownloadButtons();
     const buttons=get('wp-word-year-buttons');buttons.replaceChildren();
     if(!cloud)for(const g of view().groups){const b=make('button',g.label+(g.label==='2026–2027'?' · partial':'')+' · n='+g.posts);b.type='button';b.setAttribute('aria-pressed',String(year===g.label));b.addEventListener('click',()=>chooseYear(g.label));buttons.append(b);}
     countTable();exclusiveView.render(year,mode==='sun');

@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Download the rendered word cloud and sunburst as PNG files
+
+- **Human — Ian G. Williams:** Ian G. Williams requested PNG download controls that capture the chart currently displayed.
+- **AI:** OpenAI Codex (exact model/build unknown/not recorded) implemented browser-side canvas rendering of the current word-cloud layout and rasterization of the current styled SVG sunburst. Added scoped filenames and accessible progress/error feedback using the feedback-and-status guidance. Browser testing produced a 2432×1459 selected-year cloud and a 1520×1520 phrase-lens leading-five sunburst. Both files decoded as nonblank PNGs. All 28 frontend JavaScript tests, 18 analysis data tests and 6 accessibility provenance tests passed.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-chart-png-downloads). Browser verification sampled two chart states on one desktop browser. Canvas text appearance can vary with installed fonts and rendering engines. PNG exports capture the chart image. The interactive tables carry exact values and source links.
+
 ### 2026-11-05 — Show the confirmed 2026–2027 roster across all fellowship role tables
 
 - **Human — Ian G. Williams:** Ian G. Williams directed applying the confirmed 2026–2027 snapshot year to every fellowship role and filling the corresponding tables.

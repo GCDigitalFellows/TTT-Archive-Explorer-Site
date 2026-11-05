@@ -1485,6 +1485,30 @@
         "reviews/mockups/welcoming-pathways/template.html"
       ],
       "limit": "A dash indicates missing annual evidence for roles absent from the saved snapshot. The roster establishes an academic year. Publication-time matching continues to use its signed or dated evidence basis."
+    },
+    {
+      "id": "word-chart-png-downloads",
+      "date": "2026-11-05",
+      "status": "implemented and verified in browser preview",
+      "task": "Download the rendered word cloud and sunburst as PNG files",
+      "human": "Ian G. Williams requested PNG download controls that capture the chart currently displayed.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) implemented browser-side canvas rendering of the current word-cloud layout and rasterization of the current styled SVG sunburst. Added scoped filenames and accessible progress/error feedback using the feedback-and-status guidance. Browser testing produced a 2432×1459 selected-year cloud and a 1520×1520 phrase-lens leading-five sunburst. Both files decoded as nonblank PNGs. All 28 frontend JavaScript tests, 18 analysis data tests and 6 accessibility provenance tests passed.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Browser verification sampled two chart states on one desktop browser. Canvas text appearance can vary with installed fonts and rendering engines. PNG exports capture the chart image. The interactive tables carry exact values and source links."
     }
   ],
   "remaining": [

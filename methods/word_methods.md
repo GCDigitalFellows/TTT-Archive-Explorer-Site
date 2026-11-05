@@ -113,3 +113,7 @@ More writing and a larger sample provide more opportunities to observe vocabular
 **Human — Ian G. Williams:** requested the annual unique-word analysis and its connection to the sunburst (CRediT: Conceptualization; Project administration). The operational definition and attachment design were AI implementation choices, not separately human-confirmed calculations.
 
 **AI — OpenAI Codex:** implemented and annotated the saved-token set analysis, companion chart, searchable evidence list, source integration, methods and recorded checks. Exact model/build unknown/not recorded. GAIDeT: Code generation `0000017`; Data analysis `0000026`; Visualization `0000027`; Validation `0000023`; Text generation `0000030`; Identification of limitations `0000046`. Python performs the counts on inherited NLTK-cleaned files; no new NLTK/MALLET run is claimed. Original writers retain source-text credit without implied endorsement. Installed colour-independence and table-accessibility guidance informed presentation; no participant or screen-reader validation is inferred.
+
+## Download the chart as PNG
+
+The word cloud and sunburst each offer a PNG download at twice the rendered dimensions. The word cloud uses the visible label positions and line wraps. The sunburst uses the visible SVG geometry and computed presentation styles. The filename records the selected year or all-years scope. Sunburst filenames also carry the lens and applicable hierarchy, topic or leading-five setting. The chart tables remain available for exact counts and source evidence.
