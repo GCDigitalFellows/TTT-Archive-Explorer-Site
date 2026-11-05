@@ -923,6 +923,51 @@
       "source": "analysis/themes/theme_data.json",
       "destination": "themes/theme_data.json",
       "treatment": "support"
+    },
+    {
+      "source": "analysis/diagrams/workflow/index.html",
+      "destination": "diagrams/workflow/index.html",
+      "treatment": "copy"
+    },
+    {
+      "source": ".archify/workflow-project-logic-20261104-225710/sources-and-outputs.html",
+      "destination": "diagrams/workflow/sources-and-outputs.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".archify/workflow-project-logic-20261104-225710/text-and-excerpts.html",
+      "destination": "diagrams/workflow/text-and-excerpts.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".archify/workflow-project-logic-20261104-225710/attribution.html",
+      "destination": "diagrams/workflow/attribution.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".archify/workflow-project-logic-20261104-225710/review-and-release.html",
+      "destination": "diagrams/workflow/review-and-release.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".agents/skills/archify/LICENSE",
+      "destination": "diagrams/workflow/LICENSE",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".agents/skills/archify/LICENSE-MIT",
+      "destination": "diagrams/workflow/LICENSE-MIT",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".agents/skills/archify/NOTICE",
+      "destination": "diagrams/workflow/NOTICE",
+      "treatment": "verbatim"
+    },
+    {
+      "source": ".agents/skills/archify/THIRD_PARTY_NOTICES.md",
+      "destination": "diagrams/workflow/THIRD_PARTY_NOTICES.md",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {

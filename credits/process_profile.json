@@ -438,5 +438,39 @@
     "agent_scope": "OpenAI Codex: remote/local contribution checks, release comparison, current guide/docs synchronization, normal source/public commits and release validation; exact model/build unknown/not recorded.",
     "evidence": "process/excerpt_release_validation.json",
     "oversight": "Public release authorization established; Pages build and listed live browser checks passed. Independent human verification of every sentence, method or accessibility outcome is not established. See the recorded deployment evidence."
+  },
+  "design_slop_audit": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Selected the external skill and requested public-site audit; CRediT Conceptualization, Methodology and Project administration.",
+    "agent_scope": "OpenAI Codex: skill installation/provenance, live and source inspection, measurements/evidence, findings, recommendations, annotated inventory/test code and required records. Exact model/build unknown/not recorded; one agent, no sub-agents.",
+    "external_source": "Gaurav Tiwari, Design Slop MIT skill, pinned 762729ec0031c50260992cef8e7ed2562bb66f31. Copyright/source credit only, not evidence of contribution or endorsement of this website.",
+    "evidence": "reviews/design_slop_audit_2026-11-04/AUDIT.md",
+    "oversight": "Human request established; proposed revisions are not approved or implemented. No participant or assistive-technology validation and no conformance certification."
+  },
+  "archify_skill_integration": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested incorporation of the named external skill; CRediT Conceptualization and Project administration.",
+    "agent_scope": "OpenAI Codex: pinned installation, complete source-file verification, setup checks, project/agent guidance, license/provenance records and tests; exact model/build unknown/not recorded.",
+    "external_source": "Archify 3.2.0 at a4065941f12be7967436261d9934784e381d423c; upstream notices record tt-a1i (Archify) and Cocoon AI, Apache-2.0 default with historical MIT/third-party terms. Source credit is not project contribution or endorsement.",
+    "evidence": "skills/archify/README.md",
+    "oversight": "Requested installation established. No diagram generation, human/AT validation, architecture decision or public deployment implied. Setup checker does not certify all artifact workflows."
+  },
+  "archify_workflow_diagrams": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested workflow/logic diagrams covering data sources, attribution and review; CRediT Conceptualization and Project administration.",
+    "agent_scope": "OpenAI Codex: committed-source inspection, semantic diagram authoring, annotated graph/overview code, Archify rendering, deterministic verification, limited CUA browser review and attribution records. Exact model/build unknown/not recorded. Archify is rendering/validation software, not a second AI reviewer.",
+    "evidence": "../.archify/workflow-project-logic-20261104-225710/README.md",
+    "oversight": "Local artifact request established; no human approval of every relationship, participant/AT review or public release. CUA inspection is separate from the skipped native automated browser gate."
+  },
+  "archify_public_integration": {
+    "date": "2026-11-04",
+    "human": "Ian G. Williams",
+    "human_scope": "Approved website integration so project concepts and workflow are more understandable to human reviewers and contributors; CRediT Conceptualization and Project administration.",
+    "agent_scope": "OpenAI Codex (exact model/build not recorded) implemented the public guide and People & methods entry, preserved signed diagram bytes and notices, updated packaging and ran recorded checks.",
+    "evidence": "diagrams/release_validation.json",
+    "oversight": "Publication explicitly requested; no independent human verification of all diagram claims, participant evaluation or screen-reader testing implied."
   }
 }

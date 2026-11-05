@@ -1202,6 +1202,125 @@
         "../scripts/prepare_public_site.py"
       ],
       "limit": "Selected excerpts remain AI-assisted editorial choices; no participant/screen-reader or comprehensive human semantic validation. Existing 421 published records, source attributions, model files, rights and repository visibility remain unchanged. Previous task entries accurately describe their earlier local-only status; this explicit publication request supersedes that release boundary. Deployment/build and listed live interactions are verified; this does not certify all data, scientific conclusions or accessibility."
+    },
+    {
+      "id": "design-slop-skill-public-site-audit",
+      "date": "2026-11-04",
+      "status": "requested skill installed and full-scope design audit completed; fixes proposed only",
+      "task": "Incorporate Design Slop and audit the public-facing website",
+      "human": "Ian G. Williams supplied the wpgaurav/design-slop repository and explicitly requested absorption of that skill and a full public-facing website audit. Existing public-first/Fellows-alumni priorities, global optional design-era decision and intrinsic value of illustrative source accounts remain direction. No approval to implement audit findings or recruit reviewers was supplied.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded), one coordinating agent, used the skill-installer Git workflow to install the project-local skill at 762729ec0031c50260992cef8e7ed2562bb66f31, retrieved its two required references from the same commit after root sparse checkout omitted subdirectories, preserved Gaurav Tiwari’s MIT notice and recorded independent hashes. Read skill and references plus information-density, responsive-accessibility and colour-independence guidance. Audited public revision b951b77674abe7fdc26a668009e299d1a42728d7 across all 12 categories: all 26 HTML sources, 23 support pages live at desktop and 320 CSS pixels, all five primary routes/reader/design, all 15 era choices in the available desktop dark environment, cloud/five sunburst lenses/heatmap/network modes/tables and empty/phrase-search recovery. Saved screenshots, rendered DOM metrics and source inventory; rejected the tablet attempt when actual width remained desktop-sized. Produced 14 evidence/fix/verification findings, a staged plan and decision questions, retaining the prior backlog as history. Corrected an initial informal overflow count from eight to the seven recorded support pages. Added provenance/audit tests and future-agent guidance without modifying vendor bytes or frontend sources. Both remotes fetched; no incoming commits. All 21 process/credit/skill-provenance/audit-evidence checks passed. Frozen-reference verification retained 33 unchanged files and ten previous reviewed corrections; active frontend/public manifest and public checkout remain unchanged. Local staged README synchronization does not publish findings.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "reviews/design_slop_audit_2026-11-04/AUDIT.md",
+        "reviews/design_slop_audit_2026-11-04/findings.json",
+        "reviews/design_slop_audit_2026-11-04/static_inventory.json",
+        "reviews/design_slop_audit_2026-11-04/evidence/all-era-desktop.json",
+        "reviews/design_slop_audit_2026-11-04/test_audit.py",
+        "accessibility/design_slop_manifest.json",
+        "accessibility/test_design_slop.py",
+        "reviews/simplification_backlog.json",
+        "../AGENTS.md",
+        "reviews/design_slop_audit_2026-11-04/validation.json"
+      ],
+      "limit": "Read-only production audit; only installed skill, local audit/provenance/tests and required change records were updated. No website redesign, source author/appointment change, model fit, publication/push, additional agents or participant recruitment. Rendered states were purposively sampled, not every post/control combination. No screen-reader/user study, actual text zoom, light/forced-color/reduced-motion emulation, signed-out access test or real device/network performance benchmark; gzip is an offline estimate. Tablet attempt excluded. Style preferences and heuristic font/target thresholds are not conformance claims; primary W3C references qualify the criteria. Third-party skill credit is not project participation. Skill available to subsequent turns through project-local discovery."
+    },
+    {
+      "id": "archify-project-skill-integration",
+      "date": "2026-11-04",
+      "status": "installed and documented; setup/provenance checks passed; no artifact or website change",
+      "task": "Incorporate the requested Archify skill into the project",
+      "human": "Ian G. Williams supplied https://github.com/tt-a1i/archify and requested incorporation into this project. This is authorization to install/document the skill, not to generate a diagram, change architecture, enable always-on explainers or publish new website files.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) applied the skill-installer workflow, inspected upstream SKILL/package/license notices, installed the complete Archify 3.2.0 package at a4065941f12be7967436261d9934784e381d423c under .agents/skills/archify, and verified all 206 files against the complete upstream Git blob tree plus local SHA-256 hashes. Preserved Apache-2.0, historical MIT and third-party notices, with tt-a1i/Cocoon AI source credits. Added project-scoped use guidance, AGENTS/README integration, notices, a 206-file manifest, setup receipt and annotated provenance tests; updated discovery checks for 41 distinct local skills while preserving the original public 39-skill package. Also moved residual Design Slop installer Git metadata to a preserved /tmp backup and excluded that cache from its source manifest without changing skill bytes. Entry-point syntax and all 27 doctor setup checks passed; three new integration and six skill-provenance tests passed. Fetched both remotes; no incoming changes. Earlier audit/revision work retained.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "skills/archify/README.md",
+        "skills/archify/manifest.json",
+        "skills/archify/doctor.txt",
+        "skills/test_archify.py",
+        "accessibility/design_slop_manifest.json",
+        "accessibility/test_skills.py",
+        "../AGENTS.md",
+        "../NOTICE.md",
+        "../.agents/skills/archify/SKILL.md"
+      ],
+      "limit": "Setup and file/provenance verification only: no diagram rendering, finalize receipt, browser/export/assistive-technology test, user study, model fit, architecture alteration, account connection, npm/global configuration, auto-update, additional agents, push or deployment. Archify runtime/templates and third-party resources retain their own terms; original project MIT/source-post rights unchanged. Installed package is private-source development tooling and not part of the public release allowlist. A skill cannot override project authorization, browser-tool policy or source/privacy boundaries."
+    },
+    {
+      "id": "archify-project-workflow-diagrams",
+      "date": "2026-11-04",
+      "status": "four local interactive diagrams and text overview delivered; deterministic gates passed; separate CUA review complete",
+      "task": "Explain project data, attribution and review workflows with Archify diagrams",
+      "human": "Ian G. Williams requested Archify diagrams explaining project workflow and logic, including data sources, attribution and review. This authorizes local explanatory artifacts, not changes to the research pipeline, identity/appointment decisions or public website deployment.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded), one coordinating agent, read Archify authoring/type/source/delivery references and inspected the relevant committed project code/methods at source revision 42aade827e1d40f7b8c4f7272a210512fa0cf52d. Authored four source-backed diagram candidates: sources/output overview, historical text-analysis versus exact-excerpt paths, writer-versus-fellowship attribution logic, and human/AI/automated review through authorization to allowlisted publication. Used Archify 3.2.0 to deliver interactive HTML; compact labels and truthful semantic legends were refined. Wrote a plain-language overview with complete node/connection text equivalents, annotated builders, source snapshots, receipts and an artifact verifier. All four current candidates passed nine-check showcase validation, deterministic delivery and strict source/artifact checks. A separate verifier confirmed four candidate/artifact/receipt bindings and 35 nodes cited against 14 committed source files. CUA inspected all four at desktop and 320 CSS pixels, activated source details with Enter, checked Live/Still and inspected light appearance plus the overview in dark; text-equivalent links were fixed after expanded narrow overflow and rechecked at 320px. Both remotes fetched; no incoming commits. Prior local audit/skill changes preserved and excluded from committed source claims.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000027",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "../.archify/workflow-project-logic-20261104-225710/index.html",
+        "../.archify/workflow-project-logic-20261104-225710/README.md",
+        "../.archify/workflow-project-logic-20261104-225710/artifact_manifest.json",
+        "../.archify/workflow-project-logic-20261104-225710/verify_artifacts.py",
+        "../.archify/workflow-project-logic-20261104-225710/evidence/session-browser-review.json",
+        "../.archify/workflow-project-logic-20261104-225710/working-tree-scope.txt"
+      ],
+      "limit": "Archify’s separate automated browser gate was intentionally unavailable under the host requirement to use CUA; ARCHIFY_CHROME pointed to a policy sentinel, leaving browser-check skipped and complete finalize receipts non-passing. Deterministic gates and CUA review are separate evidence, not a replacement/falsified automated gate. Its update check was cache-unavailable, with no notice required or update installed. These are explanatory summaries of committed project behavior, not an exhaustive call graph or independent validation of every credit, appointment or model. Source links are private and may require organization access. Diagram labels are compact; text equivalents, node index and zoom provide alternate routes. No participant/screen-reader, export-format or full device/theme/zoom matrix evaluation. No new model fit, source data change, extra agents, push or public deployment."
+    },
+    {
+      "id": "archify-public-workflow-guide",
+      "date": "2026-11-04",
+      "status": "implemented; local release and browser checks passed; publication pending",
+      "task": "Integrate workflow diagrams to help human reviewers and contributors understand the project",
+      "human": "Ian G. Williams approved integrating the four diagrams into the website and explicitly requested that the changelog explain their purpose: making the project’s concepts and workflow more understandable to human reviewers and contributors. Human direction and publication decision; no human execution or independent verification inferred.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) integrated a People & methods link, generated a companion guide with complete text equivalents and return navigation, and extended the explicit public allowlist for four byte-preserved diagrams and their notices. Applied Archify, link-text-design and wayfinding-navigation skills. Kept source revision 42aade8, original source authors, saved models and existing routes unchanged. Checks and release evidence are recorded in analysis/diagrams/release_validation.json.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "diagrams/workflow/index.html",
+        "diagrams/build_workflow_pages.py",
+        "diagrams/release_validation.json",
+        "../scripts/public_release_manifest.json"
+      ],
+      "limit": "Diagrams summarize the pinned private source revision, not all later changes. Source-code links require private repository access. Prior deterministic artifact gates passed but Archify’s automated browser gate was skipped under host policy; separate session-browser review is distinct. No participant or screen-reader evaluation, new model fit, source-author confirmation or exhaustive accessibility claim."
     }
   ],
   "remaining": [

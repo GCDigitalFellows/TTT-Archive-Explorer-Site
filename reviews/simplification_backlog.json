@@ -1353,5 +1353,17 @@
       "limits": "Network filters reaggregate saved publication credits; they do not verify authorship, fellowship appointments, productivity or collaboration. Whole-application appearance means internal explorer views, not external original posts or separately opened reference documents. No institutional endorsement or comprehensive human validation is inferred.",
       "remaining": "Human evaluation arrangements; separate approval still required to replace the production layout with the five-destination preview."
     }
+  ],
+  "review_addenda": [
+    {
+      "date": "2026-11-04",
+      "id": "design-slop-public-audit",
+      "audited_public_revision": "b951b77674abe7fdc26a668009e299d1a42728d7",
+      "report": "design_slop_audit_2026-11-04/AUDIT.md",
+      "findings": "design_slop_audit_2026-11-04/findings.json",
+      "status": "14 recommendations proposed; none approved or implemented by this audit",
+      "scope_note": "Original SIM entries retain their historical 13-route evidence. Current public site has five primary routes plus reading/design and supporting research documents. The new audit records this later state without overwriting historical evidence.",
+      "priority": "First resolve supporting-page reflow and full-reader type/state, then mobile search priority, progressive research disclosure and consistent support-document navigation. Preserve source detail, global optional era styling, author voices and separate rights."
+    }
   ]
 }

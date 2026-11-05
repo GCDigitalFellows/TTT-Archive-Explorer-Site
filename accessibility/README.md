@@ -47,3 +47,9 @@ Use this short record alongside the existing work log:
 6. **Attribution and decision:** record Ian’s actual direction and any other documented human contributions using CRediT; record delegated AI tasks using the saved GAIDeT mappings. Name the decision-maker and record approval only when supplied.
 
 No whole-site accessibility assessment, participant study, redesign, source-author change or model refit was performed during this installation. The active simplification backlog and isolated prototype retain their existing status.
+
+## Supplementary Design Slop skill
+
+On November 4 Ian requested wpgaurav/design-slop. It is installed separately under `.agents/skills/design-slop` at revision `762729ec0031c50260992cef8e7ed2562bb66f31`, with Gaurav Tiwari’s MIT notice and required references retained. [Its own manifest](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/accessibility/design_slop_manifest.json) records installation and hashes; it is not part of the original 39-skill inclusive-design source. At that installation local discovery reached 40 distinct skills; the subsequent Archify integration brings it to 41, with separate provenance under `analysis/skills/archify/`. The current explicit public package remains the original reviewed 39 plus its license; the supplementary skill has not been silently published.
+
+Its evidence-based audit criteria complement accessibility guidance. User-approved global era styling and the intrinsic value of source authors’ accounts remain project requirements. General rules about rounded borders, type sizes or mobile layouts are not independent conformance findings. See the [public-site audit](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/reviews/design_slop_audit_2026-11-04/AUDIT.md) for inspected states, evidence and untested limits.
