@@ -437,6 +437,6 @@
     "human_scope": "Explicitly requested public website integration and release resumption; CRediT Project administration.",
     "agent_scope": "OpenAI Codex: remote/local contribution checks, release comparison, current guide/docs synchronization, normal source/public commits and release validation; exact model/build unknown/not recorded.",
     "evidence": "process/excerpt_release_validation.json",
-    "oversight": "Public release authorization established; independent human verification of every sentence, method or accessibility outcome is not established. Deployment outcome recorded separately."
+    "oversight": "Public release authorization established; Pages build and listed live browser checks passed. Independent human verification of every sentence, method or accessibility outcome is not established. See the recorded deployment evidence."
   }
 }

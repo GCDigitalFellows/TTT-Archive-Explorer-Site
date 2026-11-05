@@ -1180,10 +1180,10 @@
     {
       "id": "publish-engagement-excerpt-collection",
       "date": "2026-11-04",
-      "status": "release prepared and validated; publication authorized; live verification pending",
+      "status": "published; GitHub Pages build and live browser checks passed",
       "task": "Publish selected voices and broader random excerpts to the public website",
       "human": "Ian G. Williams explicitly requested integration into the public website and subsequently asked to resume the release. This authorizes publication of the implemented excerpt feature; it does not establish independent human review of all selected text, code or accessibility.",
-      "agent": "OpenAI Codex (exact model/build unknown/not recorded) checked both GitHub remotes and shared local changes, compared the staged 191-file allowlisted release against the current public checkout, and prepared homepage, current-guide, credit/work-log and generated data-guide updates. The data-guide addition only indexes the two new assessment CSV schemas. Preserved earlier local demo/assessment/integration history, original source writers and source rights; no public files added or removed, no private archive/sandbox/raw corpus published. Prepared source and public commits using normal non-force pushes; final revisions and actual deployment result are recorded in process/excerpt_release_validation.json when verified.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) checked both GitHub remotes and shared local changes, compared the staged 191-file allowlisted release against the current public checkout, and prepared homepage, current-guide, credit/work-log and generated data-guide updates. The data-guide addition only indexes the two new assessment CSV schemas. Preserved earlier local demo/assessment/integration history, original source writers and source rights; no public files added or removed, no private archive/sandbox/raw corpus published. Prepared source and public commits using normal non-force pushes; final revisions and actual deployment result are recorded in process/excerpt_release_validation.json when verified. Source feature commit 9c59600 and public feature commit 4cd7d0e were pushed successfully. GitHub Pages reported built with no error at 2026-11-05T00:13:55Z. All 46 release/provenance/frontend checks passed. Live browser checks verified Selected voices default, different-article draw, exact reader highlighting, A. L. McMichael credit, stable navigation, 872/48 broader counts and visible method/attribution. An initial HTTP transport failure on the source push was resolved by refetching and using a larger request buffer without force-pushing.",
       "credit_roles": [
         "Project administration"
       ],
@@ -1201,7 +1201,7 @@
         "reviews/mockups/welcoming-pathways/quote_collection.json",
         "../scripts/prepare_public_site.py"
       ],
-      "limit": "Selected excerpts remain AI-assisted editorial choices; no participant/screen-reader or comprehensive human semantic validation. Existing 421 published records, source attributions, model files, rights and repository visibility remain unchanged. Previous task entries accurately describe their earlier local-only status; this explicit publication request supersedes that release boundary. Final deployment verification is pending at preparation time."
+      "limit": "Selected excerpts remain AI-assisted editorial choices; no participant/screen-reader or comprehensive human semantic validation. Existing 421 published records, source attributions, model files, rights and repository visibility remain unchanged. Previous task entries accurately describe their earlier local-only status; this explicit publication request supersedes that release boundary. Deployment/build and listed live interactions are verified; this does not certify all data, scientific conclusions or accessibility."
     }
   ],
   "remaining": [
