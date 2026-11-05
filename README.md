@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Show the confirmed 2026–2027 roster across all fellowship role tables
+
+- **Human — Ian G. Williams:** Ian G. Williams directed applying the confirmed 2026–2027 snapshot year to every fellowship role and filling the corresponding tables.
+- **AI:** OpenAI Codex inspected the saved roster and existing annual register, rebuilt Fellowship History to open on the latest confirmed year across roles, and made the role-family matrix the default in People & methods. Each role can be selected separately. The five recorded role families account for 20 entries. Browser inspection verified the default 2026–2027 selection, 20 roster cards, all nine role rows, and the six-person Social Media Fellows filter. Thirty membership, process, credits, People, and release tests passed. Coverage verification passed using the same hash-verified WordPress export at its new path.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-show-all-confirmed-fellow-role-families). A dash indicates missing annual evidence for roles absent from the saved snapshot. The roster establishes an academic year. Publication-time matching continues to use its signed or dated evidence basis.
+
 ### 2026-11-05 — Merge the November 2026 roster snapshot into the 2026–2027 annual roster
 
 - **Human — Ian G. Williams:** Ian G. Williams confirmed the academic year of the full current snapshot and directed its incorporation into the annual roster.

@@ -19,7 +19,7 @@
   <p class="note">Academic-calendar interpretation, confirmed by Ian G. Williams: a range such as 2012–2015 covers 2012–2013, 2013–2014 and 2014–2015. These are role intervals, rather than exact appointment dates or complete semester rosters. A fall-only entry stays fall-only. Summer matches are not inferred.</p>
   <p id="directory-summary"></p>
   <h2>Recorded role histories across academic years</h2>
-  <p>Select a cell to inspect the names and original source statements. Counts describe distinct reviewed name/role entries in this directory. People can appear in multiple programs; column totals are not exclusive human headcounts. A zero means no dated claim in this source, rather than confirmed absence.</p>
+  <p>The roster below opens on 2026–2027 with every recorded role. Select a cell to inspect a role and its source statements. Counts describe distinct reviewed name/role entries in this directory. People can appear in multiple programs; column totals are not exclusive human headcounts. A zero means no dated claim in this source, rather than confirmed absence.</p>
   <div class="controls">
     <label>Academic year<select id="directory-year"></select></label>
     <label>Role family<select id="directory-role"></select></label>
@@ -158,6 +158,9 @@
   byId('directory-reset').addEventListener('click', () => {
     byId('directory-year').value = 'all'; byId('directory-role').value = 'all'; renderMembers();
   });
+  const latestConfirmedYear = data.roster_confirmations
+    .map(confirmation => confirmation.academic_year).sort().at(-1);
+  if (latestConfirmedYear) byId('directory-year').value = latestConfirmedYear;
   renderMatrix(); renderContext(); renderMembers();
 })();
 </script>

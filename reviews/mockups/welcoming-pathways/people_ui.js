@@ -8,7 +8,7 @@ function createPathwaysPeople({root,data,openPost,announce}){
   const get=n=>root.querySelector('#'+n),saved=data.peopleHistory;
   const byName=new Map([...saved.roster,...saved.people].map(p=>[p.name,p]));
   const byPost=new Map(data.posts.map(p=>[p.id,p]));
-  let scope='local',tier='named',population='all',role='digital',dimension='fields';
+  let scope='local',tier='named',population='all',role=get('wp-cohort-role').value,dimension=get('wp-cohort-dimension').value;
   const current=()=>saved.scopes[scope+'-'+tier];
   const make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
   const button=(text,fn)=>{const b=make('button',text);b.type='button';b.addEventListener('click',fn);return b;};
@@ -30,7 +30,7 @@ function createPathwaysPeople({root,data,openPost,announce}){
     if(!entries.length)target.append(make('p','No named/checked published writing credit under these controls. Directory membership alone is not an article byline.'));
     focusEvidence('Source records for '+name);
   }
-  function selectedAnnual(){const names=new Set(current().people);return saved.annual.filter(a=>(role==='all'||a.role_family==='digital')&&(population==='all'||names.has(a.name)));}
+  function selectedAnnual(){const names=new Set(current().people);return saved.annual.filter(a=>(role==='all'||a.role_family===role)&&(population==='all'||names.has(a.name)));}
   function inspectCells(cells,label){
     const target=get('wp-people-detail');target.replaceChildren(make('h3',label));
     const names=[...new Set(cells.map(a=>a.name))].sort();target.append(make('p',names.length+' distinct recorded people; select a name to inspect affiliations, roles and any writing credits.'));
@@ -38,14 +38,20 @@ function createPathwaysPeople({root,data,openPost,announce}){
     const evidence=new Map(cells.flatMap(a=>a.evidence).map(e=>[e.id,e]));const detail=make('details');detail.append(make('summary','Source statements and confirmations behind this selection'));
     for(const e of evidence.values()){const p=make('p',e.raw+' ');p.append(source('Source ↗',e.url));detail.append(p);}target.append(detail);focusEvidence(label);
   }
+  // Use the unfiltered roster to distinguish a missing role from a zero
+  // under the selected writer scope. Historical years use directory counts.
+  function hasAnnualEvidence(year, family) {
+    return saved.annual.some(row => row.academic_year === year &&
+      (row.basis === 'dated directory interval' || family === 'all' || row.role_family === family));
+  }
   function renderCohorts(){
     const annual=selectedAnnual(),names=new Set(annual.map(a=>a.name)),years=saved.years;
-    get('wp-cohort-summary').textContent=`${names.size} distinct people in this recorded annual team view · ${population==='all'?'all documented team members':'selected credited writers'} · ${role==='digital'?'GC Digital Fellows only':'GCDI roles kept separate'}. Source snapshot: ${saved.sourceDate}. The 2026–2027 roster uses the role assignments from the November 2026 snapshot and the academic year confirmed by Ian G. Williams.`;
-    const rows=years.map(year=>({year,cells:annual.filter(a=>a.academic_year===year),available:saved.annual.some(a=>a.academic_year===year)}));
+    get('wp-cohort-summary').textContent=`${names.size} distinct people in this recorded annual team view · ${population==='all'?'all documented team members':'selected credited writers'} · ${role==='all'?'GCDI roles kept separate':saved.roles[role]}. Source snapshot: ${saved.sourceDate}. The 2026–2027 roster uses the role assignments from the November 2026 snapshot and the academic year confirmed by Ian G. Williams.`;
+    const rows=years.map(year=>({year,cells:annual.filter(a=>a.academic_year===year),available:hasAnnualEvidence(year, role)}));
     const max=Math.max(1,...rows.map(r=>new Set(r.cells.map(a=>a.name)).size));get('wp-cohort-bars').replaceChildren();
-    for(const r of rows){const n=new Set(r.cells.map(a=>a.name)).size;const b=button('',()=>inspectCells(r.cells,'Recorded team · '+r.year));b.className='annual-row';b.disabled=!r.available;const track=make('span');track.className='annual-track';track.setAttribute('aria-hidden','true');const fill=make('span');fill.className='annual-fill';fill.style.width=100*n/max+'%';track.append(fill);b.append(make('span',r.year),track,make('span',r.available?n+' people':'— · no dated data'));b.setAttribute('aria-label',r.year+': '+(r.available?n+' recorded people; inspect evidence':'no dated directory coverage'));get('wp-cohort-bars').append(b);}
-    const keys=dimension==='roles'?Object.keys(saved.roles).filter(k=>annual.some(a=>a.role_family===k)):[...new Set(annual.flatMap(a=>a.fields))].sort();
-    const values=keys.map(key=>[dimension==='roles'?saved.roles[key]:key,...rows.map(r=>{const cells=r.cells.filter(a=>dimension==='roles'?a.role_family===key:a.fields.includes(key));const n=new Set(cells.map(a=>a.name)).size;if(!r.available || (dimension==='roles' && !saved.annual.some(a=>a.academic_year===r.year && (a.basis==='dated directory interval' || a.role_family===key))))return '—';const b=button(String(n),()=>inspectCells(cells,(dimension==='roles'?saved.roles[key]:key)+' · '+r.year));b.setAttribute('aria-label',`${r.year}, ${dimension==='roles'?saved.roles[key]:key}: ${n} distinct recorded people; inspect sources`);b.style.backgroundColor=`hsl(207 45% ${97-28*n/max}%)`;return b;})]);
+    for(const r of rows){const n=new Set(r.cells.map(a=>a.name)).size;const b=button('',()=>inspectCells(r.cells,'Recorded team · '+r.year));b.className='annual-row';b.disabled=!r.available;const track=make('span');track.className='annual-track';track.setAttribute('aria-hidden','true');const fill=make('span');fill.className='annual-fill';fill.style.width=100*n/max+'%';track.append(fill);b.append(make('span',r.year),track,make('span',r.available?n+' people':'— · no dated data'));b.setAttribute('aria-label',r.year+': '+(r.available?n+' recorded people; inspect evidence':'no annual roster evidence'));get('wp-cohort-bars').append(b);}
+    const keys=dimension==='roles'?Object.keys(saved.roles).filter(k=>role==='all'||k===role):[...new Set(annual.flatMap(a=>a.fields))].sort();
+    const values=keys.map(key=>[dimension==='roles'?saved.roles[key]:key,...rows.map(r=>{const cells=r.cells.filter(a=>dimension==='roles'?a.role_family===key:a.fields.includes(key));const n=new Set(cells.map(a=>a.name)).size;if(!r.available || (dimension==='roles' && !hasAnnualEvidence(r.year, key)))return '—';const b=button(String(n),()=>inspectCells(cells,(dimension==='roles'?saved.roles[key]:key)+' · '+r.year));b.setAttribute('aria-label',`${r.year}, ${dimension==='roles'?saved.roles[key]:key}: ${n} distinct recorded people; inspect sources`);b.style.backgroundColor=`hsl(207 45% ${97-28*n/max}%)`;return b;})]);
     get('wp-cohort-matrix').replaceChildren(table([dimension==='roles'?'GCDI role family':'Academic-affiliation label',...years],'Annual composition · distinct people per cell; labels can overlap; dash = no annual roster evidence',values));
   }
   function render(){
