@@ -19,7 +19,7 @@ The packager rebases HTML/Markdown links into the public layout. Existing resear
 To build a fresh staged release from saved evidence:
 
 ```
-python3 analysis/reviews/mockups/welcoming-pathways/build_prototype.py
+.venv-nlp/bin/python analysis/reviews/mockups/welcoming-pathways/build_prototype.py
 python3 scripts/prepare_public_site.py /tmp/ttt-new-reviewed-release
 ```
 

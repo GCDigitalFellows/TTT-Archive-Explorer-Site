@@ -391,6 +391,54 @@
       "agent": "OpenAI Codex: archive/hashes, allowlist packaging, link/bookmark migration, status/docs, validation and publishing; exact model/build unknown/not recorded.",
       "evidence": "process/public_transition.md",
       "oversight": "Publication/design authorization established; complete human data/code/accessibility verification is not established."
+    },
+    "quote_sentence_sandbox": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Requested the proposed sentence-selection feature as a playable sandbox; CRediT Conceptualization and Project administration.",
+      "agent_scope": "Codex sentence-extraction recipe, XML markup flags, browser sampler/demo integration, diagnostics, documentation and checks. NLTK 3.10.4 computes sentence spans; no MALLET fit or original cleaning rerun. Model/build unknown/not recorded.",
+      "evidence": "demos/quote_lab/README.md",
+      "oversight": "Local demo only. Public integration and comprehensive human semantic, attribution and accessibility review are not established."
+    },
+    "quote_sentence_integration": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Requested integration of the sandboxed feature; CRediT Conceptualization and Project administration.",
+      "agent_scope": "OpenAI Codex: extraction, compact interface, saved-pool sampler, context highlight, documentation and recorded checks; exact model/build unknown/not recorded. NLTK performs segmentation; no MALLET fit.",
+      "evidence": "reviews/mockups/welcoming-pathways/quote_methods.md",
+      "oversight": "Implementation request documented; comprehensive human sentence review and participant/assistive-technology testing not established. Local packaged preview only; not deployed."
+    },
+    "quote_audience_simulation": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Requested five-audience excerpt simulation and shortlist; previously supplied external review and provenance. CRediT Conceptualization; Project administration.",
+      "agent_scope": "One OpenAI Codex agent: accessibility-informed hypothetical perspectives, purposive excerpt selection/context inspection, six counterexamples, report/code generation and recorded provenance checks; exact model/build unknown/not recorded. External Deepseek review is a distinct earlier artifact, not rerun.",
+      "evidence": "reviews/quote_audience_simulation/REPORT.md",
+      "oversight": "Human request documented; real reader response, participant/AT sessions, universal ranking and human confirmation of selections are not established. No website behavior or public deployment changed."
+    },
+    "quote_engagement_reassessment": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Specified the value of illustrative accounts and engagement-first assessment, then requested continued work. CRediT: Conceptualization; Methodology; Project administration.",
+      "agent_scope": "OpenAI Codex: revised editorial criteria application, 20 reassessments plus 10 new context-inspected excerpts, five audience perspectives with overlaps, annotated report/exports/tests; exact model/build unknown/not recorded.",
+      "evidence": "reviews/quote_audience_simulation/ENGAGEMENT_REPORT.md",
+      "oversight": "Criterion supplied by Ian; no human evaluation of every selection, audience preference measurement or participant/AT session. Earlier assessment retained as history; site sampler unchanged."
+    },
+    "engagement_excerpt_collection": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Set revised engagement criteria and requested website integration; CRediT Conceptualization, Methodology and Project administration.",
+      "agent_scope": "OpenAI Codex: validated collection join, labeled collection selector, separate session histories, context notes/methods, annotated sources and recorded tests/browser checks; exact model/build unknown/not recorded.",
+      "evidence": "reviews/mockups/welcoming-pathways/quote_methods.md",
+      "oversight": "Implementation request established; no independent human review of all selections, measured reader preferences or participant/AT session. Local source/preview only, not deployed."
+    },
+    "engagement_excerpt_publication": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Explicitly requested public website integration and release resumption; CRediT Project administration.",
+      "agent_scope": "OpenAI Codex: remote/local contribution checks, release comparison, current guide/docs synchronization, normal source/public commits and release validation; exact model/build unknown/not recorded.",
+      "evidence": "process/excerpt_release_validation.json",
+      "oversight": "Public release authorization established; independent human verification of every sentence, method or accessibility outcome is not established. Deployment outcome recorded separately."
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",
