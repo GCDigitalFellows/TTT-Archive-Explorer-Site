@@ -5835,6 +5835,175 @@
         "Ian Williams"
       ],
       "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Zachary Lloyd",
+      "role_family": "advising",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-advising-roster"
+      ],
+      "source_names": [
+        "Zach Lloyd"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Sam O'Hana",
+      "role_family": "advising",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-advising-roster"
+      ],
+      "source_names": [
+        "Sam O’Hana"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Zach Muhlbauer",
+      "role_family": "advising",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-advising-roster"
+      ],
+      "source_names": [
+        "Zach Muhlbauer"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Tuka Al-Sahlani",
+      "role_family": "coordinator",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-coordinator-roster"
+      ],
+      "source_names": [
+        "Tuka Al-Sahlani"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Gloria Caminha",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Gloria Caminha"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Philomena Elom",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Philomena Elom"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Peter Kurtz",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Peter Kurtz"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Qiyao Pan",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Qiyao Pan"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Jaclyn Reyes",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Jaclyn Reyes"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Philip Wiles",
+      "role_family": "social-media",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-social-media-roster"
+      ],
+      "source_names": [
+        "Philip Wiles"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Cortnie Belser",
+      "role_family": "manifold",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-manifold-roster"
+      ],
+      "source_names": [
+        "Cortnie Belser"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Herline Honorat",
+      "role_family": "manifold",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-manifold-roster"
+      ],
+      "source_names": [
+        "Herline Honorat"
+      ],
+      "basis": "human-confirmed annual roster"
+    },
+    {
+      "name": "Michelle Rendón",
+      "role_family": "manifold",
+      "academic_year": "2026–2027",
+      "semesters": [],
+      "claim_ids": [
+        "ian-2026-2027-manifold-roster"
+      ],
+      "source_names": [
+        "Michelle Rendón"
+      ],
+      "basis": "human-confirmed annual roster"
     }
   ],
   "counts": [
@@ -6009,68 +6178,16 @@
     {
       "academic_year": "2026–2027",
       "digital": 7,
-      "social-media": null,
-      "manifold": null,
-      "advising": null,
+      "social-media": 6,
+      "manifold": 3,
+      "advising": 3,
       "scholarship-center": null,
       "postdoctoral": null,
-      "coordinator": null,
+      "coordinator": 1,
       "videography": null,
       "assistant": null
     }
   ],
-  "current_snapshot": {
-    "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
-    "observed_on": "2026-11-02",
-    "limit": "Current role labels as displayed; no appointment-year intervals inferred.",
-    "sections": [
-      {
-        "names": [
-          "Zach Lloyd",
-          "Sam O’Hana",
-          "Zach Muhlbauer"
-        ],
-        "role_heading": "Advising Fellows"
-      },
-      {
-        "names": [
-          "Tuka Al-Sahlani"
-        ],
-        "role_heading": "Coordinators"
-      },
-      {
-        "names": [
-          "Sophie Bala",
-          "Peyton Cordero",
-          "Sara Feinstein",
-          "Meha Gupta",
-          "Zhilang Liu",
-          "Shokraan Rahiminezhad",
-          "Ian Williams"
-        ],
-        "role_heading": "Digital Fellows"
-      },
-      {
-        "names": [
-          "Gloria Caminha",
-          "Philomena Elom",
-          "Peter Kurtz",
-          "Qiyao Pan",
-          "Jaclyn Reyes",
-          "Philip Wiles"
-        ],
-        "role_heading": "Social Media Fellows"
-      },
-      {
-        "names": [
-          "Cortnie Belser",
-          "Herline Honorat",
-          "Michelle Rendón"
-        ],
-        "role_heading": "Manifold Fellows"
-      }
-    ]
-  },
   "roster_confirmations": [
     {
       "id": "ian-2026-2027-digital-roster",
@@ -6093,6 +6210,79 @@
       "evidence": "Ian stated in the project conversation: “the current digital fellows is the 2026-2027 roster”.",
       "basis": "Explicit human confirmation of academic-year assignment for the saved Digital Fellows section.",
       "limits": "Applies to these seven Digital Fellows only, not the other current role sections. Does not establish exact appointment days, full semester attendance, historical membership at earlier publication dates or article authorship."
+    },
+    {
+      "id": "ian-2026-2027-advising-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "advising",
+      "source_section": "Advising Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Zach Lloyd",
+        "Sam O’Hana",
+        "Zach Muhlbauer"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-coordinator-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "coordinator",
+      "source_section": "Coordinators",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Tuka Al-Sahlani"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-social-media-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "social-media",
+      "source_section": "Social Media Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Gloria Caminha",
+        "Philomena Elom",
+        "Peter Kurtz",
+        "Qiyao Pan",
+        "Jaclyn Reyes",
+        "Philip Wiles"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-manifold-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "manifold",
+      "source_section": "Manifold Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Cortnie Belser",
+        "Herline Honorat",
+        "Michelle Rendón"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
     }
   ],
   "audit": {
@@ -6101,8 +6291,8 @@
     "alumni_source_rows": 94,
     "dated_role_claims": 100,
     "undated_alumni_role_claims": 5,
-    "annual_name_role_cells": 252,
-    "human_confirmed_annual_cells": 7,
+    "annual_name_role_cells": 265,
+    "human_confirmed_annual_cells": 20,
     "current_role_names": 20,
     "current_roles_have_inferred_appointment_years": false,
     "local_post_matches_by_basis": {

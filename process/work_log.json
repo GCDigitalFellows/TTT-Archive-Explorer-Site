@@ -1433,6 +1433,33 @@
         "../scripts/test_public_release.py"
       ],
       "limit": "The private source snapshot and historical verification baseline retain original statuses. Aggregate exclusion counts document the source-to-release reconciliation. The existing fitted corpus and statistical analyses already used published posts, so their saved outputs retain the verified published populations. Public deployment replaces current files. Prior Git history remains historical evidence."
+    },
+    {
+      "id": "collapse-current-snapshot-into-annual-roster",
+      "date": "2026-11-05",
+      "status": "implemented and staged",
+      "task": "Merge the November 2026 roster snapshot into the 2026–2027 annual roster",
+      "human": "Ian G. Williams confirmed the academic year of the full current snapshot and directed its incorporation into the annual roster.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) joined all 20 saved role entries to the 2026–2027 register, retained the seven existing Digital Fellows once, and removed the duplicate snapshot sections and standalone public download. The annual People and Fellowship History views use the consolidated records.",
+      "credit_roles": [
+        "Data curation",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "membership/roster_confirmations.json",
+        "membership/annual_memberships.csv",
+        "membership/annual_role_counts.csv",
+        "FELLOWS_HISTORY.html",
+        "reviews/mockups/welcoming-pathways/test_people.py"
+      ],
+      "limit": "The confirmation establishes the year for the roles in the saved snapshot. The records have academic-year resolution. Publication-time membership filters use dated intervals and signed semester evidence."
     }
   ],
   "remaining": [

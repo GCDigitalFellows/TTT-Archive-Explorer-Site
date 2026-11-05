@@ -22,6 +22,79 @@
       "evidence": "Ian stated in the project conversation: “the current digital fellows is the 2026-2027 roster”.",
       "basis": "Explicit human confirmation of academic-year assignment for the saved Digital Fellows section.",
       "limits": "Applies to these seven Digital Fellows only, not the other current role sections. Does not establish exact appointment days, full semester attendance, historical membership at earlier publication dates or article authorship."
+    },
+    {
+      "id": "ian-2026-2027-advising-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "advising",
+      "source_section": "Advising Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Zach Lloyd",
+        "Sam O’Hana",
+        "Zach Muhlbauer"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-coordinator-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "coordinator",
+      "source_section": "Coordinators",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Tuka Al-Sahlani"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-social-media-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "social-media",
+      "source_section": "Social Media Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Gloria Caminha",
+        "Philomena Elom",
+        "Peter Kurtz",
+        "Qiyao Pan",
+        "Jaclyn Reyes",
+        "Philip Wiles"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
+    },
+    {
+      "id": "ian-2026-2027-manifold-roster",
+      "confirmed_on": "2026-11-05",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "manifold",
+      "source_section": "Manifold Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Cortnie Belser",
+        "Herline Honorat",
+        "Michelle Rendón"
+      ],
+      "evidence": "Ian directed: “the current snapshot is 2026-2027. Collapse current snapshot roster into 2026-2027.”",
+      "basis": "Human-confirmed academic year for the saved current snapshot.",
+      "limits": "The confirmation assigns the listed role to an academic year. The source supplies no appointment days or semester attendance."
     }
   ]
 }

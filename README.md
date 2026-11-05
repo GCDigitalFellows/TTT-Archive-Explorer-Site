@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Merge the November 2026 roster snapshot into the 2026–2027 annual roster
+
+- **Human — Ian G. Williams:** Ian G. Williams confirmed the academic year of the full current snapshot and directed its incorporation into the annual roster.
+- **AI:** OpenAI Codex (exact model/build unknown/not recorded) joined all 20 saved role entries to the 2026–2027 register, retained the seven existing Digital Fellows once, and removed the duplicate snapshot sections and standalone public download. The annual People and Fellowship History views use the consolidated records.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-collapse-current-snapshot-into-annual-roster). The confirmation establishes the year for the roles in the saved snapshot. The records have academic-year resolution. Publication-time membership filters use dated intervals and signed semester evidence.
+
 ### 2026-11-05 — Exclude draft entries from archive data and analyses
 
 - **Human — Ian G. Williams:** Ian G. Williams directed the exclusion of all draft-status post entries from the active dataset and analyses. This is a project scope decision.

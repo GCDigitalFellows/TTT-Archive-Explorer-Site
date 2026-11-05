@@ -575,11 +575,6 @@
       "treatment": "support"
     },
     {
-      "source": "analysis/membership/current_roles_snapshot.json",
-      "destination": "membership/current_roles_snapshot.json",
-      "treatment": "support"
-    },
-    {
       "source": "analysis/membership/directory_data.json",
       "destination": "membership/directory_data.json",
       "treatment": "support"
