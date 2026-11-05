@@ -27,6 +27,12 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-05 — Integrated the Word Cloud Lab controls, timeline, excerpts, and related-post discovery into the public explorer.
+- 2026-11-05 — Added a Common and Distinctive ranking toggle to the local Word Cloud Lab.
+- 2026-11-05 — Added an interactive academic-year timeline for the selected word in the local Word Cloud Lab.
+- 2026-11-05 — Added a hover and keyboard focus pop effect to the local Word Cloud Lab.
+- 2026-11-05 — Added source-linked word excerpts and random related-post discovery to the local Word Cloud Lab.
+- 2026-11-05 — Built a local word cloud lab for experimenting with academic-year scope, rankings, and display filters.
 - 2026-11-05 — Condense the README changelog and move detailed entries to CHANGELOG.md.
 - 2026-11-05 — Restore complete sunburst labels and year-by-year topic options.
 - 2026-11-05 — Audit sunburst legibility and correct label placement.

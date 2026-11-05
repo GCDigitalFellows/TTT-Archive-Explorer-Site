@@ -4,6 +4,42 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Integrated the Word Cloud Lab controls, timeline, excerpts, and related-post discovery into the public explorer.
+
+- **Human — Ian G. Williams:** Ian G. Williams directed the preceding local experiments and explicitly requested integrating their changes into the live site.
+- **AI:** OpenAI Codex (exact model build not recorded) reused the lab component, added the saved post-level count projection, and connected year selection and PNG export to the active explorer. It checked every projected count dictionary against 137,094 saved tokens and tested the prepared site’s ranking, timeline, excerpts, random post link, keyboard focus, chart switching, reset, and PNG request in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-live-word-cloud-lab-integration). The page uses the same 299 analyzed posts. Distinctive cloud rankings use containing-post share gaps; the sunburst has its own token-based score. 2026–2027 is partial. No new cleaning or model fit. Browser testing checked the PNG request status, not the downloaded image pixels. Screen-reader and human usability evaluation remain open.
+
+### 2026-11-05 — Added a Common and Distinctive ranking toggle to the local Word Cloud Lab.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested switching between common and distinctive words.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented labelled ranking controls and post-share comparisons using saved cleaned tokens. It verified the no-year prompt, keyboard selection, both comparison denominators, minimum-post filtering and return to common ranking in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-cloud-distinctive). Local demo only. Distinctive ranking uses a positive difference in containing-post shares with at least two matching posts in the selected year. This descriptive measure differs from the smoothed token-based sunburst score. The partial 2026–2027 year contains three analyzed posts. No new cleaning or model fit. One browser checked.
+
+### 2026-11-05 — Added an interactive academic-year timeline for the selected word in the local Word Cloud Lab.
+
+- **Human — Ian G. Williams:** Ian G. Williams authorized trying the proposed word timeline.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented chronological share bars with exact counts and text selection indicators using the project colour-independence guidance. It checked all 15 year rows sum to 299 posts, partial-year values, keyboard focus retention, excerpt updates, all-year return and zero-match behavior in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-cloud-timeline). Local demo only. Shares divide matching posts by all analyzed posts in each academic year. The 2026–2027 snapshot is partial. No new text cleaning or model fit. One browser checked; screen-reader and human usability evaluation remain open.
+
+### 2026-11-05 — Added a hover and keyboard focus pop effect to the local Word Cloud Lab.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested that word bubbles grow and pop out on mouse hover.
+- **AI:** OpenAI Codex (exact model build not recorded) applied the project motion-sensitivity guidance, implemented CSS scaling and stacking, rebuilt the demo, and checked keyboard focus scaling, the hover layer and word selection in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-cloud-bubble-hover). Local demo only. Scale is set to 112% with a 140ms transition. Reduced-motion mode is covered by CSS; that system preference and touch devices were not exercised in the browser check.
+
+### 2026-11-05 — Added source-linked word excerpts and random related-post discovery to the local Word Cloud Lab.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved implementing the proposed experiments in the local lab.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented excerpt selection from saved reading copies and random selection over distinct posts in the current word and year scope. It applied link-text design guidance and tested exact matches, author and rights metadata display, non-repeating draws, new-tab link markup, filter retention and missing-word behavior in the in-app browser. Browser sentence segmentation supplies sentence boundaries.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-cloud-context-discovery). Local only. Excerpts are up to five short exact-form matches, with one per post and newest matching posts first. Random draws use cleaned word matches, including normalized variants. No new NLTK cleaning or MALLET fit. One browser checked; no human usability or screen-reader testing.
+
+### 2026-11-05 — Built a local word cloud lab for experimenting with academic-year scope, rankings, and display filters.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested a word cloud experiment after reviewing possible controls.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented an annotated builder and browser controls using saved cleaned tokens from 299 analyzed posts. It applied the project form-labelling guidance and checked initial scope, year and ranking changes, hiding and finding a word, reset, keyboard activation and source-link output in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-word-cloud-lab). Local prototype only. Counts re-aggregate the saved modeled corpus, with no new NLTK processing or MALLET fit. One browser was checked; screen-reader and human usability evaluation remain open.
+
 ### 2026-11-05 — Condense the README changelog and move detailed entries to CHANGELOG.md
 
 - **Human — Ian G. Williams:** Ian G. Williams requested one condensed sentence per README update and a separate file for the full explanations.

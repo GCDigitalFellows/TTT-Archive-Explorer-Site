@@ -8,19 +8,22 @@
 function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   const get=name=>root.querySelector('#'+name),evidence=data.wordViews;
   let year='all',mode='cloud',lens='shared',order='years',topicFocus='all',leading=true;
+  const cloudRoot = get('wp-word-cloud-view');
+  const cloudChart = cloudRoot.querySelector('#cloud');
+  let cloudRanking = 'common';
   const make=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
   const svgTag=(tag,attrs={})=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,String(v));return n;};
   const number=n=>Number.isInteger(n)?n.toLocaleString():n.toFixed(3);
   const view=()=>data.hierarchies.modes[lens];
-  function inspect(group,row,cloud=false){
-    const unit=cloud?'token occurrences':view().unit;
+  function inspect(group,row){
+    const unit=view().unit;
     const label=`${group.label} · ${row.word} · ${number(row.count)} ${unit} · ${row.ids.length} containing/contributing posts`;
     get('wp-word-detail').textContent=label+'. Source posts appear below.';
-    get('wp-word-selection-text').textContent=label+(lens==='topics'&&!cloud?'. Posts are ordered by saved topic weight; a positive weight is not a verified thematic assignment.':'. Inspect context before interpreting the term.');
+    get('wp-word-selection-text').textContent=label+(lens==='topics'?'. Posts are ordered by saved topic weight; a positive weight is not a verified thematic assignment.':'. Inspect context before interpreting the term.');
     get('wp-word-source-jump').hidden=false;
     showPosts(row.ids,label);announce(label);
   }
-  function sourceButton(group,row,cloud=false){const b=make('button',row.word);b.type='button';b.addEventListener('click',()=>inspect(group,row,cloud));return b;}
+  function sourceButton(group,row){const b=make('button',row.word);b.type='button';b.addEventListener('click',()=>inspect(group,row));return b;}
   function resetDetail(){clearDetails();get('wp-word-detail').textContent='Select a branch or table value to inspect source posts.';get('wp-word-selection-text').textContent='Select a year to expand it, or a word/topic to inspect its evidence.';get('wp-word-source-jump').hidden=true;}
   function chooseYear(value){year=value;topicFocus='all';get('wp-topic-focus').value='all';if(mode==='heat')mode='sun';get('wp-word-year').value=value;resetDetail();render();get('wp-word-summary').tabIndex=-1;get('wp-word-summary').focus();announce(value==='all'?'All academic years displayed':value+' expanded');}
   // Same data, reversed nesting: each fractional topic contribution is retained.
@@ -197,9 +200,9 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   }
   function makeTable(headers,caption){const table=make('table');table.className='data-table';table.append(make('caption',caption));const head=make('thead'),line=make('tr');for(const name of headers){const th=make('th',name);th.scope='col';line.append(th);}head.append(line);table.append(head);const body=make('tbody');table.append(body);return {table,body};}
   function countTable(){
-    const cloud=mode==='cloud';const groups=cloud?[year==='all'?evidence.all:evidence.years.find(g=>g.label===year)]:view().groups.filter(g=>year==='all'||g.label===year);
-    const {table,body}=makeTable(['Academic year / scope','Word, phrase or topic / sources',cloud?'Token occurrences':view().unit,cloud?'Per 1,000 retained tokens':view().heatUnit],cloud?'Up to 60 most frequent saved cleaned forms':view().label+' · complete displayed branches; Other completes applicable totals');
-    for(const g of groups)for(const row of cloud?g.words:g.rows){const tr=make('tr'),th=make('th',g.label);th.scope='row';const td=make('td');td.append(sourceButton(g,row,cloud));tr.append(th,td,make('td',number(row.count)),make('td',cloud?(1000*row.count/g.tokens).toFixed(2):row.heat===null?'—':row.heat.toFixed(2)));body.append(tr);}get('wp-word-table').replaceChildren(table);
+    const groups=view().groups.filter(g=>year==='all'||g.label===year);
+    const {table,body}=makeTable(['Academic year / scope','Word, phrase or topic / sources',view().unit,view().heatUnit],view().label+' · complete displayed branches; Other completes applicable totals');
+    for(const g of groups)for(const row of g.rows){const tr=make('tr'),th=make('th',g.label);th.scope='row';const td=make('td');td.append(sourceButton(g,row));tr.append(th,td,make('td',number(row.count)),make('td',row.heat===null?'—':row.heat.toFixed(2)));body.append(tr);}get('wp-word-table').replaceChildren(table);
   }
   function heatmap(){
     const target=get('wp-word-heat');target.replaceChildren();const matrix=view().matrix,years=view().groups.map(g=>g.label);
@@ -294,19 +297,19 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
     get('wp-word-downloads').hidden = mode === 'heat';
     get('wp-word-cloud-png').hidden = mode !== 'cloud';
     get('wp-word-sun-png').hidden = mode !== 'sun';
-    get('wp-word-cloud-png').disabled = exporting || !get('wp-word-cloud').querySelector('button');
+    get('wp-word-cloud-png').disabled = exporting || !cloudChart.querySelector('button');
     get('wp-word-sun-png').disabled = exporting || !get('wp-word-sun').querySelector('svg');
   }
 
   async function downloadChart(kind) {
     if (exporting) return;
     const cloud = kind === 'cloud';
-    const chart = cloud ? get('wp-word-cloud') : get('wp-word-sun').querySelector('svg');
+    const chart = cloud ? cloudChart : get('wp-word-sun').querySelector('svg');
     const scope = year === 'all' ? 'all-years' : year.replace('–', '-');
     const details = lens === 'topics'
       ? [order, topicFocus === 'all' ? 'all-topics' : 'topic-' + (Number(topicFocus) + 1)]
       : ['shared','raw','phrases'].includes(lens) ? [leading ? 'leading-five' : 'full'] : [];
-    const name = cloud ? ['word-cloud', scope] : ['sunburst', scope, lens, ...details];
+    const name = cloud ? ['word-cloud', scope, cloudRanking] : ['sunburst', scope, lens, ...details];
     const status = get('wp-word-export-status');
     exporting = true;
     updateDownloadButtons();
@@ -339,21 +342,38 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   get('wp-word-cloud-png').addEventListener('click', () => downloadChart('cloud'));
   get('wp-word-sun-png').addEventListener('click', () => downloadChart('sun'));
 
+  // Share one year across the cloud and hierarchy views without moving focus
+  // when someone selects a timeline bar. Post metadata already exists on the page.
+  const cloudPosts = data.posts.filter(post => Object.hasOwn(data.cloudCounts, post.id))
+    .map(post => ({...post, paragraphs: post.fullParagraphs, license: post.sourceLicense,
+      words: data.cloudCounts[post.id]}));
+  const cloudView = createArchiveWordCloud(cloudRoot, cloudPosts, (cloudYear, ranking) => {
+    const nextYear = cloudYear || 'all';
+    if (year !== nextYear) {
+      year = nextYear;
+      get('wp-word-year').value = year;
+      topicFocus = 'all';
+      get('wp-topic-focus').value = 'all';
+    }
+    cloudRanking = ranking;
+    updateDownloadButtons();
+  });
   const exclusiveView=createYearExclusive({root,data,chooseYear,showPosts,announce});
   function render(){
     const group=year==='all'?evidence.all:evidence.years.find(g=>g.label===year),cloud=mode==='cloud';
     get('wp-sunburst-label-note').hidden=mode!=='sun';
     get('wp-sunburst-key').hidden=mode!=='sun';
-    get('wp-word-cloud').hidden=!cloud;get('wp-word-sun').hidden=mode!=='sun';get('wp-word-heat').hidden=mode!=='heat';get('wp-word-selection').hidden=cloud;get('wp-word-lens-controls').hidden=cloud;
+    cloudRoot.hidden=!cloud;get('wp-word-year-label').hidden=cloud;get('wp-word-summary').hidden=cloud;get('wp-word-detail').hidden=cloud;get('wp-word-branch-counts').hidden=cloud;get('wp-word-sun').hidden=mode!=='sun';get('wp-word-heat').hidden=mode!=='heat';get('wp-word-selection').hidden=cloud;get('wp-word-lens-controls').hidden=cloud;
     get('wp-topic-order-label').hidden=lens!=='topics'||mode!=='sun';get('wp-topic-focus-label').hidden=lens!=='topics'||order!=='topics'||mode!=='sun';get('wp-word-research-note').hidden=lens!=='distinct';get('wp-word-research-note').textContent='Research settings: ≥3 occurrences in the year, ≥2 containing posts in the year, ≥3 in the corpus; smoothing 0.5; positive scores only. Raising the year minimum to 3 posts retains '+(year==='all'?'between 0 and 5 of the original five words across years':data.hierarchies.distinct_sensitivity.find(r=>r.year===year).shared_words+' of the original five words in this year')+'. Rankings are sensitive to these choices; see the methods sensitivity table.';get('wp-word-leading-label').hidden=mode!=='sun'||!['shared','raw','phrases'].includes(lens);get('wp-word-lens-explanation').textContent=view().explanation+(mode==='sun'&&leading&&['shared','raw','phrases'].includes(lens)?' Chart focus: Other is omitted and the leading five are enlarged to fill each year; these are shares of the selected five only. The table retains Other and full denominators.':'');
     for(const [name,value]of[['wp-word-cloud-button','cloud'],['wp-word-sun-button','sun'],['wp-word-heat-button','heat']])get(name).setAttribute('aria-pressed',String(mode===value));
-    get('wp-word-summary').textContent=cloud?`${group.label}: ${group.posts} analyzed posts · ${group.tokens.toLocaleString()} retained tokens · ${group.unique.toLocaleString()} cleaned forms. Up to 60 shown.`:mode==='heat'?`${view().label}: all 15 years compared regardless of the year selector. ${view().heatUnit}. Selecting a year opens its sunburst; the count table follows that year.`:`${view().label}: ${year==='all'?'all academic years':year}. ${group.posts} analyzed posts in scope. ${view().unit}; see the explanation for sector sizes.`;
-    if(cloud){const target=get('wp-word-cloud');target.replaceChildren();const max=group.words[0]?.count||1;for(const row of group.words){const b=sourceButton(group,row,true);b.style.fontSize=(.85+2.8*Math.sqrt(row.count/max))+'rem';b.title=`${row.word}: ${row.count} occurrences in ${row.ids.length} posts`;b.setAttribute('aria-label',b.title+'; inspect sources');target.append(b);}if(!group.words.length)target.append(make('p','No saved analyzed words in this academic year.'));}
+    get('wp-word-summary').textContent=cloud?`${group.label}: ${group.posts} analyzed posts · ${group.tokens.toLocaleString()} retained tokens · ${group.unique.toLocaleString()} cleaned forms.`:mode==='heat'?`${view().label}: all 15 years compared regardless of the year selector. ${view().heatUnit}. Selecting a year opens its sunburst; the count table follows that year.`:`${view().label}: ${year==='all'?'all academic years':year}. ${group.posts} analyzed posts in scope. ${view().unit}; see the explanation for sector sizes.`;
+    if(cloud) cloudView.setYear(year === 'all' ? '' : year);
     else if(mode==='sun')sunburst();else heatmap();
     updateDownloadButtons();
     const buttons=get('wp-word-year-buttons');buttons.replaceChildren();
     if(!cloud)for(const g of view().groups){const b=make('button',g.label+(g.label==='2026–2027'?' · partial':'')+' · n='+g.posts);b.type='button';b.setAttribute('aria-pressed',String(year===g.label));b.addEventListener('click',()=>chooseYear(g.label));buttons.append(b);}
-    countTable();exclusiveView.render(year,mode==='sun');
+    if(!cloud) countTable();
+    exclusiveView.render(year,mode==='sun');
   }
   const select=get('wp-word-year');for(const [value,label]of[['all','Entire analyzed corpus · all years'],...evidence.years.map(g=>[g.label,g.label+(g.label==='2026–2027'?' · partial':'')+' · '+g.posts+' analyzed posts'])]){const o=make('option',label);o.value=value;select.append(o);}
   select.addEventListener('change',()=>chooseYear(select.value));

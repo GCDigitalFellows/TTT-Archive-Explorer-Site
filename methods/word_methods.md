@@ -121,3 +121,9 @@ The chart key lists the full names of the branches drawn in the selected lens an
 ## Download the chart as PNG
 
 The word cloud and sunburst each offer a PNG download at twice the rendered dimensions. The word cloud uses the visible label positions and line wraps. The sunburst uses the visible SVG geometry and computed presentation styles. The filename records the selected year or all-years scope. Sunburst filenames also carry the lens and applicable hierarchy, topic or leading-five setting. The chart tables remain available for exact counts and source evidence.
+
+## Interactive word cloud
+
+The cloud starts with 20 words and can show 40 or 60. **Common** sizes words by occurrences or by the number of posts containing them. **Distinctive** compares the share of posts containing the word in one selected year with the share in all other years combined. It ranks positive percentage-point gaps and requires at least two matching posts in the selected year. The minimum-post control can raise that threshold. This is a descriptive post-share comparison. The sunburst uses the separate smoothed token-rate score described above.
+
+The live page includes unordered counts from the saved 299-post analysis corpus. Hiding terms, changing the minimum, or choosing a different word limit re-ranks the complete vocabulary. Alphabetical order rearranges the current set. The timeline uses the full analyzed denominator in each year, independent of display filters. Context shows up to five short sentences from different saved reading copies, with exact written-form matching, case ignored. Random related posts use the cleaned word counts and can include normalized variants. The filters, excerpts, and chart use saved evidence without new NLTK cleaning or a MALLET fit. The cloud PNG exports the displayed words.
