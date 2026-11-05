@@ -4,7 +4,8 @@
   "alumni_source_rows": 94,
   "dated_role_claims": 100,
   "undated_alumni_role_claims": 5,
-  "annual_name_role_cells": 245,
+  "annual_name_role_cells": 252,
+  "human_confirmed_annual_cells": 7,
   "current_role_names": 20,
   "current_roles_have_inferred_appointment_years": false,
   "local_post_matches_by_basis": {

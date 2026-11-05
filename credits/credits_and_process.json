@@ -473,6 +473,24 @@
       "agent_scope": "OpenAI Codex (exact model/build not recorded) implemented the public guide and People & methods entry, preserved signed diagram bytes and notices, updated packaging and ran recorded checks.",
       "evidence": "diagrams/release_validation.json",
       "oversight": "Publication explicitly requested; no independent human verification of all diagram claims, participant evaluation or screen-reader testing implied."
+    },
+    "archify_cohort_map": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Requested all-cohort diagram; CRediT Conceptualization and Project administration. Previous source/calendar/identity evidence is reused without implying new human verification.",
+      "agent_scope": "OpenAI Codex (exact model/build not recorded) authored a saved-directory projection, Archify tree, complete roster equivalents, CSV/index and checks. Archify and Python execute deterministic rendering/counting; no extra AI reviewers.",
+      "evidence": "../.archify/tree-digital-fellow-cohorts-20261104-232620/validation.json",
+      "oversight": "Local diagram requested; new public deployment not requested. No participant/AT review or independent institutional certification."
+    },
+    "confirmed_current_digital_roster": {
+      "date": "2026-11-04",
+      "human": "Ian G. Williams",
+      "human_scope": "Explicitly confirmed the saved seven current Digital Fellows as the 2026–2027 roster. CRediT Data curation and Validation for this specific mapping, not the entire dataset.",
+      "agent_scope": "OpenAI Codex records the confirmation, updates the cohort projection/Archify diagram and checks propagation; exact model/build not recorded.",
+      "evidence": "membership/roster_confirmations.json",
+      "oversight": "Direct human factual confirmation; no broader year assignment for other current GCDI role families or exact appointment dates.",
+      "artifact": "../.archify/tree-confirmed-cohorts-20261104-233716/index.html",
+      "checks": "52 recorded tests passed plus frozen-reference verification; scoped CUA review; native automated browser gate skipped, not passed."
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",

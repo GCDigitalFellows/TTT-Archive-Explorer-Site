@@ -48,7 +48,7 @@ Current academic text is read from the first saved block after each exact curren
 
 ## Annual team and composition views
 
-The annual chart uses the **245 saved deduplicated person/role/year cells**, which preserve underlying claim IDs. There are **52 distinct Digital Fellow names in the dated directory overall**, not all of whom have qualifying named writing credits. This number differs from 52 named local writers: they are different sets that happen to have equal totals in this snapshot.
+The annual chart preserves the **245 saved deduplicated directory person/role/year cells** and adds **seven separately labelled human-confirmed 2026–2027 Digital Fellow cells**, for 252 cells across role families. Underlying claim IDs and evidence bases remain inspectable. There are **52 distinct Digital Fellow names in the dated directory overall**, and **58** when the separately confirmed 2026–2027 roster is included; not all have qualifying named writing credits. This number differs from 52 named local writers: they are different sets that happen to have equal totals in this snapshot.
 
 - **Team scope:** all documented members, or only the people meeting the two writing controls.
 - **Role scope:** GC Digital Fellows only, or all dated GCDI role families. Families stay separate; people holding multiple roles are counted once in annual overall headcounts.
@@ -58,7 +58,7 @@ The bars use a common within-view count scale, not article counts or a productiv
 
 Academic years follow the project’s saved **August–July** convention. A source range 2012–2015 expands to 2012–2013, 2013–2014 and 2014–2015. A fall-only claim stays limited by its saved semester metadata. These are annual interval claims, not exact appointment days, first recruitment/intake cohorts, or proof of activity throughout summer. A bar reports recorded annual matches, not an independently certified complete cohort.
 
-The dated directory covers **2012–2013 through 2025–2026**. The 2026–2027 column is **unavailable (—)**, not a zero-sized team. The 20-name current-team snapshot is shown separately and never added to a year. A numeric zero elsewhere means no recorded matches under the controls, not proof of no real-world appointments or absence of a discipline. Guest writers and institute participants remain eligible writers even without a Fellow/directory match; nonmembership and guest status cannot be inferred from a missing match alone.
+The dated directory covers **2012–2013 through 2025–2026**. Ian G. Williams confirmed the current seven Digital Fellows as the **2026–2027 roster** on November 4, 2026. That column now has seven people with a human-confirmed evidence basis; the remaining current role families stay undated. The 20-name snapshot remains inspectable with role-specific date labels. A numeric zero elsewhere means no recorded matches under the controls, not proof of no real-world appointments or absence of a discipline. Guest writers and institute participants remain eligible writers even without a Fellow/directory match; nonmembership and guest status cannot be inferred from a missing match alone.
 
 ## Validation and attribution
 
@@ -69,3 +69,8 @@ The dated directory covers **2012–2013 through 2025–2026**. The 2026–2027 
 **AI — OpenAI Codex:** wrote annotated saved-evidence joins and current-affiliation extraction; chose/disclosed counting boundaries and cosmetic display mappings; built count cards, controls, annual bars, composition matrices, evidence drill-down and reading return paths; drafted methods and ran recorded checks. Exact underlying model/build unknown/not recorded. GAIDeT saved task IDs: Code generation `0000017`; Data curation and organization `0000025`; Data analysis `0000026`; Visualization `0000027`; Validation `0000023`; Text generation `0000030`; Identification of limitations `0000046`. Python computes counts; browser controls select saved evidence. AI is not a human author or independent human reviewer. Source writers retain their source-text credit without implied endorsement of this website.
 
 The installed colour-independence, table-accessibility and plain-language-design skills informed this revision. Automated and agent browser checks do not establish accessibility conformance, participant evaluation, comprehensive identity accuracy or a complete disciplinary census.
+
+
+## November 4, 2026: confirmed 2026–2027 Digital Fellow roster
+
+Ian G. Williams explicitly confirmed that the saved current Digital Fellows section is the **2026–2027 roster**: Sophie Bala, Peyton Cordero, Sara Feinstein, Meha Gupta, Zhilang Liu, Shokraan Rahiminezhad and Ian G. Williams (source name Ian Williams). This supersedes the unavailable/undated treatment for these seven people in current annual team views. See `analysis/membership/roster_confirmations.json` in the source repository. Other current role families remain undated. The original 52-name/122-cell dated Digital Fellow directory evidence is preserved; the additional seven confirmed annual cells yield 15 teams, 129 person/year cells and 58 distinct names. This adds an explicit human-confirmed evidence basis rather than inventing dates from a snapshot. It does not assert exact appointment days, semester attendance, prior publication-date membership or article authorship. Saved model/post membership filters are unchanged.

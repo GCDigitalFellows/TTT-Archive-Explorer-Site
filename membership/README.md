@@ -4,7 +4,7 @@ This extension uses the [GCDI People directory](https://gcdi.commons.gc.cuny.edu
 
 ## What the evidence means
 
-Ian G. Williams supplied this source and confirmed that its ranges follow an academic calendar. We interpret 2012–2015 as 2012–2013, 2013–2014 and 2014–2015. These are annual interval claims, not precise appointment dates. A fall-only entry stays fall-only; summer post matches are not inferred. Undated current roles are a separate snapshot, never extrapolated backward.
+Ian G. Williams supplied this source and confirmed that its ranges follow an academic calendar. We interpret 2012–2015 as 2012–2013, 2013–2014 and 2014–2015. These are annual interval claims, not precise appointment dates. A fall-only entry stays fall-only; summer post matches are not inferred. Current roles without explicit academic-year confirmation remain a separate snapshot, never extrapolated backward. The seven Digital Fellows were subsequently confirmed by Ian as the 2026–2027 roster, as documented below.
 
 The extraction preserves all 94 alumni rows, including duplicate statements, and separates nine role families. Multiple claims about the same reviewed person, role and year produce one matrix cell with all supporting claim identifiers retained. A person may occupy several roles; sums across role columns are not distinct-person totals. A missing claim is not proof of nonmembership. Combined Fellow/coordinator labels do not establish coordinator-specific dates.
 
@@ -48,3 +48,8 @@ The source page displays CC BY-NC-SA 4.0; its rights remain separate from the ne
 ## License update · November 3, 2026
 
 Ian selected MIT for original project code, documentation and analysis, to the extent project rights permit. This supersedes earlier pending-license statements. Source posts and media retain separate terms; consult the project LICENSE, NOTICE.md and source-rights ledger. Never apply MIT to source works or infer a CC version from an unversioned field.
+
+
+## November 4, 2026: confirmed 2026–2027 Digital Fellow roster
+
+Ian G. Williams explicitly confirmed that the saved current Digital Fellows section is the **2026–2027 roster**: Sophie Bala, Peyton Cordero, Sara Feinstein, Meha Gupta, Zhilang Liu, Shokraan Rahiminezhad and Ian G. Williams (source name Ian Williams). This supersedes the unavailable/undated treatment for these seven people in current annual team views. See the [recorded confirmation](roster_confirmations.json), [annual membership register](annual_memberships.csv), and [annual role counts](annual_role_counts.csv). Blank counts indicate missing annual evidence for the role. Other current role families remain undated. The original 52-name/122-cell dated Digital Fellow directory evidence is preserved; the additional seven confirmed annual cells yield 15 teams, 129 person/year cells and 58 distinct names. This adds an explicit human-confirmed evidence basis rather than inventing dates from a snapshot. It does not assert exact appointment days, semester attendance, prior publication-date membership or article authorship. Saved model/post membership filters are unchanged.

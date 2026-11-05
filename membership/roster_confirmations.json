@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "confirmations": [
+    {
+      "id": "ian-2026-2027-digital-roster",
+      "confirmed_on": "2026-11-04",
+      "confirmed_by": "Ian G. Williams",
+      "academic_year": "2026–2027",
+      "role_family": "digital",
+      "source_section": "Digital Fellows",
+      "source_snapshot_date": "2026-11-02",
+      "source_url": "https://gcdi.commons.gc.cuny.edu/people/",
+      "source_names": [
+        "Sophie Bala",
+        "Peyton Cordero",
+        "Sara Feinstein",
+        "Meha Gupta",
+        "Zhilang Liu",
+        "Shokraan Rahiminezhad",
+        "Ian Williams"
+      ],
+      "evidence": "Ian stated in the project conversation: “the current digital fellows is the 2026-2027 roster”.",
+      "basis": "Explicit human confirmation of academic-year assignment for the saved Digital Fellows section.",
+      "limits": "Applies to these seven Digital Fellows only, not the other current role sections. Does not establish exact appointment days, full semester attendance, historical membership at earlier publication dates or article authorship."
+    }
+  ]
+}

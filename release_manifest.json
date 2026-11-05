@@ -555,6 +555,16 @@
       "treatment": "support"
     },
     {
+      "source": "analysis/membership/roster_confirmations.json",
+      "destination": "membership/roster_confirmations.json",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/membership/annual_role_counts.csv",
+      "destination": "membership/annual_role_counts.csv",
+      "treatment": "copy"
+    },
+    {
       "source": "analysis/membership/annual_memberships.csv",
       "destination": "membership/annual_memberships.csv",
       "treatment": "support"

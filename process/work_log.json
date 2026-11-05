@@ -1321,6 +1321,91 @@
         "../scripts/public_release_manifest.json"
       ],
       "limit": "Diagrams summarize the pinned private source revision, not all later changes. Source-code links require private repository access. Prior deterministic artifact gates passed but Archify’s automated browser gate was skipped under host policy; separate session-browser review is distinct. No participant or screen-reader evaluation, new model fit, source-author confirmation or exhaustive accessibility claim."
+    },
+    {
+      "id": "archify-digital-fellow-cohort-map",
+      "date": "2026-11-04",
+      "status": "local diagram and evidence guide complete; 22 tests passed; research references preserved; scoped browser checks complete",
+      "task": "Map all recorded Digital Fellow academic-year teams with Archify",
+      "human": "Ian G. Williams requested an Archify diagram mapping all Digital Fellow cohorts after completion of the workflow-guide integration. Earlier human contributions supplied the People source, academic-calendar interpretation and documented identity confirmations. This request supplies the aim; it does not establish human execution, comprehensive roster validation or authorization to publish this new diagram.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded), one coordinating agent, read the Archify schema/authoring/delivery guidance and saved membership methodology at source revision 72e6e7f. Wrote an annotated saved-data projection, 17-node native tree, equivalent annual rosters with original source statements, 52-person year index and CSV/JSON ledger. Mapped all 14 dated directory teams, 52 distinct Digital Fellow names and 122 person/year cells; kept seven current Digital Fellows undated and 2026–2027 unavailable. Preserved fall-only evidence, existing reviewed names, source rights and native runtime notices. Applied colour-independence and table-accessibility skills alongside Archify. Four reconciliation/artifact tests passed; native validate/deliver/strict-check gates passed while its automated browser gate remained explicitly skipped under host policy. Separate CUA reviewed desktop, keyboard source/disclosure actions and 320px map/roster widths. Updated the README’s current workflow-guide description to reflect its already completed public integration. Both remotes fetched with no incoming commits; no new publication or model fit. Final project checks passed: 8 process, 4 credits and 6 inclusive-design installation/provenance tests, in addition to 4 cohort reconciliation/artifact tests. Research verifier retained 33 frozen references and all 10 recorded corrections. Prepared the existing 200-file public package to synchronize the README/changelog without publishing it; no new cohort artifact entered the release allowlist.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "../.archify/tree-digital-fellow-cohorts-20261104-232620/index.html",
+        "../.archify/tree-digital-fellow-cohorts-20261104-232620/README.md",
+        "../.archify/tree-digital-fellow-cohorts-20261104-232620/roster.json",
+        "../.archify/tree-digital-fellow-cohorts-20261104-232620/validation.json",
+        "../.archify/tree-digital-fellow-cohorts-20261104-232620/test_cohorts.py"
+      ],
+      "limit": "Recorded annual directory teams are not first-intake cohorts or an independently certified complete census. Other role families and signed-team snapshots remain separate; no new population definition is applied to existing analyses. Current roles are not backfilled into 2026–2027. Source-code links are private. Compact diagram names may need zoom/panning; equivalent ordinary-size text tables are provided. Native automated browser gate skipped, not passed; separate CUA review is not participant/AT or full-device evaluation. No website publication, source-author reassignment, new identity merge, NLTK cleaning or MALLET refit."
+    },
+    {
+      "id": "confirmed-2026-2027-digital-fellow-roster",
+      "date": "2026-11-04",
+      "status": "local corrected map and annual-team views complete; 52 automated tests passed; scoped browser checks complete",
+      "task": "Assign the current seven Digital Fellows to the confirmed 2026–2027 roster",
+      "human": "Ian G. Williams explicitly stated: “the current digital fellows is the 2026-2027 roster”. This confirms the academic-year assignment of the seven people in the saved Digital Fellows section, not the dates of other GCDI roles or all historical membership claims.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) recorded a separate, inspectable roster confirmation, preserved the original raw snapshot and dated directory cells, and added seven human-confirmed annual cells to the cohort-composition projection. Rebuilt People & methods counts, 2026–2027 bar/matrix, source drill-down and date-basis labels. Five people-data tests passed, verifying unchanged directory rows and exactly seven confirmed current-year entries. Updating the Archify map from 14 directory teams/52 names/122 cells to 15 teams/58 names/129 cells. No new identity merges, exact appointment dates, other-role year assignments or model fits are inferred. Created a new source-pinned Archify artifact at .archify/tree-confirmed-cohorts-20261104-233716, preserving the prior map and recording its supersession. Revised map has 15 teams, 58 distinct names and 129 person/year memberships, with the seven-person confirmed current-year branch. Native validate, deliver and strict checks passed; automated browser gate remains explicitly skipped. CUA verified the local website year button and seven-name drill-down, the diagram branch/source detail, and the guide at 320px without page overflow. Passed 52 tests: 4 corrected-map, 5 people-data, 20 frontend, 8 process, 4 credits, 6 skill-provenance and 5 public-release packaging tests. Research verifier preserved 33 reference files and all 10 recorded corrections. See the artifact validation record for precise scope and limitations. The public package was prepared but not deployed.",
+      "credit_roles": [
+        "Data curation",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "membership/roster_confirmations.json",
+        "reviews/mockups/welcoming-pathways/build_people.py",
+        "reviews/mockups/welcoming-pathways/test_people.py",
+        "reviews/mockups/welcoming-pathways/people_methods.md",
+        "../.archify/tree-confirmed-cohorts-20261104-233716/index.html",
+        "../.archify/tree-confirmed-cohorts-20261104-233716/validation.json"
+      ],
+      "limit": "Human confirmation is scoped to this seven-person roster/year mapping. No comprehensive historical, article-authorship or independent institutional verification is implied. Original signed/directory-only post and model membership bases remain unchanged; this correction updates annual team-composition evidence. Other current role families remain undated; exact days and semester attendance are not asserted. Public deployment has not been performed for this correction."
+    },
+    {
+      "id": "propagate-confirmed-cohort-roster",
+      "date": "2026-11-05",
+      "status": "rebuilt and verified in the release preview",
+      "task": "Propagate the confirmed 2026–2027 roster through fellowship records and maps",
+      "human": "Ian G. Williams confirmed the seven-person Digital Fellows roster for 2026–2027 on November 4 and directed propagation to all cohort records and maps. CRediT Validation and Data curation apply to that specific mapping.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) carried the confirmation into the annual membership CSV and role counts, fellowship history matrix, downloadable evidence, website composition views, and the revised Archify cohort map. The saved dated and signed evidence still supports its original post-matching filters. Annual views represent 15 Digital Fellow teams, 58 distinct people and 129 person/year memberships. Seven membership tests and five People tests passed. Browser inspection opened the fellowship history cell and displayed all seven names and confirmation statements. The frozen reference verifier passed for all 33 files and 10 recorded corrections. The prepared release updates the existing public fellowship pages and evidence downloads.",
+      "credit_roles": [
+        "Data curation",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "membership/roster_confirmations.json",
+        "membership/annual_memberships.csv",
+        "membership/annual_role_counts.csv",
+        "FELLOWS_HISTORY.html",
+        "../.archify/tree-confirmed-cohorts-20261104-233716/validation.json"
+      ],
+      "limit": "The confirmation establishes roster year and role for seven people. Other 2026–2027 roles have missing annual evidence. This evidence has annual resolution. Historical archive snapshots and signed and directory-only publication matching preserve their original scope. Archify native browser gate skipped. Separate browser checks cover selected views."
     }
   ],
   "remaining": [
