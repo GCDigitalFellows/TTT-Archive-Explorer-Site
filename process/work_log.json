@@ -1558,6 +1558,29 @@
         "reviews/mockups/welcoming-pathways/word_methods.md"
       ],
       "limit": "Browser checks used one desktop engine with a narrow viewport override. The PNG continues to export the SVG chart, while the full-text key is part of the interactive page."
+    },
+    {
+      "id": "separate-detailed-changelog",
+      "date": "2026-11-05",
+      "status": "generated and verified in release preview",
+      "task": "Condense the README changelog and move detailed entries to CHANGELOG.md",
+      "human": "Ian G. Williams requested one condensed sentence per README update and a separate file for the full explanations.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) split the changelog generator, preserved the full attributed entries and inherited history, updated project instructions, and synchronized both Markdown outputs through the public release packager. Verified that all 56 prior detailed sections were preserved verbatim, and that the public package carries identical summary and detail files. Eight process, four credits, and six release tests passed.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "../README.md",
+        "../CHANGELOG.md",
+        "../scripts/update_readme_changelog.py",
+        "process/test_readme_changelog.py"
+      ],
+      "limit": "Historical entries retain the attribution and verification limits recorded at the time."
     }
   ],
   "remaining": [

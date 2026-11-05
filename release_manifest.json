@@ -973,6 +973,11 @@
       "source": ".agents/skills/archify/THIRD_PARTY_NOTICES.md",
       "destination": "diagrams/workflow/THIRD_PARTY_NOTICES.md",
       "treatment": "verbatim"
+    },
+    {
+      "source": "CHANGELOG.md",
+      "destination": "CHANGELOG.md",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {
