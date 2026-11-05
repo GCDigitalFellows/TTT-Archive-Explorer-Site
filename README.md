@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Audit sunburst legibility and correct label placement
+
+- **Human — Ian G. Williams:** Ian G. Williams requested a legibility and cutoff audit followed by corrections.
+- **AI:** OpenAI Codex (exact model/build unknown/not recorded) applied the project’s flexible typography and Design Slop guidance. Measured baseline label bounds across all five desktop lenses and sampled narrow views. Baseline desktop overlap counts ranged from 49 to 114 bounding-box pairs. A 320px preview rendered 4.4px text. Revised the ring widths, measured glyph fit inside each sector, suppressed collisions and added compact year labels and a readable-size floor. The final 160-state browser sweep covered all five lenses and all 16 year scopes at desktop and 320px. It found zero overlapping label bounds or chart-edge clipping and a measured minimum of 12px with the test browser’s root font. Sampled topic-first, focused-topic and full-distribution modes and verified a selected-year PNG download.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-sunburst-label-legibility-audit). The sweep used one desktop browser and a narrow viewport override. Dense slices may use the full-label table and interactive branch details. The alternate hierarchy and full-distribution checks were sampled.
+
 ### 2026-11-05 — Download the rendered word cloud and sunburst as PNG files
 
 - **Human — Ian G. Williams:** Ian G. Williams requested PNG download controls that capture the chart currently displayed.

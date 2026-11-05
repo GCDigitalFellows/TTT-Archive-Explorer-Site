@@ -24,9 +24,9 @@ Python creates these versioned descriptive aggregates at build time. The browser
 
 ### Leading-five focus versus complete distribution
 
-Shared, phrase and raw sunbursts initially **enlarge the leading five branches**, omitting Other from the chart and rescaling those five to fill each year. The checkbox explicitly names this focus; the explanation and centre label repeat it. Uncheck it to see the complete distribution including Other. Exact tables always retain Other, all underlying counts and the complete denominator. The two representations must not be mistaken for one another.
+Shared, phrase and raw sunbursts initially **enlarge the leading five branches**, omitting Other from the chart and rescaling those five to fill each year. The checkbox explicitly names this focus; the explanation repeats it. Uncheck it to see the complete distribution including Other. Exact tables always retain Other, all underlying counts and the complete denominator. The two representations must not be mistaken for one another.
 
-Equal-sized years support comparison and visibility; they do not imply equal sample sizes. Topic mode instead preserves one-unit-per-post contributions, and labels say so. All year names remain available on the inner ring and in a native selector/year list. Select an inner year or a year-list control to expand it. All years restores the temporal scope. Topic-first mode additionally has an All saved topics reset in its topic selector.
+Equal-sized years support comparison and visibility; they do not imply equal sample sizes. Topic mode instead preserves one-unit-per-post contributions, and labels say so. The native selector and year list show all full year names. Inner-ring labels fit the available space. Select an inner year or a year-list control to expand it. All years restores the temporal scope. Topic-first mode additionally has an All saved topics reset in its topic selector.
 
 ### Distinctiveness formula and safeguards
 
@@ -77,7 +77,7 @@ The heatmap uses a **common set of rows across all 15 years**: the union of the 
 
 Colour intensity runs from zero to the largest eligible value within the chosen lens and full matrix; it never compares unrelated units across lenses. Exact numbers appear in every cell and accessible labels retain additional precision. Zero is an observed zero; a dash is unavailable. Heatmaps and sunbursts share underlying evidence but their normalizations differ as explicitly described. They are exploration aids, not significance maps.
 
-The matrix scrolls within its own labelled keyboard-focusable region at narrow widths. Header cells, captions, exact tables, source buttons and a dedicated source-post jump provide alternatives to colour and small wedge labels. Small outer labels are suppressed below 0.045 radians; full labels/counts remain in the table and source panel, and year expansion enlarges them. Every inner year is named without the previous year-label cutoff. Topic labels may be visually shortened; full labels remain on controls and in the tables. No animation is introduced. Reduced-motion/system-colour safeguards remain; actual OS mode and screen-reader/participant sessions are not established by these checks.
+The matrix scrolls within its own labelled keyboard-focusable region at narrow widths. Header cells, captions, exact tables, source buttons and a dedicated source-post jump provide alternatives to colour and small wedge labels. The sunburst measures rendered glyph bounds against each sector and checks for collisions between labels. Ring widths reserve more room for year labels. Text scales to a minimum of 0.75 rem on screen when a label fits. A compact year label can use the start of its academic year. Branch controls and tables provide full names and values.
 
 Word clouds retain the original whole-corpus/year raw-frequency view, up to 60 forms. Font size is `0.85 + 2.8*sqrt(count/largest_count)` rem. Because the scale resets by scope, compare exact counts/rates rather than font sizes across years.
 

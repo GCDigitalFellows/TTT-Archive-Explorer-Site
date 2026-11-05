@@ -1509,6 +1509,31 @@
         "reviews/mockups/welcoming-pathways/word_methods.md"
       ],
       "limit": "Browser verification sampled two chart states on one desktop browser. Canvas text appearance can vary with installed fonts and rendering engines. PNG exports capture the chart image. The interactive tables carry exact values and source links."
+    },
+    {
+      "id": "sunburst-label-legibility-audit",
+      "date": "2026-11-05",
+      "status": "implemented and verified in browser preview",
+      "task": "Audit sunburst legibility and correct label placement",
+      "human": "Ian G. Williams requested a legibility and cutoff audit followed by corrections.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) applied the project’s flexible typography and Design Slop guidance. Measured baseline label bounds across all five desktop lenses and sampled narrow views. Baseline desktop overlap counts ranged from 49 to 114 bounding-box pairs. A 320px preview rendered 4.4px text. Revised the ring widths, measured glyph fit inside each sector, suppressed collisions and added compact year labels and a readable-size floor. The final 160-state browser sweep covered all five lenses and all 16 year scopes at desktop and 320px. It found zero overlapping label bounds or chart-edge clipping and a measured minimum of 12px with the test browser’s root font. Sampled topic-first, focused-topic and full-distribution modes and verified a selected-year PNG download.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000044",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "The sweep used one desktop browser and a narrow viewport override. Dense slices may use the full-label table and interactive branch details. The alternate hierarchy and full-distribution checks were sampled."
     }
   ],
   "remaining": [
