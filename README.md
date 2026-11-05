@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Restore complete sunburst labels and year-by-year topic options
+
+- **Human — Ian G. Williams:** Ian G. Williams reported missing sunburst text and apparently missing year-by-year options and requested a correction.
+- **AI:** OpenAI Codex (exact model/build unknown/not recorded) traced the prior fit filter and persistent topic-focus state. Added a full-text interactive key with one control per drawn slice, compact labels that still pass the fit check, and an all-topics reset when the year or topic hierarchy changes. Browser inspection covered 80 lens/year combinations at desktop and again at 320px, checking key-to-slice parity, 15 overview year groups, single-year drill-downs, and label overlap and clipping. All 160 states passed. A focused topic expanded from one to eight topics on year change, and a key button opened the corresponding evidence.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-restore-complete-sunburst-labels-and-year-options). Browser checks used one desktop engine with a narrow viewport override. The PNG continues to export the SVG chart, while the full-text key is part of the interactive page.
+
 ### 2026-11-05 — Audit sunburst legibility and correct label placement
 
 - **Human — Ian G. Williams:** Ian G. Williams requested a legibility and cutoff audit followed by corrections.

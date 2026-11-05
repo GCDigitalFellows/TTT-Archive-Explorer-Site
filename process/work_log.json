@@ -1534,6 +1534,30 @@
         "reviews/mockups/welcoming-pathways/word_methods.md"
       ],
       "limit": "The sweep used one desktop browser and a narrow viewport override. Dense slices may use the full-label table and interactive branch details. The alternate hierarchy and full-distribution checks were sampled."
+    },
+    {
+      "id": "restore-complete-sunburst-labels-and-year-options",
+      "date": "2026-11-05",
+      "status": "implemented and verified in browser preview",
+      "task": "Restore complete sunburst labels and year-by-year topic options",
+      "human": "Ian G. Williams reported missing sunburst text and apparently missing year-by-year options and requested a correction.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) traced the prior fit filter and persistent topic-focus state. Added a full-text interactive key with one control per drawn slice, compact labels that still pass the fit check, and an all-topics reset when the year or topic hierarchy changes. Browser inspection covered 80 lens/year combinations at desktop and again at 320px, checking key-to-slice parity, 15 overview year groups, single-year drill-downs, and label overlap and clipping. All 160 states passed. A focused topic expanded from one to eight topics on year change, and a key button opened the corresponding evidence.",
+      "credit_roles": [
+        "Validation",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Browser checks used one desktop engine with a narrow viewport override. The PNG continues to export the SVG chart, while the full-text key is part of the interactive page."
     }
   ],
   "remaining": [

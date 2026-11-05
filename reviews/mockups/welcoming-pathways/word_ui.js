@@ -22,7 +22,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   }
   function sourceButton(group,row,cloud=false){const b=make('button',row.word);b.type='button';b.addEventListener('click',()=>inspect(group,row,cloud));return b;}
   function resetDetail(){clearDetails();get('wp-word-detail').textContent='Select a branch or table value to inspect source posts.';get('wp-word-selection-text').textContent='Select a year to expand it, or a word/topic to inspect its evidence.';get('wp-word-source-jump').hidden=true;}
-  function chooseYear(value){year=value;if(mode==='heat')mode='sun';get('wp-word-year').value=value;resetDetail();render();get('wp-word-summary').tabIndex=-1;get('wp-word-summary').focus();announce(value==='all'?'All academic years displayed':value+' expanded');}
+  function chooseYear(value){year=value;topicFocus='all';get('wp-topic-focus').value='all';if(mode==='heat')mode='sun';get('wp-word-year').value=value;resetDetail();render();get('wp-word-summary').tabIndex=-1;get('wp-word-summary').focus();announce(value==='all'?'All academic years displayed':value+' expanded');}
   // Same data, reversed nesting: each fractional topic contribution is retained.
   function chartGroups(){
     const groups=view().groups.filter(g=>year==='all'||g.label===year);
@@ -78,7 +78,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
     const fontSize = Math.max(15, minimum / scale);
     const occupied = [];
     let omitted = 0;
-    let abbreviatedYear = false;
+    let abbreviated = false;
     const centerLabel = svgTag('text', {x:380, y:380, 'text-anchor':'middle',
       'dominant-baseline':'middle', class:'sunburst-center'});
     centerLabel.style.fontSize = fontSize + 'px';
@@ -99,7 +99,9 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
       const shortYear = /^20(\d{2})–20(\d{2})$/.exec(candidate.label);
       const variants = shortYear
         ? [candidate.label, shortYear[1] + '–' + shortYear[2], '20' + shortYear[1], '’' + shortYear[1]]
-        : [candidate.label];
+        : [candidate.label, ...[18, 13, 9, 6]
+          .filter(length => candidate.label.length > length)
+          .map(length => candidate.label.slice(0, length - 1).trimEnd() + '…')];
       const placed = variants.some(label => {
         text.textContent = label;
         if (!fitsSector(text, candidate)) return false;
@@ -107,7 +109,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
         if (occupied.some(other => box.left < other.right + 1 && box.right > other.left - 1 &&
           box.top < other.bottom + 1 && box.bottom > other.top - 1)) return false;
         occupied.push(box);
-        abbreviatedYear ||= label !== candidate.label;
+        abbreviated ||= label !== candidate.label;
         return true;
       });
       if (!placed) {
@@ -115,12 +117,9 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
         omitted++;
       }
     }
-    const note = omitted
-      ? 'The chart labels branches with room for readable text. Select a branch or use the table for its full label and value.'
-      : 'Select a branch to inspect its sources. The table lists full labels and values.';
-    get('wp-sunburst-label-note').textContent = abbreviatedYear
-      ? 'Compact year labels show the starting year or shortened range. ' + note
-      : note;
+    get('wp-sunburst-label-note').textContent = omitted || abbreviated
+      ? 'Some slices use compact labels. The chart key lists every branch by its full name.'
+      : 'Select a slice or a name in the chart key to inspect its sources.';
   }
 
   new ResizeObserver(() => fitCurrentSunburst()).observe(sunTarget);
@@ -128,21 +127,49 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
     attributes:true, attributeFilter:['data-design-year','class','style']
   });
   document.fonts?.ready.then(() => fitCurrentSunburst());
+  // Give every drawn branch a full-size text control, even when its slice
+  // cannot carry a label. The key and SVG share the same action and data.
+  function keyButton(text, branch, onSelect) {
+    const control = make('button', text);
+    control.type = 'button';
+    control.addEventListener('click', onSelect);
+    const highlight = () => branch.classList.add('sunburst-highlight');
+    const clear = () => branch.classList.remove('sunburst-highlight');
+    control.addEventListener('pointerenter', highlight);
+    control.addEventListener('pointerleave', clear);
+    control.addEventListener('focus', highlight);
+    control.addEventListener('blur', clear);
+    return control;
+  }
+
   function sunburst(){
     const target=sunTarget;target.replaceChildren();
+    const key = get('wp-sunburst-key');
+    key.replaceChildren();
     fitCurrentSunburst = () => {};
     get('wp-sunburst-label-note').textContent = '';const groups=chartGroups().filter(g=>g.mass>0),total=groups.reduce((n,g)=>n+g.mass,0);
     if(!total){target.append(make('p','No eligible values in this scope. Check the thresholds and corpus inclusion rules.'));return;}
     const svg=svgTag('svg',{viewBox:'0 0 760 760',class:'word-sunburst',role:'group','aria-label':view().label+' sunburst. '+view().explanation+' Exact values follow in the table.'});
     const groupLabels = [], leafLabels = [];
+    key.append(make('h4', 'Sunburst chart key'));
+    const keyRows = make('div');
+    keyRows.className = 'sunburst-key-rows';
+    key.append(keyRows);
     const colors=['#88a9ca','#d4b380','#b5a0cc','#91b8ac','#d9a4ae'];let start=-Math.PI/2;
     groups.forEach((g,index)=>{
       const end=start+2*Math.PI*g.mass/total,mid=(start+end)/2;
-      action(svg,g.label+': '+g.posts+' analyzed posts; '+(lens==='topics'&&order==='topics'?'show topic sources':'expand year'),svgTag('path',{d:sector(start,end,rings.center,rings.group),fill:colors[index%colors.length]}),()=>{
+      const selectGroup = () => {
         if(lens==='topics'&&order==='topics'){
           topicFocus=String(g.topicIndex);get('wp-topic-focus').value=topicFocus;render();get('wp-word-summary').tabIndex=-1;get('wp-word-summary').focus();const rows=g.rows;inspect(g,{word:'All contributing years',count:g.mass,ids:data.posts.filter(p=>rows.some(r=>r.ids.includes(p.id))).sort((a,b)=>b.weights[g.topicIndex]-a.weights[g.topicIndex]).map(p=>p.id)});
         }else chooseYear(g.label);
-      });
+      };
+      const groupAction = action(svg,g.label+': '+g.posts+' analyzed posts; '+(lens==='topics'&&order==='topics'?'show topic sources':'expand year'),svgTag('path',{d:sector(start,end,rings.center,rings.group),fill:colors[index%colors.length]}),selectGroup);
+      const keyGroup = make('section');
+      const heading = make('h5');
+      heading.append(keyButton(g.label, groupAction, selectGroup));
+      const terms = make('ul');
+      keyGroup.append(heading, terms);
+      keyRows.append(keyGroup);
       groupLabels.push({label:g.label, angle:mid, span:end-start, inner:rings.center, outer:rings.group});
       let next=start;
       const rows=leading&&['shared','raw','phrases'].includes(lens)?g.rows.filter(r=>r.key!=='__other__'):g.rows;
@@ -150,7 +177,11 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
       for(const row of rows){
         const stop=next+(end-start)*row.value/shown;
         if(stop<=next)continue;
-        action(svg,`${g.label}, ${row.word}: ${number(row.count)} ${view().unit}; inspect sources`,svgTag('path',{d:sector(next,stop,rings.leafStart,rings.leafEnd),fill:row.key==='__other__'?'#d1d4d5':colors[index%colors.length]}),()=>inspect(g,row));
+        const selectLeaf = () => inspect(g,row);
+        const leafAction = action(svg,`${g.label}, ${row.word}: ${number(row.count)} ${view().unit}; inspect sources`,svgTag('path',{d:sector(next,stop,rings.leafStart,rings.leafEnd),fill:row.key==='__other__'?'#d1d4d5':colors[index%colors.length]}),selectLeaf);
+        const item = make('li');
+        item.append(keyButton(row.word, leafAction, selectLeaf));
+        terms.append(item);
         leafLabels.push({label:row.word, angle:(next+stop)/2, span:stop-next, inner:rings.leafStart, outer:rings.leafEnd});
         next=stop;
       }
@@ -312,6 +343,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   function render(){
     const group=year==='all'?evidence.all:evidence.years.find(g=>g.label===year),cloud=mode==='cloud';
     get('wp-sunburst-label-note').hidden=mode!=='sun';
+    get('wp-sunburst-key').hidden=mode!=='sun';
     get('wp-word-cloud').hidden=!cloud;get('wp-word-sun').hidden=mode!=='sun';get('wp-word-heat').hidden=mode!=='heat';get('wp-word-selection').hidden=cloud;get('wp-word-lens-controls').hidden=cloud;
     get('wp-topic-order-label').hidden=lens!=='topics'||mode!=='sun';get('wp-topic-focus-label').hidden=lens!=='topics'||order!=='topics'||mode!=='sun';get('wp-word-research-note').hidden=lens!=='distinct';get('wp-word-research-note').textContent='Research settings: ≥3 occurrences in the year, ≥2 containing posts in the year, ≥3 in the corpus; smoothing 0.5; positive scores only. Raising the year minimum to 3 posts retains '+(year==='all'?'between 0 and 5 of the original five words across years':data.hierarchies.distinct_sensitivity.find(r=>r.year===year).shared_words+' of the original five words in this year')+'. Rankings are sensitive to these choices; see the methods sensitivity table.';get('wp-word-leading-label').hidden=mode!=='sun'||!['shared','raw','phrases'].includes(lens);get('wp-word-lens-explanation').textContent=view().explanation+(mode==='sun'&&leading&&['shared','raw','phrases'].includes(lens)?' Chart focus: Other is omitted and the leading five are enlarged to fill each year; these are shares of the selected five only. The table retains Other and full denominators.':'');
     for(const [name,value]of[['wp-word-cloud-button','cloud'],['wp-word-sun-button','sun'],['wp-word-heat-button','heat']])get(name).setAttribute('aria-pressed',String(mode===value));
@@ -329,7 +361,7 @@ function createPathwaysWords({root,data,showPosts,clearDetails,announce}){
   get('wp-word-lens').addEventListener('change',e=>{lens=e.target.value;resetDetail();render();announce(view().label+' selected');});
   for(const [value,label]of[['all','All saved topics'],...data.topics.map((t,i)=>[String(i),t.label])]){const o=make('option',label);o.value=value;get('wp-topic-focus').append(o);}
   get('wp-topic-focus').addEventListener('change',e=>{topicFocus=e.target.value;resetDetail();render();announce('Topic branch expanded');});
-  get('wp-topic-order').addEventListener('change',e=>{order=e.target.value;resetDetail();render();announce('Topic hierarchy changed; numerical contributions are unchanged');});
+  get('wp-topic-order').addEventListener('change',e=>{order=e.target.value;topicFocus='all';get('wp-topic-focus').value='all';resetDetail();render();announce('Topic hierarchy changed; numerical contributions are unchanged');});
   get('wp-word-leading').addEventListener('change',e=>{leading=e.target.checked;render();announce(leading?'Leading-five focus; Other retained in table':'Full distribution including Other');});
   get('wp-word-all-years').addEventListener('click',()=>chooseYear('all'));
   get('wp-word-source-jump').addEventListener('click',()=>{const heading=root.querySelector('#wp-analysis-posts h2');heading.tabIndex=-1;heading.focus();});
