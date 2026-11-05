@@ -752,27 +752,6 @@
       ]
     },
     {
-      "name": "Amba Kak",
-      "variants": [
-        "Amba Kak"
-      ],
-      "entries": [
-        {
-          "postId": "18026",
-          "title": "Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium",
-          "year": "2021–2022",
-          "status": "draft",
-          "kind": "curated/source-linked",
-          "rawCredit": "Rashida Richardson and Amba Kak",
-          "creditStatus": "source metadata",
-          "authorshipTier": "declared-credit",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
-        }
-      ]
-    },
-    {
       "name": "Andrew G McKinney",
       "variants": [
         "Andrew G McKinney"
@@ -1752,19 +1731,6 @@
         "Erin Glass"
       ],
       "entries": [
-        {
-          "postId": "1",
-          "title": "Installing WordPress locally on your Mac with MAMP",
-          "year": "2012–2013",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Erin Glass",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
-        },
         {
           "postId": "19722",
           "title": "The Luddite-Technophile Spectrum",
@@ -2805,27 +2771,6 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2022/04/14/interview-with-laura-wildemann-kane/",
-          "sourceUrl": ""
-        }
-      ]
-    },
-    {
-      "name": "Jim Salter",
-      "variants": [
-        "Jim Salter"
-      ],
-      "entries": [
-        {
-          "postId": "17119",
-          "title": "Sourcegraph: Devs are managing 100x more code now than they did in 2010 | Ars Technica",
-          "year": "2020–2021",
-          "status": "draft",
-          "kind": "curated/source-linked",
-          "rawCredit": "Jim Salter",
-          "creditStatus": "source metadata",
-          "authorshipTier": "declared-credit",
-          "evidence": "",
-          "url": "",
           "sourceUrl": ""
         }
       ]
@@ -4260,27 +4205,6 @@
       ]
     },
     {
-      "name": "Mark Sample",
-      "variants": [
-        "Mark Sample"
-      ],
-      "entries": [
-        {
-          "postId": "12179",
-          "title": "Speculative Surveillance with Ring™ Log – @samplereality",
-          "year": "2019–2020",
-          "status": "draft",
-          "kind": "curated/source-linked",
-          "rawCredit": "Mark Sample",
-          "creditStatus": "source metadata",
-          "authorshipTier": "declared-credit",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
-        }
-      ]
-    },
-    {
       "name": "Mary Catherine Kinniburgh",
       "variants": [
         "Mary Catherine Kinniburgh"
@@ -4486,27 +4410,6 @@
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2020/10/14/opinion-when-algorithms-give-real-students-imaginary-grades-the-new-york-times/",
           "sourceUrl": "https://www.nytimes.com/2020/09/08/opinion/international-baccalaureate-algorithm-grades.html"
-        }
-      ]
-    },
-    {
-      "name": "Merrit Corrigan",
-      "variants": [
-        "Merrit Corrigan"
-      ],
-      "entries": [
-        {
-          "postId": "5614",
-          "title": "Resource Guide for Video Tools in Distance Learning",
-          "year": "2019–2020",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Merrit Corrigan",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
         }
       ]
     },
@@ -5123,19 +5026,6 @@
       ],
       "entries": [
         {
-          "postId": "19794",
-          "title": "Inclusive Programming with Django and Python",
-          "year": "2013–2014",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Patrick Smyth, PhD",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
-        },
-        {
           "postId": "19788",
           "title": "Programming with Python workshop materials",
           "year": "2014–2015",
@@ -5610,27 +5500,6 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2021/04/09/exploring-data-with-python-and-pandas-2/",
-          "sourceUrl": ""
-        }
-      ]
-    },
-    {
-      "name": "Rashida Richardson",
-      "variants": [
-        "Rashida Richardson"
-      ],
-      "entries": [
-        {
-          "postId": "18026",
-          "title": "Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium",
-          "year": "2021–2022",
-          "status": "draft",
-          "kind": "curated/source-linked",
-          "rawCredit": "Rashida Richardson and Amba Kak",
-          "creditStatus": "source metadata",
-          "authorshipTier": "declared-credit",
-          "evidence": "",
-          "url": "",
           "sourceUrl": ""
         }
       ]
@@ -6156,19 +6025,6 @@
           "sourceUrl": ""
         },
         {
-          "postId": "19764",
-          "title": "The CUNY Digital Humanities Resource Guide",
-          "year": "2013–2014",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
-          "sourceUrl": ""
-        },
-        {
           "postId": "19767",
           "title": "All That is Digital Melts into Code",
           "year": "2013–2014",
@@ -6231,19 +6087,6 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2013/12/28/speaking-of-speaking-in-code-part-2/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19772",
-          "title": "When 'Retro' was 'Nowtro'",
-          "year": "2013–2014",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
           "sourceUrl": ""
         },
         {
@@ -6882,19 +6725,6 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2025/02/14/doing-humanidades-digitales-at-cuny/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "21643",
-          "title": "Reflecting on Alt Text",
-          "year": "2024–2025",
-          "status": "draft",
-          "kind": "local/unflagged",
-          "rawCredit": "Silvia Rivera Alfaro",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "",
           "sourceUrl": ""
         },
         {

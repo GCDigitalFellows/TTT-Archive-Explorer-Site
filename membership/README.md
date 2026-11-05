@@ -14,7 +14,7 @@ The original directory spellings are retained. `review.json` documents each memb
 
 An initial-only or first-name signed credit is resolved only when the dated role context supplies one candidate, or a separately reviewed contemporaneous name mapping supplies the missing identity. Two spring-2018 Patrick entries remain ambiguous. A current-directory name can resolve the identity in a dated signed list without supplying historical appointment dates itself.
 
-A directory match never supplies an article byline. All 430 article records and their authorship dispositions are preserved. Matching a provisional account credit to a historical Fellow does not make that article source-supported. Keep the source-supported authorship filter separate from the membership filter.
+A directory match never supplies an article byline. The active article-match register covers the 421 published records. The source inventory retains its original statuses. Matching a provisional account credit to a historical Fellow does not make that article source-supported. Keep the source-supported authorship filter separate from the membership filter.
 
 ## Guest authors and participants
 

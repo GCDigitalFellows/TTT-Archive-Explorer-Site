@@ -1,51 +1,5 @@
 [
   {
-    "id": "1",
-    "title": "Installing WordPress locally on your Mac with MAMP",
-    "date": "2012-09-06 16:08:19",
-    "academic_year": "2012–2013",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=1",
-    "creator_login": "eringlass",
-    "creator_name": "Erin Glass",
-    "credited_authors": [
-      "Erin Glass"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [],
-    "themes": [
-      "Web & scholarly identity"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [
-        "wordpress"
-      ],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Web & scholarly identity",
-      "Code & computational methods"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Erin Glass"
-    ]
-  },
-  {
     "id": "19721",
     "title": "A Fresh Perspective",
     "date": "2012-11-12 11:52:42",
@@ -2370,51 +2324,6 @@
     ]
   },
   {
-    "id": "19764",
-    "title": "The CUNY Digital Humanities Resource Guide",
-    "date": "2013-10-17 11:39:19",
-    "academic_year": "2013–2014",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=19764",
-    "creator_login": "samohana",
-    "creator_name": "Sam O'Hana",
-    "credited_authors": [
-      "Sam O'Hana"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [
-      "resource guide",
-      "resources"
-    ],
-    "themes": [],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Teaching & learning",
-      "Community & collaboration"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Sam O'Hana"
-    ]
-  },
-  {
     "id": "19765",
     "title": "Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",
     "date": "2013-10-21 09:30:27",
@@ -2691,63 +2600,6 @@
       "Code & computational methods",
       "Archives, text & media",
       "Teaching & learning"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Sam O'Hana"
-    ]
-  },
-  {
-    "id": "19772",
-    "title": "When 'Retro' was 'Nowtro'",
-    "date": "2013-11-29 13:59:12",
-    "academic_year": "2013–2014",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=19772",
-    "creator_login": "samohana",
-    "creator_name": "Sam O'Hana",
-    "credited_authors": [
-      "Sam O'Hana"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [
-      "Apple",
-      "awesome",
-      "bbs",
-      "emulation",
-      "hardware",
-      "modem",
-      "Reflections",
-      "retro",
-      "retrocomputing",
-      "software",
-      "vintage"
-    ],
-    "themes": [],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Web & scholarly identity",
-      "Code & computational methods",
-      "Teaching & learning",
-      "Community & collaboration",
-      "Ethics, access & power"
     ],
     "cohort_link": "",
     "cohort_link_status": "unconfirmed; no matching signed roster evidence",
@@ -3148,63 +3000,6 @@
     "cohort_link_status": "unconfirmed; no matching signed roster evidence",
     "original_credited_authors": [
       "Sam O'Hana"
-    ]
-  },
-  {
-    "id": "19794",
-    "title": "Inclusive Programming with Django and Python",
-    "date": "2014-02-28 20:00:20",
-    "academic_year": "2013–2014",
-    "semester": "spring",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=19794",
-    "creator_login": "psmyth",
-    "creator_name": "Patrick Smyth, PhD",
-    "credited_authors": [
-      "Patrick Smyth, PhD"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [
-      "django",
-      "python",
-      "resources"
-    ],
-    "themes": [
-      "Code & computational methods",
-      "Ethics, access & power"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [
-        "programming",
-        "python"
-      ],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [
-        "inclus"
-      ],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Web & scholarly identity",
-      "Code & computational methods",
-      "Teaching & learning",
-      "Community & collaboration",
-      "Ethics, access & power"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Patrick Smyth, PhD"
     ]
   },
   {
@@ -12166,57 +11961,6 @@
     ]
   },
   {
-    "id": "12179",
-    "title": "Speculative Surveillance with Ring™ Log – @samplereality",
-    "date": "2019-11-06 14:10:59",
-    "academic_year": "2019–2020",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=12179",
-    "creator_login": "lrhody",
-    "creator_name": "Lisa Marie Rhody",
-    "credited_authors": [
-      "Mark Sample"
-    ],
-    "author_evidence": "PressForward/source metadata; creator treated as curator",
-    "author_credit_status": "source metadata",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "curated/source-linked",
-    "source_url": "https://www.samplereality.com/2019/10/29/speculative-surveillance-with-ring-log/",
-    "source_author": "Mark Sample",
-    "tags": [
-      "via bookmarklet"
-    ],
-    "themes": [
-      "Ethics, access & power"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [
-        "surveillance"
-      ],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Code & computational methods",
-      "Archives, text & media",
-      "Teaching & learning",
-      "Ethics, access & power",
-      "AI & machine learning"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Mark Sample"
-    ]
-  },
-  {
     "id": "5386",
     "title": "A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site",
     "date": "2019-11-07 10:29:18",
@@ -13292,60 +13036,6 @@
     ]
   },
   {
-    "id": "5614",
-    "title": "Resource Guide for Video Tools in Distance Learning",
-    "date": "2020-05-15 16:03:53",
-    "academic_year": "2019–2020",
-    "semester": "spring",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=5614",
-    "creator_login": "merrit",
-    "creator_name": "Merrit Corrigan",
-    "credited_authors": [
-      "Merrit Corrigan"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [
-      "Featured",
-      "Resources"
-    ],
-    "themes": [
-      "Archives, text & media",
-      "Teaching & learning"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [
-        "video"
-      ],
-      "Teaching & learning": [
-        "learn"
-      ],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Web & scholarly identity",
-      "Archives, text & media",
-      "Teaching & learning",
-      "Ethics, access & power"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Merrit Corrigan"
-    ]
-  },
-  {
     "id": "19860",
     "title": "Working with HathiTrust Data - Part 3",
     "date": "2020-05-21 10:00:44",
@@ -13958,56 +13648,6 @@
     "cohort_link_status": "unconfirmed; no matching signed roster evidence",
     "original_credited_authors": [
       "Alex Hern"
-    ]
-  },
-  {
-    "id": "17119",
-    "title": "Sourcegraph: Devs are managing 100x more code now than they did in 2010 | Ars Technica",
-    "date": "2020-10-06 14:37:11",
-    "academic_year": "2020–2021",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=17119",
-    "creator_login": "jmccormack",
-    "creator_name": "Jessie McCormack",
-    "credited_authors": [
-      "Jim Salter"
-    ],
-    "author_evidence": "PressForward/source metadata; creator treated as curator",
-    "author_credit_status": "source metadata",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "curated/source-linked",
-    "source_url": "https://arstechnica.com/gadgets/2020/10/sourcegraph-devs-are-managing-100x-more-code-now-than-they-did-in-2010/",
-    "source_author": "Jim Salter",
-    "tags": [
-      "News",
-      "via bookmarklet"
-    ],
-    "themes": [
-      "Code & computational methods"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [
-        "code"
-      ],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Web & scholarly identity",
-      "Code & computational methods",
-      "Ethics, access & power"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Jim Salter"
     ]
   },
   {
@@ -15606,61 +15246,6 @@
     "cohort_link_status": "same-semester roster match",
     "original_credited_authors": [
       "Param Ajmera"
-    ]
-  },
-  {
-    "id": "18026",
-    "title": "Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium",
-    "date": "2021-10-05 13:16:59",
-    "academic_year": "2021–2022",
-    "semester": "fall",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=18026",
-    "creator_login": "lrhody",
-    "creator_name": "Lisa Marie Rhody",
-    "credited_authors": [
-      "Rashida Richardson",
-      "Amba Kak"
-    ],
-    "author_evidence": "PressForward/source metadata; creator treated as curator",
-    "author_credit_status": "source metadata",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "curated/source-linked",
-    "source_url": "https://medium.com/@AINowInstitute/suspect-development-systems-8d4f6d897892",
-    "source_author": "Rashida Richardson and Amba Kak",
-    "tags": [
-      "Uncategorized",
-      "via bookmarklet"
-    ],
-    "themes": [
-      "Teaching & learning",
-      "AI & machine learning"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [
-        "institute"
-      ],
-      "Community & collaboration": [],
-      "Ethics, access & power": [],
-      "AI & machine learning": [
-        "ai"
-      ]
-    },
-    "fulltext_themes": [
-      "Code & computational methods",
-      "Teaching & learning",
-      "Ethics, access & power",
-      "AI & machine learning"
-    ],
-    "cohort_link": "",
-    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
-    "original_credited_authors": [
-      "Rashida Richardson and Amba Kak"
     ]
   },
   {
@@ -20984,54 +20569,6 @@
     "cohort_link_status": "same-semester roster match",
     "original_credited_authors": [
       "Zachary Lloyd"
-    ]
-  },
-  {
-    "id": "21643",
-    "title": "Reflecting on Alt Text",
-    "date": "2025-04-03 22:49:58",
-    "academic_year": "2024–2025",
-    "semester": "spring",
-    "status": "draft",
-    "url": "https://gcdi.commons.gc.cuny.edu/?p=21643",
-    "creator_login": "silvira",
-    "creator_name": "Silvia Rivera Alfaro",
-    "credited_authors": [
-      "Silvia Rivera Alfaro"
-    ],
-    "author_evidence": "WordPress creator (provisional authorship)",
-    "author_credit_status": "provisional posting-account attribution",
-    "author_credit_quote": "",
-    "author_terms": [],
-    "kind": "local/unflagged",
-    "source_url": "",
-    "source_author": "",
-    "tags": [],
-    "themes": [
-      "Ethics, access & power"
-    ],
-    "theme_hits": {
-      "Web & scholarly identity": [],
-      "Code & computational methods": [],
-      "Maps & visualization": [],
-      "Archives, text & media": [],
-      "Teaching & learning": [],
-      "Community & collaboration": [],
-      "Ethics, access & power": [
-        "alt text"
-      ],
-      "AI & machine learning": []
-    },
-    "fulltext_themes": [
-      "Code & computational methods",
-      "Teaching & learning",
-      "Community & collaboration",
-      "Ethics, access & power"
-    ],
-    "cohort_link": "Silvia Rivera Alfaro",
-    "cohort_link_status": "same-semester roster match",
-    "original_credited_authors": [
-      "Silvia Rivera Alfaro"
     ]
   },
   {

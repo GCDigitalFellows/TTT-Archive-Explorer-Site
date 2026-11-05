@@ -1,9 +1,4 @@
 id,item_type,status,in_archive,decision
-1,post,draft,True,Included category post
-5614,post,draft,True,Included category post
-12179,post,draft,True,Included category post
-17119,post,draft,True,Included category post
-18026,post,draft,True,Included category post
 19721,post,publish,True,Included category post
 19729,post,publish,True,Included category post
 19731,post,publish,True,Included category post
@@ -14,11 +9,7 @@ id,item_type,status,in_archive,decision
 19748,post,publish,True,Included category post
 19751,post,publish,True,Included category post
 19762,post,publish,True,Included category post
-19764,post,draft,True,Included category post
-19772,post,draft,True,Included category post
 19775,post,publish,True,Included category post
-19794,post,draft,True,Included category post
-21643,post,draft,True,Included category post
 3889,post,publish,True,Included category post
 19722,post,publish,True,Included category post
 19726,post,publish,True,Included category post
@@ -452,7 +443,6 @@ id,item_type,status,in_archive,decision
 1527,attachment,inherit,False,Not an ordinary post: attachment
 1531,revision,inherit,False,Not an ordinary post: revision
 1677,revision,inherit,False,Not an ordinary post: revision
-1842,wooframework,draft,False,Not an ordinary post: wooframework
 1863,revision,inherit,False,Not an ordinary post: revision
 2632,revision,inherit,False,Not an ordinary post: revision
 484,revision,inherit,False,Not an ordinary post: revision
@@ -475,7 +465,6 @@ id,item_type,status,in_archive,decision
 10603,attachment,inherit,False,Not an ordinary post: attachment
 1021,revision,inherit,False,Not an ordinary post: revision
 1596,revision,inherit,False,Not an ordinary post: revision
-2038,wooframework,draft,False,Not an ordinary post: wooframework
 3074,tribe_events,publish,False,Not an ordinary post: tribe_events
 3241,tribe_events,publish,False,Not an ordinary post: tribe_events
 3403,slide,publish,False,Not an ordinary post: slide
@@ -702,12 +691,10 @@ id,item_type,status,in_archive,decision
 1264,revision,inherit,False,Not an ordinary post: revision
 1293,revision,inherit,False,Not an ordinary post: revision
 1345,revision,inherit,False,Not an ordinary post: revision
-1371,wooframework,draft,False,Not an ordinary post: wooframework
 1400,revision,inherit,False,Not an ordinary post: revision
 1445,revision,inherit,False,Not an ordinary post: revision
 1478,revision,inherit,False,Not an ordinary post: revision
 3531,revision,inherit,False,Not an ordinary post: revision
-4576,nomination,draft,False,Not an ordinary post: nomination
 6939,revision,inherit,False,Not an ordinary post: revision
 1268,revision,inherit,False,Not an ordinary post: revision
 1463,revision,inherit,False,Not an ordinary post: revision
@@ -717,7 +704,6 @@ id,item_type,status,in_archive,decision
 1737,revision,inherit,False,Not an ordinary post: revision
 1760,attachment,inherit,False,Not an ordinary post: attachment
 1779,revision,inherit,False,Not an ordinary post: revision
-1823,wooframework,draft,False,Not an ordinary post: wooframework
 1960,tribe_events,publish,False,Not an ordinary post: tribe_events
 1973,tribe_events,publish,False,Not an ordinary post: tribe_events
 2018,revision,inherit,False,Not an ordinary post: revision
@@ -730,10 +716,8 @@ id,item_type,status,in_archive,decision
 19377,attachment,inherit,False,Not an ordinary post: attachment
 2560,revision,inherit,False,Not an ordinary post: revision
 2719,revision,inherit,False,Not an ordinary post: revision
-2747,wooframework,draft,False,Not an ordinary post: wooframework
 2836,attachment,inherit,False,Not an ordinary post: attachment
 2992,tribe_events,publish,False,Not an ordinary post: tribe_events
-3116,post,draft,False,Ordinary post outside the Tagging the Tower category
 3160,tribe_events,publish,False,Not an ordinary post: tribe_events
 3184,tribe_events,publish,False,Not an ordinary post: tribe_events
 3232,revision,inherit,False,Not an ordinary post: revision
@@ -817,7 +801,6 @@ id,item_type,status,in_archive,decision
 23511,attachment,inherit,False,Not an ordinary post: attachment
 23853,attachment,inherit,False,Not an ordinary post: attachment
 6543,revision,inherit,False,Not an ordinary post: revision
-6865,post,draft,False,Ordinary post outside the Tagging the Tower category
 23011,attachment,inherit,False,Not an ordinary post: attachment
 23017,attachment,inherit,False,Not an ordinary post: attachment
 23189,attachment,inherit,False,Not an ordinary post: attachment

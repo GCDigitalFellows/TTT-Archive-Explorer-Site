@@ -29,6 +29,12 @@ Every project update must be recorded here with separate **Human** and **AI** at
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Exclude draft entries from archive data and analyses
+
+- **Human — Ian G. Williams:** Ian G. Williams directed the exclusion of all draft-status post entries from the active dataset and analyses. This is a project scope decision.
+- **AI:** OpenAI Codex (exact model/build unknown/not recorded) applied the status filter to the index, publication data, coverage ledgers, source credits, grouped identities, fellowship post matches and source-rights register. Filtered public inventory and historical attribution exports and removed draft examples from the public legacy report copy. Reconciled 421 published article rows, 325 local published posts, 299 modeled posts and 307 earlier motif posts. Coverage, source-credit, rights, identity, membership, history, process, interactive analysis and release checks passed. The release check scans CSV and JSON downloads and HTML payloads for draft-status entries.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-published-only-data-scope). The private source snapshot and historical verification baseline retain original statuses. Aggregate exclusion counts document the source-to-release reconciliation. The existing fitted corpus and statistical analyses already used published posts, so their saved outputs retain the verified published populations. Public deployment replaces current files. Prior Git history remains historical evidence.
+
 ### 2026-11-05 — Propagate the confirmed 2026–2027 roster through fellowship records and maps
 
 - **Human — Ian G. Williams:** Ian G. Williams confirmed the seven-person Digital Fellows roster for 2026–2027 on November 4 and directed propagation to all cohort records and maps. CRediT Validation and Data curation apply to that specific mapping.

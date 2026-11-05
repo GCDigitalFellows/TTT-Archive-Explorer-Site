@@ -9,7 +9,7 @@ Open `../CREDITS_AND_PROCESS.html`, or choose **Attribution & process** in the e
 - `../build_credits.py` joins corrected `records.json` to those choices. Read `main()`, then `build_register()`. The generator preserves original credit strings, per-post status, quotation evidence and links. It produces `human_author_register.csv`, `credits_and_process.json`, the page fragment, and the standalone HTML.
 - `page_template.html` contains the readable explanation. `credits.css` supplies a standalone reading layout and scoped styles for the embedded tab. `credits_ui.js` filters an already-complete register; without JavaScript, all names and linked records remain available.
 
-The CSV has one row per name/post pair. The 163 name entries include local and named curated-source writers as well as provisional and draft metadata; they are not a verified census of distinct people. Joint-name expansions affect this acknowledgment register only. They do not silently change historical model inputs, the attribution ledger, or the network’s 70-name published-local population.
+The CSV has one row per name/post pair. The 157 name entries include published local and named curated-source writers as well as provisional credits; they are not a verified census of distinct people. Joint-name expansions affect this acknowledgment register only. They do not silently change historical model inputs, the attribution ledger, or the network’s 70-name published-local population.
 
 ## Scope of the roles
 

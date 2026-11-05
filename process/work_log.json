@@ -1406,6 +1406,33 @@
         "../.archify/tree-confirmed-cohorts-20261104-233716/validation.json"
       ],
       "limit": "The confirmation establishes roster year and role for seven people. Other 2026–2027 roles have missing annual evidence. This evidence has annual resolution. Historical archive snapshots and signed and directory-only publication matching preserve their original scope. Archify native browser gate skipped. Separate browser checks cover selected views."
+    },
+    {
+      "id": "published-only-data-scope",
+      "date": "2026-11-05",
+      "status": "rebuilt and verified in release preview",
+      "task": "Exclude draft entries from archive data and analyses",
+      "human": "Ian G. Williams directed the exclusion of all draft-status post entries from the active dataset and analyses. This is a project scope decision.",
+      "agent": "OpenAI Codex (exact model/build unknown/not recorded) applied the status filter to the index, publication data, coverage ledgers, source credits, grouped identities, fellowship post matches and source-rights register. Filtered public inventory and historical attribution exports and removed draft examples from the public legacy report copy. Reconciled 421 published article rows, 325 local published posts, 299 modeled posts and 307 earlier motif posts. Coverage, source-credit, rights, identity, membership, history, process, interactive analysis and release checks passed. The release check scans CSV and JSON downloads and HTML payloads for draft-status entries.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "ARCHIVE_COVERAGE.html",
+        "coverage/coverage_audit.json",
+        "rights/source_rights.json",
+        "interactive/build_audit.json",
+        "../scripts/test_public_release.py"
+      ],
+      "limit": "The private source snapshot and historical verification baseline retain original statuses. Aggregate exclusion counts document the source-to-release reconciliation. The existing fitted corpus and statistical analyses already used published posts, so their saved outputs retain the verified published populations. Public deployment replaces current files. Prior Git history remains historical evidence."
     }
   ],
   "remaining": [

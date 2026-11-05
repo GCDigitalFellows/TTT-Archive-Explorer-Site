@@ -1,5 +1,4 @@
 id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,resolved-signed,directory-digital,directory-any,combined
-1,2012–2013,fall,draft,local/unflagged,Erin Glass,unresolved-account,,,Erin Glass,Erin Glass,Erin Glass
 19721,2012–2013,fall,publish,local/unflagged,Laura Kane,unresolved-account,,,Laura Kane,Laura Kane,Laura Kane
 19722,2012–2013,fall,publish,local/unflagged,Erin Glass,unresolved-account,,,Erin Glass,Erin Glass,Erin Glass
 19723,2012–2013,fall,publish,local/unflagged,Andrew G McKinney,unresolved-account,,,Andrew G McKinney,Andrew G McKinney,Andrew G McKinney
@@ -45,13 +44,11 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 19761,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19762,2013–2014,fall,publish,local/unflagged,Laura Kane,unresolved-account,,,Laura Kane,Laura Kane,Laura Kane
 19763,2013–2014,fall,publish,local/unflagged,Erin Glass,unresolved-account,,,Erin Glass,Erin Glass,Erin Glass
-19764,2013–2014,fall,draft,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19765,2013–2014,fall,publish,local/unflagged,A. L. McMichael,source-supported,,,A. L. McMichael,A. L. McMichael,A. L. McMichael
 19767,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19766,2013–2014,fall,publish,local/unflagged,Andrew G McKinney,unresolved-account,,,Andrew G McKinney,Andrew G McKinney,Andrew G McKinney
 19768,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19769,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
-19772,2013–2014,fall,draft,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19773,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19770,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19774,2013–2014,fall,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
@@ -59,7 +56,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 19775,2013–2014,spring,publish,local/unflagged,Laura Kane,unresolved-account,,,Laura Kane,Laura Kane,Laura Kane
 19776,2013–2014,spring,publish,local/unflagged,Erin Glass,unresolved-account,,,Erin Glass,Erin Glass,Erin Glass
 1911,2013–2014,spring,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
-19794,2013–2014,spring,draft,local/unflagged,"Patrick Smyth, PhD",unresolved-account,,,,,
 19777,2013–2014,spring,publish,local/unflagged,Sam O'Hana,unresolved-account,,,,,
 19778,2013–2014,spring,publish,local/unflagged,A. L. McMichael,source-supported,,,A. L. McMichael,A. L. McMichael,A. L. McMichael
 19779,2013–2014,spring,publish,local/unflagged,Keith Miyake,source-supported,,,Keith Miyake,Keith Miyake,Keith Miyake
@@ -222,7 +218,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 11786,2019–2020,fall,publish,curated/source-linked,Alina Scott,declared-credit,,,,,
 19854,2019–2020,fall,publish,local/unflagged,Kristen Hackett,unresolved-account,Kristen Hackett,Kristen Hackett,Kristen Hackett,Kristen Hackett,Kristen Hackett
 11830,2019–2020,fall,publish,curated/source-linked,Anthony Wheeler,declared-credit,,,,,
-12179,2019–2020,fall,draft,curated/source-linked,Mark Sample,declared-credit,,,,,
 5386,2019–2020,fall,publish,local/unflagged,Stefano Morello,unresolved-account,Stefano Morello,Stefano Morello,Stefano Morello,Stefano Morello,Stefano Morello
 12199,2019–2020,fall,publish,curated/source-linked,Lauren Kaori Gurley,declared-credit,,,,,
 12195,2019–2020,fall,publish,curated/source-linked,Stefano Morello,declared-credit,Stefano Morello,Stefano Morello,Stefano Morello,Stefano Morello,Stefano Morello
@@ -244,7 +239,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 5549,2019–2020,spring,publish,local/unflagged,Param Ajmera,unresolved-account,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera
 5583,2019–2020,spring,publish,local/unflagged,Connor M French,unresolved-account,Connor M French,Connor M French,Connor M French,Connor M French,Connor M French
 5569,2019–2020,spring,publish,local/unflagged,Param Ajmera,unresolved-account,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera
-5614,2019–2020,spring,draft,local/unflagged,Merrit Corrigan,unresolved-account,,,,Merrit Corrigan,
 19860,2019–2020,spring,publish,local/unflagged,Param Ajmera,unresolved-account,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera
 5760,2020–2021,fall,publish,local/unflagged,Stefano Morello; Olivia Ildefonso,source-supported,Stefano Morello; Olivia Ildefonso,Stefano Morello; Olivia Ildefonso,Olivia Ildefonso; Stefano Morello,Olivia Ildefonso; Stefano Morello,Olivia Ildefonso; Stefano Morello
 16994,2020–2021,fall,publish,curated/source-linked,Shirin Ghaffary,declared-credit,,,,,
@@ -257,7 +251,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 5781,2020–2021,fall,publish,local/unflagged,Filipa Calado,unresolved-account,Filipa Calado,Filipa Calado,Filipa Calado,Filipa Calado,Filipa Calado
 17108,2020–2021,fall,publish,curated/source-linked,Jathan Sadowski,declared-credit,,,,,
 17111,2020–2021,fall,publish,curated/source-linked,Alex Hern,declared-credit,,,,,
-17119,2020–2021,fall,draft,curated/source-linked,Jim Salter,declared-credit,,,,,
 17144,2020–2021,fall,publish,curated/source-linked,Meredith Broussard,declared-credit,,,,,
 5804,2020–2021,fall,publish,local/unflagged,Yuxiao Luo,unresolved-account,Yuxiao Luo,Yuxiao Luo,Yuxiao Luo,Yuxiao Luo,Yuxiao Luo
 17227,2020–2021,fall,publish,curated/source-linked,Andrew Marantz,declared-credit,,,,,
@@ -288,7 +281,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 17816,2020–2021,spring,publish,curated/source-linked,Erin McAweeney,declared-credit,,,,,
 6057,2020–2021,spring,publish,local/unflagged,Olivia Ildefonso,unresolved-account,Olivia Ildefonso,Olivia Ildefonso,Olivia Ildefonso,Olivia Ildefonso,Olivia Ildefonso
 6091,2021–2022,fall,publish,local/unflagged,Param Ajmera,source-supported,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera,Param Ajmera
-18026,2021–2022,fall,draft,curated/source-linked,Rashida Richardson; Amba Kak,declared-credit,,,,,
 6153,2021–2022,fall,publish,local/unflagged,Rebecca Krisel,unresolved-account,Rebecca Krisel,Rebecca Krisel,Rebecca Krisel,Rebecca Krisel,Rebecca Krisel
 6198,2021–2022,fall,publish,local/unflagged,Rilquer Mascarenhas,unresolved-account,Rilquer Mascarenhas,Rilquer Mascarenhas,Rilquer Mascarenhas,Rilquer Mascarenhas,Rilquer Mascarenhas
 6196,2021–2022,fall,publish,local/unflagged,Chelsea Lane,unresolved-account,Chelsea Lane,Chelsea Lane,Chelsea Lane,Chelsea Lane,Chelsea Lane
@@ -395,7 +387,6 @@ id,academic_year,semester,status,kind,credited_authors,authorship_tier,signed,re
 21395,2024–2025,spring,publish,local/unflagged,Anna Corbett,unresolved-account,Anna Corbett,Anna Corbett,Anna Corbett,Anna Corbett,Anna Corbett
 21495,2024–2025,spring,publish,local/unflagged,Parisa Setayesh,declared-credit,Parisa Setayesh,Parisa Setayesh,Parisa Setayesh,Parisa Setayesh,Parisa Setayesh
 21509,2024–2025,spring,publish,local/unflagged,Zachary Lloyd,declared-credit,Zachary Lloyd,Zachary Lloyd,Zachary Lloyd,Zachary Lloyd,Zachary Lloyd
-21643,2024–2025,spring,draft,local/unflagged,Silvia Rivera Alfaro,unresolved-account,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro
 21649,2024–2025,spring,publish,local/unflagged,Silvia Rivera Alfaro,declared-credit,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro,Silvia Rivera Alfaro
 21699,2024–2025,spring,publish,local/unflagged,Peyton Cordero,declared-credit,Peyton Cordero,Peyton Cordero,Peyton Cordero,Peyton Cordero,Peyton Cordero
 21773,2024–2025,spring,publish,local/unflagged,Chen Zhou,declared-credit,Chen Zhou,Chen Zhou,Chen Zhou,Chen Zhou,Chen Zhou

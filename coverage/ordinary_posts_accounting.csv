@@ -1,9 +1,4 @@
 id,status,title,in_archive,decision,url
-1,draft,Installing WordPress locally on your Mac with MAMP,True,Included category post,
-5614,draft,Resource Guide for Video Tools in Distance Learning,True,Included category post,
-12179,draft,Speculative Surveillance with Ring™ Log – @samplereality,True,Included category post,
-17119,draft,Sourcegraph: Devs are managing 100x more code now than they did in 2010 | Ars Technica,True,Included category post,
-18026,draft,Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium,True,Included category post,
 19721,publish,A Fresh Perspective,True,Included category post,https://gcdi.commons.gc.cuny.edu/2012/11/12/am-i-an-author/
 19729,publish,"What does it mean to be a ""Digital Scholar""?",True,Included category post,https://gcdi.commons.gc.cuny.edu/2012/12/16/what-does-it-mean-to-be-a-digital-scholar/
 19731,publish,New Workshop Series!,True,Included category post,https://gcdi.commons.gc.cuny.edu/2013/02/01/new-workshop-series/
@@ -14,11 +9,7 @@ id,status,title,in_archive,decision,url
 19748,publish,April 10th Workshop - Organizing Image Collections for Research: An Overview,True,Included category post,https://gcdi.commons.gc.cuny.edu/2013/04/04/1186/
 19751,publish,April 24th Workshop: Visualizing Image & Video Collections,True,Included category post,https://gcdi.commons.gc.cuny.edu/2013/04/17/april-24th-workshop-visualizing-image-video-collections/
 19762,publish,What's in it for me?,True,Included category post,https://gcdi.commons.gc.cuny.edu/2013/10/13/whats-in-it-for-me/
-19764,draft,The CUNY Digital Humanities Resource Guide,True,Included category post,
-19772,draft,When 'Retro' was 'Nowtro',True,Included category post,
 19775,publish,Illuminating the Challenges of Web Design,True,Included category post,https://gcdi.commons.gc.cuny.edu/2014/01/07/illuminating-the-challenges-of-web-design/
-19794,draft,Inclusive Programming with Django and Python,True,Included category post,
-21643,draft,Reflecting on Alt Text,True,Included category post,
 3889,publish,Docker in the classroom: Creating a virtual environment for instruction,True,Included category post,https://gcdi.commons.gc.cuny.edu/2016/11/15/docker-in-the-classroom-creating-a-virtual-environment-for-instruction/
 19722,publish,The Luddite-Technophile Spectrum,True,Included category post,https://gcdi.commons.gc.cuny.edu/2012/11/12/the-luddite-technophile-spectrum/
 19726,publish,From Lurker to Twitter,True,Included category post,https://gcdi.commons.gc.cuny.edu/2012/12/07/from-lurker-to-twitter/
@@ -433,5 +424,3 @@ id,status,title,in_archive,decision,url
 3789,publish,Digital Fellows Fall Workshops Announced,False,Ordinary post outside the Tagging the Tower category,https://gcdi.commons.gc.cuny.edu/2016/09/13/digital-fellows-fall-workshops-announced/
 3725,publish,Courses in Computation and Digital Cultures Across the Curriculum at The Graduate Center – Fall 2016,False,Ordinary post outside the Tagging the Tower category,https://gcdi.commons.gc.cuny.edu/2016/06/20/courses-in-computation-and-digital-cultures-across-the-curriculum-at-the-graduate-center-fall-2016/
 1178,private,[Private post: title withheld],False,Ordinary post outside the Tagging the Tower category,
-3116,draft,THATCamp Digital Writing,False,Ordinary post outside the Tagging the Tower category,
-6865,draft,"Memory, Erasure & Virtual Repatriation: The Zimbabwean Case",False,Ordinary post outside the Tagging the Tower category,

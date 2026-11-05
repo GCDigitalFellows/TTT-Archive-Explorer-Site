@@ -382,7 +382,7 @@
     {
       "source": "analysis/attribution_revision/full_credit_review.csv",
       "destination": "attribution_revision/full_credit_review.csv",
-      "treatment": "support"
+      "treatment": "exclude-drafts"
     },
     {
       "source": "analysis/attribution_revision/institutional-guide-page23.png",
@@ -397,7 +397,7 @@
     {
       "source": "analysis/attribution_revision/opening_review.csv",
       "destination": "attribution_revision/opening_review.csv",
-      "treatment": "support"
+      "treatment": "exclude-drafts"
     },
     {
       "source": "analysis/attribution_revision/review_2026-11-02.json",
@@ -677,7 +677,7 @@
     {
       "source": "analysis/post_inventory.csv",
       "destination": "post_inventory.csv",
-      "treatment": "support"
+      "treatment": "exclude-drafts"
     },
     {
       "source": "analysis/process/changelog_validation.json",

@@ -1,5 +1,4 @@
 post_id,title,original_credit,grouped_authors,attribution_status,url
-1,Installing WordPress locally on your Mac with MAMP,Erin Glass,Erin Glass,provisional posting-account attribution,
 19721,A Fresh Perspective,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2012/11/12/am-i-an-author/
 19722,The Luddite-Technophile Spectrum,Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2012/11/12/the-luddite-technophile-spectrum/
 19723,Looking Under the Hood,Andrew G McKinney,Andrew G McKinney,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2012/11/13/looking-under-the-hood/
@@ -45,13 +44,11 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19761,3D Printing in the Lab,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/
 19762,What's in it for me?,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/10/13/whats-in-it-for-me/
 19763,Tool refresh: a crash course,Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/10/14/tool-refresh-a-crash-course/
-19764,The CUNY Digital Humanities Resource Guide,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,
 19765,"Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",A. L. McMichael,A. L. McMichael,reviewed export metadata credit,https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/
 19767,All That is Digital Melts into Code,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/
 19766,Technically Speaking,Andrew G McKinney,Andrew G McKinney,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/10/28/technically-speaking/
 19768,Learn Bootstrap Part 1: Getting Acquainted with Bootstrap,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/
 19769,Learn Bootstrap Part 2: Adding Bootstrap to WordPress,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/
-19772,When 'Retro' was 'Nowtro',Sam O'Hana,Sam O'Hana,provisional posting-account attribution,
 19773,Learn Bootstrap Part 3: Customize Bootstrap and Add a Header,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/
 19770,Speaking of 'Speaking in Code' (Part 1),Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/12/05/speaking-of-speaking-in-code-part-1/
 19774,On Being Stuck,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/
@@ -59,7 +56,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 19775,Illuminating the Challenges of Web Design,Laura Kane,Laura Kane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/01/07/illuminating-the-challenges-of-web-design/
 19776,tech versus culture: what makes for good digital collaboration?,Erin Glass,Erin Glass,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/02/10/tech-versus-culture-what-makes-for-good-digital-collaboration/
 1911,What's in a Wiki?,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/
-19794,Inclusive Programming with Django and Python,"Patrick Smyth, PhD","Patrick Smyth, PhD",provisional posting-account attribution,
 19777,PSA: Backup Your Data Now,Sam O'Hana,Sam O'Hana,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/
 19778,Intro to Data Cleaning and Visualization Tools Handout,A.L. McMichael,A. L. McMichael,reviewed institutional guide credit,https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/
 19779,Learning to Map with ArcGIS StoryMaps,Keith Miyake,Keith Miyake,reviewed cross-reference credit,https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/
@@ -222,7 +218,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 11786,Authorship and Advocacy: The Native American Petitions Dataverse - Not Even Past,Alina Scott,Alina Scott,source metadata,https://gcdi.commons.gc.cuny.edu/2019/10/24/authorship-and-advocacy-the-native-american-petitions-dataverse-not-even-past/
 19854,What to Consider When Planning a Digital Project,Kristen Hackett,Kristen Hackett,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project-2/
 11830,Digital Art & Pedagogy: The Creation of Net-Art,Anthony Wheeler,Anthony Wheeler,source metadata,https://gcdi.commons.gc.cuny.edu/2019/11/01/digital-art-pedagogy-the-creation-of-net-art/
-12179,Speculative Surveillance with Ring™ Log – @samplereality,Mark Sample,Mark Sample,source metadata,
 5386,A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site,Stefano Morello,Stefano Morello,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2019/11/07/a-legible-digital-archive-displaying-and-sorting-content-on-an-omeka-site/
 12199,Why I Quit GitHub,Lauren Kaori Gurley,Lauren Kaori Gurley,source metadata,https://gcdi.commons.gc.cuny.edu/2019/11/08/why-i-quit-github/
 12195,A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site,Stefano Morello,Stefano Morello,source metadata,https://gcdi.commons.gc.cuny.edu/2019/11/08/a-legible-digital-archive-displaying-and-sorting-content-on-your-omeka-site/
@@ -244,7 +239,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 5549,Working with HathiTrust Data - Part 1,Param Ajmera,Param Ajmera,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/05/01/working-with-hathitrust-data-part-1-2/
 5583,RStudio Cloud for Education,Connor M French,Connor M French,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/05/06/rstudio-cloud-for-education-2/
 5569,Working with HathiTrust Data - Part 2,Param Ajmera,Param Ajmera,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/05/15/working-with-hathitrust-data-part-2/
-5614,Resource Guide for Video Tools in Distance Learning,Merrit Corrigan,Merrit Corrigan,provisional posting-account attribution,
 19860,Working with HathiTrust Data - Part 3,Param Ajmera,Param Ajmera,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/05/21/working-with-hathitrust-data-part-3/
 5760,GCDI is Here for You!,Stefano Morello; Olivia Ildefonso,Stefano Morello; Olivia Ildefonso,explicit body credit,https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/
 16994,Bias in AI and New York City's governance,Shirin Ghaffary ,Shirin Ghaffary,source metadata,https://gcdi.commons.gc.cuny.edu/2020/09/14/new-york-city-wanted-to-make-sure-the-algorithms-are-fair-vox/
@@ -257,7 +251,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 5781,Creating a Dissertation Blog with Open Source Tools,Filipa Calado,Filipa Calado,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/09/29/creating-a-dissertation-blog-with-open-source-tools-2/
 17108,The Authoritarian Trade-Off,Jathan Sadowski,Jathan Sadowski,source metadata,https://gcdi.commons.gc.cuny.edu/2020/10/05/the-authoritarian-trade-off/
 17111,Twitter Apologizes for Racist Image-Cropping Algorithm,Alex Hern,Alex Hern,source metadata,https://gcdi.commons.gc.cuny.edu/2020/10/05/twitter-apologises-for-racist-image-cropping-algorithm-twitter-the-guardian/
-17119,Sourcegraph: Devs are managing 100x more code now than they did in 2010 | Ars Technica,Jim Salter,Jim Salter,source metadata,
 17144,When Algorithms Give Real Students Imaginary Grades,Meredith Broussard,Meredith Broussard,source metadata,https://gcdi.commons.gc.cuny.edu/2020/10/14/opinion-when-algorithms-give-real-students-imaginary-grades-the-new-york-times/
 5804,Using RQDA for Qualitative Data Analysis,Yuxiao Luo,Yuxiao Luo,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2020/10/16/use-rqda-for-qualitative-data-analysis/
 17227,Why Facebook Can’t Fix Itself,Andrew Marantz,Andrew Marantz,source metadata,https://gcdi.commons.gc.cuny.edu/2020/10/19/why-facebook-cant-fix-itself-the-new-yorker/
@@ -288,7 +281,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 17816,Who Benefits from Health Misinformation?,Erin McAweeney,Erin McAweeney,source metadata,https://gcdi.commons.gc.cuny.edu/2021/05/07/who-benefits-from-health-misinformation/
 6057,Top Mapping Mistakes,Olivia Ildefonso,Olivia Ildefonso,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2021/05/12/top-mapping-mistakes/
 6091,GCDI is Here for You!,Param Ajmera,Param Ajmera,explicit body credit,https://gcdi.commons.gc.cuny.edu/2021/09/15/gcdi-is-here-for-you-3-2/
-18026,Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium,Rashida Richardson and Amba Kak,Rashida Richardson; Amba Kak,source metadata,
 6153,How to create websites with audio and visual elements on the CUNY Academic Commons,Rebecca Krisel,Rebecca Krisel,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2021/10/27/how-to-create-websites-with-audio-and-visual-elements-on-the-cuny-academic-commons/
 6198,Quick and easy mapping with R,Rilquer Mascarenhas,Rilquer Mascarenhas,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2021/11/03/quick-and-easy-mapping-with-r/
 6196,JavaScript or Python: which is the better language for academics to learn ?,Chelsea Lane,Chelsea Lane,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2021/11/09/javascript-or-python-which-is-the-better-language-for-academics-to-learn/
@@ -395,7 +387,6 @@ post_id,title,original_credit,grouped_authors,attribution_status,url
 21395,Hidden Costs of AI and the Case for Luddite Thinking,Anna Corbett,Anna Corbett,provisional posting-account attribution,https://gcdi.commons.gc.cuny.edu/2025/03/14/hidden-costs-of-ai-and-the-case-for-luddite-thinking/
 21495,Beyond the Map: Visual Literacy & Storytelling That Sticks,Parisa Setayesh,Parisa Setayesh,author taxonomy,https://gcdi.commons.gc.cuny.edu/2025/03/21/beyond-the-map-visual-literacy-storytelling-that-sticks/
 21509,Let's Build a Browser Extension!,Zachary Lloyd,Zachary Lloyd,author taxonomy,https://gcdi.commons.gc.cuny.edu/2025/03/28/lets-build-a-browser-extension/
-21643,Reflecting on Alt Text,Silvia Rivera Alfaro,Silvia Rivera Alfaro,provisional posting-account attribution,
 21649,Reflecting on Alt Text and its Ethics,Silvia Rivera Alfaro,Silvia Rivera Alfaro,author taxonomy,https://gcdi.commons.gc.cuny.edu/2025/04/04/alt-text-ethics/
 21699,The Social Elsewhere: A Look at Alt-Social Media,Peyton Cordero,Peyton Cordero,author taxonomy,https://gcdi.commons.gc.cuny.edu/2025/04/11/alt-social-media/
 21773,Reordering Graphs in ggplot Plot: A Step-by-Step Guide,Chen Zhou,Chen Zhou,author taxonomy,https://gcdi.commons.gc.cuny.edu/2025/05/02/reordering-graphs-in-ggplot-plot-a-step-by-step-guide/

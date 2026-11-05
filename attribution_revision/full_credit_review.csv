@@ -1,9 +1,4 @@
 id,title,status,kind,posting_account,author_taxonomy,export_author_fields,full_body_characters_scanned,body_signal_matches,credited_authors,credit_status,accepted_ledger_entry,evidence,url
-1,Installing WordPress locally on your Mac with MAMP,draft,local/unflagged,Erin Glass,,{},4712,1,Erin Glass,provisional posting-account attribution,False,,
-5614,Resource Guide for Video Tools in Distance Learning,draft,local/unflagged,Merrit Corrigan,,{},2978,0,Merrit Corrigan,provisional posting-account attribution,False,,
-12179,Speculative Surveillance with Ring™ Log – @samplereality,draft,curated/source-linked,Lisa Marie Rhody,,"{""item_author"": ""Mark Sample""}",1875,1,Mark Sample,source metadata,False,,
-17119,Sourcegraph: Devs are managing 100x more code now than they did in 2010 | Ars Technica,draft,curated/source-linked,Jessie McCormack,,"{""item_author"": ""Jim Salter""}",3262,2,Jim Salter,source metadata,False,,
-18026,Suspect Development Systems:. Databasing Marginality & Enforcing… | by AI Now Institute | Medium,draft,curated/source-linked,Lisa Marie Rhody,,"{""item_author"": ""Rashida Richardson and Amba Kak""}",1119,0,Rashida Richardson and Amba Kak,source metadata,False,,
 19721,A Fresh Perspective,publish,local/unflagged,Laura Kane,,{},2360,0,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2012/11/12/am-i-an-author/
 19729,"What does it mean to be a ""Digital Scholar""?",publish,local/unflagged,Laura Kane,,{},2021,0,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2012/12/16/what-does-it-mean-to-be-a-digital-scholar/
 19731,New Workshop Series!,publish,local/unflagged,Laura Kane,,{},1731,0,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2013/02/01/new-workshop-series/
@@ -14,11 +9,7 @@ id,title,status,kind,posting_account,author_taxonomy,export_author_fields,full_b
 19748,April 10th Workshop - Organizing Image Collections for Research: An Overview,publish,local/unflagged,Laura Kane,,{},647,0,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2013/04/04/1186/
 19751,April 24th Workshop: Visualizing Image & Video Collections,publish,local/unflagged,Laura Kane,,{},1124,0,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2013/04/17/april-24th-workshop-visualizing-image-video-collections/
 19762,What's in it for me?,publish,local/unflagged,Laura Kane,,{},3253,2,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2013/10/13/whats-in-it-for-me/
-19764,The CUNY Digital Humanities Resource Guide,draft,local/unflagged,Sam O'Hana,,{},706,0,Sam O'Hana,provisional posting-account attribution,False,,
-19772,When 'Retro' was 'Nowtro',draft,local/unflagged,Sam O'Hana,,{},9444,3,Sam O'Hana,provisional posting-account attribution,False,,
 19775,Illuminating the Challenges of Web Design,publish,local/unflagged,Laura Kane,,{},6034,2,Laura Kane,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2014/01/07/illuminating-the-challenges-of-web-design/
-19794,Inclusive Programming with Django and Python,draft,local/unflagged,"Patrick Smyth, PhD",,"{""sf_author_info"": ""1""}",2511,1,"Patrick Smyth, PhD",provisional posting-account attribution,False,,
-21643,Reflecting on Alt Text,draft,local/unflagged,Silvia Rivera Alfaro,,{},166,1,Silvia Rivera Alfaro,provisional posting-account attribution,False,,
 3889,Docker in the classroom: Creating a virtual environment for instruction,publish,local/unflagged,Tahir H. Butt,,"{""sf_author_info"": ""1""}",9537,1,Tahir H. Butt,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2016/11/15/docker-in-the-classroom-creating-a-virtual-environment-for-instruction/
 19722,The Luddite-Technophile Spectrum,publish,local/unflagged,Erin Glass,,{},3946,5,Erin Glass,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2012/11/12/the-luddite-technophile-spectrum/
 19726,From Lurker to Twitter,publish,local/unflagged,Erin Glass,,{},3551,3,Erin Glass,provisional posting-account attribution,False,,https://gcdi.commons.gc.cuny.edu/2012/12/07/from-lurker-to-twitter/
