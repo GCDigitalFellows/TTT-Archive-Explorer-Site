@@ -2,6 +2,12 @@
   "profile": {
     "as_of": "2026-11-03",
     "human_project_contributor": "Ian G. Williams",
+    "archived_migration_credit_review": {
+      "date": "2026-11-05",
+      "human_evidence": "Ian G. Williams identified Sam O’Hana’s pre-2016 posting account as a migration account and directed use of the original archived author.",
+      "agent_scope": "OpenAI Codex matched and applied 43 original article bylines, retaining the migrated account and earlier supported credits.",
+      "limit": "No independent human verification of each replay, new identity merge, or fellowship appointment inference."
+    },
     "human_name_evidence": "Preferred public credit supplied by the requester in this conversation.",
     "ai_tool": "OpenAI Codex (OpenAI); exact underlying model/build not recorded in project artifacts",
     "version_limit": "Earlier ChatGPT-assisted analysis is inherited from the project history. Exact model versions and every earlier session cannot be reconstructed from the saved artifacts. Ian identified the separate external review as Deepseek V4.1 Flash 1017 in the CAIL sandbox in OpenWebUI, using a previous-iteration ZIP. That model label is user-supplied; the exact reviewed archive and external session were not independently inspected.",
@@ -504,6 +510,58 @@
       ],
       "entries": [
         {
+          "postId": "19725",
+          "title": "Taking a Personal Approach",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/14/160/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19728",
+          "title": "Expertise",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2012/12/12/expertise/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19733",
+          "title": "Digital Dissertations: 3 issues",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19744",
+          "title": "Digital Clutter (or why Inbox Zero is not a goal)",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19755",
           "title": "Organizing Image Collections handout",
           "year": "2012–2013",
@@ -530,6 +588,19 @@
           "sourceUrl": ""
         },
         {
+          "postId": "1911",
+          "title": "What's in a Wiki?",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19757",
           "title": "Reflections on a New Academic Year",
           "year": "2013–2014",
@@ -540,6 +611,45 @@
           "authorshipTier": "source-supported",
           "evidence": "Here's what the group members shared. | Andrew McKinney : After one year as a Digital Fellow | Micki Kaufman : After a semester among the Digital Fellows | Keith Miyake : As a new addition | A.L. McMichael : At first it felt | Erin Glass : Fellowship activities | Laura Kane : This past year",
           "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/reflections-on-a-new-academic-year/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19758",
+          "title": "Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/1452/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19760",
+          "title": "Upcoming Workshop: Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)”",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19761",
+          "title": "3D Printing in the Lab",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/",
           "sourceUrl": ""
         },
         {
@@ -556,6 +666,19 @@
           "sourceUrl": ""
         },
         {
+          "postId": "19774",
+          "title": "On Being Stuck",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19778",
           "title": "Intro to Data Cleaning and Visualization Tools Handout",
           "year": "2013–2014",
@@ -569,6 +692,45 @@
           "sourceUrl": ""
         },
         {
+          "postId": "19781",
+          "title": "Introduction to Image Editing Handout",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "2050",
+          "title": "A Crash Course in Digital Photo Editing",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19785",
+          "title": "Announcing \"Digital Dissertations Resources\"",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/07/announcing-digital-dissertations-resources/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19793",
           "title": "DH and Design",
           "year": "2014–2015",
@@ -579,6 +741,32 @@
           "authorshipTier": "source-supported",
           "evidence": "DH and Design — A.L. McMichael",
           "url": "https://gcdi.commons.gc.cuny.edu/2015/02/11/dh-and-design/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "2313",
+          "title": "Digital Dissertations and Ticking Clocks",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/11/04/digital-dissertations-and-ticking-clocks/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "2755",
+          "title": "Evaluating, Valuing, and Promoting Digital Scholarship Event",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "A.L. McMichael",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "A.L. McMichael",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/",
           "sourceUrl": ""
         }
       ]
@@ -2044,6 +2232,27 @@
       ]
     },
     {
+      "name": "Evan Misshula",
+      "variants": [
+        "Evan Misshula"
+      ],
+      "entries": [
+        {
+          "postId": "2292",
+          "title": "Django Hack Night",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Evan Misshula",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "evan misshula",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Filipa Calado",
       "variants": [
         "Filipa Calado"
@@ -2318,6 +2527,92 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2017/11/29/gcdi-and-comp-sci-visualization-seminar-how-to-see-1-billion-images/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Hillary Miller",
+      "variants": [
+        "Hillary Miller"
+      ],
+      "entries": [
+        {
+          "postId": "19727",
+          "title": "JustPublics@365 Announces MediaCamp",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19737",
+          "title": "Microblogging the Drama",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/02/13/microblogging-the-drama/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19739",
+          "title": "March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19752",
+          "title": "Curating the Non-Digital Digital Bookshelf",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19754",
+          "title": "\"Doing\" the Digital: Panic and Persistence",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "315",
+          "title": "Language Acquisition",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Hillary Miller",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Hillary Miller",
+          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/15/language-acquisition/",
           "sourceUrl": ""
         }
       ]
@@ -2609,6 +2904,40 @@
       ]
     },
     {
+      "name": "Jeffrey Binder",
+      "variants": [
+        "Jeffrey Binder"
+      ],
+      "entries": [
+        {
+          "postId": "19805",
+          "title": "Getting the Most out of a Humble Technology: Word Search",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Jeffrey Binder",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Jeffrey Binder",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19818",
+          "title": "The Complexity of Machine Writing",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Jeffrey Binder",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Jeffrey Binder",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/11/30/nanogenmo/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Jeffrey Mervis",
       "variants": [
         "Jeffrey Mervis"
@@ -2685,6 +3014,27 @@
           "authorshipTier": "unresolved-account",
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2017/05/12/building-a-new-polytonic-greek-keyboard-for-ios-and-android/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Jessica Murray",
+      "variants": [
+        "Jessica Murray"
+      ],
+      "entries": [
+        {
+          "postId": "2300",
+          "title": "Tabless Thursday",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Jessica Murray",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Jessica Murray",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/30/tabless-thursday/",
           "sourceUrl": ""
         }
       ]
@@ -3096,6 +3446,84 @@
           "sourceUrl": ""
         },
         {
+          "postId": "19759",
+          "title": "3D Printing and Maker Culture",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/01/3d-printing-and-maker-culture/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19767",
+          "title": "All That is Digital Melts into Code",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19768",
+          "title": "Learn Bootstrap Part 1: Getting Acquainted with Bootstrap",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19769",
+          "title": "Learn Bootstrap Part 2: Adding Bootstrap to WordPress",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19773",
+          "title": "Learn Bootstrap Part 3: Customize Bootstrap and Add a Header",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19777",
+          "title": "PSA: Backup Your Data Now",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19779",
           "title": "Learning to Map with ArcGIS StoryMaps",
           "year": "2013–2014",
@@ -3106,6 +3534,19 @@
           "authorshipTier": "source-supported",
           "evidence": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
           "url": "https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19784",
+          "title": "DH Strangelove or: How I Learned to Stop Worrying and Love the Digital Humanities",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/09/25/dh-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-digital-humanities/",
           "sourceUrl": ""
         },
         {
@@ -3132,6 +3573,45 @@
           "authorshipTier": "source-supported",
           "evidence": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
           "url": "https://gcdi.commons.gc.cuny.edu/2015/04/09/intro-to-mapping-with-cartodb/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19802",
+          "title": "Beyond the Same Old Static Course Website",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19809",
+          "title": "An Introduction to Web Servers",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19819",
+          "title": "Introduction to Web Frameworks",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Keith Miyake",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Keith Miyake",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/12/08/introduction-to-web-frameworks/",
           "sourceUrl": ""
         }
       ]
@@ -4304,6 +4784,27 @@
       ]
     },
     {
+      "name": "Matthew Slaats",
+      "variants": [
+        "Matthew Slaats"
+      ],
+      "entries": [
+        {
+          "postId": "19724",
+          "title": "Enter Here",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Matthew Slaats",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Matthew Slaats",
+          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/16/enter-here/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Maura McCreight",
       "variants": [
         "Maura McCreight"
@@ -4435,6 +4936,74 @@
       ]
     },
     {
+      "name": "Michelle Johnson",
+      "variants": [
+        "Michelle Johnson"
+      ],
+      "entries": [
+        {
+          "postId": "19787",
+          "title": "Making It Visual",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Michelle Johnson",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Michelle Johnson",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/14/making-it-visual/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Michelle Johnson-McSweeney",
+      "variants": [
+        "Michelle Johnson-McSweeney"
+      ],
+      "entries": [
+        {
+          "postId": "19790",
+          "title": "Wordpress 2: Categories, Menus, and Widgets",
+          "year": "2014–2015",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Michelle Johnson-McSweeney",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Michelle Johnson-McSweeney",
+          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/21/wordpress-2-categories-menus-and-widgets/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19810",
+          "title": "Introduction to Web Scraping for Researchers",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Michelle Johnson-McSweeney",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Michelle Johnson-McSweeney",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19812",
+          "title": "Python Users' Group Recap",
+          "year": "2015–2016",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Michelle Johnson-McSweeney",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Michelle Johnson-McSweeney",
+          "url": "https://gcdi.commons.gc.cuny.edu/2015/11/03/python-users-group-recap/",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
       "name": "Michelle Yom",
       "variants": [
         "Michelle Yom"
@@ -4475,6 +5044,32 @@
           "sourceUrl": ""
         },
         {
+          "postId": "19747",
+          "title": "Downtime is the Best Cure for Downtime",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Micki Kaufman",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Micki Kaufman",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19753",
+          "title": "Interface to Face: Touching with Technology",
+          "year": "2012–2013",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Micki Kaufman",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Micki Kaufman",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/",
+          "sourceUrl": ""
+        },
+        {
           "postId": "19757",
           "title": "Reflections on a New Academic Year",
           "year": "2013–2014",
@@ -4485,6 +5080,32 @@
           "authorshipTier": "source-supported",
           "evidence": "Here's what the group members shared. | Andrew McKinney : After one year as a Digital Fellow | Micki Kaufman : After a semester among the Digital Fellows | Keith Miyake : As a new addition | A.L. McMichael : At first it felt | Erin Glass : Fellowship activities | Laura Kane : This past year",
           "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/reflections-on-a-new-academic-year/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19770",
+          "title": "Speaking of 'Speaking in Code' (Part 1)",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Micki Kaufman",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Micki Kaufman",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/05/speaking-of-speaking-in-code-part-1/",
+          "sourceUrl": ""
+        },
+        {
+          "postId": "19771",
+          "title": "Speaking of 'Speaking in Code' (Part 2)",
+          "year": "2013–2014",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Micki Kaufman",
+          "creditStatus": "reviewed archived original byline credit",
+          "authorshipTier": "source-supported",
+          "evidence": "Micki Kaufman",
+          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/28/speaking-of-speaking-in-code-part-2/",
           "sourceUrl": ""
         }
       ]
@@ -5790,565 +6411,6 @@
         "Sam O'Hana"
       ],
       "entries": [
-        {
-          "postId": "19724",
-          "title": "Enter Here",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/16/enter-here/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19725",
-          "title": "Taking a Personal Approach",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/14/160/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19727",
-          "title": "JustPublics@365 Announces MediaCamp",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19728",
-          "title": "Expertise",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2012/12/12/expertise/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19733",
-          "title": "Digital Dissertations: 3 issues",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19737",
-          "title": "Microblogging the Drama",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/02/13/microblogging-the-drama/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19739",
-          "title": "March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19744",
-          "title": "Digital Clutter (or why Inbox Zero is not a goal)",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19747",
-          "title": "Downtime is the Best Cure for Downtime",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19752",
-          "title": "Curating the Non-Digital Digital Bookshelf",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19753",
-          "title": "Interface to Face: Touching with Technology",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19754",
-          "title": "\"Doing\" the Digital: Panic and Persistence",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "315",
-          "title": "Language Acquisition",
-          "year": "2012–2013",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2012/11/15/language-acquisition/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "1911",
-          "title": "What's in a Wiki?",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19758",
-          "title": "Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/1452/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19759",
-          "title": "3D Printing and Maker Culture",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/01/3d-printing-and-maker-culture/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19760",
-          "title": "Upcoming Workshop: Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)”",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19761",
-          "title": "3D Printing in the Lab",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19767",
-          "title": "All That is Digital Melts into Code",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19768",
-          "title": "Learn Bootstrap Part 1: Getting Acquainted with Bootstrap",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19769",
-          "title": "Learn Bootstrap Part 2: Adding Bootstrap to WordPress",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19770",
-          "title": "Speaking of 'Speaking in Code' (Part 1)",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/05/speaking-of-speaking-in-code-part-1/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19771",
-          "title": "Speaking of 'Speaking in Code' (Part 2)",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/28/speaking-of-speaking-in-code-part-2/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19773",
-          "title": "Learn Bootstrap Part 3: Customize Bootstrap and Add a Header",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19774",
-          "title": "On Being Stuck",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19777",
-          "title": "PSA: Backup Your Data Now",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19781",
-          "title": "Introduction to Image Editing Handout",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "2050",
-          "title": "A Crash Course in Digital Photo Editing",
-          "year": "2013–2014",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19784",
-          "title": "DH Strangelove or: How I Learned to Stop Worrying and Love the Digital Humanities",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/09/25/dh-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-digital-humanities/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19785",
-          "title": "Announcing \"Digital Dissertations Resources\"",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/07/announcing-digital-dissertations-resources/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19787",
-          "title": "Making It Visual",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/14/making-it-visual/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19790",
-          "title": "Wordpress 2: Categories, Menus, and Widgets",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/21/wordpress-2-categories-menus-and-widgets/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "2292",
-          "title": "Django Hack Night",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "2300",
-          "title": "Tabless Thursday",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/10/30/tabless-thursday/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "2313",
-          "title": "Digital Dissertations and Ticking Clocks",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2014/11/04/digital-dissertations-and-ticking-clocks/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "2755",
-          "title": "Evaluating, Valuing, and Promoting Digital Scholarship Event",
-          "year": "2014–2015",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19802",
-          "title": "Beyond the Same Old Static Course Website",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19805",
-          "title": "Getting the Most out of a Humble Technology: Word Search",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19809",
-          "title": "An Introduction to Web Servers",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19810",
-          "title": "Introduction to Web Scraping for Researchers",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19812",
-          "title": "Python Users' Group Recap",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/11/03/python-users-group-recap/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19818",
-          "title": "The Complexity of Machine Writing",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/11/30/nanogenmo/",
-          "sourceUrl": ""
-        },
-        {
-          "postId": "19819",
-          "title": "Introduction to Web Frameworks",
-          "year": "2015–2016",
-          "status": "publish",
-          "kind": "local/unflagged",
-          "rawCredit": "Sam O'Hana",
-          "creditStatus": "provisional posting-account attribution",
-          "authorshipTier": "unresolved-account",
-          "evidence": "",
-          "url": "https://gcdi.commons.gc.cuny.edu/2015/12/08/introduction-to-web-frameworks/",
-          "sourceUrl": ""
-        },
         {
           "postId": "19824",
           "title": "Upcoming Workshop (3/15): Establishing a Digital Identity & Wordpress I",

@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-05",
   "method": "record_checks.py verifies unchanged columns and independently reconstructs author counts and cohort means before recording changes.",
   "files": {
     "body_text_signals.csv": {
       "before": "559c1b0d4b4ebabb02bce66abb55ce6ce4aab188a0b0932bb010cfcd23e92570",
-      "after": "beb54584b405ebe5310e879e94cb10cc07d964715b78fb96d5824cd0eeed684f",
+      "after": "702d7ed2b73bcb1f27483bfbcaeb7e0a33f90d4c8fe8a18b47d258cde3e31830",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "audit.json": {
@@ -19,32 +19,32 @@
     },
     "records.json": {
       "before": "e5aafeb877ebbe459429346e565e96467c8bdb54bfb2343457a6d00002b5491c",
-      "after": "27f46e36851ff2a76f9b6ac7af9a87269a1687b2902b12ee0d5b67c39c9f77af",
+      "after": "eb6c9c66f7e0ab96d6edad16819da692edae262077203a503a5a2a60c1af89c7",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "post_inventory.csv": {
       "before": "c005dc17623a9c26db8cb787ffd1441e931b610dc620a3fb6177d44f3836ce9d",
-      "after": "4102b221a49217d6d6cd6403cd0df47afd813e0b25d14c826c671fa5a6267ab1",
+      "after": "1a1ddf9d300099ad36744fbda8a8fdf656c54da86df5dc093e19e7bee1399e80",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "contributors_by_year.csv": {
       "before": "1fc409874c81df7be2b0b035fcda791a6e696a098091d4843303461daee81056",
-      "after": "21f8d86090a7e3e4334ea1f030c95697230e23cd9377f807238329b884c7902f",
+      "after": "aef5500587afc53903e8fb6cd3ba083bfac44c7b4d2f093a71d76aa6cf50b18c",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "nlp/corpus_manifest.csv": {
       "before": "e3e00b49a083066732fdd6fbd563eea7939fce1e3fbe0ae1a7ac7a9f329d840c",
-      "after": "42824f0fe2cd220b0fe33a032b3159e622ef48885c80c7d3c651410d0a0231f3",
+      "after": "18ce7ee58bc5a2ad53d6becd639a843b74a513af0db9c8d4b709218ffd1e03b7",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "nlp/document_topic_weights.csv": {
       "before": "32e0d256896b390134d3f49e08b23363c67aa8e355ad4fdb320cfe5b3f61f64c",
-      "after": "a5425cedcfe7d59ea22825d09c051ebd000dc02e6ce7495eeacd67b4bfca85f5",
+      "after": "2bb1c4b5648a4a8ad2907e347410eb2dc71148f2744eef0ca4cc07731fa2a9dd",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "nlp/representative_posts.csv": {
       "before": "ae2c3a3cc88e6c307d6fe394ecd0a44d953bff2e4eeb387b059a16f2e2ab0100",
-      "after": "223d9b72232204a63ba3f2fc56886ee665a1f59042a6fa0cf41e4f9de10e24e7",
+      "after": "7d05022833be8837a91964d4560011087ed267b6053d9d7893cea04763a8430d",
       "reason": "Reviewed author-credit correction and/or recomputed roster-match aggregation; non-attribution numerical fields checked against preserved originals."
     },
     "nlp/topics_roster_matched.csv": {

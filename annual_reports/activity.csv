@@ -1,0 +1,73 @@
+Academic year or span,Measure,Value,Qualifier,Unit,Report ID,PDF page,Scope and caveat
+2012-2014,Faculty consultation reach,30,More than,faculty members,2012-2014,4,"Three-semester claim. Repeated in 2015 PDF p. 8, counted once"
+2012-2014,Faculty consultation programs,19,As stated,programs,2012-2014,4,"Three-semester claim. Repeated in 2015 PDF p. 8, counted once"
+2012-2014,Faculty consultation time,250,More than,hours,2012-2014,4,"Three-semester claim. Repeated in 2015 PDF p. 8, counted once"
+2012-2014,Current workshop schedule,9,As stated,sessions,2012-2014,5,Schedule as reported. No academic-year total
+2012-2014,Blog subscribers,17,As stated,subscribers,2012-2014,7,Reported snapshot. Not per-year
+2012-2014,Blog comments and trackbacks,60,As stated,comments and trackbacks,2012-2014,7,Combined total as reported
+2012-2014,Tutorial views,2000,As stated,average views,2012-2014,7,Reported average for tutorial posts. Denominator and dates unspecified
+2013 spring–2015 spring,Workshop sellout share,96,As stated,percent,2015,5,Reported across first five series. Session denominator unspecified
+2013 spring–2015 spring,Workshop waitlist share,65,As stated,percent,2015,5,Reported across first five series. Session denominator unspecified
+2013 spring–2015 spring,Largest workshop waitlist,67,As stated,people,2015,5,Reported maximum. Do not sum with attendance
+2013 spring–2015 spring,Student share of workshop attendees,83,As stated,percent,2015,5,Self-reporting. Response denominator unspecified
+2014-2015,Python workshop reach,200,More than,students,2015,6,Python series only. Unique-person basis unspecified
+2014-2015,Intro Python interest,130,More than,students,2015,6,Interest rather than attendance
+2014-2015,Intro Python capacity,60,As stated,slots,2015,6,Capacity for Intro Python workshops
+2015 report snapshot,Spring office-hours project reach,12,More than,digital projects,2015,9,"Projects rather than people, sessions or annual totals"
+2015 report snapshot,Program-specific outreach,18,As stated,programs,2015,10,Programs with representatives contacted. Exact reporting interval unspecified
+2015 report snapshot,Digital Fellows website traffic,65000,More than,visitors,2015,24,Website-wide and interval unspecified. Repeated in 2015–2017 PDF p. 50
+2015-2016,Workshops,31,As stated,sessions,2015-2017,30,Digital Fellows
+2015-2016,Workshop reach,260,More than,individuals,2015-2017,30,Report uses individuals
+2015-2016,Faculty consultation reach,26,As stated,faculty members,2015-2017,35,People rather than sessions
+2016-2017,Workshops,27,As stated,sessions,2015-2017,31,Digital Fellows
+2016-2017,Workshop reach,374,As stated,participants,2015-2017,31,Unique-person basis unspecified
+2016-2017,Faculty consultations,14,As stated,sessions,2015-2017,35,Faculty only
+2016-2017,Tagging the Tower posts,28,As stated,posts,2015-2017,50,Original report count on Digital Fellows site
+2015-2017,Faculty consultations headline,42,As stated,consultations,2015-2017,7,Two-year summary. Annual detail uses different units
+2015-2017,Workshops,58,As stated,sessions,2015-2017,7,Two-year total. Do not add to annual rows
+2015-2017,Workshop reach,635,More than,people served,2015-2017,7,Two-year headline. Annual figures use different wording
+2015-2017,Digital Research Institute reach,115,More than,participants,2015-2017,7,Across three institutes. Includes June 2016
+2020-2021,Workshops,16,As stated,sessions,2020-2021,23,Online workshops as reported
+2020-2021,Workshop registrations shown,351,As stated,registrations,2020-2021,8–11,Derived sum of 14 displayed event counts. Partial relative to 16 workshops
+2020-2021,Consultation requests,54,As stated,students,2020-2021,15,Requesters rather than completed sessions
+2020-2021,Consultation time,100,More than,hours,2020-2021,23,One-on-one and group meetings
+2020-2021,Digital Research Institute reach,28,As stated,students,2020-2021,12,18 programs
+2020-2021,Digital Research Institute programs,18,As stated,programs,2020-2021,12,Represented at the institute
+2020-2021,External funding,1787000,As stated,USD,2020-2021,4–5,"Includes Manifold, DHRI, and CUNY Academic Commons projects"
+2020-2021,Data for Public Good cohort,8,As stated,students,2020-2021,18,COVID Tracking Project collaboration
+2020-2021,Lightning Talks,14,As stated,talks,2020-2021,22,CUNY Digital Humanities Initiative
+2021-2022,Workshops,15,As stated,sessions,2021-2022,11,Online workshops
+2021-2022,Workshop reach,300,More than,registrants,2021-2022,11,Repeat-registration handling unspecified
+2021-2022,One-on-one consultations,40,At least,sessions,2021-2022,13,Printed as 40+
+2021-2022,Digital Research Institute reach,40,As stated,students,2021-2022,6,"Two curricular tracks, Python and R"
+2021-2022,Summer Sprints,25,As stated,hours,2021-2022,22,"Separate summer instruction in R, Python and GIS"
+2021-2022,External funding,460000,As stated,USD,2021-2022,6,Additional external funding
+2022-2023,Workshops,23,As stated,sessions,2022-2023,12,Digital Fellows workshops. Page 9 separately lists institute workshops
+2022-2023,Workshop registrations,383,As stated,registrations,2022-2023,13,Annual GC community total. Can include repeat registrations
+2022-2023,One-on-one consultations,40,As stated,sessions,2022-2023,14,Community consultations
+2022-2023,Digital Research Institute reach,20,As stated,participants,2022-2023,9,16 programs
+2022-2023,Digital Research Institute programs,16,As stated,programs,2022-2023,9,Represented at the institute
+2022-2023,Digital Research Institute applications,60,As stated,applications,2022-2023,9,Applicant count
+2022-2023,Digital Research Institute workshops,17,As stated,sessions,2022-2023,9,Institute curriculum. Separate from annual workshop count
+2022-2023,Institute participants in additional workshops,50,More than,percent,2022-2023,"10,13",Explicit program overlap. Do not add participant populations
+2022-2023,External funding,425000,As stated,USD,2022-2023,37,"Page 6 says over $425,000. Page 37 gives a $425,000 breakdown"
+2022-2023,Undergraduate Digital Project Institute,18,As stated,students,2022-2023,33,Inaugural cohort with January intensive and spring projects
+2022-2023,Graduate student engagement,300,More than,students,2022-2023,6,Across activities. Deduplication unspecified
+2023-2024,Workshops,14,As stated,sessions,2023-2024,11,Across year. Summer Python shown separately
+2023-2024,Summer Python workshops,5,As stated,sessions,2023-2024,11,Reported separately
+2023-2024,One-on-one consultations,37,As stated,sessions,2023-2024,16,Community consultations
+2023-2024,Digital Research Institute reach,23,As stated,participants,2023-2024,13,Infographic. Narrative reports 25 seats
+2023-2024,Digital Research Institute seats,25,As stated,seats,2023-2024,13,Capacity rather than participation
+2023-2024,Digital Research Institute programs,14,As stated,programs,2023-2024,13,Represented at the institute
+2023-2024,External funding,250000,More than,USD,2023-2024,8,Additional external funding
+2023-2024,Graduate student engagement,300,More than,students,2023-2024,8,Across activities. Deduplication unspecified
+2023-2024,Digital Showcase presentations,16,As stated,presentations,2023-2024,31,Annual showcase
+2023-2024,Digital Showcase attendance,40,More than,attendees,2023-2024,31,In-person and virtual combined
+2024-2025,Workshops,17,As stated,sessions,2024-2025,9,Fall and spring
+2024-2025,Summer Python workshops,8,As stated,sessions,2024-2025,9,Reported separately
+2024-2025,One-on-one consultations,29,As stated,sessions,2024-2025,13,Community consultations
+2024-2025,Digital Research Institute reach,37,As stated,participants,2024-2025,11,Infographic. Narrative also reports 37 seats
+2024-2025,Digital Research Institute programs,18,As stated,programs,2024-2025,11,Represented at the institute
+2024-2025,Digital Showcase presentations,12,As stated,presentations,2024-2025,21,Annual showcase
+2024-2025,Digital Showcase attendance,68,More than,attendees,2024-2025,21,In-person and virtual combined
+2024-2025,Lightning Talks,22,As stated,project presentations,2024-2025,26,Tenth-anniversary event with separate keynote

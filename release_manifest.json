@@ -425,6 +425,66 @@
       "treatment": "support"
     },
     {
+      "source": "analysis/annual_reports/README.md",
+      "destination": "annual_reports/README.md",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/sources.csv",
+      "destination": "annual_reports/sources.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/years.csv",
+      "destination": "annual_reports/years.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/activity.csv",
+      "destination": "annual_reports/activity.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/staffing.csv",
+      "destination": "annual_reports/staffing.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/programs.csv",
+      "destination": "annual_reports/programs.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/staffing_overlap.csv",
+      "destination": "annual_reports/staffing_overlap.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/archive_matches.csv",
+      "destination": "annual_reports/archive_matches.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/archive_publication_mix.csv",
+      "destination": "annual_reports/archive_publication_mix.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/archive_title_visibility.csv",
+      "destination": "annual_reports/archive_title_visibility.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/roster_source_comparison.csv",
+      "destination": "annual_reports/roster_source_comparison.csv",
+      "treatment": "support"
+    },
+    {
+      "source": "analysis/annual_reports/web_archive_sources.csv",
+      "destination": "annual_reports/web_archive_sources.csv",
+      "treatment": "support"
+    },
+    {
       "source": "analysis/coverage/article_review_ledger.csv",
       "destination": "coverage/article_review_ledger.csv",
       "treatment": "support"

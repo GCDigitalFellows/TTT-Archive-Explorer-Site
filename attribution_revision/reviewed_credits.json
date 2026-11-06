@@ -568,5 +568,694 @@
     "source_url": "https://gcdi.commons.gc.cuny.edu/2017/12/07/intro-to-mapping-using-qgis/",
     "target_link": "https://digitalfellows.commons.gc.cuny.edu/2017/11/16/getting-started-with-social-explorer-a-gc-resource-for-spatializing-demographic-data-part-1/",
     "review_limit": "Source-supported reference, not personal author confirmation. Repeated welcome-page lists are one inherited source family, not independent confirmations."
+  },
+  "19725": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150117024917/http://digitalfellows.commons.gc.cuny.edu:80/2012/11/14/160/",
+    "original_post_id": "160",
+    "archived_title": "Taking a Personal Approach",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "315": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150117024923/http://digitalfellows.commons.gc.cuny.edu:80/2012/11/15/language-acquisition/",
+    "original_post_id": "315",
+    "archived_title": "Language Acquisition",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19724": {
+    "authors": [
+      "Matthew Slaats"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Matthew Slaats"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908201258/http://digitalfellows.commons.gc.cuny.edu/2012/11/16/enter-here/",
+    "original_post_id": "151",
+    "archived_title": "Enter Here",
+    "display_names_in_other_captures": [
+      "Matthew Slaats"
+    ]
+  },
+  "19727": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20130115024250/http://digitalfellows.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/",
+    "original_post_id": "593",
+    "archived_title": "JustPublics@365 Announces MediaCamp",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19728": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20130115024233/http://digitalfellows.commons.gc.cuny.edu/2012/12/12/expertise/",
+    "original_post_id": "615",
+    "archived_title": "Expertise",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19733": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150702070300/http://digitalfellows.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/",
+    "original_post_id": "759",
+    "archived_title": "Digital Dissertations: 3 issues",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19737": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20130413081650/http://digitalfellows.commons.gc.cuny.edu:80/2013/02/13/microblogging-the-drama/",
+    "original_post_id": "836",
+    "archived_title": "Microblogging the Drama",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19739": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150909155004/http://digitalfellows.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/",
+    "original_post_id": "949",
+    "archived_title": "March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19744": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20130413081655/http://digitalfellows.commons.gc.cuny.edu:80/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/",
+    "original_post_id": "1096",
+    "archived_title": "Digital Clutter (or why Inbox Zero is not a goal)",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19747": {
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Micki Kaufman"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908130601/http://digitalfellows.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/",
+    "original_post_id": "1177",
+    "archived_title": "Downtime is the Best Cure for Downtime",
+    "display_names_in_other_captures": [
+      "Micki Kaufman"
+    ]
+  },
+  "19752": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908112317/http://digitalfellows.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/",
+    "original_post_id": "1292",
+    "archived_title": "Curating the Non-Digital Digital Bookshelf",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19753": {
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Micki Kaufman"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908105949/http://digitalfellows.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/",
+    "original_post_id": "1344",
+    "archived_title": "Interface to Face: Touching with Technology",
+    "display_names_in_other_captures": [
+      "Micki Kaufman"
+    ]
+  },
+  "19754": {
+    "authors": [
+      "Hillary Miller"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Hillary Miller"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20131025005642/http://digitalfellows.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/",
+    "original_post_id": "1364",
+    "archived_title": "“Doing” the Digital: Panic and Persistence",
+    "display_names_in_other_captures": [
+      "Hillary Miller"
+    ]
+  },
+  "19758": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20131025010825/http://digitalfellows.commons.gc.cuny.edu/2013/09/30/1452/",
+    "original_post_id": "1452",
+    "archived_title": "Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19759": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150309070729/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/01/3d-printing-and-maker-culture/",
+    "original_post_id": "1462",
+    "archived_title": "3D Printing and Maker Culture",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19760": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141018224758/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/",
+    "original_post_id": "1482",
+    "archived_title": "Upcoming Workshop: Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)”",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19761": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908201620/http://digitalfellows.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/",
+    "original_post_id": "1517",
+    "archived_title": "3D Printing in the Lab",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19767": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141011154339/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/25/all-that-is-digital-melts-into-code/",
+    "original_post_id": "1583",
+    "archived_title": "All That is Digital Melts into Code",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19768": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20140112044629/http://digitalfellows.commons.gc.cuny.edu:80/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/",
+    "original_post_id": "1604",
+    "archived_title": "Learn Bootstrap Part 1: Getting Acquainted with Bootstrap",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19769": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20131202013405/http://digitalfellows.commons.gc.cuny.edu:80/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/",
+    "original_post_id": "1631",
+    "archived_title": "Learn Bootstrap Part 2: Adding Bootstrap to WordPress",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19773": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20140112044632/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/",
+    "original_post_id": "1734",
+    "archived_title": "Learn Bootstrap Part 3: Customize Bootstrap and Add a Header",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19770": {
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Micki Kaufman"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20140112084025/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/05/speaking-of-speaking-in-code-part-1/",
+    "original_post_id": "1661",
+    "archived_title": "Speaking of ‘Speaking in Code’ (Part 1)",
+    "display_names_in_other_captures": [
+      "Micki Kaufman"
+    ]
+  },
+  "19774": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150507075208/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/16/on-being-stuck/",
+    "original_post_id": "1819",
+    "archived_title": "On Being Stuck",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19771": {
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Micki Kaufman"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20140112084030/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/28/speaking-of-speaking-in-code-part-2/",
+    "original_post_id": "1664",
+    "archived_title": "Speaking of ‘Speaking in Code’ (Part 2)",
+    "display_names_in_other_captures": [
+      "Micki Kaufman"
+    ]
+  },
+  "1911": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908152948/http://digitalfellows.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/",
+    "original_post_id": "1911",
+    "archived_title": "What’s in a Wiki?",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19777": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141018180825/http://digitalfellows.commons.gc.cuny.edu:80/2014/03/04/psa-backup-your-data-now/",
+    "original_post_id": "1956",
+    "archived_title": "PSA: Backup Your Data Now",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19781": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908201003/http://digitalfellows.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/",
+    "original_post_id": "2046",
+    "archived_title": "Introduction to Image Editing Handout",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "2050": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141017184640/http://digitalfellows.commons.gc.cuny.edu:80/2014/04/28/a-crash-course-in-digital-photo-editing/",
+    "original_post_id": "2050",
+    "archived_title": "A Crash Course in Digital Photo Editing",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19784": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141017050247/http://digitalfellows.commons.gc.cuny.edu:80/2014/09/25/dh-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-digital-humanities/",
+    "original_post_id": "2113",
+    "archived_title": "DH Strangelove or: How I Learned to Stop Worrying and Love the Digital Humanities",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19785": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141012191311/http://digitalfellows.commons.gc.cuny.edu:80/2014/10/07/announcing-digital-dissertations-resources/",
+    "original_post_id": "2203",
+    "archived_title": "Announcing “Digital Dissertations Resources”",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19787": {
+    "authors": [
+      "Michelle Johnson"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Michelle Johnson"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141101235358/http://digitalfellows.commons.gc.cuny.edu:80/2014/10/14/making-it-visual/",
+    "original_post_id": "2232",
+    "archived_title": "Making It Visual",
+    "display_names_in_other_captures": [
+      "Michelle Johnson",
+      "Michelle Johnson-McSweeney"
+    ]
+  },
+  "19790": {
+    "authors": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150908213833/http://digitalfellows.commons.gc.cuny.edu/2014/10/21/wordpress-2-categories-menus-and-widgets/",
+    "original_post_id": "2265",
+    "archived_title": "WordPress 2: Categories, Menus, and Widgets",
+    "display_names_in_other_captures": [
+      "Michelle Johnson-McSweeney"
+    ]
+  },
+  "2300": {
+    "authors": [
+      "Jessica Murray"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Jessica Murray"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141101235405/http://digitalfellows.commons.gc.cuny.edu:80/2014/10/30/tabless-thursday/",
+    "original_post_id": "2300",
+    "archived_title": "Tabless Thursday",
+    "display_names_in_other_captures": [
+      "Jessica Murray"
+    ]
+  },
+  "2313": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20141106204117/http://digitalfellows.commons.gc.cuny.edu:80/2014/11/04/digital-dissertations-and-ticking-clocks/",
+    "original_post_id": "2313",
+    "archived_title": "Digital Dissertations and Ticking Clocks",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "2292": {
+    "authors": [
+      "Evan Misshula"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "evan misshula"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150228075955/http://digitalfellows.commons.gc.cuny.edu:80/2015/02/25/set-up-a-development-environment-2/",
+    "original_post_id": "2292",
+    "archived_title": "Django Hack Night",
+    "display_names_in_other_captures": [
+      "evan misshula"
+    ]
+  },
+  "2755": {
+    "authors": [
+      "A.L. McMichael"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "A.L. McMichael"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20150505175650/http://digitalfellows.commons.gc.cuny.edu:80/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/",
+    "original_post_id": "2755",
+    "archived_title": "Evaluating, Valuing, and Promoting Digital Scholarship Event",
+    "display_names_in_other_captures": [
+      "A.L. McMichael"
+    ]
+  },
+  "19802": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20160325174008/https://digitalfellows.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/",
+    "original_post_id": "2837",
+    "archived_title": "Beyond the Same Old Static Course Website",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19805": {
+    "authors": [
+      "Jeffrey Binder"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Jeffrey Binder"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20160325171959/https://digitalfellows.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/",
+    "original_post_id": "2961",
+    "archived_title": "Getting the Most out of a Humble Technology: Word Search",
+    "display_names_in_other_captures": [
+      "Jeffrey Binder"
+    ]
+  },
+  "19809": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20151103103438/http://digitalfellows.commons.gc.cuny.edu:80/2015/10/20/an-introduction-to-web-servers/",
+    "original_post_id": "3158",
+    "archived_title": "An Introduction to Web Servers",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
+  },
+  "19810": {
+    "authors": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20160325162836/https://digitalfellows.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/",
+    "original_post_id": "3182",
+    "archived_title": "Introduction to Web Scraping for Researchers",
+    "display_names_in_other_captures": [
+      "Michelle Johnson-McSweeney"
+    ]
+  },
+  "19812": {
+    "authors": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Michelle Johnson-McSweeney"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20151120021615/http://digitalfellows.commons.gc.cuny.edu:80/2015/11/03/python-users-group-recap/",
+    "original_post_id": "3230",
+    "archived_title": "Python Users’ Group Recap",
+    "display_names_in_other_captures": [
+      "Michelle Johnson-McSweeney"
+    ]
+  },
+  "19818": {
+    "authors": [
+      "Jeffrey Binder"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Jeffrey Binder"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20151215101248/http://digitalfellows.commons.gc.cuny.edu:80/2015/11/30/nanogenmo/",
+    "original_post_id": "3318",
+    "archived_title": "The Complexity of Machine Writing",
+    "display_names_in_other_captures": [
+      "Jeffrey Binder"
+    ]
+  },
+  "19819": {
+    "authors": [
+      "Keith Miyake"
+    ],
+    "basis": "Original article displays this writer. Ian identified the later account as the migration account for pre-2016 posts.",
+    "quotes": [
+      "Keith Miyake"
+    ],
+    "evidence_type": "archived original byline",
+    "source_url": "https://web.archive.org/web/20151219181230/http://digitalfellows.commons.gc.cuny.edu:80/2015/12/08/introduction-to-web-frameworks/",
+    "original_post_id": "3339",
+    "archived_title": "Introduction to Web Frameworks",
+    "display_names_in_other_captures": [
+      "Keith Miyake"
+    ]
   }
 }

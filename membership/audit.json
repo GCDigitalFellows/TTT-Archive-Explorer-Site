@@ -11,16 +11,16 @@
   "local_post_matches_by_basis": {
     "signed": 147,
     "resolved-signed": 148,
-    "directory-digital": 237,
-    "directory-any": 242,
-    "combined": 246
+    "directory-digital": 273,
+    "directory-any": 278,
+    "combined": 282
   },
   "modeled_post_matches_by_basis": {
     "signed": 129,
     "resolved-signed": 130,
-    "directory-digital": 216,
-    "directory-any": 221,
-    "combined": 223
+    "directory-digital": 250,
+    "directory-any": 255,
+    "combined": 257
   },
   "unresolved_signed_entries": 2,
   "reviewed_signed_name_resolutions": 6,

@@ -99,6 +99,11 @@
     const evidence=element('details');evidence.append(element('summary','Inspect the attribution evidence'));
     evidence.append(element('p','Original credit string(s): '+post.originalAuthors.join('; ')));
     if(post.creditQuote)evidence.append(element('blockquote',post.creditQuote));
+    if (post.archivedBylineUrl) {
+      const archive = element('p', 'The archived original shows the writer credit. The account above imported this record during migration. ');
+      archive.append(link('View the archived byline for “' + post.title + '”', post.archivedBylineUrl));
+      evidence.append(archive);
+    }
     evidence.append(element('p',post.tier==='source-supported'?'Source-supported means checked evidence, not personal author confirmation or a complete human audit.':'This credit remains limited by the saved evidence. A posting account or recorded name is not independent proof of article authorship.'));
     meta.append(evidence);reader.append(meta);
     const preview=element('div');

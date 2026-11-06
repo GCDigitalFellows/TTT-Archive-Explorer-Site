@@ -4,6 +4,60 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-05 — Integrated 43 archived byline corrections and published the annual report and web archive source references.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested bringing the corrected records and historical sources from the annual-reports research into the website. He previously supplied early reports and confirmed the pre-2016 migration-account interpretation.
+- **AI:** OpenAI Codex (exact model build not recorded) integrated the prior annual-reports thread’s reviewed attribution changes and research tables, added per-post archive links and a public source section, and rebuilt and checked the evidence-linked site. The earlier work-log entries document the source extraction and author-credit review separately.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-publish-annual-report-and-archived-credit-evidence). Archived article bylines and reported institutional roles are separate evidence. The eight extracted reports document ten academic years; three reports remain unlocated and 2025–2026 awaits manual addition. The source export, topic fit and accepted identity mappings are preserved. Research leads and supplied PDFs are outside this public release.
+
+### 2026-11-05 — Restored 43 pre-2016 article credits from the archived original Digital Fellows website.
+
+- **Human — Ian G. Williams:** Ian G. Williams identified Sam O’Hana’s pre-2016 account as the website-migration account, stated that O’Hana was not a Digital Fellow in that period, and directed using the authors identified on the original archived articles.
+- **AI:** OpenAI Codex (exact build not recorded) compared full archived article captures with the saved export, required matching dated permalinks and titles, transcribed 43 credits, preserved account metadata and prior source-supported credits, and rebuilt the archive and credit-bearing views. No NLTK or MALLET fit was rerun.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-wayback-pre-2016-migration-credits). Original archived display credits are accepted within Ian’s pre-2016 migration rule. Existing supported and collective credits retain their own evidence. Historical display-name variants are preserved without new identity merges. Independent human verification of individual captures was not recorded.
+
+### 2026-11-05 — Added the 2012–2014 and 2015 Digital Fellows reports, verified the supplied 2015–2017 duplicate, and reran the roster and archive visibility comparisons.
+
+- **Human — Ian G. Williams:** Ian G. Williams located and supplied three report PDFs and requested an updated coverage inventory, analysis and rerun of the prior comparisons.
+- **AI:** OpenAI Codex (exact build not recorded) compared SHA-256 hashes, used Apple Vision and pypdf to extract two distinct reports, transcribed page-linked evidence, regenerated the report workbook and source bundle, and reran publication-mix, title visibility, credit and roster checks using the saved archive and membership ledgers. It applied the project plain-language and table-accessibility skills.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-gcdi-early-annual-reports). 2017–2018 through 2019–2020 remain missing in the supplied and previously located sources. The supplied 2025–2026 PDF remains pending manual addition. Early rosters are a combined two-year list and a report snapshot. Repeated figures were counted once and unresolved name variants were preserved. Title matches describe discoverability rather than the amount of work. No changes to baseline credits, memberships or model fitting. No independent human verification is recorded.
+
+### 2026-11-05 — Recovered five listed GCDI annual reports and a supplemental two-year report, then compared their activity, staffing and programs by academic year.
+
+- **Human — Ian G. Williams:** Ian G. Williams defined the scope, supplied the About page and WordPress export, and supplied the 2025–2026 PDF for the reserved manual-addition year.
+- **AI:** OpenAI Codex (exact build not recorded) recovered archived links, curated 55 activity rows, 146 staffing rows, 28 program rows and a WordPress comparison, built the comparative analysis and applied the project plain-language and table-accessibility skills. Apple Vision and pypdf executed extraction. Codex checked source identifiers, page references, duplicate keys, staffing overlap and selected reported figures.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-gcdi-annual-report-comparison). Archived May 2026 About page used because the live page presented a CAPTCHA. Report coverage is incomplete for 2017–2018 through 2019–2020. The supplied 2025–2026 report is reserved for manual addition. OCR, report metrics and export scope have documented limits. No independent human verification or new appointment/author mappings. Research files are kept outside the public website allowlist.
+
+### 2026-11-05 — Added a 3D topic landscape with academic-year means, exact values, and source-post drill-down.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested trying the proposed 3D topic landscape.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented the local landscape and applied colour-independence and table-accessibility guidance. Browser code calculates equal-post means from saved MALLET weights. Codex independently checked two displayed means and verified the bar count, hover, chart and keyboard selection, source links, and empty years in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-3d-topic-landscape). Local prototype. Each post counts once per mean. Author filters alter the contributing population. The 2026–2027 year is partial. Bars can overlap in perspective; the table exposes all values. No new model fit. Screen-reader, touch and independent human checks remain open.
+
+### 2026-11-05 — Added selectable academic-year layers and a flat-year drill-down to the local topic map.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved trying the proposed year-layer strategy.
+- **AI:** OpenAI Codex (exact model build not recorded) implemented categorical year planes using the existing topic weights, with direct labels, post previews, and keyboard-operable drill-down applying the project colour-independence and gesture-alternatives guidance. It checked default layer counts, deduplication, point inspection, chart clicks, and keyboard drill-down in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-topic-map-year-layers). Local prototype. The default layers are 2024–2025, 2025–2026 and partial 2026–2027. Year spacing is categorical and dots can overlap within a layer. No new MALLET fit. One browser checked; touch, screen-reader and independent human review remain open.
+
+### 2026-11-05 — Added point previews, exact position readouts, and 2D guide lines to the local topic map.
+
+- **Human — Ian G. Williams:** Ian G. Williams identified that the graph itself needed clearer interpretation and suggested tooltips or mouse-triggered events.
+- **AI:** OpenAI Codex (exact model build not recorded) applied the project contextual-help guidance and implemented a mouse preview with article title, recorded credit, year and axis values, plus matching persistent selection values and 2D guides. It verified mouse preview, Escape dismissal, point selection, keyboard selection from the post list and the three-axis inspector in the in-app browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-topic-map-point-readouts). Local prototype. Dot overlap still occurs and the post list gives access to each article. Guides are drawn only in the 2D named-topic view. Touch, screen-reader and independent human checks remain open. Saved weights and projection are unchanged.
+
+### 2026-11-05 — Made the topic map easier to read with named topic axes, percentage ticks, and a 2D starting view.
+
+- **Human — Ian G. Williams:** Ian G. Williams identified poor human legibility in the first topic-map prototype.
+- **AI:** OpenAI Codex (exact model build not recorded) applied the project plain-language and cognitive-load guidance, added direct-weight named axes with clear defaults, and moved optional statistical projection controls behind a disclosure. It verified initial labels and ticks, topic changes, 2D-to-3D switching, the optional PCA view and post inspection in the in-app browser and visually inspected the opening layout.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-topic-map-readable-axes). Local prototype. Named axes show original weights for the chosen topics and leave other weights in the post inspector. Dots can overlap. Statistical projections and corpus are preserved. No new model fit, formal accessibility audit, or independent human retest.
+
+### 2026-11-05 — Built a local 2D and 3D topic map with year and credited-author filters, source inspection, and nearest-mixture sorting.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested a 3D analysis prototype and authorized building the proposed topic map.
+- **AI:** OpenAI Codex (exact model build not recorded) wrote the annotated NumPy PCA builder and interactive browser view, applying the project gesture-alternatives and colour-independence guidance. It reconciled all 299 saved weight vectors, verified variance shares with an independent covariance eigendecomposition, and browser-tested rotation, both dimensions, combined filters, empty states, keyboard post selection, and the eight-weight inspector. NumPy computed the projection and browser code computed the nearest-mixture ordering.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-local-pca-topic-map). Local prototype. PCA uses square-root-transformed weights from the saved eight-topic MALLET fit. The 2D and 3D views retain 46.0% and 60.5% of transformed variation. Proximity can hide differences and does not establish historical or thematic relationships. No new text cleaning or MALLET fit. One browser checked; screen-reader and human usability evaluation remain open.
+
 ### 2026-11-05 — Integrated the Word Cloud Lab controls, timeline, excerpts, and related-post discovery into the public explorer.
 
 - **Human — Ian G. Williams:** Ian G. Williams directed the preceding local experiments and explicitly requested integrating their changes into the live site.

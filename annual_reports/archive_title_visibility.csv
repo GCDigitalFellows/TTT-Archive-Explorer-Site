@@ -1,0 +1,13 @@
+Period,Local published records,Title signal,Matching records,Pattern
+2012–2015 report years,83,Workshops or recaps,12,\b(?:workshops?|recaps?)\b
+2012–2015 report years,83,Consultations or office hours,0,\b(?:consultations?|office hours|drop[ -]in)\b
+2012–2015 report years,83,Working or user groups,0,\b(?:working groups?|users?[’']? groups?|PUG|RUG|DARC)\b
+2012–2015 report years,83,Digital Research Institute,0,\b(?:DRI|digital research institute)\b
+Other archive years,242,Workshops or recaps,22,\b(?:workshops?|recaps?)\b
+Other archive years,242,Consultations or office hours,4,\b(?:consultations?|office hours|drop[ -]in)\b
+Other archive years,242,Working or user groups,9,\b(?:working groups?|users?[’']? groups?|PUG|RUG|DARC)\b
+Other archive years,242,Digital Research Institute,12,\b(?:DRI|digital research institute)\b
+All archive years,325,Workshops or recaps,34,\b(?:workshops?|recaps?)\b
+All archive years,325,Consultations or office hours,4,\b(?:consultations?|office hours|drop[ -]in)\b
+All archive years,325,Working or user groups,9,\b(?:working groups?|users?[’']? groups?|PUG|RUG|DARC)\b
+All archive years,325,Digital Research Institute,12,\b(?:DRI|digital research institute)\b

@@ -27,6 +27,15 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-05 — Integrated 43 archived byline corrections and published the annual report and web archive source references.
+- 2026-11-05 — Restored 43 pre-2016 article credits from the archived original Digital Fellows website.
+- 2026-11-05 — Added the 2012–2014 and 2015 Digital Fellows reports, verified the supplied 2015–2017 duplicate, and reran the roster and archive visibility comparisons.
+- 2026-11-05 — Recovered five listed GCDI annual reports and a supplemental two-year report, then compared their activity, staffing and programs by academic year.
+- 2026-11-05 — Added a 3D topic landscape with academic-year means, exact values, and source-post drill-down.
+- 2026-11-05 — Added selectable academic-year layers and a flat-year drill-down to the local topic map.
+- 2026-11-05 — Added point previews, exact position readouts, and 2D guide lines to the local topic map.
+- 2026-11-05 — Made the topic map easier to read with named topic axes, percentage ticks, and a 2D starting view.
+- 2026-11-05 — Built a local 2D and 3D topic map with year and credited-author filters, source inspection, and nearest-mixture sorting.
 - 2026-11-05 — Integrated the Word Cloud Lab controls, timeline, excerpts, and related-post discovery into the public explorer.
 - 2026-11-05 — Added a Common and Distinctive ranking toggle to the local Word Cloud Lab.
 - 2026-11-05 — Added an interactive academic-year timeline for the selected word in the local Word Cloud Lab.

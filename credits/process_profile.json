@@ -1,6 +1,12 @@
 {
   "as_of": "2026-11-03",
   "human_project_contributor": "Ian G. Williams",
+  "archived_migration_credit_review": {
+    "date": "2026-11-05",
+    "human_evidence": "Ian G. Williams identified Sam O’Hana’s pre-2016 posting account as a migration account and directed use of the original archived author.",
+    "agent_scope": "OpenAI Codex matched and applied 43 original article bylines, retaining the migrated account and earlier supported credits.",
+    "limit": "No independent human verification of each replay, new identity merge, or fellowship appointment inference."
+  },
   "human_name_evidence": "Preferred public credit supplied by the requester in this conversation.",
   "ai_tool": "OpenAI Codex (OpenAI); exact underlying model/build not recorded in project artifacts",
   "version_limit": "Earlier ChatGPT-assisted analysis is inherited from the project history. Exact model versions and every earlier session cannot be reconstructed from the saved artifacts. Ian identified the separate external review as Deepseek V4.1 Flash 1017 in the CAIL sandbox in OpenWebUI, using a previous-iteration ZIP. That model label is user-supplied; the exact reviewed archive and external session were not independently inspected.",

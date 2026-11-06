@@ -118,5 +118,7 @@
     "Shokran": "Shokraan Rahiminezhad"
   },
   "signed_name_resolution_limits": "Pablo is restricted to Fall 2018. Current names resolve 2026–2027 Fall signature labels only, using the observed current Digital Fellows list. Shokran/Shokraan is a reviewed spelling match to the unique current team member; source signature spelling remains visible. Spring 2018 Patrick remains ambiguous; later Patrick can resolve to Patrick Sweeney only when the annual directory supplies a unique candidate.",
-  "pre_membership_records_sha256": "ded7ed2248a7ca1082723635257f2097082db985052867caf384d6625a44400d"
+  "pre_membership_records_sha256": "ded7ed2248a7ca1082723635257f2097082db985052867caf384d6625a44400d",
+  "reviewed_records_sha256": "9b45f48367c9bfe5d167609e51179d4713b82fee0ca215f9833b97eeb1296f52",
+  "reviewed_records_evidence": "../attribution_revision/revision_changes.json"
 }
