@@ -1957,6 +1957,88 @@
         "membership/test_filters.js"
       ],
       "limit": "No changes to attribution records, the source corpus or the saved model. The regression addresses preview placement; search matching and scope are unchanged."
+    },
+    {
+      "id": "network-shared-post-summary",
+      "date": "2026-11-06",
+      "status": "implemented for local preview",
+      "task": "Added distinct shared-post counts and moved the source-post panel next to the authorship network.",
+      "human": "Ian G. Williams requested trying the recommended shared-byline summary and adjacent source-post panel.",
+      "agent": "OpenAI Codex (exact build not recorded) reused the existing pair records and source panel, counted each supporting article once across displayed and undrawn connections, and preserved keyboard return to source-post controls. The browser check verified ten names from one article, article opening and keyboard return, and panel placement when switching displays.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000027",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html"
+      ],
+      "limit": "Local preview. Existing evidence scopes, attribution and model weights are preserved. A shared article records a byline connection and does not establish a working relationship."
+    },
+    {
+      "id": "network-matrix-and-credit-evidence",
+      "date": "2026-11-06",
+      "status": "implemented for local preview",
+      "task": "Added an interactive author–year matrix, evidence population counts, and connection previews.",
+      "human": "Ian G. Williams approved continuing with the authorship-network recommendations after trying the shared-post preview.",
+      "agent": "OpenAI Codex (exact build not recorded) reused the existing author–year edges and post inspector, applied table-accessibility and colour-independence guidance, added focus and pointer previews, and browser-tested matrix dimensions, credit counts, keyboard selection, evidence breakdown, and graph focus.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000027",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html"
+      ],
+      "limit": "Local preview. Matrix and graph use the same published local/unflagged population. Tests covered keyboard and displayed counts in one browser; touch and screen-reader use remain untested."
+    },
+    {
+      "id": "network-matrix-navigation-and-reflow",
+      "date": "2026-11-06",
+      "status": "implemented for local preview",
+      "task": "Added matrix sorting, a return to the selected cell, and a shortcut when the network graph is too narrow.",
+      "human": "Ian G. Williams approved continuing the local authorship-network enhancements.",
+      "agent": "OpenAI Codex (exact build not recorded) applied keyboard-navigation and responsive-accessibility guidance, retained matrix cell identity across sorting and reader navigation, and linked the fallback to the graph width check. It checked alphabetical ordering, article-to-cell keyboard return, the 390px matrix shortcut and the 680px graph in the browser.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html"
+      ],
+      "limit": "Local preview. Sort order affects display only. Browser checks covered two viewport widths and keyboard navigation; touch and screen-reader evaluation remain open."
+    },
+    {
+      "id": "publish-authorship-network-enhancements",
+      "date": "2026-11-06",
+      "status": "implemented for authorized public release",
+      "task": "Prepared the shared-post summary, author–year matrix, and keyboard navigation enhancements for public release.",
+      "human": "Ian G. Williams requested publishing the three authorship-network preview revisions.",
+      "agent": "OpenAI Codex (exact build not recorded) rebuilt the approved preview with synchronized attribution and checked the public release package against the existing deployment.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/template.html"
+      ],
+      "limit": "The matrix and graph retain their saved published-local population and existing credit tiers. Prior preview entries document browser checks and their limits."
     }
   ],
   "remaining": [

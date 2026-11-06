@@ -4,6 +4,30 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-06 — Prepared the shared-post summary, author–year matrix, and keyboard navigation enhancements for public release.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested publishing the three authorship-network preview revisions.
+- **AI:** OpenAI Codex (exact build not recorded) rebuilt the approved preview with synchronized attribution and checked the public release package against the existing deployment.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-publish-authorship-network-enhancements). The matrix and graph retain their saved published-local population and existing credit tiers. Prior preview entries document browser checks and their limits.
+
+### 2026-11-06 — Added matrix sorting, a return to the selected cell, and a shortcut when the network graph is too narrow.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved continuing the local authorship-network enhancements.
+- **AI:** OpenAI Codex (exact build not recorded) applied keyboard-navigation and responsive-accessibility guidance, retained matrix cell identity across sorting and reader navigation, and linked the fallback to the graph width check. It checked alphabetical ordering, article-to-cell keyboard return, the 390px matrix shortcut and the 680px graph in the browser.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-network-matrix-navigation-and-reflow). Local preview. Sort order affects display only. Browser checks covered two viewport widths and keyboard navigation; touch and screen-reader evaluation remain open.
+
+### 2026-11-06 — Added an interactive author–year matrix, evidence population counts, and connection previews.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved continuing with the authorship-network recommendations after trying the shared-post preview.
+- **AI:** OpenAI Codex (exact build not recorded) reused the existing author–year edges and post inspector, applied table-accessibility and colour-independence guidance, added focus and pointer previews, and browser-tested matrix dimensions, credit counts, keyboard selection, evidence breakdown, and graph focus.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-network-matrix-and-credit-evidence). Local preview. Matrix and graph use the same published local/unflagged population. Tests covered keyboard and displayed counts in one browser; touch and screen-reader use remain untested.
+
+### 2026-11-06 — Added distinct shared-post counts and moved the source-post panel next to the authorship network.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested trying the recommended shared-byline summary and adjacent source-post panel.
+- **AI:** OpenAI Codex (exact build not recorded) reused the existing pair records and source panel, counted each supporting article once across displayed and undrawn connections, and preserved keyboard return to source-post controls. The browser check verified ten names from one article, article opening and keyboard return, and panel placement when switching displays.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-network-shared-post-summary). Local preview. Existing evidence scopes, attribution and model weights are preserved. A shared article records a byline connection and does not establish a working relationship.
+
 ### 2026-11-06 — Fixed exact-phrase previews and refreshed history, identity, and membership tests after the attribution update.
 
 - **Human — Ian G. Williams:** Ian G. Williams directed the audit, follow-up tests, and continuation to address the reported failures. He then authorized deploying the completed changes.

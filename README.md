@@ -27,6 +27,10 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-06 — Prepared the shared-post summary, author–year matrix, and keyboard navigation enhancements for public release.
+- 2026-11-06 — Added matrix sorting, a return to the selected cell, and a shortcut when the network graph is too narrow.
+- 2026-11-06 — Added an interactive author–year matrix, evidence population counts, and connection previews.
+- 2026-11-06 — Added distinct shared-post counts and moved the source-post panel next to the authorship network.
 - 2026-11-06 — Fixed exact-phrase previews and refreshed history, identity, and membership tests after the attribution update.
 - 2026-11-05 — Integrated 43 archived byline corrections and published the annual report and web archive source references.
 - 2026-11-05 — Restored 43 pre-2016 article credits from the archived original Digital Fellows website.
