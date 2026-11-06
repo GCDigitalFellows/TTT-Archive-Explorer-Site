@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-06 — Fixed exact-phrase previews and refreshed history, identity, and membership tests after the attribution update.
+
+- **Human — Ian G. Williams:** Ian G. Williams directed the audit, follow-up tests, and continuation to address the reported failures. He then authorized deploying the completed changes.
+- **AI:** OpenAI Codex (exact build not recorded) reproduced the phrase-preview bug, used the shared normalization to locate the original phrase, added a regression check, and aligned three test expectations with reviewed credits and published membership scope. Codex verified all 51 body-match previews for “digital scholarship” and prepared the public release.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-exact-phrase-preview-and-audit-test-refresh). No changes to attribution records, the source corpus or the saved model. The regression addresses preview placement; search matching and scope are unchanged.
+
 ### 2026-11-05 — Integrated 43 archived byline corrections and published the annual report and web archive source references.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested bringing the corrected records and historical sources from the annual-reports research into the website. He previously supplied early reports and confirmed the pre-2016 migration-account interpretation.

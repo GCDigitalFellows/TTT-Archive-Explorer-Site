@@ -382,12 +382,35 @@ const TowerSearch = (() => {
     return selected;
   }
   function snippet(paragraphs, query, mode = "words", budget = 220) {
-    if (!normalize(query)) return "";
+    const normalized = normalize(query);
+    if (!normalized) return "";
     const paragraph = paragraphs.find(text => matches([text], query, mode));
     // A query may match only metadata or words in separate paragraphs. Do not
     // present an unrelated opening passage as evidence of a phrase match.
     if (!paragraph) return "Match in metadata or across saved-text passages.";
-    const first = normalize(query).split(" ")[0];
+    if (mode === "phrase") {
+      const phraseIndex = (" " + normalize(paragraph) + " ").indexOf(" " + normalized + " ");
+      // Normalization changes text lengths. Find the original boundaries by
+      // measuring prefixes with the same normalization used by the matcher.
+      const originalOffset = length => {
+        let low = 0, high = paragraph.length;
+        while (low < high) {
+          const middle = Math.floor((low + high) / 2);
+          if (normalize(paragraph.slice(0, middle)).length < length) low = middle + 1;
+          else high = middle;
+        }
+        return low;
+      };
+      const characterStart = offset => /[\uDC00-\uDFFF]/.test(paragraph.charAt(offset)) ? offset - 1 : offset;
+      const firstCharacter = characterStart(originalOffset(phraseIndex + 1) - 1);
+      const phraseEnd = originalOffset(phraseIndex + normalized.length);
+      const endWithMarks = phraseEnd + paragraph.slice(phraseEnd).match(/^\p{M}*/u)[0].length;
+      const context = Math.max(0, Math.min(60, budget - (endWithMarks - firstCharacter)));
+      const start = characterStart(Math.max(0, firstCharacter - context));
+      const end = Math.max(start + budget, endWithMarks);
+      return (start ? "…" : "") + paragraph.slice(start, end) + (end < paragraph.length ? "…" : "");
+    }
+    const first = normalized.split(" ")[0];
     // Locate the original token, retaining accents and character offsets.
     const token = [...paragraph.matchAll(/[\p{L}\p{N}\p{M}]+/gu)]
       .find(match => normalize(match[0]) === first);

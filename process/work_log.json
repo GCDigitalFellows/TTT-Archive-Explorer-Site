@@ -1934,6 +1934,29 @@
         "reviews/mockups/welcoming-pathways/index.html"
       ],
       "limit": "Archived article bylines and reported institutional roles are separate evidence. The eight extracted reports document ten academic years; three reports remain unlocated and 2025–2026 awaits manual addition. The source export, topic fit and accepted identity mappings are preserved. Research leads and supplied PDFs are outside this public release."
+    },
+    {
+      "id": "exact-phrase-preview-and-audit-test-refresh",
+      "date": "2026-11-06",
+      "status": "implemented for authorized public release",
+      "task": "Fixed exact-phrase previews and refreshed history, identity, and membership tests after the attribution update.",
+      "human": "Ian G. Williams directed the audit, follow-up tests, and continuation to address the reported failures. He then authorized deploying the completed changes.",
+      "agent": "OpenAI Codex (exact build not recorded) reproduced the phrase-preview bug, used the shared normalization to locate the original phrase, added a regression check, and aligned three test expectations with reviewed credits and published membership scope. Codex verified all 51 body-match previews for “digital scholarship” and prepared the public release.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "interactive/search_core.js",
+        "interactive/test_search.js",
+        "history/test_history.py",
+        "identity/test_identity.py",
+        "membership/test_filters.js"
+      ],
+      "limit": "No changes to attribution records, the source corpus or the saved model. The regression addresses preview placement; search matching and scope are unchanged."
     }
   ],
   "remaining": [

@@ -27,6 +27,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-06 — Fixed exact-phrase previews and refreshed history, identity, and membership tests after the attribution update.
 - 2026-11-05 — Integrated 43 archived byline corrections and published the annual report and web archive source references.
 - 2026-11-05 — Restored 43 pre-2016 article credits from the archived original Digital Fellows website.
 - 2026-11-05 — Added the 2012–2014 and 2015 Digital Fellows reports, verified the supplied 2015–2017 duplicate, and reran the roster and archive visibility comparisons.
