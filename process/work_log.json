@@ -2385,10 +2385,10 @@
     {
       "id": "publish-modular-reviewable-explorer",
       "date": "2026-11-08",
-      "status": "prepared for publication",
-      "task": "Publish the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.",
+      "status": "published and verified",
+      "task": "Published the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.",
       "human": "Ian G. Williams approved the accumulated preview revisions and requested implementation on the website. He supplied the full institutional name and Digital Scholarship Lab wording.",
-      "agent": "OpenAI Codex (exact build not recorded) compared both GitHub main branches, prepared a clean private-source checkout because the shared checkout index was unavailable, preserved the older topic-map files as private historical evidence after clean-checkout checks exposed existing references to them, and prepared source/public release files with the same attributed changelogs. All 92 Python tests and 80 Node tests passed in the clean release checkout, with coverage and saved-result checks. Publication receipt will be recorded after the GitHub release is observed.",
+      "agent": "OpenAI Codex (exact build not recorded) compared both GitHub main branches, prepared a clean private-source checkout because the shared checkout index was unavailable, preserved the older topic-map files as private historical evidence after clean-checkout checks exposed existing references to them, and prepared source/public release files with the same attributed changelogs. All 92 Python tests and 80 Node tests passed in the clean release checkout, with coverage and saved-result checks. Pushed source b73b2eb and website 172c34c; GitHub Pages run 42547152000 succeeded. Verified the public copy, 421 reading records, linked-data search, writer counts, word cloud, sunburst and author network. The initial HTTP upload failure was inspected and safely retried. The receipt records the verified functional release.",
       "credit_roles": [
         "Project administration",
         "Writing – review & editing"
@@ -2399,13 +2399,14 @@
         "0000025"
       ],
       "evidence": [
+        "process/publication_2026-11-08.json",
         "../scripts/public_release_manifest.json",
         "reviews/mockups/welcoming-pathways/modular_methods.md",
         "reviews/mockups/welcoming-pathways/people_loading_validation.json",
         "reviews/mockups/welcoming-pathways/views/home.html",
         "reviews/mockups/welcoming-pathways/template.html"
       ],
-      "limit": "Release preparation is recorded before pushing; deployment is not yet confirmed by this entry. Earlier local-only entries describe their historical state. No human review of all code/data, screen-reader evaluation or new model fit is implied."
+      "limit": "The preparation entry was updated after observing successful publication and live-browser checks. The receipt identifies the first functional release; a subsequent audit commit synchronizes this record. Earlier local-only entries describe their historical state. No human review of all code/data, screen-reader evaluation or new model fit is implied."
     }
   ],
   "remaining": [

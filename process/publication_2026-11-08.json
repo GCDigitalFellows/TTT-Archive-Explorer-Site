@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-08",
+  "status": "functional release published and verified",
+  "source_release_commit": "b73b2ebf8cabeffb149ef2e1283e8c5193bc55d6",
+  "website_release_commit": "172c34c25f9b598691c1c96b73d1e8c52b4be86f",
+  "website_url": "https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/",
+  "pages_workflow_run": 42547152000,
+  "pages_workflow_url": "https://github.com/GCDigitalFellows/TTT-Archive-Explorer-Site/actions/runs/42547152000",
+  "pages_result": "success",
+  "entry_bytes": 55476,
+  "entry_sha256": "c569a59317c7aa6f2414ce3f2488eb9b87501c328e003e8c32cd94afbac4de15",
+  "checks": {
+    "python_tests_passed": 92,
+    "node_tests_passed": 80,
+    "coverage_and_saved_results": "passed",
+    "live_browser": [
+      "Full institutional name",
+      "Digital Scholarship Lab introduction",
+      "421 reading records",
+      "13 matches for linked data",
+      "59 local named writers and documented Fellow counts",
+      "299-post word cloud",
+      "Visible sunburst and author-network SVGs"
+    ]
+  },
+  "human": "Ian G. Williams directed the revisions, supplied institutional wording and requested implementation under the existing publication authorization.",
+  "ai": "OpenAI Codex (exact build not recorded) implemented, packaged, tested, pushed both repositories and verified the live release.",
+  "notes": [
+    "The first Git uploads failed with HTTP 400; inspection confirmed neither branch had advanced. Retrying the same commits with adjusted HTTP transport settings succeeded.",
+    "Clean-checkout tests exposed older topic-map evidence already cited in the ledger. Those artifacts were preserved privately so source/history links resolve.",
+    "A later audit-only commit records this receipt and updates attributed changelogs; the commit IDs above identify the first verified functional release."
+  ],
+  "limits": [
+    "The original shared checkout Git index remained unavailable, so publication used a clean checkout. Its working files were preserved.",
+    "No independent human code/data verification, screen-reader session, learner study or performance benchmark is implied."
+  ]
+}

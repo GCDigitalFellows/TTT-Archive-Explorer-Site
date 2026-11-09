@@ -545,6 +545,14 @@
       "agent_scope": "OpenAI Codex (exact build not recorded) selected people-history data for on-demand loading, reused independent cached group requests, and added page status/retry and one-time control initialization preserving filters and evidence return.",
       "evidence": "reviews/mockups/welcoming-pathways/people_loading_validation.json",
       "oversight": "Agent-selected continuation of the modular implementation. Source populations, identities, methods and saved model values are unchanged. No production release or human/AT evaluation is claimed."
+    },
+    "publication_2026_11_08": {
+      "date": "2026-11-08",
+      "human": "Ian G. Williams",
+      "human_scope": "Directed and approved the accumulated revisions, supplied institutional wording and requested implementation; CRediT Project administration and Writing – review & editing.",
+      "agent_scope": "OpenAI Codex (exact build not recorded) packaged, checked, committed and pushed the source/public repositories, monitored successful GitHub Pages deployment, and verified the public interface.",
+      "evidence": "process/publication_2026-11-08.json",
+      "oversight": "Publication authorization and supplied wording are documented. Automated and agent-browser checks do not establish independent human scientific, accessibility or learner validation."
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",

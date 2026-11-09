@@ -27,7 +27,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
-- 2026-11-08 — Publish the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.
+- 2026-11-08 — Published the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.
 - 2026-11-08 — Added the Digital Scholarship Lab location to the welcome-page Digital Fellows introduction.
 - 2026-11-08 — Expanded the shared header institution label to The Graduate Center, City University of New York.
 - 2026-11-08 — Load People & methods records on demand with independent failure recovery and preserved review controls.

@@ -1483,6 +1483,11 @@
       "source": "analysis/reviews/mockups/welcoming-pathways/modular_methods.md",
       "destination": "methods/modular_methods.md",
       "treatment": "copy"
+    },
+    {
+      "source": "analysis/process/publication_2026-11-08.json",
+      "destination": "process/publication_2026-11-08.json",
+      "treatment": "copy"
     }
   ],
   "redirects": {
