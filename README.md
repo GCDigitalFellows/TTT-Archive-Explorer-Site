@@ -1,5 +1,7 @@
 # Tagging The Tower Archives Explorer
 
+Tagging The Tower is the official blog of the GC Digital Fellows, an interdisciplinary team of doctoral student fellows at the CUNY Graduate Center. Posts started in Fall 2012 alongside the inception of the fellowship program. This project was started from a question of what the collective wisdom of the blog might offer, as a form of academic gray literature, and wondering, what do the collective totality of Digital Fellows have to say about what "digital scholarship" is?
+
 Published website files. This is a project demonstration and a work in progress.
 
 The [main explorer](index.html) now uses the Welcoming pathways interface, approved by Ian G. Williams on November 4, 2026. [Current user guide](PUBLIC_GUIDE.html) · [Research methods](METHODS_AND_DATA.html). The previous interface is preserved in the private source archive; former entry points redirect here. Earlier public Git history remains available.
