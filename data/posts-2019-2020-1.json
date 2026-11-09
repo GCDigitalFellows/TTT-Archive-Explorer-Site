@@ -1,0 +1,2336 @@
+[
+  {
+    "id": "19860",
+    "title": "Working with HathiTrust Data - Part 3",
+    "date": "2020-05-21",
+    "year": "2019–2020",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/05/21/working-with-hathitrust-data-part-3/",
+    "signals": [],
+    "paragraphs": [
+      "Working with HathiTrust Data",
+      "This blogpost is last section of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, I provided a brief introduction to text analysis and showed how to create collections in the HathiTrust Digital Library. In Part 2, I discussed how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, below, I discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to provide a narrative overview to these slides on Working with HathiTrust Data. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Modules 4 and 5 in the slides.",
+      "The HathiTrust Digital Library preserves and…"
+    ],
+    "fullParagraphs": [
+      "Working with HathiTrust Data",
+      "This blogpost is last section of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, I provided a brief introduction to text analysis and showed how to create collections in the HathiTrust Digital Library. In Part 2, I discussed how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, below, I discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to provide a narrative overview to these slides on Working with HathiTrust Data. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Modules 4 and 5 in the slides.",
+      "The HathiTrust Digital Library preserves and provides access to over 17 million books spanning more than four centuries. It was created in 2008 by digitizing and bringing together the physical collections of a number of distinguished academic research libraries. Today, The HathiTrust Digital Library comprises over 120 partner institutions who continue to contribute to its collection. Alongside the Digital Library, the HathiTrust Research Center provides tools that facilitate text analysis on its vast corpus.",
+      "Introduction to the Bibliographic API and the Extracted Features Dataset",
+      "The HathiTrust created the Bibliographic API to provide more robust access to its data and allow researchers to work with large batches of texts. The Bibliographic API is a digital pathway that allows programmatic access to the HathiTrust's data. The API enables researchers to write code that automates processes that gather and arrange data held by the HathiTrust, allowing the use of thousands of texts at scale. In order to use the API, researchers will require a working knowledge of higher level languages like python and data standards like JSON. The accompanying slides provide more information about structuring API calls in Module 4.",
+      "In addition to the Bibliographic API, the HathiTrust has also built the Extracted Features dataset, which opens versatile approaches to working with its data. The Extracted Features dataset contains additional structured data, such as word and sentence counts, publisher's name, place and date of publication, language, genre, among many others, for each page in more than 17 million volumes in the HathiTrust Digital Library. Accessing and analyzing the Extracted Features Dataset requires a familiarity with languages like r and python. Those interested in working with Extracted Features dataset might also look into the HTRC Feature Reader, which is a python library that simplifies access to the Extracted Features Dataset. The Extracted Features Dataset can be accessed via rsync as well.",
+      "The Extracted Features Dataset has been used to create a variety of tools, such as the Word Similarity Tool and Bookworm (which I discuss below). Furthermore, the Extracted Features Dataset has also been used to create additional datasets such as “Word Frequencies in English-Language Literature, 1700-1922,” which contains the word frequencies for all English-language volumes of fiction, drama, and poetry in the HathiTrust Digital Library that were published from 1700 to 1922.",
+      "I do not go into too much depth with the Bibliographic API or the Extracted Features dataset here because the way in which these resources might be used depends, to a large extent, on the research questions and methodologies driving each project. I highly recommend those at the Graduate Center join the Python User Group, R User Group, or the Digital Archive Research Collective, where the Bibliographic API and the Extracted Features Dataset can make very useful topics of exploration within specific communities of practice.",
+      "HathiTrust + Bookworm",
+      "In this final section, we will look at Bookworm, another tool provided through the HathiTrust Research Center. Bookworm provides a visualization interface that draws on the Extracted Features dataset to show word usage trends over time.",
+      "To access Bookworm, click “Explore” in the HathiTrust Research Center’s top menu. This takes us to page with many in-development tools at the HathiTrust Research Center. Here, we can find many ways of visualizing word trends using Bookworm, such as heatmaps and bar charts.",
+      "Fig 1: Bookworm tools in the HathiTrust Research Center",
+      "Clicking on the “HathiTrust + Bookworm” option will take you to a page featuring a default line graph. The default value of the x-axis is years, with the y-axis representing words per million. Here you will find a search box, which is usually pre-filled with the word \"creativity.” You can simply replace \"creativity\" with any term that you fancy to get a rough and ready gauge of its popularity over the past three centuries.",
+      "Fig 2: HathiTrust + Bookworm Interface",
+      "Bookworm also permits tracking the trends of multiple words simultaneously. You can add more terms to the search bar by clicking on the \" + \" symbol.",
+      "Fig 3: Multiple Searches on HathiTrust + Bookworm",
+      "Clicking on the funnel icon next to the search bar provides ways of limiting the search using a number of parameters.",
+      "Fig 4: Limiting the Search on HathiTrust + Bookworm",
+      "You can further fine-tune the visualization by adjusting the \"Dates,\" \"Metric,\" and \"Case\" tabs on the top right.",
+      "Fig 5: Fine-Tuning Your Visualization",
+      "The bookworm visualization also links directly to the HathiTrust digital library. Clicking on a location on the visualization allows the researcher to read individual results.",
+      "Fig 6: Going from HathiTrust + Bookworm to an individual text in the Digital Library",
+      "Conclusion: What Next?",
+      "Now that you have an introduction to some of the ways in which the HathiTrust makes its data available, please feel free to tinker with the tools available. You can begin by searching the HathiTrust Digital Library to get a preliminary sense of the kinds of texts it holds. You may also consider learning additional languages like python or r to further enhance your ability to work with the HathiTrust dataset. For those interested, the HathiTrust has provided very helpful teaching materials that discuss additional tools.",
+      "I highly encourage thinking of the data and tools made available by the HathiTrust as a point of beginning in the research process. Maybe a topic model makes you wonder why seemingly different concepts are related. Perhaps a peak in a bookworm visualization makes you question why certain themes are surging in a particular moment in time. Such kinds of insight can help you refine your research questions and read your findings in a new light.",
+      "Acknowledgements",
+      "This post was made possible from these slides, which were initially created by the HathiTrust, with subsequent edits made by Stephen Klein, Roxanne Shirazi, and Stephen Zweibel of the CUNY Graduate Center Library."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.7737285904674186,
+      0.000335248052231701,
+      0.037715758553748875,
+      0.00011364772577668153,
+      0.0768281631492154,
+      0.06534640599053328,
+      0.0003674799168842764,
+      0.045564706144191246
+    ],
+    "words": [
+      [
+        "hathitrust",
+        32
+      ],
+      [
+        "bookworm",
+        15
+      ],
+      [
+        "feature",
+        14
+      ],
+      [
+        "library",
+        13
+      ],
+      [
+        "dataset",
+        13
+      ],
+      [
+        "digital",
+        12
+      ]
+    ]
+  },
+  {
+    "id": "5569",
+    "title": "Working with HathiTrust Data - Part 2",
+    "date": "2020-05-15",
+    "year": "2019–2020",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/05/15/working-with-hathitrust-data-part-2/",
+    "signals": [],
+    "paragraphs": [
+      "Working with HathiTrust Data",
+      "This post is Part 2 of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, I provided a brief introduction to text analysis and showed how to create collections in the HathiTrust Digital Library. In Part 2, below, I discuss how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, I will discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to provide a narrative overview to these slides on Working with HathiTrust Data. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Module 3 in the slides.",
+      "The HathiTrust Digital Library preserves and provides…"
+    ],
+    "fullParagraphs": [
+      "Working with HathiTrust Data",
+      "This post is Part 2 of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, I provided a brief introduction to text analysis and showed how to create collections in the HathiTrust Digital Library. In Part 2, below, I discuss how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, I will discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to provide a narrative overview to these slides on Working with HathiTrust Data. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Module 3 in the slides.",
+      "The HathiTrust Digital Library preserves and provides access to over 17 million books spanning more than four centuries. It was created in 2008 by digitizing and bringing together the physical collections of a number of distinguished academic research libraries. Today, The HathiTrust Digital Library comprises over 120 partner institutions who continue to contribute to its collection. Alongside the Digital Library, the HathiTrust Research Center provides tools that facilitate text analysis on its vast corpus.",
+      "Analyzing Textual Data using the HathiTrust Research Center",
+      "In Part 1 of this series, I provided an introduction to text analysis, and discussed ways of creating collections in the HathiTrust Digital Library. In this post, we will move on to the next stage of the text analysis project, when we use algorithms to study our collection.",
+      "The HathiTrust Research Center provides a variety of tools to analyze collections. In this post we will focus on one tool in particular - the InPho Topic Model Explorer. Succinctly put, topic modeling is a text analysis method that identifies abstract \"topics\" that occur in a collection of texts. Topic modeling first removes frequently occuring language like \"the,\" \"if,\" \"an,\" and then measures the relative proximity of distinct words. It assumes that words which often occur together correspond to a shared topic. The topic model then produces an output containing lists of words drawn from the dataset, with each list pertaining to a topic.",
+      "Like every other approach to quantitative analysis, it is important to understand the processes and limitations of topic modeling. I highly recommend reading vol. 2, issue 1., of the Journal of Digital Humanities which contains a number of articles addressing the affordances and limitations of topic modeling.",
+      "To begin with topic modeling using the HathiTrust's data, we must first go to the HathiTrust Research Center and create an account or login.",
+      "Fig 1: Logging into the HathiTrust Research Center",
+      "Then we can import our collection from The HathiTrust Digital Library and create a \"workset.\" A “workset” in the HathiTrust Research Center is similar to a “collection” in the HathiTrust Digital Library. They are both ways of naming and creating datasets on which algorithms can be applied.",
+      "To create a workset, click on “Worksets” in the top menu.",
+      "Fig 2: Creating a Workset, Part I",
+      "This takes you to the Worksets section of the HathiTrust Research Center, where you can view your own worksets as well as public worksets.",
+      "We then click on “Create A Workset,” which will allow us to move our collection from the HathiTrust Digital Library to the HathiTrust Research Center, or to create a workset from scratch.",
+      "Fig 3: Creating a Workset, Part II",
+      "The HathiTrust provides many ways of moving collections from the Digital Library to the Research Center. If you are looking to run an algorithm on a collection that was created in the HathiTrust Digital Library, then I recommend going with the “upload file” option. The “import from HathiTrust” option also works, but only if your collection is publicly visible in the Digital Library. The “Import From HTRC Workset Builder” option works if you have used the Workset Builder tool to create your collection.",
+      "Fig 4: Uploading our Collection’s Metadata, Part I",
+      "Clicking on “upload file” takes you to another page. Here you can give your workset a name, a description, and upload the metadata file from your collection in the HathiTrust Digital Library. You can learn how to download the metadata file from your collection in part 1 of this series. Once all the information has been provided, click on the blue “Create Workset” button at the bottom of the page.",
+      "Fig 5: Uploading our Collection’s Metadata, Part II",
+      "Upon creating a workset, you should now be able to view it in the “Worksets” page.",
+      "Fig 6: View your Workset",
+      "The next step to doing a topic model is to proceed to the \"Algorithms\" section of the HathiTrust research center, by clicking on the option in the top menu.",
+      "Fig 7: Proceed to Algorithms section of the HathiTrust Research Center",
+      "A number of text analysis tools are presented to us. I encourage you to explore these at your own leisure. In this post we will go with the InPho Topic Model Explorer.",
+      "Fig 8: Executing the InPho Topic Model Explorer",
+      "The InPho Topic Model Explorer page presents an overview of its process as well as set the parameters of the algorithm. Here, we are asked to provide a job name. We are also prompted to select our workset. Next, we can adjust the parameters of our topic model by adjusting the “Number of Iterations” and “Number of Topics.”",
+      "The number of iterations determines the number of samples that topic model will use to conduct its analysis. If you increase the number of iterations, your topic model will take longer to run, but you could potentially get higher quality results. Determining the appropriate number of iterations depends on the size of your dataset and on your research questions. Are you using the topic models to find general trends in your dataset? Are you looking for outliers? These kinds of questions can help you decide on an appropriate number of iterations.",
+      "The number of topics tells the algorithm how many topics to create from your dataset. It is a way of constraining the gradation of your research. The default numbers in there tell the topic model to create a list of 20 topics, then run again and create a list of 40 topics, then run again and create 60 topics, and so on. Again, determining the appropriate number of topics depends on what you are seeking to measure and how big your dataset is.",
+      "After defining the parameters of our topic model, we can run the algorithm on our workset by clicking “submit.”",
+      "Fig 9: Defining the parameters of the topic model",
+      "Once we click “submit” and run the algorithm, it may take some time for the results to appear. When an output is ready, you will be presented with a number of ways to explore the results.",
+      "Fig 10: Topic Model Outputs",
+      "The default way in which the results are displayed are through a visualization that presents all topics as a series of variously colored bubbles. Below the visualization, the HathiTrust also provides guidelines for interpreting the visualization, where they write:",
+      "Each topic recognized by the algorithm is represented as a node (bubble). The bubble display shows the granularity of the different models and how terms may be grouped together into topical themes.",
+      "The clusters and colors are determined automatically by the algorithm, and provide only a rough guide to groups of topics that have similar themes. The different axes do not have any intrinsic meaning, but could be interpreted as representing historical or thematic dimensions in the underlying corpus.",
+      "The size of the bubbles relates to the number of topics generated (larger for fewer topics, smaller for more topics). If you trained multiple models, you can toggle to view the corresponding bubbles for each model. You have the option to turn collision detection on and off, which can improve the readability of the display.",
+      "Alongside this visualization, you can see the topics in a more readable form by clicking on the “topics.json” option. This presents a series of lists corresponding to possible topics generated by the algorithm. When I ran this topic modeling algorithm on my dataset of United States presidential speeches, I was able to generate topics based on the contents of the speeches of different presidents. These topics allowed me to identify significant themes in each of the president’s speeches, which can you see in the screenshot below.",
+      "Fig 11: Topics associated with U.S. Presidents",
+      "A benefit of the InPho Topic Model Explorer is that it is easy to use and requires no deep knowledge of computer programming. Correspondingly, a drawback to this tool is that it can be a bit of a blunt instrument, and lacks the precision that other more sophisticated approaches to text analysis provides. I have found Topic Modeling to be an effective way of conducting exploratory research on large datasets whose contents are largely unfamiliar to the researcher. Topic Modeling is a helpful way of generating preliminary categories to help organize the dataset, and it is useful in finding significant trends as well as outliers in the data.",
+      "Acknowledgements",
+      "This post was made possible from these slides, which were initially created by the HathiTrust, with subsequent edits made by Stephen Klein, Roxanne Shirazi, and Stephen Zweibel of the CUNY Graduate Center Library."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.8215993533058427,
+      0.00025624938994886097,
+      0.016569471728487006,
+      8.686750066253269e-05,
+      0.07370723290861282,
+      0.049948020753456134,
+      0.016626025010177722,
+      0.021206779402812202
+    ],
+    "words": [
+      [
+        "topic",
+        46
+      ],
+      [
+        "hathitrust",
+        29
+      ],
+      [
+        "model",
+        22
+      ],
+      [
+        "create",
+        20
+      ],
+      [
+        "collection",
+        18
+      ],
+      [
+        "research",
+        16
+      ]
+    ]
+  },
+  {
+    "id": "5583",
+    "title": "RStudio Cloud for Education",
+    "date": "2020-05-06",
+    "year": "2019–2020",
+    "authors": [
+      "Connor M French"
+    ],
+    "originalAuthors": [
+      "Connor M French"
+    ],
+    "aliases": [
+      "Connor M French"
+    ],
+    "account": "Connor M French",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Coding",
+      "collaboration",
+      "Featured",
+      "R",
+      "Resources",
+      "teaching"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/05/06/rstudio-cloud-for-education-2/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The R programming language is a powerful analytical tool that is commonly taught alongside applied fields like statistics, ecology, finance, and more. Efficiently integrating the language into a course can be difficult. For example, the time to set up programming exercises, troubleshoot technical issues, and follow progress can quickly eat away at time you as an instructor would probably like to spend covering course material. This is especially true in the current remote learning environment. The less setup and maintenance, the better.",
+      "Luckily RStudio, the company behind the popular interactive development environment, has a strong, free(!) solution. RStudio Cloud allows teams to manage R projects in a common space. It is a way for team members (students, teachers, etc.) to collaborate, using the same set of software managed from a central location that the administrator, i.e. the teacher, has control over. The “central location” is a…"
+    ],
+    "fullParagraphs": [
+      "The R programming language is a powerful analytical tool that is commonly taught alongside applied fields like statistics, ecology, finance, and more. Efficiently integrating the language into a course can be difficult. For example, the time to set up programming exercises, troubleshoot technical issues, and follow progress can quickly eat away at time you as an instructor would probably like to spend covering course material. This is especially true in the current remote learning environment. The less setup and maintenance, the better.",
+      "Luckily RStudio, the company behind the popular interactive development environment, has a strong, free(!) solution. RStudio Cloud allows teams to manage R projects in a common space. It is a way for team members (students, teachers, etc.) to collaborate, using the same set of software managed from a central location that the administrator, i.e. the teacher, has control over. The “central location” is a remote server hosted by RStudio that removes much of the headache from admin duties (and having to contact IT). This means that you can load all necessary files and packages into a central location and distribute RStudio sessions to each of your students without worrying about differences in operating system, versioning differences, etc. If a student has a problem, you can check on their project and even make fixes from your computer (with some restrictions)!",
+      "The structure of RStudio Cloud is as follows:",
+      "A project. This is the fundamental unit of work. You store code, packages, and files here.",
+      "The workspace. This is where you create projects. Only you can access your project, but you can adjust permissions to let them be viewed and copied by other users.",
+      "A private space. This is critical for teaching! You decide who can access this workspace. Inviting and organizing to your private space is simple.",
+      "You can find a detailed and readable guide here! If you are not quite sure this is for you, below is a typical use case, containing only the essential details.",
+      "You first set up a private space and determine who can access the space. As an administrator, you can manage membership and can view, edit, and manage all projects in the space. When you add users to the space, their default position is a contributor- they can create, manage, and edit their own projects. If you are fortunate to have a teaching assistant, you can change their permission to moderator, giving them permission to view, manage, and edit all projects in the space. Note- administrators and moderators can edit other users’ projects, but they can only do this when the user has closed the project. Otherwise, you’ll get this error:",
+      "You first create a project within this space and populate it with files, packages, and code that you want students to access. When you are ready to distribute the project, you then change the permissions to allow everyone in the space access and select the option to make this project an assignment. Assignments make it easy for students to obtain their own copy of the project (this includes files, packages, and code), which they do by clicking on the assignments link. They can then edit their own copy, interacting with the R script exactly like they would on their personal computer. All users have the ability to download files to their personal computer if they choose.",
+      "The working environment for a user looks like a typical RStudio window:",
+      "And that’s it! There is plenty more detailed discussion of RStudio Cloud’s capabilities and options here.",
+      "There are a few notable limitations to RStudio Cloud. It is in beta, so there may be some instabilities. Feedback is generally positive, and most recommendations are to save often in case the session crashes, which is rare. The initial member limit for workspaces is 10 members, but all requests for more space are honored (anecdotally, classroom sizes > 100 students are possible). Each project copy is given 1 GB of memory and 1 CPU, so large data possibilities are limited. If your course requires large computational resources and you have these available locally or through a paid cloud service, RStudio Server may be another viable option. Development is happening rapidly, so more features will likely be available soon!",
+      "Featured image: Logo for R, introduced in 2016. Credit: https://de.wikipedia.org/wiki/R_(Programmiersprache)#/media/Datei:R_logo.svg"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.04649553223398277,
+      0.0005403467790738869,
+      0.17280600523270231,
+      0.0001831753597484298,
+      0.0003249629709616331,
+      0.25180717770827554,
+      0.2935583299039988,
+      0.23428446981125658
+    ],
+    "words": [
+      [
+        "project",
+        15
+      ],
+      [
+        "space",
+        11
+      ],
+      [
+        "rstudio",
+        9
+      ],
+      [
+        "manage",
+        6
+      ],
+      [
+        "student",
+        6
+      ],
+      [
+        "user",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "5549",
+    "title": "Working with HathiTrust Data - Part 1",
+    "date": "2020-05-01",
+    "year": "2019–2020",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/05/01/working-with-hathitrust-data-part-1-2/",
+    "signals": [],
+    "paragraphs": [
+      "Working with HathiTrust Data",
+      "This post is Part 1 of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, below, I provide a brief introduction to text analysis and show how to create collections in the HathiTrust Digital Library. In Part 2, I discuss how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, I discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to supplement these slides on Working with HathiTrust Data, by providing a narrative overview. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Modules 1 and 2 in the slides.",
+      "The HathiTrust Digital Library preserves and…"
+    ],
+    "fullParagraphs": [
+      "Working with HathiTrust Data",
+      "This post is Part 1 of a three-part series providing an introduction to the HathiTrust's Digital Library and text analysis tools. In Part 1, below, I provide a brief introduction to text analysis and show how to create collections in the HathiTrust Digital Library. In Part 2, I discuss how the HathiTrust Research Center’s inPho Topic Model Explorer allows us to perform a particular kind of text analysis operation. Finally in Part 3, I discuss ways of accessing and analyzing the HathiTrust’s data at scale.",
+      "All three posts in this series are written to supplement these slides on Working with HathiTrust Data, by providing a narrative overview. I have organized these posts following the modules from the slides to allow the reader to move between the two and focus on the sections that are most interesting to them. This post is aligned with Modules 1 and 2 in the slides.",
+      "The HathiTrust Digital Library preserves and provides access to over 17 million books spanning more than four centuries. It was created in 2008 by digitizing and bringing together the physical collections of a number of distinguished academic research libraries. Today, The HathiTrust Digital Library comprises over 120 partner institutions who continue to contribute to its collection. Alongside the Digital Library, the HathiTrust Research Center provides tools that facilitate text analysis on its vast corpus.",
+      "Introduction to Text Analysis",
+      "Text analysis refers to a diverse array of computational methods to analyze collections of textual data and discern patterns of information. Text analysis can be used for a variety of purposes, such as conducting exploratory research to evaluate general trends and identify outliers. It can also be used to create tools, like spam filters that get rid of unwanted email or build Twitter bots based on certain themes and personalities.",
+      "Text analysis works by transforming a given text or a collection of texts into quantifiable units. For example, a text analysis approach to literary studies might begin by turning a lengthy novel with many chapters and an intricate plot into a unique collection of words. Once a text has been transformed into data, a variety of statistical methods are applied to count and tally the data, the results of which are then used to create and test hypotheses. Text analysis can be used for a variety of research projects, such as comparing authorial voice, determining major themes in large bodies of literature, and studying differences in the usage of language. These are just some of the possibilities, among many other research questions that emerge from the quantitative study of culture and language.",
+      "Given that the HathiTrust is a massive collection of books, it is especially suitable for text analysis projects. The HathiTrust provides both, a richly structured dataset, as well as a set of tools that facilitates text analysis projects.",
+      "Gathering Textual Data Using the HathiTrust Interface",
+      "Gathering textual data is an essential step in the text analysis process. To create a collection of texts on HathiTrust, you need to first log in to the HathiTrust Digital Library using your institutional credentials. This will allow you to store and share your collections.",
+      "Fig 1: HathiTrust Home Page and Log In Screen",
+      "The next step is to use the HathiTrust Digital Library's search interface to find the works that you would like to include in your collection.",
+      "Fig 2: HathiTrust Search Interface",
+      "Once you have found the text(s) that you would like to add to your collection, you can then select them and either create a new collection or add to an existing collection.",
+      "Fig 3: Search Results and Creating a collection",
+      "You can view and manage your collection at any time by clicking on the\"My Collections\" tab on the top of the search results page.",
+      "Fig 4: Viewing your Collection",
+      "This interface also allows you to download your collection's metadata. This metadata includes information like the title, author, publication date, HathiTrust ID, and URL to each of the books in your collection. Downloading your metadata allows you to move your collection from the HathiTrust Digital Library to the HathiTrust Research Center, where you can perform text analysis operations.",
+      "Fig 5: Downloading your Collection’s Metadata",
+      "The HathiTrust even supports bulk-adding large batches of items into a collection. It is possible to use the HathiTrust's API to add hundreds or thousands of volumes into collections. You can glean an overview of this process in Module 4 of the slides, which I will also discuss in Part 3 of this series.",
+      "Acknowledgements",
+      "This series has been made possible from these slides, which were initially created by the HathiTrust, with subsequent edits made by Stephen Klein, Roxanne Shirazi, and Stephen Zweibel of the CUNY Graduate Center Library."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.8856802622512466,
+      0.0004677923436556802,
+      0.03273471045564469,
+      0.0026451322411490973,
+      0.0002813289459187626,
+      0.038964278867889876,
+      0.025378292856325035,
+      0.013848202038170278
+    ],
+    "words": [
+      [
+        "hathitrust",
+        23
+      ],
+      [
+        "collection",
+        23
+      ],
+      [
+        "text",
+        19
+      ],
+      [
+        "analysis",
+        14
+      ],
+      [
+        "library",
+        10
+      ],
+      [
+        "data",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "16601",
+    "title": "A Time for Research Distancing",
+    "date": "2020-04-24",
+    "year": "2019–2020",
+    "authors": [
+      "Alan MacEachern",
+      "William J. Turkel"
+    ],
+    "originalAuthors": [
+      "Alan MacEachern & William J. Turkel"
+    ],
+    "aliases": [
+      "Alan MacEachern",
+      "William J. Turkel"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/04/24/a-time-for-research-distancing/",
+    "signals": [],
+    "paragraphs": [
+      "In this thought-provoking post, Alan MacEachern & William J. Turkel discuss how the COVID-19 pandemic has upended research practices and expectations in the humanities, especially in disciplines that require visits to archives. MacEachern & Turkel provide suggestions for devising an effective workflow for prioritizing digital archival research. Particularly germane is their observation that \"a reliance on such digital resources allows for both deeper and broader research, so your research topic and question may well change.\" Read more here: A Time for Research Distancing – Active History"
+    ],
+    "fullParagraphs": [
+      "In this thought-provoking post, Alan MacEachern & William J. Turkel discuss how the COVID-19 pandemic has upended research practices and expectations in the humanities, especially in disciplines that require visits to archives. MacEachern & Turkel provide suggestions for devising an effective workflow for prioritizing digital archival research. Particularly germane is their observation that \"a reliance on such digital resources allows for both deeper and broader research, so your research topic and question may well change.\" Read more here: A Time for Research Distancing – Active History"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "16480",
+    "title": "Coping in the era of coronavirus: A webinar for students",
+    "date": "2020-04-09",
+    "year": "2019–2020",
+    "authors": [
+      "American Psychological Association"
+    ],
+    "originalAuthors": [
+      "American Psychological Association"
+    ],
+    "aliases": [
+      "American Psychological Association"
+    ],
+    "account": "Di Yoong",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/04/09/coping-in-the-era-of-coronavirus-a-webinar-for-students/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "As the situation surrounding the coronavirus pandemic continues to evolve, psychology students are facing unique challenges prioritizing their own well-being.",
+      "This webinar is designed specifically to help undergraduate and graduate students navigate the shifting COVID-19 crisis. APA psychologists Lynn Bufka, PhD and Vaile Wright, PhD will help you:",
+      "Identify the things you can control.",
+      "Determine the difference between coping and problem solving.",
+      "Build resilience and manage expectations.",
+      "And more.",
+      "View the webinar here: Coping in the era of coronavirus: A webinar for students"
+    ],
+    "fullParagraphs": [
+      "As the situation surrounding the coronavirus pandemic continues to evolve, psychology students are facing unique challenges prioritizing their own well-being.",
+      "This webinar is designed specifically to help undergraduate and graduate students navigate the shifting COVID-19 crisis. APA psychologists Lynn Bufka, PhD and Vaile Wright, PhD will help you:",
+      "Identify the things you can control.",
+      "Determine the difference between coping and problem solving.",
+      "Build resilience and manage expectations.",
+      "And more.",
+      "View the webinar here: Coping in the era of coronavirus: A webinar for students"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5544",
+    "title": "Teaching with Omeka",
+    "date": "2020-04-03",
+    "year": "2019–2020",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/04/03/teaching-with-omeka-2/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Is Omeka the right tool for my class?",
+      "Although Omeka is a polyfunctional software, it’s not the best tool for all purposes.",
+      "If you are looking to create a website for your students to engage class material, write blog posts, and interact with one another, a WordPress course site on the Commons is often a better and more flexible option. Omeka, by contrast, is best suited for projects that involve a digital (or digitizable) collection with metadata that you want to curate, organize, and describe.",
+      "With a little bit of work, however, you can have both options at the same time. You might opt to have your main course site on the Commons, where you can provide a link to your Omeka site, and even style them in a similar way. This option allows each platform to do what it does best.",
+      "Project Ideas",
+      "Omeka offers some great features that integrate well within teaching environments and is especially well suited for projects that involve:"
+    ],
+    "fullParagraphs": [
+      "Is Omeka the right tool for my class?",
+      "Although Omeka is a polyfunctional software, it’s not the best tool for all purposes.",
+      "If you are looking to create a website for your students to engage class material, write blog posts, and interact with one another, a WordPress course site on the Commons is often a better and more flexible option. Omeka, by contrast, is best suited for projects that involve a digital (or digitizable) collection with metadata that you want to curate, organize, and describe.",
+      "With a little bit of work, however, you can have both options at the same time. You might opt to have your main course site on the Commons, where you can provide a link to your Omeka site, and even style them in a similar way. This option allows each platform to do what it does best.",
+      "Project Ideas",
+      "Omeka offers some great features that integrate well within teaching environments and is especially well suited for projects that involve:",
+      "Archival Preservation – Digitizing and describing objects from physical archives and creating metadata descriptions and virtual exhibits.",
+      "“Archival Recovering” and “Archival Remixing\" – Presenting visual analyses or reinterpretations of holdings, including born-digital material, from other websites or digital archives. I borrow the terms “recovery” and “remix” from Laura Helton and Elizabeth Maddock-Dillon, respectively.",
+      "Coursework Archiving – Omeka allows teachers to create a repository of final course projects, such as digital and multimodal essays, with metadata attached. These can be offered private resources or be open to the public.",
+      "Desirable Outcomes",
+      "Digital Literacy",
+      "Teaching with Omeka allows students the opportunity to engage in some best practices for working with digital tools: how to use documentation, how to make use of/participate in communities of practice, and how to Google things effectively. An Omeka-based assignment can also be an opportunity to provide students basic training on essential digital skills. Students will likely encounter questions on file formats, standards, sizing, copyright and licensing.",
+      "Archival Research Skills",
+      "In addition to learning about artistic, historical, or literary subjects and introducing students to the field of Digital Humanities, digital archives also provide basic training in archival research. Students have the opportunity to both conduct research in local (or digital) archives while thinking like archivists and curators.",
+      "Public-Facing Academic Writing",
+      "Curating a digital archive requires students to engage with forms of writing that differ from standard academic writing. Public Humanities-oriented work allows for class reflections on effective storytelling techniques, the affordances of digital writing, the intricacies of visual rhetoric.",
+      "Collaborative Work",
+      "Digital archive-based courses allow students to participate in the kind of collaborative praxis that, according to Lisa Spiro, is one of the central tenets of Digital Humanities. “Lab Culture” can be enacted by working collectively on assignments, building on (and crediting!) the work of previous cohorts, and connecting work conducted in class with the local community.",
+      "Best Practices",
+      "Plug-ins for classroom use",
+      "TeachingHistory.org recommends four essential plug-ins for classroom use: Docs Viewer (for scanned or digital files in DOC, PDF, PPT, or any image files), Simple Pages (which allows users to create a standalone page, such as an About page or course syllabus), CSV Import (for importing large quantities of items into the collection using an Excel CSV sheet), and Exhibit Builder (which offers the ability to create rich expository exhibits around selected items and collections). Extended documentation for all four plugins is available on the Omeka website. Editorial, Image Annotation, Text Annotation, Simple Vocab, and Neatline are additional plugins that can be of use in the classroom.",
+      "Get familiar with user permissions and Omeka theming – customize your website with logos, picture headers, customized menu categories, or match the stylesheet of your Omeka site to that of your course blog. Play around with the website and familiarize with the platform before your class starts – the Omeka Gym and Omeka for Millenials are two fun ways to do just that.",
+      "Consider developing metadata guidelines with the students in class and compile some sample items in a spreadsheet with them.",
+      "Hold a session on copyright and licensing. Alston Cobourn points to this useful tool to teach Copyright and licensing.",
+      "Develop a process-based grading rubric. As Allison C. Marsh suggests:",
+      "\"In assessing work, it is important to be mindful of the learning process; remember that they are professionals in training, and they should not be judged on their first attempt but rather on the progress they achieve by the time they graduate.\"",
+      "Some Examples",
+      "Fifteenth-Century Italian Art (Nicole Riesenberger)",
+      "Goin' North",
+      "Ice Age Flood Explorer (Chad Pritchard, Larry Cebula, and Paul Lindholdt)",
+      "James Monroe Papers (Alexandra deGraffenreid, Seth Mintzer, MacKenzie Murphy, Chris Wright)",
+      "Fredericksburg: City of Hospitals (Jeffrey McClurken)",
+      "The Berkeley Revolution (Scott Saul) – please note: not an Omeka site, but easily replicable with Omeka",
+      "DARC!",
+      "Don’t forget that the Graduate Center Digital Fellows have created a working group, the Digital Archive Research Collective (DARC), for students and faculty engaging with digital archival work. DARC defines 'archive' in the broadest sense, working with everything from physical collections to projects that incorporate methods such as sampling, mining, recording, exhibition, and cataloging. Sign up to the DARC group on the Academic Commons here, and if you have questions or an interest in teaching with Omeka or other digital archival tools, don’t hesitate to reach out to us!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.3826935554872955,
+      0.0026103358145583623,
+      0.00036184134906029684,
+      0.00014011440442901745,
+      0.028809752863467382,
+      0.0959436030599605,
+      0.134470915565878,
+      0.3549698814553509
+    ],
+    "words": [
+      [
+        "digital",
+        19
+      ],
+      [
+        "omeka",
+        16
+      ],
+      [
+        "student",
+        11
+      ],
+      [
+        "work",
+        11
+      ],
+      [
+        "archive",
+        8
+      ],
+      [
+        "archival",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "19858",
+    "title": "Using Audacity for Interviews",
+    "date": "2020-03-16",
+    "year": "2019–2020",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/03/16/using-audacity-for-interviews/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "I recently ran a workshop on using Audacity for interviews which builds on my previous blog post, Getting the Best Recording (within your budget) for your Interview. I began with a general overview of digital audio recording before discussing some strategies for “cleaning” interview audio. The workshop was structured to provide a general idea of the process from recording an interview to publishing and/or archiving interviews.",
+      "Elaborating on the selection of microphones and recording devices, I think it is also important to note the different microphone polar patterns that can serve different purposes as you record your interview. For example, cardioid microphones pick up sound in one-direction (where you are pointing your microphone) and omni-directional microphones pick up sound in multiple directions. Cardioid microphones (and its derivatives) can be helpful if we are recording an interview in an outdoor setting (e.g. a boom…"
+    ],
+    "fullParagraphs": [
+      "I recently ran a workshop on using Audacity for interviews which builds on my previous blog post, Getting the Best Recording (within your budget) for your Interview. I began with a general overview of digital audio recording before discussing some strategies for “cleaning” interview audio. The workshop was structured to provide a general idea of the process from recording an interview to publishing and/or archiving interviews.",
+      "Elaborating on the selection of microphones and recording devices, I think it is also important to note the different microphone polar patterns that can serve different purposes as you record your interview. For example, cardioid microphones pick up sound in one-direction (where you are pointing your microphone) and omni-directional microphones pick up sound in multiple directions. Cardioid microphones (and its derivatives) can be helpful if we are recording an interview in an outdoor setting (e.g. a boom microphone in TV/movie sets have a supercardioid polar pattern) and omni-directional microphones can be helpful if we only have one microphone and recording a focus group interview with multiple speakers. Hence, thinking about how, where and whom we are recording becomes another important factor about the types of microphones we might want to use for our projects.",
+      "This is important to editing and “cleaning” your audio recording in Audacity. Audacity is a free and open-source audio editing and recording software that is available across different operating systems (Windows, Mac, GNU/Linux) which makes it ideal in sharing projects amongst different group members. For example, GarageBand which is freely available on MacOS is not similarly available on other platforms making it potentially challenging to share in-progress projects. Regardless, digital audio editing first requires a “good enough” audio file to be recorded, as it is challenging to replace information that is lost (e.g. through clipping or distortion) post recording.",
+      "For editing, I typically employ these three strategies to enhance the listenability of my interviews. First, I record 30 seconds of white/background noise before or after my formal interview (refer to the best practices section for more information). I use this recording as the baseline of my audio’s noise floor to utilize Audacity’s Noise Reduction effect. This helps to alleviate some of the continuous hum in our interview recording that our human ears filter out but our recording devices don’t know how. Next, I either Amplify or Normalize my audio to ensure that the interview is at a decent volume and balanced between the interviewer and narrator’s audio track. This also makes it easier for folx who are listening to the interview as they would not need to adjust the volume in different moments of the track. Finally, I also like to add a fade-in and fade-out effect to these tracks as it provides us with an audio cue that the clip is beginning and ending. If you don’t have a jingle like a podcast might that signals something is starting or ending, these effects also help with creating a sense of completion for the interview recording rather than an abrupt cutting off at the end.",
+      "I hope that these tips are helpful to folx who are starting on their own interview projects and if you would like to view the slides to the workshop, you can access them here."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007283557193545556,
+      0.008475757306929248,
+      0.0006379563708385919,
+      0.6819862580502872,
+      0.0004382504729472511,
+      0.20014469259513262,
+      0.043407483839189895,
+      0.0641812456453205
+    ],
+    "words": [
+      [
+        "interview",
+        15
+      ],
+      [
+        "record",
+        12
+      ],
+      [
+        "audio",
+        10
+      ],
+      [
+        "microphone",
+        10
+      ],
+      [
+        "recording",
+        5
+      ],
+      [
+        "different",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "5527",
+    "title": "Building Websites with WordPress on the Commons",
+    "date": "2020-03-10",
+    "year": "2019–2020",
+    "authors": [
+      "Kristen Hackett"
+    ],
+    "originalAuthors": [
+      "Kristen Hackett"
+    ],
+    "aliases": [
+      "Kristen Hackett"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/03/10/building-websites-with-wordpress-on-the-commons-2/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "This slideshow was prepared for a hands-on workshop about building websites on the CUNY Academic Commons. They have been refined slightly to allow a user to walk through the workshop on their own, and they can help you understand how to set up a Commons account and create and edit a website using WordPress.",
+      "For additional support using WordPress or the Commons, visit the calendar on the GCDI website and schedule time to meet with me or another fellow during office hours."
+    ],
+    "fullParagraphs": [
+      "This slideshow was prepared for a hands-on workshop about building websites on the CUNY Academic Commons. They have been refined slightly to allow a user to walk through the workshop on their own, and they can help you understand how to set up a Commons account and create and edit a website using WordPress.",
+      "For additional support using WordPress or the Commons, visit the calendar on the GCDI website and schedule time to meet with me or another fellow during office hours."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.005059696555069257,
+      0.005062231719533818,
+      0.004431715940498051,
+      0.0017160759576374269,
+      0.003044411335430546,
+      0.1256618511989745,
+      0.4091737014891259,
+      0.4458503158037304
+    ],
+    "words": [
+      [
+        "website",
+        3
+      ],
+      [
+        "common",
+        3
+      ],
+      [
+        "workshop",
+        2
+      ],
+      [
+        "wordpress",
+        2
+      ],
+      [
+        "slideshow",
+        1
+      ],
+      [
+        "prepare",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "5513",
+    "title": "Check Out the Digital Archive Research Collective’s (DARC) Wiki!",
+    "date": "2020-02-27",
+    "year": "2019–2020",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Filipa Calado",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "digital archives",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/02/27/check-out-the-digital-archive-research-collectives-darc-wiki/",
+    "signals": [
+      "Archives, text & media",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The Digital Archive Research Collective (DARC), led by a group of Digital Fellows from the Graduate Center Digital Initiatives, recently launched the DARC Wiki, a resource guide to help scholars incorporate archival methods into their work. The resource guide, built using wiki software, offers a trove of information about tools, platforms, and methods for archival research. It also features projects created by GC students and faculty and a list of funding and institutional resources to help support archival research. At DARC, our idea is to concentrate the building’s expertise on working with text, audio, and physical artifacts into one shared and sustainable space.",
+      "The DARC Wiki is a starting place for people who want to pursue archival work. The wiki addresses archival approaches as diverse as catalogs, exhibitions, text encoding and analysis, web scraping, oral history, sound studies, and web archiving. We aim to demystify these…"
+    ],
+    "fullParagraphs": [
+      "The Digital Archive Research Collective (DARC), led by a group of Digital Fellows from the Graduate Center Digital Initiatives, recently launched the DARC Wiki, a resource guide to help scholars incorporate archival methods into their work. The resource guide, built using wiki software, offers a trove of information about tools, platforms, and methods for archival research. It also features projects created by GC students and faculty and a list of funding and institutional resources to help support archival research. At DARC, our idea is to concentrate the building’s expertise on working with text, audio, and physical artifacts into one shared and sustainable space.",
+      "The DARC Wiki is a starting place for people who want to pursue archival work. The wiki addresses archival approaches as diverse as catalogs, exhibitions, text encoding and analysis, web scraping, oral history, sound studies, and web archiving. We aim to demystify these archival methods, helping students and faculty to gain a basic grasp of what the practice of Digital Archiving entails and how to use open source tools to do their research. In what follows, I’m going to highlight some of the ways you might use the wiki.",
+      "First, our Methods and Tools section offers introductions to major tools and platforms. The landing page here directs researchers to explore different archival approaches, which lead to specific pages on each tool or platform. For example, the Exhibiting and Cataloguing page has a list of Content Management Systems, like Omeka and Drupal, which allow users to upload, manage, and display their content. The Oral History page lists resources for projects that work with sound and audio, guiding researchers through software and hardware that enables them to record and optimize audio, and explains open-source tools like Audacity. The Text Editing, Encoding, and Analysis section discusses how to choose a text editor and how to clean, transcribe, mark up, or process textual data with tools like XML in preparation for text analysis or web publication.",
+      "Additionally, the wiki highlights student projects on its Featured Projects page. Following Miriam Posner’s “How Did They Make That?” template, this page focuses on the tools and platforms used for each project, and offers instructions for those who would like to do similar work. For example, the Zine Union Catalog, developed by Jenna Freeman and Lauren Kehoe (MA in Digital Humanities), aggregates information about zines from various collections and libraries across the country. The wiki entry lays out the necessary tools for completing such a project (Collective Access for cataloguing software, and Wordpress for web publishing) and how to get started. The links throughout this page lead to further resources that, we hope, will help inspire new projects.",
+      "Going beyond the technical, this wiki also offers financial and personal resources, pointing readers to funding opportunities inside and outside the GC, and a list of people and centers who are invested in archival projects within the building. This page showcases and centralizes the expertise that already exists at the Graduate Center.",
+      "Though our team is always growing the wiki from within, we encourage users to contribute by adding their work to our master list of GC archival projects. We define “Digital Archive” broadly to include any collection of cultural materials that uses technology to collect, curate, or publish its materials, and we welcome projects that are in progress or completed. So please, add your project to our list, or your expertise to one of our other pages! See our instructions for contributing to the wiki.",
+      "We hope to see you at one of DARC’s upcoming open meetings (the next one is on March 10). Please join the DARC commons group to stay updated."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.37042070654131903,
+      0.0005750306351240741,
+      0.0005034088862666203,
+      0.055213340895967,
+      0.0003458217404462815,
+      0.014274220958116783,
+      0.12595002276588615,
+      0.4327174475768741
+    ],
+    "words": [
+      [
+        "project",
+        11
+      ],
+      [
+        "wiki",
+        10
+      ],
+      [
+        "archival",
+        9
+      ],
+      [
+        "tool",
+        9
+      ],
+      [
+        "page",
+        9
+      ],
+      [
+        "digital",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "16028",
+    "title": "What the CEO of Epic Games gets wrong about video games and politics",
+    "date": "2020-02-24",
+    "year": "2019–2020",
+    "authors": [
+      "Kyle Orland"
+    ],
+    "originalAuthors": [
+      "Kyle Orland"
+    ],
+    "aliases": [
+      "Kyle Orland"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/02/24/what-the-ceo-of-epic-games-gets-wrong-about-video-games-and-politics-ars-technica/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "The mere mention of the word \"politics\" in any industry can lead to an explosion before anyone even finishes a sentence. We’ve seen it recently in basketball, the film industry, and, unsurprisingly, video games.",
+      "Now Epic Games CEO Tim Sweeney has uttered the p-word, and much more, in a speech that has thrown him right in the middle of a potential explosion. At a wide-ranging DICE Summit keynote speech Tuesday (as reported by numerous outlets who attended), Sweeney concluded by suggesting that while individual games can and should make political statements, game companies like Epic should remain studiously neutral on any political issues. Sweeney later provided more context for those remarks in a Twitter thread and its associated responses.",
+      "Sweeney is trying to walk a thin tightrope here, allowing for wide-ranging individual expression as a platform holder while trying to maintain political silence as a corporate entity. But those dueling…"
+    ],
+    "fullParagraphs": [
+      "The mere mention of the word \"politics\" in any industry can lead to an explosion before anyone even finishes a sentence. We’ve seen it recently in basketball, the film industry, and, unsurprisingly, video games.",
+      "Now Epic Games CEO Tim Sweeney has uttered the p-word, and much more, in a speech that has thrown him right in the middle of a potential explosion. At a wide-ranging DICE Summit keynote speech Tuesday (as reported by numerous outlets who attended), Sweeney concluded by suggesting that while individual games can and should make political statements, game companies like Epic should remain studiously neutral on any political issues. Sweeney later provided more context for those remarks in a Twitter thread and its associated responses.",
+      "Sweeney is trying to walk a thin tightrope here, allowing for wide-ranging individual expression as a platform holder while trying to maintain political silence as a corporate entity. But those dueling principles can come into inherent conflict because producing and selling games, like producing and selling any other work of art, involves any number of inherently political choices and expressions.",
+      "Continue Reading What the CEO of Epic Games gets wrong about video games and politics on Ars Technica."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "16030",
+    "title": "Mike Bloomberg’s Meme Campaign Is Just the Beginning",
+    "date": "2020-02-19",
+    "year": "2019–2020",
+    "authors": [
+      "Kate Knibbs"
+    ],
+    "originalAuthors": [
+      "Kate Knibbs"
+    ],
+    "aliases": [
+      "Kate Knibbs"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "election",
+      "Mike Bloomberg",
+      "News",
+      "politics",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/02/19/mike-bloombergs-meme-campaign-is-just-the-beginning-wired/",
+    "signals": [],
+    "paragraphs": [
+      "Mike Bloomberg’s presidential campaign #spon may be cringeworthy but it’s also only the beginning.",
+      "“Hello Mr. Salad,” the Instagram message from presidential candidate Michael Bloomberg begins. “Can you post this meme to make me seem cool for the upcoming Democratic primary?” A screenshot of this message was posted on Instagram this week by KaleSalad, a meme account with 3.5 million followers—and, as of now, an official allegiance with the wealthiest Democratic contender for commander in chief. (“Yes, this is really #sponsored by @mikebloomberg,” its caption reads.) It wasn’t the only message of its kind; dozens of other high-profile meme accounts posted similar images.",
+      "The escalation will undoubtedly continue.",
+      "Startups and strategists across the country are angling to be part of this new wave of political advertising. The 2020 election will, unfortunately, most certainly feature even more social media ads from fitness bloggers,…"
+    ],
+    "fullParagraphs": [
+      "Mike Bloomberg’s presidential campaign #spon may be cringeworthy but it’s also only the beginning.",
+      "“Hello Mr. Salad,” the Instagram message from presidential candidate Michael Bloomberg begins. “Can you post this meme to make me seem cool for the upcoming Democratic primary?” A screenshot of this message was posted on Instagram this week by KaleSalad, a meme account with 3.5 million followers—and, as of now, an official allegiance with the wealthiest Democratic contender for commander in chief. (“Yes, this is really #sponsored by @mikebloomberg,” its caption reads.) It wasn’t the only message of its kind; dozens of other high-profile meme accounts posted similar images.",
+      "The escalation will undoubtedly continue.",
+      "Startups and strategists across the country are angling to be part of this new wave of political advertising. The 2020 election will, unfortunately, most certainly feature even more social media ads from fitness bloggers, Instagram-famous dogs, YouTubers, and even more of their varied, viral ilk. The 2016 presidential election was a demonstration of how candidates and their supporters could harness social media to spread information (and misinformation). This year, they’re enlisting influencers and meme-makers more directly in the effort.",
+      "Continue reading Mike Bloomberg’s Meme Campaign Is Just the Beginning on WIRED."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "15857",
+    "title": "Silicon Valley's cocaine problem shaped racist tech",
+    "date": "2020-02-13",
+    "year": "2019–2020",
+    "authors": [
+      "Kenan Malik"
+    ],
+    "originalAuthors": [
+      "Kenan Malik"
+    ],
+    "aliases": [
+      "Kenan Malik"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "drugs",
+      "Los Angeles",
+      "News",
+      "Race",
+      "Silicon Valley",
+      "technology",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/02/13/silicon-valleys-cocaine-problem-shaped-our-racist-tech-opinion-the-guardian/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "If ever there was a white paradise, it was Silicon Valley in the 1980s. We called them geniuses and wizards. Inventors and entrepreneurs. Industry titans, and even a few free-thinking hippies who believed they were gods, powerful enough to shape technology to their will.",
+      "This white cast of characters populated the world’s largest high tech hub at a rate of nearly 75%. Absorbed 80% of the area’s generated income. Owned the vast majority of its homes. Commanded double the per capita income of black people living in the area.",
+      "And they needed endless fuel to power their high tech dreams.",
+      "Cocaine was tailor-made to fit the valley’s technological and entrepreneurial ethos – endless workdays, relentless competition, the obsessive need to innovate. The drug traded hands as quickly as the latest packet-switching technology. IBM, Lockheed, Syntex, Hewlett-Packard – the “white lady” was passed around the iconic tech companies of the time by bathroom…"
+    ],
+    "fullParagraphs": [
+      "If ever there was a white paradise, it was Silicon Valley in the 1980s. We called them geniuses and wizards. Inventors and entrepreneurs. Industry titans, and even a few free-thinking hippies who believed they were gods, powerful enough to shape technology to their will.",
+      "This white cast of characters populated the world’s largest high tech hub at a rate of nearly 75%. Absorbed 80% of the area’s generated income. Owned the vast majority of its homes. Commanded double the per capita income of black people living in the area.",
+      "And they needed endless fuel to power their high tech dreams.",
+      "Cocaine was tailor-made to fit the valley’s technological and entrepreneurial ethos – endless workdays, relentless competition, the obsessive need to innovate. The drug traded hands as quickly as the latest packet-switching technology. IBM, Lockheed, Syntex, Hewlett-Packard – the “white lady” was passed around the iconic tech companies of the time by bathroom attendants, shoe shine boys, mailroom clerks and sometimes even a stranger with a pager from off the street. In broad daylight they distributed so much cocaine – DEA agents in the Valley seized 374 pounds of cocaine in 1986 and 1,000 pounds the following year – that insurance companies raised the premiums of high-tech workers in order to cover the additional health risks.",
+      "But that was only one part of the story of cocaine in Silicon Valley in the mid 1980s. In the same period, the Valley became the hub of an international cocaine trafficking network that shaped American society in profound ways. And at the heart of the almost unbelievable and largely forgotten history of that network is the deeply troubling intersection between technology, race and racism – a phenomenon I refer to in my scholarship as Black Software.",
+      "Continue reading Silicon Valley’s cocaine problem shaped our racist tech on The Guardian's website."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19857",
+    "title": "Welcome Back!",
+    "date": "2020-02-06",
+    "year": "2019–2020",
+    "authors": [
+      "Kristen Hackett"
+    ],
+    "originalAuthors": [
+      "Kristen Hackett"
+    ],
+    "aliases": [
+      "Kristen Hackett"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Events",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/02/06/welcome-back-3/",
+    "signals": [],
+    "paragraphs": [
+      "Greetings Digital GC, and welcome back!",
+      "May your winter breaks have been cheerful, restful, and productive.",
+      "As you transition back to your semesterly schedule, let us remind and update you about all the ways that GCDI is here to support you and your scholarship.",
+      "Office Hours",
+      "The GC Digital Fellows are resuming office hours this week. This semester the structure is different. Each fellow will be offering an office hour every other week. These are visible on our calendar, and as you’ll see, we are able to offer more office hours at a greater variety of times.",
+      "We are all here to help you with your project needs, but should your needs be very specific, you may wish to be more specific about which Fellow you choose to seek for counsel. From the event description, you can go to each Fellow’s Commons profile to learn more about their project history and experience using different digital tools and methods.",
+      "We also encourage you to prepare for your…"
+    ],
+    "fullParagraphs": [
+      "Greetings Digital GC, and welcome back!",
+      "May your winter breaks have been cheerful, restful, and productive.",
+      "As you transition back to your semesterly schedule, let us remind and update you about all the ways that GCDI is here to support you and your scholarship.",
+      "Office Hours",
+      "The GC Digital Fellows are resuming office hours this week. This semester the structure is different. Each fellow will be offering an office hour every other week. These are visible on our calendar, and as you’ll see, we are able to offer more office hours at a greater variety of times.",
+      "We are all here to help you with your project needs, but should your needs be very specific, you may wish to be more specific about which Fellow you choose to seek for counsel. From the event description, you can go to each Fellow’s Commons profile to learn more about their project history and experience using different digital tools and methods.",
+      "We also encourage you to prepare for your office hour so you can get the most out of this opportunity. Review the tips outlined in this post.",
+      "Special Interest Working Groups",
+      "We have several groups for people with targeted interests who seek to convene with scholars working with similar methods and tools. These interdisciplinary student groups share resources, advice and opportunities online through the CUNY Academic Commons and meet in the GC Digital Scholarship Lab (room 7414).",
+      "Python Users’ Group (PUG), R Users’ Group (RUG), and the Digital Archives Research Collective (DARC) have regular meetings this semester.",
+      "Their schedules are as follows:",
+      "PUG, Fridays, 3:30pm to 5:00pm, including: 2/7, 2/21, 3/6, 3/20, 4/3, 4/17, 5/1, 5/15",
+      "RUG, Fridays, 3:30pm to 5:00pm, including: 2/14, 2/28, 3/13, 3/27, 4/24, 5/8",
+      "DARC, Wednesdays, 2:30pm - 4:00pm, including: 2/13, 3/20, 4/22, 5/6",
+      "Workshops",
+      "Getting Started with TEI February 5 @ 6:30 pm – 8:30 pm Room 5307",
+      "Tropy: Archival Research Photo Management February 10 @ @ 6:30 pm – 8:30 pm Room 9207",
+      "Intro to Python February 18 @ 6:30 pm – 8:30 pm Room 8301",
+      "Reproducible Data Analysis in R February 19 @ 6:30 pm – 8:30 pm Room 8203",
+      "Data Visualization in R February 26 @ 6:30 pm – 8:30 pm Room 9207",
+      "Using Audacity for Oral History March 4 @ 6:30 pm – 8:30 pm Room 9207",
+      "Building Websites with WordPress on the Commons March 11 @ 6:30 pm – 8:30 pm Room C203",
+      "How to Change the Spatial Boundaries of Your Data Using QGIS March 18 @ 6:30 pm – 8:30 pm Room C202",
+      "How to Now Lie with Maps March 25 @ 6:30 pm – 8:30 pm Room C201",
+      "Working with HathiTrust Data March 30 @ 6:30 pm – 8:30 pm Room 9205",
+      "Special Events",
+      "Our annual GCDI Showcase will be hosted on Tuesday March 12th from 6:15-8:15pm. The event will be preceded by an interactive gallery where you can get a close-up look at student projects, and followed by a reception. This is a great opportunity for you to share your work and/or learn more about how the GC community is using digital methods and tools to extend their scholarship in new and exciting directions. Be on the lookout for a call to participate and an invitation to attend which will out soon!",
+      "GCDI Resources",
+      "The GCDI website is a great resource for you. Here you can learn more about the GCDI, the students, faculty and staff, and centers that fall under its umbrella and about the different ways you can be a part of the GCDI community. You can also view our Calendar to stay up-to-date with monthly happenings, learn more about our projects, including Manifold, our latest digital publishing platform, and the CUNY Academic Commons, an academic social network for community- and web-building, access a digital resource guide created by past and present GC Digital Fellows, peruse DH and digital scholarship news from around the GC and beyond, and more.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive semester,",
+      "your Digital Fellows,",
+      "Filipa, Javier, Kristen, Olivia, Rafa, Stefano, Natalie, Di, Connor, and Param"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19856",
+    "title": "Build Your Academic Website Using R",
+    "date": "2020-01-08",
+    "year": "2019–2020",
+    "authors": [
+      "Natalie O'Shea"
+    ],
+    "originalAuthors": [
+      "Natalie O'Shea"
+    ],
+    "aliases": [
+      "Natalie O'Shea"
+    ],
+    "account": "Natalie O'Shea",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/01/08/build-your-academic-website-using-r/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "It’s a new year and a great time to revamp your academic website! You do have one, don’t you? While there are many options for creating a personal website, including our very own CUNY Commons, you might be interested in learning how to create something more personalized that can travel with you to other institutions. If you’re an #rstats geek like myself, you can even use this as an opportunity to highlight your R skills by building your website using tools developed in R. In this tutorial, I’m going to help guide you through the process of setting up a basic personal website using the Academic website builder for Hugo. In a later tutorial, we’ll cover how to add additional content such as blog posts and publications.",
+      "This process ended up being a bit more complicated than I originally anticipated and you may need to do things slightly differently depending on your computing environment. If you’re having difficulties, I’d highly…"
+    ],
+    "fullParagraphs": [
+      "It’s a new year and a great time to revamp your academic website! You do have one, don’t you? While there are many options for creating a personal website, including our very own CUNY Commons, you might be interested in learning how to create something more personalized that can travel with you to other institutions. If you’re an #rstats geek like myself, you can even use this as an opportunity to highlight your R skills by building your website using tools developed in R. In this tutorial, I’m going to help guide you through the process of setting up a basic personal website using the Academic website builder for Hugo. In a later tutorial, we’ll cover how to add additional content such as blog posts and publications.",
+      "This process ended up being a bit more complicated than I originally anticipated and you may need to do things slightly differently depending on your computing environment. If you’re having difficulties, I’d highly recommend joining our newly-formed R Users’ Group which will meet on alternating Friday afternoons in the upcoming Spring semester. Here you will find a community of R enthusiasts of all different backgrounds and levels of proficiency. Although the online, #rstats community is extremely welcoming and inclusive, it often helps to have a group of people to work through roadblocks with IRL.",
+      "A few additional things to note, this tutorial assumes you have git installed on your computer with an associated GitHub account, basic familiarity with navigating your computer with the terminal, and R and RStudio installed. If you need additional training on these topics, consider applying to participate in the GC Digital Research Institute or one of the many training workshops and other events offered by the GC Digital Fellows.",
+      "Install",
+      "To get started, first fork the academic kickstart repository on GitHub.",
+      "Next, open a terminal and navigate to where you would like to save your project (I'm using my desktop). Run the following command replacing <USERNAME> with your GitHub username:",
+      "git clone https://github.com/<USERNAME>/academic-kickstart.git My_Website",
+      "Now navigate into this newly formed folder and initialize the theme using the following commands:",
+      "cd My_Website",
+      "git submodule update --init --recursive",
+      "Open the RStudio application. In the console panel (left) install the blogdown and hugo dependencies by running the following commands:",
+      "install.packages(\"blogdown\")",
+      "blogdown::install_hugo(force = TRUE)",
+      "Now open My_Website.Rproj in RStudio (File --> Open Project) saved on your desktop (or wherever you decided to save it). To avoid a known bug, open up the My_Website folder on your desktop and move \"config/_default/config.toml\" to \"config.toml\" in the root of the folder. Replace the config file in the root when prompted.",
+      "Now you have a pre-made template for your academic website! To view it, run the following command in the RStudio console:",
+      "blogdown:::serve_site()",
+      "In the viewer panel (bottom right) of RStudio, you should see a rendered version of the website template. To view this in your browser, click on the 3rd button in the upper left of the viewer.",
+      "These two views are particularly helpful because they display the mobile and desktop views of the site.",
+      "Personalize",
+      "Now let’s modify the files in this project to personalize your website. You can navigate and open the project files within RStudio by clicking the “Files” tab in the viewer panel (see above). Here you’ll see the entire project directory. Click on the “config.toml” file so we can modify and personalize its contents.",
+      "In the scripting pane (upper left), you should see the config file which controls many aspects of your site. Within that config file, go ahead and change the title of your site to your name",
+      "# Title of your site",
+      "title = \"Natalie O'Shea\"",
+      "To render these changes, simply save your config file. In the lower right side pane, switch from the viewer to the files tab to view this change (you may need to save more than once for changes to show up).",
+      "Now click on the “Files” tab again and navigate to the \"params.toml” file in the \"config/_default\" folder.",
+      "Let's go through this file section-by-section together. If I don't specifically mention a section or parameter, just leave the default options untouched. Below, I’m going to describe my changes by commenting out my narration using the hash symbol (#). As you go through the file, you’ll notice each section has additional details in the comments. Use these comments to make your own design choices.",
+      "############################",
+      "## Theme",
+      "############################",
+      "# here you specify your theme and font",
+      "# you can view themes and fonts here: https://sourcethemes.com/academic/themes/",
+      "# the template includes only a theme parameter",
+      "# you can add a font parameter to mix and match your options",
+      "# I'm going to use the rose theme with a minimal font for my website",
+      "# identify the following parameters and modify them in your own file",
+      "theme = \"rose\"",
+      "font = \"minimal\"",
+      "############################",
+      "## Contact details",
+      "############################",
+      "# supply your relevant contact information",
+      "# if you don't want to display something, simply clear that field to \"\"",
+      "# I don't want my phone number listed so I simply clear that field in the example below",
+      "email = \"youremail@gmail.com\"",
+      "phone = \"\"",
+      "# assuming you are a student at the Graduate Center, you'll likely want to use the GC address for your academic website",
+      "address = {street = \"365 Fifth Ave.\", city = \"New York\", region = \"NY\", postcode = \"10016\", country = \"United States\", country_code = \"US\"}",
+      "# you don't *have* to provide geographic coordinates, but it's fun to have a map on your site so let's input the GC's latitude and longitude information",
+      "# if you're not at the GC you can get your coordinates by right-clicking on Google Maps and choosing \"What's here?\". The coords will show up at the bottom.",
+      "coordinates = {latitude = \"40.7485\", longitude = \"-73.9841\"}",
+      "# I cleared the following fields",
+      "directions = \"\"",
+      "office_hours = []",
+      "appointment_url = \"\"",
+      "contact_links = []",
+      "Now that we’ve altered some core parameters of the site, let’s choose our layout. Return to the “Files” tab in the viewer panel and navigate to content/home folder where you will see a range of markdown (.md) files. The academic kickstarter template has already deactivated many non-relevant sections, but you can add or remove sections as you see fit. Simply open the markdown file of the section you're interested in and change the active parameter to \"false\". For example, let's deactivate the demo section on our homepage which explains the Academic Kickstart template-- we definitely don't want that on our final site!",
+      "Open the \"demo.md\" file and set the active parameter (line 8) to false.",
+      "I want a simple homepage for now (we’ll focus on adding additional content in a later tutorial) so I'm going to set the active parameter to false on some more sections: \"accomplishments.md\", “featured.md”, “posts.md”, “projects.md”, “publications.md”, \"skills.md\", \"tags.md\", and \"talks.md\". You can view your simplified website by returning to the “Viewer” tab in the viewer panel. Sometimes the changes don’t fully render there, so you may need to open a browser tab by clicking on the 3rd button in the upper left of the viewer (as demonstrated at the beginning of the tutorial).",
+      "Our simple website should now contain only three major sections: biography, experience, and contact. We’ve already altered the contact information and we’ll edit the biography in the next step. To edit the experience, simply open the “experience.md” file and alter the experience blocks to match your background. As mentioned in the comments on the file, you can add/remove as many experience blocks as you’d like. A typical experience block will look something like this:",
+      "[]",
+      "title = \"Adjunct Lecturer\"",
+      "company = \"Lehman College\"",
+      "company_url = \"https://www.lehman.cuny.edu/\"",
+      "location = \"Bronx, NY\"",
+      "date_start = \"2016-01-01\"",
+      "date_end = \"\"",
+      "description = \"\"\"",
+      "Description:",
+      "* Taught Human Evolutionary Biology (ANT 120) and Intro to Human Evolution",
+      "(ANT 171) to undergraduate and postgraduate students",
+      "* Developed rapport with students, designed curriculum and materials, graded",
+      "labs and exams, and met with students one-on-one to explain difficult concepts",
+      "\"\"\"",
+      "By now, you've probably noticed that the default user is still not showing your information. In order to display your correct information, we need to change the information located in the \"_index.md\" file located in the “content/authors/admin” folder. Return to the “Files” tab in the viewer panel and navigate to this file, open it in the scripting panel, and edit to match your details. You can change your profile picture by replacing the “avatar.jpg” file also located in the content/authors/admin folder with a headshot.",
+      "One final step before we’re ready to deploy our site. Currently, our navigation bar has links to sections that don’t exist. Let’s fix this by navigating to the “menu.toml” file in the “config/_default/” folder and making some changes. Since I know that I want to add additional sections with content in the future, I’m going to replace everything below line 5 with the following script which has sections to be included in the future commented out for now.",
+      "[]",
+      "name = \"About\"",
+      "url = \"#about\"",
+      "weight = 10",
+      "[]",
+      "name = \"Experience\"",
+      "url = \"#experience\"",
+      "weight = 20",
+      "#[]",
+      "# name = \"Posts\"",
+      "# url = \"#posts\"",
+      "# weight = 30",
+      "#[]",
+      "# name = \"Projects\"",
+      "# url = \"#projects\"",
+      "# weight = 40",
+      "#[]",
+      "# name = \"Publications\"",
+      "# url = \"#featured\"",
+      "# weight = 50",
+      "[]",
+      "name = \"Contact\"",
+      "url = \"#contact\"",
+      "weight = 60",
+      "# Link to a PDF of your resume/CV from the menu.",
+      "# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.",
+      "# []",
+      "# name = \"CV\"",
+      "# url = \"files/cv.pdf\"",
+      "# weight = 70",
+      "Deploy",
+      "Now we’re finally ready to deploy our site! There are many options for website hosting, but I’m going to demonstrate how to deploy your site on the free GitHub webpage that comes with your account. First, you need to create a new repository for your GitHub site by pressing the plus sign in the upper right on your homepage and selecting “New repository”.",
+      "Name your repository <USERNAME>.github.io, where <USERNAME> is your Github username, and initialize with a README file.",
+      "In RStudio, navigate to your config.toml file in the root of the website directory and set the baseurl parameter to your GitHub website address.",
+      "Now, close out of RStudio and open the folder containing your website. Delete the “public” folder that is in the root of the website directory (you will regenerate this folder in the next step). Using the command line, navigate to the root of your website folder (in my case: Desktop/My_Website). Run the following commands, replacing <USERNAME> with your GitHub username:",
+      "git submodule add -f -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public",
+      "git add .",
+      "git commit -m \"Initial commit\"",
+      "git push -u origin master",
+      "Now you need to regenerate the HTML for your site. Open your project in RStudio again and run the following command in the console:",
+      "blogdown:::serve_site()",
+      "Return to the command line and run the following commands:",
+      "cd public",
+      "git add .",
+      "git commit -m \"Build website\"",
+      "git push origin master",
+      "CELEBRATE!",
+      "That’s it! You should be able to navigate to your GitHub page (<USERNAME>.github.io) and view your new, simple academic website. In my next tutorial, I will cover how to add additional content to your site."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00020346477633661935,
+      0.0012856266530063866,
+      0.06077356799947352,
+      6.90082907338639e-05,
+      0.03150216241550717,
+      0.025612358802528903,
+      0.7868807077808062,
+      0.09367310328160733
+    ],
+    "words": [
+      [
+        "file",
+        30
+      ],
+      [
+        "website",
+        25
+      ],
+      [
+        "site",
+        15
+      ],
+      [
+        "open",
+        13
+      ],
+      [
+        "section",
+        13
+      ],
+      [
+        "folder",
+        12
+      ]
+    ]
+  },
+  {
+    "id": "19855",
+    "title": "A Digital Scholarship Smorgasbord: Assignments, Blueprints, Reviews, Teaching Fails, and Tool Tips at JITP",
+    "date": "2019-12-06",
+    "year": "2019–2020",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/12/06/a-digital-scholarship-smorgasbord-assignments-blueprints-reviews-teaching-fails-and-tool-tips-at-jitp/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "It is common to feel behind the curve when getting started with a digital research project, or when trying to incorporate a more thoughtful approach to digital pedagogy in the classroom. So many tools, so many platforms, so much history and theory, such contentious politics behind our decisions. Where do we begin? How do we keep up? It’s all rather overwhelming!",
+      "In this blog post, I want to explore a rich and growing resource that has helped me get started and think differently about digital scholarship: The Journal of Interactive Technology and Pedagogy (JITP). JITP is an open-access peer-reviewed academic journal that promotes “open scholarly discourse around critical and creative uses of digital technology in teaching, learning, and research.” Regularly publishing a variety of short and long-form articles, it provides a rich and growing collection of reviews, arguments, and advice on digital humanities / computational social science."
+    ],
+    "fullParagraphs": [
+      "It is common to feel behind the curve when getting started with a digital research project, or when trying to incorporate a more thoughtful approach to digital pedagogy in the classroom. So many tools, so many platforms, so much history and theory, such contentious politics behind our decisions. Where do we begin? How do we keep up? It’s all rather overwhelming!",
+      "In this blog post, I want to explore a rich and growing resource that has helped me get started and think differently about digital scholarship: The Journal of Interactive Technology and Pedagogy (JITP). JITP is an open-access peer-reviewed academic journal that promotes “open scholarly discourse around critical and creative uses of digital technology in teaching, learning, and research.” Regularly publishing a variety of short and long-form articles, it provides a rich and growing collection of reviews, arguments, and advice on digital humanities / computational social science.",
+      "I have found JITP’s short-form articles to be particularly helpful in my research and teaching as these contain very helpful practical suggestions that can be readily applied. These short-form articles can be:",
+      "Assignments – This section publishes syllabi, lesson plans, and assignments that make significant use of digital pedagogy. Emphasizing both the benefits as well as the challenges of the approaches suggested, the articles in the Assignment section provide a balanced perspective on becoming a more digitally sophisticated teacher. Some especially interesting posts include Chen Gao’s “A Learning Success Story with WeChat,” which discusses how the author used China’s most popular social networking app, WeChat, to create a vibrant transnational learning community for an Advanced Chinese language course; as well as Ben Spanbock’s “Finding Voice in the University Bridge Program: Online Audio Publication and the Personal Narrative,” which explores the use of digital voice recording apps to strengthen writing and speaking skills.",
+      "Blueprints – Featuring “short recipes” for digital teaching and research, the Blueprints section publishes articles that provide a series of replicable steps that help use and understand specific tools or platforms. I particularly value these articles because of their explicitly practical tone that helps get the job done. Fred Cheyunski’s “Developing a Small-Scale Graph Database: A Ten Step Learning Guide for Beginners” is an excellent example of a Blueprint article. It provides a series of clearly written steps to help non-programmers use graph data base (GDB) applications for network analysis.",
+      "Reviews – As its name suggests, this section reviews new and important texts in the fields of digital humanities and computational social science. I have found the Reviews section to be essential in helping me keep abreast of the latest developments and current trends of the field. Among my favorite reviews is the one of the 2016 NYCDH Week workshops. Written by students and faculty from the Pratt Institute School of Information, these workshop reviews provide an insightful look at the incredible range of digital scholarship work being done, while also emphasizing its collaborative and experimental nature.",
+      "Teaching Fails – Among the more idiosyncratic genres of academic prose, the Teaching Fails section presents narratives of failure that provide opportunities to reflect on what went wrong. I have found this section to be particularly helpful in teaching me how to learn from technical difficulties or from experiments that don’t quite work out. As a sample article, I would highly recommend Lisa Beckelhimer’s “Process over Product: Allowing Student Researchers to Think for Themselves,” in which she discusses better ways of getting students to think critically when using search engines.",
+      "Tool Tips – This section reviews the pedagogical affordances and limitations of a single digital tool or a range of related tools. I have found this section to open a variety of possibilities for aligning my learning goals with some of the better practices in digital pedagogy, allowing me to imagine new classroom activities as well as rethink major assignments. I would recommend checking out Vander Tavares’s “Maximizing ESL Classroom Instruction Time: Using a Mobile App to Facilitate Speaking Practice,” to get a sense of what the Tool Tips are like. I really like this article because it displays a very well thought-out use of one of the most common apps found in all smartphones. By using the voice recorder app, Tavares’s ESL students can complete and submit assignments, as well as practice their speaking skills in their own time.",
+      "If you are looking to get started with a project or looking to change your own teaching style, these JITP provides a wealth of resources to begin. Alternatively, if you are well along your way with your project, you might even consider submitting short form piece of your own! Do you have any other similar resources to suggest? Please mention them in the comments below!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.12353736108064355,
+      0.0004724918468631378,
+      0.0004136416042392393,
+      0.032810098857640996,
+      0.00279568798599281,
+      0.3156243241076603,
+      0.0005179187871724361,
+      0.5238284757297875
+    ],
+    "words": [
+      [
+        "digital",
+        12
+      ],
+      [
+        "article",
+        9
+      ],
+      [
+        "section",
+        9
+      ],
+      [
+        "review",
+        8
+      ],
+      [
+        "provide",
+        7
+      ],
+      [
+        "tool",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "5401",
+    "title": "Interactively Explore Geographic Data in R Using Leaflet",
+    "date": "2019-11-21",
+    "year": "2019–2020",
+    "authors": [
+      "Connor M French"
+    ],
+    "originalAuthors": [
+      "Connor M French"
+    ],
+    "aliases": [
+      "Connor M French"
+    ],
+    "account": "Connor M French",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/21/interactively-explore-geographic-data-in-r-using-leaflet/",
+    "signals": [],
+    "paragraphs": [
+      "Note: An interactive version of this tutorial is available at https://connor-french.com/post/leaflet-tutorial/",
+      "Why leaflet?",
+      "Making a data visualization interactive opens up a host of opportunities for new insights. This is especially true for geographic data. While a static map is preferable for publication in a journal or a book, an interactive map is suitable for exploring data or packing more information in an accessible format. Patterns may emerge when viewing data at different scales or when toggling through features.",
+      "There are a number of tools for building interactive maps. Leaflet is one of the most popular open-source JavaScript libraries for creating interactive maps. The leaflet R package is a high-level interface that makes it easy to create beautiful interactive maps in a few lines of code. Using R rather than point-and-click software like ArcMap and others makes your life easier through reproducible code that can be shared…"
+    ],
+    "fullParagraphs": [
+      "Note: An interactive version of this tutorial is available at https://connor-french.com/post/leaflet-tutorial/",
+      "Why leaflet?",
+      "Making a data visualization interactive opens up a host of opportunities for new insights. This is especially true for geographic data. While a static map is preferable for publication in a journal or a book, an interactive map is suitable for exploring data or packing more information in an accessible format. Patterns may emerge when viewing data at different scales or when toggling through features.",
+      "There are a number of tools for building interactive maps. Leaflet is one of the most popular open-source JavaScript libraries for creating interactive maps. The leaflet R package is a high-level interface that makes it easy to create beautiful interactive maps in a few lines of code. Using R rather than point-and-click software like ArcMap and others makes your life easier through reproducible code that can be shared for others to recreate your map or that you can return to when you inevitably need to fix something. I use leaflet regularly for data exploration and for sharing preliminary results with collaborators. You can also include leaflet maps in RMarkdown documents, Shiny apps, and even post them to your website!",
+      "Goal of the tutorial",
+      "The goal of this tutorial is to provide you with a basic understanding of leaflet functionality and the tools and resources to make your own interactive maps. You will:",
+      "Read in geographic data for plotting",
+      "Plot locations of interest using markers",
+      "Color locations according to a factor",
+      "Include pop-up text that provides metadata about the locations of interest",
+      "Installation",
+      "You will need to install four packages for this tutorial. The dplyr package for data manipulation, the sf package for handling spatial data, the rgbif package for acquiring the data, and finally the leaflet package for mapping. All packages are available on CRAN. packages <- c(\"dplyr\", \"sf\", \"rgbif\", \"leaflet\") install.packages(packages, dependencies = TRUE) Now that the packages are installed, you need to load them into your environment. library(dplyr) library(sf) library(rgbif) library(leaflet)",
+      "Read in and pre-process data",
+      "The data you’re going to work with are some locations where rain frogs, genus Breviceps (aka the cute grumpy frog), have been found. Using the rgbif package, you’re querying the large Global Biodiversity Information Repository to obtain the species occurrences. After obtaining the data, some filtering is necessary. First, you’re filtering out observations that do not have latitude or longitude coordinates (hasCoordinate = TRUE) and selecting only the relevant columns for your visualization (select()). Then, you’re converting the data frame that rgbif returns into a simple features (sf) data frame that contains information about which columns to use as coordinates (coords = …) and what the data’s coordinate reference system is (crs = …).",
+      "If the %>% bit is confusing, don’t worry- I’ll explain in the next section.",
+      "frog_gbif <- occ_search( genusKey = 3240854, hasCoordinate = TRUE, return = \"data\", limit = 100 ) %>% select( genus, species, family, eventDate, decimalLongitude, decimalLatitude ) %>% st_as_sf( coords = c(\"decimalLongitude\", \"decimalLatitude\"), crs = \"+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs\" ) ## Registered S3 method overwritten by 'crul': ## method from ## as.character.form_file httr",
+      "Plot a basic map",
+      "Plotting a basic map only takes three lines of code! The necessary steps to make a leaflet map are:",
+      "Initialize a map widget using the leaflet() function.",
+      "Add layers using the suite of commands the begin with add*(), e.g. addTiles(), which added the OpenStreetMap tiles and addMarkers(), which added our locality data",
+      "Print the result. In this case I’m printing the map to the console without assigning it to a variable first.",
+      "The %>% (pipe) operator is used to make code easier to read and help the mapmaking process flow organically. It pipes the output of one function into the input of the next. Intuitively, you can think of the following code as “I initialize the map widget and then add the basemap tiles and then add the locality markers.” leaflet() %>% addTiles() %>% # Add default OpenStreetMap map tiles addMarkers(data = frog_gbif)",
+      "This is nice and all, but there’s more you can do to make the visualization informative and appealing.",
+      "Customization",
+      "Now you’re going to add some pizazz to the map. You’re going to color the labels according to the species and add some popup text with information about the family the individual belongs to, its species name, and the date it was collected. In addition, you’re going to use addCircleMarkers instead of addMarkers to use circles instead of flags. Finally, you’re adding a legend so the colors make sense.",
+      "Detailed explanations of what each function is doing are provided as code comments. # First, a color palette needs to be set. We're using the viridis palette, but feel free to explore the options available! I set the domain to NULL because I think it's more flexible to have a general color palette that can be attributed to factors later. pal <- colorFactor(palette = \"viridis\", domain = NULL)",
+      "# This is the text that will go into the popup labels! The popup argument accepts html input, so I'm using \"<br>\" to indicate line breaks. I'd recommend printing this to your console so you can see what the popup argument will be parsing. popup_label <- paste( \"Family:\", frog_gbif$family, \"<br>\", \"Species:\", frog_gbif$species, \"<br>\", \"Date Collected:\", frog_gbif$eventDate )",
+      "leaflet() %>% addTiles() %>% # You're adding circle markers here. In addition, we're specifying the color and popup labels for the markers. The tilde (~) is telling the color argument to accept the output of the pal object, which is now returning colors mapped to each species. Other plotting software like ggplot don't require a tilde to map to factors or numbers, so this may look foreign, but leaflet does and it just takes a little getting used to. addCircleMarkers(data = frog_gbif, color = ~pal(species), popup = popup_label) %>% # We're specifying the legend to be in the bottom left of the map. Colors are specified a little differently here. The \"pal\" argument specifies the palette being used and the \"values\" argument specifies the values to map to. We're using the tilde here so it knows that you're mapping to a factor. addLegend( data = frog_gbif, \"bottomleft\", pal = pal, values = ~species, opacity = .9, title = \"Species\" )",
+      "And there you have it! This is just the tip of the iceberg with what leaflet can do. You can plot polygons, lines, rasters, icons, and more with only a little more code.",
+      "Go further",
+      "Here are some more resources to learn more about leaflet and general GIS in R.",
+      "leaflet documentation",
+      "A more involved tutorial that shows off some more leaflet features.",
+      "Geocomputation in R free, online book. It’s a wonderful resource for GIS in R.",
+      "Making static maps in R with sf and ggplot2."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.012446686110958751,
+      0.000378404653655853,
+      0.35635116663318517,
+      0.0001282776380802907,
+      0.48698923359554963,
+      0.06370141302262047,
+      0.0748370233383851,
+      0.005167795007564715
+    ],
+    "words": [
+      [
+        "map",
+        22
+      ],
+      [
+        "data",
+        20
+      ],
+      [
+        "leaflet",
+        18
+      ],
+      [
+        "package",
+        12
+      ],
+      [
+        "add",
+        11
+      ],
+      [
+        "color",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "13188",
+    "title": "A judge said police can search the DNA of 1 million Americans without their consent. What’s next?",
+    "date": "2019-11-19",
+    "year": "2019–2020",
+    "authors": [
+      "Jocelyn Kaiser"
+    ],
+    "originalAuthors": [
+      "Jocelyn Kaiser"
+    ],
+    "aliases": [
+      "Jocelyn Kaiser"
+    ],
+    "account": "Connor M French",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/19/a-judge-said-police-can-search-the-dna-of-1-million-americans-without-their-consent-whats-next/",
+    "signals": [],
+    "paragraphs": [
+      "For the first time, a state judge has forced a public genealogy site, GEDmatch, to allow police to search its entire database of DNA profiles. A detective wanted to find distant relatives of a serial rapist in hopes that their family trees could help him home in on a suspect—even though most of the 1.3 million people who have shared their DNA data with the site haven’t agreed to such a search.",
+      "The search warrant, reported this week by The New York Times, raises the alarming possibility of similar police searches of giant direct-to-consumer DNA sites such as Ancestry.com and 23andMe that are now closed to everyone except company customers who willingly submit a saliva sample.",
+      "Since police tracked down the suspected Golden State Killer in April 2018 by uploading crime-scene DNA to GEDmatch, forensic genealogy has led to arrests in scores of cold criminal cases. But privacy concerns have arisen because users didn’t know their DNA data were…"
+    ],
+    "fullParagraphs": [
+      "For the first time, a state judge has forced a public genealogy site, GEDmatch, to allow police to search its entire database of DNA profiles. A detective wanted to find distant relatives of a serial rapist in hopes that their family trees could help him home in on a suspect—even though most of the 1.3 million people who have shared their DNA data with the site haven’t agreed to such a search.",
+      "The search warrant, reported this week by The New York Times, raises the alarming possibility of similar police searches of giant direct-to-consumer DNA sites such as Ancestry.com and 23andMe that are now closed to everyone except company customers who willingly submit a saliva sample.",
+      "Since police tracked down the suspected Golden State Killer in April 2018 by uploading crime-scene DNA to GEDmatch, forensic genealogy has led to arrests in scores of cold criminal cases. But privacy concerns have arisen because users didn’t know their DNA data were being searched, and because relatives who never took a DNA test could come under suspicion. In May, GEDmatch restricted police searches to participants who had given consent, cutting the number of available DNA profiles to 185,000. Then in September, the U.S. Department of Justice (DOJ) eased some concerns by issuing a policy that limits searches by federal law enforcement agencies to violent crimes and DNA profiles with user consent.",
+      "Read more at sciencemag.org."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "13139",
+    "title": "Data Voids | Data & Society",
+    "date": "2019-11-12",
+    "year": "2019–2020",
+    "authors": [
+      "Michael Golebiewski",
+      "danah boyd"
+    ],
+    "originalAuthors": [
+      "Michael Golebiewski, danah boyd"
+    ],
+    "aliases": [
+      "Michael Golebiewski",
+      "danah boyd"
+    ],
+    "account": "Di Yoong",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/12/data-voids-data-society/",
+    "signals": [],
+    "paragraphs": [
+      "In Data Voids: Where Missing Data Can Easily Be Exploited, Golebiewski teams up with danah boyd (Microsoft Research; Data & Society) to demonstrate how data voids are exploited by manipulators eager to expose people to problematic content including falsehoods, misinformation, and disinformation.",
+      "Data voids are often difficult to detect. Most can be harmless until something happens that causes lots of people to search for the same term, such as a breaking news event, or a reporter using an unfamiliar phrase. In some cases, manipulators work quickly to produce conspiratorial content to fill a void, whereas other data voids, such as those from outdated terms, are filled slowly over time. Data voids are compounded by the fraught pathways of search-adjacent recommendation systems such as auto-play, auto-fill, and trending topics; each of which are vulnerable to manipulation.",
+      "In this Data & Society report, Michael Golebiewski and danah boyd…"
+    ],
+    "fullParagraphs": [
+      "In Data Voids: Where Missing Data Can Easily Be Exploited, Golebiewski teams up with danah boyd (Microsoft Research; Data & Society) to demonstrate how data voids are exploited by manipulators eager to expose people to problematic content including falsehoods, misinformation, and disinformation.",
+      "Data voids are often difficult to detect. Most can be harmless until something happens that causes lots of people to search for the same term, such as a breaking news event, or a reporter using an unfamiliar phrase. In some cases, manipulators work quickly to produce conspiratorial content to fill a void, whereas other data voids, such as those from outdated terms, are filled slowly over time. Data voids are compounded by the fraught pathways of search-adjacent recommendation systems such as auto-play, auto-fill, and trending topics; each of which are vulnerable to manipulation.",
+      "In this Data & Society report, Michael Golebiewski and danah boyd identify the types of data voids in play.",
+      "Continue reading here: Data Voids | Data & Society"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "12199",
+    "title": "Why I Quit GitHub",
+    "date": "2019-11-08",
+    "year": "2019–2020",
+    "authors": [
+      "Lauren Kaori Gurley"
+    ],
+    "originalAuthors": [
+      "Lauren Kaori Gurley"
+    ],
+    "aliases": [
+      "Lauren Kaori Gurley"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "crime",
+      "culture",
+      "documentary",
+      "drugs",
+      "entertainment",
+      "film",
+      "ICE contracts",
+      "immigration",
+      "Journalism",
+      "lgbtq",
+      "News",
+      "News",
+      "politics",
+      "sex",
+      "travel",
+      "tv",
+      "via bookmarklet",
+      "video"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/08/why-i-quit-github/",
+    "signals": [
+      "Code & computational methods",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "Among the bigger scandals this past week was the escalating turmoil at GitHub over its ICE contract renewal. With employees resigning and protesting en masse, GitHub is under intense pressure to put progressive politics over its profits. In this fascinating interview published in Motherboard: Tech by Vice, Sophie Haskins, a former GitHub software engineer, discusses her reasons for leaving the company. \"I wanted to quit because it’s unethical to participate in crimes against humanity,\" says Haskins.",
+      "Continue reading ... Why I Quit GitHub"
+    ],
+    "fullParagraphs": [
+      "Among the bigger scandals this past week was the escalating turmoil at GitHub over its ICE contract renewal. With employees resigning and protesting en masse, GitHub is under intense pressure to put progressive politics over its profits. In this fascinating interview published in Motherboard: Tech by Vice, Sophie Haskins, a former GitHub software engineer, discusses her reasons for leaving the company. \"I wanted to quit because it’s unethical to participate in crimes against humanity,\" says Haskins.",
+      "Continue reading ... Why I Quit GitHub"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "12195",
+    "title": "A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site",
+    "date": "2019-11-08",
+    "year": "2019–2020",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "Guides, Tutorials, Reviews",
+      "News",
+      "Reflections",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/08/a-legible-digital-archive-displaying-and-sorting-content-on-your-omeka-site/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "GC Digital Fellow Stefano Morello provides a helpful and succinct overview of Omeka, a widely used content management platform. Reflecting on his recent \"Introduction to Omeka\" workshop held at the GC, Stefano asks and answers questions relating to designing exhibits, organizing content, and using Omeka plugins. A very helpful primer for all looking to get started with Omeka!",
+      "Continue reading ... A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site"
+    ],
+    "fullParagraphs": [
+      "GC Digital Fellow Stefano Morello provides a helpful and succinct overview of Omeka, a widely used content management platform. Reflecting on his recent \"Introduction to Omeka\" workshop held at the GC, Stefano asks and answers questions relating to designing exhibits, organizing content, and using Omeka plugins. A very helpful primer for all looking to get started with Omeka!",
+      "Continue reading ... A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5386",
+    "title": "A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site",
+    "date": "2019-11-07",
+    "year": "2019–2020",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/07/a-legible-digital-archive-displaying-and-sorting-content-on-an-omeka-site/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "How do you organize content on public facing Omeka websites? This is among the most recurring questions raised by attendees of the Introduction to Omeka workshop offered by GCDI over the past two years. For example, one student working on a digital archive of European sculptures wanted to provide an artist directory for users to browse. Another student, working on a digital catalogue of historical architectural photos from the city of Providence, wanted to facilitate browsing by neighborhood. The goal of this post is to suggest some possibilities offered by Omeka and Omeka S to display and sort content. Included throughout are links to examples from various Omeka projects.",
+      "Collections",
+      "One way to organize your collection’s content is by adding them to the same Collection (Omeka Classic) or Item Sets (Omeka S).",
+      "Collections are ways of organizing items, rather like file folders on your computer, or like collections in archives such as…"
+    ],
+    "fullParagraphs": [
+      "How do you organize content on public facing Omeka websites? This is among the most recurring questions raised by attendees of the Introduction to Omeka workshop offered by GCDI over the past two years. For example, one student working on a digital archive of European sculptures wanted to provide an artist directory for users to browse. Another student, working on a digital catalogue of historical architectural photos from the city of Providence, wanted to facilitate browsing by neighborhood. The goal of this post is to suggest some possibilities offered by Omeka and Omeka S to display and sort content. Included throughout are links to examples from various Omeka projects.",
+      "Collections",
+      "One way to organize your collection’s content is by adding them to the same Collection (Omeka Classic) or Item Sets (Omeka S).",
+      "Collections are ways of organizing items, rather like file folders on your computer, or like collections in archives such as “Manuscripts by Jack Kerouac, 1952-1969” in the Special Collections of the New York Beats Archive (please note, I just made this up). Collections provide a way to gather your items into separate, logically coherent groups. In Omeka Classic, items do not have to be in collections, but once an item is in a collection, you cannot change it. As the Omeka documentation explains: “The concept of Omeka collections originates from museum and archives collections; one cannot put a document into more than one box” – so, if you want to add a Picasso painting in your archive to both a “Cubism” and a “20th Century” collections, you will not be able to do that. Example from the City of Boston Archives.",
+      "Omeka S, by contrast, does allow the possibility to add items to more than one collection, which are called \"Item Sets\". Depending on the taxonomy that you decide to create for your artifacts, you could create multiple Item Sets and organize your content accordingly. In this case, you would be able to add an Item to both an Item Set that matches artistic movement (say, Cubism) and one for period (e.g., “20th Century”). Example from NEPTUNE.",
+      "Tags",
+      "Organize your collection’s content using tags. In Omeka Classic, you can do this natively; in Omeka S, via the Folksonomy Tag or Metadata Browse modules.",
+      "Tags are keywords or phrases that describe a piece of data and allow you to link your entries together. They are non-hierarchical labels that classify your content so that it can be easily found. Adding tags to your Omeka/Omeka S items will allow your users to search/browse your archive by them.",
+      "Please note, not only Items, but also Collections/Item Sets and Exhibitions can be tagged.",
+      "Example 1 from the 9/11 Living Memorial Digital Archive, and Example 2 from the Abbot Collections.",
+      "Query Strings",
+      "Organize your collection’s content via query strings. In Omeka Classic, via the Simple Pages plugin; in Omeka S, natively.",
+      "This option requires creating a set of customized URLs with a specific query. For example, say you are working on an archive of unpublished manuscripts of Beat poets, and you want to display your results aggregated by Author.",
+      "First, create a static page with an alphabetical list of authors in your collection, mimicking a library index.",
+      "Second, create a query (e.g., search your Omeka site) for all the items for which the Dublin Core field \"Creator\" is equal to \"Dianne Di Prima\".",
+      "Then, once you have completed your search, you can then copy the url from your browser’s address bar and use it to create a hyperlink in your static page, in correspondence to “Di Prima, Dianne.”",
+      "Finally, repeat this process for all your authors.",
+      "Example 1 from L’Arxiu de la Paraula de l’Ateneu Barcelonès (by period), Example 2 from the New Roots / Nueva Raices project (by location).",
+      "Exhibitions",
+      "Another option is to create Exhibitions to organize your content. In Omeka Classic, you’d do so via the Exhibition Builder plugin; in Omeka S, you can do this natively.",
+      "You can create an exhibition for each of your categories – say, each artist, each movement, each period – in addition to displaying a selection (or all!) the items belonging to an artist, each exhibition can also provide text and static content.",
+      "Example from the University of Tasmania’s Cultural Collections.",
+      "Maps",
+      "Organize your content geographically. In Omeka Classic, via the Neatline plugin; in Omeka S, via the Neatline S or Mapping modules).",
+      "This option is a bit tricky, and I have never pursued it myself – but the Neatline website offers extensive documentation that includes valuable tutorials and a set of examples.",
+      "Example 1 from the American Merchant Marine Veterans Oral History Project, and Example 2 from Ainmean-Aite Asainte.",
+      "These are not your only options – for example, another possibility is to organize your collection’s content by linking Omeka Resources to one another (S) – but it should be a good start. If you find any Omeka site (here are some samples for Omeka Classic and Omeka S) that organizes objects in a way that seems to be working better for you, try and reverse-engineer it. And come talk to us about it during Office Hours!",
+      "Featured Image Credits: CreVis2 via iStockphoto"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.6180822465100346,
+      0.0004666320385749976,
+      0.00040851165222645293,
+      0.00015818636262182744,
+      0.03748640512742314,
+      0.1033576406993622,
+      0.18405998059293513,
+      0.05598039701682161
+    ],
+    "words": [
+      [
+        "omeka",
+        26
+      ],
+      [
+        "collection",
+        20
+      ],
+      [
+        "example",
+        14
+      ],
+      [
+        "item",
+        14
+      ],
+      [
+        "content",
+        11
+      ],
+      [
+        "organize",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "11830",
+    "title": "Digital Art & Pedagogy: The Creation of Net-Art",
+    "date": "2019-11-01",
+    "year": "2019–2020",
+    "authors": [
+      "Anthony Wheeler"
+    ],
+    "originalAuthors": [
+      "Anthony Wheeler"
+    ],
+    "aliases": [
+      "Anthony Wheeler"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Courses & OER",
+      "Digital GC",
+      "Featured",
+      "In Common List",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/11/01/digital-art-pedagogy-the-creation-of-net-art/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "“That’s how much influence you can have over a platform with a different type of medium. For a couple of years, I was a voyeur on the Commons. In that time, I noticed there really wasn’t a platform for all kinds of experimental digital art and media art where you can create a platform for pedagogy that is open source but also includes integrating your courses, allowing students to create projects, and showcase it as a platform for collaboration.”",
+      "-Ryan Seslow, on the creation of Net-Art on the CUNY Academic Commons",
+      "The remainder of the post shares how Ryan Seslow, an Adjunct Associate Professor of Art & Design at both York College & the Borough of Manhattan Community College (as well as LIU Post and Iona College) is using the CUNY Academic Commons as an interactive medium from a more artistic approach.",
+      "Continue Reading Digital Art & Pedagogy: The Creation of Net-Art on the In Common blog."
+    ],
+    "fullParagraphs": [
+      "“That’s how much influence you can have over a platform with a different type of medium. For a couple of years, I was a voyeur on the Commons. In that time, I noticed there really wasn’t a platform for all kinds of experimental digital art and media art where you can create a platform for pedagogy that is open source but also includes integrating your courses, allowing students to create projects, and showcase it as a platform for collaboration.”",
+      "-Ryan Seslow, on the creation of Net-Art on the CUNY Academic Commons",
+      "The remainder of the post shares how Ryan Seslow, an Adjunct Associate Professor of Art & Design at both York College & the Borough of Manhattan Community College (as well as LIU Post and Iona College) is using the CUNY Academic Commons as an interactive medium from a more artistic approach.",
+      "Continue Reading Digital Art & Pedagogy: The Creation of Net-Art on the In Common blog."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19854",
+    "title": "What to Consider When Planning a Digital Project",
+    "date": "2019-10-30",
+    "year": "2019–2020",
+    "authors": [
+      "Kristen Hackett"
+    ],
+    "originalAuthors": [
+      "Kristen Hackett"
+    ],
+    "aliases": [
+      "Kristen Hackett"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project-2/",
+    "signals": [],
+    "paragraphs": [
+      "When proceeding with a digital project, it seems that a lot of emphasis is generally placed on learning the ins and outs of using the tool or method. Certainly, this is important. However, this is but one planning consideration among many. Additionally, there is much more to know about using a particular tool or method that a technical introduction overlooks. Below I outline some additional considerations you might incorporate into planning your next digital project.",
+      "Some of these suggestions come directly from a guide that was developed by the participants of the “Race, Social Justice and Digital Humanities” course at the Digital Humanities Summer Institute (DHSI) last summer. Other considerations were developed in conversation with GCDI’s Deputy Director, Lisa Rhody, in preparation for a workshop comparing tools and methods for web-based projects.",
+      "You can review the original sources by following the links below, or keep reading for an…"
+    ],
+    "fullParagraphs": [
+      "When proceeding with a digital project, it seems that a lot of emphasis is generally placed on learning the ins and outs of using the tool or method. Certainly, this is important. However, this is but one planning consideration among many. Additionally, there is much more to know about using a particular tool or method that a technical introduction overlooks. Below I outline some additional considerations you might incorporate into planning your next digital project.",
+      "Some of these suggestions come directly from a guide that was developed by the participants of the “Race, Social Justice and Digital Humanities” course at the Digital Humanities Summer Institute (DHSI) last summer. Other considerations were developed in conversation with GCDI’s Deputy Director, Lisa Rhody, in preparation for a workshop comparing tools and methods for web-based projects.",
+      "You can review the original sources by following the links below, or keep reading for an integrated list of 11 considerations.",
+      "Click, M., and R. Dobkins, D. Kim, A. Griggs, K. Hackett, S. Higgins, J. Lopez, E. Machado, V. Maxwell-Turanski, A.D. Nieves, A. Okoshi, J. N. Ross, M. Salvodon, F. Smith, R. Stringfield, R. M. Tawil. “DHSI_2019_Race_and_SJ_Final_Presentation_050719.” June 2019. Google Docs Slide Presentation.",
+      "Hackett, K. “Cultivating a Digital Academic Identity with WordPress, the CUNY Academic Commons and/or Reclaim Hosting”. October 2019. Google Docs Slide Presentation.",
+      "What is the purpose of your project? What does it aim to achieve? Whose needs or interests does it aim to meet? What silences are present and how should they be addressed (if needed)?",
+      "What communities are represented in the content of the project? How will/are representatives of these communities (be) involved in the project? What kind of input do they have over what and how, and with whom, and for what purpose content is shared? What will consultation and power-sharing processes look like? Beyond involving members, how does your project serve or give back to the community(ies) at its center?",
+      "To whom should your project be accessible, and how will you accomplish this? It is important to consider how your project may inherently privilege certain bodies or communities over others. You may want to build in different levels of access to content you share - maybe everything shouldn’t be public. Whatever the conditions specific to your project are, accessibility should be a question you address in the planning stages; it should not be an afterthought.",
+      "How does your project harm and not harm? How could the aims of your project be weaponized now or in the future, potentially in ways that inflict harm on the community(ies) at its center? How are you sharing and negotiating this concern with them? Is this a risk the community is willing to accept and on whose authority is that decision to be made? What steps must you take to prevent this?",
+      "What is your relationship to the work and data of the project and/or the community at the heart of it? You as an individual occupy certain locations of power that are relative to the community or communities inherently tied to your work. Be honest with yourself about this power relationship and its influence on your work, and think through how you should account for it.",
+      "What tools and/or methods will help you accomplish your expressed purpose? In most cases, there are multiple tools that can accomplish similar outcomes. They vary considerably and there are sub-considerations. How familiar or unfamiliar is the tool or method? Many of us are most comfortable with software programs that come with point-and-click user interfaces. They also tend to be quicker in spinning up a presentable project. Programming and markup languages can be less familiar and more time intensive, but they offer more control over style, layout, functions, and features. How much time do you have before you need a shareable web-based version of your project? How much money do you have to invest in the project? How much technical responsibility do you want to take on? Or conversely, how much support do you want access to? Be honest with yourself about how much control over design, layout, and “branding” you want (or NEED).",
+      "Moreover, what is the history of the tool you choose? How has it been weaponized in the past or used to promote harm or violence against a particular community? This investigation should influence your decision about which tool is right for you and your project or how you wield a particular tool.",
+      "In addition to your own, whose labor does or will the project depend on and how will you honor those contributions (i.e. acknowledgement, credit, compensation, etc). Note that the labor undergirding projects is not always so clear or obvious. For example, in a project I am currently working on, I acknowledge the support of the GCDI family, and the other fellows, as well as the other fellows who participated in GCDI’s Data for Public Good project in Spring 2019. None of these communities are directly helping me think through, plan or carry out my project - and I think they might be surprised to see themselves listed - and yet, without these communities, I don’t think I would have the capacity or confidence to pursue my project.",
+      "What are your short, medium, and long-term goals for your project? What deadlines - internal or external - must be worked into the timeline of the project? Also consider creating a schedule to review and assess the project’s progress - perhaps with community members involved in the work - and to incorporate a way of accounting for those assessments in your initial project plan.",
+      "Be willing to re-evaluate and revise your project. Herein I am proposing that you front load these questions when planning your digital project, but they should ALSO be revisited throughout.",
+      "Most projects come to an end eventually. What is your plan for responsibly and ethically retiring your project? Should it come offline? Should it transfer ownership? Should it be archived in an institutional repository like CUNY Academic Works? Be mindful that these decisions too are entangled in power relations and should be decided in concert with the community(ies) at the center of your work, or with their interests in mind. Also, be mindful of how these decisions change the ownership, control and accessibility of the project.",
+      "For a good example of a project that bakes in many of these considerations, see Mapping Soweto, by Dr. Angel David Nieves. Dr. Nieves is a professor at San Diego State University and was one of the lead instructors of the Race, Social Justice and DH course at DHSI the year I participated.",
+      "Featured Image Credits: Alexas_Fotos via pixabay.com"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.04302987402014724,
+      0.16665442631864813,
+      0.0067454068804670385,
+      0.04702792873044748,
+      0.00024115307921154783,
+      0.2039162368056942,
+      0.09422353123058011,
+      0.43816144293480425
+    ],
+    "words": [
+      [
+        "project",
+        33
+      ],
+      [
+        "community",
+        14
+      ],
+      [
+        "tool",
+        9
+      ],
+      [
+        "work",
+        8
+      ],
+      [
+        "digital",
+        6
+      ],
+      [
+        "consideration",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "11786",
+    "title": "Authorship and Advocacy: The Native American Petitions Dataverse - Not Even Past",
+    "date": "2019-10-24",
+    "year": "2019–2020",
+    "authors": [
+      "Alina Scott"
+    ],
+    "originalAuthors": [
+      "Alina Scott"
+    ],
+    "aliases": [
+      "Alina Scott"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/24/authorship-and-advocacy-the-native-american-petitions-dataverse-not-even-past/",
+    "signals": [],
+    "paragraphs": [
+      "In this insightful review, Alina Scott draws attention to the decolonizing work of The Native American Petitions Dataverse. Scott’s review brings out the ways in which this project is rethinking both the form and the content of digital archives, while also emphasizing the many new avenues for research, access, preservation, and activism that this amazing archive makes possible.",
+      "Read more: Authorship and Advocacy: The Native American Petitions Dataverse – Not Even Past"
+    ],
+    "fullParagraphs": [
+      "In this insightful review, Alina Scott draws attention to the decolonizing work of The Native American Petitions Dataverse. Scott’s review brings out the ways in which this project is rethinking both the form and the content of digital archives, while also emphasizing the many new avenues for research, access, preservation, and activism that this amazing archive makes possible.",
+      "Read more: Authorship and Advocacy: The Native American Petitions Dataverse – Not Even Past"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "11785",
+    "title": "Review of Learning Queer Identity in the Digital Age",
+    "date": "2019-10-24",
+    "year": "2019–2020",
+    "authors": [
+      "Jon Heggestad"
+    ],
+    "originalAuthors": [
+      "Jon Heggestad"
+    ],
+    "aliases": [
+      "Jon Heggestad"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/24/review-of-learning-queer-identity-in-the-digital-age/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "This post reviews Kay Siebler’s Learning Queer Identity in the Digital Age (Palgrave Macmillan, 2016). Of particular interest to scholars working at the intersections of digital cultures, queer theory, and critical pedagogy, Siebler’s compelling book opens new pathways of thinking through the contradictions of identity, capitalism, and patriarchy. It’s definitely reached the top of my reading list!",
+      "Read more: Review of Learning Queer Identity in the Digital Age"
+    ],
+    "fullParagraphs": [
+      "This post reviews Kay Siebler’s Learning Queer Identity in the Digital Age (Palgrave Macmillan, 2016). Of particular interest to scholars working at the intersections of digital cultures, queer theory, and critical pedagogy, Siebler’s compelling book opens new pathways of thinking through the contradictions of identity, capitalism, and patriarchy. It’s definitely reached the top of my reading list!",
+      "Read more: Review of Learning Queer Identity in the Digital Age"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19853",
+    "title": "Learning Python with the Python Users' Group",
+    "date": "2019-10-23",
+    "year": "2019–2020",
+    "authors": [
+      "Rafael Davis Portela"
+    ],
+    "originalAuthors": [
+      "Rafael Davis Portela"
+    ],
+    "aliases": [
+      "Rafael Davis Portela"
+    ],
+    "account": "Rafael Davis Portela",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "pug",
+      "python",
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/23/learning-python-with-the-python-users-group-2/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The demand for Python has increased in recent years, and many new students at GC are eager to learn it. However, many soon give up, including smart, successful scholars. Why is that?",
+      "I am a strong believer that anybody can successfully learn to code, but there is no denial that it is a challenge. One of the reasons is that learning a programming language is not merely a cognitive matter. If you have ever taken an online course, this description might resonate: you follow all the steps, pay attention to the explanation and understand everything that was taught. But when you try to apply this knowledge yourself, by the end of the course you freeze. The thing is, we learn to code with our hands as much as we do with our brain– similar to learning how to play guitar. You can understand the chords, but you actually need to play them hundreds of times before you can do it without thinking. Coding takes time and repetition."
+    ],
+    "fullParagraphs": [
+      "The demand for Python has increased in recent years, and many new students at GC are eager to learn it. However, many soon give up, including smart, successful scholars. Why is that?",
+      "I am a strong believer that anybody can successfully learn to code, but there is no denial that it is a challenge. One of the reasons is that learning a programming language is not merely a cognitive matter. If you have ever taken an online course, this description might resonate: you follow all the steps, pay attention to the explanation and understand everything that was taught. But when you try to apply this knowledge yourself, by the end of the course you freeze. The thing is, we learn to code with our hands as much as we do with our brain– similar to learning how to play guitar. You can understand the chords, but you actually need to play them hundreds of times before you can do it without thinking. Coding takes time and repetition.",
+      "It also can feel uncomfortable in the beginning, as we have to do things that we don’t completely understand—many times we won't understand it until we've done it multiple times. As academics, who usually take pride in knowing our concepts well, the idea of \"do it even if you don't understand\" is a hard pill to swallow.",
+      "Academic work is often a lonely experience. We are used to learning in isolation, even if we will have peer feedback later. Learning to code by yourself makes the challenge harder, and a beginner will benefit from learning with other people. Sometimes we get stuck for hours on things that somebody else could have helped us in less than a minute. Learning to find answers in forums and other resources is a skill in itself, and even figuring out how to ask a question correctly can be challenging.",
+      "That’s why we in the Python Users Group (PUG) created a space for beginners in Python to learn to code together. We want to have a welcoming atmosphere in which beginners can feel comfortable. There are multiple ways of learning, and people will respond to some better than others.",
+      "This Fall (2019) we are working through the book Learn Python 3 the Hard Way, by Zed A. Shaw. We chose it because:",
+      "It is a hands-on, exercise-based approach. Instead of introducing concepts and tools, you actually use them repeatedly; first in the exercises, then collaboratively as we troubleshoot together and talk about what we did.",
+      "It is easy to join at any point. If you miss a meeting you can still keep coming.",
+      "Because everyone works on the same exercises, we get to help each other. Beginners who are just a bit ahead can help newcomers on their first exercises. By teaching the material to their peers, they get more confident on their recently-acquired skills.",
+      "We meet on Fridays, every three weeks, always between 3:00-4:30pm, in the Digital Scholarship Lab (Room 7414). Please join us in our commons group to find out about next meetings, see updates and participate in our discussions.",
+      "This Fall the meetings will be on Oct 25, Nov 15 and Dec 6. On October 25th we will be talking about exercises 1 to 4. Yes, we are just starting, so there is no better time to join!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007962063574601028,
+      0.0007966052972071651,
+      0.02610354239879284,
+      0.00027004595482834265,
+      0.004713435530720162,
+      0.6125847807485648,
+      0.0008731935844475644,
+      0.353862190127979
+    ],
+    "words": [
+      [
+        "learn",
+        11
+      ],
+      [
+        "understand",
+        5
+      ],
+      [
+        "time",
+        5
+      ],
+      [
+        "exercise",
+        5
+      ],
+      [
+        "python",
+        4
+      ],
+      [
+        "code",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "11737",
+    "title": "Toward the End of a Digital Project: Reflections on Starting Over",
+    "date": "2019-10-20",
+    "year": "2019–2020",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Kristen Hackett",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "digital annotation",
+      "Digital GC",
+      "Featured",
+      "minimal computing",
+      "News",
+      "pedagogy",
+      "programming",
+      "social annotation",
+      "Uncategorized"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/20/toward-the-end-of-a-digital-project-reflections-on-starting-over/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This issue is probably more common than I think.",
+      "Over the past year I’ve been working on an ambitious digital project: to modify a digital annotation tool, hypothes.is, so that the user can highlight text in multiple colors, rather than just yellow. While that doesn’t sound very ambitious, the theoretical underpinnings of the project and technical obstacles involved have made it quite complex.",
+      "The closer I get to the end, the more I want to go back to the beginning.",
+      "Continue reading Toward the End of a Digital Project: Reflections on Starting Over on Tagging the Tower."
+    ],
+    "fullParagraphs": [
+      "This issue is probably more common than I think.",
+      "Over the past year I’ve been working on an ambitious digital project: to modify a digital annotation tool, hypothes.is, so that the user can highlight text in multiple colors, rather than just yellow. While that doesn’t sound very ambitious, the theoretical underpinnings of the project and technical obstacles involved have made it quite complex.",
+      "The closer I get to the end, the more I want to go back to the beginning.",
+      "Continue reading Toward the End of a Digital Project: Reflections on Starting Over on Tagging the Tower."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "11729",
+    "title": "Topic choice works against black NIH applicants",
+    "date": "2019-10-17",
+    "year": "2019–2020",
+    "authors": [
+      "Jeffrey Mervis"
+    ],
+    "originalAuthors": [
+      "Jeffrey Mervis"
+    ],
+    "aliases": [
+      "Jeffrey Mervis"
+    ],
+    "account": "Connor M French",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/17/topic-choice-works-against-black-nih-applicants-science/",
+    "signals": [],
+    "paragraphs": [
+      "In 2011, a study led by economist Donna Ginther of the University of Kansas in Lawrence found that black applicants were significantly less likely than white applicants to be funded by the National Institutes of Health (NIH). Since then, NIH officials have examined a host of factors that might cause the disparity, from the historical advantages that white men enjoy to overt discrimination by grant reviewers. But the picture remains cloudy.",
+      "Now, NIH scientists have identified a key factor they hadn't previously considered: the topics that black scientists want to study. Specifically, black applicants are more likely to propose approaches, such as community interventions, and topics, such as health disparities, adolescent health, and fertility, that receive less competitive scores from reviewers. And a proposal with a poorer score is less likely to be funded. The finding is already prompting discussion about whether that disparity is…"
+    ],
+    "fullParagraphs": [
+      "In 2011, a study led by economist Donna Ginther of the University of Kansas in Lawrence found that black applicants were significantly less likely than white applicants to be funded by the National Institutes of Health (NIH). Since then, NIH officials have examined a host of factors that might cause the disparity, from the historical advantages that white men enjoy to overt discrimination by grant reviewers. But the picture remains cloudy.",
+      "Now, NIH scientists have identified a key factor they hadn't previously considered: the topics that black scientists want to study. Specifically, black applicants are more likely to propose approaches, such as community interventions, and topics, such as health disparities, adolescent health, and fertility, that receive less competitive scores from reviewers. And a proposal with a poorer score is less likely to be funded. The finding is already prompting discussion about whether that disparity is rooted in NIH's priorities—and whether those priorities should be rethought.",
+      "The study, published on 9 October in Science Advances...",
+      "Continue reading at Topic choice works against black NIH applicants"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5355",
+    "title": "Getting the Best Recording (within your budget) for your Interview",
+    "date": "2019-10-16",
+    "year": "2019–2020",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Audio",
+      "digital technology",
+      "Featured",
+      "interview",
+      "microphones",
+      "recorders",
+      "Resources",
+      "Sound",
+      "Tutorial"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/16/getting-the-best-recording-within-your-budget-for-your-interview-2/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "When I started my oral history project two years ago, I knew very little about microphones and recorders. I knew I had to get a decent quality recording so that folx can hear my narrators but beyond that I was at a loss. Conversations with other graduate students interested in working with in-person interviews revealed that we had similar queries: a) what kinds of equipment do we need, b) where/how can we get these equipment, and c) how do we get the best out of the equipment we have (i.e. best practices for recording)?",
+      "Googling led me to understand that I had to have some sort of digital recording device that could be elevated by having an external microphone attached to it. Generally, most digital recording devices (including your phone!) have a built-in microphone. What an external microphone can do is help better pick up voices and distinguish them. Depending on the type of recorder and the number of microphones, each speaker could…"
+    ],
+    "fullParagraphs": [
+      "When I started my oral history project two years ago, I knew very little about microphones and recorders. I knew I had to get a decent quality recording so that folx can hear my narrators but beyond that I was at a loss. Conversations with other graduate students interested in working with in-person interviews revealed that we had similar queries: a) what kinds of equipment do we need, b) where/how can we get these equipment, and c) how do we get the best out of the equipment we have (i.e. best practices for recording)?",
+      "Googling led me to understand that I had to have some sort of digital recording device that could be elevated by having an external microphone attached to it. Generally, most digital recording devices (including your phone!) have a built-in microphone. What an external microphone can do is help better pick up voices and distinguish them. Depending on the type of recorder and the number of microphones, each speaker could be recorded on a distinct track, allowing for more options during editing. This can be further parsed into the type of microphones and the types of connections to the recorder you would like to use… At this point, I was pretty overwhelmed, do I need this much information for the project I am conducting? How do I know what is good enough for the project?",
+      "After searching some more, I came across “Oral History in the Digital Age” which has a section called Ask Doug . In this section, Doug Boyd comes up with a set of questions that helps you pick the microphones and recorders you need within your budget. These questions were the most helpful to me as they narrowed my search to devices that fit my budget. I was lucky to have a small budget for my oral history project that allowed me to purchase a digital recorder (Zoom H5 @ ~ $220), a set of lavalier lapel microphones (those that clip onto shirts; ~$20), and a couple of SD cards (~$10 ea).",
+      "Depending on your budget and your needs, you may not require all of the equipment I use. I decided to set aside a budget for recording equipment because I intend to publish the audio online. If you have some money set aside (but not enough for a dedicated digital recorder), an improvement to a phone recording can be done by attaching an external microphone. For example, the lavalier lapel microphone (it can plug into a 3.5 mm headphone jack!) I purchased was plugged into my phone when I was using it as a secondary recording device. If I were recording the interviews primarily for my own use without further dissemination, I would have just stuck with a recording app on my phone without an external microphone. iPhones have a default Voice Memos app and there are many voice recording apps available for Android phones as well. While the equipment I use are helpful in getting a better quality recording, when I did test interviews with just the Voice Memo app on my iPhone, I found that those recordings were really workable as well.",
+      "As such, it seemed that the importance of getting a good recording lay in some best practices rather than solely on equipment. Given that I work primarily with interviews, these tips may not apply to other forms of sound recording. However, I do hope that this list can serve as a useful place to start:",
+      "Have two different recording devices if possible. In case one runs out of battery, malfunctions or you forget to hit record, an extra device provides you with a backup. I cannot mention how many times this has saved me!",
+      "On this note, keep fresh batteries and/or your charger on you if you have a dedicated recorder. If possible, ensure that each time you record you are using fresh batteries or plugged in to prevent the possibility of running out of juice!",
+      "Check that you have enough storage for a new recording. Depending on your device and the format of your recording file, I would try to keep at least 4GB of space for a 2-hour interview recording at 32-bit .wav (uncompressed audio format). (Don’t be too stressed about your audio format! Again, depending on the use of your audio, this can change.)",
+      "Ensure that the microphone on your recording device is directed to the speaker as much as possible. In the event that you have several speakers and only one microphone input, place the microphone between the speakers.",
+      "If you have a set of lavalier microphones, clip them as close as you can to your speakers’ mouth. Avoid necklaces or other accessories that could come into contact with the microphone as it would create noise in your recording (e.g. when accessories rub against or bump off the microphone).",
+      "If you don’t have a set of lavalier microphones, consider placing your recording device on an elevated platform (e.g. a set of books on top of a table). This helps to ensure that you avoid introducing too much noise into your recording. If you’re placing your recorder directly on the table, vibrations generated from movements such as placing hands on the table can end up as noise in your recording.",
+      "Record a minute of “silence” before or after the interview in the space where it occurs. This will help you when you are cleaning up your audio file after as it creates a baseline for noise levels.",
+      "Try to record at a place that is relatively quiet. Your recording device will pick up sound that you may not hear generating some white noise in your recording background.",
+      "Do a brief 30 second pre-recording between you and your narrator. After which, quickly playback the recording before you begin your formal interview. This will allow you to ensure that a) you have started the recording, b) the recorder works, and c) the microphones are picking up the voices well enough. Checking the playback immediately also gives you the opportunity to change and move the recorder to better pick up voices if necessary. I usually take this opportunity to do some ice-breaking and rapport building before launching into the oral history portion of the interview!",
+      "These tips were especially helpful when I had to clean the audio after the interview. If you have any other tips and tricks to get better sound, please feel free to share them in the comments below or tweet them at us! Moreover, should you decide that you are interested in trying out a dedicated digital recorder, the Graduate Center library offers TASCAM audio recorders to loan for use. As of now (Oct 2019) GC students and alumni are welcome to loan them out.",
+      "Image credit: Winnerslay on flickr.com"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.030501195627270113,
+      0.00040443626610135237,
+      0.00035406254527636127,
+      0.6665698300955428,
+      0.00024322678636519424,
+      0.27661257820804724,
+      0.004742886102250594,
+      0.020571784369146234
+    ],
+    "words": [
+      [
+        "record",
+        20
+      ],
+      [
+        "microphone",
+        19
+      ],
+      [
+        "recording",
+        13
+      ],
+      [
+        "recorder",
+        12
+      ],
+      [
+        "device",
+        10
+      ],
+      [
+        "interview",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "19852",
+    "title": "Toward the End of a Digital Project: Reflections on Starting Over",
+    "date": "2019-10-10",
+    "year": "2019–2020",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Filipa Calado",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "digital annotation",
+      "Featured",
+      "minimal computing",
+      "pedagogy",
+      "programming",
+      "Reflections",
+      "social annotation"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/10/toward-the-end-of-a-digital-project-reflections-on-starting-over-2/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This issue is probably more common than I think.",
+      "Over the past year I’ve been working on an ambitious digital project: to modify a digital annotation tool, hypothes.is, so that the user can highlight text in multiple colors, rather than just yellow. While that doesn’t sound very ambitious, the theoretical underpinnings of the project and technical obstacles involved have made it quite complex.",
+      "Ideally, this multi-color highlighter would facilitate social reading with an opacity feature that allows students to layer colors, one over the other (see the featured image for an example). This layering of colors will allow me to explore possible connections between color and signification---i.e. what different colors might mean to different readers---with the goal of using color to address nonverbal or preverbal reactions to reading. One of my ideas is to use color to mark feelings, emotions, and gut reactions while reading literature. Another…"
+    ],
+    "fullParagraphs": [
+      "This issue is probably more common than I think.",
+      "Over the past year I’ve been working on an ambitious digital project: to modify a digital annotation tool, hypothes.is, so that the user can highlight text in multiple colors, rather than just yellow. While that doesn’t sound very ambitious, the theoretical underpinnings of the project and technical obstacles involved have made it quite complex.",
+      "Ideally, this multi-color highlighter would facilitate social reading with an opacity feature that allows students to layer colors, one over the other (see the featured image for an example). This layering of colors will allow me to explore possible connections between color and signification---i.e. what different colors might mean to different readers---with the goal of using color to address nonverbal or preverbal reactions to reading. One of my ideas is to use color to mark feelings, emotions, and gut reactions while reading literature. Another is to think about how color offers a way for teachers and students to create new schemas for responding to literature. How should color meanings be assigned? And how might color assignments help with literary analysis? Additionally, I’m interested in comparing the multi-color highlighter to existing annotation tools (such as Lacuna Stories, Ponder, or Annotation Studio) that prescribe preset options for responding to text. In what ways do the options of writing or tagging annotations create expectations for how we respond to texts? What are the pedagogical and cognitive benefits of limiting annotation to color, as opposed to written responses?",
+      "The closer I get to the end, the more I want to go back to the beginning. Of all my reservations about this project, the main one is the choice of hypothes.is as the annotation tool to modify. There were many good reasons to choose hypothes.is at the outset. It has been an effective tool for teaching (in my case, teaching Orlando by Virginia Woolf), that comes as an installed plugin on my course website on the CUNY Academic Commons. It’s an open source tool, with an active and dedicated community of users that would be able to answer questions during my development. Nonetheless, it is too robust for my project.",
+      "Rather than hypothes.is, I could have modified a more lightweight and minimal annotation tool. Something like Annotator.js, hypothes.is’s parent project, would have allowed me to explore the effects of color and nonverbal annotation more directly. Unlike hypothes.is, Annotator.js doesn’t come with a sidebar or tagging mechanism. Its codebase is a fraction of the size of hypothes.is, and the highlighter is entirely configured within one file! Unfortunately, Annotator.js is no longer supported, as its team has moved on to other projects, such as the Apache Annotator.",
+      "What I’ve discovered, in the end, is how much my technical choices have determined my theoretical investments. And that’s why I want to start over. My thinking now falls in line with the principles of minimal computing, particularly Alex Gil's suggestion to ask “What do we need?” in order to guide our development and thinking about new technology. I feel like hypothes.is does too much, offering too many options for responding to texts. My project wants to explore how one specific feature, which is color, affects reading practices. The more I think about what annotation can do, the less I want my tool to scaffold its user’s responses with additional options like text boxes and tagging.",
+      "Though I’m almost finished with the tool’s development, I imagine that this project will be ongoing. Besides the theoretical difficulties, there have been many technical challenges, requiring inordinate amounts of time learning CSS and JavaScript, much trial and error, and going down rabbit holes (more details in my development notes). Thankfully, I’m invested in the process and will keep thinking about different ways of using color, posting updates, and getting feedback. If you have any ideas, please reach out!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.16664766394907427,
+      0.007123668033180797,
+      0.0005361868256647155,
+      0.01323001757096175,
+      0.16314823952669624,
+      0.30169626861840954,
+      0.12763967961701472,
+      0.21997827585899793
+    ],
+    "words": [
+      [
+        "color",
+        16
+      ],
+      [
+        "annotation",
+        9
+      ],
+      [
+        "project",
+        8
+      ],
+      [
+        "tool",
+        8
+      ],
+      [
+        "hypothes",
+        8
+      ],
+      [
+        "think",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "11673",
+    "title": "We are all complicit in harassment and abuse",
+    "date": "2019-10-10",
+    "year": "2019–2020",
+    "authors": [
+      "Virginia Valian"
+    ],
+    "originalAuthors": [
+      "Virginia Valian"
+    ],
+    "aliases": [
+      "Virginia Valian"
+    ],
+    "account": "Connor M French",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2019/10/10/we-are-all-complicit-in-harassment-and-abuse/",
+    "signals": [],
+    "paragraphs": [
+      "To combat bad behaviour, researchers must collectively create ways to take responsibility, says Virginia Valian... The vast majority of scholars will never have crossed paths with Epstein, but many of us — myself included — are guilty of lapses, of instances when we failed to recognize or take steps to prevent abuse. It is past time for us to create effective ways to intervene... Funding agencies have moved to curtail abuse, but they also helped to create a system that abets it.",
+      "Continue reading here: We are all complicit in harassment and abuse"
+    ],
+    "fullParagraphs": [
+      "To combat bad behaviour, researchers must collectively create ways to take responsibility, says Virginia Valian... The vast majority of scholars will never have crossed paths with Epstein, but many of us — myself included — are guilty of lapses, of instances when we failed to recognize or take steps to prevent abuse. It is past time for us to create effective ways to intervene... Funding agencies have moved to curtail abuse, but they also helped to create a system that abets it.",
+      "Continue reading here: We are all complicit in harassment and abuse"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  }
+]

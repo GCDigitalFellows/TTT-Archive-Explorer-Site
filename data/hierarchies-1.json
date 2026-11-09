@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "population": 299,
+  "year_rule": "Saved August–July academic years; 2026–2027 partial",
+  "distinct_parameters": {
+    "smoothing": 0.5,
+    "min_year_occurrences": 3,
+    "min_year_posts": 2,
+    "min_corpus_posts": 3,
+    "positive_scores_only": true
+  }
+}

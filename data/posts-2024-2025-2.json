@@ -1,0 +1,498 @@
+[
+  {
+    "id": "20557",
+    "title": "Web Scraping with Python and the Reddit API",
+    "date": "2024-11-01",
+    "year": "2024–2025",
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "originalAuthors": [
+      "Zachary Lloyd"
+    ],
+    "aliases": [
+      "Zachary Lloyd"
+    ],
+    "account": "Zachary Lloyd",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "python"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/11/01/web-scraping-with-python-and-the-reddit-api/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Introduction",
+      "In this guide, we will be using Python to scrape data from Reddit. Reddit is a social news aggregation and forum-style discussion website. Registered members submit content to the site in the form of links, text posts, images, and videos, which are then \"upvoted\" or \"downvoted\" by other members. Posts are organized by subject into user-created boards called \"subreddits\", which cover a variety of topics including news, science, movies, video games, music, books, and almost anything else you can think of.",
+      "What is Web Scraping?",
+      "Web scraping is the process of extracting information from websites. This can be done manually by a human user or automatically by a computer program. Web scraping is a powerful tool for data collection and analysis, and it has many applications in various academic and non-academic fields.",
+      "Why Scrape Reddit?",
+      "Reddit is a popular website with a large and diverse user base from around the world. It contains a…"
+    ],
+    "fullParagraphs": [
+      "Introduction",
+      "In this guide, we will be using Python to scrape data from Reddit. Reddit is a social news aggregation and forum-style discussion website. Registered members submit content to the site in the form of links, text posts, images, and videos, which are then \"upvoted\" or \"downvoted\" by other members. Posts are organized by subject into user-created boards called \"subreddits\", which cover a variety of topics including news, science, movies, video games, music, books, and almost anything else you can think of.",
+      "What is Web Scraping?",
+      "Web scraping is the process of extracting information from websites. This can be done manually by a human user or automatically by a computer program. Web scraping is a powerful tool for data collection and analysis, and it has many applications in various academic and non-academic fields.",
+      "Why Scrape Reddit?",
+      "Reddit is a popular website with a large and diverse user base from around the world. It contains a vast amount of data on a wide range of topics, making it a valuable resource for data analysis. By scraping Reddit, you can collect data on user behavior, trends, opinions, and more. This data can be used for market research, sentiment analysis, content analysis, cultural analysis, and other purposes.",
+      "Many websites allow scraping of their data through APIs (Application Programming Interfaces), which provide a structured way to access and retrieve data. Reddit has its own API that allows you to access its data programmatically, and is probably the most efficient way to scrape Reddit data. It is important to note, however, that not all websites allow scraping, and some may have restrictions on how their data can be used. Always be sure to read and understand the terms of service of any website you plan to scrape.",
+      "Prerequisites",
+      "Before we get started, you will need to have Python installed on your computer. You can download Python from the official website.",
+      "You will also need to install the following Python library:",
+      "PRAW: The Python Reddit API Wrapper (PRAW) is a Python package that allows you to access Reddit's API. You can install it using \"pip\" with the following command in your terminal: pip install praw",
+      "Lastly, you will want a text editor to write your code in. I recommend using VSCode.",
+      "Getting Started",
+      "To get started with web scraping on Reddit, you will need to create a Reddit account and obtain API credentials. Here are the steps to do this:",
+      "1. Go to the Reddit website and create an account if you don't already have one.",
+      "2. Go to the Reddit Apps page and click on the \"Create App\" or \"Create Another App\" button.",
+      "3. Fill in the required fields. For name and description, you can enter anything you like, e.g. \"reddit scraper\" and \"This app scrapes recent subreddit titles\", respectively. You can keep about URL blank. For the redirect URI, you can enter http://localhost:8080. In the app type field, select \"script\", since this is a personal use script.",
+      "4. Click on the \"Create App\" button to create your app.",
+      "After creating your app, you will see a page with your app's \"client ID\" (the string of characters underneath the app title and personal use script text) and \"client secret.\" You will need these credentials to authenticate your app when accessing the Reddit API.",
+      "Building the Reddit Scraper",
+      "Now that you have your Reddit account and API credentials, you can start writing a Python script to scrape data from Reddit. As an example, let's create a scraper that retrieves the most recent post titles from a specific subreddit.",
+      "Create a new Python script (e.g., reddit_scraper.py) and import the praw library first:",
+      "import praw",
+      "Next, we want to create a new function that utilizes our credentials to access the Reddit API:",
+      "def connect_to_reddit(): reddit = praw.Reddit( client_id='your_client_id', client_secret='your_client_secret', user_agent='u/your_username' ) return reddit",
+      "This function creates a new Reddit instance using your client ID, client secret, and user agent. Make sure to replace the client ID and secret with the ones Reddit provided you. The user agent is a unique identifier that helps Reddit determine the source of the API request, and for this you can simply use your Reddit username.",
+      "Now, let's create a function that retrieves the most recent post titles from a specific subreddit:",
+      "def get_recent_post_titles(subreddit_name, post_limit=10): reddit = connect_to_reddit() subreddit = reddit.subreddit(subreddit_name) # Choose the subreddit",
+      "recent_posts = subreddit.new(limit=post_limit)",
+      "post_titles = return post_titles",
+      "This function takes the name of a subreddit and an optional post limit as input, connects to Reddit using our credentials, retrieves the most recent posts from the specified subreddit, and returns a list of post titles.",
+      "Next, we'll want to call this function with the desired subreddit name and post limit:",
+      "if __name__ == \"__main__\": subreddit_name = 'dogs' post_limit = 5",
+      "titles = get_recent_post_titles(subreddit_name, post_limit) print(f\"Most recent {post_limit} post titles from r/{subreddit_name}:\")",
+      "for idx, title in enumerate(titles, 1): print(f\"{idx}. {title}\")",
+      "Let's break this last part down. First, we specify the name of the subreddit we want to scrape (subreddit_name) and the number of recent posts we want to retrieve (post_limit). We then call the get_recent_post_titles function with these parameters and store the returned list of post titles in the titles variable. Finally, we print out the post titles with their corresponding index numbers using a for loop.",
+      "When you run the code in this example, you should see the 5 most recent post titles from the \"dogs\" subreddit printed to the console.",
+      "What Next?",
+      "This is just a simple example of how you can scrape data from Reddit using Python. There are many other ways to interact with the Reddit API and extract different types of data. You can explore the PRAW documentation to learn more about the capabilities of the library and how to use it effectively.",
+      "In addition, there are many other Python libraries and tools available for web scraping like Beautiful Soup and Scrapy.",
+      "To make your results more interesting than just printing text to the console, you can also combine web scraping with data analysis libraries like Pandas and visualization libraries like Matplotlib or Seaborn to gain insights from the data you collect.",
+      "To learn more Python tips and tricks or discuss your own projects with fellow students, feel free to join the Python User's Group (PUG) on the CUNY Commons.",
+      "Happy scraping!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.2522226055589261,
+      0.0003644755552484438,
+      0.4110418656501314,
+      0.00012355573038960087,
+      0.00021919453185123832,
+      0.0477949586754078,
+      0.2735689179659234,
+      0.014664426332121993
+    ],
+    "words": [
+      [
+        "reddit",
+        34
+      ],
+      [
+        "title",
+        20
+      ],
+      [
+        "subreddit",
+        18
+      ],
+      [
+        "data",
+        16
+      ],
+      [
+        "create",
+        13
+      ],
+      [
+        "python",
+        12
+      ]
+    ]
+  },
+  {
+    "id": "20486",
+    "title": "AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 2)",
+    "date": "2024-10-25",
+    "year": "2024–2025",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "AI",
+      "Digital Tools",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/10/25/ai-is-everywhere-is-it-in-qualitative-research-too-potentials-pitfalls-and-open-source-solutions-part-2/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "In this second part of our exploration into AI’s role in qualitative research (you can find part one here), we’ll focus on the concerns and issus that come with its growing presence as well as some tips for utilizing AI tools like Taguette, Weft QDA, and AcademiaOS and avoid the pitfalls.",
+      "Concerns and Pitfalls:",
+      "One concern is the potential loss of human judgment. Sure, AI can code and analyze data, but it can’t truly understand the subtleties and emotional undertones of human experiences. Qualitative research relies on context and interpretation, and there’s a real risk that AI might oversimplify the nuances (Denecke et al., 2023; Arbelaez Ossa et al., 2024). Also,some researchers fear that by automating tasks like coding, we might be reducing our own engagement with the data (Schmitt, 2024; Zhang et al., 2024).",
+      "Then, there’s the issue of bias. AI models are trained on existing datasets, which means they can reflect the biases in those…"
+    ],
+    "fullParagraphs": [
+      "In this second part of our exploration into AI’s role in qualitative research (you can find part one here), we’ll focus on the concerns and issus that come with its growing presence as well as some tips for utilizing AI tools like Taguette, Weft QDA, and AcademiaOS and avoid the pitfalls.",
+      "Concerns and Pitfalls:",
+      "One concern is the potential loss of human judgment. Sure, AI can code and analyze data, but it can’t truly understand the subtleties and emotional undertones of human experiences. Qualitative research relies on context and interpretation, and there’s a real risk that AI might oversimplify the nuances (Denecke et al., 2023; Arbelaez Ossa et al., 2024). Also,some researchers fear that by automating tasks like coding, we might be reducing our own engagement with the data (Schmitt, 2024; Zhang et al., 2024).",
+      "Then, there’s the issue of bias. AI models are trained on existing datasets, which means they can reflect the biases in those datasets. When applied to qualitative research, these biases can skew the analysis, particularly in fields like sociology or anthropology, where cultural sensitivity is critical (Denecke et al., 2023; Kooli, 2023). The transparency of AI systems is also a challenge. Many AI tools are \"black boxes,\" meaning researchers don’t fully understand how the algorithms arrive at certain conclusions (Arbelaez Ossa et al., 2024) and this can undermine the trust and integrity of qualitative research.",
+      "There’s also a concern about de-skilling. As AI takes over tasks like data coding and pattern recognition, researchers may lose the opportunity to develop essential analytical skills (Christou, 2023; Arbelaez Ossa et al., 2024), and early-career researchers might miss out on learning experiences that deepen their understanding of the field. There is also a more considerable looming risk that AI could standardize research outcomes. Since AI tends to generate results based on patterns, it might reinforce existing trends rather than offering new or challenging perspectives (Arbelaez Ossa et al., 2024) that would be detrimental to the intellectual landscape of qualitative research.",
+      "Finally, there’s the problem of data privacy. AI systems process data without specific concern or clarity about use or storage and this makes privacy and consent critical concerns (Denecke et al., 2023). This and probably many more concerns are important to consider when it comes to utilizing AI for qualitative research.",
+      "Some Tips for Balancing the Use of AI",
+      "- AI as a Complementary Tool",
+      "AI works best when it’s used as a complement to human expertise, not a replacement. Tasks like coding and pattern recognition can be automated, but researchers should retain control over interpretation and analysis. AI should assist, not dictate (Schmitt, 2024; Christou, 2023).",
+      "- Mitigating the Risks of Bias and Automation",
+      "To counter the risks of bias and over-reliance on automation, AI-generated outputs should be combined with manual reviews with the idea that while we harness AI’s efficiency we also ensure that the insights remain contextually accurate and ethically sound (Arbelaez Ossa et al., 2024).",
+      "- AI Literacy and Critical Engagement",
+      "AI's potential in qualitative research will only grow as it continues to evolve and in order to understand the future potentials and pitfalls of its integration, researchers need to learn about it and critically engage with its development. The rise of open-source tools could mean that AI will become increasingly accessible, but it’s up to the research community to ensure these tools are used responsibly.",
+      "References:",
+      "12 Data analysis tools for qualitative research. (2024, January 4). PhD Guidance. https://www.phdguidance.org/data-analysis-tools-for-qualitative-research/",
+      "Arbelaez Ossa, L., Lorenzini, G., Milford, S. R., Shaw, D., Elger, B. S., & Rost, M. (2024). Integrating ethics in AI development: A qualitative study. BMC Medical Ethics, 25(1), 10. https://doi.org/10.1186/s12910-023-01000-0",
+      "Bishop, L. (2023). A Computer Wrote this Paper: What ChatGPT Means for Education, Research, and Writing. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4338981",
+      "Christou, P. (2023). A Critical Perspective Over Whether and How to Acknowledge the Use of Artificial Intelligence (AI) in Qualitative Studies. The Qualitative Report, 28(7), 1981–1991. https://doi.org/10.46743/2160-3715/2023.6407",
+      "Crawford, K. (2021). The Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence. Yale University Press.",
+      "Denecke, K., Glauser, R., & Reichenpfader, D. (2023). Assessing the Potential and Risks of AI-Based Tools in Higher Education: Results from an eSurvey and SWOT Analysis. Trends in Higher Education, 2(4), Article 4. https://doi.org/10.3390/higheredu2040039",
+      "Hassani, H., & Silva, E. S. (2023). The Role of ChatGPT in Data Science: How AI-Assisted Conversational Interfaces Are Revolutionizing the Field. Big Data and Cognitive Computing, 7(2), 62. https://doi.org/10.3390/bdcc7020062",
+      "Schmitt, B. (2024). Transforming qualitative research in phygital settings: The role of generative AI. Qualitative Market Research: An International Journal, 27(3), 523–526. https://doi.org/10.1108/QMR-08-2023-0107",
+      "Übellacker, T. (n.d.). AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models. Ar5iv. Retrieved October 5, 2024, from https://ar5iv.labs.arxiv.org/html/2403.08844",
+      "Zhang, H., Wu, C., Xie, J., Iyu, Y., & Cai, J. (n.d.). Redefining Qualitative Analysis in the AI Era: Utilizing ChatGPT for Efficient Thematic Analysis. Ar5iv. Retrieved October 5, 2024, from https://ar5iv.labs.arxiv.org/html/2309.10771"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.000678425724356901,
+      0.6789794199885916,
+      0.0005942234014140916,
+      0.00023009879385853764,
+      0.00040820767470936954,
+      0.27301601419663074,
+      0.0007440244410034395,
+      0.04534958577943525
+    ],
+    "words": [
+      [
+        "ai",
+        21
+      ],
+      [
+        "research",
+        9
+      ],
+      [
+        "qualitative",
+        7
+      ],
+      [
+        "concern",
+        7
+      ],
+      [
+        "researcher",
+        6
+      ],
+      [
+        "tool",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "20506",
+    "title": "6 Tools for Digital Safety in the Age of Surveillance",
+    "date": "2024-10-18",
+    "year": "2024–2025",
+    "authors": [
+      "Anna Corbett"
+    ],
+    "originalAuthors": [
+      "Anna Corbett"
+    ],
+    "aliases": [
+      "Anna Corbett",
+      "Anna Schlenz"
+    ],
+    "account": "Anna Corbett",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Tools",
+      "News",
+      "Privacy Issues/Information Security"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/10/18/6-tools-for-digital-safety-in-the-age-of-surveillance/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "6 Tools for Digital Safety in the Age of Surveillance",
+      "In response to the past year of anti-genocide student protests across NYC, Gov. Kathy Hochul pledged $3 million dollars to NYPD, and to CUNY administration to crack down on free speech and increase surveillance of student and faculty online activity. In this moment of academic repression where faculty are being fired for taking a stance against genocide online, maintaining internet safety is more important than ever. Here’s a guide to some effective tools to keep your private data private. (The asterisks* indicate that the software is open-source, woohoo!)",
+      "1. Password Managers",
+      "One of the simplest yet most powerful tools for online safety is a password manager. If you don’t practice good password management, the rest of these tools are a little useless.These applications securely store your passwords and generate strong, unique passwords for each of your accounts. Popular options like…"
+    ],
+    "fullParagraphs": [
+      "6 Tools for Digital Safety in the Age of Surveillance",
+      "In response to the past year of anti-genocide student protests across NYC, Gov. Kathy Hochul pledged $3 million dollars to NYPD, and to CUNY administration to crack down on free speech and increase surveillance of student and faculty online activity. In this moment of academic repression where faculty are being fired for taking a stance against genocide online, maintaining internet safety is more important than ever. Here’s a guide to some effective tools to keep your private data private. (The asterisks* indicate that the software is open-source, woohoo!)",
+      "1. Password Managers",
+      "One of the simplest yet most powerful tools for online safety is a password manager. If you don’t practice good password management, the rest of these tools are a little useless.These applications securely store your passwords and generate strong, unique passwords for each of your accounts. Popular options like LastPass and Bitwarden not only simplify the login process, but also reduce the risk of using weak or duplicate passwords (we use Bitwarden at the GCDI). By enabling two-factor authentication (2FA) alongside your password manager, you add an extra layer of security. But the most secure password manager is a notebook that you keep in your desk!",
+      "For help on creating strong passwords, check out this Tagging the Tower Article by a GCDF alum, Sam O’Hana.",
+      "2. Virtual Private Networks (VPNs)",
+      "A VPN is essential for anyone who frequently uses public Wi-Fi networks (or university wifi networks!) By encrypting your internet connection, a VPN helps shield your data from prying eyes. Services like NordVPN, ProtonVPN*, ExpressVPN are user-friendly options that protect your browsing activity and mask your IP address, making it harder to intercept your information.",
+      "3. Tor Network",
+      "Tor network* is designed to enhance online privacy and anonymity. It works by routing your internet connection through a series of volunteer-operated servers, known as nodes, which encrypt your data multiple times. When you access the internet via Tor, your data travels through these nodes before reaching its final destination, making it difficult for anyone to trace your activity back to you. This process not only obscures your IP address but also helps users bypass censorship and access blocked websites. While Tor is often associated with dark web activities, it's also used by journalists, activists, and individuals seeking enhanced privacy online.",
+      "4. Ad Blockers and Privacy Extensions",
+      "Online ads can be more than just an annoyance; they can also pose security risks. Ad blockers like uBlock Origin* or Privacy Badger* help block unwanted ads and trackers, preventing your online activities from being monitored. And browser extensions like HTTPS Everywhere* ensure you connect to websites securely, automatically redirecting you to the most secure version of the website whenever available, which can be useful when browsing on the Tor network.",
+      "5. Secure Browsers",
+      "Using a secure browser can make a significant difference in your online safety. Browsers like Brave* and Firefox* focus on user privacy and incorporate built-in features to block trackers and protect against fingerprinting. These browsers prioritize security, offering a safer browsing experience compared to other mainstream options.",
+      "6. Secure Communication and Co-working Platforms",
+      "Finally, secure communication is paramount in protecting your privacy. Encrypted messaging apps like Signal* and Telegram* provide end-to-end encryption, ensuring that your conversations remain private and secure from potential eavesdroppers. For video calls, platforms like Jitsi* also offer enhanced security features, allowing you to communicate safely. To collaborate on documents, try using Cryptpad* instead of Google Suite."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.000645804983908784,
+      0.40591708314213426,
+      0.014303649821050013,
+      0.00021903495479347378,
+      0.00038857982728621003,
+      0.18776409474105782,
+      0.2720337191076305,
+      0.1187280334221389
+    ],
+    "words": [
+      [
+        "password",
+        9
+      ],
+      [
+        "online",
+        8
+      ],
+      [
+        "like",
+        7
+      ],
+      [
+        "secure",
+        7
+      ],
+      [
+        "network",
+        6
+      ],
+      [
+        "privacy",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "20481",
+    "title": "AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 1)",
+    "date": "2024-10-11",
+    "year": "2024–2025",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "AI",
+      "News",
+      "Open Source Tools"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/10/11/ai-is-everywhere-is-it-in-qualitative-research-too-potentials-pitfalls-and-open-source-solutions-part-1/",
+    "signals": [
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "AI is everywhere these days. It’s in your pocket, driving cars, selecting what show we should binge on, and which search results we should see first. So, what about qualitative research?",
+      "I was curious to know how social science and humanities researchers are utilizing AI and how they are dealing with the more complicated issues that it raises. While AI offers some amazing tools to streamline and enhance the way we approach qualitative research, it also brings up a host of questions about how much we can—or should—trust machines to do the heavy lifting in fields that thrive on human insight and interpretation.As a geographer, I’m concerned about AI’s environmental impacts, often overlooked.",
+      "As a geographer, I am also concerned with the environmental impacts of AI development, which are often overlooked in discussions about its technological promise. Kate Crawford, in “Atlas of AI”, sheds light on the massive ecological footprint AI leaves…"
+    ],
+    "fullParagraphs": [
+      "AI is everywhere these days. It’s in your pocket, driving cars, selecting what show we should binge on, and which search results we should see first. So, what about qualitative research?",
+      "I was curious to know how social science and humanities researchers are utilizing AI and how they are dealing with the more complicated issues that it raises. While AI offers some amazing tools to streamline and enhance the way we approach qualitative research, it also brings up a host of questions about how much we can—or should—trust machines to do the heavy lifting in fields that thrive on human insight and interpretation.As a geographer, I’m concerned about AI’s environmental impacts, often overlooked.",
+      "As a geographer, I am also concerned with the environmental impacts of AI development, which are often overlooked in discussions about its technological promise. Kate Crawford, in “Atlas of AI”, sheds light on the massive ecological footprint AI leaves behind—from the extraction of rare earth metals to the immense energy consumption required to train AI models. These processes contribute to resource depletion, environmental degradation, and significant carbon emissions, raising ethical questions about the sustainability of AI systems. The hidden costs behind AI’s seemingly virtual world challenge us to rethink its true environmental and social impact.",
+      "So, I thought it could be helpful to review some research on these issues, and it could help me think about the potentials and pitfalls of AI in qualitative research in this series. For the first part I mainly looked for ways that AI is making things faster and more accessible for researchers and in the second part, I review the ethical concerns and challenges that come with it. Also, in keeping with the spirit of our work at the Digital Initiatives, I’ll introduce some of the best open-source tools that make it easier for everyone to harness AI’s power in qualitative analysis.",
+      "Potentials:",
+      "Efficient Data Processing and Thematic Analysis.",
+      "Let’s face it—manually coding qualitative data can be a time-consuming task, and large language models (LLMs) like ChatGPT can seriously speed up this process. AI allows researchers to work more efficiently and focus on interpretation by automating repetitive tasks like coding and thematic analysis. Studies show that AI can handle massive datasets, identify key themes, and streamline analysis in a fraction of the time (Zhang et al., 2024).",
+      "Take Taguette as an example. This open-source platform enables researchers to easily tag and code data, export results, and navigate qualitative data. By handling the heavy lifting, AI frees up time for researchers to engage with deeper, more complex aspects of the data. Similarly, platforms like AcademiaOS leverage AI to assist in grounded theory development, supporting human researchers in managing large amounts of information (Übellacker, 2023).",
+      "This expansion of AI utilization in research has also helped democratize the field to a certain extent. Historically, advanced tools for qualitative analysis were locked behind expensive paywalls of high-end, proprietary software like NVivo, or Atlas Ti.",
+      "Open-Source Platforms for AI-Driven Qualitative Research",
+      "- Taguette",
+      "Taguette is an open-source qualitative research tool that allows researchers to code and tag qualitative data efficiently. Its user-friendly interface makes it accessible to both novice and experienced researchers. Since it’s free and runs on local machines, it’s a great solution for those who want to ensure their data is secure.",
+      "- Weft QDA",
+      "For researchers on a budget, Weft QDA offers basic qualitative coding functionalities without the cost of commercial software. Its simplicity makes it a great choice for those new to qualitative research, while its open-source nature ensures that users can adapt the tool to their specific needs.",
+      "- AcademiaOS",
+      "AcademiaOS is designed to assist researchers with grounded theory development, using AI to automate much of the coding and analysis. While it handles the heavy lifting, it still requires human oversight, ensuring that the theoretical framework remains sound.",
+      "References:",
+      "Crawford, K. (2021). The Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence. Yale University Press.",
+      "Übellacker, T. (n.d.). AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models. Ar5iv. Retrieved October 5, 2024, from https://ar5iv.labs.arxiv.org/html/2403.08844",
+      "Zhang, H., Wu, C., Xie, J., Iyu, Y., & Cai, J. (n.d.). Redefining Qualitative Analysis in the AI Era: Utilizing ChatGPT for Efficient Thematic Analysis. Ar5iv. Retrieved October 5, 2024, from https://ar5iv.labs.arxiv.org/html/2309.10771"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.16392718500019457,
+      0.5179933978793468,
+      0.0031721501041770996,
+      0.00017369638267613529,
+      0.005755315312327588,
+      0.28780115139061374,
+      0.000561647246636082,
+      0.020615456684027984
+    ],
+    "words": [
+      [
+        "ai",
+        20
+      ],
+      [
+        "qualitative",
+        12
+      ],
+      [
+        "researcher",
+        10
+      ],
+      [
+        "research",
+        8
+      ],
+      [
+        "data",
+        7
+      ],
+      [
+        "analysis",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "20216",
+    "title": "GCDI Welcomes You Back for Fall '24!",
+    "date": "2024-09-10",
+    "year": "2024–2025",
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "originalAuthors": [
+      "Tuka Al-Sahlani"
+    ],
+    "aliases": [
+      "Tuka Al-Sahlani"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
+    "tags": [
+      "announcements",
+      "Announcements",
+      "Digital GC",
+      "event",
+      "Events",
+      "Featured",
+      "GC Events",
+      "GCDI Updates"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/09/10/gcdi-welcomes-you-back-for-fall-24/",
+    "signals": [],
+    "paragraphs": [
+      "Welcome back for the fall semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual, hybrid, and in-person events this semester! Don’t miss our Digital Scholarship Lab Hybrid Open House on Wednesday, September 11th. Drop In at the Digital Scholarship Lab (Room 7414) from…"
+    ],
+    "fullParagraphs": [
+      "Welcome back for the fall semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual, hybrid, and in-person events this semester! Don’t miss our Digital Scholarship Lab Hybrid Open House on Wednesday, September 11th. Drop In at the Digital Scholarship Lab (Room 7414) from 12:00 PM – 4:00 PM or virtually at 1:30pm or 3:00pm. This event is free and open to the entire Graduate Center community; however, registration is required. When you come, you can expect to hear a short presentation about what GCDI offers, meet and chat with the Fellows, tour the programs we have to offer, and learn about how you can be more involved with the GCDI community.",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual and in-person workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the R User’s Group (RUG), the Python User’s Group (PUG), the Sound Studies and Methods Working Group, the Digital Archives Research Collective (DARC), and the GIS/Mapping Working Group. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons, subscribe to our calendar, follow us on LinkedIn, and be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project?",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet in-person at the GC and remotely – via Zoom, Teams, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Open House",
+      "We will host an Open House at the GC Digital Scholarship Lab at the beginning of each year to introduce folks to the various resources GC Digital Initiatives has to offer and to assist individuals with questions related to their digital project. Our Fall 2024 Digital Scholarship Lab Open House will be held both in-person and virtually on Wednesday, September 11. Drop In at the Digital Scholarship Lab (Room 7414) from 12:00 PM – 4:00 PM or watch the Virtual Presentation at 1:30 PM or 3:00 PM. Check out our event page for more information about registration and what to expect!!",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed Slack workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer hands-on in person and remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community (learn how to get the most out of our workshops). Registration is required, You can select the workshop on the calendar and complete the workshop RSVP.",
+      "This semester we are offering a variety of workshops across September to November. These include:",
+      "Digital Safety in the Age of Surveillance // In-peron on September 24 @ 4:00 pm - 5:30 pm",
+      "How do you DH? // Virtually on October 7 @ 12:30 pm - 2:00 pm",
+      "From Paper to Website // In-person on October 17 @ 5:00 pm - 6:30 pm",
+      "Beginning Game Design with Python // Virtually on October 24 @ 2:00 pm - 4:00 pm",
+      "And more to follow…",
+      "In order to be as responsive as possible (workshop space is limited), please:",
+      "1) Be sure to RSVP to the workshops.",
+      "2) If you realize you can’t make it, please RSVP again with the “Can’t go” option.",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have free use of the open source, digital publishing platform, Manifold. Manifold is an Andrew W. Mellon Foundation and National Endowment for the Humanities (NEH) funded collaboration between the GC, University of Minnesota Press, and Cast Iron Coding. On CUNY’s instance of Manifold you can publish your own scholarship (searching for mami & abuelita - dissertation, Queer and Trans Prison Voices - capstone), journals (Journal of Interactive Technology and Pedagogy JITP), Open Education Resources (OER) such as: archival projects (Let My People Know, Realizing the Dream of a Black University), class projects & course materials (Black Diasporic Visions, Modern Art and OER Writing Seminar, Archives Unbound) teaching editions of public domain texts (The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), and creative work such as poetry or personal essays (When We Had Cancer). Manifold projects are multimedia friendly and texts built in Manifold may be annotated using Manifold’s built-in social annotation tool. To learn about the project, its development, and the institutions using it, follow Manifold on GitHub, join the Manifold Users group on the CAC, and check out our Quick Guides, documentation and walkthroughs to get started using Manifold! If you have questions about using Manifold please contact Robin Miller or Manifold Graduate Fellows Cen Liu and Maura McCreight.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible to register for an account on the CUNY Academic Commons. The Commons is a CUNY-created and run platform for building websites, creating and joining groups, and connecting with peers across various spaces at the GC and beyond. Faculty, staff, and students at CUNY use the Commons to teach and take courses, create academic portfolios, host websites for their research projects or academic department, and more! Not only are you welcome to create your own websites using the WordPress framework offered on the Commons, you can also take advantage of the Commons' Group capabilities to share files, host private discussion forums, and send emails to group members. To learn more, check out the Commons' About page, read the latest Commons News releases, browse featured groups and sites, and visit the Commons' HELP pages for support with getting started.",
+      "GC Resources and Centers",
+      "Among the other acronyms you might see associated with GCDI are some amazing partners — the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such as tools, methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Introduction to R Markdown by Yuxioa Luo",
+      "JavaScript or Python: Which is Better for Academics to Learn? by Chelsea Lane",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "Recap: Beginner’s Guide to Web-Scraping by Di Yoong",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective, the Digital Dissertations Resource Guide, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Anna, Chen, Maggie, Parisa, Peyton, Silvia, Tuka, and Zach",
+      "Note: This post by GC Digital Fellow Tuka Al-Sahlani is updated from the post by GC Digital Fellows Rebecca Krisel in 2023, Zachary Lloyd in 2022, Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018, Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

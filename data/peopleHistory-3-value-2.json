@@ -1,0 +1,1856 @@
+[
+  {
+    "name": "Patrick Sweeney",
+    "entries": [
+      {
+        "postId": "19807",
+        "title": "Digital Tools for Qualitative Data Analysis",
+        "year": "2015–2016",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2015/10/14/digital-tools-for-qualitative-data-analysis/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19825",
+        "title": "Theorizing Psychological Dynamics of Digital Culture",
+        "year": "2015–2016",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/03/14/theorizing-psychological-dynamics-of-digital-culture/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19830",
+        "title": "Digital Fellows Fall Workshops Announced",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/09/13/digital-fellows-fall-workshops-announced-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19831",
+        "title": "Upcoming Workshop (9/29): The Lexicon of DH",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/09/26/upcoming-workshop-929-the-lexicon-of-dh/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19832",
+        "title": "Upcoming Workshop (10/4): Databases Part I: Introduction to Data Management with Databases and SQL",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/10/03/upcoming-workshop-104-databases-part-i-introduction-to-data-management-with-databases-and-sql/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "3776",
+        "title": "Upcoming Workshop (9/22): Establishing a Digital Academic Identity and Intro to WordPress",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/09/20/upcoming-workshop-922-establishing-a-digital-academic-identity-and-intro-to-wordpress/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "3866",
+        "title": "Upcoming Workshop (10/13): Databases Part II: Querying in the Real World",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/10/11/upcoming-workshop-1013-databases-part-ii-querying-in-the-real-world/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4903",
+        "title": "GC Digital Research Institute Applications Open",
+        "year": "2018–2019",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Patrick Sweeney",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/11/16/4903/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Psychology",
+        "label": "Psychology",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-062-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Patrick Sweeney, Psychology | GC Digital Fellow, Coordinator 2015-2019"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Paul Herbert",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-060-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Paul Herbert, English | Program Social Media Fellow 2012 – 2019"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "social-media"
+    ]
+  },
+  {
+    "name": "Peter Kurtz",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Comparative Literature",
+        "label": "Comparative Literature",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Peter Kurtz",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Peter Kurtz | Comparative Literature"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "social-media"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Peyton Cordero",
+    "entries": [
+      {
+        "postId": "20674",
+        "title": "Racialized Aspects of Data Collection & Data Use",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Peyton Cordero",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/12/06/racialized-aspects-of-data-collection-data-use/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21699",
+        "title": "The Social Elsewhere: A Look at Alt-Social Media",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Peyton Cordero",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/04/11/alt-social-media/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21969",
+        "title": "Reflections on the inaugural “Conversations in Digital Scholarship”",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Peyton Cordero",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post is collectively written by the GCDI fellows: | Peyton Cordero, and Chen Zhou.",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/05/23/reflections-on-the-inaugural-conversations-in-digital-scholarship/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Political Science",
+        "label": "Political Science",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-017-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Peyton Cordero, Political Science | GC Digital Fellow 2024-2025"
+      },
+      {
+        "raw": "Black, Race, and Ethnic Studies",
+        "label": "Black, Race, and Ethnic Studies",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Peyton Cordero",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Peyton Cordero | Black, Race, and Ethnic Studies"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Philip Wiles",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Theatre & Performance",
+        "label": "Theatre and Performance",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Philip Wiles",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Philip Wiles | Theatre & Performance"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "social-media"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Philomena Elom",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Speech-Language-Hearing Sciences",
+        "label": "Speech-Language-Hearing Sciences",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Philomena Elom",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Philomena Elom | Speech-Language-Hearing Sciences"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "social-media"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Pranav Chinmay",
+    "entries": [
+      {
+        "postId": "23273",
+        "title": "Introduction to Python’s NetworkX",
+        "year": "2025–2026",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Pranav Chinmay",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/12/12/introduction-to-pythons-networkx/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "23981",
+        "title": "An Introduction to Matplotlib",
+        "year": "2025–2026",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Pranav Chinmay",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/03/06/an-introduction-to-matplotlib/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Mathematics",
+        "label": "Mathematics",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-007-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Pranav Chinmay, Mathematics | GC Digital Fellow 2025-2026"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Qiyao Pan",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Migration & QMSS",
+        "label": "Migration & QMSS",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Qiyao Pan",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Qiyao Pan | Migration & QMSS"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "social-media"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Rachel Rakov",
+    "entries": [
+      {
+        "postId": "3788",
+        "title": "GCDI Digital Projects Working Groups: An Introduction",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/09/27/gcdi-digital-projects-working-groups-an-introduction/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4348",
+        "title": "Learning to program, for everybody",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2017/03/29/learning-to-program-for-everybody/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19845",
+        "title": "Problems with Python? The Python Users' Group is Here to Help!",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/02/16/problems-with-python-the-python-users-group-is-here-to-help/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19846",
+        "title": "Audio Annotation with Praat and Python: Reflections on a workshop",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/03/29/audio-annotation-with-praat-and-python-reflections-on-a-workshop/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4456",
+        "title": "How do I solve [insert problem here] with Python?",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "reviewed cross-reference credit",
+        "authorshipTier": "source-supported",
+        "evidence": "How do I solve [insert problem here] with Python? By Rachel Rakov",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/02/13/python_libraries/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4459",
+        "title": "Passions, Projects, and Python",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2017/09/14/passions-projects-and-python/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4698",
+        "title": "First ever GC Digital Scholarship Lab Open House - Join us on February 27th",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/02/22/first-ever-gc-digital-scholarship-lab-open-house-join-us-on-february-27th/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4714",
+        "title": "Introducing Student Consultations!",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/03/08/introducing-student-consultations/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6221",
+        "title": "New blog post from the GC Digital Fellows on Tagging the Tower",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://digitalfellows.commons.gc.cuny.edu/2017/09/14/passions-projects-and-python/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4809",
+        "title": "I Forced a Bot to Read 1,000 of My Blog Posts, Then Asked It to Write Its Own.",
+        "year": "2018–2019",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rachel Rakov",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/09/27/i-forced-a-bot-to-read-1000-of-my-blog-posts-then-asked-it-to-write-its-own/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Linguistics",
+        "label": "Linguistics",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-066-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rachel Rakov, Linguistics | GC Digital Fellow 2016-2019"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Rafael Davis Portela",
+    "entries": [
+      {
+        "postId": "5162",
+        "title": "How I Organize My Digital Library",
+        "year": "2018–2019",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rafael Davis Portela",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2019/05/02/how-i-organize-my-digital-library-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19853",
+        "title": "Learning Python with the Python Users' Group",
+        "year": "2019–2020",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rafael Davis Portela",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2019/10/23/learning-python-with-the-python-users-group-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19861",
+        "title": "Don't Let Installations Stop You From Learning Python!",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rafael Davis Portela",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/10/30/dont-let-installations-stop-you-from-learning-python/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "5994",
+        "title": "Exploring Data with Python and Pandas",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rafael Davis Portela",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/04/09/exploring-data-with-python-and-pandas-2/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "History",
+        "label": "History",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-023-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rafael Davis Portela, History | GC Digital Fellow 2018 – 2021 and Advising Fellow for the M.S. in Data Analysis and Visualization program 2021 – 2024"
+      },
+      {
+        "raw": "History",
+        "label": "History",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-023-2",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rafael Davis Portela, History | GC Digital Fellow 2018 – 2021 and Advising Fellow for the M.S. in Data Analysis and Visualization program 2021 – 2024"
+      },
+      {
+        "raw": "History",
+        "label": "History",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-042-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rafael Davis Portela, History | GC Digital Fellow 2018 – 2021"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "advising",
+      "digital"
+    ]
+  },
+  {
+    "name": "Rebecca Krisel",
+    "entries": [
+      {
+        "postId": "6153",
+        "title": "How to create websites with audio and visual elements on the CUNY Academic Commons",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/10/27/how-to-create-websites-with-audio-and-visual-elements-on-the-cuny-academic-commons/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19875",
+        "title": "GCDI Welcomes You to the Fall Semester!",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Rebecca Krisel",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/09/21/gcdi-welcomes-you-to-the-fall-semester-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19878",
+        "title": "From Dataphobe to Dataphile",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/11/08/how-the-gcdi-digital-research-institute-planted-the-seed-that-allowed-my-research-and-career-goals-to-grow-in-new-directions/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19881",
+        "title": "Spring is in the air! Welcome back from GCDI and the Digital Fellows!",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Rebecca Krisel",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/01/30/spring-is-in-the-air-welcome-back-from-gcdi-and-the-digital-fellows/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19385",
+        "title": "Building Your First Database in SQL - GC Digital Fellows",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "explicit source-author bio",
+        "authorshipTier": "source-supported",
+        "evidence": "About Rebecca Krisel (she/her)",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2023/09/29/building-your-first-database-in-sql/"
+      },
+      {
+        "postId": "6794",
+        "title": "GCDI Welcomes You Back!",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rebecca Krisel",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Rebecca Krisel",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/09/05/gcdi-welcomes-you-back/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Political Science",
+        "label": "Political Science",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-025-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rebecca Krissel Political Science| GC Digital Fellow 2021 – 2024"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Rilquer Mascarenhas",
+    "entries": [
+      {
+        "postId": "6198",
+        "title": "Quick and easy mapping with R",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rilquer Mascarenhas",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/11/03/quick-and-easy-mapping-with-r/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19879",
+        "title": "How to Organize Data for Maps",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rilquer Mascarenhas",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/11/21/how-to-organize-data-for-maps/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19883",
+        "title": "Using raster spatial data in R",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Rilquer Mascarenhas",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/02/22/using-raster-spatial-data-in-r/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Biology",
+        "label": "Biology",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-030-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Rilquer Mascarenhas,  Biology | GC Digital Fellow 2021 – 2023"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Sam O'Hana",
+    "entries": [
+      {
+        "postId": "19824",
+        "title": "Upcoming Workshop (3/15): Establishing a Digital Identity & Wordpress I",
+        "year": "2015–2016",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/03/08/upcoming-workshop-315-establishing-a-digital-identity-wordpress-i/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19828",
+        "title": "Applications for Digital Research Institute due APRIL 22nd!!!",
+        "year": "2015–2016",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/04/21/applications-for-digital-research-institute-due/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "3507",
+        "title": "Create Your (FREE) Website Using Github and Jekyll",
+        "year": "2015–2016",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/03/21/create-your-free-website-using-github-and-jekyll/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "4574",
+        "title": "GCDI and Comp Sci Visualization Seminar: The Book of Circles",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2017/12/05/gcdi-and-comp-sci-visualization-seminar-the-book-of-circles/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6337",
+        "title": "My experience at the DRI",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/04/07/my-experience-at-the-dri/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "18968",
+        "title": "The Right to Repair: Taking the Tools to Renew our Personal Electronics - GC Digital Fellows",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "source metadata",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/12/the-right-to-repair-why-we-should-be-given-the-information-and-tools-to-repair-our-personal-electronics-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2022/10/12/the-right-to-repair-why-we-should-be-given-the-information-and-tools-to-repair-our-personal-electronics/"
+      },
+      {
+        "postId": "19882",
+        "title": "When Servers Burn: The Next Great Fire At Alexandria",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/02/08/when-servers-burn-the-next-great-fire-at-alexandria/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6446",
+        "title": "The Right to Repair: Why We Should be Given the Information and Tools to Repair our Personal Electronics",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/12/the-right-to-repair-why-we-should-be-given-the-information-and-tools-to-repair-our-personal-electronics/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19375",
+        "title": "The GCDI Guide to Password Management - GC Digital Fellows",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "explicit source-author bio",
+        "authorshipTier": "source-supported",
+        "evidence": "About Sam O'Hana",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/09/27/the-gcdi-guide-to-password-management-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2023/09/15/the-gcdi-guide-to-password-management/"
+      },
+      {
+        "postId": "23481",
+        "title": "Why Should You Make a Website For Your Tenants’ Association?",
+        "year": "2025–2026",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sam O'Hana",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "By Sam O'Hana",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/02/06/why-should-you-make-a-website-for-your-tenants-association/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Sam O’Hana",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Sam O’Hana | English"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "advising"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Sara Feinstein",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Sociology",
+        "label": "Sociology",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Sara Feinstein",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Sara Feinstein | Sociology"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Sejung Sage Yim",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Sociology",
+        "label": "Sociology",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-044-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Sejung Sage Yim, Sociology | Social Media Fellow 2018 – 2021"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "social-media"
+    ]
+  },
+  {
+    "name": "Shanique Meyler",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Psychology",
+        "label": "Psychology",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-010-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Shanique Meyler, Psychology | Program Social Media Fellow 2024-2026"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "social-media"
+    ]
+  },
+  {
+    "name": "Shokraan Rahiminezhad",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Earth & Environmental Sciences",
+        "label": "Earth and Environmental Sciences",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Shokraan Rahiminezhad",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Shokraan Rahiminezhad | Earth & Environmental Sciences"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Silvia Rivera Alfaro",
+    "entries": [
+      {
+        "postId": "6053",
+        "title": "My Feelings on the Digital Research Institute",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/05/03/my-feelings-on-the-digital-research-institute/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19066",
+        "title": "What is WordPress? - GC Digital Fellows",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "source metadata",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/11/03/what-is-wordpress-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2022/11/03/what-is-wordpress/"
+      },
+      {
+        "postId": "6520",
+        "title": "What is WordPress?",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/11/03/what-is-wordpress/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6651",
+        "title": "WordPress: How to create content",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/03/01/wordpress-how-to-create-content/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6655",
+        "title": "WordPress: Thinking about the aesthetics",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/03/13/wordpress-thinking-about-the-aesthetics/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19888",
+        "title": "Opening our house, opening our lab!",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/09/21/opening-our-house-opening-our-lab/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6877",
+        "title": "Geochicas: beyond map making",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/11/17/geochicas-beyond-map-making/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6961",
+        "title": "The smartwatch dilemma",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/02/16/the-smartwatch-dilemma/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "7042",
+        "title": "Digital Women: Commemorating Women's History Month",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/03/29/digital-women-commemorating-womens-history-month/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "20646",
+        "title": "Digital Humanities in the Anthropocene",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/11/25/digital-humanities-in-the-anthropocene/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21025",
+        "title": "Doing humanidades digitales at CUNY",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/02/14/doing-humanidades-digitales-at-cuny/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21649",
+        "title": "Reflecting on Alt Text and its Ethics",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/04/04/alt-text-ethics/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21969",
+        "title": "Reflections on the inaugural “Conversations in Digital Scholarship”",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Silvia Rivera Alfaro",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post is collectively written by the GCDI fellows: | Peyton Cordero, and Chen Zhou.",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/05/23/reflections-on-the-inaugural-conversations-in-digital-scholarship/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "LAILAC",
+        "label": "Latin American, Iberian, and Latino Cultures",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-016-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Silvia Rivera Alfaro, LAILAC | GC Digital Fellow 2022-2025, Program Coordinator 2025-2026"
+      },
+      {
+        "raw": "LAILAC",
+        "label": "Latin American, Iberian, and Latino Cultures",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-016-2",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Silvia Rivera Alfaro, LAILAC | GC Digital Fellow 2022-2025, Program Coordinator 2025-2026"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "coordinator",
+      "digital"
+    ]
+  },
+  {
+    "name": "Sophie Bala",
+    "entries": [
+      {
+        "postId": "24691",
+        "title": "Welcome Back Fall '26!",
+        "year": "2026–2027",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sophie Bala",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Sophie Bala",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "24863",
+        "title": "A few important considerations when making charts and graphs",
+        "year": "2026–2027",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Sophie Bala",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/10/27/a-few-important-considerations-when-making-charts-and-graphs/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Earth & Environmental Science",
+        "label": "Earth and Environmental Sciences",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Sophie Bala",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Sophie Bala | Earth & Environmental Science"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Stefano Morello",
+    "entries": [
+      {
+        "postId": "4934",
+        "title": "A Conceptual Guide to Digital Academic Identity",
+        "year": "2018–2019",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/11/30/a-conceptual-guide-to-digital-academic-identity/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "12195",
+        "title": "A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site",
+        "year": "2019–2020",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "source metadata",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2019/11/08/a-legible-digital-archive-displaying-and-sorting-content-on-your-omeka-site/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2019/11/07/a-legible-digital-archive-displaying-and-sorting-content-on-an-omeka-site/"
+      },
+      {
+        "postId": "5386",
+        "title": "A Legible Digital Archive: Displaying and Sorting Content on Your Omeka Site",
+        "year": "2019–2020",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2019/11/07/a-legible-digital-archive-displaying-and-sorting-content-on-an-omeka-site/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "5544",
+        "title": "Teaching with Omeka",
+        "year": "2019–2020",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/04/03/teaching-with-omeka-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19864",
+        "title": "Getting the Most Out of Working Groups",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/12/08/getting-the-most-out-of-working-groups/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19869",
+        "title": "Choosing the Right Platform for Your Digital Archive",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/03/22/choosing-the-right-platform-for-your-digital-archive/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "5760",
+        "title": "GCDI is Here for You!",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "5881",
+        "title": "DARC Open Meeting Recap",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Stefano Morello",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/11/18/darc-open-meeting-recap/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-041-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Stefano Morello, English | GC Digital Fellow 2018 – 2021"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Stephen Ogumah",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Classics",
+        "label": "Classics",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-065-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Stephen Ogumah, Classics | Videography Fellow 2016-2019"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "videography"
+    ]
+  },
+  {
+    "name": "Tahir H. Butt",
+    "entries": [
+      {
+        "postId": "3889",
+        "title": "Docker in the classroom: Creating a virtual environment for instruction",
+        "year": "2016–2017",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tahir H. Butt",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2016/11/15/docker-in-the-classroom-creating-a-virtual-environment-for-instruction/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Urban Education",
+        "label": "Urban Education",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-073-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Tahir Butt, Urban Education | GC Digital Fellow 2016-2018"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Tom Ribitzky",
+    "entries": [
+      {
+        "postId": "7060",
+        "title": "How Participating in the GCDRI can Develop Your Research",
+        "year": "2017–2018",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tom Ribitzky",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2018/04/02/how-participating-in-the-gcdri-can-develop-your-research/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Comparative Literature",
+        "label": "Comparative Literature",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-051-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Tom Ribitzky, Comparative Literature | Program Coordinator 2017 – 2020"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "coordinator"
+    ]
+  },
+  {
+    "name": "Tuka Al-Sahlani",
+    "entries": [
+      {
+        "postId": "6927",
+        "title": "Digital Humanities Tools for Beginners and Non-coders",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/12/07/digital-humanities-tools-for-beginners-and-non-coders/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6943",
+        "title": "Welcome back for the Spring '24 semester!",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Tuka Al-Sahlani",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/01/29/welcome-back-for-the-spring-24-semester/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "20216",
+        "title": "GCDI Welcomes You Back for Fall '24!",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Tuka Al-Sahlani",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/09/10/gcdi-welcomes-you-back-for-fall-24/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "20845",
+        "title": "Welcome to Spring 2025!",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Tuka Al-Sahlani",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/02/04/welcome-to-spring-2025/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21969",
+        "title": "Reflections on the inaugural “Conversations in Digital Scholarship”",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post is collectively written by the GCDI fellows: | Peyton Cordero, and Chen Zhou.",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/05/23/reflections-on-the-inaugural-conversations-in-digital-scholarship/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "22123",
+        "title": "Welcome to Fall '25!",
+        "year": "2025–2026",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Tuka Al-Sahlani",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/09/09/welcome-to-fall-25/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "24393",
+        "title": "Update from the Digital Scholarship Lab: Visit our Data Lab",
+        "year": "2025–2026",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Tuka Al-Sahlani",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/05/01/the-data-lab-at-the-digital-scholarship-lab/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-003-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Tuka Al-Sahlani, English | GC Digital Fellow 2023-2026"
+      },
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Tuka Al-Sahlani",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Tuka Al-Sahlani | English"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "coordinator"
+    ],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Yuxiao Luo",
+    "entries": [
+      {
+        "postId": "5804",
+        "title": "Using RQDA for Qualitative Data Analysis",
+        "year": "2020–2021",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2020/10/16/use-rqda-for-qualitative-data-analysis/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19874",
+        "title": "Introduction to R Markdown",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/05/18/introduction-to-r-markdown/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6217",
+        "title": "Introduction to R and RStudio",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/11/09/introduction-to-r-and-rstudio-2/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19029",
+        "title": "How to Update R using the \"installr\" Package - GC Digital Fellows",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "source metadata",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/26/how-to-update-r-from-r-using-the-installr-package-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2022/10/25/how-to-update-r-from-r-using-the-installr-package/"
+      },
+      {
+        "postId": "19877",
+        "title": "How to Update R from R using the \"installr\" Package",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/25/how-to-update-r-from-r-using-the-installr-package/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6662",
+        "title": "Comparing Floating Point Numbers in R",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Yuxiao Luo",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/03/15/comparing-floating-point-numbers-in-r/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Information Systems",
+        "label": "Information Systems",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-031-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Yuxiao Luo,  Information Systems | GC Digital Fellow 2020 – 2023"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Zach Muhlbauer",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "English",
+        "label": "English",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Zach Muhlbauer",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Zach Muhlbauer | English"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "advising"
+    ],
+    "roles": []
+  },
+  {
+    "name": "Zachary Lloyd",
+    "entries": [
+      {
+        "postId": "19871",
+        "title": "Greetings Digital GC – Welcome back!",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post by GC Digital Fellow Zachary Lloyd",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/02/07/greetings-digital-gc-welcome-back/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6243",
+        "title": "Getting Started with Pygame",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2021/11/23/getting-started-with-pygame/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "6358",
+        "title": "Introduction to CSS Keyframes (Animations)",
+        "year": "2021–2022",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/05/13/introduction-to-css-keyframes-animations/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "18998",
+        "title": "Reading Documentation: A Practical Approach for Beginners - GC Digital Fellows",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "curated/source-linked",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "source metadata",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/19/reading-documentation-a-practical-approach-for-beginners-gc-digital-fellows/",
+        "sourceUrl": "https://digitalfellows.commons.gc.cuny.edu/2022/10/18/reading-documentation-a-practical-approach-for-beginners/"
+      },
+      {
+        "postId": "19876",
+        "title": "Reading Documentation: A Practical Approach for Beginners",
+        "year": "2022–2023",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2022/10/18/reading-documentation-a-practical-approach-for-beginners/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "19890",
+        "title": "Creating Visual Novels with Python and Ren'Py",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2023/10/19/creating-visual-novels-with-python-and-renpy/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "7016",
+        "title": "10 Useful Extensions for VSCode",
+        "year": "2023–2024",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/03/15/10-useful-extensions-for-vscode/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "20557",
+        "title": "Web Scraping with Python and the Reddit API",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "provisional posting-account attribution",
+        "authorshipTier": "unresolved-account",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2024/11/01/web-scraping-with-python-and-the-reddit-api/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21509",
+        "title": "Let's Build a Browser Extension!",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/03/28/lets-build-a-browser-extension/",
+        "sourceUrl": ""
+      },
+      {
+        "postId": "21969",
+        "title": "Reflections on the inaugural “Conversations in Digital Scholarship”",
+        "year": "2024–2025",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Zachary Lloyd",
+        "creditStatus": "explicit body credit",
+        "authorshipTier": "source-supported",
+        "evidence": "This post is collectively written by the GCDI fellows: | Peyton Cordero, and Chen Zhou.",
+        "url": "https://gcdi.commons.gc.cuny.edu/2025/05/23/reflections-on-the-inaugural-conversations-in-digital-scholarship/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Comparative Literature",
+        "label": "Comparative Literature",
+        "basis": "Saved alumni directory claim",
+        "claimId": "alumni-018-1",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/#alum",
+        "passage": "Zach Lloyd, Comparative Literature | GC Digital Fellow 2021-2025"
+      },
+      {
+        "raw": "Comparative Literature",
+        "label": "Comparative Literature",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Zach Lloyd",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Zach Lloyd | Comparative Literature"
+      }
+    ],
+    "datedDigitalFellow": true,
+    "currentDigitalFellow": false,
+    "currentRoles": [
+      "advising"
+    ],
+    "roles": [
+      "digital"
+    ]
+  },
+  {
+    "name": "Zhilang Liu",
+    "entries": [],
+    "affiliations": [
+      {
+        "raw": "Linguistics",
+        "label": "Linguistics",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Zhilang Liu",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Zhilang Liu | Linguistics"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
+    "roles": []
+  }
+]

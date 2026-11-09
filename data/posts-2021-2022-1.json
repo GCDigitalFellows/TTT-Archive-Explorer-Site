@@ -1,0 +1,2456 @@
+[
+  {
+    "id": "19874",
+    "title": "Introduction to R Markdown",
+    "date": "2022-05-18",
+    "year": "2021–2022",
+    "authors": [
+      "Yuxiao Luo"
+    ],
+    "originalAuthors": [
+      "Yuxiao Luo"
+    ],
+    "aliases": [
+      "Yuxiao Luo"
+    ],
+    "account": "Yuxiao Luo",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "rmarkdown"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/05/18/introduction-to-r-markdown/",
+    "signals": [],
+    "paragraphs": [
+      "Before we start",
+      "This is a short tutorial to discuss the basic Markdown syntax and essential features of R Markdown to an R user with no experience in Markdown.",
+      "`R` refers to both the programming language and the free software environment for data analysis and graphics. RStudio is a popular environment (IDE, or integrated development environment) to only write your R scripts but also to interact with the R software. R Markdown is a file format for making dynamic, report-quality documents with R.",
+      "This blog post requires preliminary knowledge of using R in RStudio. If you want to quickly pick them up, this article about Introduction to R & RStudio can help with that.",
+      "What is Markdown?",
+      "Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is easy to format headings, bold text, italics, etc. There is quick reference for Markdown in RStudio as shown in Figure 1.",
+      "Figure 1 Markdown Quick Reference"
+    ],
+    "fullParagraphs": [
+      "Before we start",
+      "This is a short tutorial to discuss the basic Markdown syntax and essential features of R Markdown to an R user with no experience in Markdown.",
+      "`R` refers to both the programming language and the free software environment for data analysis and graphics. RStudio is a popular environment (IDE, or integrated development environment) to only write your R scripts but also to interact with the R software. R Markdown is a file format for making dynamic, report-quality documents with R.",
+      "This blog post requires preliminary knowledge of using R in RStudio. If you want to quickly pick them up, this article about Introduction to R & RStudio can help with that.",
+      "What is Markdown?",
+      "Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. It is easy to format headings, bold text, italics, etc. There is quick reference for Markdown in RStudio as shown in Figure 1.",
+      "Figure 1 Markdown Quick Reference",
+      "I summarized some mostly used syntax for Markdown here:",
+      "Emphasis: * or **",
+      "Headers: #, ##, and ###",
+      "Lists:",
+      "Unordered list: -, +, etc…",
+      "Ordered list: 1, 2, etc…",
+      "Links: (https://yuxiaoluo.github.io)",
+      "Images: !(figures/img.png)",
+      "Horizontal Rule/Page Break: ******",
+      "Figure 2 shows the markdown syntax for the R User Group Introduction on GitHub and Figure 3 shows the rendered result of that.",
+      "Figure 2 Markdown Syntax",
+      "Figure 3 Markdown Rendered Result",
+      "What is R Markdown",
+      "R Markdown is a file format, which is written in Markdown (a plain text format) and contains chunks of R code. R Markdown provides an authoring framework for data science and can be used to save/execute code and generate high quality reports to share with audiences. R Markdown is popular because it is reproducible and supports dozens of static and dynamic output formats, such as pdf, html, latex, and so on.",
+      "Get started with R Markdown",
+      "First, we need to install the `rMarkdown` package to use it.",
+      "install.packages(\"rMarkdown\") library(rMarkdown)",
+      "Then, we can navigate to the Menu bar and open a new R Markdown file by clicking on these button in order File-> New File -> R Markdown…. An R Markdown file will be created and it comes with a suffix .Rmd.",
+      "R code chunks",
+      "One of the biggest benefits of R Markdown is that you can organize both the code and regular text in one document and code chunk is the place where you put the R code in. You can think of the code chunk as a single piece of R script and the code can do anything as it is in a R script file, such as reading data, data wrangling, constructing regression model, generating graphics, etc.",
+      "You can create an R code chunk by clicking the green button on top right as shown in Figure 4. Ctrl+Alt+i is the shortcut for creating R code chunk. You can also create code chunks executing other programming languages like Python, Bash, SQL, etc.",
+      "Figure 4 Insert Code Chunk",
+      "Embedding R code",
+      "You can embed an R code chunk and type R code in the chunk. It’s important to remember when you create an R Markdown file and if you run code to refer to an object, you should include instructions showing what is that object.",
+      "A = c(\"a\", \"a\", \"b\", \"b\") B = c(5, 9, 85, 23) dataframe = data.frame(A, B) print(dataframe)",
+      "If you are loading a data frame from a .csv file, you must include the code in .Rmd, like what you do in the normal R script.",
+      "dataframe = read.csv(\"~/Desktop/Code/dataframe.csv\")",
+      "Including plots",
+      "When you want to include a plot without showing the R code that generates the plot. You can change the parameter to echo = FALSE.",
+      "```{r pressure, echo = FALSE} plot(pressure) ```",
+      "Chunk options",
+      "R Markdown is using knitr to generate the .md file. There are more than 50 chunk options that can be used to fine-tune the behavior of knitr when processing R chunks. Please refer to the online documentation here for the full list of options.",
+      "You can apply the chunk options to individual code chunks; You can also apply any chunk options globally to a whole document, so you don’t have to repeat the options in every single code chunk. To set chunk options globally, call knitr::opts_chunk$set() in a code chunk (usually the first one in the document), like the first code chunk in this R Markdown document.",
+      "knitr::opts_chunk$set( comment = \"#\", echo = FALSE, fig.width = 6 )",
+      "Here I also listed 4 most useful code chunk options:",
+      "eval: (TRUE; logical or numeric) Whether to evaluate the code chunk. It can also be a numeric vector to choose which R expression(s) to evaluate, e.g., eval = c(1, 3, 4) will evaluate the first, third, and fourth expressions, and eval = -(4:5) will evaluate all expressions except the fourth and fifth.",
+      "echo: (TRUE; logical or numeric) Whether to display the source code in the output document. Besides `TRUE/FALSE`, which shows/hides the source code, we can also use a numeric vector to choose which R expression(s) to echo in a chunk, e.g., echo = 2:3 means to echo only the 2nd and 3rd expressions, and echo = -4 means to exclude the 4th expression.",
+      "warning: (TRUE; logical) Whether to preserve warnings (produced by warning()) in the output. If FALSE, all warnings will be printed in the console instead of the output document. It can also take numeric values as indices to select a subset of warnings to include in the output. Note that these values reference the indices of the warnings themselves (e.g., 3 means “the third warning thrown from this chunk”) and not the indices of which expressions are allowed to emit warnings.",
+      "include: (TRUE; logical) Whether to include the chunk output in the output document. If FALSE, nothing will be written into the output document, but the code is still evaluated and plot files are generated if there are any plots in the chunk, so you can manually insert figures later.",
+      "Output R Markdown file",
+      "Now you want to generate the markdown file. There are two ways to output your R Markdown file and render it to a new file in the format that we are familiar with, like webpage, pdf, etc. The first way of output is to click the Knit button in RStudio IDE, then a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. R Markdown generates a new file that contains selected text, code, and results from the .Rmd file. The new file can be a web page, PDF, MS Word document, slide show, notebook, handout, book, dashboard, package vignette or other format.",
+      "The second way is to write the render() function in the RStudio console, where you can set output_format argument to render your .Rmd file to any R Markdown’s supported format. The code below renders 1-example.Rmd to a MS Word document.",
+      "library(rmarkdown) render(\"1-example.Rmd\", output_format = \"word_document\")",
+      "In the render process, R Markdown feeds the .Rmd file to knitr, which executes all of the code chunks and creates a new Markdown (.md) document which includes the code and its output. R Markdown can be rendered to different formats and to more than one type of documents at the same time by specifying one or more formats in the output argument.",
+      "If you do not select a format, R Markdown renders the file to its default format, which you can set in the output field of a .Rmd file’s header. The header of a raw R Markdown script shows that it renders to an HTML file by default. This article summarizes seven most useful formats in the list below, but it doesn’t include all the possible formats, you can find more other possible formats here.",
+      "html_notebook - Interactive R Notebooks",
+      "html_document - HTML document w/ Bootstrap CSS",
+      "pdf_document - PDF document (via LaTeX template)",
+      "word_document - Microsoft Word document (docx)",
+      "odt_document - OpenDocument Text document",
+      "rtf_document - Rich Text Format document",
+      "md_document - Markdown document (various flavor)",
+      "RUG (R User Group)",
+      "If you have any questions regarding R or just want to simply get started with it, do not hesitate to join us at the RUG (R User Group) meetings or to schedule a consultation with the GC Digital Fellows.",
+      "Reference",
+      "The content of this blog post is inspired and adapted from the following public materials, many thanks to these authorsVisit these resources if you want to learn more about R Markdown.",
+      "R for Health Data Science by Ewen Harrison and Riinu Pius",
+      "R Markdown Lesson from RStudio",
+      "Getting started with R Markdown by John",
+      "R Markdown: The Definite Guide by Yihui Xie, J. J. Allaire, and Garrett Grolemund"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.03521021672930545,
+      0.00024363874436938735,
+      0.7228584261415926,
+      8.259254311649324e-05,
+      0.0001465236275625357,
+      0.03842451840644937,
+      0.20100182223940988,
+      0.002032261568194318
+    ],
+    "words": [
+      [
+        "r",
+        56
+      ],
+      [
+        "markdown",
+        40
+      ],
+      [
+        "code",
+        33
+      ],
+      [
+        "chunk",
+        30
+      ],
+      [
+        "document",
+        29
+      ],
+      [
+        "file",
+        23
+      ]
+    ]
+  },
+  {
+    "id": "6358",
+    "title": "Introduction to CSS Keyframes (Animations)",
+    "date": "2022-05-13",
+    "year": "2021–2022",
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "originalAuthors": [
+      "Zachary Lloyd"
+    ],
+    "aliases": [
+      "Zachary Lloyd"
+    ],
+    "account": "Zachary Lloyd",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/05/13/introduction-to-css-keyframes-animations/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "Introduction to Keyframes",
+      "If, like me, you once enjoyed playing around with the defunct Adobe Flash software, or if you have any general graphic design, animation, or video editing experience, you might be familiar with the idea of keyframes. Today they are used even in web development to create a variety of interesting effects for web pages. In this post I'd like to discuss the basics of using keyframes in Cascading Style Sheets (CSS), which is the language used to style HTML. (For a general introduction to CSS, see here). We'll create a basic HTML page and style it using CSS keyframes to create some basic animations.",
+      "Keyframes in Practice",
+      "In modern media production, keyframes are markers (specific locations) on an animation timeline. If we consider that all animations have a start and end point, and that a particular object will transform or move throughout the duration of an animation, keyframes are what mark the significant moments of…"
+    ],
+    "fullParagraphs": [
+      "Introduction to Keyframes",
+      "If, like me, you once enjoyed playing around with the defunct Adobe Flash software, or if you have any general graphic design, animation, or video editing experience, you might be familiar with the idea of keyframes. Today they are used even in web development to create a variety of interesting effects for web pages. In this post I'd like to discuss the basics of using keyframes in Cascading Style Sheets (CSS), which is the language used to style HTML. (For a general introduction to CSS, see here). We'll create a basic HTML page and style it using CSS keyframes to create some basic animations.",
+      "Keyframes in Practice",
+      "In modern media production, keyframes are markers (specific locations) on an animation timeline. If we consider that all animations have a start and end point, and that a particular object will transform or move throughout the duration of an animation, keyframes are what mark the significant moments of this transition, and from which we can determine all other intermediate transitions. In the screenshot of the old Flash software above, for example, keyframes are represented by the dots, rectangles, and diamonds throughout the timeline, indicating where changes (starts, ends, new objects, etc.) are happening.",
+      "It’s worth pointing out that before digital editing, each “keyframe,” and all intermediate frames, had to be drawn by hand. Now, animation programs will automatically fill in the transition between two or more keyframe points based on the parameters you have set: this is a process called tweening, named after the “inbetweeners” traditional animation companies would hire to draw intermediate frames of animations.",
+      "Using Keyframes in CSS",
+      "CSS allows you to create some very cool animations on a webpage with its own built-in animation tools. You can add all sorts of nifty animation effects to a given element on a page using keyframes. You can move an element, scale it, transform it, change its opacity, add stylistic effects, and much, much more.",
+      "Let’s jump into a simple example.",
+      "Setting Up The HTML",
+      "First, let’s create a basic HTML page that we can style with CSS. For convenience, I have provided the basic structure for a page below. Simply open your favorite text editor (such as VSCode) and create a new .html file with the following:",
+      "<!DOCTYPE html> <html lang=\"en\"> <head> <link rel=\"stylesheet\" href=\"keyframes.css\"> <title>Basic Animations Using Keyframes</title> </head> <body> Here is some text. </body> </html>",
+      "As you can see in the head tag, we are adding an external CSS stylesheet named “keyframes.css” to our page. While you can use both internal and inline CSS styling, it is usually best practice to create a separate (external) file that contains your CSS code, so that’s what we’ll do next. To learn more about internal, inline, and external CSS styling, you can follow this link.",
+      "CSS Keyframes Example #1",
+      "In the same folder as your HTML file, create a new .css file named keyframes.css. Let’s create a basic animation loop using keyframes that will repeatedly fade in and out our “Here is some text” message:",
+      "@keyframes anim-fade-in-and-out { 0%,100% { opacity: 0 } 50% { opacity: 1 } }",
+      ".fade-in-and-out { animation: anim-fade-in-and-out 2s infinite; }",
+      "Let’s break this code down.",
+      "Basic Syntax and Structure",
+      "Keyframes are created in CSS using the “at-rule” (@) with the keyframe identifier. You also need to declare the name of the animation—we have done so here by calling it anim-fade-in-and-out, describing in bare terms what sort of animation we are creating.",
+      "To control the “timeline” of animations, the CSS keyframes rule uses percentages, with 0% indicating the start of the animation, and 100% signaling the end. Because we want our text to fade in and out (changing its opacity), we will set the beginning and the end of the animation to 0 opacity, meaning the text will be completely transparent. At 50%, or halfway through the animation timeline, we’ll set the opacity to 1, so our text will be fully displayed at that point. Note that you can control the timeline of an animation by using any percentage between 0% and 100%, and to create a smoother fade effect we would probably want to specify more transitions along the timeline.",
+      "To use our keyframe animation, we need to declare it as a style. This will allow us to apply it to an element in our HTML code. We do so by creating a new fade-in-and-out style. We indicate we are using an animation with the animation property, followed by a colon, along with the name of our animation. It is important to keep in mind that keyframe animations are meant to be general and reusable: you can easily apply them to specific selectors with the animation property and the associated name.",
+      "There are a few things we need to include next. First, we declare which animation this element will utilize (anim-fade-in-and-out). Next, we need to indicate the duration of the animation, which we’ll set here to 2 seconds. Lastly, we need to specify how many times the animation will loop. We set it to infinite here because we want the loop to repeatedly run.",
+      "Now that we have our animation set up, let’s apply it to our text in the HTML doc:",
+      "<h1 class=\"fade-in-and-out\">Here is some text.</h1>",
+      "To make the text a bit larger, we set it to an h1 header tag. To apply our style on the element, we then set the class to our fade-in-and-out animation.",
+      "If you save your files and open the HTML file in a browser, you should now see the text “Here is some text” fading in and out on the page:",
+      "Congratulations! You have just created your first keyframe animation.",
+      "CSS Keyframes Example #2",
+      "Let’s go ahead and create another simple example. We’ll create a box object containing some text that will “slide in” across the screen onto our page.",
+      "To begin, add the following code to your CSS file:",
+      "@keyframes slide-in { 0% { transform: translateX(-100%); } 100% { transform: translateX(0%); } }",
+      ".box { animation: slide-in 1000ms; width: 100px; height: 100px; background: slateblue; text-align: center; place-content: center; padding: 8px; display: grid; }",
+      "First, we create a new keyframe animation called slide-in. Next, we specify the points of transition in our animation using percentages, again with 0% as the start and 100% as the end.",
+      "To move the position of our box across the screen, we use the translateX function. The translate function repositions an element horizontally (on the x-axis) on the screen, and takes a length value that determines how much a given element will move. We first set the position to a value of negative 100%, so our box will start in a position offset of our screen. At the end of our animation, we move the box to a position just inside the bounds of our screen (on the left-hand side).",
+      "Next, we define our box element. Like before, we first need to specify our animation property, this time using our newly created slide-in effect. We then define some general parameters for our box, giving it a width, a height, a color fill, padding, and some positioning of the text inside of the box so it appears centered.",
+      "Next, in the HTML body, let’s add our box:",
+      "<div class=\"box\">Here's a sliding box.</div>",
+      "If you save and refresh your page, you should now see something like the following:",
+      "Congratulations! You have now created another simple animation.",
+      "As you can see, keyframes allow us to very quickly and easily spice up our webpages. While the effects we have created here are very simple, with a bit of work keyframes can allow us to create some very complex and interesting animations that can help set your webpage apart. They are a very versatile tool to add to your CSS skillset and can also just be a lot of fun to play around with!",
+      "Additional Resources",
+      "To further explore and understand using keyframes in CSS, I'd recommend the following guides and resources:",
+      "The MDN web docs on keyframes",
+      "The W3 Schools entry on keyframes",
+      "This nifty in-browser app that let's you quickly visualize your CSS code",
+      "This tutorial from TutorialRepublic",
+      "This introduction to keyframes by Smashing Magazine"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.04310338487754154,
+      0.000335248052231701,
+      0.08583010136088712,
+      0.08743226985724979,
+      0.0910842647217008,
+      0.143754964639203,
+      0.5474453777610117,
+      0.0010143887301743593
+    ],
+    "words": [
+      [
+        "animation",
+        40
+      ],
+      [
+        "keyframes",
+        27
+      ],
+      [
+        "create",
+        21
+      ],
+      [
+        "text",
+        14
+      ],
+      [
+        "html",
+        13
+      ],
+      [
+        "set",
+        11
+      ]
+    ]
+  },
+  {
+    "id": "6380",
+    "title": "Recap: Beginner’s Guide to Web-Scraping",
+    "date": "2022-05-09",
+    "year": "2021–2022",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/05/09/recap-beginners-guide-to-web-scraping/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "This post may be useful to folx interested in starting a web-scraping workshop but not sure where to begin. In this post, I provide a recap of the Beginner’s Guide to Web Scraping workshop that took place earlier in the semester.",
+      "I based this workshop on Compute Canada HSS’s Web-Scraping Workshop. The workshop went over some of the core concepts of web-scraping, when it is useful, and I discussed a GUI (Graphical User Interface) tool to help get folx started on a web-scraping workshop. We then ended with a short discussion of next steps and further exploration.",
+      "As this was a workshop geared towards beginners and foundational concepts, I spent some time discussing and defining the concept of web-scraping. Web-scraping can be easily understood as a method to extract information from websites and is a way that we take non-structured data formats (e.g. long text-forms) and transform them to semi- or structured data formats (e.g.…"
+    ],
+    "fullParagraphs": [
+      "This post may be useful to folx interested in starting a web-scraping workshop but not sure where to begin. In this post, I provide a recap of the Beginner’s Guide to Web Scraping workshop that took place earlier in the semester.",
+      "I based this workshop on Compute Canada HSS’s Web-Scraping Workshop. The workshop went over some of the core concepts of web-scraping, when it is useful, and I discussed a GUI (Graphical User Interface) tool to help get folx started on a web-scraping workshop. We then ended with a short discussion of next steps and further exploration.",
+      "As this was a workshop geared towards beginners and foundational concepts, I spent some time discussing and defining the concept of web-scraping. Web-scraping can be easily understood as a method to extract information from websites and is a way that we take non-structured data formats (e.g. long text-forms) and transform them to semi- or structured data formats (e.g. spreadsheets). While the term web-scraping tends to conjure up images of complicated codes and scripts, it can be as straightforward as just copying-and-pasting from a webpage to a spreadsheet. In fact, this manual method can actually be a lot quicker and less error-prone if you are looking to grab information from just a couple of web pages.",
+      "With that said, when might it be worthwhile to automate the process of web-scraping? Usually, it’s when you are looking to scrape a large amount of information, and/or when you are looking to scrape a page over specific periods of time. Automating the process can help you obtain information in a systematic manner, and can require less effort than manually navigating to a page and copying-and-pasting once you’ve set up a method of retrieval. However, before you begin the process of automated scraping, it is also worthwhile to consider if scraping is your best option. Sometimes websites and platforms offer an option to access data through their APIs (Application Programming Interface), such as Twitter, or even options to download datasets directly, such as in Our World in Data. If these options exist, it is often easier than scraping as the information is already stored in semi-structured or structured data formats, and will require less cleaning than data that you scrape on your own.",
+      "If you are sure that web-scraping is your best option, you will also have to consider if you can scrape everything and anything you want. Intense scraping places high demands on servers, and can break sites. If you are looking at websites made by small, grassroots organizations, chances are, they do not have a lot of server space, and high demands (e.g. constant request and access to their website) can cause their website to break. In addition, websites often have a robots.txt file (e.g. Internet Archive’s robot.txt file) that suggests how and what kind of information you can access. While this remains mostly advisory and there is no real legal means in enforcing this request, it does provide a guide to why you might want to access the information on the website. Lastly, there may also be certain terms of use with the information you’ve obtained. Certain sites may allow you to scrape the information but not distribute it. You may need to browse the privacy and terms of condition policies of a site to get a sense of what you can do with the data you obtain.",
+      "When you are ready to start on your web-scraping project, it is also helpful to understand what makes up a webpage, even if you are using GUI tools. This will help you identify where the webpage you are visiting stores the information you want and how you may be able to extract the information. Simply put, webpages are made up of HTML (HyperText Markup Language), and if you are new to it, do check out our introductory workshop that will help you orient around the terms and structures that make up a page.",
+      "During the workshop, we discussed a Google Chrome browser plug-in Data Miner's Data Scraper, and practiced using it on a couple of websites such as IMDb and the BBC front page. The benefits of using a browser plug-in tool like Data Scraper is the convenience it provides in helping us get right to the process of extracting information on the website. There are default recipes built into the plug-in as well as user-contributed recipes which can help speed up the process for sites that are frequently scrapped such as Google Scholar. In addition, the option to build custom recipes with a clear step-by-step process makes it a beginner-friendly tool. The recipe making tool guides us through the process of identifying the rows and columns that make up our extracted information, helping us in the process of transforming unstructured data to a structured format.",
+      "While a browser plug-in tool can be really helpful to get us started and, perhaps to even finish a simple project, we start to run into some of the limitations of using such tools. For example, certain features on Data Scraper are limited to the paid version and there is a limitation to the volume of data we can scrape. In addition, using GUI tools makes it harder to replicate the steps and the process is not always transparent. We are not always sure how a tool extracted the data, or may find it hard to explain to our team members the steps we took to create our recipe for scraping. Creating our own web-scraping scripts can help us address some of these concerns. Hence, when we feel ready to move beyond the GUI interface and browser plug-ins, we might consider learning a new programming language to help us go further with our web-scraping projects.",
+      "Common programming languages, such as Python and R, have a robust online community and have packages (bs4 and rvest, respectively) that support web-scraping projects. When you feel ready to traverse beyond the GUI plug-in, you can check out some of the guides we have written or found to get you started:",
+      "Intro to HTML & CSS",
+      "Intro to Python and Using Beautiful Soup (bs4)",
+      "Intro to R and Using rvest",
+      "If you encounter any issues on the way, or would like to discuss your project further, you can always reach out and join us through our Python User Group (PUG) or R User Group (RUG), or set up a 1:1 consultation with a digital fellow.",
+      "I hope this recap is useful when you are starting your project, and best of luck!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.3098263824139481,
+      0.03598922021292979,
+      0.09221321754206668,
+      0.00011961613497118206,
+      0.0020878036887424394,
+      0.26196480265922384,
+      0.22733416238523535,
+      0.07046479496288259
+    ],
+    "words": [
+      [
+        "web",
+        15
+      ],
+      [
+        "data",
+        14
+      ],
+      [
+        "scrap",
+        13
+      ],
+      [
+        "information",
+        13
+      ],
+      [
+        "workshop",
+        9
+      ],
+      [
+        "tool",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "18600",
+    "title": "Critical Digital Education for All! | by Soledad Magnone | Data & Society: Points",
+    "date": "2022-05-06",
+    "year": "2021–2022",
+    "authors": [
+      "Soledad Magnone"
+    ],
+    "originalAuthors": [
+      "Soledad Magnone"
+    ],
+    "aliases": [
+      "Soledad Magnone"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/05/06/critical-digital-education-for-all-by-soledad-magnone-data-society-points/",
+    "signals": [],
+    "paragraphs": [
+      "This post highlights the JAAKLAC initiative, which broadens participation in the governance of the digital ecosystem and promotes Latin American projects in critical digital education. It address measures to tackle the deficit in digital education in Latin America. The post showcases how JAAKLAC’s projects have explored the possibilities of co-creating educational practices and resources, as well as how JAAKLAC fosters and prototypes participatory spaces for digital policies",
+      "Read more: Critical Digital Education for All! | by Soledad Magnone | Data & Society: Points"
+    ],
+    "fullParagraphs": [
+      "This post highlights the JAAKLAC initiative, which broadens participation in the governance of the digital ecosystem and promotes Latin American projects in critical digital education. It address measures to tackle the deficit in digital education in Latin America. The post showcases how JAAKLAC’s projects have explored the possibilities of co-creating educational practices and resources, as well as how JAAKLAC fosters and prototypes participatory spaces for digital policies",
+      "Read more: Critical Digital Education for All! | by Soledad Magnone | Data & Society: Points"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18595",
+    "title": "Language, Meaning-Making, and Wrangling Text As Data: A Social Worker’s Perspective",
+    "date": "2022-05-06",
+    "year": "2021–2022",
+    "authors": [
+      "Ian G. Williams"
+    ],
+    "originalAuthors": [
+      "Ian Williams"
+    ],
+    "aliases": [
+      "Ian G. Williams",
+      "Ian Williams"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "GCDI Updates",
+      "Guides, Tutorials, Reviews",
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/05/06/language-meaning-making-and-wrangling-text-as-data-a-social-workers-perspective-gc-digital-fellows/",
+    "signals": [],
+    "paragraphs": [
+      "In this Tagging the Tower post, GC PhD student in Social Welfare Ian Williams discusses his experience learning python at this year's GC Digital Research Institute. Williams discusses what drew him to the Institute as well as how he envisages learning programming languages will impact his research. This is a great post to better understand the Digital Research Institute's pedagogic praxis.",
+      "“What are you talking about in there? Smuggling refugee pandas and pythons?” my partner asked, with a bewildered look on her face, in late January 2022. It was day three of the 2022 Graduate Center Digital Research Institute (DRI). Immersed in a workshop about Pandas - a library for the programming language Python - I coded along while learning to transform and analyze a data set on refugee arrivals and placements in the United States. The data, a mixture of textual and numeric information, was fairly simple to analyze. Yet it sounded, to an outsider,…"
+    ],
+    "fullParagraphs": [
+      "In this Tagging the Tower post, GC PhD student in Social Welfare Ian Williams discusses his experience learning python at this year's GC Digital Research Institute. Williams discusses what drew him to the Institute as well as how he envisages learning programming languages will impact his research. This is a great post to better understand the Digital Research Institute's pedagogic praxis.",
+      "“What are you talking about in there? Smuggling refugee pandas and pythons?” my partner asked, with a bewildered look on her face, in late January 2022. It was day three of the 2022 Graduate Center Digital Research Institute (DRI). Immersed in a workshop about Pandas - a library for the programming language Python - I coded along while learning to transform and analyze a data set on refugee arrivals and placements in the United States. The data, a mixture of textual and numeric information, was fairly simple to analyze. Yet it sounded, to an outsider, like gibberish.",
+      "Learning to program is somewhere between learning a new language, and learning a new kind of thinking. Much of what I learned during the Digital Research Institute involved this dual process. The DRI was a chance to learn how to think differently about data, with an emphasis on how computers interpret language (particularly, English). It was engaging, fun, and alleviated anxiety I felt about programming in general, and particularly so performing statistical analyses in R for a final exam in the fall semester. Looking back now, it’s impressive how much I learned in just five days, and how it changed my perspective on programming.",
+      "At the Graduate Center, I am a first year PhD student in Social Welfare. I went back to school to understand how large-scale technology changes that occurred during COVID-19 might affect the future of social work. In my field, we perform tasks every day that use digital technologies. Social workers are required to document our services, typically through written reports, or in the instance of medical and mental health services, through evaluations, treatment plans and progress notes. We use computers and smart phones in our client and agency work, we collect and store information about our work using computer systems, and we regularly keep track of our services and client records in databases that are used to generate reports and aggregate information about our services. These reports and the infrastructure that collects and disseminates this data shape the funding and organization of the services we provide, from grants to insurance reimbursement, to policy-making. Many social workers fear the results of these reports, and many organizations ineffectively use reporting and surveillance features – often as dictated by external actors and stakeholders. Computational analysis of social work data also can be used to justify imposing austere forms of management or funding structures on social programs.",
+      "Despite this intertwined relationship, the association between social workers and digital technologies is not so clear in the everyday imagination of what a social worker does, nor in a generalized model of what social work research can and should be. The common image is more of an association between social workers, people, and often, piles of paperwork (analog information systems). Many social workers are ‘people’ persons who choose their career paths because of strong interpersonal skills and a desire to work with people who are often on the margins of society - and technology. Many factors shape this perception, including historic underfunding of programs and services making adopting new technologies risky, the risks of service interruption inherent in adopting new technologies, and the costs of training staff who often turnover quickly. So let me tell my story by answering a more general question: Why would a graduate student give up a week of his valued winter break to learn Python?",
+      "I enrolled in the Digital Research Institute to pick up some new programming skills, and gain exposure to new ways of thinking. I was interested in using programming (in my case, Python) to analyze language in a digital environment. It relates to my curiosity about how new technologies transform professional and organizational practices. In my professional and educational experience prior to my PhD studies, rarely did I get to interface with digital technologies as a programmer, or look “under the hood” to see how they operate. Yet it became abundantly clear to me that to better understand how technologies work, I needed to understand how to think like a computer system.",
+      "The DRI offered an opportunity to learn a mix of computer-based research skills to students across disciplines in a very friendly and encouraging environment, framed in larger social and philosophical concerns to how one approaches the nuts and bolts of programming. As an intensive course of study between semesters, it was a safe space to learn and explore without the pressure of grades and the fear of failure. Rooted in a digital humanities approach to technology, the DRI offered a different lens to thinking about the context and meaning of data and digital information, that situates technology in its historical context. This created a refreshing take on the coding boot camp than an industry-focused approach to rapidly learning new programming skills to position oneself for a better paying job. The DRI’s iteration of an intensive programming learning experience encouraged critical thinking about the constructs of data, the information captured and represented, the historical context in which it emerged and the claims that programmer thinking tended to emphasize or assume. This was a rejuvenating and refreshing approach, and for me, a reminder of why I chose to pursue a doctoral education.",
+      "My favorite activity was the introduction to the Natural Language Toolkit (NLTK), a package for natural language processing in Python. In essence, NLTK makes human language readable for computers, translating it into numeric code that it can analyze and manipulate. I found this workshop powerful and thought-provoking, with far-reaching implications for my work and research. Outside of school, I work part-time with a small mental health training institute, where I co-administer their electronic health record database. I also consult with a small social enterprise that provides software services and custom reporting to mental health provider around the United States. In both instances, I see great potential for expanding upon the NLTK basics I learned at the DRI. I also see how research projects could mine case notes and documentation for new patterns and insights, that might help scholars think different about their data.",
+      "The ideas generated from my experience in the DRI gave me a lens to think differently about the issues my field faces, and the resources available to examine them. It helped me to imagine ways to collaborate across disciplines, and increase my motivation to attend the Digital Fellows’ user groups when time affords. I noticed, too, that as this semester started and I continued my statistics course and R programming, my anxiety about coding remained significantly lower. I feel far more empowered to play around with programming and digital research tools."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18576",
+    "title": "Interview with Laura Wildemann Kane - GC Digital Fellows",
+    "date": "2022-04-15",
+    "year": "2021–2022",
+    "authors": [
+      "Laura Kane",
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Laura Wildemann Kane and Jessie McCormack"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane",
+      "Jessie McCormack"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "GCDI Updates",
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/15/interview-with-laura-wildemann-kane-gc-digital-fellows/",
+    "signals": [],
+    "paragraphs": [
+      "Laura Wildemann Kane is an assistant professor in Philosophy at Worcester State University, as well as a faculty fellow for the Clemente Course in the humanities (Worcester branch). She received a PhD in philosophy and certificate in Interactive Technology and Pedagogy from CUNY Graduate Center in 2017. She was a GC Digital Fellow from 2012-2015, joining GCDI in its first year of operation.",
+      "GCDI Program Coordinator Jessie McCormack, a PhD candidate in philosophy, had a chance to catch up with her to see how her experience as a digital fellow has shaped her continued journey in academia.",
+      "Read more: Interview with Laura Wildemann Kane – GC Digital Fellows"
+    ],
+    "fullParagraphs": [
+      "Laura Wildemann Kane is an assistant professor in Philosophy at Worcester State University, as well as a faculty fellow for the Clemente Course in the humanities (Worcester branch). She received a PhD in philosophy and certificate in Interactive Technology and Pedagogy from CUNY Graduate Center in 2017. She was a GC Digital Fellow from 2012-2015, joining GCDI in its first year of operation.",
+      "GCDI Program Coordinator Jessie McCormack, a PhD candidate in philosophy, had a chance to catch up with her to see how her experience as a digital fellow has shaped her continued journey in academia.",
+      "Read more: Interview with Laura Wildemann Kane – GC Digital Fellows"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "6346",
+    "title": "Interview with Laura Wildemann Kane",
+    "date": "2022-04-14",
+    "year": "2021–2022",
+    "authors": [
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Jessie McCormack"
+    ],
+    "aliases": [
+      "Jessie McCormack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/14/interview-with-laura-wildemann-kane/",
+    "signals": [],
+    "paragraphs": [
+      "Laura Wildemann Kane is an assistant professor in Philosophy at Worcester State University, as well as a faculty fellow for the Clemente Course in the humanities (Worcester branch). She received a PhD in philosophy and certificate in Interactive Technology and Pedagogy from CUNY Graduate Center in 2017. She was a GC Digital Fellow from 2012-2015, joining GCDI in its first year of operation.",
+      "GCDI Program Coordinator Jessie McCormack, a PhD candidate in philosophy, had a chance to catch up with her to see how her experience as a digital fellow has shaped her continued journey in academia.",
+      "What led you to the digital humanities and working with GCDI?",
+      "When I was an undergrad and at the beginning of grad school, I worked at an Apple computer repair shop as a technician, so I learned a lot about computers. I learned I had a knack for computers, and I had an interest in just learning more about technology and how technology is used in academia,…"
+    ],
+    "fullParagraphs": [
+      "Laura Wildemann Kane is an assistant professor in Philosophy at Worcester State University, as well as a faculty fellow for the Clemente Course in the humanities (Worcester branch). She received a PhD in philosophy and certificate in Interactive Technology and Pedagogy from CUNY Graduate Center in 2017. She was a GC Digital Fellow from 2012-2015, joining GCDI in its first year of operation.",
+      "GCDI Program Coordinator Jessie McCormack, a PhD candidate in philosophy, had a chance to catch up with her to see how her experience as a digital fellow has shaped her continued journey in academia.",
+      "What led you to the digital humanities and working with GCDI?",
+      "When I was an undergrad and at the beginning of grad school, I worked at an Apple computer repair shop as a technician, so I learned a lot about computers. I learned I had a knack for computers, and I had an interest in just learning more about technology and how technology is used in academia, especially with respect to teaching. So, I took the ITP program certificate courses. Through that, I learned a lot more about how technology interacts with pedagogy and I also met a number of other people who encouraged me to apply for the Digital Fellowship. So I did!",
+      "What was your experience like with the fellowship? How was it to work alongside fellows from other disciplines?",
+      "I loved it. It was really neat to be with scholars from these different disciplines with different approaches to technology, what we could do with technology, and how it should be used in our disciplines. Everyone was very open and collaborative—we hung out a lot together in the GCDI space, beyond when we were required to be there. We just liked to hang out together.",
+      "I was in the first cohort of fellows, so we were kind of defining what the fellowship was. It was brand new; the six of us that were picked were the very first ones, so a lot of our work was trying to figure out an identity for what the program was. I know it’s very different now; there’s a set plan for what fellows are supposed to do. I developed the initiative to have GCDI workshops. I was the main fellow who organized them every semester and who helped coordinate who was going to be teaching what. All the fellows were very collaborative with trying to teach the workshops and trying to participate and get people involved",
+      "I remember when we started to establish cross-channels with Futures Initiatives, etc. I got tasked with building a lot of websites for different programs at the GC. In building all these websites, I learned a lot about the programs. It was neat in that it connected me to faculty and to programs that I might not have had any other reason to. I got to learn about a lot of stuff that was happening at the GC, and I got to be involved with a lot of it in a meaningful way rather than as just an observer.",
+      "What did you do after your digital fellowship concluded?",
+      "I was a DF for 3 years, and then I was approached to consider applying for the managing editor position at the Journal of Interactive Technology and Pedagogy. I got the position, and I was the managing editor at the JITP for my last two years at the GC. I helped organize a number of changes at the journal and shepherded four and half issues into production. After I left and started at University of Tampa, I co-edited an issue of JITP in 2018, an issue at the intersection of technology and pedagogy.",
+      "The GCDI fellowship was instrumental for my being able to get that managing editor position. It also gave me a good foundation of theoretical, practical, and hands-on knowledge to apply to the different areas of the journal. I knew what to be looking for content-wise from authors and I knew how to help encourage and manage editors so that we were able to get really good content for the journal. It helped me get my own publication in the Journal (I co-wrote the introduction to issue 13 with my co-editor). Additionally, I credit the GCDI fellowship for helping me to land my first tenure-track job at the University of Tampa. I had this interesting part of my CV that was all about trying to explore the intersection of philosophy and technology and digital humanities. I know that the people who hired me there specifically mentioned that they found that interesting.",
+      "What have you been doing recently? Does your work continue to intersect digital humanities and technology?",
+      "I’m co-authoring a paper right now with Danica Savonick and Amanda Licastro, both GC alumnae, both part of the Journal of Interactive Technology and Pedagogy. The three of us are writing about digital publishing and how the JITP—which is housed at the GC—is symbolic of feminist methods in digital publishing because it’s open access, open source, and we have a democratic editorial collective, which is very uncommon in journals. We’ve finished this paper and it’s in peer review. Last year I had a paper come out in the Journal of Applied Philosophy about whether shaming on the internet that’s done by internet mobs is the appropriate normative response to mitigate, e.g., racist or sexist posts on the internet, or if it would be more pragmatic if we took a more restorative approach to those kinds of offensive posts on the internet.",
+      "I was excited to see another philosopher involved in digital humanities. Do you think it’s becoming more common? What would you say to philosophers considering getting into it?",
+      "I think there are many more philosophers intersecting with not even just digital pedagogy but also digital projects. There’s a lot more research being done on the internet—I think it had always been there, but it’s getting a lot more attention now, with philosophers like Karen Frost Arnold and Regina Rini working on fake news and epistemology on the internet and Kate Norlock working on internet mobs. There are also philosophers doing data modeling, like Mark Alfano—another GC alum—which is cool. So I do see progress being made, and I see philosophy being more welcomed into digital initiatives.",
+      "One thing that’s interesting to think about is how philosophers can use new technologies that are available to offer more meaningful activities and assignments to students. For instance, there are “un-essays,” which cropped up in technology and digital humanities courses. An un-essay is an assignment that tries to encourages students to be creative with how they utilize and apply the knowledge that they’ve received in a course in a way that isn’t just regurgitated in a course paper. For instance, in my feminist theory course, I try to encourage students to use digital aspects to communicate some of the concepts and the theories we’ve discussed. I tell them they can create a digital game or board game that explains how women’s advances in the sciences seems to come at two steps forward, one step back in terms of encountering things like sexism, or hierarchies in terms of gender symbolism, or epistemic oppression or testimonial injustice with respect to women’s publishing. So, you can create games that communicate those ideas clearly without having to write a paper about it; the game can capture what’s going on. Or students can create graphical novels that can demonstrate how a woman might experience sexism or misogyny, as relating to Kate Manne’s work. Or a person could write a screenplay, act it out, film it, and show it to the class. Incorporating technology and digital components can help create a much more meaningful final project for students. They can really understand and internalize those concepts and theories, and creatively express how it connects with them.",
+      "It’s the same thing with written assignments. I’ve used blogs and I’ve made my own Wordpress multi-sites on CUNY academic commons. I’ve used Buddypress—which is something CUNY Academic Commons uses—to create social networks in my classes so that students can comment on one another’s posts. It’s closed and password-protected, so they can write without fear that someone from the outside will be reading and misinterpreting what they’re saying. Within these social networks, they can message one another, create their own profiles for their class on my website. All these uses of technology can help foster communication and collaboration not just inside the classroom, but outside the classroom. I wouldn’t have really known about those things, or had the same level of experience, if I hadn’t participated in the GCDI fellowship.",
+      "I think philosophers can use those kinds of tools and approaches the same way that people in Digital Humanities can: they can keep the theoretical rigor of philosophy courses, but incorporate these newer methods for establishing communication and community in their classrooms, and also give students interesting and creative ways to capture the ideas covered in classes, in a way that they feel like they have significant input. It’s not just me telling them to write a course paper: it’s them coming up with the best way they think they can present these ideas.",
+      "I also think it could challenge what we think of as a legitimate form of publication. Interviews, I think, are the easiest next step to take. An interview could count as a legitimate form of publication, an interview where you discuss your work. But you can think about video testimonials, or you can think about digital or art installations, with a read-along or audio file or something, as counting as a publication if it’s done in a way that captures that philosophical rigor. I don’t see why we couldn’t use technology to broaden what we think of as a legitimate philosophical publication. That’s one thing JITP does, it tries to publish beyond the standard article. We’ve published videos before, we’ve published a number of websites and digital portfolios as scholarship. And I don’t see why philosophers can’t do the same thing.",
+      "Thank you so much for doing the interview with me! I was really glad you agreed to, because I agree with you that philosophy should get more into this.",
+      "It can! It can do it!",
+      "Hopefully the more of us that exist, the more things will change. It seems almost unavoidable, so, do we want to get on the train now, or do we want to get on it late?",
+      "And if we’re competing with apps like Tik-Tok, for attention, then philosophers need to adapt and be on top of it with their ideas."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0031981178907727315,
+      0.03535432457201255,
+      0.0002407274608108698,
+      0.003016494946716387,
+      0.0045502886193800225,
+      0.3590809759981056,
+      0.016379448254527775,
+      0.578179622257674
+    ],
+    "words": [
+      [
+        "digital",
+        20
+      ],
+      [
+        "technology",
+        16
+      ],
+      [
+        "think",
+        12
+      ],
+      [
+        "lot",
+        10
+      ],
+      [
+        "work",
+        9
+      ],
+      [
+        "philosopher",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "18569",
+    "title": "The sound of a sunset | MIT News",
+    "date": "2022-04-08",
+    "year": "2021–2022",
+    "authors": [
+      "Alison Lanier"
+    ],
+    "originalAuthors": [
+      "Alison Lanier"
+    ],
+    "aliases": [
+      "Alison Lanier"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Emeka Echezona",
+      "Evan Ziporyn",
+      "Grace Jau",
+      "Jessica Boye-Doe",
+      "Massachusetts Institute of Technology",
+      "MIT",
+      "MIT Digital Humanities Lab (DH Lab)",
+      "MIT Festival Jazz Ensemble",
+      "MIT News",
+      "MIT student innovations",
+      "Museum of Science Boston",
+      "News",
+      "Peihua Huang",
+      "Ryaan Ahmed",
+      "Sonification Toolkit",
+      "Sound Art",
+      "UROP",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/08/the-sound-of-a-sunset-mit-news-massachusetts-institute-of-technology/",
+    "signals": [
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The post discusses the Sonification Toolkit, \"a web application that will transform almost anything digital — from numerical data to drawings — into sound.\" The Sonification Toolkit emerges at the creative intersection of art and technology and it helps to provide a unique way to analyze data and culture.",
+      "Read more: The sound of a sunset | MIT News | Massachusetts Institute of Technology"
+    ],
+    "fullParagraphs": [
+      "The post discusses the Sonification Toolkit, \"a web application that will transform almost anything digital — from numerical data to drawings — into sound.\" The Sonification Toolkit emerges at the creative intersection of art and technology and it helps to provide a unique way to analyze data and culture.",
+      "Read more: The sound of a sunset | MIT News | Massachusetts Institute of Technology"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "6337",
+    "title": "My experience at the DRI",
+    "date": "2022-04-07",
+    "year": "2021–2022",
+    "authors": [
+      "Sam O'Hana"
+    ],
+    "originalAuthors": [
+      "Sam O'Hana"
+    ],
+    "aliases": [
+      "Sam O'Hana"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/07/my-experience-at-the-dri/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "I panicked early on the morning of the Digital Research Institute (DRI), a mere half hour before the very first session. I had installed all R packages the previous afternoon but hadn’t tried running them. “I’ll run them on the morning just to be safe. I’m being overcautious. What could go wrong?”",
+      "Turns out the CUNY setup of OneDrive could. R, RStudio and all packages had “been installed” on a drive to which I had no admin privileges. As the Zoom introductory session started, the parallel R track Discord channel was bursting with my desperate pleas for help and never-ending screenshots. The GC Digital Fellows seemed intrigued, but also oddly calm. “Let us work on the problem and we’ll reach out back to you tomorrow”.",
+      "And they did. The next morning, one of the fellows took remote control over my computer, ran a few lines of code installing everything on another directory, and the problem was solved. I could happily engage with the first…"
+    ],
+    "fullParagraphs": [
+      "I panicked early on the morning of the Digital Research Institute (DRI), a mere half hour before the very first session. I had installed all R packages the previous afternoon but hadn’t tried running them. “I’ll run them on the morning just to be safe. I’m being overcautious. What could go wrong?”",
+      "Turns out the CUNY setup of OneDrive could. R, RStudio and all packages had “been installed” on a drive to which I had no admin privileges. As the Zoom introductory session started, the parallel R track Discord channel was bursting with my desperate pleas for help and never-ending screenshots. The GC Digital Fellows seemed intrigued, but also oddly calm. “Let us work on the problem and we’ll reach out back to you tomorrow”.",
+      "And they did. The next morning, one of the fellows took remote control over my computer, ran a few lines of code installing everything on another directory, and the problem was solved. I could happily engage with the first lessons on visualization, text analysis, regression, and a bit of geospatial analysis. As the sessions progressed, I started to notice why the Fellows team had remained so calm. They are a super supportive community within themselves, with access to a large number of online resources ready at hand.",
+      "This little anecdote shows why, I believe, the fellows running the DRI have exactly the type of approach most useful for people reaching for the first(er) time to open code languages for data visualization and analysis. They exude vibes of calmness and community, even under pressure. “I don’t know this, but I will look out for answers and run this with the fellows” seemed to be the motto. It’s an important motto: eventually, you start to feel like you yourself can manage this in the same way. After 5 days of intense work, even more important than having practiced the specific coding sequence for ggplot, I feel that the most important lesson was “I might not know this, but I feel comfortable enough to search for an answer myself”.",
+      "Don’t get me wrong. There is a lot of work coding and producing output. After all, in the R track we covered a lot of ground. A lot. We covered data visualization, text analysis, regression, and a bit of geospatial analysis. We might have covered more than was humanly possible to grasp in five days. But, to me, trying to master these skills in five days eventually proved less useful than the outcome of the DRI, namely, getting the knack that –R, at least—code shares a similar architecture and logic and has a large number of resources in case you feel lost in the maze. And undoubtedly, that feeling wouldn’t have come through if not for that sense of community, of open space for questions and honesty of the team of Fellows at the DRI.",
+      "I am currently taking a Quantitative Analysis course in this spring semester, for which I have consistently been using R despite the fact that the STATA do files—lines of preset code to produce graphs and statistical output—are readily available and temptingly shine online each time I am doing some coursework. I rely one third on the scripts the fellows provided us, one third on google and, lastly, on trial and error. It might take me a bit longer to do it myself, rather than using a short-cut provided by my professor. But it’s all the more satisfying whenever some neat graphs or statistical output come through. Those results are mine entirely. And the feeling of being able to work it through, even if I don’t know the answer at face value, is confidence I gained from working with fellows in the DRI."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.007754499648552145,
+      0.004210785655418099,
+      0.21677061523061827,
+      0.0002260213881281694,
+      0.014577165717952863,
+      0.49499717034014296,
+      0.03971536699746999,
+      0.2217483750217175
+    ],
+    "words": [
+      [
+        "r",
+        6
+      ],
+      [
+        "analysis",
+        6
+      ],
+      [
+        "dri",
+        5
+      ],
+      [
+        "run",
+        5
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "feel",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "18542",
+    "title": "How Tech Despair Can Set You Free — The New Atlantis",
+    "date": "2022-04-07",
+    "year": "2021–2022",
+    "authors": [
+      "Samuel Matlack"
+    ],
+    "originalAuthors": [
+      "Samuel Matlack"
+    ],
+    "aliases": [
+      "Samuel Matlack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/07/how-tech-despair-can-set-you-free-the-new-atlantis/",
+    "signals": [],
+    "paragraphs": [
+      "In this article, Samuel Matlack reflects on socio-cultural commentary from Jacques Ellul on contemporary technological society. Despite the title and subtitle, Matlack doesn't actually address how one is set free (it is also not clear what exactly one is being set free from); rather, he tries to formulate that pervasive sense that something has gone wrong in our \"efficiency\"-obsessed society that nonetheless seems so inefficient, even nonsensical, in important ways. An example he highlights is the killing of hens when grocery stores were facing egg shortages during Covid. For more, read at the link below.",
+      "Source: How Tech Despair Can Set You Free — The New Atlantis",
+      "Photo courtesy of Matt Pringle"
+    ],
+    "fullParagraphs": [
+      "In this article, Samuel Matlack reflects on socio-cultural commentary from Jacques Ellul on contemporary technological society. Despite the title and subtitle, Matlack doesn't actually address how one is set free (it is also not clear what exactly one is being set free from); rather, he tries to formulate that pervasive sense that something has gone wrong in our \"efficiency\"-obsessed society that nonetheless seems so inefficient, even nonsensical, in important ways. An example he highlights is the killing of hens when grocery stores were facing egg shortages during Covid. For more, read at the link below.",
+      "Source: How Tech Despair Can Set You Free — The New Atlantis",
+      "Photo courtesy of Matt Pringle"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18536",
+    "title": "‘Really alarming’: the rise of smart cameras used to catch maskless students in US schools | Surveillance | The Guardian",
+    "date": "2022-04-05",
+    "year": "2021–2022",
+    "authors": [
+      "Mark Keierleber"
+    ],
+    "originalAuthors": [
+      "Mark Keierleber"
+    ],
+    "aliases": [
+      "Mark Keierleber"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Artificial intelligence (AI)",
+      "coronavirus",
+      "Georgia",
+      "Students",
+      "Surveillance",
+      "Uncategorized",
+      "US education",
+      "US news",
+      "US school shootings",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/05/really-alarming-the-rise-of-smart-cameras-used-to-catch-maskless-students-in-us-schools-surveillance-the-guardian/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "In this article from \"The Guardian,\" Mark Keierleber discusses the disturbing presence of surveillance in schools. This surveillance was introduced to monitor students either going maskless or wearing masks improperly during Covid. But even as regulations change and the surveillance no longer used for that purpose, the surveillance is remaining in schools. There are a number of issues, such as whether the possible benefits of surveillance (like spotting school shooters) outweigh the possible drawbacks (increased punishment of students), and whether any benefit justifies the presence of surveillance in principle. This is especially worth questioning since the data procured from surveillance can be hacked, as discussed in the article.",
+      "For more, continue reading at the link below.",
+      "Photo courtesy of Matt Cooper",
+      "Source: ‘Really alarming’: the rise of smart cameras used to catch maskless students in US schools | Surveillance | The Guardian"
+    ],
+    "fullParagraphs": [
+      "In this article from \"The Guardian,\" Mark Keierleber discusses the disturbing presence of surveillance in schools. This surveillance was introduced to monitor students either going maskless or wearing masks improperly during Covid. But even as regulations change and the surveillance no longer used for that purpose, the surveillance is remaining in schools. There are a number of issues, such as whether the possible benefits of surveillance (like spotting school shooters) outweigh the possible drawbacks (increased punishment of students), and whether any benefit justifies the presence of surveillance in principle. This is especially worth questioning since the data procured from surveillance can be hacked, as discussed in the article.",
+      "For more, continue reading at the link below.",
+      "Photo courtesy of Matt Cooper",
+      "Source: ‘Really alarming’: the rise of smart cameras used to catch maskless students in US schools | Surveillance | The Guardian"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19872",
+    "title": "Four Pillars of UX Design",
+    "date": "2022-04-04",
+    "year": "2021–2022",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/04/04/four-pillars-of-ux-design/",
+    "signals": [],
+    "paragraphs": [
+      "Remember when YouTube looked like this ....",
+      "YouTube watch page from 2009. (Source: https://www.versionmuseum.com/history-of/youtube-website)",
+      "Today it looks much, much different…",
+      "YouTube watch page in April, 2022",
+      "Most people would even say that over time it has come to look better, with a cleaner layout, many new and improved features, and better accessibility functionalities that allow more people to use the platform. Who made these changes? How did they develop their ideas? What did they use to plan and prototype their designs?",
+      "The answer to these questions lies in the theory and practice of UX (or User Experience) design. YouTube’s look and feel has changed because of advances in UX design over the past two decades.",
+      "Illustration of UX Design. (Source: https://usabilitygeek.com/5-fundamentals-of-ux-design-that-impact-seo/)",
+      "UX design is concerned with visually designing the digital interfaces that shape our experience with software and…"
+    ],
+    "fullParagraphs": [
+      "Remember when YouTube looked like this ....",
+      "YouTube watch page from 2009. (Source: https://www.versionmuseum.com/history-of/youtube-website)",
+      "Today it looks much, much different…",
+      "YouTube watch page in April, 2022",
+      "Most people would even say that over time it has come to look better, with a cleaner layout, many new and improved features, and better accessibility functionalities that allow more people to use the platform. Who made these changes? How did they develop their ideas? What did they use to plan and prototype their designs?",
+      "The answer to these questions lies in the theory and practice of UX (or User Experience) design. YouTube’s look and feel has changed because of advances in UX design over the past two decades.",
+      "Illustration of UX Design. (Source: https://usabilitygeek.com/5-fundamentals-of-ux-design-that-impact-seo/)",
+      "UX design is concerned with visually designing the digital interfaces that shape our experience with software and websites. It is a strategic approach to visually styling and creating blueprints for a digital product that fulfills the user's needs and expectations. In the software or website creation process, UX designers work like architects and craft the details of the completed product. UX Designers create technical drawings, or wireframes, for different aspects of software or websites that act as a plan, model, or template. The software developers then take over and work like engineers who rely on the architect’s designs to build software and websites and work towards their final goal.",
+      "Sample wireframe created using figma. (Source: https://www.lapa.ninja/freebies/wireframes-mobile-free-ui-kit-design-for-figma/)",
+      "In this post I'm going to cover four basic pillars of UX design.",
+      "User-Centered: As is emphasized in its name, UX design, places the \"user\" at the front and center of its methodology. The \"user\" refers to specific groups of people for whom a digital project is being created. UX Design aims to understand and serve these peoples' interests. Placing the user at the center means testing the digital product with these users and making changes to the design based on their feedback. Placing the user at the center also means creating a refined understanding of who, specifically, these users are and what their cultural background might be. The more clear-eyed notion of the user that you are able to articulate, the better you can creates the designs that apprehend and satisfy their needs.",
+      "Simplicity & Minimalism: UX design prioritizes simplicity and minimalism as aesthetic principles. The \"less is more\" maxim applies quite handily to UX design. Simplicity and minimalism involve controlling the flow of content such that the user is able to navigate the software or website without becoming overwhelmed by choices or information. Simplicity and minimalism encourage designers to use blank spaces, consistent color palettes, fonts, and other aspects of page design to arrange a page's content such that a user is able to gain a pleasing and meaningful experience.",
+      "Planning: UX design is a future-oriented discipline. It seeks to create \"design documents\" that map the user’s needs, the software’s goals, and creates plans to locate those areas where these two intersect. Among the primary ways in which UX design creates its plans is through a process named \"wireframing,\" wherein every page of a website or software is literally drawn out and annotated to gain a sense of the structure and flow of different designs. These visuals serve as prototypes that guide the project vision and scope.",
+      "Tools: In the past, UX design used pens, paper, whiteboards, and sticky-notes because it was employed to create physical products and experiences like board games, cars, and even the layout of stores and airports. When working with digital products, however, a number of apps and platforms exist to streamline the design process and improve the dynamics of collaborating with other designers. These tools often contain templates that replicate the dimensions of laptop and desktop screens, smartphones, tablets, and other devices. These tools also contain libraries of color palettes, fonts, and interactive plugins that allows consistency across the project, as well as build in accessibility features. Some tools to check out include figma, miro, sketch, and Adobe XD.",
+      "These four pillars provide an insight into the theories and methods of UX design. If you find UX design interesting, check out this YouTube series on UX design for beginners. You can even access more educational materials on UX design on LinkedIn Learning (accessible with a New York Public Library card)."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.016992475246646103,
+      0.13507165161346646,
+      0.0004522611391092739,
+      0.0001751273045970357,
+      0.005802727968338154,
+      0.4823935695513873,
+      0.22299400273043601,
+      0.13611818444601967
+    ],
+    "words": [
+      [
+        "design",
+        25
+      ],
+      [
+        "user",
+        13
+      ],
+      [
+        "create",
+        9
+      ],
+      [
+        "software",
+        8
+      ],
+      [
+        "youtube",
+        5
+      ],
+      [
+        "page",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "18529",
+    "title": "Best Practices for Dissertations in the 21st Century",
+    "date": "2022-03-25",
+    "year": "2021–2022",
+    "authors": [
+      "Jonathan Reeve"
+    ],
+    "originalAuthors": [
+      "Jonathan Reeve"
+    ],
+    "aliases": [
+      "Jonathan Reeve"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/25/best-practices-for-dissertations-in-the-21st-century/",
+    "signals": [],
+    "paragraphs": [
+      "This post by PhD candidate Jonathan Reeve problematizes the concept of the \"digital dissertation\" to propose a set of best practices for 21st century dissertations. It highlights a number of salient aspects that shape digital dissertations, such as public-facing scholarship, version-control, licensing and intellectual property, and user experience. This article is an excellent point of reference for students who want to learn more about nontraditional or digital alternatives to the standard model of a dissertation in the humanities and social sciences.",
+      "Read More: Best Practices for Dissertations in the 21st Century"
+    ],
+    "fullParagraphs": [
+      "This post by PhD candidate Jonathan Reeve problematizes the concept of the \"digital dissertation\" to propose a set of best practices for 21st century dissertations. It highlights a number of salient aspects that shape digital dissertations, such as public-facing scholarship, version-control, licensing and intellectual property, and user experience. This article is an excellent point of reference for students who want to learn more about nontraditional or digital alternatives to the standard model of a dissertation in the humanities and social sciences.",
+      "Read More: Best Practices for Dissertations in the 21st Century"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18526",
+    "title": "Digital Projects and Student Engagement in the Era of COVID-19 | HASTAC",
+    "date": "2022-03-25",
+    "year": "2021–2022",
+    "authors": [
+      "Shari Wejsa"
+    ],
+    "originalAuthors": [
+      "Shari Wejsa"
+    ],
+    "aliases": [
+      "Shari Wejsa"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/25/digital-projects-and-student-engagement-in-the-era-of-covid-19-hastac/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This blog post recognizes the difficulties of teaching and learning remotely in the COVID-19 pandemic. The article notes the additional emotional and medical stress imposed by the pandemic on students and teachers. Under these conditions, it seeks to revive student engagement and teachers' inspiration. The article turns to Slave Voyages Trans-Atlantic Slave Trade Database as an resource that provides educational material to spark student discussion and creativity. It highlights the importance of interactive exhibits and large datasets to help students understand how to \"humanize big data\" as well as reckon with traumatic moments from history.",
+      "Read more: Digital Projects and Student Engagement in the Era of COVID-19 | HASTAC"
+    ],
+    "fullParagraphs": [
+      "This blog post recognizes the difficulties of teaching and learning remotely in the COVID-19 pandemic. The article notes the additional emotional and medical stress imposed by the pandemic on students and teachers. Under these conditions, it seeks to revive student engagement and teachers' inspiration. The article turns to Slave Voyages Trans-Atlantic Slave Trade Database as an resource that provides educational material to spark student discussion and creativity. It highlights the importance of interactive exhibits and large datasets to help students understand how to \"humanize big data\" as well as reckon with traumatic moments from history.",
+      "Read more: Digital Projects and Student Engagement in the Era of COVID-19 | HASTAC"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18521",
+    "title": "Raising Algorithmic Impact Assessment | by Jacob Metcalf | Mar, 2022 | Data & Society: Points",
+    "date": "2022-03-25",
+    "year": "2021–2022",
+    "authors": [
+      "Jacob Metcalf"
+    ],
+    "originalAuthors": [
+      "Jacob Metcalf"
+    ],
+    "aliases": [
+      "Jacob Metcalf"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/25/raising-algorithmic-impact-assessment-by-jacob-metcalf-mar-2022-data-society-points/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "This blog post calls for the urgent development of methods for assessing algorithmic systems that center the public interest. The post notes that the algorithmic systems which dominate much for our social lives are opaque and not subject to democratic governance. It calls for a completely new framework for assessing the performance of these algorithmic systems that takes greater public interest into account.",
+      "Read more: Raising Algorithmic Impact Assessment | by Jacob Metcalf | Mar, 2022 | Data & Society: Points"
+    ],
+    "fullParagraphs": [
+      "This blog post calls for the urgent development of methods for assessing algorithmic systems that center the public interest. The post notes that the algorithmic systems which dominate much for our social lives are opaque and not subject to democratic governance. It calls for a completely new framework for assessing the performance of these algorithmic systems that takes greater public interest into account.",
+      "Read more: Raising Algorithmic Impact Assessment | by Jacob Metcalf | Mar, 2022 | Data & Society: Points"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18498",
+    "title": "The Present and Future of Engineers – The Brooklyn Rail",
+    "date": "2022-03-22",
+    "year": "2021–2022",
+    "authors": [
+      "Nick Chavez"
+    ],
+    "originalAuthors": [
+      "Nick Chavez"
+    ],
+    "aliases": [
+      "Nick Chavez"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/22/the-present-and-future-of-engineers-the-brooklyn-rail/",
+    "signals": [],
+    "paragraphs": [
+      "In this article, Nick Chavez--a mechanical engineer--reflects on the role engineers have in rendering workers non-experts as more expertise is transferred to the machine that gets used. Something that once had to be done by hand might turn into something done with a push of a button. This is especially troubling for communist (or other pro-labor) mechanical engineers. It is a bit longer than the usual article; read when you have ~20 minutes or so at the link below.",
+      "Wonderful photo, courtesy of Rui Carvoeiras",
+      "Source: The Present and Future of Engineers – The Brooklyn Rail"
+    ],
+    "fullParagraphs": [
+      "In this article, Nick Chavez--a mechanical engineer--reflects on the role engineers have in rendering workers non-experts as more expertise is transferred to the machine that gets used. Something that once had to be done by hand might turn into something done with a push of a button. This is especially troubling for communist (or other pro-labor) mechanical engineers. It is a bit longer than the usual article; read when you have ~20 minutes or so at the link below.",
+      "Wonderful photo, courtesy of Rui Carvoeiras",
+      "Source: The Present and Future of Engineers – The Brooklyn Rail"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18489",
+    "title": "The innovative surfing tech making waves - BBC News",
+    "date": "2022-03-14",
+    "year": "2021–2022",
+    "authors": [
+      "Richard Baimbridge"
+    ],
+    "originalAuthors": [
+      "Richard Baimbridge"
+    ],
+    "aliases": [
+      "Richard Baimbridge"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/14/the-innovative-surfing-tech-making-waves-bbc-news/",
+    "signals": [],
+    "paragraphs": [
+      "This article covers some of the exciting developments in surfing technology: surfboards with propellers; a pump that generates surfable waves; and a watch that helps prevent shark attacks. Read more in Richard Baimbridge's article linked below!",
+      "Image courtesy of Miguel de Ozarko",
+      "Source: The innovative surfing tech making waves – BBC News"
+    ],
+    "fullParagraphs": [
+      "This article covers some of the exciting developments in surfing technology: surfboards with propellers; a pump that generates surfable waves; and a watch that helps prevent shark attacks. Read more in Richard Baimbridge's article linked below!",
+      "Image courtesy of Miguel de Ozarko",
+      "Source: The innovative surfing tech making waves – BBC News"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18486",
+    "title": "How Ukrainian Civilians Are Using Phones to Share the Invasion With the World - CNET",
+    "date": "2022-03-14",
+    "year": "2021–2022",
+    "authors": [
+      "David Lumb"
+    ],
+    "originalAuthors": [
+      "David Lumb"
+    ],
+    "aliases": [
+      "David Lumb"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/14/how-ukrainian-civilians-are-using-phones-to-share-the-invasion-with-the-world-cnet/",
+    "signals": [],
+    "paragraphs": [
+      "In this article, David Lumb talks about how Ukrainians are staying in touch with each other, as well as informing the world, using cell phones. Ukrainians can lose Wi-Fi access from bombings or connectivity being cut off, or they may just not be in locations where Wi-Fi is accessible. Read more at the link below.",
+      "Photo courtesy of MamiGibbs",
+      "Source: How Ukrainian Civilians Are Using Phones to Share the Invasion With the World – CNET"
+    ],
+    "fullParagraphs": [
+      "In this article, David Lumb talks about how Ukrainians are staying in touch with each other, as well as informing the world, using cell phones. Ukrainians can lose Wi-Fi access from bombings or connectivity being cut off, or they may just not be in locations where Wi-Fi is accessible. Read more at the link below.",
+      "Photo courtesy of MamiGibbs",
+      "Source: How Ukrainian Civilians Are Using Phones to Share the Invasion With the World – CNET"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18482",
+    "title": "Will 2022 Be the Year of Reckoning for Addictive Algorithms? | Time",
+    "date": "2022-03-11",
+    "year": "2021–2022",
+    "authors": [
+      "Megan McCluskey"
+    ],
+    "originalAuthors": [
+      "Megan McCluskey"
+    ],
+    "aliases": [
+      "Megan McCluskey"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/11/will-2022-be-the-year-of-reckoning-for-addictive-algorithms-time/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "This article draws attention to how social media platforms like Facebook and Instagram are under increasing pressure to change the ways in which their platforms are designed to be addictive to users. The article provides an overview as to how these social media platforms are built on algorithms that are designed to keep their users scrolling for longer periods of time so that they can be fed more advertisements. The article also raises concerns over the lack of transparency regarding how these platforms operate, which hinders efforts to reform them so that they are made less addictive.",
+      "Read more: Will 2022 Be the Year of Reckoning for Addictive Algorithms? | Time"
+    ],
+    "fullParagraphs": [
+      "This article draws attention to how social media platforms like Facebook and Instagram are under increasing pressure to change the ways in which their platforms are designed to be addictive to users. The article provides an overview as to how these social media platforms are built on algorithms that are designed to keep their users scrolling for longer periods of time so that they can be fed more advertisements. The article also raises concerns over the lack of transparency regarding how these platforms operate, which hinders efforts to reform them so that they are made less addictive.",
+      "Read more: Will 2022 Be the Year of Reckoning for Addictive Algorithms? | Time"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18479",
+    "title": "Inside Facebook’s $10 Billion Breakup With Advertisers - WSJ",
+    "date": "2022-03-11",
+    "year": "2021–2022",
+    "authors": [
+      "Suzanne Vranica",
+      "Patience Haggin",
+      "Salvador Rodriguez"
+    ],
+    "originalAuthors": [
+      "Suzanne Vranica, Patience Haggin and Salvador Rodriguez"
+    ],
+    "aliases": [
+      "Suzanne Vranica",
+      "Patience Haggin",
+      "Salvador Rodriguez"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "AAPL",
+      "Advertising",
+      "Advertising Services",
+      "Advertising Spending",
+      "Advertising/Marketing/Public Relations",
+      "Alphabet",
+      "Apple",
+      "Applications Software",
+      "business",
+      "Business/Consumer Services",
+      "C&E Industry News Filter",
+      "cell",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/11/inside-facebooks-10-billion-breakup-with-advertisers-wsj/",
+    "signals": [],
+    "paragraphs": [
+      "The news article draws attention to how changes in software privacy requirements have prompted major losses in revenue for social media corporations. Changes in privacy settings have throttled the ability for social media platforms like Facebook and Instagram to track their uses and target them with advertisements. Business enjoyed the ability to market their products to specific audiences that used to be provided by these platforms. However, an increased push for the privacy of users has compromised the ability for social media platforms to collect intimate details of their users, which has correspondingly blunted their ability to precisely target advertisements. The article raises important questions regarding the relationship between the profits of private corporations and the privacy of individual users.",
+      "Read more: Inside Facebook’s $10 Billion Breakup With Advertisers – WSJ"
+    ],
+    "fullParagraphs": [
+      "The news article draws attention to how changes in software privacy requirements have prompted major losses in revenue for social media corporations. Changes in privacy settings have throttled the ability for social media platforms like Facebook and Instagram to track their uses and target them with advertisements. Business enjoyed the ability to market their products to specific audiences that used to be provided by these platforms. However, an increased push for the privacy of users has compromised the ability for social media platforms to collect intimate details of their users, which has correspondingly blunted their ability to precisely target advertisements. The article raises important questions regarding the relationship between the profits of private corporations and the privacy of individual users.",
+      "Read more: Inside Facebook’s $10 Billion Breakup With Advertisers – WSJ"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18475",
+    "title": "6 Algorithms Every Developer Must Know | Richard | Dare To Be Better",
+    "date": "2022-03-11",
+    "year": "2021–2022",
+    "authors": [
+      "Richard Warepam"
+    ],
+    "originalAuthors": [
+      "Richard Warepam"
+    ],
+    "aliases": [
+      "Richard Warepam"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/11/6-algorithms-every-developer-must-know-richard-dare-to-be-better/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "This post provides an overview of 6 essential algorithms that developers and data scientists should be familiar with. It is a very helpful place to gain an understanding of some of the commons tools of the trade.",
+      "Read more: 6 Algorithms Every Developer Must Know | Richard | Dare To Be Better"
+    ],
+    "fullParagraphs": [
+      "This post provides an overview of 6 essential algorithms that developers and data scientists should be familiar with. It is a very helpful place to gain an understanding of some of the commons tools of the trade.",
+      "Read more: 6 Algorithms Every Developer Must Know | Richard | Dare To Be Better"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18470",
+    "title": "The NFT Has Changed Artists. Has it Changed Art? - The New York Times",
+    "date": "2022-03-11",
+    "year": "2021–2022",
+    "authors": [
+      "Blake Gopnik"
+    ],
+    "originalAuthors": [
+      "Blake Gopnik"
+    ],
+    "aliases": [
+      "Blake Gopnik"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Art",
+      "Auctions",
+      "Blockchain (Technology)",
+      "Collectors and Collections",
+      "Finances",
+      "Jennifer (1968- )",
+      "Kevin (1967- )",
+      "McCoy",
+      "News",
+      "Nonfungible Tokens (NFTs)",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/11/the-nft-has-changed-artists-has-it-changed-art-the-new-york-times/",
+    "signals": [],
+    "paragraphs": [
+      "This article explains the rise of the NFT phenomenon as well as its relationship to art more generally. It explains the technology powering NFTs as well as the financial interests backing it. The author provides a refreshingly clear understanding of how digital art is transforming our understanding of the value and role of aesthetics in our lives.",
+      "Read more: The NFT Has Changed Artists. Has it Changed Art? – The New York Times"
+    ],
+    "fullParagraphs": [
+      "This article explains the rise of the NFT phenomenon as well as its relationship to art more generally. It explains the technology powering NFTs as well as the financial interests backing it. The author provides a refreshingly clear understanding of how digital art is transforming our understanding of the value and role of aesthetics in our lives.",
+      "Read more: The NFT Has Changed Artists. Has it Changed Art? – The New York Times"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18438",
+    "title": "How protesters in Russia and Ukraine are staying safe online - Los Angeles Times",
+    "date": "2022-03-05",
+    "year": "2021–2022",
+    "authors": [
+      "Suhauna Hussain"
+    ],
+    "originalAuthors": [
+      "Suhauna Hussain"
+    ],
+    "aliases": [
+      "Suhauna Hussain"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/05/how-protesters-in-russia-and-ukraine-are-staying-safe-online-los-angeles-times/",
+    "signals": [],
+    "paragraphs": [
+      "This article discusses what is being done in light of Russia cracking down on and arresting those protesting the war against Ukraine. Individuals have taken to posting information in 'code' that can be discerned by people, but not algorithms. In addition, social media companies like Facebook and Twitter have also made changes to make it easier for individuals to increase security on their accounts. Read more at the link below.",
+      "Source: How protesters in Russia and Ukraine are staying safe online – Los Angeles Times",
+      "Image courtesy of Frank Henkemeyer"
+    ],
+    "fullParagraphs": [
+      "This article discusses what is being done in light of Russia cracking down on and arresting those protesting the war against Ukraine. Individuals have taken to posting information in 'code' that can be discerned by people, but not algorithms. In addition, social media companies like Facebook and Twitter have also made changes to make it easier for individuals to increase security on their accounts. Read more at the link below.",
+      "Source: How protesters in Russia and Ukraine are staying safe online – Los Angeles Times",
+      "Image courtesy of Frank Henkemeyer"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18440",
+    "title": "Data & Society — Bounty Everything: Hackers and the Making of the Global Bug Marketplace",
+    "date": "2022-03-04",
+    "year": "2021–2022",
+    "authors": [
+      "Ryan Ellis",
+      "Yuan Stevens"
+    ],
+    "originalAuthors": [
+      "Ryan Ellis and Yuan Stevens"
+    ],
+    "aliases": [
+      "Ryan Ellis",
+      "Yuan Stevens"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/04/data-society-bounty-everything-hackers-and-the-making-of-the-global-bug-marketplace/",
+    "signals": [],
+    "paragraphs": [
+      "This article provides a brief introduction to the work Bounty Everything: Hackers and the Making of the Global Bug Marketplace, by Ryan Ellis and Yuan Stevens. Their report is about the hackers hired to find bugs in programs, how this work is hired and carried out, and critiquing this model. They worry that this current way of finding bugs sacrifices meticulousness for speed. For more, read at the link below.",
+      "Source: Data & Society — Bounty Everything: Hackers and the Making of the Global Bug Marketplace",
+      "Image courtesy of Luc Helie"
+    ],
+    "fullParagraphs": [
+      "This article provides a brief introduction to the work Bounty Everything: Hackers and the Making of the Global Bug Marketplace, by Ryan Ellis and Yuan Stevens. Their report is about the hackers hired to find bugs in programs, how this work is hired and carried out, and critiquing this model. They worry that this current way of finding bugs sacrifices meticulousness for speed. For more, read at the link below.",
+      "Source: Data & Society — Bounty Everything: Hackers and the Making of the Global Bug Marketplace",
+      "Image courtesy of Luc Helie"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18435",
+    "title": "An alternative to pink & blue: Colors for gender data",
+    "date": "2022-03-03",
+    "year": "2021–2022",
+    "authors": [
+      "Lisa Charlotte Muth"
+    ],
+    "originalAuthors": [
+      "Lisa Charlotte Muth"
+    ],
+    "aliases": [
+      "Lisa Charlotte Muth"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/03/an-alternative-to-pink-blue-colors-for-gender-data/",
+    "signals": [],
+    "paragraphs": [
+      "An alternative to pink & blue: Colors for gender data",
+      "This article discusses how gender data is colored, as news rooms and other presenters of such data move away from the stereotypical pink (for women) and blue (for men). Sometimes newsrooms will reverse these colors: pink for men, blue for women. But Muth think it is better to have a variety of colors for gender data, which is turning out to be the case. This will prevent new stereotype \"colors\" from being established.",
+      "Source: An alternative to pink & blue: Colors for gender data",
+      "Image courtesy of Jason Rhode"
+    ],
+    "fullParagraphs": [
+      "An alternative to pink & blue: Colors for gender data",
+      "This article discusses how gender data is colored, as news rooms and other presenters of such data move away from the stereotypical pink (for women) and blue (for men). Sometimes newsrooms will reverse these colors: pink for men, blue for women. But Muth think it is better to have a variety of colors for gender data, which is turning out to be the case. This will prevent new stereotype \"colors\" from being established.",
+      "Source: An alternative to pink & blue: Colors for gender data",
+      "Image courtesy of Jason Rhode"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18432",
+    "title": "Ukrainian Websites Are Going Dark. Archivists Are Trying to Save Them.",
+    "date": "2022-03-03",
+    "year": "2021–2022",
+    "authors": [
+      "Claire Woodcock"
+    ],
+    "originalAuthors": [
+      "Claire Woodcock"
+    ],
+    "aliases": [
+      "Claire Woodcock"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Uncategorized",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/03/03/ukrainian-websites-are-going-dark-archivists-are-trying-to-save-them/",
+    "signals": [
+      "Web & scholarly identity",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "Claire Woodcock's recent article (link below) discusses the importance of archiving digital cultural information during times of war, particularly when cyber warfare is being waged against the nation right along with conventional warfare. The article discusses the efforts archivists are making to ensure that Ukraine's digital information is not erased.",
+      "Source: Ukrainian Websites Are Going Dark. Archivists Are Trying to Save Them.",
+      "Image courtesy of Karsa11"
+    ],
+    "fullParagraphs": [
+      "Claire Woodcock's recent article (link below) discusses the importance of archiving digital cultural information during times of war, particularly when cyber warfare is being waged against the nation right along with conventional warfare. The article discusses the efforts archivists are making to ensure that Ukraine's digital information is not erased.",
+      "Source: Ukrainian Websites Are Going Dark. Archivists Are Trying to Save Them.",
+      "Image courtesy of Karsa11"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18426",
+    "title": "Who Is Behind QAnon? Linguistic Detectives Find Fingerprints - The New York Times",
+    "date": "2022-02-28",
+    "year": "2021–2022",
+    "authors": [
+      "David D. Kirkpatrick"
+    ],
+    "originalAuthors": [
+      "David D. Kirkpatrick"
+    ],
+    "aliases": [
+      "David D. Kirkpatrick"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "artificial intelligence",
+      "audio-neutral-immersive",
+      "audio-neutral-informative",
+      "Conspiracy Theories",
+      "Forensic Science",
+      "Furber",
+      "News",
+      "Paul",
+      "Provost's Digital Innovation Grants",
+      "QAnon",
+      "Right-Wing Extremism and Alt-Right",
+      "Ron (1987/88- )",
+      "social media",
+      "United States Politics and Government",
+      "via bookmarklet",
+      "Watkins"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/28/who-is-behind-qanon-linguistic-detectives-find-fingerprints-the-new-york-times/",
+    "signals": [
+      "Archives, text & media",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "This article narrates how teams of computer scientists used machine learning to identify the individuals behind the viral QAnon conspiracy theory. The article describes how researchers used software that broke down the QAnon messages into sequences and then recurrence of these sequences in social media posts.",
+      "Read more: Who Is Behind QAnon? Linguistic Detectives Find Fingerprints – The New York Times"
+    ],
+    "fullParagraphs": [
+      "This article narrates how teams of computer scientists used machine learning to identify the individuals behind the viral QAnon conspiracy theory. The article describes how researchers used software that broke down the QAnon messages into sequences and then recurrence of these sequences in social media posts.",
+      "Read more: Who Is Behind QAnon? Linguistic Detectives Find Fingerprints – The New York Times"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18421",
+    "title": "Top 20 Data Science Blogs And Websites For Data Scientists | by Exastax | Medium",
+    "date": "2022-02-28",
+    "year": "2021–2022",
+    "authors": [
+      "Exastax"
+    ],
+    "originalAuthors": [
+      "Exastax"
+    ],
+    "aliases": [
+      "Exastax"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/28/top-20-data-science-blogs-and-websites-for-data-scientists-by-exastax-medium/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "The field of Data Science is constantly growing, enabling businesses to become more data-driven with better insights and knowledge. Whether you’re a professional working in the field of data science or a student, take a look at these Top 20 Data Science Blogs that are frequently updated and with the highest number of followers.",
+      "Read more: Top 20 Data Science Blogs And Websites For Data Scientists by Exastax"
+    ],
+    "fullParagraphs": [
+      "The field of Data Science is constantly growing, enabling businesses to become more data-driven with better insights and knowledge. Whether you’re a professional working in the field of data science or a student, take a look at these Top 20 Data Science Blogs that are frequently updated and with the highest number of followers.",
+      "Read more: Top 20 Data Science Blogs And Websites For Data Scientists by Exastax"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18417",
+    "title": "A Network of Fake Test Answer Sites Is Trying to Incriminate Students – The Markup",
+    "date": "2022-02-28",
+    "year": "2021–2022",
+    "authors": [
+      "Colin Lecher"
+    ],
+    "originalAuthors": [
+      "Colin Lecher"
+    ],
+    "aliases": [
+      "Colin Lecher"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/28/a-network-of-fake-test-answer-sites-is-trying-to-incriminate-students-the-markup/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This article highlights how virtual student proctoring services trespass on students' privacy and create conditions that encourage students to cheat. It focuses on the Honorlock corporation, whose product \"promises to ensure that remote students don’t cheat on exams through AI-powered software used by students that 'monitors each student’s exam session and alerts a live, US-based test proctor if it detects any potential problems.' The software can scan students’ faces to verify their identity, track specific phrases that their computer microphone captures, and even promises to search for and remove test questions that leak online.\" The article makes the case for rethinking how examinations are designed so that students are not under suspicion.",
+      "Read more: A Network of Fake Test Answer Sites Is Trying to Incriminate Students – The Markup"
+    ],
+    "fullParagraphs": [
+      "This article highlights how virtual student proctoring services trespass on students' privacy and create conditions that encourage students to cheat. It focuses on the Honorlock corporation, whose product \"promises to ensure that remote students don’t cheat on exams through AI-powered software used by students that 'monitors each student’s exam session and alerts a live, US-based test proctor if it detects any potential problems.' The software can scan students’ faces to verify their identity, track specific phrases that their computer microphone captures, and even promises to search for and remove test questions that leak online.\" The article makes the case for rethinking how examinations are designed so that students are not under suspicion.",
+      "Read more: A Network of Fake Test Answer Sites Is Trying to Incriminate Students – The Markup"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18412",
+    "title": "Everywhere in Blockchains | Patrick McGinty",
+    "date": "2022-02-28",
+    "year": "2021–2022",
+    "authors": [
+      "Patrick McGinty"
+    ],
+    "originalAuthors": [
+      "Patrick McGinty"
+    ],
+    "aliases": [
+      "Patrick McGinty"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/28/everywhere-in-blockchains-patrick-mcginty/",
+    "signals": [],
+    "paragraphs": [
+      "This fascinating article provides a window into the cryptocurrency technology. It explains the intersection between the blockchain technology and the operation of the finance industry. The article addresses the potential of a loosely regulated and mysterious technology to cause major financial crises, and it also raises questions regarding the masochistic culture that is pervasive in the cryptocurrency milieu.",
+      "Read more: Everywhere in Blockchains | Patrick McGinty"
+    ],
+    "fullParagraphs": [
+      "This fascinating article provides a window into the cryptocurrency technology. It explains the intersection between the blockchain technology and the operation of the finance industry. The article addresses the potential of a loosely regulated and mysterious technology to cause major financial crises, and it also raises questions regarding the masochistic culture that is pervasive in the cryptocurrency milieu.",
+      "Read more: Everywhere in Blockchains | Patrick McGinty"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18408",
+    "title": "Their Bionic Eyes Are Now Obsolete and Unsupported - IEEE Spectrum",
+    "date": "2022-02-28",
+    "year": "2021–2022",
+    "authors": [
+      "Eliza Strickland"
+    ],
+    "originalAuthors": [
+      "Eliza Strickland"
+    ],
+    "aliases": [
+      "Eliza Strickland"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "bionics",
+      "blind",
+      "brain implants",
+      "FDA",
+      "News",
+      "prosthetics",
+      "via bookmarklet",
+      "vision"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/28/their-bionic-eyes-are-now-obsolete-and-unsupported-ieee-spectrum/",
+    "signals": [],
+    "paragraphs": [
+      "This article looks at the failure of the Second Sight corporation, a bionic eye company whose bankruptcy stopped support for its product and left hundreds of its customers stuck with a life threatening technology. The article narrates the experiences of customers with visual disabilities who initially benefited from Second Sight's bionic eye technology, but who now face many health complications because their devices can no longer be serviced. It raises many questions regarding the ethics of the biomedical devices industry and the role of businesses in supporting their products.",
+      "Read More: Their Bionic Eyes Are Now Obsolete and Unsupported – IEEE Spectrum"
+    ],
+    "fullParagraphs": [
+      "This article looks at the failure of the Second Sight corporation, a bionic eye company whose bankruptcy stopped support for its product and left hundreds of its customers stuck with a life threatening technology. The article narrates the experiences of customers with visual disabilities who initially benefited from Second Sight's bionic eye technology, but who now face many health complications because their devices can no longer be serviced. It raises many questions regarding the ethics of the biomedical devices industry and the role of businesses in supporting their products.",
+      "Read More: Their Bionic Eyes Are Now Obsolete and Unsupported – IEEE Spectrum"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "18378",
+    "title": "Spouse Surveillance",
+    "date": "2022-02-18",
+    "year": "2021–2022",
+    "authors": [
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Jessie McCormack"
+    ],
+    "aliases": [
+      "Jessie McCormack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/18/spouse-surveillance/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "In an unnerving article, \"I Used Apple AirTags, Tiles and a GPS Tracker to Watch My Husband’s Every Move,\" Kashmir Hill describes the advanced, and affordable, technology available to individuals to track or record people without their knowledge. (Hill did have her husband's knowledge, as she mentions early on.) Hill mentions stories about people discovering such devices in their bags or belongings, and worries the stories may become more frequent.",
+      "Of particular concern is the role this advanced technology can play in abusive relationships, where such surveillance totalizes the control an abuser can have over their victim, and makes it even more difficult for victims to seek help and escape: it's hard to get away if you can be found wherever you go. This is a concern society should take deeply seriously, since abusers are often most violent when victims try to leave.",
+      "Image courtesy of greg"
+    ],
+    "fullParagraphs": [
+      "In an unnerving article, \"I Used Apple AirTags, Tiles and a GPS Tracker to Watch My Husband’s Every Move,\" Kashmir Hill describes the advanced, and affordable, technology available to individuals to track or record people without their knowledge. (Hill did have her husband's knowledge, as she mentions early on.) Hill mentions stories about people discovering such devices in their bags or belongings, and worries the stories may become more frequent.",
+      "Of particular concern is the role this advanced technology can play in abusive relationships, where such surveillance totalizes the control an abuser can have over their victim, and makes it even more difficult for victims to seek help and escape: it's hard to get away if you can be found wherever you go. This is a concern society should take deeply seriously, since abusers are often most violent when victims try to leave.",
+      "Image courtesy of greg"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.002930567335315124,
+      0.25229604212941464,
+      0.002566842069136923,
+      0.15684645219247248,
+      0.0017633176847210619,
+      0.5559258854030747,
+      0.0032139313784831057,
+      0.02445696180738199
+    ],
+    "words": [
+      [
+        "hill",
+        3
+      ],
+      [
+        "victim",
+        3
+      ],
+      [
+        "husband",
+        2
+      ],
+      [
+        "advanced",
+        2
+      ],
+      [
+        "technology",
+        2
+      ],
+      [
+        "people",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "18368",
+    "title": "A Fight Over the Right to Repair Cars Turns Ugly",
+    "date": "2022-02-15",
+    "year": "2021–2022",
+    "authors": [
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Jessie McCormack"
+    ],
+    "aliases": [
+      "Jessie McCormack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/15/a-fight-over-the-right-to-repair-cars-turns-ugly/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "In this fascinating article from Wired, Aarian Marshall explains how the complexity of computer systems in cars has now resulted in thorny legal issues about intellectual property--the rights of car companies to keep secret their algorithms (and such) in their car designs--and the rights of car owners to have access to the data they need to fix their cars. In addition, there are issues about the kinds of data that cars collect as drivers use them, and where ownership of that data lies.",
+      "There are issues here not only involving the fact that both the car's computer and the person's driving are required to produce the data (so who owns it?), but also that so much data is generated now with the impressive advances in car computing technology. We will probably see many more issues like this arise in the near future, and continue to arise the more cars become computational machines. Read more here!",
+      "Accompanying image courtesy of Jessica…"
+    ],
+    "fullParagraphs": [
+      "In this fascinating article from Wired, Aarian Marshall explains how the complexity of computer systems in cars has now resulted in thorny legal issues about intellectual property--the rights of car companies to keep secret their algorithms (and such) in their car designs--and the rights of car owners to have access to the data they need to fix their cars. In addition, there are issues about the kinds of data that cars collect as drivers use them, and where ownership of that data lies.",
+      "There are issues here not only involving the fact that both the car's computer and the person's driving are required to produce the data (so who owns it?), but also that so much data is generated now with the impressive advances in car computing technology. We will probably see many more issues like this arise in the near future, and continue to arise the more cars become computational machines. Read more here!",
+      "Accompanying image courtesy of Jessica Poundstone"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.041857923847544755,
+      0.38323123941687953,
+      0.0021624198172289296,
+      0.0008373453327083605,
+      0.0014854957970955943,
+      0.560244102695942,
+      0.0027075561007859706,
+      0.007473916991814901
+    ],
+    "words": [
+      [
+        "car",
+        9
+      ],
+      [
+        "data",
+        5
+      ],
+      [
+        "issue",
+        4
+      ],
+      [
+        "computer",
+        2
+      ],
+      [
+        "right",
+        2
+      ],
+      [
+        "arise",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "18365",
+    "title": "It Could Happen (T)here: Transnational Advocacy Strategies Around Social Media",
+    "date": "2022-02-15",
+    "year": "2021–2022",
+    "authors": [
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Jessie McCormack"
+    ],
+    "aliases": [
+      "Jessie McCormack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/15/it-could-happen-there-transnational-advocacy-strategies-around-social-media/",
+    "signals": [],
+    "paragraphs": [
+      "In this timely article, Amanda Besar, Jennifer Li, and Valentina Vera Quiroz--writing for the Institute for Rebooting Social Media--re-cap the discussions from workshops dedicated to analyzing the interactions between social media platforms and governments on pressing issues, specifically surveillance and transparency about the use of private data, and balance of power between social media and governments. As the authors note, the workshops considered that although we tend to associate 'authoritarianism' with governments, one could also see social media platforms as \"digitally authoritarian,\" as well, particularly considering the hierarchical organization within the companies themselves.",
+      "Find out more details here!"
+    ],
+    "fullParagraphs": [
+      "In this timely article, Amanda Besar, Jennifer Li, and Valentina Vera Quiroz--writing for the Institute for Rebooting Social Media--re-cap the discussions from workshops dedicated to analyzing the interactions between social media platforms and governments on pressing issues, specifically surveillance and transparency about the use of private data, and balance of power between social media and governments. As the authors note, the workshops considered that although we tend to associate 'authoritarianism' with governments, one could also see social media platforms as \"digitally authoritarian,\" as well, particularly considering the hierarchical organization within the companies themselves.",
+      "Find out more details here!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.1163968914365894,
+      0.22925862424369492,
+      0.003097947176370353,
+      0.0011996059176126823,
+      0.0021281656195787273,
+      0.21951262771951804,
+      0.0414989125631595,
+      0.3869072253234763
+    ],
+    "words": [
+      [
+        "social",
+        4
+      ],
+      [
+        "medium",
+        4
+      ],
+      [
+        "government",
+        3
+      ],
+      [
+        "workshop",
+        2
+      ],
+      [
+        "platform",
+        2
+      ],
+      [
+        "consider",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19871",
+    "title": "Greetings Digital GC – Welcome back!",
+    "date": "2022-02-07",
+    "year": "2021–2022",
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "originalAuthors": [
+      "Zachary Lloyd"
+    ],
+    "aliases": [
+      "Zachary Lloyd"
+    ],
+    "account": "Zachary Lloyd",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Zachary Lloyd",
+    "tags": [
+      "Announcements",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/02/07/greetings-digital-gc-welcome-back/",
+    "signals": [],
+    "paragraphs": [
+      "Welcome back for the spring semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the…"
+    ],
+    "fullParagraphs": [
+      "Welcome back for the spring semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the R User’s Group (RUG), the Python User’s Group (PUG), the Sound Studies and Methods Working Group, the Digital Archives Research Collective (DARC), and the GIS/Mapping Working Group. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons for regular updates, to follow us on Twitter (@Digital_Fellows, @cunygcdi), to be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project?",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet remotely – via Zoom, Teams, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed Slack workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer hands-on, remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. Registration is required, and information about how to register can be found on our website.",
+      "This semester we are offering a variety of workshops across February to March. These include:",
+      "Predictive Modeling in R II // February 18 @ 4 - 6 pm",
+      "Working with HathiTrust Data // March 2 @ 12 - 2 pm",
+      "Geoprocessing Tools with QGIS // March 4 @ 2 - 4 pm",
+      "Introduction to HTML and CSS // March 9 @ 12 - 2 pm",
+      "Word Embeddings // March 15 @ 2 - 4 pm",
+      "Beginning Game Design with Python // March 16 @ 2 - 4 pm",
+      "Beginner's Guide to Web Scraping // March 23 @ 2 - 3:30 pm",
+      "In order to be as responsive as possible (workshop space is limited), please:",
+      "1) Be sure to register on Eventbrite when you know you want to attend and;",
+      "2) If you realize you can’t make it, please cancel your RSVP so someone else can attend!",
+      "Special Events",
+      "GCDI Digital Showcase",
+      "Our annual GCDI Digital Showcase will be hosted on May 18th, from 6:30 – 8:30 PM. The event will be online, where participants will showcase their digital projects in lightning talks followed by discussion. This is a great opportunity for you to share your work and/or learn more about how the GC community is using digital methods and tools to extend their scholarship in new and exciting directions. Be on the lookout for a call to participate and an invitation to attend which will come out soon!",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold's reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, join the Building Manifold Development Blog, join the Manifold Community Slack channel, and visit the Manifold website for current documentation. You can also contact Manifold Co-PI Matthew K. Gold or Manifold Digital Fellow Jojo Karlin.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. If you’re new to CUNY, check out the Commons Basics guide. Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms you might see associated with GCDI are some amazing partners -- the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such topics, tools, and methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Quick and Easy Mapping with R by Rilquer Mascarenhas",
+      "JavaScript or Python: Which is Better for Academics to Learn? by Chelsea Lane",
+      "What to Consider When Planning a Digital Project by Kristen Hackett",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "Using Audacity for Interviews by Di Yoong",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective Wiki, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Chelsea, Di, Rebecca, Rilquer, Param, Leanne, Zach, Yuxiao",
+      "Note: This post by GC Digital Fellow Zachary Lloyd is updated from the post by GC Digital Fellows Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19870",
+    "title": "How to Ask Coding Questions",
+    "date": "2021-12-15",
+    "year": "2021–2022",
+    "authors": [
+      "Leanne Fan"
+    ],
+    "originalAuthors": [
+      "Leanne Fan"
+    ],
+    "aliases": [
+      "Leanne Fan"
+    ],
+    "account": "Leanne Fan",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Humanities",
+      "Digital Scholarship",
+      "python",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/12/15/how-to-ask-coding-questions/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Being able to ask questions in a clear and comprehensible way is a skill worth practicing because not only does it help you get better answers for your questions, others might also benefit from those answers. What we also find is that as we write out our coding questions, the process actually helps us troubleshoot and think of potential solutions.",
+      "The following resource is adapted from Darren Jones’s post on asking “GOOD” questions on realpython.com. For those looking for more specific, see How to Ask a Question on Stack Overflow) and more advanced Python help.",
+      "G: ? Give context on what you are trying to do, clearly describing the problem. Include screenshots or code.",
+      "Example: I have a pandas dataframe (list_comments) with a list of comments that contains either the keywords “climate change” or “global warming.” At the step where I’m getting the error, I am trying to separate my list_comments into ones that contain “climate change” and…"
+    ],
+    "fullParagraphs": [
+      "Being able to ask questions in a clear and comprehensible way is a skill worth practicing because not only does it help you get better answers for your questions, others might also benefit from those answers. What we also find is that as we write out our coding questions, the process actually helps us troubleshoot and think of potential solutions.",
+      "The following resource is adapted from Darren Jones’s post on asking “GOOD” questions on realpython.com. For those looking for more specific, see How to Ask a Question on Stack Overflow) and more advanced Python help.",
+      "G: ? Give context on what you are trying to do, clearly describing the problem. Include screenshots or code.",
+      "Example: I have a pandas dataframe (list_comments) with a list of comments that contains either the keywords “climate change” or “global warming.” At the step where I’m getting the error, I am trying to separate my list_comments into ones that contain “climate change” and ones that contain “global warming.” Then I get this error in the screenshot.",
+      "Screenshot:",
+      "O: Outline possible solutions you have already tried .",
+      "Example: I tried rerunning all the code and looking at the .info() for my dataframe, screenshot below. I googled the error and found this stack exchange and it actually looks like something that I’m doing but I don’t understand the top answer.",
+      "O: Offer your best guess as to what the problem might be. This helps the person who is helping you to know not only what you are thinking, but also your initial legwork troubleshooting.",
+      "Example: From the top answer, I think there’s an error because there’s an empty row at the bottom but I don’t know how to get rid of it or what the original error means.",
+      "D: Demonstrate what is happening. Include the code, a traceback error message, and an explanation of the steps you executed that resulted in the error. This way, the person helping does not have to try to recreate the issue.",
+      "Example: Here’s a csv that contains a sample of the data and a jupyter notebook with my code thus far. You will find the error in section 4.",
+      "Hopefully you will be able to get a response from following these steps! A way to ask these questions in the GC community is by joining the R and Python User Groups Slacks.",
+      "Please join the academic commons groups for the R User Group (RUG) and Python User Group (PUG) to get a Slack invite. We encourage people to join our communities on Slack to ask coding questions and get support for your coding projects. Slack can accommodate different formatting for versatile messaging, including adding code snippets and screenshots and other files. Following these tips could also help with asking questions on other coding forums like Stack Exchange."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.01415877126294468,
+      0.0008355222122142531,
+      0.16949791022232852,
+      0.00028323863068539193,
+      0.07600326299927061,
+      0.6513941041160808,
+      0.0009158521013188665,
+      0.08691133845515685
+    ],
+    "words": [
+      [
+        "question",
+        8
+      ],
+      [
+        "error",
+        8
+      ],
+      [
+        "help",
+        7
+      ],
+      [
+        "ask",
+        6
+      ],
+      [
+        "try",
+        5
+      ],
+      [
+        "code",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "6243",
+    "title": "Getting Started with Pygame",
+    "date": "2021-11-23",
+    "year": "2021–2022",
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "originalAuthors": [
+      "Zachary Lloyd"
+    ],
+    "aliases": [
+      "Zachary Lloyd"
+    ],
+    "account": "Zachary Lloyd",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Humanities",
+      "python",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/11/23/getting-started-with-pygame/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "In the Intro to Educational Game Design workshop held last October, we discussed a few common tools and software for designing computer games. In this post, I’d like to follow up with a more detailed look at one tool in particular: Pygame. If you know a bit of Python and want to jump right in to creating games, Pygame is a great place to start.",
+      "First, let’s take a look at the basics of Pygame and some of its most useful features. Then, we’ll get started writing a basic Pygame program. Although we won't create a full-fledged game in this short post, we'll get you started with a basic foundation to build upon.",
+      "What is Pygame?",
+      "In the GitHub repo, the developers describe Pygame as:",
+      "Pygame is a free and open-source cross-platform library for the development of multimedia applications like video games using Python. It uses the Simple DirectMedia Layer library and several other popular libraries to abstract the most common functions, making…"
+    ],
+    "fullParagraphs": [
+      "In the Intro to Educational Game Design workshop held last October, we discussed a few common tools and software for designing computer games. In this post, I’d like to follow up with a more detailed look at one tool in particular: Pygame. If you know a bit of Python and want to jump right in to creating games, Pygame is a great place to start.",
+      "First, let’s take a look at the basics of Pygame and some of its most useful features. Then, we’ll get started writing a basic Pygame program. Although we won't create a full-fledged game in this short post, we'll get you started with a basic foundation to build upon.",
+      "What is Pygame?",
+      "In the GitHub repo, the developers describe Pygame as:",
+      "Pygame is a free and open-source cross-platform library for the development of multimedia applications like video games using Python. It uses the Simple DirectMedia Layer library and several other popular libraries to abstract the most common functions, making writing these programs a more intuitive task.",
+      "As they indicate, the Pygame library provides you with a set of built-in modules that allow for quick and easy application of common game development processes in Python. Because it is open-source and community driven, contributors have created a wide range of tools that address many different aspects of game development, from rendering graphics to the screen, to monitoring collision detection in games, to handling hardware input. (We’ll demonstrate a couple of these features when we get to creating our first project below.)",
+      "In short, instead of having to write a game engine in Python from scratch, Pygame shifts the brunt of the coding work to designing and applying the actual ideas for your game. This makes Pygame ideal for rapid prototyping and iterative project development.",
+      "Why Use Pygame?",
+      "There are many worthwhile reasons to use Pygame for creating games.",
+      "It utilizes the Python programming language. Python is a very flexible and useful language to learn, especially if you are just starting out learning how to code. Pygame utilizes this simplicity and is suitable for learners of all ages and skill levels. Much of the complex Python syntax is done behind the scenes, so you can focus on the important stuff for your game.",
+      "It is well documented. Nearly all of the important mechanics of Pygame are explained in the official documentation. The docs also provide you with several tutorials and articles written about Pygame.",
+      "It has a great community. There are many devoted users of Pygame who are willing to help if you ever get stuck. There are official mailing lists and channels, but perhaps the most efficient resource for getting help lives on the Pygame subreddit or Discord server. The community also runs weekly events for showcasing and discussing your work.",
+      "It is extensible. Even if making games is not your particular goal, Pygame is a rich library that can be employed in many other contexts. Its easy-to-use display and user input functions could be useful when creating many other types of software. In applications of all kinds, the Pygame library could be used to render images to the screen, handle button presses, or track mouse movements. You could, for example, use Pygame to create an interactive drag & drop interface for your software applications.",
+      "All this being the case, it should be acknowledged that there are a few limitations to using Pygame when it comes to designing games. For example, although Python is a great programming language, as an interpreted language it runs much slower than a compiled language like C++. Because large, complex games require a lot of computing power, Pygame can suffer when creating substantially large games. Pygame is also mostly limited to creating 2D games, so if your goal is to create 3D environments, you should use another tool.",
+      "Getting Started",
+      "Let’s get started writing your first Pygame project. As we mentioned at the top, although we won’t be creating a full-fledged game in this post, you will learn some simple Pygame techniques to help you get started on the right track. Specifically, you’ll learn how to install Pygame and create a simple program that tracks user input and draws a rectangle shape to the screen.",
+      "Installing Pygame",
+      "By default, Pygame is not included with Python installations. We’ll assume here that you’ve already installed the latest version of Python on your machine. If you need help with installing Python, check out this handy guide in the Digital Humanities Research Institute website.",
+      "To begin, let’s install Pygame via pip in the command line or terminal. Open up the command prompt and type the following command:",
+      "pip install pygame",
+      "You should see the installation process begin automatically in your command prompt and a message that Pygame has been successfully installed.",
+      "Note: If you happen to have Pygame already installed, you can upgrade to the latest version with the following command:",
+      "pip install pygame --upgrade",
+      "While you are still in the command prompt, there is another way to check if Pygame installed successfully. Pygame comes with a few example games you can run right off the bat from the command line. For example, you can run an “Aliens” game by typing the following command in your terminal/command prompt:",
+      "python -m pygame.examples.aliens",
+      "After a moment, the Aliens example game should appear on your screen.",
+      "Note: You can check the official installation instructions if you run into any difficulties installing Pygame.",
+      "Writing Your First Program",
+      "Begin by creating a new empty Python (.py) file in your code editor of choice and import the Pygame library into this file:",
+      "import pygame",
+      "Next, we want to initialize all the imported Pygame modules by calling init():",
+      "pygame.init()",
+      "Note: For more on importing and initializing Pygame, see the docs here.",
+      "Now that we’ve imported and initialized the necessary modules, we need to create the screen for our program. We’ll start by declaring the parameters for the screen:",
+      "import pygame",
+      "pygame.init()",
+      "#set screen size, caption, and background color SCREEN_HEIGHT = 700 SCREEN_WIDTH = 700 SCREEN_TITLE = \"A Pygame Program\" WHITE_COLOR = (255, 255, 255)",
+      "First, we declare the height and width of our screen (700x700, so it only covers a portion of our computer screen), followed by the title (the caption that will display in the screen window), and lastly the color of the background. In Pygame, color is determined by RGB value (255, 255, 255 is white). Because we don’t want any of these variables to change, we make them all constants (indicated by the all-caps).",
+      "We now have all the components we need to build up the game screen window, but we still need to actually create the window itself. We can return this in a variable called game_screen. This variable will represent the entire screen. See the code below:",
+      "game_screen = pygame.display.set_mode((SCREEN_HEIGHT, SCREEN_WIDTH)) game_screen.fill(WHITE_COLOR) pygame.display.set_caption(SCREEN_TITLE)",
+      "Our game_screen variable represents a Pygame surface, which you can think of like a canvas on which you draw graphics and text. In the pygame.display.set_mode() function, we will pass an argument for the display resolution, which is our two variables representing width and height in a tuple. Note that the tuple is contained within the function’s parentheses, so there are double parentheses in the function above. We then fill() the game_screen surface with our white color, and set the window caption to our title.",
+      "Next, we’ll set the color of the rectangle object we want to draw to a basic red (or whatever color you’d like):",
+      "rect_color = (255,0,0)",
+      "The last set of variables that we’ll need concern our game clock and our “game over” condition (which in this case will simply be the user closing the game screen):",
+      "clock = pygame.time.Clock() TICK_RATE = 60",
+      "is_game_over = False",
+      "We first create a new Pygame Clock object that can be used to track amounts of time. The clock will serve to control the game's framerate or FPS, which is the speed at which we’ll refresh the display. For most games, 60 FPS is the standard, so we’ll set the clock’s tick rate to a constant 60. We’ll also set our initial game over condition to false. We'll turn the condition true once we want the program to end.",
+      "We now have all the variables we’ll need to run our program. So far, your code should look like this:",
+      "import pygame",
+      "pygame.init()",
+      "SCREEN_HEIGHT = 700 SCREEN_WIDTH = 700 SCREEN_TITLE = \"A Pygame Program\" WHITE_COLOR = (255, 255, 255)",
+      "game_screen = pygame.display.set_mode((SCREEN_HEIGHT, SCREEN_WIDTH)) game_screen.fill(WHITE_COLOR) pygame.display.set_caption(SCREEN_TITLE)",
+      "rect_color = (255,0,0)",
+      "clock = pygame.time.Clock() TICK_RATE = 60",
+      "is_game_over = False",
+      "The last task we need to accomplish is to set up our game loop. All games have a core game loop that runs until a certain condition is satisfied (e.g., the game is over or the player quits). The usual order of things is that each turn of the loop, the game program will process user input, update the game state, and render the game.",
+      "This is exactly what we’ll do for our program. Below what we've written so far, let’s add the following code to our program:",
+      "# run the game loop while not is_game_over: for event in pygame.event.get(): if event.type == pygame.QUIT: is_game_over = True print(event)",
+      "pygame.draw.rect(game_screen, rect_color, pygame.Rect(330,350,100,60)) pygame.display.update() clock.tick(TICK_RATE)",
+      "pygame.quit() quit()",
+      "First, we set up a while loop that will run until our is_game_over condition turns true. (When working with while loops, always watch your indentation closely so you don’t accidentally create an infinite loop.) To log user input (mouse placement, key presses, closing the window, etc.), we use the pygame.event.get() function in a for loop. This function creates a queue of all events and allows the program to respond accordingly. The logic here goes something like this: for each event that Pygame records, check to see if that event is of the type quit. Then, to control our game over condition, we check if the built-in quit event (meaning the user has closed the game screen window) has actually occurred. We also print all events to the console so we can see the results.",
+      "To demonstrate drawing an object on our game surface, we’ll use the draw.rect() function. This function requires three main parameters: the surface to draw on, the color of the rectangle, and the rectangle object (specifying the left position, the upper position, the width, and the height). We then update() the display, and tick our clock so the framerate remains at 60.",
+      "Finally, if the is_game_over condition (if the user closes the window) is true, we’ll exit the loop and quit the program.",
+      "If you run the program now, you'll indeed see that we have drawn a red rectangle to the screen:",
+      "If you check the console, you can see all of the events that occur while the program is running. If you close the game screen window, you should see a Quit event being recorded at the end:",
+      "What now?",
+      "While the program certainly isn’t very exciting (and doesn't do much yet), in a short piece of code you’ve already implemented some very important game development fundamentals. You can 1) create and draw to the screen, 2) run a basic game loop, and 3) track a player's events.",
+      "To add some interactivity and make the program more interesting, I'd now challenge you to add some game-like features. You might, for instance:",
+      "Allow the player to move the rectangle around based on their key presses. Try adapting your program by following this TechWithTim tutorial.",
+      "Replace the rectangle with an image of your own. Try adapting your program by following this tutorial, which shows you how to add custom images in Pygame.",
+      "Make a more interesting game over condition. For example, try adapting this tutorial into your program to allow the player to \"win\" the game by clicking on the rectangle, instead of just closing the screen window.",
+      "As always, a good suggestion is to use the Pygame docs to help you figure out how each aspect of the Pygame library works. Good luck!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00018856959345021337,
+      0.0001886640763756633,
+      0.6399801736868229,
+      0.004075335716542487,
+      0.031201652080353144,
+      0.16914983948564685,
+      0.13759654602512306,
+      0.01761921933568569
+    ],
+    "words": [
+      [
+        "pygame",
+        69
+      ],
+      [
+        "game",
+        59
+      ],
+      [
+        "screen",
+        38
+      ],
+      [
+        "program",
+        21
+      ],
+      [
+        "create",
+        19
+      ],
+      [
+        "set",
+        14
+      ]
+    ]
+  },
+  {
+    "id": "6217",
+    "title": "Introduction to R and RStudio",
+    "date": "2021-11-09",
+    "year": "2021–2022",
+    "authors": [
+      "Yuxiao Luo"
+    ],
+    "originalAuthors": [
+      "Yuxiao Luo"
+    ],
+    "aliases": [
+      "Yuxiao Luo"
+    ],
+    "account": "Yuxiao Luo",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/11/09/introduction-to-r-and-rstudio-2/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "What is R and RStudio?",
+      "The term R is referring to both the programming language and the free software environment for data analysis and graphics. R is widely used for data science, statistical and mathematical computing, data visualization, algorithm and application development, report writing, etc. RStudio is currently a very popular way to not only write your scripts but also to interact with the R software.",
+      "Why R?",
+      "R does not involve lots of pointing and clicking & is great for reproducibility",
+      "The learning curve for R is steeper than with other software, ex., STATA, and SPSS. But the operations do not rely on remembering a succession of pointing and clicking, but instead on a series of written commands, which is good. So, you don’t have to click the button all over again if you collect more data; you just need to run your R script again. Working with scripts can make your analysis clear and traceable and make it easy for collaboration.…"
+    ],
+    "fullParagraphs": [
+      "What is R and RStudio?",
+      "The term R is referring to both the programming language and the free software environment for data analysis and graphics. R is widely used for data science, statistical and mathematical computing, data visualization, algorithm and application development, report writing, etc. RStudio is currently a very popular way to not only write your scripts but also to interact with the R software.",
+      "Why R?",
+      "R does not involve lots of pointing and clicking & is great for reproducibility",
+      "The learning curve for R is steeper than with other software, ex., STATA, and SPSS. But the operations do not rely on remembering a succession of pointing and clicking, but instead on a series of written commands, which is good. So, you don’t have to click the button all over again if you collect more data; you just need to run your R script again. Working with scripts can make your analysis clear and traceable and make it easy for collaboration. Moreover, working with scripts forces you to understand what is going on and facilitates your learning and comprehension of the methods.",
+      "R is evolved and interdisciplinary",
+      "R has the most comprehensive statistical analysis packages (over 12000 packages) for simple and advanced data analysis in CRAN. R is tightly connected to statisticians and academics, and many new developments in statistics first appear as R packages among all the programming languages. For example, R has packages for image analysis, GIS, time series, population genetics, and a lot more.",
+      "R works on data of all shapes and sizes",
+      "The skills you learn with R scale with the size of the dataset. R can handle both hundreds of millions of secondary data and a small group sample of experimental data neatly. Moreover, R is designed for data analysis, and it comes with special data structures and data types that make coping with missing data and statistical factors convenient.",
+      "R is cross-platform compatible",
+      "R can be run on Windows, Mac OS, and Linux. It can also import data from Microsoft Excel, Microsoft Access, MySQL, SQLite, Oracle, and other programs. Many commercial companies also developed API (Application Programming Interface) to interact with R and provide free data sources.",
+      "R has a vibrant and global community",
+      "There is a large and robust group of R users and many of them are willing to help you through mailing lists and websites such as Stack Overflow, or on the RStudio community.",
+      "R can open a door to data science for non-computer scientists",
+      "Many people interested in learning data science are not computer scientists. They are non-software engineers (e.g., mechanical, chemical, biological), and other technical-to-business converts. Many academic researchers don’t need to develop applications and would rather want a tool for quantitative analysis. R exactly fits in the niche for these people.",
+      "Basics of R",
+      "R is a versatile, open-source programming/scripting language and software under GPL (General Public License). R was originally a statistical computing language and now has been developed to a general-purpose programming language with over 7,000 user-contributed packages widely used in academia and industry. For people who have experience in programming, R is both an object-oriented and a functional language. You can use R as it is but combining it with the RStudio interface will help the organization and bring more benefits and options.",
+      "Basics of RStudio",
+      "First, you will need to install RStudio on your local computer following this instruction (covered Windows, Mac OS, and Linux) created by digital fellows. Then, let’s start RStudio and learn about our tool. As shown in the picture, there are four windows in the RStudio interface:",
+      "Top left: script/editor window. You can write, edit, and save your R commands in the R script window. Moreover, you can have a complete record of what you did, and you can easily share with others.",
+      "Top right: environment/workspace/history window. Here you can see all the objects/variables you created in the working environment and view and edit values by clicking on them. You can also search for the history input and manage R connections with external resources, ex., cloud databases.",
+      "Bottom left: console window. This window is where you tell R what to do and it will show the results of a command. You can type commands direct after the > prompt. Commands written in this window will be lost after you close the RStudio session.",
+      "Bottom right: file/plots/package/help window. The files tab shows the current working directory’s file and folder category. The plots tab shows you resulting graphs/figures that you execute. The packages tab will list all the packages that are installed. If the package is loaded, a checkmark will appear in the left box. The help tab shows you the documentation for the R functions, datasets, and packages which is helpful for when you come across code that you aren’t sure about.",
+      "Figure 1. RStudio Interface",
+      "Let’s Get Started",
+      "Let’s first create a R project and a R script file for writing R code. Here is a recommended workflow to start a new project with everything organized well:",
+      "Under the file menu, click on New project, choose New directory, then New/Empty project.",
+      "Enter a name for this new folder and choose a convenient location for it. This will be your working directory for this specific project (e.g., ~/intro-r).",
+      "Confirm that the folder named in the Create project as a sub-directory of box is where you want the working directory created. Use the Browse button to navigate folders if changes are needed. Finally, click on Create Project.",
+      "In your console (window on the bottom left), please check your current working directory ~/intro-r. If not, navigate there and create a new folder named data in your newly created working directory. (e.g., ~/intro-r/data).",
+      "Create a new R script (File > New File > R script) and save it in your working directory (e.g., intro-r-script.R).",
+      "Your working directory should look like the picture below and this is where you can begin to write your R code and build your R project.",
+      "Figure 2. R Studio File Directory",
+      "Interacting with R",
+      "You can interact with R using the console or the script files (plain text files containing your code). If R is ready to accept commands, the R console shows a > prompt. If it receives a command, R will try to execute it, and when ready, show the results and come back with a new > prompt to wait for new commands.",
+      "If R is still waiting for you to complete the command, the console will show a + prompt. The common reasons could be that you have not ‘closed' a parenthesis or quotation. When this happens, click inside the console window and press Esc or Ctrl-C and it should help you out.",
+      "Figure 3. Unclosed Parentheses",
+      "It is worth mentioning that the text/script editor is one of the highlights and benefits of using RStudio. It contains many handy features that make coding easier.",
+      "To open a new R script, click a paper icon with a green plus sign in the top left corner of your RStudio window. A new blank script should appear in the top left pane and it has a .R extension.",
+      "To run the command, you put down in the script, place your cursor in the line you want to execute and press Ctrl-Enter (Cmd-Enter if you have Mac). You should now see the output in your R console. If you want to run more than one line of code, you can highlight the code you want to run and press the same shortcut (Ctrl-Enter).",
+      "To save the script, go to File -> Save or File -> Save As. RStudio should save it to your working directory by default, meaning saving it wherever the .RProj is located.",
+      "Next time when you want to open your R project (R script) again, there are two avenues:",
+      "Double click your .RProj file (R script). This will open your R project (R script) in a new window, and everything will be there.",
+      "Open your RStudio. RStudio may automatically open your most recent project (script). In that case, you don’t have to do anything. Otherwise, go to File -> Open Project and navigate to your .RProj file (R script). Open this and you’ll be good to go!",
+      "RUG (R User Group)",
+      "If you have any questions regarding R and RStudio or just want to simply get started with it, do not hesitate to join us at the RUG (R User Group) meetings or to schedule a consultation with the GC Digital Fellows.",
+      "Note: the content in this post is adapted from the Intro to R & RStudio Workshop, created by the GCDI digital fellows."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.02343325987505819,
+      0.00024238313866648272,
+      0.5091257635045294,
+      8.216689789153986e-05,
+      0.054258097460861236,
+      0.06270588243853979,
+      0.2579434435701519,
+      0.09220900311430141
+    ],
+    "words": [
+      [
+        "r",
+        66
+      ],
+      [
+        "script",
+        21
+      ],
+      [
+        "data",
+        18
+      ],
+      [
+        "rstudio",
+        17
+      ],
+      [
+        "file",
+        15
+      ],
+      [
+        "new",
+        14
+      ]
+    ]
+  },
+  {
+    "id": "6196",
+    "title": "JavaScript or Python: which is the better language for academics to learn ?",
+    "date": "2021-11-09",
+    "year": "2021–2022",
+    "authors": [
+      "Chelsea Lane"
+    ],
+    "originalAuthors": [
+      "Chelsea Lane"
+    ],
+    "aliases": [
+      "Chelsea Lane"
+    ],
+    "account": "Chelsea Lane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Digital Humanities",
+      "digital technology",
+      "Featured",
+      "javascript",
+      "python",
+      "Reflections",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/11/09/javascript-or-python-which-is-the-better-language-for-academics-to-learn/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "As researchers, we are often searching for new and better tools to help with data collection, sorting, and visualization. Today, there is a plethora of powerful digital tools available and it can be hard to decide which ones to use. If you find yourself overwhelmed in the face of the digital revolution, you are not alone. Hopefully this blog post can provide some guidance.",
+      "People who are at the beginning of their coding journey often wonder which of the two most popular programming languages to choose: JavaScript or Python? There are many blogs that weigh in on the pros and cons of mastering each language, but without the possession of some previous coding knowledge, it can be difficult to weigh those options. Let me make this very easy for you: learn Python.",
+      "What is Python?",
+      "Let’s start with the technical description of Python:",
+      "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level…"
+    ],
+    "fullParagraphs": [
+      "As researchers, we are often searching for new and better tools to help with data collection, sorting, and visualization. Today, there is a plethora of powerful digital tools available and it can be hard to decide which ones to use. If you find yourself overwhelmed in the face of the digital revolution, you are not alone. Hopefully this blog post can provide some guidance.",
+      "People who are at the beginning of their coding journey often wonder which of the two most popular programming languages to choose: JavaScript or Python? There are many blogs that weigh in on the pros and cons of mastering each language, but without the possession of some previous coding knowledge, it can be difficult to weigh those options. Let me make this very easy for you: learn Python.",
+      "What is Python?",
+      "Let’s start with the technical description of Python:",
+      "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.",
+      "—Executive summary from the official Python documentation",
+      "Now let's break that down.",
+      "Here’s why you should learn Python:",
+      "1. Python is user-friendly",
+      "The language itself is considered “easy to read,” has fairly simplified syntax, and can execute complicated commands concisely. For instance, if you compare the Python and JavaScript codes below that sort through data, which looks clearer to you?",
+      "Python Code",
+      "JavaScript Code",
+      "(N.B. The text in green is not part of the code—it is an annotation to help you understand what the code is doing.)",
+      "Python also has a reputation for being easier to debug than JavaScript: a huge pro for beginners when troubleshooting code!",
+      "2. Python is versatile",
+      "It can be used for data science, artificial intelligence, machine learning, and even web development!",
+      "3. More packages and built-in functions have been developed for Python",
+      "Python has more robust libraries. Yes, libraries, something we academics can relate to! Like physical libraries, there are many different elements stored in these libraries that can help you meet your research goals. In Python, we call these elements modules. They are bits of code written by someone else that can fast-track the completion of certain tasks. You can “check out” these modules from the library by importing them into your code. As a beginner, you can quickly take advantage of high-level algorithms to retrieve, organize, and understand data. For instance, the NLTK package offers powerful tools for text analysis, such as code that will quickly identify the different parts of speech in sentences.",
+      "4. There are copious tutorials on how to use Python for your research online",
+      "The mastery of all programming languages takes a certain amount of self-guided learning, which can be made much easier if there are ample resources available online to help you. As Python is one of the most popular programming languages, you will find no shortage of tutorials walking you through a wide range of tasks in clear, step-by-step processes.",
+      "Picking up JavaScript after becoming familiar with Python is manageable: you will have to study some syntactic differences, but nothing major. Learning JavaScript is especially useful if you’d like to build a website, as it has been more thoroughly developed for use in this domain. Translating between most programming languages is sort of like translating between British English and American English: we sometimes use different words to refer to the same object, but generally speaking, we can understand each other without too much effort. Also, as programming languages evolve, new resources are being developed to help you complete a variety of projects, meaning that whichever language you choose, you will probably (eventually) be able to do more with it than you think!",
+      "If I haven’t convinced you already to choose Python as your first programming language, here are some detailed articles that can help reinforce the above arguments and enrich your understanding of the language as it compares to JavaScript:",
+      "Python VS JavaScript - What are the Key Differences Between The Two Popular Programming Languages? (Specific Differences in Syntax)",
+      "Python vs JavaScript: Which One is Better for Your Future? (Focus on Beginners and Possible Career Paths)",
+      "Python VS JavaScript - What are the Key Differences Between The Two Popular Programming Languages? (Specific Differences in Syntax)",
+      "Now, go get started learning Python! Check out this great, free Intro Python course created by the GC Digital Fellows. Some other great resources to explore include DataCamp, Codecademy, and learnpython.org.",
+      "Happy coding!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.15147076774855006,
+      0.03401097669400662,
+      0.43427772157283456,
+      0.00015287762752837287,
+      0.00027121315936496666,
+      0.31083755956004205,
+      0.0004943298026744926,
+      0.06848455383499887
+    ],
+    "words": [
+      [
+        "python",
+        27
+      ],
+      [
+        "language",
+        13
+      ],
+      [
+        "javascript",
+        10
+      ],
+      [
+        "code",
+        10
+      ],
+      [
+        "programming",
+        7
+      ],
+      [
+        "help",
+        6
+      ]
+    ]
+  }
+]

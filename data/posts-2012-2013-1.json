@@ -1,0 +1,2633 @@
+[
+  {
+    "id": "19756",
+    "title": "Linked Data for the Uninitiated (Part 1)",
+    "date": "2013-05-31",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A. L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed export metadata credit",
+    "creditQuote": "author_name: A. L. McMichael | item_author: A. L. McMichael",
+    "tags": [
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/05/31/linked-data-for-the-uninitiated-part-1/",
+    "signals": [],
+    "paragraphs": [
+      "This two-part post is my follow-up to LAWDI 2012, officially known as the first Linked Ancient World Data Institute. It brought together a multi-disciplinary group of digital scholars at NYU’s Institute for the Study of the Ancient World (ISAW) whose interests incorporate the Ancient Medierranean and Near East. This essay is cross-posted on Documenting Cappadocia.*",
+      "In preparation for LAWDI 2012, I wrote a post called “Linked Data: A Theory,” pondering the concepts behind Linked Data, but it was clear to me from the beginning that I needed a more sturdy vocabulary and concrete skills in order to put these ideas into practice. This essay explores how Linked Data can be useful to digital scholars with any level of technical experience and, ultimately, why it’s worth the trouble to tackle a new skill set while building a digital project.",
+      "Linked Data is a philosophy applied to web development. It incorporates best practices through links…"
+    ],
+    "fullParagraphs": [
+      "This two-part post is my follow-up to LAWDI 2012, officially known as the first Linked Ancient World Data Institute. It brought together a multi-disciplinary group of digital scholars at NYU’s Institute for the Study of the Ancient World (ISAW) whose interests incorporate the Ancient Medierranean and Near East. This essay is cross-posted on Documenting Cappadocia.*",
+      "In preparation for LAWDI 2012, I wrote a post called “Linked Data: A Theory,” pondering the concepts behind Linked Data, but it was clear to me from the beginning that I needed a more sturdy vocabulary and concrete skills in order to put these ideas into practice. This essay explores how Linked Data can be useful to digital scholars with any level of technical experience and, ultimately, why it’s worth the trouble to tackle a new skill set while building a digital project.",
+      "Linked Data is a philosophy applied to web development. It incorporates best practices through links (that are both human- and machine-readable) to build connections between projects and data sets. The most effective scholarship acts as a springboard for other researchers who cite the work and build on its ideas. To maintain its relevancy, research must be published and shared. The same goes for data collected in support of that scholarship. Linked Data allows institutions and individuals to share resources in order to make data available to many users, all remixing or reinterpreting it to produce new scholarship.",
+      "Linked Data is often incorporated into conversations about Open Access, a crucial movement intended to counteract academia’s traditional exclusionary practices by making scholarship freely available to the public. It is also frequently associated with the Open Source movement, referring to projects in which the source code is freely available so that another developer can use that project as the basis for another, often tweaking or adapting it in new ways in a process called forking. This code is often deposited on sites like GitHub for sharing.",
+      "The inherent collaborative nature of Linked Data underscores the fact that “links” and “networks” are most useful when they refer to people as well as data. LAWDI has been particularly productive because it brings together people and organizations whose data sets have a good chance of being useful to one another.",
+      "LAWDI reading assignments provide a good overview of Linked Data concepts for readers who are familiar with developing or overseeing digital projects. The World Wide Web Consortium (W3C) is a network of organizations led by Tim Berners-Lee (inventor of the world wide web), that develops and recommends standards for best practice in building the Semantic (linked) Web. The W3C website is considered by many to be the gold standard for web-related definitions and explanations. The information below is intended to precede those readings with a more general overview of how those projects are constructed.",
+      "Open Data",
+      "Linked Data connections are built with Open Data that has been made freely available to reuse or remix. For instance, Europeana and the Digital Public Library of America are huge repositories of data that have made their content available to everyone. (The opposite of Linked Data, by the way, is a “data silo,” a repository that isn’t linked or shared and is unavailable except to those with exclusive access).",
+      "Making data open is the first step toward creating Linked Data. It’s essential, of course, to determine rights information before publishing or sharing data. Archaeologists usually have permission to collect and publish their own findings; bibliographies can generally be shared; museums or archives can choose to share their own collections. Work that is under copyright probably isn’t something that should be shared. Adopting a Creative Commons License is one way to signal that data is available to others who may want to use it. In addition to data being available, it must be structured in such a way that others can use it, preferably at the initial stage of data entry or digitization.",
+      "How the Web Operates",
+      "At the front end of a website, when the user types a URL (Uniform Resource Locator) into the browser’s address bar, a website is displayed in the browser window. It does this by calling up the website’s data from a server and translating it into the visual elements displayed on the page.",
+      "To fully integrate Linked Data into a project, it is necessary to understand how a digital project is constructed from the ground up. In a nutshell, URIs identify things; RDF describes those things; RDF works within a framework called XML; XML works with HTML; HTML sends information to your browser. In more complex terms, each of these elements operates at the back end of the website to form a series of relationships.",
+      "The building blocks of the Semantic Web are URIs (Uniform Resource Identifiers). These are the names of things described on a website. A URI looks like a string of characters that expresses the thing’s filename and/or path to the directory of the file.",
+      "A URI always begins with a scheme name followed by a colon and then the remainder of the URI. The scheme name identifies where the data is permanently stored. For instance, a scheme name that begins with “http:” is a web resource, and one that starts with “ftp:” is from an FTP site. Ideally, these URIs should be created from scratch, and not automatically generated by a Content Management System.",
+      "A “Cool URI” is an identifier that never changes--the domain name of the website is stable, and the data isn’t moved around or erased or altered. This is important because if someone else links to the data, they need to be certain that the link will remain useful in perpetuity. A “clean URI” clearly describes the item as simply as possible, without superfluous characters or confusing symbols. The Digital Classicist website lists Very Clean URIs with no \"cruft,\" a term that includes \".cgi\",\".php\",\".asp\",\"?\",\"&\",\"=\" or similar characters.",
+      "URIs are the basis of a data model called RDF (Resource Description Framework). In an RDF framework, data is modeled into serializations (such as RDF triples expressing three ideas) in such a way that it is exposed to machine-readers as Linked Data. This data is intended to express relationships between people and/or things, using a controlled vocabulary for consistency among various projects and institutions.",
+      "Here’s an example from W3C’s RDF primer: An object whose URI is http://www.example.org/index.html has a creator named John Smith. The RDF expression of this sentence would structure the data into three ideas:",
+      "a subject http://www.example.org/index.html a predicate http://purl.org/dc/elements/1.1/creator and an object http://www.example.org/staffid/85740",
+      "Note that each of these ideas can be expressed with a URI.",
+      "RDF is a framework written in XML** (Extensible Markup Language). Markup languages are systems for annotating data that convey information about an item or instruct the software or web browser on what to display. All RDF triples written in XML are designed to describe data (by marking it up with machine-readable tags) to work in tandem with HTML (HyperText Markup Language), which displays data on the web. Technically speaking, a webpage is an HTML document.",
+      "By thoughtfully crafting clean URIs and incorporating them into RDF, a developer can facilitate Linked Data according to Tim Berners-Lee’s four “expectations of behavior” that are nicknamed the Four Rules for Linked Data. Quoted from his site, they are as follows:",
+      "Use URIs as names for things",
+      "Use HTTP URIs so that people can look up those names.",
+      "When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)",
+      "Include links to other URIs. so that they can discover more things.",
+      "Berners-Lee calls these “simple.” Perhaps. But they’re not common sense. This leads to the question of whether creating Linked Data is advisable or even possible for a non-developer, an institution with limited resources, or a solo researcher.",
+      "In Part 2, I’ll discuss some options for creating Linked Data on a small scale and ways that existing Content Management Systems can be tweaked to be more Linked Data-friendly.",
+      "*This post represents a year of stumbling through data in ongoing efforts to become more digitally literate, an adventure supported by a GC Digital Fellowship and participation in the New Media Lab at the CUNY Graduate Center. My heartfelt thanks go out to all of the LAWDI 2012 presenters and participants, particularly Sebastian Heath and Chuck Jones of ISAW who have continued to help me aim for a LAWDI-friendly dissertation, and to Andrew Reinhard of ASCSA for keeping up Lawdite momentum. I’m also grateful to Aaron Knoll, former project advisor in the New Media Lab and overall good egg, for helping with an early draft of this post. Stephen Klein, Digital Services Librarian at the CUNY Graduate Center, has provided links and advice about sustainability. Conversations with Jared Simard about Mapping Mythology and Omeka are always helpful. Matt Rossi is an excellent writing consultant. Flaws and omissions are mine, of course, but it does, indeed, take a village to link data.",
+      "**UPDATE 9/13: In the original post, I stated that \"RDF works within a framework called XML,\" which could be considered an outdated view because linked data can be produced in a variety of formats. The RDF/XML model explained in this post is one example, but not the only option. For instance, RDF can be also written in JSON (JavaScript Object Notation). For a more technical account of RDF use and best practice, see W3C's RDF primer.",
+      "Thanks to Kingsley Uyi Idehen (@kidehen), Hugh Cayless (@hcayless), and Sebastian Heath (@sebhth) for a lively twitter exchange on this topic when Kingsley pointed out that \"Linked Data is format agnostic. Basically semantics, syntax, and encoding notations are loosely coupled. No XML or JSON specificity,\" (tweet: 6 June from @kidehen)."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.42005099471143714,
+      0.03382765788689577,
+      0.00667132806045944,
+      8.2379170690736e-05,
+      0.00014614509336726735,
+      0.2075402112686675,
+      0.18239850566001387,
+      0.14928277814846835
+    ],
+    "words": [
+      [
+        "data",
+        48
+      ],
+      [
+        "link",
+        21
+      ],
+      [
+        "rdf",
+        16
+      ],
+      [
+        "project",
+        10
+      ],
+      [
+        "web",
+        10
+      ],
+      [
+        "linked",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "19755",
+    "title": "Organizing Image Collections handout",
+    "date": "2013-05-16",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed institutional guide credit",
+    "creditQuote": "Organizing Image Collections handout — A.L. McMichael",
+    "tags": [
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/05/16/organizing-image-collections-handout/",
+    "signals": [],
+    "paragraphs": [
+      "Here's a link for the April 10 Digital Fellows Workshop, Organizing Image Collections for Research: An Overview.",
+      "You can view the handout here."
+    ],
+    "fullParagraphs": [
+      "Here's a link for the April 10 Digital Fellows Workshop, Organizing Image Collections for Research: An Overview.",
+      "You can view the handout here."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19754",
+    "title": "\"Doing\" the Digital: Panic and Persistence",
+    "date": "2013-05-15",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [
+      "careers",
+      "collaboration",
+      "Digital Humanities",
+      "Digital Scholarship",
+      "digital technology",
+      "Interdisciplinarity"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "When I met other GC students this year and it came up that I was a Digital Fellow, most would respond with a question much like: “should I be doing that?” Will the academy have any room for them if they don’t “do” digital? I’m moved to explore a facet of this (understandably) digital anxiety. After two rewarding semesters as a Digital Fellow (and a few drafts of this final blog post), it seems clear that we’ve become accustomed to thinking about ways to network people together-- and projects like the CUNY Commons do that astoundingly well-- or to create new ways to spread information about our programs and events. Often the discussions about the academic job market inadvertently create a panic about the role of the digital in graduate education: young scholars question the need to \"do\" digital-- or proclaim their undying ambivalence to it. Can we more frequently flip the script?",
+      "What about targeted ways to help students do what they…"
+    ],
+    "fullParagraphs": [
+      "When I met other GC students this year and it came up that I was a Digital Fellow, most would respond with a question much like: “should I be doing that?” Will the academy have any room for them if they don’t “do” digital? I’m moved to explore a facet of this (understandably) digital anxiety. After two rewarding semesters as a Digital Fellow (and a few drafts of this final blog post), it seems clear that we’ve become accustomed to thinking about ways to network people together-- and projects like the CUNY Commons do that astoundingly well-- or to create new ways to spread information about our programs and events. Often the discussions about the academic job market inadvertently create a panic about the role of the digital in graduate education: young scholars question the need to \"do\" digital-- or proclaim their undying ambivalence to it. Can we more frequently flip the script?",
+      "What about targeted ways to help students do what they need to do, better? Through our workshop offerings this semester, I began to get a picture of the stressed grad student who understands technology as just one more obstacle: something else to do, to update, to synch, to learn, to follow, to choose, to password-protect. Many students arrived to our workshops frazzled and exhausted by the demands that technology makes on their lives. They were curious most of all to know how to cut through all of the weeds and choose the digital tools best for their scholarship and their frazzle. GC students traditionally juggle many hats—while the focus on fellowship packages and teaching loads is crucial, there are many levels of student success that can be directly improved through new digital technologies. This is a contribution that the GC could make uniquely and inexpensively.",
+      "One of the texts that could be instructive here is one that we read in the early days of the fellowship: Bethany Nowviskie’s “it starts on day one.” Nearly eight months later, I still agree with the bulk of her argument, particularly the thread that suggests that many overly general first-year methods courses could be replaced with newly envisioned and far more useful courses. However, I was also struck by the amount of resources that she proposes be funneled towards curricular changes. While she points to many needs in this area, at the GC I see some programs making these changes on their own; the Theatre program is inviting more and more guest speakers to confront issues of open access publishing, new research methods, grant-writing, and the thorny question of alternative academic jobs—not always #alt-ac, as some of these jobs live in administrative areas of theatre or cultural policy, or dramaturgy in entertainment fields.",
+      "I wonder how we can step into the next phase of the DigitalGC by streamlining some of the day-to-day difficulties of being a graduate student within CUNY, a system with nearly 260,000 students? Is there a way, for example, to create more useful resources for GC students seeking adjunct teaching opportunities across campuses? Should there be online advice portals and resources areas for students with questions about academic conferences? Maybe there’s some way to better facilitate the process of students finding appropriate courses for their interests, in order to buttress interdisciplinary goals at the GC? I dream of online publishing platforms that allow students to share drafts of papers with other students before they submit them to journals, video portfolio systems that they can use to rehearse presentations, and interactive resources for students at the dissertation completion and submission phase. Databases and coordinated systems could help students find the faculty publishing new work in their subfields, or those looking for assistants, and programs could offer students free and individual consultations with a digital coach who will help them build an online scholarly profile or portfolio. At the end of the day, regardless of curricular changes, much of the work required to succeed throughout a graduate career holds the potential for digital interventions, and they can remake the experience of being a graduate student. That, to me, is a version of what it means to think about “day one.”",
+      "By way of an example: during job interviews, every committee that asked me about the “digital” focused on its applicability in the classroom; this is, I suspect, a reflection of both the limited interest of my interviewers in digital topics, as well as the realities of the academic job market-- many of my interviews were with lectureships and postdocs that emphasized teaching and not scholarship. And luckily, I was prepared for those questions; at CUNY, I began teaching as an adjunct in Communication Studies on day one, and held a Communication Fellowship from nearly day one. Both of those experiences, through a variety of means and mechanisms, gave me ample experience in the language and methods of digital pedagogies. Score.",
+      "However, the Digital Humanities jobs and postdocs I considered applying to required my digital scholarship to be in a far advanced place from where it is, if I was to propose a long-term scholarly digital project. I awoke to digital applications of my dissertation project too late, and tried teaching myself ARC GIS at the worst possible time—when I needed to be writing the thing. The digital technologies then stood to represent a place of panic and procrastination, not a new way of looking at my material—although I thought I potentially had that, too. But I was so inexperienced with finding data sets that could be useful to me, and had so little comfort with mapping tools, that four or five years into a PhD program was the wrong time to embark on such a project. I spoke with a mentor at the time, and she responded quizzically to my fruitless quest to use ARC GIS in my dissertation: “what you need to be doing is writing a book.” Not ignorant to the growing demands of the field, she knew that a dissertation wouldn’t cut it; a book that was suitable for possible publication would. I was worried about its digital elements, even though I didn’t yet have the know-how to put those into action. Given the realities of my knowledge base, she was right. Even given the realities of the job market, she was right.",
+      "But making an incursion into the field of the digital humanities is very different from having an online identity, which is (I think) what some of the panicked GC students looking to \"do the digital thing\" felt they needed. Figuring out new modes of scholarly communication is very different from developing the ability to make meaningful contributions within digital scholarship, let alone building new tools to do so. To really understand this split, I would recommend reading Luke Walter’s essay in Debates in the Digital Humanities. Luke’s piece starts with the context of the humanities in U.S. public higher education (general fiscal austerity: rising class sizes, elimination of departments and programs, and abandoned searches for faculty positions) and then moves to the strange ascendency of the subfield of the Digital Humanities. This should be required reading for many graduate students (especially in the humanities) who envision a monolithic wave of digital change sweeping across the university. Things are indeed muddled, but clarity will be hard-won through persistence, individual and institutional.",
+      "One challenge is therefore for universities to become even better at mentoring and advisement: encouraging specializations, identifying strengths in their students, making strong referrals across the GC, and assisting in strong choices from day one. Can the digital help us get there?",
+      "photo credit: *katz via photopin cc"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.041076536588791464,
+      0.0706973869872616,
+      0.020669116787525504,
+      0.00011806602400674305,
+      0.00020945549654468527,
+      0.41592982993833755,
+      0.0003817664840395524,
+      0.4509178416934929
+    ],
+    "words": [
+      [
+        "digital",
+        26
+      ],
+      [
+        "student",
+        20
+      ],
+      [
+        "day",
+        9
+      ],
+      [
+        "way",
+        7
+      ],
+      [
+        "new",
+        7
+      ],
+      [
+        "job",
+        7
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20131025005642/http://digitalfellows.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/"
+  },
+  {
+    "id": "19753",
+    "title": "Interface to Face: Touching with Technology",
+    "date": "2013-04-26",
+    "year": "2012–2013",
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "originalAuthors": [
+      "Micki Kaufman"
+    ],
+    "aliases": [
+      "Micki Kaufman"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Micki Kaufman",
+    "tags": [
+      "collaboration",
+      "Digital Humanities",
+      "digital technology",
+      "emotions",
+      "film music",
+      "film scoring",
+      "Interdisciplinarity",
+      "narrative",
+      "plot",
+      "technology",
+      "Visualization",
+      "writing"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/",
+    "signals": [
+      "Maps & visualization",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "I have always been a musician. From banging pots and pans on the kitchen floor as a toddler to mauling my first guitar at age 9, making music has been one of my primary creative outlets. While music truly has a timeless and primordial quality, perhaps even more than language itself, it is also inherently technological.",
+      "Even during my increasingly focused academic career (I am a diplomatic historian), I have simultaneously pursued my musical career as both a pastime and as a profession. Most recently, I scored a film called “Elliot King is Third” with my partner Barb Morrison – herself a full-time professional composer and record producer. The film, which premiered at the Tribeca Film Festival this past Sunday, is set ten to twenty years in the future – utilizing the power of science fiction to address the emotional and controversial issue of transgender rights. You can view the entire 20-minute film online.",
+      "Like any successful artistic…"
+    ],
+    "fullParagraphs": [
+      "I have always been a musician. From banging pots and pans on the kitchen floor as a toddler to mauling my first guitar at age 9, making music has been one of my primary creative outlets. While music truly has a timeless and primordial quality, perhaps even more than language itself, it is also inherently technological.",
+      "Even during my increasingly focused academic career (I am a diplomatic historian), I have simultaneously pursued my musical career as both a pastime and as a profession. Most recently, I scored a film called “Elliot King is Third” with my partner Barb Morrison – herself a full-time professional composer and record producer. The film, which premiered at the Tribeca Film Festival this past Sunday, is set ten to twenty years in the future – utilizing the power of science fiction to address the emotional and controversial issue of transgender rights. You can view the entire 20-minute film online.",
+      "Like any successful artistic undertaking, the elements of the piece (in this case the plot, dialogue, acting, direction, cinematography and score) all combine into a deeply evocative whole, one which connects on a fundamentally emotional level with the viewer. As an assistant composer and score engineer on the film my focus was not only on the music but on the use of technology to compose and engineer the score. However, my job would not be a success were the viewer of the film to notice the technology per se… my goal was not to impress with technology but to use it invisibly in order to convey emotion. In film scoring, technology is a tool to be wielded to greater purpose – communicating ideas about the story’s characters, evoking the moods of the scenery, and facilitating the viewer’s emotional journey through the plot. If technology is to be used successfully it must remain in the background, an indispensable but invisible mechanism for communication.",
+      "The same general principle applies to all forms of art, whatever the medium or mode – including (I believe) good academic research and writing. Whether one uses word processors like Microsoft Word, citation managers like Zotero, presentation software like PowerPoint, visualization tools like Gephi and d3.js, etc. the technology is not the centerpiece – it is there to facilitate understanding and provide a scaffold for the story one intends to tell. Indeed, even as Digital Humanities races into more and more academic disciplines with the youthful vigor of its proponents, it remains the research, the narrative, the –story–, that must be told, and told well.",
+      "As special effects and technology have raced ahead, how many films have flopped, all ‘eye candy’ and no emotion? Likewise, how many papers, so loaded down with technology that the thought process of the writer is eclipsed (or even ignored), will suffer a similar fate as Digital Humanities further penetrates academia? As DH evolves and matures, the impressiveness of visualizations, sophistication of methodology and other technologically-enhanced facets of research will increasingly assume a supportive role, just like the samplers and sequencers used to facilitate the director’s vision of a film through its score. Such tools will be similarly indispensable, facilitating the academic’s efforts, but it will remain the scholar’s greatest achievement to take the reader on a journey, to communicate effectively with both confidence and nuance, and to deliver a satisfying experience that – while perhaps not primarily emotional – evokes a more profound understanding."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007427408202337301,
+      0.15479392066839653,
+      0.0796509702789981,
+      0.0871523678980376,
+      0.0004469059651692093,
+      0.37394846153717337,
+      0.004764579038012568,
+      0.2985000537939788
+    ],
+    "words": [
+      [
+        "film",
+        9
+      ],
+      [
+        "technology",
+        8
+      ],
+      [
+        "score",
+        6
+      ],
+      [
+        "like",
+        6
+      ],
+      [
+        "even",
+        4
+      ],
+      [
+        "academic",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908105949/http://digitalfellows.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/"
+  },
+  {
+    "id": "19752",
+    "title": "Curating the Non-Digital Digital Bookshelf",
+    "date": "2013-04-25",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [
+      "Digital Humanities",
+      "Interdisciplinarity",
+      "library",
+      "Reflections",
+      "Texts"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/",
+    "signals": [],
+    "paragraphs": [
+      "It’s a tricky question, building a non-digital library on digital themes. We could use some help.",
+      "You’ve read in earlier posts about our previous efforts to think BIG about how we might outfit our workspace, the new Digital Scholarship Lab, which is shared by a number of Fellows and projects under the rubric of Digital Initiatives at the GC. Our most recent interior decorating task has been to choose a small selection of books for the Lab-- just a shelf or two of items that we would like on hand. It seemed a simple directive-- what books might we like to have in the Lab?-- some technical/\"how-to\" books to help us stumble along, I assumed, along with some crowd pleasers (Edward Tufte? Planned Obsolescence by Kathleen Fitzpatrick?) and some texts that speak to the broader field of digital studies... which is, admittedly, broad, but collections and anthologies can cover a lot of ground. This would be our new library."
+    ],
+    "fullParagraphs": [
+      "It’s a tricky question, building a non-digital library on digital themes. We could use some help.",
+      "You’ve read in earlier posts about our previous efforts to think BIG about how we might outfit our workspace, the new Digital Scholarship Lab, which is shared by a number of Fellows and projects under the rubric of Digital Initiatives at the GC. Our most recent interior decorating task has been to choose a small selection of books for the Lab-- just a shelf or two of items that we would like on hand. It seemed a simple directive-- what books might we like to have in the Lab?-- some technical/\"how-to\" books to help us stumble along, I assumed, along with some crowd pleasers (Edward Tufte? Planned Obsolescence by Kathleen Fitzpatrick?) and some texts that speak to the broader field of digital studies... which is, admittedly, broad, but collections and anthologies can cover a lot of ground. This would be our new library.",
+      "When the first wave of books (see photo above) arrived last week, however, a few of us were surprised by the sum total of what we had curated. In some lights, it seemed to reveal just why some scholars are hesitant to claim a full understanding of what digital scholarship is, or what it is not. To try to find the essential, must-have reference or scholarly books for a Digital Scholarship Lab? In a field that prides itself on following many traditions and facilitating many new ways forward, to pull together a small library of \"representative\" texts would surely mean to misrepresent it.",
+      "To be sure, this first wave delivered an excellent mix; HTML and CSS resources mingle with handbooks on usability testing, digital pedagogy, and interface design. From another vantage point, however, the books in our first round could also establish a dangerous precedent for a digital library that leans towards DH-theory compilations and a design-heavy approach to what the digital in graduate education might be. But if it's not that, what is it? What are the texts that we should embrace in the space of our Lab, a meeting area for Digital Fellows who work with faculty, develop and create web sites, design and lead workshops, initiate projects, and reflect on the role of the digital in graduate education?",
+      "Maybe a Digital Scholarship Lab library opens up opportunities to apply interdisciplinary ideals, for example. Most digitally-themed books will have likely germinated in a variety of disciplines. But if \"the Digital\" excites us in part because it represents a pathway through academic silos and new opportunities for scholarly communication, when do we reach towards other texts, the ones that might only show up on field-specific reading lists? Should Steve Dixon’s Digital Performance be there, or would the Theatre Ph.D be the only one requesting it? Digital Ethnography: Anthropology, Narrative, and New Media by Natalie M. Underberg and Elayne Zorn? How do we know which texts have emerged in disparate fields as the water-carriers of digital exploration? (Or do we require the texts that have \"crossed over\" in dynamic ways, in a test of their durability?) How about more defensive postures, like Nicholson Baker's Double Fold: Libraries and the Assault on Paper? Which Lawrence Lessig book deserves inclusion, and why? Perhaps some texts breaking down \"the digital divide\" or technology and exclusion?",
+      "There's no right answer, of course. But there are gaps and blind spots, and they can be filled and avoided. What would be on your digital lab library shelf?"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.22238602694098084,
+      0.04508374950428675,
+      0.0006636634980327669,
+      0.0002569878097393562,
+      0.00045591023961147136,
+      0.3210386984220379,
+      0.0008309700728095678,
+      0.4092839935125013
+    ],
+    "words": [
+      [
+        "digital",
+        19
+      ],
+      [
+        "book",
+        8
+      ],
+      [
+        "library",
+        7
+      ],
+      [
+        "lab",
+        7
+      ],
+      [
+        "text",
+        6
+      ],
+      [
+        "new",
+        5
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908112317/http://digitalfellows.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/"
+  },
+  {
+    "id": "19751",
+    "title": "April 24th Workshop: Visualizing Image & Video Collections",
+    "date": "2013-04-17",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/17/april-24th-workshop-visualizing-image-video-collections/",
+    "signals": [
+      "Maps & visualization",
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Visualizing Image & Video Collections",
+      "Wednesday, April 24th 2013 - 6:00-9:00pm; Room 6418",
+      "Guest Instructor: Lev Manovich This workshop will cover recently developed visualization techniques for exploring image and video collections of any size - from a few dozens to millions of images. We will use open source free ImageJ software with the custom tools developed in Lev Manovich's lab (softwarestudies.com). The techniques have already been used in variety of fields, including art history, film and media studies, digital culture studies, game studies, and linguistics. The participants will also be introduced to digital image processing - the use of computers to automatically analyze images.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "Note: For students who wish to bring their own computers to the workshop, ImageJ runs well on Macs and can be downloaded…"
+    ],
+    "fullParagraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Visualizing Image & Video Collections",
+      "Wednesday, April 24th 2013 - 6:00-9:00pm; Room 6418",
+      "Guest Instructor: Lev Manovich This workshop will cover recently developed visualization techniques for exploring image and video collections of any size - from a few dozens to millions of images. We will use open source free ImageJ software with the custom tools developed in Lev Manovich's lab (softwarestudies.com). The techniques have already been used in variety of fields, including art history, film and media studies, digital culture studies, game studies, and linguistics. The participants will also be introduced to digital image processing - the use of computers to automatically analyze images.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "Note: For students who wish to bring their own computers to the workshop, ImageJ runs well on Macs and can be downloaded very quickly (5.7MB). Students will be given the opportunity to download ImageJ at the beginning of the workshop. Download link: http://rsb.info.nih.gov/ij/download.html"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.08981729476064926,
+      0.0020636486939240623,
+      0.034714620036366745,
+      0.0006995685114507335,
+      0.023179742168158584,
+      0.05122679669170192,
+      0.1668020788949323,
+      0.6314962502428164
+    ],
+    "words": [
+      [
+        "workshop",
+        5
+      ],
+      [
+        "image",
+        5
+      ],
+      [
+        "imagej",
+        3
+      ],
+      [
+        "study",
+        3
+      ],
+      [
+        "download",
+        3
+      ],
+      [
+        "please",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19750",
+    "title": "Is this what reading looks like?",
+    "date": "2013-04-16",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "critical resources",
+      "data analysis",
+      "literature",
+      "Reflections",
+      "resources",
+      "text mining"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/16/is-this-what-reading-looks-like/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "Last February, I posted about English doctoral candidate Amanda Licastro's use of some basic text mining methods to extract frequent keywords from a set of novel prefaces. In her paper \"The Rise of the Preface,\" Amanda suggests that these keywords relate to the changing role of the novel and author in the 18th century. The first important thing to note about her data is that she uses it to supports traditional literary critic Cynthia Nixon's argument that prefaces in the 18th century defend against and reflect upon the \"shifting place of the novel in literary culture\" (Nixon). But second, and perhaps more interestingly, Amanda's project enabled her to develop methods that could help her analyze literature during other periods of technological change, such as the period of early web writing.",
+      "In short, her seemingly-simple project enabled her not only to practice using text mining tools with interesting results, but also sketched out a…"
+    ],
+    "fullParagraphs": [
+      "Last February, I posted about English doctoral candidate Amanda Licastro's use of some basic text mining methods to extract frequent keywords from a set of novel prefaces. In her paper \"The Rise of the Preface,\" Amanda suggests that these keywords relate to the changing role of the novel and author in the 18th century. The first important thing to note about her data is that she uses it to supports traditional literary critic Cynthia Nixon's argument that prefaces in the 18th century defend against and reflect upon the \"shifting place of the novel in literary culture\" (Nixon). But second, and perhaps more interestingly, Amanda's project enabled her to develop methods that could help her analyze literature during other periods of technological change, such as the period of early web writing.",
+      "In short, her seemingly-simple project enabled her not only to practice using text mining tools with interesting results, but also sketched out a path for asking much larger questions relevant to her research interests. I, despite my inherited preference for the kind of reading done with one's own two eyes, found myself intrigued by the possibility her work presented, but out of habit I suppose, failed to apply it to thinking about any of my current work.",
+      "The opportunity to revisit this topic came about in last week's reading on data visualization in the ITP core course. As we discussed in class, the two major challenges to using data analysis on text are 1) having the data in machine-readable form and 2) having the programming skills to come up with meaningful ways of interpreting that data. To that, I'll add a third challenge which has kept me thus far from considering much the first two, and that is, having the imagination to envision innovative and exciting ways which data analysis can be used on text. For some of us, text mining sometimes sounds just like turning words into numbers, something from which literature -- until now -- had always promised to spare us.",
+      "However, while reading Ted Underwood's very user-friendly introduction to text mining, I came across the Stanford Literary Lab's series of \"pamphlets\" that show diverse and creative ways in which digital tools can be used to analyze a set of texts or the culture it engages with. I have yet to fully digest the pamphlets presented here, but so far I have been surprised to find that digital humanists are mining texts in much more complex and nuanced ways than I had initially imagined. See for example, Pamphlet 3 -- \"Becoming Yourself: The Afterlife on Reception\" (Finn) -- which uses data analysis to trace to social life of the books of David Foster Wallace, and the online consumer communities that developed around them. Truly impressive -- and rather daunting to read -- is Pamphlet 4, \"A Quantitative Literary History of 2,958 Nineteenth-Century British Novels: The Semantic Cohort Method\" (Heuser and Khac), whose findings based on an intricate process of data analysis seem almost impossible:",
+      "Specifically, we present findings on two interrelated transformations in novelistic language that reveal a systemic concretization in language and fundamental change in the social spaces of the novel. We show how these shifts have consequences for setting, characterization, and narration as well as implications for the responsiveness of the novel to the dramatic changes in British society.",
+      "Though the methods of the last project are experimental, highly complicated and subject to critique, their attempt to meaningfully trace changes across nearly 3,000 books written in the 19th century opened my eyes to the fact that data analysis may well be capable of answering truly complex questions about large bodies of literature. Of course, the ability to ask these questions requires either that the literary critic is equipped with quantitative skills, or that they can convince those with the skills to collaborate on literary projects. Though many have reasonably argued that one should know how to code to practice digital humanities, it seems that the truly exciting projects -- ones I don't think we've even begun to fathom yet -- will require experts from both sides of the track who are well-versed in the concepts, sensitivities and language of the other discipline. Someone point me to the computer science department."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.2663137698647837,
+      0.043875627394099885,
+      0.006253399240323833,
+      0.00018423367758280625,
+      0.003215651063634824,
+      0.39481374259337965,
+      0.0005957195893074834,
+      0.28474785657688784
+    ],
+    "words": [
+      [
+        "data",
+        9
+      ],
+      [
+        "text",
+        8
+      ],
+      [
+        "novel",
+        6
+      ],
+      [
+        "literary",
+        6
+      ],
+      [
+        "change",
+        5
+      ],
+      [
+        "project",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19749",
+    "title": "Evernote Guide",
+    "date": "2013-04-08",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/08/evernote-guide/",
+    "signals": [],
+    "paragraphs": [
+      "Here is a link to the guide of the Evernote portion of the 3/19 Digital Fellows Workshop. Let us know what kind of handouts you would find useful!"
+    ],
+    "fullParagraphs": [
+      "Here is a link to the guide of the Evernote portion of the 3/19 Digital Fellows Workshop. Let us know what kind of handouts you would find useful!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19748",
+    "title": "April 10th Workshop - Organizing Image Collections for Research: An Overview",
+    "date": "2013-04-04",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/04/1186/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Organizing Image Collections for Research: An Overview",
+      "Wednesday, April 10th 2013 – 6:30-8:30pm; Room C196.01",
+      "This workshop will explore the best tools for organizing a large number of images (100+) for research projects or your dissertation. We will focus on a variety of tools including Flickr, iPhoto, Evernote, Picasa, Omeka, and WordPress. This workshop will be hosted by GC Digital Fellows Alice Lynn McMichael & Laura W. Kane.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop to the workshop, we ask that you please do."
+    ],
+    "fullParagraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Organizing Image Collections for Research: An Overview",
+      "Wednesday, April 10th 2013 – 6:30-8:30pm; Room C196.01",
+      "This workshop will explore the best tools for organizing a large number of images (100+) for research projects or your dissertation. We will focus on a variety of tools including Flickr, iPhoto, Evernote, Picasa, Omeka, and WordPress. This workshop will be hosted by GC Digital Fellows Alice Lynn McMichael & Laura W. Kane.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop to the workshop, we ask that you please do."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.15117330935484508,
+      0.003473368945676416,
+      0.0030407506761074587,
+      0.0011774579414607802,
+      0.002088873914946651,
+      0.049295439880652374,
+      0.0038073102079753127,
+      0.7859434890783359
+    ],
+    "words": [
+      [
+        "workshop",
+        5
+      ],
+      [
+        "please",
+        3
+      ],
+      [
+        "image",
+        2
+      ],
+      [
+        "research",
+        2
+      ],
+      [
+        "tool",
+        2
+      ],
+      [
+        "join",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "19747",
+    "title": "Downtime is the Best Cure for Downtime",
+    "date": "2013-04-02",
+    "year": "2012–2013",
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "originalAuthors": [
+      "Micki Kaufman"
+    ],
+    "aliases": [
+      "Micki Kaufman"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Micki Kaufman",
+    "tags": [
+      "Coding",
+      "deus ex machina",
+      "downtime",
+      "frustration",
+      "kitties",
+      "logic",
+      "nap",
+      "relaxation",
+      "sacred",
+      "salvation",
+      "secular",
+      "software",
+      "troubleshooting"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "During nearly every software project or coding effort I have ever undertaken there has usually been at least one moment of ‘downtime’ – an interminable period during which the machine seemingly acts in what appears to be complete defiance of the behavior desired. No matter what I would try to do in order to accomplish my goal, I would be met only with a maddening error message. As my conscious mind would run through a host of possible causes and solutions, I felt as if the deus ex machina that had so often inspired me had been replaced by a diabolus ex machina, cackling invisibly behind the beveled interface, its cursor aptly named.",
+      "Getting the error message to change – somehow – would often be my first sign of salvation… after all, if I could identify the cause of the error I could potentially solve it. But it often seemed nothing would work to even change the error at all in a productive way. The descent into madness (or at least,…"
+    ],
+    "fullParagraphs": [
+      "During nearly every software project or coding effort I have ever undertaken there has usually been at least one moment of ‘downtime’ – an interminable period during which the machine seemingly acts in what appears to be complete defiance of the behavior desired. No matter what I would try to do in order to accomplish my goal, I would be met only with a maddening error message. As my conscious mind would run through a host of possible causes and solutions, I felt as if the deus ex machina that had so often inspired me had been replaced by a diabolus ex machina, cackling invisibly behind the beveled interface, its cursor aptly named.",
+      "Getting the error message to change – somehow – would often be my first sign of salvation… after all, if I could identify the cause of the error I could potentially solve it. But it often seemed nothing would work to even change the error at all in a productive way. The descent into madness (or at least, frustrated anger) seemed to accelerate. Depending on the severity of the situation and the urgency with which I needed to accomplish the original goal, I might employ a wide array of both secular and spiritual solutions to somehow lift the curse. These would often begin with a quiet moment in which I would try to think through the problem logically, and sometimes that worked – but not often. An appeal for divine intervention via Google search might serve to validate my quandary… surely I was not alone, and someone else had encountered the same error message or condition?",
+      "My despair, if not lifted, could only deepen. If a ready answer had not presented itself by this time, frustration would likely be mounting. As emotion and cold reasoning fought for floor space in my brain, print and/or online manuals were soon consulted amidst alternating deep breathing and exasperated sighs. Even a desperate ‘laying on of hands’ on the machine itself would be attempted, sometimes providing the necessary tribute, but just as often being of no avail. Here at the precipice – this dreaded point of hopelessness when an earnest IT staff member would kindly (but blindly) recommend thrice rebooting – is where one finds the true measure of their character. Most often, looking inward would reveal the source of the perceived error, the fault lying not within the program but within the programmer. Ninety-nine times out of one hundred, it is not the machine whose behavior is undesirable to the programmer but the programmer whose keystrokes are undesirable to the machine.",
+      "Getting some distance and giving my mind some downtime (whether through a walk around the block, some quiet moments with a loved one, or a blessed nap), would often be my surest way to gain the altitude necessary to overcome the procedural hurdle confounding my logical mind. Certainly, machines fail, unforeseen compatibility errors present themselves, corruptions occur, and hard drives crash miserably. However, these events are comparatively rare in comparison to the self-made brick walls we all erect as we craft software. In these moments of greatest frustration, a programmer often makes the greatest cognitive leaps through acknowledgement and recognition of the fact that it is as much the machine that conditions the programmer’s behavior (for good or ill) as it is the programmer creating conditions for the machine.",
+      "Isn't it telling that refreshing one's mind by distraction, fun, rest and companionship is often the best route towards better problem-solving and higher quality work? Just as with any athlete, diligent work and training is essential, but occasionally it is the intentional avoidance of work and training that helps us achieve the best results.",
+      "As often as not, it seems downtime is the best cure for downtime."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007577055839784324,
+      0.18611995400419737,
+      0.04498932776943325,
+      0.0002569878097393562,
+      0.00045591023961147136,
+      0.6998216476503694,
+      0.0008309700728095678,
+      0.06676749686986119
+    ],
+    "words": [
+      [
+        "often",
+        11
+      ],
+      [
+        "machine",
+        7
+      ],
+      [
+        "error",
+        7
+      ],
+      [
+        "programmer",
+        6
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "moment",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908130601/http://digitalfellows.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/"
+  },
+  {
+    "id": "19746",
+    "title": "project management, or, your hand is not your dayplanner",
+    "date": "2013-03-25",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Reflections",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/25/project-management-or-your-hand-is-not-your-dayplanner/",
+    "signals": [],
+    "paragraphs": [
+      "Ah, what to say about project management? That it is a necessary evil or the world's most effective procrastination tool? Last week, the ITP core course discussed the many project management tools and tactics that are being employed by academics for both research and pedagogical purposes. Sorting through the links and info pages of the week's reading had that same queasy, fluorescent light feel of trying to survive eight hours of screen staring during the data entry desk job. And yet, as it was soon revealed, most of us in the course had been cultivating long inner-dialogues already about ways in which to better organize our efforts. If only projects unfurled by the magical force of their sheer worth.",
+      "The note organizer of 17th-Century Vincent Placcius.",
+      "My relationship to project management is one of both immediate distaste and reluctant hope. People, it seems, forever and ever, have been looking for ways to best organize their time,…"
+    ],
+    "fullParagraphs": [
+      "Ah, what to say about project management? That it is a necessary evil or the world's most effective procrastination tool? Last week, the ITP core course discussed the many project management tools and tactics that are being employed by academics for both research and pedagogical purposes. Sorting through the links and info pages of the week's reading had that same queasy, fluorescent light feel of trying to survive eight hours of screen staring during the data entry desk job. And yet, as it was soon revealed, most of us in the course had been cultivating long inner-dialogues already about ways in which to better organize our efforts. If only projects unfurled by the magical force of their sheer worth.",
+      "The note organizer of 17th-Century Vincent Placcius.",
+      "My relationship to project management is one of both immediate distaste and reluctant hope. People, it seems, forever and ever, have been looking for ways to best organize their time, thoughts, activities, resources, collaborations, etc. The 18th century Puritanical preacher Jonathan Edwards used to pin his notes to clothes so as to keep his thoughts newar. Emerson kept an intricate and extensive journal system that allowed him to cross reference one book to another. The 17th-century scholar Vincent Placcius turned his notebook into a hulking piece of furniture (see below). And who can forget Memento, whose protagonist inundated himself with tattoos, stickies & Polaroids to combat an amnesia that seemed, metaphorically, to parallel the inevitable forgetfulness of the information-overloaded subject of today’s world.",
+      "Sure some of this may sound more like notetaking rather than official project management, but who’s to say where one ends and another begins. Despite my attempts to enforce a logic on my many different types of lists of thinking and doing, my projects/tasks/notes-to-self currently exist in so many different forms that I begin to wonder if I would not do better with none of them at all. I know I’m not alone. After the research management workshop last week, students asked whether there might be workshops on just calendars and organization. I can’t imagine a less sexy topic. Yet it seems, if we could just sort out these two little things, the world would be ours! And so, I can see why an entire institute (the Project Management Institute!) has arisen over this otherwise banal topic even if I’d almost rather read ten pages of source code than peruse its advice.",
+      "There is of course project management of one’s life and all its many cubbies, and group project management. They are not so wildly different. One of the problems is not so much writing tasks down or keeping up with tasks that are laid out before one — the problem is keeping up with all the different places one orchestrates their project management. Personally, I have a paper day planner, a phone calendar with alerts, a list making app and a note taking app on my phone, multiple groups on the CUNY Academic Commons, stickies on my desktop, Evernote to-do-lists, a membership with the project management tool Asana for Fellowship duties, a membership with the digital tool Trello as of five minutes ago for experimental purposes, and of course, for those few not-to-be-forgottens-!, the back of my hand which currently reads “blog post.” (The latter is reserved for only the most pressing (read late) as it is a practice I detest!) It seems it would take me an entire day just to go through all these different places and so I don’t. The result is that, at the end of the day, on top of all this technology the main task master is exactly what I’ve been trying to supplement — my memory. Though the idea of one universal “project manager” is wildly appealing (such as promised by digital project management tools like Asana, BaseCamp, etc), it seems flat out impossible. My day planner doesn’t come with alerts and can be misplaced, my phone calendar isn’t as accessible and flexible as my day planner, only the online platforms enable discussion functionality with collaborators through email, etc, etc. Furthermore, I’ve become increasingly wary of trying new tools and systems for there is always the certain risk (or near promise) that despite the time one puts into the new tool, they will only further fracture and confuse one’s already too-complex ecosystem of project management methods. And when one already has so much to do, who has time to adopt to a new system!",
+      "This is not to say that I think improvements are impossible, only that they will take a lot of research, time and experimentation to find out, and that one must make peace with the fact as soon as possible, that a) neither will the tools be the final solution nor b) will there ever be a utopian solution. While I will grudgingly acknowledge the worth and necessity of project management for getting large, collaborative projects done in an efficient manner, I also wonder what this increasing cultural obsession with project management and its tools reflects. It parses individual and social activity into something that can always be boiled down into a mission statement, time frame and dollar sign. Great for getting projects done, meeting deadlines, satisfying the bottom line, etc, but not so great, at least personally, for feeling enthused about a project or making sure that that project is meaningful. is such a focus on a project management a sign of something else in decline? Am i just being whiny? If only there were time to interrogate this a little.",
+      "(Featured image: fellow Graduate Center ITPer Anderson Evan's response to reading about project management. Thanks, Anderson!)"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0004443549241873122,
+      0.03352873758179859,
+      0.0003892041309842462,
+      0.00015070998700340247,
+      0.0002673676481240518,
+      0.7010769827646244,
+      0.00048732073712120236,
+      0.2636553222261568
+    ],
+    "words": [
+      [
+        "project",
+        22
+      ],
+      [
+        "management",
+        16
+      ],
+      [
+        "tool",
+        9
+      ],
+      [
+        "time",
+        6
+      ],
+      [
+        "seem",
+        5
+      ],
+      [
+        "etc",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19745",
+    "title": "The lost art of spaghetti",
+    "date": "2013-03-25",
+    "year": "2012–2013",
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "originalAuthors": [
+      "Micki Kaufman"
+    ],
+    "aliases": [
+      "Micki Kaufman"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed cross-reference credit",
+    "creditQuote": "I’m lucky to have grown up in a household where repairing things was standard procedure. My parents still use their electric oven that they bought in the mid-90’s, which still looks nearly brand new as a result of my dad’s annual ritual of pulling it out of the wall and cleaning down most of the removable components. I distinctly remember one weekend awhere I was given free rein to disassemble an old VCR machine and get a closer look for the first time at those cityscape circuit boards hidden inside the body of that typically bulky 90’s recording hardware. Micki Kaufman, a former fellow here at the GCDI, has also covered the childhood joys of tech-wrangling with much more compelling detail.",
+    "tags": [
+      "creation",
+      "destruction",
+      "hardware",
+      "logic",
+      "programming",
+      "reverse engineering",
+      "software",
+      "technology",
+      "youth"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/25/the-lost-art-of-spaghetti/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "When I was five years old I took apart an old rotary telephone. Actually I didn't just take it apart - I dismantled it entirely. My youthful fingers, newly skilled with pliers and screwdrivers swiped from my father's tool box, utterly decimated it. I was unstoppable. Every curly, colored wire was traced and pulled from its anchor. Every piece of metal was unscrewed from every other, from the easiest outermost elements to the trickiest embedded ones. My mind consumed the logic of assembly first through the destructive glee of disassembly, fueled by a native and innate desire to experiment. The phone was no longer a phone - it was a wild, chaotic inventory of spaghetti, electronic parts that, once dissassembled, only tangentially seemed to suggest telephony. A world of possibilities lay before me - while I knew I could never reassemble them into a working phone, perhaps I might build my own robot...",
+      "A few years later these mechanical and…"
+    ],
+    "fullParagraphs": [
+      "When I was five years old I took apart an old rotary telephone. Actually I didn't just take it apart - I dismantled it entirely. My youthful fingers, newly skilled with pliers and screwdrivers swiped from my father's tool box, utterly decimated it. I was unstoppable. Every curly, colored wire was traced and pulled from its anchor. Every piece of metal was unscrewed from every other, from the easiest outermost elements to the trickiest embedded ones. My mind consumed the logic of assembly first through the destructive glee of disassembly, fueled by a native and innate desire to experiment. The phone was no longer a phone - it was a wild, chaotic inventory of spaghetti, electronic parts that, once dissassembled, only tangentially seemed to suggest telephony. A world of possibilities lay before me - while I knew I could never reassemble them into a working phone, perhaps I might build my own robot...",
+      "A few years later these mechanical and analytic tendencies were already well-developed and put well to use restoring the ebbing functionality of our sometimes-flaky stereo, television and Atari video game unit. But I had never successfully built that robot - the parts were eventually discarded as my mother was forced to buy another rotary phone from the phone company. Despite the vigor of my efforts they were occasionally ill-directed - understandably, my mother is unlikely ever to forget the time she came into my infant sister's bedroom to find me hovering over her crib with a screwdriver, promising to use my mechanical skills to fix her slight case of lazy-eye. Thankfully, she intervened before my attempts at repair further damaged the object in question (my sister), but that was not always the case. My ongoing technological experimentation led to ever more spaghetti.",
+      "As I grew, computer technology grew around me. At age 8, the Apple II arrived in my life. Using the computer required a degree of mechanical skill and I was eagerly up to the challenge, soldering iron at the ready for any number of switches, relays or other elements needed to enable or disable some component or functionality. Occasionally triumphant and occasionally dashed by irretrievable errors of incompetence, I was still unstoppable in my effort to understand what was happening 'inside the box.' As the Apple II gave way to the Apple Macintosh, my confidence with the technology inside the device quickly extended to the exciting new field of software, enabled by the hypnotizing Graphical User Interface. It was there, in that world of pixels and movement, that the experimental fervor I had first experienced as a very young child found the greatest purchase. In software, one could copy code and modify the copy, leaving the original pristine - one could tweak and destroy and revert and destroy again. We were free to destroy, in order to learn to create. Reverse-engineering became productive as one could strip away all else but the element to be understood, and examine it in detail to better apprehend its syntax, structure, format and function.",
+      "In the twenty-first century, hardware has been sufficiently micro-miniaturized to dissuade all but the most advanced technologists from attempting physical repair and engineering tasks - the voiding of the warrantee an unassailable barrier to such invasive play. It is now almost exclusively in software that the end user's creativity takes place. And while the sophistication of software has grown tremendously, allowing great strides in learning, the lack of connection to the box, the obscuring of the machine, alienates us and decontextualizes us from the nature of the technology with which we are grappling. It makes it difficult to differentiate between waves of innovation, coming ever faster, and leaves us breathless. Can that same glee of destruction apply when we are dealing not with actual (limited) elements, but virtual (unlimited) instantiations? What does it mean to the development of one's ability to grapple with chaos when the spaghetti is symbolic, easily reverted back to order?"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0006640504315202837,
+      0.21608783373800083,
+      0.032365420078769254,
+      0.010819819116707168,
+      0.05690406971244354,
+      0.6662941388668686,
+      0.014854387071492132,
+      0.0020102809841981194
+    ],
+    "words": [
+      [
+        "phone",
+        5
+      ],
+      [
+        "element",
+        4
+      ],
+      [
+        "software",
+        4
+      ],
+      [
+        "take",
+        3
+      ],
+      [
+        "box",
+        3
+      ],
+      [
+        "every",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19744",
+    "title": "Digital Clutter (or why Inbox Zero is not a goal)",
+    "date": "2013-03-21",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "clutter",
+      "data",
+      "resources",
+      "workflow"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/",
+    "signals": [],
+    "paragraphs": [
+      "These days there's a cloud of excess digital data hovering around my work--not just extra words I've typed but all the files I've collected, the images I might use for projects, the articles I intend to read. In a blog post titled, \"The Data Left Behind,\" Maura A. Smale reflects on data that she spent time collecting but won't include in her final research project. Her post reminded me of one by Inger Mewburn (also known as the Thesis Whisperer) who suggests a \"maybe later\" folder for words that don't make the final draft. Digital research has complicated the matter of too much data for many researchers, not the least because it exacerbates tendencies toward \"productive procrastination,\" (aka surfing the web).",
+      "My partner likes to chide me for the years I spent disparaging poor Twitter until I got roped into using it at a conference. Very quickly I became quite enamored with the number of connections I could make with little effort.…"
+    ],
+    "fullParagraphs": [
+      "These days there's a cloud of excess digital data hovering around my work--not just extra words I've typed but all the files I've collected, the images I might use for projects, the articles I intend to read. In a blog post titled, \"The Data Left Behind,\" Maura A. Smale reflects on data that she spent time collecting but won't include in her final research project. Her post reminded me of one by Inger Mewburn (also known as the Thesis Whisperer) who suggests a \"maybe later\" folder for words that don't make the final draft. Digital research has complicated the matter of too much data for many researchers, not the least because it exacerbates tendencies toward \"productive procrastination,\" (aka surfing the web).",
+      "My partner likes to chide me for the years I spent disparaging poor Twitter until I got roped into using it at a conference. Very quickly I became quite enamored with the number of connections I could make with little effort. Pretty soon I was emailing tweets with links to myself faster than I could organize them in my inbox. For a while, it was a dirty little secret how much time I spent reading articles and blogs about data management, GIS, looting of antiquities, and travel. But this fellowship has allowed me to channel those clicks and incorporate them into my reflections and research in a productive way. In fact, some of my teaching and researching philosophy is shaped by the contact I have with the wider world courtesy of a smart phone and a long commute. I've developed a small portfolio of organizing tools that help me reign in the chaos, namely Pocket, Evernote and its web clipper, Dropbox, Zotero, an Amazon wishlist, andPinterest, that virtual board designed to tackle this very conundrum.",
+      "But are all of my links and collected notes 'data' or 'detritus'?",
+      "The results from a Google search for \"digital hoarding\" reveal much hand-wringing over the prospect of excess data. On a purely functional level, these saved links and articles are a record of reading and research and plans. In more nebulous terms, though, they're not a to-do list but a security blanket to insulate against writer's block, a safety net from the pitfalls of isolation, and my grab-bag for inspiration. But these collections aren't entirely digital, making me think twice about the role of random finds (both digital and material) in the writing process.",
+      "Not all of it is evident in my finished research, but the environment I create and the sources I pull from all over are spun into a cocoon for my writing. To be perfectly honest, there are days when my desk at home looks like a magpie won the lottery. It's a cabinet of curiosities from wallet-sized photos of Byzantine churches to my cat's rubber band toys to dissertation chapter outlines scribbled on old envelopes. Right now there's a Boden catalog, a Greek Lexicon, double-sided tape, and enough abandoned coffee cups to frighten any normal person. Incidentally, this scene has not changed since I got my digital act together. Why on earth not?",
+      "In feeling a backlash about all the pressure to let go and get organized, I'm not entirely alone. The publishers of Evgeny Morozov's To Save Everything, Click Here: The Folly of Technological Solutionism promise that it \"warns against a world of seamless efficiency, where everyone is forced to wear Silicon Valley’s digital straitjacket.\" 'Research' to me means I collate and curate. I shuffle. I highlight and post sticky notes. A tiny part of me rebels against the notion of perfectly streamlined workflow or dependence on a schedule. (I'm writing this post using links and notes I put together over the course of a month in Evernote and on scraps of paper, moving between several computers and Moleskine notebooks).",
+      "If pressed to analyze this phenomenon, I'd say that first and foremost, art can be messy. And, as Seth Godin notes, any work can be art.",
+      "So how can researchers organize workflow so that they publish without perishing while maintaining enough flexibility to keep the joy of discovery? I'm making a commitment to differentiate \"inspiration\" from \"research.\" Ideally, I'll let the grab-bag of links be a starting point, not a strategic manifesto, so that long as the dust bunnies are kept at bay, my role as a digital scholar can safely remain more about curating and selecting ideas and less about a perfectly streamlined workflow. I certainly don't want to \"cure\" myself from interacting with the world because I understand it by way of tangible objects and layers of experiences and touchstones."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.14336842451377402,
+      0.06887231949741508,
+      0.009823271516486683,
+      0.00019795842285371047,
+      0.11830381823568971,
+      0.458370126254277,
+      0.009952148235228567,
+      0.19111193332427523
+    ],
+    "words": [
+      [
+        "digital",
+        8
+      ],
+      [
+        "research",
+        8
+      ],
+      [
+        "data",
+        7
+      ],
+      [
+        "link",
+        5
+      ],
+      [
+        "organize",
+        4
+      ],
+      [
+        "note",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20130413081655/http://digitalfellows.commons.gc.cuny.edu:80/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/"
+  },
+  {
+    "id": "19743",
+    "title": "3/19 Workshop: Organizing Your Research With Evernote, Dropbox, and Zotero",
+    "date": "2013-03-12",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/12/319-workshop-organizing-your-research-with-evernote-dropbox-and-zotero/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Spotlight: Organizing Your Research With Evernote, Dropbox, and Zotero",
+      "March 19, 2013 - 6:30-8:30pm; Room C196.01",
+      "In this workshop, we will focus on the best practices for using specific tools for research management: Zotero, Evernote, and Dropbox...and a little Googledrive thrown in for good measure. Samples from Graduate Center students who use these tools in their own work will be presented as case studies. Hosted by GC Digital Fellows Erin Glass and Hillary Miller. Level: Basic.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop to the workshop, we ask that you please do so.",
+      "Workshop participants, link to Evernote notes here."
+    ],
+    "fullParagraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Spotlight: Organizing Your Research With Evernote, Dropbox, and Zotero",
+      "March 19, 2013 - 6:30-8:30pm; Room C196.01",
+      "In this workshop, we will focus on the best practices for using specific tools for research management: Zotero, Evernote, and Dropbox...and a little Googledrive thrown in for good measure. Samples from Graduate Center students who use these tools in their own work will be presented as case studies. Hosted by GC Digital Fellows Erin Glass and Hillary Miller. Level: Basic.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop to the workshop, we ask that you please do so.",
+      "Workshop participants, link to Evernote notes here."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.036983015961094406,
+      0.003179827757269644,
+      0.0027837709019822962,
+      0.0010779486728397126,
+      0.0019123391036394305,
+      0.2986652410049718,
+      0.0034855469917545083,
+      0.6519123096064482
+    ],
+    "words": [
+      [
+        "workshop",
+        5
+      ],
+      [
+        "please",
+        3
+      ],
+      [
+        "evernote",
+        3
+      ],
+      [
+        "research",
+        2
+      ],
+      [
+        "dropbox",
+        2
+      ],
+      [
+        "zotero",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19742",
+    "title": "\"Research Management\" handout",
+    "date": "2013-03-12",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/12/link-to-research-management-handout/",
+    "signals": [],
+    "paragraphs": [
+      "This is a link to the collaborative Research Management workshop handout, provided during our March 12 workshop, \"Research Management: How to Keep Your Sources and Your Sanity.\"",
+      "Feel free to add notes or questions on the handout.",
+      "https://docs.google.com/document/d/1LnKnc1UW6F4V_K5GJLyHg8uLoZA6AP0VAdYcbKeTvyw/edit?usp=sharing",
+      "photo credit: Patrick Hoesly via photopin cc"
+    ],
+    "fullParagraphs": [
+      "This is a link to the collaborative Research Management workshop handout, provided during our March 12 workshop, \"Research Management: How to Keep Your Sources and Your Sanity.\"",
+      "Feel free to add notes or questions on the handout.",
+      "https://docs.google.com/document/d/1LnKnc1UW6F4V_K5GJLyHg8uLoZA6AP0VAdYcbKeTvyw/edit?usp=sharing",
+      "photo credit: Patrick Hoesly via photopin cc"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19741",
+    "title": "A Guide to FERPA Guides",
+    "date": "2013-03-08",
+    "year": "2012–2013",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "FERPA",
+      "Guides",
+      "Online Teaching",
+      "Privacy",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/08/a-guide-to-ferpa-guides/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "The Federal Educational Rights and Privacy Act of 1973, or FERPA, was designed to give students the right to access their own educational records, lodge a request to have those records amended, and also allow for students and parents to be able to control who has access to those records. This is an important law that gives students more power in regards to their academic records. However, there is a great deal of fear and confusion that surrounds the law with a rather large case law history only further deepening that problem. In addition, the passing of the act in 1973 leaves it open to a wide variety of interpretations in a contemporary milieu of higher education where the privacy of students using various online platforms to both access and contribute content is particularly important.",
+      "As Digital Fellows and a part of the Graduate Center Digital Intiatives, we thought it would be a productive exercise to put together a guide for how…"
+    ],
+    "fullParagraphs": [
+      "The Federal Educational Rights and Privacy Act of 1973, or FERPA, was designed to give students the right to access their own educational records, lodge a request to have those records amended, and also allow for students and parents to be able to control who has access to those records. This is an important law that gives students more power in regards to their academic records. However, there is a great deal of fear and confusion that surrounds the law with a rather large case law history only further deepening that problem. In addition, the passing of the act in 1973 leaves it open to a wide variety of interpretations in a contemporary milieu of higher education where the privacy of students using various online platforms to both access and contribute content is particularly important.",
+      "As Digital Fellows and a part of the Graduate Center Digital Intiatives, we thought it would be a productive exercise to put together a guide for how to approach online pedagogy with FERPA in mind. Upon initial engagement with the text of the Act itself, however, it became apparent that this was a task that was beyond both our intellectual and legal purviews. But luckily for us, this is an issue that has occurred to countless universities all over the country as both online teaching and the privacy issues it brings up become more and more prevalent. So, what follows is a guide of guides to FERPA implications of teaching and learning online. It’s important to remember that each institution has their own policies and guidelines and that following these guides doesn’t necessarily mean that you’re within the parameters set by your institution. However, from the use of social media in the classroom to dealing with third party grading management systems, there are a variety of issues outlined in these guides that are worthy of your attention whenever you’re using teaching with technology and online.",
+      "Privacy Considerations in Cloud-Based Teaching and Learning Enviroments – White Paper from Educause co-authored by Veronica Diaz, Joan Golas, and Susan Gautsch that outlines some very useful, albeit general ways to utilize new and innovative pedagogical tools while still keeping within FERPA privacy guidelines. Of particular usefulness is the “Considering FERPA and Advancing Innovation” section that outlines some of the trickier and most open to interpretation terms in the FERPA lexicon. Also, in the “Potential Solutions” section they link to a variety of case studies from universities across the country.",
+      "Use of Social Networks, Blogs, Wikis, and Other Third-Party Hosted Tools in Instruction – Another helpful overview of issues teacher should keep in mind when using “cloud-based” technologies that are not-university based from the Teaching Handbook at Indiana University. Much of the possible FERPA related concerns that we encounter are the product of the use of third party providers whose databases are off site and therefore not as controllable University based platforms.",
+      "DELTA Student Privacy Guidelines – Basic guidelines with helpful hypothetical examples from the Distance Education and Learning Technology Applications program at North Carolina State.",
+      "FERPA and Teaching With Technology – A set of guidelines from the Emerson College Registrar’s office and the Instructional Technology Group there that very briefly lays out some basic best practices. The section that covers what to do with content that is viewable by anyone (a common practice used when trying to interact with a wider community beyond the classroom itself) is particularly relevant to those teaching with blogs.",
+      "FERPA Considerations in Blackboard - Set of guidelines from the University of Missouri. This site has useful list of areas of Blackboard that are subject to FERPA regulations.",
+      "FERPA Problems and Solutions in Moodle – If you are using Moodle for your classes this is a one stop shop for all you and your students privacy concerns. Also useful if you’re using any other kind of content management system for teaching.",
+      "Guidelines for Public, Student Class Blogs: Ethics, Legalities, FERPA and More – A response by Duke University’s Director of Copyright and Scholarly Communication Kevin Smith to questions about FERPA and class blogs posed to him by members of the Duke PhD Lab in Digital Knowledge.",
+      "Here’s a link to this list as a public Zotero library.",
+      "If any readers have other suggestions for guides or things they’d like to see added to the library, don’t hesitate to comment!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.10690147470901448,
+      0.1858899274777511,
+      0.0005003501674244826,
+      0.00019374863015713032,
+      0.00034372052312100045,
+      0.27545604148260006,
+      0.0006264861880869539,
+      0.4300882508218448
+    ],
+    "words": [
+      [
+        "ferpa",
+        13
+      ],
+      [
+        "privacy",
+        7
+      ],
+      [
+        "student",
+        7
+      ],
+      [
+        "university",
+        7
+      ],
+      [
+        "guideline",
+        7
+      ],
+      [
+        "guide",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "19739",
+    "title": "March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity",
+    "date": "2013-03-06",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Research Management: How to Keep Your Sources and Your Sanity",
+      "March 12, 2013 - 6:30-8:30pm; Room C196.01",
+      "In this workshop, Digital Fellows Erin Glass and Hillary Miller will introduce the triple threats of digital research management: citation managers, cloud storage, and annotating tools, with a focus on the best ways to organize and back up your research. We will cover a range of options and comparative benefits between them, including Zotero, Sugar Sync, Evernote, Drop Box, and Google Drive. Level: Introductory.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop or portable device to the workshop, we ask that you please do so."
+    ],
+    "fullParagraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Research Management: How to Keep Your Sources and Your Sanity",
+      "March 12, 2013 - 6:30-8:30pm; Room C196.01",
+      "In this workshop, Digital Fellows Erin Glass and Hillary Miller will introduce the triple threats of digital research management: citation managers, cloud storage, and annotating tools, with a focus on the best ways to organize and back up your research. We will cover a range of options and comparative benefits between them, including Zotero, Sugar Sync, Evernote, Drop Box, and Google Drive. Level: Introductory.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "If you are able to bring a laptop or portable device to the workshop, we ask that you please do so."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0030743089601876334,
+      0.0030758493448221906,
+      0.0026927433051749544,
+      0.017392392973611916,
+      0.05089888446950328,
+      0.32159845638678114,
+      0.0033715717483203097,
+      0.5978957928115985
+    ],
+    "words": [
+      [
+        "workshop",
+        4
+      ],
+      [
+        "please",
+        3
+      ],
+      [
+        "research",
+        3
+      ],
+      [
+        "management",
+        2
+      ],
+      [
+        "digital",
+        2
+      ],
+      [
+        "join",
+        1
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150909155004/http://digitalfellows.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/"
+  },
+  {
+    "id": "19740",
+    "title": "Turning an idea into a tool",
+    "date": "2013-03-05",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "resources",
+      "Resources",
+      "tool",
+      "tool building"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/03/05/meet-the-toolmakers/",
+    "signals": [],
+    "paragraphs": [
+      "Unless you are blessed with better party invites than I, chances are you know just as little about what goes on in the minds of our toolmakers. All of us, at some point or another, wish that we were BFFs with a coder so that we could finally build our brilliant self-destructing media app that would erase -- with the swipe of the screen -- all personal messages released into the eternal preserve of digital correspondence. Oh yeah, or RateMyDate.",
+      "Kidding aside, regardless of whether digital tools trigger your personal faculties of enthusiasm or ennui, they powerfully shape the way scholars work and the way that work enters both the scholarly and public conversation. And while I have preferred reading little poems composed when poetry was still meant to be sung, I too, have fallen charmed by the potential of tools to shape not just the way we communicate, but the way we think.",
+      "And so, in attempt to begin bridging the gap between tool makers…"
+    ],
+    "fullParagraphs": [
+      "Unless you are blessed with better party invites than I, chances are you know just as little about what goes on in the minds of our toolmakers. All of us, at some point or another, wish that we were BFFs with a coder so that we could finally build our brilliant self-destructing media app that would erase -- with the swipe of the screen -- all personal messages released into the eternal preserve of digital correspondence. Oh yeah, or RateMyDate.",
+      "Kidding aside, regardless of whether digital tools trigger your personal faculties of enthusiasm or ennui, they powerfully shape the way scholars work and the way that work enters both the scholarly and public conversation. And while I have preferred reading little poems composed when poetry was still meant to be sung, I too, have fallen charmed by the potential of tools to shape not just the way we communicate, but the way we think.",
+      "And so, in attempt to begin bridging the gap between tool makers and tool users, I begged the kind and illustrious programmer Andrew Badr to answer a few questions via email. Thus far, Andrew has worked on an array of interesting projects, such as the art site Your World of Text which was misattributed to Miranda July and gushed about on Reddit. Currently, he's working on a really cool start up project called Jotleaf -- an interactive web canvas that radically breaks out of the paradigm of how one typically puts text on a webpage (see Joe Aranda's Jotleaf page above) . Though not built specifically with academics in mind, one never knows exactly what prototypes will become tomorrow's fork and knife. In his answers below, Andrew kindly spills the beans on what it's like to turn an idea into tool.",
+      "1. What is JotLeaf? A Jotleaf page is an interactive canvas for the web. You can click anywhere on it to starting writing, add pictures, or embed videos or music players. You can style it in different ways, with custom colors and fonts, or invite people to collaborate on a page with you. It's like a new creative medium. (See jotleaf.com and andrewbadr.com for other descriptions.)",
+      "Some ways people are using it:",
+      "-To make art: http://www.jotleaf.com/JoeAranda/once-again-as-a-child/, http://www.jotleaf.com/lanadandan -To talk to their friends & fans: http://www.tumblr.com/tagged/jotleaf - Inviting everyone to write on a birthday card for someone - As a personal notepad for ideas",
+      "To some degree, we are trying to let the community guide our understanding of what this new medium is best suited for. But we also think things are possible that it isn't being used for much yet, like creating more general-purpose websites, which guides some of the feature development.",
+      "The idea for it came out of a previous site I did, called Your World of Text. See http://yourworldoftext.com/home/ and the description on my homepage (under \"Some Things I've Done\"). Your World of Text is an art project, and I want to keep it that way. But for the past couple years, I've been thinking about what it would mean to turn the same kind of interactivity into a \"startup\". Jotleaf is the answer to that question. And that's just as much about my attitude towards the project, and how the site is presented and marketing, as it is about features.",
+      "I first saw Jotleaf in my mind some time in April of last year (2012). I started working on it part-time for a few months, then more seriously starting in September. In December, a friend from college joined the project, and we committed ourselves to it full-time. He lives in Italy, so in January I moved out here for three months to work more closely with him. We got some funding from friends and family -- enough for a few months, to try to get the site to the next level and then raise a real round. In May, he's moving to San Francisco for three months, and we'll continue our work there.",
+      "2. What does building such a tool entail? A day's work, at this point, is mostly writing code. Code to make the site do new things; make it look better; make it more reliable; and fix any problems that come up. There's also marketing and customer support: Facebook and Twitter accounts, a monthly newsletter, and constantly talking to our users to see what they like and don't like about the site.One challenge is that people can't really tell you what they want. The best thing for your startup might be to radically change the product, but a user will never say that. Or say your site is slow -- that will drive people away, but people don't necessarily consciously realize that. So that's where measurement and intuition come in.",
+      "3. How did you personally get involved in this line of work? Have you worked on any other similar projects? I've been making websites since high school, and experimenting with the medium from the start. I didn't know it was \"what I wanted to do\" until late in college though. The big appeal to me is how you can put something out there, and then the next day -- if you make the right thing -- the whole world could see it. You aren't limited by who you know, or your credentials, or your hourly wage. It's an exponential game.",
+      "4. Tell us about what's most exciting in digital innovation today! For the most exciting things today, Chris Dixon pretty much lists them out in this blog post: http://cdixon.org/2013/03/02/what-the-smartest-people-do-on-the-weekend-is-what-everyone-else-will-do-during-the-week-in-ten-years/",
+      "But programming is always exciting, because it builds upon itself in a way that no other human endeavor has done. Something that took a year to program ten years ago is now a page of code that you could write in a day. And it's been happening like that for decades, building layers of abstraction on top of each other, and it's going to keep happening. The amount of leverage that one person has is amazing, and is going to keep getting more so.",
+      "5. How might academics better collaborate with digital folk to improve upon or create new tools? Re: academia, to be honest it's hard to imagine new tools coming fromthat direction. The best people to create the tools are the people who use them. Academics should create tools insofar as they are practitioners. The most useful stuff I see out of academia is studies about user behavior.",
+      "6. You're in Turin right now. Anything interesting to report about the international digital scene, or how exactly you started collaborating with an international partner? I don't know nothing about no international digital scene. I'm in Turin because my friend from college lives here. I don't really hang out with anyone besides him, his wife, and their two year old daughter. :)",
+      "7. And perhaps not-relevant, but have to ask: Are you socially-engaged with any academics in a way that influences the way you think about the potential of technology? The only way I can think of that I'm socially involved with academics is that I follow @golan on Twitter and he posts interesting stuff sometimes.",
+      "8. What inspires you? What inspires me? Well, if you mean what's my source of ideas, I'm just thinking about the web all the time. I have at least one idea. I've literally dreamt several website ideas. If you mean motivation... I want to push the web forward, and change people's conception of what it could be, and create a space for new kinds of creativity and communication, and make something big.",
+      "9. If time and money weren't an issue, what would you build? If money weren't an issue, I'd hire my friend Brian. If time stopped, I'd first write a framework in which to write a framework in which to write my website. But basically I'm doing what I want to be doing right now.",
+      "Photo Credit: Joe Aranda, from JotLeaf.com."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.003962659133194125,
+      0.0003407124372329279,
+      0.0021093343681636003,
+      0.007359734779401295,
+      0.00020490346224799372,
+      0.5916185336393222,
+      0.1126591067308441,
+      0.28174501544959385
+    ],
+    "words": [
+      [
+        "way",
+        11
+      ],
+      [
+        "tool",
+        10
+      ],
+      [
+        "work",
+        10
+      ],
+      [
+        "jotleaf",
+        8
+      ],
+      [
+        "people",
+        8
+      ],
+      [
+        "site",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "889",
+    "title": "Don't Blame the Technology (Well, Maybe Blame It a Little)",
+    "date": "2013-02-27",
+    "year": "2012–2013",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Instructional technology",
+      "open source",
+      "pedagogy"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/27/dont-blame-the-technology-well-maybe-blame-it-a-little/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "I spend a lot of time in both my working for pay and not working for pay life thinking about the relationship between technology, pedagogy, and labor. Part of my job as a Digital Fellow is to work with both students and faculty to educated them about the tools available to them to expand their pedagogical and research skill sets. In addition, my own research is largely concerned with the ways in which people learn about and utilize these new tools. This means that, aside from making me a blast at parties, I spend a lot time wondering about whether or not the technologies available to professors and students are actually things they want to be using. Of course, there's a certain element of fear or distrust (and sometimes with perfectly good, valid reasons) that is always associated with the introduction of new technology, but there's also a fairly strong current of thinking about technology that argues that if you're not on board with…"
+    ],
+    "fullParagraphs": [
+      "I spend a lot of time in both my working for pay and not working for pay life thinking about the relationship between technology, pedagogy, and labor. Part of my job as a Digital Fellow is to work with both students and faculty to educated them about the tools available to them to expand their pedagogical and research skill sets. In addition, my own research is largely concerned with the ways in which people learn about and utilize these new tools. This means that, aside from making me a blast at parties, I spend a lot time wondering about whether or not the technologies available to professors and students are actually things they want to be using. Of course, there's a certain element of fear or distrust (and sometimes with perfectly good, valid reasons) that is always associated with the introduction of new technology, but there's also a fairly strong current of thinking about technology that argues that if you're not on board with the newest developments then you'll only be left behind. When working with both students (undergrads and fellow graduate students) and faculty, I try to be as sensitive as possible to the fears that people have while also trying to find the appropriate tools and techniques that will help them accomplish what they want. It's been my experience with the CUNY Academic Commons, the OpenLab at City Tech, and Blogs@Baruch (just three examples of open source software based, interactive platforms in use at CUNY currently) that working with tools that are by nature open and interactive makes for a less skeptical and more willing participant.",
+      "With that on my mind, a recent post from the Wired Campus blog at the Chronicle of Higher Ed's website that I came across a few weeks ago disturbed me a little. The post highlights a recent article published in Science, Technology, and Human Values titled \"Technological Change and Professorial Control in the Professoriate\" by David R. Johnson that, according to the Chronicle, argued that far from enhancing pedagogy and engaging professors in their craft, the utilization of technology in the classroom was aimed almost entirely at managing the workload of the ever increasing classroom. Which is, of course, an understandable adjustment, but upon a review of the study itself, it would seem to be a disservice to instructional technology writ large to blame \"technology\" for this. From my reading of the piece, it's not hard to tell that the majority of the technology being utilized by professors in the study might be a certain not-to-be-named proprietary course management system that a great deal of us are familiar with. Which is far from the open and interactive platforms that I and an increasing set of CUNY professors, adjuncts, and students are using. I wonder what this study would have looked like if it had been conducted with as a comparison between closed, proprietary systems and open, open-source systems. Would professors still be so skeptical? Would instructional technology still look like just a patch to cover for degrading labor conditions? I'd like to think not."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0008169622277741783,
+      0.061643768659431726,
+      0.0007155655459188042,
+      0.00027708563589185213,
+      0.0004915648675338903,
+      0.43304050086364015,
+      0.005240699042333487,
+      0.49777385315747585
+    ],
+    "words": [
+      [
+        "technology",
+        10
+      ],
+      [
+        "student",
+        5
+      ],
+      [
+        "professor",
+        5
+      ],
+      [
+        "open",
+        5
+      ],
+      [
+        "work",
+        4
+      ],
+      [
+        "tool",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19738",
+    "title": "Feb 27 Workshop - Using WordPress Academically: Creating and Editing a WordPress Site to Establish an Online Academic Identity.",
+    "date": "2013-02-19",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/19/feb-27-workshop-using-wordpress-academically-creating-and-editing-a-wordpress-site-to-establish-an-online-academic-identity/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Using WordPress Academically: Creating and Editing a WordPress Site to Establish an Online Academic Identity.",
+      "Wednesday, February 27th 2013 – 6:30-8:30pm; Room C196.01",
+      "The purpose of this workshop is to familiarize participants with the Wordpress platform while creating a digital academic identity on the CUNY Commons. We will focus on the main design and content components of a Wordpress site, including theme editing, managing content, plugin capability and image use. We will create a Wordpress site on the CUNY Commons that can be used as a digital CV, a blog, or both. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "We recommend that attendees come prepared with their CV (digital format preferred) and / or a blog idea or sample blog post. If you are not already a member of the CUNY Commons,…"
+    ],
+    "fullParagraphs": [
+      "Please join us for our latest workshop of the Spring 2013 term:",
+      "Using WordPress Academically: Creating and Editing a WordPress Site to Establish an Online Academic Identity.",
+      "Wednesday, February 27th 2013 – 6:30-8:30pm; Room C196.01",
+      "The purpose of this workshop is to familiarize participants with the Wordpress platform while creating a digital academic identity on the CUNY Commons. We will focus on the main design and content components of a Wordpress site, including theme editing, managing content, plugin capability and image use. We will create a Wordpress site on the CUNY Commons that can be used as a digital CV, a blog, or both. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please RSVP here: Eventbrite",
+      "We recommend that attendees come prepared with their CV (digital format preferred) and / or a blog idea or sample blog post. If you are not already a member of the CUNY Commons, we recommend that you sign up before the workshop."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.002468837860266175,
+      0.0024700748731866125,
+      0.0021624198172289296,
+      0.0008373453327083605,
+      0.0014854957970955943,
+      0.00879689887404191,
+      0.30469054866992173,
+      0.6770883787755507
+    ],
+    "words": [
+      [
+        "workshop",
+        5
+      ],
+      [
+        "wordpress",
+        5
+      ],
+      [
+        "site",
+        3
+      ],
+      [
+        "digital",
+        3
+      ],
+      [
+        "common",
+        3
+      ],
+      [
+        "please",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19737",
+    "title": "Microblogging the Drama",
+    "date": "2013-02-13",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [
+      "Acting",
+      "cuny",
+      "Reflections",
+      "Theatre",
+      "Twitter"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/13/microblogging-the-drama/",
+    "signals": [],
+    "paragraphs": [
+      "This semester, three Graduate Center colleagues are engaged in a pedagogical experiment with multiple Acting classes, using Twitter. (Skeptics, stay with me!) Hoping to prompt class discussion between CUNY colleges, they created a shared assignment between their Introduction to Acting, Acting 1, and Acting 2 classes at Staten Island College, City College, and Brooklyn College, aimed to get students expressing and connecting with #ACTweets.",
+      "In theory, this makes great sense, so stay tuned to see how it works in practice. With all of the Acting I courses taught across CUNY, the assignment reads like a productive way to network students while encouraging low-stakes, fluid discussion in a different medium. It might be ideal for shy students with anxiety about Acting 1, or those who want opportunities to articulate the unexpected challenges of an acting course. Students at commuter schools can find like-minded others at campuses across town,…"
+    ],
+    "fullParagraphs": [
+      "This semester, three Graduate Center colleagues are engaged in a pedagogical experiment with multiple Acting classes, using Twitter. (Skeptics, stay with me!) Hoping to prompt class discussion between CUNY colleges, they created a shared assignment between their Introduction to Acting, Acting 1, and Acting 2 classes at Staten Island College, City College, and Brooklyn College, aimed to get students expressing and connecting with #ACTweets.",
+      "In theory, this makes great sense, so stay tuned to see how it works in practice. With all of the Acting I courses taught across CUNY, the assignment reads like a productive way to network students while encouraging low-stakes, fluid discussion in a different medium. It might be ideal for shy students with anxiety about Acting 1, or those who want opportunities to articulate the unexpected challenges of an acting course. Students at commuter schools can find like-minded others at campuses across town, others passionate about the finer points of strategies for sonnet memorization, or the ethics of diversity in casting at theater companies.",
+      "Instructors @rayelz, @Eero_Laine, and @defyinggravitas designed the #ACTweets assignment to inspire a few categories of comments from the students-- quoting readings, reacting to a specific piece, responding to another students' tweet, rehearsal notes, acting resources, or revelations. (That last one should get extra credit, no?) The instructors also made clear some basics of Twitter etiquette and guidelines.",
+      "The project is in its very first steps; student user handles were to be created by February 7, and the tweets get fired off beginning February 14 (swoon!). They're encouraging anyone teaching a CUNY Acting course-- any level-- to contact them if they would like to participate. I plan to follow along, and perhaps post some responses along the way, as an interested outsider to their very public learning process. In the meantime, has any reader tried similar assignments in their courses, or know of examples to recommend, for modeling? \"Looking for Whitman\" is certainly one of the recent standard-bearers of multi-campus student learning using digital technology, and I'm curious to hear about the relative success of across-campus initiatives using Twitter and/or other microblogging platforms.",
+      "photo credit: Eric Fischer via photopin cc"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.006821386279418609,
+      0.0240471475477104,
+      0.0009456466638575295,
+      0.00036617904352497193,
+      0.0006496213794867903,
+      0.250741791638091,
+      0.0011840399230138446,
+      0.7152441875248968
+    ],
+    "words": [
+      [
+        "acting",
+        8
+      ],
+      [
+        "student",
+        8
+      ],
+      [
+        "assignment",
+        4
+      ],
+      [
+        "course",
+        4
+      ],
+      [
+        "class",
+        3
+      ],
+      [
+        "twitter",
+        3
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20130413081650/http://digitalfellows.commons.gc.cuny.edu:80/2013/02/13/microblogging-the-drama/"
+  },
+  {
+    "id": "19736",
+    "title": "Text mining at the GC",
+    "date": "2013-02-07",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "free",
+      "intelligent archive",
+      "open source",
+      "QDA miner",
+      "Reflections",
+      "text mining",
+      "wordstat"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/07/text-mining-at-the-gc/",
+    "signals": [
+      "Archives, text & media",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Back in December, GC English student Sarah Ruth Jacobs posted about the possibility of losing software that might be of interest to English students:",
+      "There are 5 installations of a text mining software that can be used for qualitative and quantitative textual analysis called QDA Miner with WordStat and Simstat in room 5487 at the Grad Center. The IT person at the meeting said that it has only been used ONCE, and so if we want to keep it we need to use it.",
+      "Having absolutely zero experience with text mining software, I decided to ask the person responsible for using it ONCE if the rest of us folk were missing out on anything.",
+      "Enter the English department's very own digital guru Amanda Licastro, who used text mining tools for a paper in Spring 2011 in order to analyze 36 prefaces published between 1600 to 1800. Drawing from Franco Moretti's 2009 Style, Inc. Reflections on Seven Thousand Titles (British Novels, 1740–1850), Amanda used these…"
+    ],
+    "fullParagraphs": [
+      "Back in December, GC English student Sarah Ruth Jacobs posted about the possibility of losing software that might be of interest to English students:",
+      "There are 5 installations of a text mining software that can be used for qualitative and quantitative textual analysis called QDA Miner with WordStat and Simstat in room 5487 at the Grad Center. The IT person at the meeting said that it has only been used ONCE, and so if we want to keep it we need to use it.",
+      "Having absolutely zero experience with text mining software, I decided to ask the person responsible for using it ONCE if the rest of us folk were missing out on anything.",
+      "Enter the English department's very own digital guru Amanda Licastro, who used text mining tools for a paper in Spring 2011 in order to analyze 36 prefaces published between 1600 to 1800. Drawing from Franco Moretti's 2009 Style, Inc. Reflections on Seven Thousand Titles (British Novels, 1740–1850), Amanda used these tools to identify frequent keywords in her sample selection. By analyzing these keywords and their contexts -- with both new tools and traditional methods -- she was able to make several suggestions about the role of the preface in the 18th century.",
+      "Piechart from Amanda Licastro's paper \"The Rise of the Preface.\"",
+      "But the other interesting thing about her paper is her comparison of two different types of text mining tools. Amanda experimented with both QDA Miner with Wordstat 6.1 (which clocks in around $4000 for commercial use) and also a similar (though free and open source) tool, Intelligent Archive. Though Intelligent Archive did not come with all the bells and whistles of QDA Miner (such as automatically outputting charts like the one shown above), Amanda did recommend the open source tool as a respectable alternative. Just remember, regardless of which tool one uses, to \"always clean up your data!\"",
+      "I thank Amanda for her full comparison here:",
+      "There are remarkable differences between the two programs, and as part of this experiment I would like to point to several that are significant in terms of textual analysis. The Intelligent Archive allows the user to filter out common words such as prepositions and articles, WordStat does not. It also allows you to search coded text if you have a text uploaded in the Textual Coding Initiative (TEI) format. As of May 2011, TCP has released thousands of TEI encoded eighteenth century texts, but they are still not publicly available to download. The QDA Miner solves this problem by allowing you to code text easily within the program. The user can encode any amount of text and designate it as a part of a user generated category. The coded text can overlap and be coded as more than one category. The coded text is searchable, and the user can perform content and statistical analysis using the data from one category of coded text, or can compare multiple sets of data. For instance, you can do a word frequency on one set of coded text and the results will show that word in the context of a sentence or paragraph, determined by the user before the search. The user can then eliminate uses of the word that do not fit the experiment before opening the list in WordStat to create graphs or charts that display the results. This gives the user more control over their results by adding a process that at this time still necessitates human intervention, because the program cannot yet identify the meaning of a word by the context in which it is used. It would be impossible to create valid codes and properly narrow the results without a strong understanding of the original material. In other words, it is at this point when traditional literary scholarship is necessary."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.5214891274657038,
+      0.0006620451209344379,
+      0.09559539745784558,
+      0.00022443060251919425,
+      0.0003981519974603021,
+      0.26980971582846647,
+      0.028878529528139282,
+      0.08294260199893094
+    ],
+    "words": [
+      [
+        "text",
+        13
+      ],
+      [
+        "tool",
+        7
+      ],
+      [
+        "user",
+        7
+      ],
+      [
+        "amanda",
+        6
+      ],
+      [
+        "word",
+        6
+      ],
+      [
+        "mining",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19735",
+    "title": "Feb 13th Workshop - Social Media and Academia: Creating Digital Research Communities",
+    "date": "2013-02-06",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/06/feb-13th-workshop-social-media-and-academia-creating-digital-research-communities/",
+    "signals": [
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Please join us for our first workshop of the Spring 2013 term:",
+      "Social Media and Academia: Creating Digital Research Communities. Wednesday, February 13th 2013 – 6:30-8:30pm; Room C196.01",
+      "This workshop will introduce various aspects of social media as solutions or initiatives for creating communities around research. We’ll explore how to use the CUNY Commons, WordPress, Twitter, Tumblr, and Google Groups to find or create online research communities across CUNY and other universities. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please RSVP to: gc.digitalfellows@gmail.com."
+    ],
+    "fullParagraphs": [
+      "Please join us for our first workshop of the Spring 2013 term:",
+      "Social Media and Academia: Creating Digital Research Communities. Wednesday, February 13th 2013 – 6:30-8:30pm; Room C196.01",
+      "This workshop will introduce various aspects of social media as solutions or initiatives for creating communities around research. We’ll explore how to use the CUNY Commons, WordPress, Twitter, Tumblr, and Google Groups to find or create online research communities across CUNY and other universities. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please RSVP to: gc.digitalfellows@gmail.com."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0035369308111173827,
+      0.0035387029927508792,
+      0.003097947176370353,
+      0.0011996059176126823,
+      0.0021281656195787273,
+      0.05022268678131,
+      0.003878925688002155,
+      0.9323970350132578
+    ],
+    "words": [
+      [
+        "workshop",
+        4
+      ],
+      [
+        "research",
+        3
+      ],
+      [
+        "community",
+        3
+      ],
+      [
+        "please",
+        2
+      ],
+      [
+        "social",
+        2
+      ],
+      [
+        "medium",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19733",
+    "title": "Digital Dissertations: 3 issues",
+    "date": "2013-02-06",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "best practice",
+      "digidiss",
+      "dissertation",
+      "library",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/",
+    "signals": [],
+    "paragraphs": [
+      "Recently a group of GC faculty and students from the New Media Lab and Digital Fellows group got together to brainstorm about digital dissertations. The idea of a digital dissertation (or a digital component to an otherwise ‘traditional,’ written one) isn’t entirely new, but it’s garnering fresh enthusiasm from grad students in a variety of fields. To extend that conversation, we now have a Digital Dissertations group on the CUNY Commons. Below are some of my own reflections about digital dissertations that I’m sharing here with the hope of sparking a conversation beyond the GC on three issues being addressed in universities and labs: defining, assessing, and archiving digital projects.",
+      "It’s early in the game of digital works becoming an accepted vehicle for publishing dissertation content, particularly in the humanities. We're long past the point when digital publication was achieved by uploading a pdf of the text. But when defining…"
+    ],
+    "fullParagraphs": [
+      "Recently a group of GC faculty and students from the New Media Lab and Digital Fellows group got together to brainstorm about digital dissertations. The idea of a digital dissertation (or a digital component to an otherwise ‘traditional,’ written one) isn’t entirely new, but it’s garnering fresh enthusiasm from grad students in a variety of fields. To extend that conversation, we now have a Digital Dissertations group on the CUNY Commons. Below are some of my own reflections about digital dissertations that I’m sharing here with the hope of sparking a conversation beyond the GC on three issues being addressed in universities and labs: defining, assessing, and archiving digital projects.",
+      "It’s early in the game of digital works becoming an accepted vehicle for publishing dissertation content, particularly in the humanities. We're long past the point when digital publication was achieved by uploading a pdf of the text. But when defining digital dissertations, my intuitive response is that we should be as inclusive as possible in what is considered fair game. Just as the various definitions of ‘digital humanities’ are imprecise and far-reaching, examples digital dissertations should include a wide variety of projects: databases, websites, interactive maps, recordings of sound and video. (And by \"we,\" I mean any interested scholar, student, or researcher).",
+      "To facilitate the acceptance of digital projects in academic departments and executive committees, we should collectively and publicly develop standards for grading or assessing digital projects. We do this in grant proposals anyway, so there’s no need to reinvent the wheel. Doing this takes the burden away from dissertation committee members and departments who might not have much experience with digital scholarship. One good example is the “Website Reviews” page on the Children & Youth in History site.",
+      "We should continue to develop best practices for archiving and hosting digital content that is specific to dissertation writing. This is where cooperation with librarians and/or archivists is essential. Could there (should there) be an additional dissertation committee member or consultant representing the library? Again, this might alleviate the pressure from traditional scholars whose advising expertise does not extend to the digital realm.",
+      "In the same vein, dissertation writers should know from the onset whether their project will be hosted by their home institution or whether they will be responsible for server space and upkeep. Who is in charge if the project gets hacked? Scientists have been flocking to Figshare for this kind of data sharing; does it hold potential for humanists as well?",
+      "In formulating feasible expectations for the future of scholarship, we should collect examples of successful models of digital dissertations to use as case studies. Please use the comments section to chime in with your own thoughts, or use #digidiss to keep the conversation going on Twitter."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.13672678061334465,
+      0.0009125239261593041,
+      0.0007988663999795076,
+      0.00030934189843745473,
+      0.03450246763733436,
+      0.2457761276136292,
+      0.025252884459251675,
+      0.5557210074518638
+    ],
+    "words": [
+      [
+        "digital",
+        18
+      ],
+      [
+        "dissertation",
+        12
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "group",
+        3
+      ],
+      [
+        "student",
+        3
+      ],
+      [
+        "conversation",
+        3
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150702070300/http://digitalfellows.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/"
+  },
+  {
+    "id": "19734",
+    "title": "Breaking Out of the Silo",
+    "date": "2013-02-05",
+    "year": "2012–2013",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "communication",
+      "Interdisciplinarity",
+      "social media"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/05/breaking-out-of-the-silo/",
+    "signals": [],
+    "paragraphs": [
+      "I have been at Graduate Center for seven years. Not, in the grand scheme of things all that long, but sometimes I think I know a little bit too much about which $1 pizza joint in Midtown is the best (definitely the one on 5th between 33rd and 32nd). In the last few years, however, I've learned that I know almost no one outside of my own cohort in my department and don't really have much of a sense of what's actually going on inside of the GC. I'm sure this isn't too far removed from most graduate students' or academics' experiences, but there's something particularly unfortunate about this happening here. Beyond the fact that the siloing that generally happens because of the exigencies of disciplinarity, CUNY being the largest urban university system in the country makes for a particularly isolating experience. As graduate students and faculty members whose work often requires them to be spread around all five boroughs, it would seem…"
+    ],
+    "fullParagraphs": [
+      "I have been at Graduate Center for seven years. Not, in the grand scheme of things all that long, but sometimes I think I know a little bit too much about which $1 pizza joint in Midtown is the best (definitely the one on 5th between 33rd and 32nd). In the last few years, however, I've learned that I know almost no one outside of my own cohort in my department and don't really have much of a sense of what's actually going on inside of the GC. I'm sure this isn't too far removed from most graduate students' or academics' experiences, but there's something particularly unfortunate about this happening here. Beyond the fact that the siloing that generally happens because of the exigencies of disciplinarity, CUNY being the largest urban university system in the country makes for a particularly isolating experience. As graduate students and faculty members whose work often requires them to be spread around all five boroughs, it would seem particularly important that the GC be a place where these wandering scholars can come together and feel some sort of community. As anyone whose actually roamed (and/or gotten lost in) the halls of the Grad Center well knows, though, this is far from the case.",
+      "There are oases, however. The New Media Lab , where I am thankful to have a space to work because of the Digital Fellows program, is definitely one of them. At the NML, students from a multitude of departments work in a true Lab environment where conversation and skill sharing leads to better work and new perspectives. It's one of the most truly interdisciplinary spaces I've experienced. Particularly, the NML general meetings bring together a broad swath of the GC (from Environmental Psychology to Audiology to History to Physics to Computer Science to English to Art History) to discuss current and future projects in an open format that makes me really feel like a part of a vibrant, interdisciplinary community in action.",
+      "As a scholar of the Internet and a Digital Fellow, though, my focus is also on those virtual places and spaces where work like this can happen. The CUNY Academic Commons, home of this very blog, is a flourishing platform where CUNY faculty and staff and Grad Center students can develop groups and projects that are visible (or not) to the entire community (and beyond). Both visitors and users can browse around to see some of the great projects and working groups that this platform is housing. I'm particularly fond of The Internet Research Team and The CUNY Games Network as I think they really highlight the dynamic nature of the Commons and its ability to connect people from across disciplines and campuses.",
+      "My experience as a Digital Fellow (and as a Community Facilitator at the OpenLab at City Tech) has exposed me to burgeoning community of scholars and pedagogues who have opened my eyes to the possibility of demolishing the silos of the GC. Sure, sound resonates well within the silo (things you learn growing up in the Midwest) but no one can hear you outside of it. It's been my hope as part of the Graduate Center Digital Initiatives that the work of moving towards a Digital GC can in part develop a more open community whose voices can be heard not just across disciplines but by the public at large."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007962063574601028,
+      0.03043712135761629,
+      0.0006973857755850198,
+      0.02144184314083486,
+      0.0004790760935188579,
+      0.4008668088884996,
+      0.0051075530216488675,
+      0.5401740053648363
+    ],
+    "words": [
+      [
+        "work",
+        7
+      ],
+      [
+        "community",
+        6
+      ],
+      [
+        "particularly",
+        5
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "student",
+        4
+      ],
+      [
+        "experience",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19732",
+    "title": "About Workshops",
+    "date": "2013-02-01",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/01/about-workshops/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Throughout the Spring 2013 semester, the Digital Fellows will be hosting a series of workshops aimed at widening the student and faculty use of digital tools at the Graduate Center. Our workshops will focus on creating online communities for research, establishing a digital academic identity through various forms of social media, strategizing the best practices for cloud storage and citation management, and exploring innovative ways to conduct and present research.",
+      "Our workshops are designed for students and faculty with all levels of previous experience who are curious to learn about new methods to enhance their research practices. Any questions or requests for specific workshop topics can be emailed to us at gc.digitalfellows@gmail.com.",
+      "Our current workshop schedule is as follows:",
+      "February 13, 6:30-8:30pm (Wednesday) - Social Media and Academia: Creating Digital Research Communities.",
+      "February 27, 6:30-8:30pm (Wednesday) - Using WordPress…"
+    ],
+    "fullParagraphs": [
+      "Throughout the Spring 2013 semester, the Digital Fellows will be hosting a series of workshops aimed at widening the student and faculty use of digital tools at the Graduate Center. Our workshops will focus on creating online communities for research, establishing a digital academic identity through various forms of social media, strategizing the best practices for cloud storage and citation management, and exploring innovative ways to conduct and present research.",
+      "Our workshops are designed for students and faculty with all levels of previous experience who are curious to learn about new methods to enhance their research practices. Any questions or requests for specific workshop topics can be emailed to us at gc.digitalfellows@gmail.com.",
+      "Our current workshop schedule is as follows:",
+      "February 13, 6:30-8:30pm (Wednesday) - Social Media and Academia: Creating Digital Research Communities.",
+      "February 27, 6:30-8:30pm (Wednesday) - Using WordPress Academically: Creating and Editing a WordPress Site to Establish an Online Academic Identity.",
+      "March 12, 6:30-8:30pm (Tuesday) - TBA",
+      "March 19, 6:30-8:30pm (Tuesday) - TBA",
+      "April 10, 6:30-8:30pm (Wednesday) - TBA",
+      "April 17, 6:30-8:30pm (Wednesday) - TBA",
+      "All workshops will take place in room C196.01 at the concourse level in the library. Please check back frequently for details on upcoming workshops!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0018405317210144557,
+      0.0018414539207084947,
+      0.0016120954445064397,
+      0.000624245387312305,
+      0.001107444996688977,
+      0.08486419489907195,
+      0.0020184974356256503,
+      0.9060915361950718
+    ],
+    "words": [
+      [
+        "workshop",
+        6
+      ],
+      [
+        "digital",
+        4
+      ],
+      [
+        "research",
+        4
+      ],
+      [
+        "wednesday",
+        4
+      ],
+      [
+        "tba",
+        4
+      ],
+      [
+        "student",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19731",
+    "title": "New Workshop Series!",
+    "date": "2013-02-01",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Events",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/02/01/new-workshop-series/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Exciting news!",
+      "To follow up on my last post, the Digital Fellows will be hosting a series of workshops this semester. The goal of our workshop series is to broaden the number of students and faculty members that use digital tools to enhance their research. We won't just be introducing you to software and websites; we'll be suggesting new, digital solutions to ongoing research problems.",
+      "Our workshops throughout the semester will have many focuses, yet they will all revolve around obstacles we encounter while doing research:",
+      "How do I find or create a research community with those that share my interests?",
+      "How can I collaborate with others in my field?",
+      "How can I present my findings in new formats that better communicate my research goals?",
+      "How do I incorporate multimedia and metadata into my research in an intuitive way?",
+      "How do I manage my files and citations across several workstations?",
+      "How can I approach older texts in novel ways?"
+    ],
+    "fullParagraphs": [
+      "Exciting news!",
+      "To follow up on my last post, the Digital Fellows will be hosting a series of workshops this semester. The goal of our workshop series is to broaden the number of students and faculty members that use digital tools to enhance their research. We won't just be introducing you to software and websites; we'll be suggesting new, digital solutions to ongoing research problems.",
+      "Our workshops throughout the semester will have many focuses, yet they will all revolve around obstacles we encounter while doing research:",
+      "How do I find or create a research community with those that share my interests?",
+      "How can I collaborate with others in my field?",
+      "How can I present my findings in new formats that better communicate my research goals?",
+      "How do I incorporate multimedia and metadata into my research in an intuitive way?",
+      "How do I manage my files and citations across several workstations?",
+      "How can I approach older texts in novel ways?",
+      "We hope to provide solutions to many of these questions throughout the semester - or at least point you in the right direction to find your own solutions!",
+      "We hope that you'll join us for our first workshop:",
+      "Social Media and Academia: Creating Digital Research Communities. Wednesday, February 13th 2013 - 6:30-8:30pm; Room C196.01",
+      "This workshop will introduce various aspects of social media as solutions or initiatives for creating communities around research. We'll explore how to use the CUNY Commons, Wordpress, Twitter, Tumblr, and Google Groups to find or create online research communities across CUNY and other universities. The workshop will be hosted by Andrew G. McKinney and yours truly.",
+      "If you would like to attend the workshop, please RSVP to: gc.digitalfellows@gmail.com."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.061030393267115866,
+      0.0014022387524694705,
+      0.0012275858111598515,
+      0.0004753532321910302,
+      0.0008433022804003875,
+      0.154066060347076,
+      0.00899066175226052,
+      0.7719644045573268
+    ],
+    "words": [
+      [
+        "research",
+        9
+      ],
+      [
+        "workshop",
+        7
+      ],
+      [
+        "digital",
+        4
+      ],
+      [
+        "solution",
+        4
+      ],
+      [
+        "community",
+        4
+      ],
+      [
+        "semester",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19730",
+    "title": "Decor for a dream lab",
+    "date": "2013-01-31",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "decor",
+      "design",
+      "fun",
+      "pinterest",
+      "platforms",
+      "Reflections",
+      "social media",
+      "tools"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/01/31/decor-for-a-dream-lab/",
+    "signals": [],
+    "paragraphs": [
+      "It can't possibly be true? Interior design can strengthen community, improve productivity, stimulate creativity & decrease sick days?",
+      "Even save a marriage? (Nope, haven't read it.)",
+      "Much as we like our bland and sunless digital lab just the way it is, we recognize that digital culture is best cultivated when there are bright gadgets and curious new takes on furniture scattered about. Martini glasses could probably help too.",
+      "And so, the brave new task begins: How to turn our humble little space into an inviting and stimulating workspace with minimal resources?",
+      "I took this challenge as an excuse to play with Pinterest, which I'm mainly familiar with through seeing friends post about shoes. Expensive ones. Therefore I figure I should focus on pinning inspirational images wildly outside reach. Pinterest is not about pinning down the real. Pinterest is about the transcendent!",
+      "And in the unfortunate case no donors arise to the occasion, we can…"
+    ],
+    "fullParagraphs": [
+      "It can't possibly be true? Interior design can strengthen community, improve productivity, stimulate creativity & decrease sick days?",
+      "Even save a marriage? (Nope, haven't read it.)",
+      "Much as we like our bland and sunless digital lab just the way it is, we recognize that digital culture is best cultivated when there are bright gadgets and curious new takes on furniture scattered about. Martini glasses could probably help too.",
+      "And so, the brave new task begins: How to turn our humble little space into an inviting and stimulating workspace with minimal resources?",
+      "I took this challenge as an excuse to play with Pinterest, which I'm mainly familiar with through seeing friends post about shoes. Expensive ones. Therefore I figure I should focus on pinning inspirational images wildly outside reach. Pinterest is not about pinning down the real. Pinterest is about the transcendent!",
+      "And in the unfortunate case no donors arise to the occasion, we can reign in the imagination later. In the meantime, let us whet our appetite!",
+      "Click on my Pinterest board and a motley of office delights will bedazzle you! Rugs that fold into tables, origami chairs, lego conference sofas, fibrous, hanging, beehive bookshelves, and lots of pics that convey a general sense of Victorian curiosity for reasons I cannot explain. Half of which are captioned by yours truly before I got bored and gave up. Through Pinterest I've finally discovered the ancient truth of office design: activity-oriented, non-work-related objects (ping pong tables, people! pianos! poodles!), bold colors and things that look like they're from MOMA's gift shop, create a fertile environment for innovation and collaboration.",
+      "But don't take my board for it. Check out Office Snapshots, a site that has pictures of all the cool offices you could be working in had you only started programming at 14. Like Google's Tel Aviv office wonderland, complete with mini golf office furniture and other things way beyond all of our pitiful, non-php imaginations.",
+      "Oh, and ahem, on a more serious note, who is using Pinterest for academic stuff? Might such frivolity show up the intellectual?"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.008184129466110844,
+      0.021962372209363108,
+      0.05624493819289881,
+      0.0004393325018152222,
+      0.0007793995613053818,
+      0.5419416503928328,
+      0.03586456591743243,
+      0.3345836117582413
+    ],
+    "words": [
+      [
+        "pinterest",
+        6
+      ],
+      [
+        "office",
+        6
+      ],
+      [
+        "like",
+        3
+      ],
+      [
+        "take",
+        3
+      ],
+      [
+        "design",
+        2
+      ],
+      [
+        "stimulate",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19729",
+    "title": "What does it mean to be a \"Digital Scholar\"?",
+    "date": "2012-12-16",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/12/16/what-does-it-mean-to-be-a-digital-scholar/",
+    "signals": [],
+    "paragraphs": [
+      "After reading Erin and Alice Lynn’s latest posts, I began to wonder what a “successful” digital scholar looks like. Should success be measured by the scope of one’s digital presence? Should it be measured by how much one’s research is cited on the web? Or does it instead have something to do with how many digital tools one has created for / incorporated into their research?",
+      "This is a tricky question to answer; just trying to find a simple definition of ‘digital scholarship’ is a task unto itself. Some argue that we should refrain from attempting to define digital scholarship in the first place, while others argue that digital scholarship should be defined loosely so as to incorporate diverse approaches. If we can’t even decide how to define digital scholarship, how can we determine if one is a successful digital scholar?",
+      "I can’t say that I have an answer that could unify or encompass everything that may fall under ‘digital scholarship’,…"
+    ],
+    "fullParagraphs": [
+      "After reading Erin and Alice Lynn’s latest posts, I began to wonder what a “successful” digital scholar looks like. Should success be measured by the scope of one’s digital presence? Should it be measured by how much one’s research is cited on the web? Or does it instead have something to do with how many digital tools one has created for / incorporated into their research?",
+      "This is a tricky question to answer; just trying to find a simple definition of ‘digital scholarship’ is a task unto itself. Some argue that we should refrain from attempting to define digital scholarship in the first place, while others argue that digital scholarship should be defined loosely so as to incorporate diverse approaches. If we can’t even decide how to define digital scholarship, how can we determine if one is a successful digital scholar?",
+      "I can’t say that I have an answer that could unify or encompass everything that may fall under ‘digital scholarship’, and I won’t try to offer suggestions here either. Instead, I’d like to suggest that readers of this post reflect on problems they’ve encountered in academia (trouble finding others who share your research interests, institutional limitations on your research, difficulty gathering and assessing data, limited publication options for your topic, etc), and think of ways that these obstacles could be overcome using less traditional means. What do I have in mind by ‘less traditional means’?",
+      "Using social media to create non-institutional-based communities around similar research interests",
+      "Using digital tools such as Zotero, Evernote, and Sophie to arrange and organize your research",
+      "Using such tools as blogs, Google Docs or CommentPress to share your works in progress",
+      "Exploring publication options like Future Of The Book and Open Access Journals",
+      "Although it is difficult - and perhaps unnecessary – to strictly define digital scholarship, it is not difficult to become a digital scholar; approaching traditional scholarship from a new angle is all that’s required."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.09085387578530356,
+      0.06524025473503832,
+      0.0010546456900203164,
+      0.00040838630832155774,
+      0.007128055434587244,
+      0.35648596900430835,
+      0.014127629292422098,
+      0.46470118374999847
+    ],
+    "words": [
+      [
+        "digital",
+        12
+      ],
+      [
+        "scholarship",
+        7
+      ],
+      [
+        "research",
+        6
+      ],
+      [
+        "define",
+        4
+      ],
+      [
+        "scholar",
+        3
+      ],
+      [
+        "like",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19728",
+    "title": "Expertise",
+    "date": "2012-12-12",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/12/12/expertise/",
+    "signals": [],
+    "paragraphs": [
+      "What makes a digital humanities expert? I’m at a point in my research wherein I can understand what makes a digital project tick, but am not necessarily able to write code or build a database from the ground up. Expert level skills aren’t always necessary, but an understanding of what the experts are doing is.",
+      "Part of my reflecting this semester has been an assessment of my own technological literacy, with a focus on what software I know how to use, and a peek at what else is out there and just how far my own limits can and should be tested. I’ve expanded my knowledge thus far to low-level hacking, including child themes, CSS tweaks and hints at what Javascript and PHP have in store. I don’t know any programming languages, but I’m better able to understand what it means for a program to be written in Ruby or Perl, and how plug-ins work.",
+      "But what do I do with this information? I’m afraid my self-assessment has taken on a frantic tone. By…"
+    ],
+    "fullParagraphs": [
+      "What makes a digital humanities expert? I’m at a point in my research wherein I can understand what makes a digital project tick, but am not necessarily able to write code or build a database from the ground up. Expert level skills aren’t always necessary, but an understanding of what the experts are doing is.",
+      "Part of my reflecting this semester has been an assessment of my own technological literacy, with a focus on what software I know how to use, and a peek at what else is out there and just how far my own limits can and should be tested. I’ve expanded my knowledge thus far to low-level hacking, including child themes, CSS tweaks and hints at what Javascript and PHP have in store. I don’t know any programming languages, but I’m better able to understand what it means for a program to be written in Ruby or Perl, and how plug-ins work.",
+      "But what do I do with this information? I’m afraid my self-assessment has taken on a frantic tone. By mid-semester I was stressed about PHP and my love for GIS has launched a full-on obsession with maps. There’s so much technology to learn and so few semesters until I get launched into the real world to look for a permanent job that I often forget just how far I (and we as humans) have come in a short time.",
+      "This clip from 1994 brought it all into perspective. http://www.youtube.com/watch?v=JUs7iG1mNjI",
+      "The fact that there are communities of scholars who are committed to the best research methods possible (both analog and digital), and that we can teach art history from videos and not just dusty slide carousels, and that our resources can be shared and dispersed across times zones without paying postage are all pretty amazing. Let’s all take a minute over the holidays to be grateful that while the ivory tower may have a few cracks, at least it has wireless."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.03192994467585525,
+      0.09292336668109868,
+      0.016503839403419783,
+      0.0004862256367579368,
+      0.016110766438336796,
+      0.40156071474585164,
+      0.07781309020577619,
+      0.36267205221290366
+    ],
+    "words": [
+      [
+        "digital",
+        3
+      ],
+      [
+        "expert",
+        3
+      ],
+      [
+        "semester",
+        3
+      ],
+      [
+        "far",
+        3
+      ],
+      [
+        "research",
+        2
+      ],
+      [
+        "understand",
+        2
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20130115024233/http://digitalfellows.commons.gc.cuny.edu/2012/12/12/expertise/"
+  },
+  {
+    "id": "19727",
+    "title": "JustPublics@365 Announces MediaCamp",
+    "date": "2012-12-10",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [
+      "Events",
+      "Journalism",
+      "JustPublics@365",
+      "Media Camp",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The MediaCamp (January Academy) is a partnership between JustPublics@365 and the CUNY Graduate School of Journalism, sponsored by the Ford Foundation, to offer skills-building workshops for intellectuals who want to combine research and digital media for the public good.",
+      "Framing Research for Public Audiences: 3 hours, 1-4 p.m. Tuesday, Jan. 8. Instructor: Deb Stead, J-School. Lecture with hands-on exercises on framing research to resonate with diverse audiences: talking points, headlines, Interviews, op-eds. Maximum 30. Click here to register.",
+      "Big Media for Academics: 3 hours, 1-4 p.m., Tuesday, Jan. 15. Instructors: Fred Kaufman and Susan Farkas, J-School. A hands-on workshop involving technique and some examples of on-camera interviews from the faculty learners who are involved in the session. Maximum 30. Click here to register.",
+      "Social Media for Research Impact: 3 hours, 9 a.m.-12 noon, Tuesday, Jan. 22, Instructors TBA. The theory of…"
+    ],
+    "fullParagraphs": [
+      "The MediaCamp (January Academy) is a partnership between JustPublics@365 and the CUNY Graduate School of Journalism, sponsored by the Ford Foundation, to offer skills-building workshops for intellectuals who want to combine research and digital media for the public good.",
+      "Framing Research for Public Audiences: 3 hours, 1-4 p.m. Tuesday, Jan. 8. Instructor: Deb Stead, J-School. Lecture with hands-on exercises on framing research to resonate with diverse audiences: talking points, headlines, Interviews, op-eds. Maximum 30. Click here to register.",
+      "Big Media for Academics: 3 hours, 1-4 p.m., Tuesday, Jan. 15. Instructors: Fred Kaufman and Susan Farkas, J-School. A hands-on workshop involving technique and some examples of on-camera interviews from the faculty learners who are involved in the session. Maximum 30. Click here to register.",
+      "Social Media for Research Impact: 3 hours, 9 a.m.-12 noon, Tuesday, Jan. 22, Instructors TBA. The theory of social media for academics. Why are we doing this? Conceptual, theoretic. Maximum 30. Click here to register.",
+      "Social Media for Academics: (Level: Intro/intermediate). 3 hours, 1-4 p.m. Tuesday, Jan. 22, Instructors TBA. This is a hands-on workshop for academics interested in taking the social media plunge. Instructors will cover setting up a WordPress blog and some basics of using Twitter. Maximum 15. Click here to register.",
+      "Beyond Bullet Points for Academics. 3 hours, 1-4 p.m. Thursday, Jan. 24, Instructors TBA. Participants create visually compelling slide decks for academic research presentations that retain intellectual sophistication. Maximum 15. Click here to register.",
+      "More classes here: January Academy (2013) at the CUNY J-School."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0014335928245725535,
+      0.00143431112725058,
+      0.0012556634777784314,
+      0.03860666545086131,
+      0.09997573402936422,
+      0.005108140679176557,
+      0.0015722105775694503,
+      0.8506136818334268
+    ],
+    "words": [
+      [
+        "medium",
+        6
+      ],
+      [
+        "instructor",
+        6
+      ],
+      [
+        "academic",
+        6
+      ],
+      [
+        "research",
+        5
+      ],
+      [
+        "hour",
+        5
+      ],
+      [
+        "jan",
+        5
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20130115024250/http://digitalfellows.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/"
+  },
+  {
+    "id": "19726",
+    "title": "From Lurker to Twitter",
+    "date": "2012-12-07",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "social media",
+      "Twitter"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/12/07/from-lurker-to-twitter/",
+    "signals": [],
+    "paragraphs": [
+      "A few weeks ago, the conversation heated up during an ITP core course on the history, theory and practice of interactive media. We were ping-ponging the usual social and political concerns of technology and the academy, when suddenly, the topic became quite personal: \"To be a digital humanist, do I have to tweet?\"",
+      "There were three basic responses. The tension was palpable.",
+      "A) Pro: Twitter is a useful tool for sharing work, staying updated and engaging in dialogue w/r/t scholarly interests.",
+      "B) Con: Twitter is one more potential obligation to distract one from their work.",
+      "C) Orwellian: Twitter is both A and B, but in today's digital climate -- regardless of one's personal feeling -- if one wants to be heard, one must participate in social media.",
+      "Since my social media wipe out several years ago I've fallen mostly into category B and worried about category C, though not without respecting the grand and mighty truth of category A. It has been…"
+    ],
+    "fullParagraphs": [
+      "A few weeks ago, the conversation heated up during an ITP core course on the history, theory and practice of interactive media. We were ping-ponging the usual social and political concerns of technology and the academy, when suddenly, the topic became quite personal: \"To be a digital humanist, do I have to tweet?\"",
+      "There were three basic responses. The tension was palpable.",
+      "A) Pro: Twitter is a useful tool for sharing work, staying updated and engaging in dialogue w/r/t scholarly interests.",
+      "B) Con: Twitter is one more potential obligation to distract one from their work.",
+      "C) Orwellian: Twitter is both A and B, but in today's digital climate -- regardless of one's personal feeling -- if one wants to be heard, one must participate in social media.",
+      "Since my social media wipe out several years ago I've fallen mostly into category B and worried about category C, though not without respecting the grand and mighty truth of category A. It has been intensely difficult to divorce myself from the feeling that social media is personal marketing in the yuckiest and banalest of ways. I've just \"preferred not to.\"",
+      "And yet, I make rampant use of others' so-called indulgence. I have become the most dependent of lurkers. I find coffee shops through Yelp, read articles through Facebook, find out what building fell down where by what hurricane through Twitter, watch stupidcute puppy baby bear YouTube videos when in need, and practice precarious home remedies documented by the poor suffering folk of web 1.0 homeopathic forums.",
+      "My contribution to those sites, however, is little to none. I do this mostly out of some basic instinct of keeping my personal (not professional) digital presence invisible or perhaps pure. (There is work to be done on medieval romance and online avatars!) Or to avoid the challenge of having to invent yet another voice with another set of responsibilities and aesthetics. And the fear of having my bad jokes and worse comments last forever in a searchable, archivable world wide way.",
+      "Terrible.",
+      "But I guess not terrible enough. Today I decided to make the leap and see if it's possible that I might personally find Twitter a valuable scholarly tool. I tweeted my first tweet in a very long time. I'm guessing one isn't enough and am making plans for another by the end of the calendar year. I only hope my earnest experiment doesn't throw me into the thralls of yet another digital addiction: Will I be constantly obsessing over my tweets? Will my thoughts suddenly be constricted to 140 characters? Will the flesh of my hand begin to grow around my phone? Will my pale waxy complexion grow ever paler and waxier?! Digital times are sticky, messy times. One must never claim immunity to the object of their critique. Let Maureen Dowd be one such warning, who joined Twitter only three months after calling Twitter \"annoying\" in an interview with its founders. (You can find Twitter user's joining dates and \"Godfathers\" through TWBirthday, BTW. Sounds like a potential DH map project!)",
+      "In the meantime, I'm curious about other scholars' use or disuse of Twitter and other forms of social media. Ernesto Priego wrote a piece about academic tweeting, but as he says himself, there are very few resources that focus strictly on the use and effects of Twitter in academics.",
+      "So, we'll just have to rely on our own wits. People, I need sources! Let's hear anecdotes of all things Twitter and academic! Anxieties! Defenses! And a list of your favorite academic tweeters! Leave them here, or tweet me (?) at @erinroseglass."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007172427082667601,
+      0.06556269887876184,
+      0.0006282226431636839,
+      0.004057681645266983,
+      0.0004315637919263204,
+      0.5747182793539912,
+      0.012229847113947215,
+      0.3416544638646759
+    ],
+    "words": [
+      [
+        "twitter",
+        11
+      ],
+      [
+        "medium",
+        5
+      ],
+      [
+        "social",
+        5
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "tweet",
+        5
+      ],
+      [
+        "personal",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19724",
+    "title": "Enter Here",
+    "date": "2012-11-16",
+    "year": "2012–2013",
+    "authors": [
+      "Matthew Slaats"
+    ],
+    "originalAuthors": [
+      "Matthew Slaats"
+    ],
+    "aliases": [
+      "Matthew Slaats"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Matthew Slaats",
+    "tags": [
+      "Advanced Research Collaborative",
+      "Art",
+      "Digital Humanities",
+      "environmental psychology",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/16/enter-here/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "My entry into the Fellows program comes after several years of teaching digital media design, working in the area of academic technology, and exploring as an artist the multitude of ways media expresses forms of localized knowledge. While teaching in the Communication Arts Department at Marymount Manhattan College, my work centered on web design, digital media, and location based mobile media. At Vassar College, I was situated in connection to the Visual Resources Center were I worked with faculty to develop interactive visual media for teaching. There I was also managed the creation and installation of a campus wide blogging platform for faculty and students. My artistic career has included projects such as the Hyde Park Visual History Project, Walking History, and Freespace. Each of these provides ways of situating or collecting media that points at how we understand and experience the spaces around us. This I am developing further…"
+    ],
+    "fullParagraphs": [
+      "My entry into the Fellows program comes after several years of teaching digital media design, working in the area of academic technology, and exploring as an artist the multitude of ways media expresses forms of localized knowledge. While teaching in the Communication Arts Department at Marymount Manhattan College, my work centered on web design, digital media, and location based mobile media. At Vassar College, I was situated in connection to the Visual Resources Center were I worked with faculty to develop interactive visual media for teaching. There I was also managed the creation and installation of a campus wide blogging platform for faculty and students. My artistic career has included projects such as the Hyde Park Visual History Project, Walking History, and Freespace. Each of these provides ways of situating or collecting media that points at how we understand and experience the spaces around us. This I am developing further as a PhD candidate in the Environmental Psychology Department at the Graduate Center, researching modes of ownership, identity, memory and collaboration in community settings.",
+      "Thus far my work as a Digital Fellow has centered on two specific projects that build and extend my past experiences. In my work with the Advanced Research Collaborative, I have been tasked with helping to construct an online presence that builds a community around the various research projects taking place at the Graduate Center. I have also been working with the Digital Initiatives, focusing on the development of an open access publishing platform for the Debates in the Digital Humanities book edited by Matthew Gold. In each opportunity, I see a strong desire to create modes of community interaction that enhances and expands traditional academic processes. Each will provide a platform by which others, both academic and public, can participate in the creation of knowledge.",
+      "At the core of the Digital Fellows program is an exploration into the ways that digital media and technology are providing access to new modes of collaboration and sharing. Not only are we developing new ways of presenting information, but we are finding ways in which others can participate in enriching that knowledge. It is my belief that this sense of give and take is what is so crucial about the Digital Humanities. The focus is less about authorship and more about interaction, which emerges from an open access paradigm. I see this way of engaging as primary to my post-Ph.D. career and supporting the work that I am doing presently, establishing a mode or process through which I develop my own work and networks of information.",
+      "In terms of technical skill, the fellowship has exposing me to a much broader set of tools and how those might be implemented. Having previously worked with a variety of technology, I am gaining experience thinking about how website sites can integrate functionality in an effort to open new opportunities for analyzing and comparing information within communities. I see this as vital to my future teaching career as I hope to replicate these vibrant spaces for my students.",
+      "When considering the objectives of this program, I see an opportunity to define how the Digital Humanities is considered and embraced on campus. Each of the fellows brings a vast amount of experience and can play a unique role in seeing that knowledge implemented across campus. As a whole, I would like to see the Fellows program not only support transitional efforts that shift analog projects to digital or establish new spaces for collaboration, but design innovative tools that enhance ways of creating or experience information. We should be a starting point for raising questions and addressing concepts that allow us to pursue new projects. At the same time, I think we can be a nexus for Digital Humanities efforts taking place throughout New York and elsewhere. We should excel in considering the impact of these changes in the academy and bringing together audiences that can discuss them further. I see these as both personal and program wide objectives, which I hope to realize.",
+      "Image © Paul Butler, Visualizing Friendships."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005765047919032469,
+      0.04043413751961078,
+      0.0005049523125040766,
+      0.0001955307007209226,
+      0.0003468820124483234,
+      0.13389001660787836,
+      0.03129174379747968,
+      0.7927602322574545
+    ],
+    "words": [
+      [
+        "digital",
+        11
+      ],
+      [
+        "work",
+        9
+      ],
+      [
+        "medium",
+        7
+      ],
+      [
+        "way",
+        7
+      ],
+      [
+        "see",
+        7
+      ],
+      [
+        "project",
+        6
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908201258/http://digitalfellows.commons.gc.cuny.edu/2012/11/16/enter-here/"
+  }
+]

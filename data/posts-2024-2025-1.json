@@ -1,0 +1,1841 @@
+[
+  {
+    "id": "21969",
+    "title": "Reflections on the inaugural “Conversations in Digital Scholarship”",
+    "date": "2025-05-23",
+    "year": "2024–2025",
+    "authors": [
+      "Tuka Al-Sahlani",
+      "Silvia Rivera Alfaro",
+      "Parisa Setayesh",
+      "Maggie Schreiner",
+      "Anna Corbett",
+      "Zachary Lloyd",
+      "Cen Liu",
+      "Maura McCreight",
+      "Cortnie Belser",
+      "Peyton Cordero",
+      "Chen Zhou"
+    ],
+    "originalAuthors": [
+      "Tuka Al-Sahlani",
+      "Silvia Rivera Alfaro",
+      "Parisa Setayesh",
+      "Maggie Schreiner",
+      "Anna Corbett",
+      "Zachary Lloyd",
+      "Cen Liu",
+      "Maura McCreight",
+      "Cortnie Belser",
+      "Peyton Cordero",
+      "Chen Zhou"
+    ],
+    "aliases": [
+      "Tuka Al-Sahlani",
+      "Silvia Rivera Alfaro",
+      "Parisa Setayesh",
+      "Maggie Schreiner",
+      "Margaret Schreiner",
+      "Anna Corbett",
+      "Anna Schlenz",
+      "Zachary Lloyd",
+      "Cen Liu",
+      "Maura McCreight",
+      "Cortnie Belser",
+      "Peyton Cordero",
+      "Chen Zhou"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is collectively written by the GCDI fellows: | Peyton Cordero, and Chen Zhou.",
+    "tags": [
+      "dh community"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/05/23/reflections-on-the-inaugural-conversations-in-digital-scholarship/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "This post is collectively written by the GCDI fellows: Tuka Al-Sahlani, Silvia Rivera Alfaro, Parisa Setayesh, Maggie Schreiner, Anna Corbett , Zachary Lloyd, Cen Liu, Maura McCreight, Cortnie Belser, Peyton Cordero, and Chen Zhou.",
+      "When we, the digital fellows, set out to create an event to build community, skill share, and learn from other digital humanists, we didn’t know what it would be or what it would look like, we just knew we wanted to have conversations with other GC DH members. After many internal conversations and planning sessions, we decided that we didn’t need to create an elaborate event, we just needed others at a table to talk and share. We knew from our virtual drop-in hours, consultations, and workshops that there were other GC DH folks, beside us, who wanted and sought out a space to brainstorm, work through challenges, and simply share among a larger audience. We had our own questions and challenges and it was time…"
+    ],
+    "fullParagraphs": [
+      "This post is collectively written by the GCDI fellows: Tuka Al-Sahlani, Silvia Rivera Alfaro, Parisa Setayesh, Maggie Schreiner, Anna Corbett , Zachary Lloyd, Cen Liu, Maura McCreight, Cortnie Belser, Peyton Cordero, and Chen Zhou.",
+      "When we, the digital fellows, set out to create an event to build community, skill share, and learn from other digital humanists, we didn’t know what it would be or what it would look like, we just knew we wanted to have conversations with other GC DH members. After many internal conversations and planning sessions, we decided that we didn’t need to create an elaborate event, we just needed others at a table to talk and share. We knew from our virtual drop-in hours, consultations, and workshops that there were other GC DH folks, beside us, who wanted and sought out a space to brainstorm, work through challenges, and simply share among a larger audience. We had our own questions and challenges and it was time we, the DH community at large, had a space and time to do just that--converse!",
+      "On May 13th, GCDI fellows held the “Conversations in Digital Scholarship”in the C level with five topical roundtables: “AI for Qualitative Research,” “Digital Archives,” “ Education Game Design,” “Open Pedagogy on Manifold,” and “Working with Open Government Data.” After the official conversations, we all gathered in the Masters for DH lounge to share what we learned and discussed in our respective roundtables. Below you can read some of our reflections from each roundtable.",
+      "AI for Qualitative Research",
+      "Artificial intelligence is a relatively new technology, thus, our conversation started with personal experiences that allowed us to situate ourselves as scholars who work in research and teaching. First, we centered on AI as a tool relating the reflections with similar moments when new technological tools or spaces were framed as dangerous, such as Photography or Wikipedia. An interesting point that emerged was how metacognition plays an important role in keeping our agency while using AI as a tool: thinking about how we think (and our processes and activities) makes it possible to use AI to simplify our work while maintaining the possibilities of moving forward with our work. (We compared this to the idea of using AI to be able to solve tasks, but in ways that we might not learn new skills, which goes into a possible discussion on labor issues). For research, we brought concerns on ethics and data practices, such as how to control protocols of data collection (e.g., confidentiality), where the information is stored, and our possibilities to choose not to feed the model with our research data. Another issue is questions on what data a model was trained with (can we have the information? How could that affect our research?) and the ethics behind the gathering of that data (was it publicly available information?). We moved to a question on examples of models where AI has been used in qualitative research, and we saw that several tools can do different parts of a process (e.g., using AI to get information, transcribe, do analysis, etc) and discussed how the different uses have diverse ethical implications.",
+      "Digital Archives",
+      "In the “Digital Archives” roundtable we learned that some archivists use vibe coding to help them learn and work with museum APIs. In turn, we grappled with the archivist’s need to collect and record everything and then what to do with all that data! We also discussed the challenge of defining identifiers and best practices when dealing with people as our archive “object.” We asked: do we ask for permission or do we use the opt-out method? Another challenge we addressed is the labor in digitizing physical archives scattered across institutions and locations. We were privileged to be joined by Filipa Calado (former Digital Fellow) who gave us a quick workshop on how to scrape images from websites. All in all, we achieved our goal of skill sharing and building a community to return to and discuss with and collaborate with in the future.",
+      "Educational Game Design",
+      "The Game Design roundtable was attended by gamers and non-gamers alike, each with compelling questions and ideas about incorporating game-based learning into their classrooms and their research. We discussed what makes a game compelling for students for the right reasons–how do we ensure that learning goals are baked into the game objectives and not just tacked on top? This led to a conversation on choosing the right game mechanic for the learning goal. Narrative-based, card driven, cooperative, and competitive games all have their place in pedagogy, and it’s important to build a game with a mechanic that coordinates well with what’s being taught. We shared examples of games we found inspiring or compellingly frustrating, and brainstormed solutions to in-progress work.",
+      "Open Pedagogy on Manifold",
+      "During the roundtable, participants explored how digital publishing can advance open pedagogy, collaborative scholarship, and creative teaching practices. Attendees shared their own experiments and interests in the platform, ranging from open textbooks and multimodal annotation to projects that emphasize oral communication and offer alternatives to proprietary systems like Blackboard.",
+      "The discussion covered project examples that demonstrate Manifold’s versatility as both a teaching tool and a platform for public scholarship. Participants shared inspiring projects on Manifold, such as projects that reimagine the textbook as a dynamic, participatory medium. Notable examples included We Eat, which frames food writing as community knowledge-making, and Poetry/Speech Database, which integrates text, sound, and metadata to support multimodal expression. Additional resources like Open Anthology of Earlier American Literature, Writing About Art and Digital Pedagogy in the Humanities offered further examples of inclusive, participatory learning approaches.",
+      "Our conversation also underscored a crucial tension: while faculty recognize the potentials of digital publishing, they encounter practical barriers such as institutional skepticism, limited training, and time constraints. The mention of departmental pushback and assessment concerns reflects deeper structural issues within academia that often prioritize traditional publishing models over digital scholarship. Participants concluded that with adequate institutional support, platforms like Manifold can foster more equitable, collaborative, and student-centered scholarship.",
+      "Working with Open Government Data",
+      "With experts across a variety of subject areas, we explored the implications of the current administration on the access and quality of open government data. While it is not uncommon for certain government pages and initiatives to be removed when new administrations take office, both “the scale and speed of the Trump administration’s data manipulation–combined with buyouts, resignations, and other restructuring across government agencies–signal a new phase in the war on public information.” The group discussed how the disappearance of previously-public data has impacted their own research, shared various data recovery efforts that have been taken up by universities and other NGOs, and brainstormed ways that we could keep these conversations going into the future, including suggesting some new potential GCDI offerings! We benefited greatly from the participation of Steve Romalewski, Director of the CUNY Mapping Service, who has a wealth of experience working with open government data and was able to share some helpful considerations and best practices with the rest of the group. This conversation was generative, insightful, and–in the opinion of all of our participants–incredibly necessary!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.1546531572743714,
+      0.24553696394159297,
+      0.005426777129250663,
+      0.00010936033274475399,
+      0.02591579748211475,
+      0.06974033712014456,
+      0.0003536166316820816,
+      0.4982639900880988
+    ],
+    "words": [
+      [
+        "data",
+        13
+      ],
+      [
+        "digital",
+        11
+      ],
+      [
+        "share",
+        10
+      ],
+      [
+        "game",
+        10
+      ],
+      [
+        "conversation",
+        9
+      ],
+      [
+        "research",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "21891",
+    "title": "Finding Tools for Queer “Illder” Activist History at the Digital Research Institute",
+    "date": "2025-05-09",
+    "year": "2024–2025",
+    "authors": [
+      "JD Davids"
+    ],
+    "originalAuthors": [
+      "JD Davids"
+    ],
+    "aliases": [
+      "JD Davids"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is written by guest contributor JD Davids",
+    "tags": [
+      "Digital Research Institute",
+      "GCDRI"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/05/09/finding-tools-for-queer-illder-activist-history-at-the-digital-research-institute/",
+    "signals": [
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "This post is written by guest contributor JD Davids, Winter 2025 DRI Participant. Connect with JD Davids on BlueSky: @crankyqueer.org; LinkedIn: @JD Davids; and Instagram @thecrankyqueer",
+      "There’s so much I appreciate about being a queer and trans activist rooted in the HIV/AIDS epidemic. For one, it allowed me to have a digital life far before the norm – starting with a dialup account in 1991 or so, thanks to fellow ACT UP Philadelphia member, lifelong social justice activist and tech-for-justice innovator Kiyoshi Kuromiya, founder of the Critical Path AIDS Project.",
+      "I’d use the terminal shell of the computer – the classic black screen with text-only commands – to enter commands for “telnet,” a network protocol that allowed my computer to log onto others as part of the same network and send email.",
+      "Access to telnet allowed us to talk to other HIV activists around the world, so we could organize for access to medication, challenge exorbitant…"
+    ],
+    "fullParagraphs": [
+      "This post is written by guest contributor JD Davids, Winter 2025 DRI Participant. Connect with JD Davids on BlueSky: @crankyqueer.org; LinkedIn: @JD Davids; and Instagram @thecrankyqueer",
+      "There’s so much I appreciate about being a queer and trans activist rooted in the HIV/AIDS epidemic. For one, it allowed me to have a digital life far before the norm – starting with a dialup account in 1991 or so, thanks to fellow ACT UP Philadelphia member, lifelong social justice activist and tech-for-justice innovator Kiyoshi Kuromiya, founder of the Critical Path AIDS Project.",
+      "I’d use the terminal shell of the computer – the classic black screen with text-only commands – to enter commands for “telnet,” a network protocol that allowed my computer to log onto others as part of the same network and send email.",
+      "Access to telnet allowed us to talk to other HIV activists around the world, so we could organize for access to medication, challenge exorbitant drug prices, and share lifesaving information on HIV prevention, research opportunities and promising therapies.",
+      "Fast forward to 2025, and I’m pulling up the terminal shell for the first time in decades…",
+      "But this time, the terminal shell is a part of the whirlwind, mind-opening Digital Research Institute (DRI) at CUNY Graduate Center, via Zoom. I’d come to the Biography and Memoir program at the Grad Center in the fall, eager to share experiences and struggles as an activist and disabled “illder” - someone who has learned much by being sick with immune-depleting and autoimmune illnesses, now including Long COVID. Chronic illness has taught me a lot – but also hasn’t left much time for keeping apace with technology.",
+      "The DRI gave me exactly what I wanted and needed as a returning student – a comprehendible and remarkably comprehensive overview of the potentials of digital research today. I thought of Kiyoshi often in that four-day stretch, imagining his delight at the current state of coding, mapping, web design and other aspects of computing.",
+      "I didn’t expect I would become an expert. But, for example, I now have a much better understanding of the potential of Python for text analysis. This could help me as I unearth and seek to analyze archival documents showing early collaboration in ACT UP between people with HIV (mostly gay men) and people struggling for recognition of chronic fatigue (mostly lesbians), which can offer vital lessons for our struggles in this time of rampant Long COVID and attacks on LGBTQ and HIV research.",
+      "I’ll be honest: I didn’t emerge from the DRI with all the skills to create that code myself. But I can twin what I’ve learned at the DRI with the skills and principles that Kiyoshi and other activists instilled in me, that will allow me to move the project forward:",
+      "Know it is possible: I was able to contribute to efforts to bring HIV medication to tens of millions of people worldwide who had been written off by capitalist Pharma and governments alike. We knew it could happen if there was political will, and we organized worldwide to insist that it happen (and need to do so again due to the cruel policies of the current United States leadership that’s cutting off access to meds for people worldwide.)",
+      "Now, after my time in the DRI, I know it is possible to use digital tools to help make meaning of the archives of HIV history that have vital lessons for today and the future. It's a much smaller scale, sure, but it can happen!",
+      "We make it work by working together: We never have to fight or figure it out alone. We can and must make the changes we need by bringing each of our skills and passions to reach shared goals.",
+      "I may not have a fluency with coding or other skills I learned more about with the DRI. But I know there’s people at the Grad Center - including the fantastic digital fellows I met at the DRI, who could help me figure out the coding.",
+      "Through the years, as I’ve trained a lot of people as activists, I’ve come to believe that there’s one central practice that is vital - knowing ourselves. We combine our strengths to make the changes we need. The DRI was a wonderful way to see people doing just that - supporting one another to grapple with digital technology to further our important work.",
+      "It’s not about becoming an instant tech expert, though I am sure the training has inspired many to go on to deepen and expand their skills. It’s an opportunity to build our collective capacity to understand and make the most of digital research – and I think Kiyoshi would have loved it too."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.02924605364016563,
+      0.22341293399563347,
+      0.05145317896477324,
+      0.0002029993290884035,
+      0.00036013176212337886,
+      0.38409969359013213,
+      0.003839457018851622,
+      0.3073855516992321
+    ],
+    "words": [
+      [
+        "dri",
+        8
+      ],
+      [
+        "hiv",
+        7
+      ],
+      [
+        "digital",
+        7
+      ],
+      [
+        "people",
+        7
+      ],
+      [
+        "activist",
+        6
+      ],
+      [
+        "much",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "21773",
+    "title": "Reordering Graphs in ggplot Plot: A Step-by-Step Guide",
+    "date": "2025-05-02",
+    "year": "2024–2025",
+    "authors": [
+      "Chen Zhou"
+    ],
+    "originalAuthors": [
+      "Chen Zhou"
+    ],
+    "aliases": [
+      "Chen Zhou"
+    ],
+    "account": "Chen Zhou",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Guides, Tutorials, Reviews"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/05/02/reordering-graphs-in-ggplot-plot-a-step-by-step-guide/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "When we create a plot using ggplot() in R, the order of the categories on the x-axis is set by default. However, for better clarity and aesthetics, we often want to reorder the plot based on the values being shown. This tutorial walks through how to reorder bars in a bar plot using a hypothetical dataset of student scores.",
+      "Prepare the dataset",
+      "Let’s start by loading the required library and creating our dataset. We’ll use the tidyverse package, which is useful for both data wrangling and plotting. library(tidyverse)",
+      "student_scores <- data.frame( Student_ID = 1:11, English = c(85, 78, 92, 67, 88, 76, 95, 80, 72, 90, 100), Biology = c(95, 87, 90, 79, 94, 96, 93, 82, 89, 97, 105), Maths = c(90, 82, 58, 74, 89, 91, 88, 77, 84, 92, 100), Physics = c(78, 85, 89, 80, 90, 76, 83, 91, 87, 79, 100))",
+      "# Take a look at what the spreadsheet looks like view(student_scores) The spreadsheet includes scores for 11 students across four subjects: English,…"
+    ],
+    "fullParagraphs": [
+      "When we create a plot using ggplot() in R, the order of the categories on the x-axis is set by default. However, for better clarity and aesthetics, we often want to reorder the plot based on the values being shown. This tutorial walks through how to reorder bars in a bar plot using a hypothetical dataset of student scores.",
+      "Prepare the dataset",
+      "Let’s start by loading the required library and creating our dataset. We’ll use the tidyverse package, which is useful for both data wrangling and plotting. library(tidyverse)",
+      "student_scores <- data.frame( Student_ID = 1:11, English = c(85, 78, 92, 67, 88, 76, 95, 80, 72, 90, 100), Biology = c(95, 87, 90, 79, 94, 96, 93, 82, 89, 97, 105), Maths = c(90, 82, 58, 74, 89, 91, 88, 77, 84, 92, 100), Physics = c(78, 85, 89, 80, 90, 76, 83, 91, 87, 79, 100))",
+      "# Take a look at what the spreadsheet looks like view(student_scores) The spreadsheet includes scores for 11 students across four subjects: English, Biology, Maths, and Physics.",
+      "Calculate Mean Scores for Each Course",
+      "Our goal is to create a bar plot that shows the average score for each course. To do this, we first need to reshape the dataset into a long format with two columns: one for the course name and one for the score. # reshape data scores_reshape <- student_scores %>% pivot_longer( cols = English : Physics, names_to = \"courses\", values_to = \"scores\")",
+      "# get the data set that has the mean score for each subject",
+      "Next, we calculate the mean score for each course using group_by() and summarize(): mean <- scores_reshape %>% group_by(courses) %>% summarize(ave = mean(scores)) Now we have a clean dataset with the average scores:",
+      "Bar Plot with Default Order",
+      "Let’s plot the mean scores using a basic ggplot() bar plot: ggplot(mean, aes(x = courses, y = ave, fill = courses)) + geom_bar(stat = \"identity\") + theme_classic() + labs(x = \"Courses\", y = \"Mean Scores\") This plot uses the default alphabetic order of the course names, which may not reflect the order of the values (scores).",
+      "What if we want to order the bars based on the order of the values?",
+      "Reordering Bars Based on Values",
+      "To reorder the bars so that they appear from the lowest to the highest mean score, we can sort the data and prepend row numbers to the course names. This forces ggplot() to follow our desired order: mean_ordered <- mean %>% arrange(ave) %>% # order the scores from lowest to highest mutate(courses = paste0(row_number(), \"_\", courses)) The courses column now looks like this:",
+      "Now we plot the reordered data: ggplot(mean_ordered, aes(x = courses, y = ave, fill = courses))+ geom_bar(stat = \"identity\")+ theme_classic()+ labs(x = \"Courses\", y = \"Mean Scores\") This shows the courses in the desired order, but the course names are now prefixed with numbers:",
+      "Cleaning Up the Axis Labels",
+      "To display clean course names on the x-axis while keeping the desired order, we can use scale_x_discrete() to relabel the courses on the x-axis and scale_fill_discrete() to relabel the courses on the legend: ggplot(mean_ordered, aes(x = courses, y = ave, fill = courses)) + geom_bar(stat = \"identity\") + scale_x_discrete( labels = c( \"1_English\" = \"English\", # rename the name of each course on the x-axis \"2_Maths\" = \"Maths\", \"3_Physics\" = \"Physics\", \"4_Biology\" = \"Biology\" ))+ scale_fill_discrete( labels = c( \"1_Maths\" = \"Maths\", \"2_Biology\" = \"Biology\", \"3_Physics\" = \"Physics\", \"4_English\" = \"English\" ) theme_classic()+ labs(x = \"Courses\", y = \"Mean Scores\") And we successfully get the bar plot of scores for the four courses ordered from the lowest to the highest.",
+      "Now you have a bar plot with the courses ordered from the lowest to the highest average score—much more informative and visually appealing!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.003710715519312063,
+      0.0005876030171893984,
+      0.8219703967919986,
+      0.0001991950322113661,
+      0.16589394173377392,
+      0.005216090026383657,
+      0.0006440971289177608,
+      0.001777960750213161
+    ],
+    "words": [
+      [
+        "course",
+        28
+      ],
+      [
+        "score",
+        24
+      ],
+      [
+        "order",
+        15
+      ],
+      [
+        "mean",
+        15
+      ],
+      [
+        "bar",
+        13
+      ],
+      [
+        "plot",
+        11
+      ]
+    ]
+  },
+  {
+    "id": "21699",
+    "title": "The Social Elsewhere: A Look at Alt-Social Media",
+    "date": "2025-04-11",
+    "year": "2024–2025",
+    "authors": [
+      "Peyton Cordero"
+    ],
+    "originalAuthors": [
+      "Peyton Cordero"
+    ],
+    "aliases": [
+      "Peyton Cordero"
+    ],
+    "account": "Peyton Cordero",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "social media"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/04/11/alt-social-media/",
+    "signals": [],
+    "paragraphs": [
+      "Over the past few years, internet users have expressed growing distrust and distaste toward dominant corporate social media sites like Facebook, Twitter (now X), TikTok, and YouTube. For some insight into this sentiment, one might point to Elon Musk’s hostile takeover of Twitter which was followed by a surge in hate speech on the platform (a trend that persisted until at least May 2023), Meta’s announcement to rollback content moderation just weeks before President Trump’s second inauguration, or the fact that TikTok is currently being held politically and legally captive by the country’s ruling elites, to name a few. Add to this list the growing amounts of data surveillance that is captured, repackaged, and sold by these social media companies daily, and the picture becomes even clearer.",
+      "Despite these trends, digital connection is an indispensable part of social life in the twenty-first century; social media is a critical venue for…"
+    ],
+    "fullParagraphs": [
+      "Over the past few years, internet users have expressed growing distrust and distaste toward dominant corporate social media sites like Facebook, Twitter (now X), TikTok, and YouTube. For some insight into this sentiment, one might point to Elon Musk’s hostile takeover of Twitter which was followed by a surge in hate speech on the platform (a trend that persisted until at least May 2023), Meta’s announcement to rollback content moderation just weeks before President Trump’s second inauguration, or the fact that TikTok is currently being held politically and legally captive by the country’s ruling elites, to name a few. Add to this list the growing amounts of data surveillance that is captured, repackaged, and sold by these social media companies daily, and the picture becomes even clearer.",
+      "Despite these trends, digital connection is an indispensable part of social life in the twenty-first century; social media is a critical venue for cultural preservation, knowledge production, organizing, and resisting oppressive regimes. So the question arises, what are we left to use? Where else can we turn?",
+      "While the definition of alternative social media is somewhat fluid (and, as Robert Gehl reminds us, the term “alternative” is both highly contested and historically situated Gehl, R. W. (2015). “The Case for Alternative Social Media,” Social Media + Society, 1-12. ), it “can be seen as a critical response to CSM that not only allows for users to share content and connect with one another but also denies the commercialization of speech, allows users more access to shape the underlying technical infrastructure, and radically experiments with surveillance regimes.” Gehl, p. 2. Further, Couldry and Curran argue that a key function of alternative media is that it challenges actual concentrations of media power that directly shape how we live, learn, and know. Couldry, N., & Curran, J. (2003). The paradox of media power. In N. Couldry & J. Curran (Eds.), Contesting media power: Alternative media in a networked world (pp. 3-15). Oxford, UK: Rowman and Littlefield Publishers.",
+      "Alternative social media can be identified as having three common features: (1) they reject the idea that social media platforms should predominantly serve as profit-making enterprises, (2) many rely on non-centralized infrastructures to ensure that data is not trapped in large corporate servers, and (3) many alternative social media sites utilize free and open-source software–meaning that they “create and share tools that can be studied and changed by anyone to create a variety of social media platforms with different affordances.” Frost-Arnold, K. (2024). “Beyond Corporate Social Media Platforms: The Epistemic Promises and Perils of Alternative Social Media,” Topoi, p. 1558. Additionally, alternative social media can be defined by content that serves narratives traditionally outside of the mainstream ethos–some of which can be liberatory, anti-racist, feminist, progressive, and queer, and some that can be discriminatory, sexist, homophobic, and hateful (though it can be argued that the latter is increasingly being absorbed into the mainstream discourse).",
+      "Although it is important to note that not all alternative social media platforms seek benevolent ends, ultimately we–as users–have the power to decide which are deserving of our content and engagement. Here are a few that you might consider if you are looking to break away from CSM:",
+      "Mastodon: Mastodon allows users to choose from a variety of independent servers centered on specific topics, themes, and interests. Fourthwall, “8 Popular Alternatives to Typical Social Media Platforms,” https://fourthwall.com/blog/8-popular-alternatives-to-typical-social-media-platforms It is open source, completely ad-free, and the platform does not allow for promoted content, offering a clutter and distraction-free environment.",
+      "Bluesky: Bluesky is another decentralized platform that allows users to control their data and move between servers. There are no targeted ads and posts are free from algorithmic interference (though you can explore algorithm-driven feeds if you choose).",
+      "Pixelfed: Pixelfed is an open-source image sharing platform, similar to Instagram, that is “decentralized, ad-free, chronologically curated feeds by default, respectful of user privacy, and anti-surveillance.” Neyyar, R. (2025). “Appaled by X and Meta? Try These Social Media Alternatives,” Hyperallergic. https://hyperallergic.com/983623/social-media-alternatives-x-meta/",
+      "Cara: As an art-specific platform, Cara does not allow AI-generated images nor does it permit AI models to train themselves using any of the artwork shared on the platform. While the scope and use of this site is limited, it is a great option for artists looking to share, and also protect, their work.",
+      "Studies have shown that highly consolidated ownership of media reifies existing power structures, prioritizes consumerism over citizenship, and promotes political conservatism. Gehl, p. 2. In our current moment, faced with precarity, global struggle, and economic distress, alternatives are not just welcome, but necessary. Social media is being monopolized, but users cannot forget that we are the ones that hold the power. Non-corporate social media platforms stand to teach us about “different economies, governance structures, and aesthetics that are driven by goals other than profit;” Frost-Arnold, p. 1557. our only task is to make use of them."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.06369255025537358,
+      0.4795860005986054,
+      0.002832687344538526,
+      0.0001551085317024896,
+      0.00027517090373269896,
+      0.13296422513563294,
+      0.11724350025955907,
+      0.2032507569708553
+    ],
+    "words": [
+      [
+        "medium",
+        25
+      ],
+      [
+        "social",
+        20
+      ],
+      [
+        "note",
+        17
+      ],
+      [
+        "alternative",
+        13
+      ],
+      [
+        "platform",
+        12
+      ],
+      [
+        "user",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "21649",
+    "title": "Reflecting on Alt Text and its Ethics",
+    "date": "2025-04-04",
+    "year": "2024–2025",
+    "authors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "originalAuthors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "aliases": [
+      "Silvia Rivera Alfaro"
+    ],
+    "account": "Silvia Rivera Alfaro",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "accessibility",
+      "alt text"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/04/04/alt-text-ethics/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Recently, I attended “Art for Alt Text and The Pedagogy of Description.” The workshop is part of Alt Text as Poetry, a project by Bojana Colklayt and Finnegan Shannon that explores poetics as a starting point for accessibility, and was based on their workbook.",
+      "Shannon highlighted that many people first think of accessibility for people with visual disabilities; however, they are not the only population that benefits from alt text. For example, individuals with ADHD can use screen readers as a tool to focus.",
+      "Alt text has more to it. It can also allow access in cases of low internet connection if people turn off their images in the email or browser. Shannon commented that alt text has also been used for search engine optimization, a process used for marketing by placing keywords.",
+      "The workshop revolved around creating alt text for artwork images. It was a challenge. We started with the prompt to describe the image to a person who cannot see…"
+    ],
+    "fullParagraphs": [
+      "Recently, I attended “Art for Alt Text and The Pedagogy of Description.” The workshop is part of Alt Text as Poetry, a project by Bojana Colklayt and Finnegan Shannon that explores poetics as a starting point for accessibility, and was based on their workbook.",
+      "Shannon highlighted that many people first think of accessibility for people with visual disabilities; however, they are not the only population that benefits from alt text. For example, individuals with ADHD can use screen readers as a tool to focus.",
+      "Alt text has more to it. It can also allow access in cases of low internet connection if people turn off their images in the email or browser. Shannon commented that alt text has also been used for search engine optimization, a process used for marketing by placing keywords.",
+      "The workshop revolved around creating alt text for artwork images. It was a challenge. We started with the prompt to describe the image to a person who cannot see it. Here, we focused on how objectivity is not the goal. In Shannon’s experience, we have to center positionality to allow readers to understand what kind of relationship we are creating with the image. They said, “With a description, you learn as much about the description as you learn about the object that is described.” The same applies to alt text; the difference is that the latter needs to be short (we don’t want to insert an entire composition for one image!), and it has to respond to the context where the image appears.",
+      "I loved how the workshop approached writing alt text in the same hierarchy as any other writing practice. Shannon mentioned how we can think of the different genres of alt text. One of the overarching questions was what happens if you need to describe a cartoon, a joke, or a meme vs what happens in the description of a concept map that is part of an academic paper?",
+      "Ethics surrounding alt text",
+      "Sighted people are used to seeing images while reading. This process happens in the blink of an eye, so we usually don’t realize how much information is gathered from the relationship between text and images. Multimodal text analysts have been working on understanding the relationships between different meaning-making resources (such as text, images, audio, colors, gestures, etc.); a big focus has been on text-image relationships. They have seen how images can be used to extend meaning, give specific examples, and make abstract information more concrete, among many other uses. Thus, without alt text, readers who need to rely on screen readers, or who have to turn off their images for some reason, do not have access to the entire meaning of the text.",
+      "In other words, the decision-making power of what is (or is not) made available in alt text is held by sighted people with visual access to the images. This is a huge responsibility from an ethical perspective. When practicing the description exercise, I thought of how each word was a decision that implied what I was sharing of the world.",
+      "Thus, writing alt text should not be taken as a mere requisite for complying with disability policies, such as Section 508 of the Rehabilitation Act of 1973 or following Web Content Accessibility Guidelines. From an ethical perspective, alt text is a commitment to the world we want to live in. This commitment challenges us to create quality alt text in everything we do, from academic projects to everyday interactions.",
+      "Many of us who don’t need alt text to access information are not familiar with it and its aesthetics, and even think of “alt text” as boring. Alt text as poetry centers on the power, beauty, and rich possibilities of alt text. Shannon compares it to translation: how can we make alt text beautiful and communicative? I think of transcreation, a concept from translation studies which focuses on the fact that translating has an implicit creative task in which the translator is not just copying the text into a new language, but creating a new text. This same principle applies when we write alt text for an image.",
+      "“Who is in charge of alt text?” – someone asked at the workshop. In this piece, I chose the term ethics to refer to the practice of alt text as an ethical decision that we can make as text producers. From this perspective, we take the responsibility upon ourselves to create the alt text – it cannot be “someone else’s job.”",
+      "A digital fellow experience",
+      "When collaborating on the Command Line Workshop, a particular challenge arose with alt text for this image:",
+      "With the pedagogical goal in mind, I decided to write the following:",
+      "\"This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts cannot recognize (which are question marks). Here we reproduce only a tiny part of the long result to give you a bit of the taste of the nonsense it is for humans: exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E\"",
+      "Alt text should be part of the entire writing process rather than an afterthought. It should be part of our draft. We start our process by making clear what the function of the image is for the text and creating alt text that makes a meaningful contribution to the reader. Then, other participants in the text production process can provide feedback at different stages. For example, in the Command Line Workshop, I received feedback from fellows and faculty from GC Digital Initiatives. Alt text deserves as much attention as any other part of the text: it is part of the meaning we create for our readers!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.4094555785388497,
+      0.11196904205064949,
+      0.006922465920485313,
+      0.0001395014312266454,
+      0.02212150825471915,
+      0.3492625606975064,
+      0.007013285429234241,
+      0.0931160576773291
+    ],
+    "words": [
+      [
+        "text",
+        39
+      ],
+      [
+        "alt",
+        28
+      ],
+      [
+        "image",
+        16
+      ],
+      [
+        "question",
+        8
+      ],
+      [
+        "mark",
+        8
+      ],
+      [
+        "part",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "21509",
+    "title": "Let's Build a Browser Extension!",
+    "date": "2025-03-28",
+    "year": "2024–2025",
+    "authors": [
+      "Zachary Lloyd"
+    ],
+    "originalAuthors": [
+      "Zachary Lloyd"
+    ],
+    "aliases": [
+      "Zachary Lloyd"
+    ],
+    "account": "Zachary Lloyd",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Guides, Tutorials, Reviews"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/03/28/lets-build-a-browser-extension/",
+    "signals": [],
+    "paragraphs": [
+      "Browser Extension Basics",
+      "Browser extensions are simple tools that allow you to enhance your web browsing experience and workflows. For instance, one of my favorite extensions, Hypothes.is, allows you to annotate any information you find on the web and even share it publicly with others, making it incredibly useful for research. If you are using Chrome, you can visit the web store and find extensions for virtually any task. However, you might occasionally find yourself wanting an extension for a very specific use case that is not currently available. A neat way to address this is simply to build your own!",
+      "Building your own extensions is a (relatively) simple process once you understand what is needed. This tutorial will introduce you to the basics of building browser extensions and guide you through the creation of your very first one. We'll use the Chrome browser for this tutorial, but the same process can be followed for other browsers…"
+    ],
+    "fullParagraphs": [
+      "Browser Extension Basics",
+      "Browser extensions are simple tools that allow you to enhance your web browsing experience and workflows. For instance, one of my favorite extensions, Hypothes.is, allows you to annotate any information you find on the web and even share it publicly with others, making it incredibly useful for research. If you are using Chrome, you can visit the web store and find extensions for virtually any task. However, you might occasionally find yourself wanting an extension for a very specific use case that is not currently available. A neat way to address this is simply to build your own!",
+      "Building your own extensions is a (relatively) simple process once you understand what is needed. This tutorial will introduce you to the basics of building browser extensions and guide you through the creation of your very first one. We'll use the Chrome browser for this tutorial, but the same process can be followed for other browsers as well.",
+      "To keep things simple as a first example, we'll create a basic extension that injects a banner with a message to every web page we visit. While perhaps not particularly interesting or useful, it will serve to show you how to modify web pages directly with extensions. The fundamental skills you will learn will be essential when creating more complex extensions.",
+      "Prerequisites",
+      "- Basic knowledge of HTML, CSS, and JavaScript",
+      "- Google Chrome browser",
+      "- A text editor (such as VSCode)",
+      "Step 1: Create Your Project Folder",
+      "1. Create a new folder on your computer named banner-extension and open the folder in VSCode.",
+      "2. Inside this folder, we'll create three files:",
+      "- manifest.json",
+      "- content.js",
+      "- styles.css",
+      "Make sure to include the extensions (.json, .js, .css) when creating the files so your editor knows what they are. These three files will work in tandem to provide the functionality of your extension.",
+      "Step 2: Configure Your Manifest File",
+      "The manifest file is the \"configuration file\" for your extension, written in JSON format (a standard for data serialization). It tells Chrome what your extension does and what permissions it needs. Essentially, it acts as a blueprint for the browser, telling it how to load, install, and manage the extension. Each extension you make will need its own manifest. Let's go ahead and fill it out with the following information:",
+      "{ \"manifest_version\": 3, \"name\": \"Simple Banner Extension\", \"version\": \"1.0\", \"description\": \"Adds a banner to the top of webpages\", \"permissions\": [\"activeTab\"], \"content_scripts\": [{ \"matches\": [\"<all_urls>\"], \"js\": [\"content.js\"], \"css\": [\"styles.css\"] }] }",
+      "Here is a breakdown of our file:",
+      "- manifest_version: Specifies which version of the manifest specification to use (version 3 is the current standard)",
+      "- name, version, description: Basic information about the extension",
+      "- permissions: What your extension is allowed to do (`activeTab` allows it to run on the current tab)",
+      "- content_scripts: Scripts that run in the context of web pages",
+      "- matches: Which pages your scripts run on (`<all_urls>` means all websites)",
+      "- js: Here we reference the JavaScript file we created that will control what the extension does",
+      "- css: Here we reference the CSS file we created, which will handling the visual style of our extension",
+      "Step 3: Write the Content Script",
+      "The content script contains the JavaScript that will run on webpages. This is where we'll write the code that creates our banner. Add the following to the content.js file:",
+      "// Very simple functionality for adding a banner to webpages",
+      "// Function to create and add the banner function addBanner() { // Create a new div element for our banner const banner = document.createElement('div');",
+      "// Add the 'chrome-extension-banner' class to apply the CSS styling we'll use banner.className = 'chrome-extension-banner';",
+      "// Set the text content banner.textContent = 'This page was modified by a Chrome extension!';",
+      "// Insert the banner at the top of the HTML body document.body.insertBefore(banner, document.body.firstChild); }",
+      "// Run our function when the page loads window.addEventListener('load', addBanner); Here we define a function addBanner() that creates a new div element for our banner. We also give it a class name so we can style our banner with CSS and then set its text content to include a simple message. To easily see the banner we place it at the top of the web page. Lastly, we set up an event listener to run our function when the page loads.",
+      "Step 4: Style With CSS",
+      "The CSS file will style our banner to make it look nice. Let's add some basic color, alignment, and font styling to our styles.css:",
+      ".chrome-extension-banner { background-color: #4285f4; color: white; text-align: center; padding: 10px; font-size: 16px; font-family: Arial, sans-serif; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }",
+      "Here we style the banner with a blue background and white text. We then center the text and add some padding around it. Lastly, we add a subtle shadow to make the banner stand out.",
+      "Great! We have all the files and configuration needed to run our extension. Next, let's load it into Chrome.",
+      "Step 6: Load Your Extension in Chrome",
+      "To load and enable your extension in Chrome, follow these steps:",
+      "1. Open Chrome and go to chrome://extensions/",
+      "2. Enable \"Developer mode\" by toggling the switch in the top-right corner",
+      "3. Click the \"Load unpacked\" button",
+      "4. Select your banner-extension folder",
+      "5. Your extension should now appear in the list of installed extensions",
+      "If you now use your browser to navigate to a web page (any page), you should now see a blue banner at the top of the page with the text \"This page was modified by a Chrome extension!\"",
+      "Congrats! You have just made your first browser extension. Let's review how this extension works:",
+      "1. When you visit a webpage, Chrome checks if any extensions have content scripts that should run on that page",
+      "2. Since our extension's manifest specifies \"matches\": [\"<all_urls>\"], our content script runs on all pages",
+      "3. The content script adds a banner to the top of the page",
+      "4. The CSS styles are applied to make the banner look nice",
+      "While this is a simple example, it demonstrates the core concepts of Chrome extension development:",
+      "- The manifest file configuration",
+      "- Content scripts that modify webpages",
+      "- CSS styling for your injected elements",
+      "Note: To remove the extension, you can go to chrome://extensions/ and click Remove.",
+      "Now that you have the basics of extension development in hand, I'd encourage you to think of what kinds of extensions could benefit your work and personal projects. Feel free to schedule a consultation with the Digital Fellows if you'd like to discuss ideas or want some additional help. Happy coding!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.015863266104926194,
+      0.0023018471901172957,
+      0.0003190790579347788,
+      0.00012355573038960087,
+      0.00021919453185123832,
+      0.09235450627739139,
+      0.8586551516963167,
+      0.030163399411072805
+    ],
+    "words": [
+      [
+        "extension",
+        43
+      ],
+      [
+        "banner",
+        26
+      ],
+      [
+        "chrome",
+        17
+      ],
+      [
+        "page",
+        15
+      ],
+      [
+        "file",
+        13
+      ],
+      [
+        "content",
+        13
+      ]
+    ]
+  },
+  {
+    "id": "21495",
+    "title": "Beyond the Map: Visual Literacy & Storytelling That Sticks",
+    "date": "2025-03-21",
+    "year": "2024–2025",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "literacy",
+      "storymaps",
+      "visual"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/03/21/beyond-the-map-visual-literacy-storytelling-that-sticks/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "Story maps have exploded in popularity lately, becoming the go-to tool for effectively communicating data-driven narratives across fields like education, journalism, research, and urban planning. Their strength lies in effortlessly weaving together data visualization and narrative, making complex spatial information approachable and engaging—even for those who might not know the first thing about traditional cartography. It’s no surprise that both teachers and researchers find them particularly appealing; story maps offer an accessible platform for students and teachers to explore spatial stories, especially by combining various modalities of information.",
+      "But as story maps spread far and wide, an interesting tension emerges: their true effectiveness often relies less on sophisticated cartographic know-how and more on the craft of visual storytelling itself. I noticed this, particularly during a recent story mapping workshop I led.…"
+    ],
+    "fullParagraphs": [
+      "Story maps have exploded in popularity lately, becoming the go-to tool for effectively communicating data-driven narratives across fields like education, journalism, research, and urban planning. Their strength lies in effortlessly weaving together data visualization and narrative, making complex spatial information approachable and engaging—even for those who might not know the first thing about traditional cartography. It’s no surprise that both teachers and researchers find them particularly appealing; story maps offer an accessible platform for students and teachers to explore spatial stories, especially by combining various modalities of information.",
+      "But as story maps spread far and wide, an interesting tension emerges: their true effectiveness often relies less on sophisticated cartographic know-how and more on the craft of visual storytelling itself. I noticed this, particularly during a recent story mapping workshop I led. Participants mostly came as beginners to mapping. At the outset, I thought what I needed to spend the most time on would be grappling with the many technical intricacies of mapping. But that wasn’t really the case, since those were far easier to communicate or execute than the visual effectiveness of the maps. That can be problematic since maps, despite their apparent simplicity, inherently embed significant messages through subtle choices around scale, framing, direction, and symbolism. This is where visual literacy becomes critical. Broadly defined, visual literacy is the ability to interpret, negotiate, and create meaning from visual information—a skillset essential for both interpreting and making effective story maps. Recent research also points out that good visual communication—especially interactive visualizations—depends heavily on understanding user attention, consciousness, and memory. Basically, a map isn't effective if it can't hold your attention or stick in your memory (He, 2022). Participatory mapping initiatives like OpenStreetMap marathons (mapathons) further highlight that visual literacy isn’t just passive; it’s deeply tied to active engagement with visual information (McGowen, 2020). Contemporary research even pushes for new interdisciplinary frameworks to understand visual methods, showing how central visual communication has become in working with spatial data. Intriguingly, recent neurological studies show that the brain processes visual contrasts, colors, and symbols in maps in ways that significantly shape how—and if—we actually remember or care about the visual stories we see (Hu & Hwang, 2024).",
+      "Another lens that helps us unpack the subtle complexities of map-making is semiotics—the study of signs and symbols. I know it seems repetitive, but here it goes again: Maps aren’t neutral; every symbol, color, and line is loaded with cultural, social, or political significance. Understanding the semiotics of maps helps creators and audiences recognize these implicit narratives and makes us more thoughtful storytellers and readers alike. As cartographic semiotics expert Emanuela Casti points out, maps don’t merely represent reality—they actively shape our perceptions of places and the actions we take within them.",
+      "Given these insights, what makes a story map effective? It’s all about thoughtfully combining visual literacy, semiotics, and good old-fashioned narrative storytelling. Practical considerations like scale, color, direction, and context become crucial narrative tools. Scale determines what's emphasized or hidden, color influences emotional reactions, direction guides viewers through your story, and context helps people understand why your map matters in the bigger picture. Being deliberate about these visual components can elevate your map from something merely informative to something genuinely compelling.",
+      "Yet even knowing this doesn't guarantee success. Common pitfalls still trip up many aspiring visual storytellers. You might recognize a few of these from your own experiences (no judgment—maps are tricky!):",
+      "Vague or missing annotations: Good maps clearly label significant features, making sure the audience knows exactly what they’re looking at—and why.",
+      "Disconnected narratives: Visual data should explicitly tie back into the broader story. Otherwise, you're just mapping things without context, leaving readers wondering why it matters.",
+      "Ignoring visual hierarchy: Without clear visual hierarchies, viewers get lost or overwhelmed. Think of it as telling a story without punctuation—it’s easy to lose the plot!",
+      "Information overload: If a map is cluttered with extraneous details, it’s less a narrative and more of an eye exam.",
+      "Randomized visual elements: Consistency is key. A hodgepodge of colors, symbols, and fonts makes your map look like a visual puzzle instead of a coherent story.",
+      "To sidestep these pitfalls, here are a few guiding principles to keep your story maps engaging, effective, and visually literate:",
+      "Prioritize Clarity: Annotate thoughtfully. Label critical information and explicitly connect visuals to your narrative.",
+      "Simplify Ruthlessly: Only keep what's essential to your narrative. Your audience will thank you.",
+      "Leverage visual hierarchy intentionally: Direct viewers’ attention to key elements by strategically adjusting color contrast, scale, and emphasis.",
+      "Engage purposefully: Use interactivity and multimedia thoughtfully—just because you can add animations doesn’t mean you always should!",
+      "Practically speaking, visual literacy and semiotics offer invaluable tools for educators, researchers, journalists—and pretty much anyone telling stories with spatial data. Cultivating these skills helps both creators and audiences critically engage with maps, encouraging thoughtful interpretation and informed interactions.",
+      "Ultimately, the rise of story maps highlights a broader shift: visual literacy is becoming a necessary skill for anyone engaging with digital narratives. As story maps transform how we communicate spatial data, mastering visual storytelling becomes just as important as mastering geographic tools themselves. Whether you're mapping flood risk, historical trends, or the best coffee shops in town, understanding the subtle power of visual communication is the secret to making your maps meaningful, memorable, and—most importantly—impactful.",
+      "References:",
+      "He, X. (2022). Interactive Mode of Visual Communication Based on Information Visualization Theory. Computational Intelligence and Neuroscience, 2022, 4482669. https://doi.org/10.1155/2022/4482669",
+      "McGowan, B. S. (n.d.). OpenStreetMap mapathons support critical data and visual literacy instruction. Journal of the Medical Library Association : JMLA, 108(4), 649–650. https://doi.org/10.5195/jmla.2020.1070",
+      "(PDF) Cultivating visual literacy and critical thinking tendency with technological knowledge organizing supports: A concept mapping-based online problem-posing approach. (2025). ResearchGate. https://doi.org/10.1007/s11423-024-10394-6"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0003461844516735424,
+      0.30412244400211824,
+      0.003985352393267317,
+      0.007481682675363839,
+      0.2653219737686237,
+      0.37128802031616176,
+      0.00037965791079730535,
+      0.047074684481994276
+    ],
+    "words": [
+      [
+        "map",
+        29
+      ],
+      [
+        "visual",
+        25
+      ],
+      [
+        "story",
+        16
+      ],
+      [
+        "narrative",
+        10
+      ],
+      [
+        "become",
+        6
+      ],
+      [
+        "data",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "21395",
+    "title": "Hidden Costs of AI and the Case for Luddite Thinking",
+    "date": "2025-03-14",
+    "year": "2024–2025",
+    "authors": [
+      "Anna Corbett"
+    ],
+    "originalAuthors": [
+      "Anna Corbett"
+    ],
+    "aliases": [
+      "Anna Corbett",
+      "Anna Schlenz"
+    ],
+    "account": "Anna Corbett",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Fellows"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/03/14/hidden-costs-of-ai-and-the-case-for-luddite-thinking/",
+    "signals": [
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "In conversations about technology, being called a Luddite is a big insult. Colloquially, it refers to a kind of technophobic kook who’s morally against technological development. But in my opinion, the original Luddites were actually very cool. In 1811, around twenty thousand textile workers were fired from their factory jobs in Nottingham after factory owners automated their jobs. Where weaving had once been an artisanal skill, it was first reduced to atomized work in the mills, and then with the integration of shearing frames in 1811, weaving became completely unnecessary labor. Because of the adoption of shearing frames into textile mills, the portion of factory revenue that had kept 20,000 factory workers and their families alive in the form of wages was freed to be reinvested into more automated technology, creating more profit for the factory owners. A mass of now unemployed textile workers–who came to be known as the…"
+    ],
+    "fullParagraphs": [
+      "In conversations about technology, being called a Luddite is a big insult. Colloquially, it refers to a kind of technophobic kook who’s morally against technological development. But in my opinion, the original Luddites were actually very cool. In 1811, around twenty thousand textile workers were fired from their factory jobs in Nottingham after factory owners automated their jobs. Where weaving had once been an artisanal skill, it was first reduced to atomized work in the mills, and then with the integration of shearing frames in 1811, weaving became completely unnecessary labor. Because of the adoption of shearing frames into textile mills, the portion of factory revenue that had kept 20,000 factory workers and their families alive in the form of wages was freed to be reinvested into more automated technology, creating more profit for the factory owners. A mass of now unemployed textile workers–who came to be known as the Luddites–stormed their former workplaces and destroyed the machines that destroyed their livelihoods. The Luddites saw clearly that when faced with the choice between employing human labor and using shearing frames, factory owners would always choose the less costly machines, leaving skilled workers redundant and forcing them into lesser and lesser skilled work as technology developed–meaning ever-decreasing standards of living.",
+      "Just like how the Luddites saw that the productivity brought in by the shearing machine came with hidden costs–their livelihoods–it is important to think critically about the hidden costs of the productivity of AI. I can hardly walk five feet, or scroll for five minutes, without coming across the sentiment that AI is inevitable, and we have to just roll over and integrate it into our work lest it leave us behind. I’d like to suggest though, that you do not roll over, and instead engage in Luddite-thinking about AI. What are the costs of AI integration? Are those who benefit the same as those who bear the consequences? And–if push comes to shove–do we really have to smash these machines?",
+      "Work Displacement, not Replacement",
+      "Now that we’re in the beginning of the AI boom, 41% of companies across the world have plans to replace part of their workforces with AI Automation by 2030. While AI might be thought to automate ‘menial tasks,’ the ‘work’ done by AI has to be monitored and double-checked with human labor. Remember those ‘workerless’ Amazon Just Walk Out stores that use AI to track what shoppers leave with? Amazon actually used outsourced, hyper-exploited workers in India to review 70% of AI calculated transactions. The use of AI here was not to create actually cashierless stores, but to pay poverty wages for hidden cashiers in India instead of paying slightly higher poverty wages for cashiers in the Global North, saving Amazon about a hundred thousand dollars per store each year.",
+      "History repeats itself–first as tragedy, second as farce. We’ve seen all of this before. In recent memory, industrial manufacturing, which had been the good American job, was revolutionized by increased technology and automated, then the remaining necessary labor was outsourced to cut costs. The leftover workers in the Global North were split, some pushed into clerical or customer service work, many pushed into unemployment. Next, the internet rendered many of those jobs obsolete, and the remaining necessary labor relocated to the Global South–call centers, data entry, etc. And the leftover workers in the North were split, some into ‘fake email jobs’ or knowledge production, and many, many others into gig economy work. And now, it’s the same. Technological development of generative AI and its integration into labor is poised to semi-automate managerial and knowledge production work. USAID is already in the mix of this new economic imperialism–in January it put out a call to fund research to identify a data enrichment labor market in the Global South. Labor exploitation will increase in the Global South while American profits will soar. It’s already happening in Kenya, where workers are paid $2 an hour to train LLMS for OpenAI and Meta in ‘AI Sweatshops.”",
+      "High Environmental Costs",
+      "It’s no secret that the AI industry is putting a strain on energy consumption. Asking ChatGPT to create an image uses as much energy as it takes to charge a smartphone. That doesn’t seem like much, and that’s true. But just like our less than stellar recycling habits or drive to work are a drop in the bucket compared to airline industry emissions, our personal use of AI models requires very little energy in comparison to the energy that it takes to train and maintain these models. For example, on average, each query sent to ChatGPT emits 4.32 grams of CO2. The average user sends 8 queries a day. Sending 8 queries a day for a year emits the same amount of carbon as driving a car for 3.5 miles. No biggie! But, there are over 100 million people who use ChatGPT every day, and 1 billion queries are placed everyday. This amounts to an extra 4762 tons of daily emissions. That’s like sending an airplane from New York to Tokyo 2381 times in a single day.",
+      "Even when we set aside the inputs from chip manufacturing and supply chains, training an LLM consumes thousands of megawatt hours of electricity and emits hundreds of tons of carbon. The training process to build Chat GPT-3 alone consumed 1,287 megawatt hours of electricity (that could power 120 U.S. homes for a year) and generated about 552 tons of carbon dioxide. Moreover, water must be run through AI data centers to keep the machinery from overheating. Each kilowatt hour of energy consumed by a data center requires 2 liters of water for cooling. Training Chat GPT-3 used 6 cubic miles of water. The total energy cost of the AI industry is expected to exceed the energy usage of the entire country of Belgium by next year. In just the US, AI data centers are expected to raise the nation’s electricity usage by 6% by next year.",
+      "It has become quite clear that like labor markets, the climate crisis is geographically uneven–constituting a kind of environmental imperialism. While the United States alone is responsible for 25% of historical carbon emissions, the consequences of these emissions occur elsewhere. In the left map below, the size of each country is warped to represent its portion of global historical carbon emissions. The United States, Europe, and China are the biggest emitters. The right map warps the countries according to the number of people injured, left homeless, displaced or requiring emergency assistance due to climate-related floods, droughts or extreme temperatures in a typical year. East and South Asia are undeniably most affected and most at risk.",
+      "Toward Luddite Thinking",
+      "You might be thinking, “The future is inevitable, change happens, what can I even do about this?” To be truthful, the answer is not much. Personal consumption practices have proven to have little impact on global emissions. All of the energy statistics I listed are increasingly obsolete with every passing second. The ‘AI Cold War’ is only deepening the problem. However, if we think like a Luddite, it's clear that there is a big difference between asking ChatGPT to generate a silly picture for personal use and accepting the integration of AI in our workplaces. While we may not be able to smash the data centers, we are in a special moment where we might refuse to cowork, collaborate, innovate, or think with AI. Refusing workplace AI is a refusal to collaborate with climate catastrophe, with hyper exploitation, with wage depression. It is nothing less than a stand for workers everywhere and for the future of the planet."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00032024257536791975,
+      0.604922295829644,
+      0.005389807667570328,
+      0.023952070251884103,
+      0.0018957933694521134,
+      0.3519804882325742,
+      0.003757415494931846,
+      0.0077818865785754315
+    ],
+    "words": [
+      [
+        "ai",
+        22
+      ],
+      [
+        "worker",
+        9
+      ],
+      [
+        "work",
+        9
+      ],
+      [
+        "labor",
+        9
+      ],
+      [
+        "luddite",
+        8
+      ],
+      [
+        "energy",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "21329",
+    "title": "Register for GCDI Conversations in Digital Scholarship",
+    "date": "2025-03-07",
+    "year": "2024–2025",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Digital GC",
+      "Events",
+      "GCDI Updates",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/03/07/gcdi-conversations/",
+    "signals": [],
+    "paragraphs": [
+      "GCDI Conversations in Digital Scholarship A Symposium Hosted by the GC Digital Fellows",
+      "May 13, 2025 from 2 - 4 PM",
+      "Register here on a first-come-first-served to participate.",
+      "Please note that the registration process has been updated: we are no longer asking participants to complete an abstract in advance of the event. Instead, each participant will share a 3-4 sentence reflection on their interest in the roundtable topic while registering. These blurbs will be shared with all roundtable participants in advance of the event. Registration information which is no longer required has been struck through below.",
+      "The GC Digital Fellows are hosting a seminar featuring roundtable discussions on topics related to digital scholarship and methods. These sessions will be held concurrently on May 13, 2025, and are designed to generate a lively exchange of ideas that will cultivate a community of practice around shared digital methods and foster future…"
+    ],
+    "fullParagraphs": [
+      "GCDI Conversations in Digital Scholarship A Symposium Hosted by the GC Digital Fellows",
+      "May 13, 2025 from 2 - 4 PM",
+      "Register here on a first-come-first-served to participate.",
+      "Please note that the registration process has been updated: we are no longer asking participants to complete an abstract in advance of the event. Instead, each participant will share a 3-4 sentence reflection on their interest in the roundtable topic while registering. These blurbs will be shared with all roundtable participants in advance of the event. Registration information which is no longer required has been struck through below.",
+      "The GC Digital Fellows are hosting a seminar featuring roundtable discussions on topics related to digital scholarship and methods. These sessions will be held concurrently on May 13, 2025, and are designed to generate a lively exchange of ideas that will cultivate a community of practice around shared digital methods and foster future collaborations. Each roundtable is designed to be a conversation among 8 participants and two facilitators.",
+      "Participants are invited to sign up for roundtables on a first-come, first-served basis. Each participant will write a brief abstract of 250-500 words (due April 29), which they will post to a private blog for the seminar. Submissions can include links and references to digital projects at any stage of development. Participants are responsible for reading all the abstracts for their roundtable in advance of the event. During the roundtable, GC Digital Fellows will facilitate discussion and conversation in which all participants respond to one another’s contributions. The purpose of the seminar is to get feedback and input, provide insight and context to others, and foster a broader conversation about the variety of digital tools, methods, and approaches students are using that can be shared with the wider GC community.",
+      "Students, faculty, and staff across the Graduate Center are invited to participate.",
+      "Roundtable topics: In its inaugural year, five topics have been developed and proposed by the GC Digital Fellows, a cohort of doctoral students who support the development of technical skills to compliment, extend, and Manifold Fellows. The purpose of the conversations are to enhance the scholarship and teaching of faculty, students, and staff at the CUNY Graduate Center. Topics include: AI for Qualitative Research, Digital Archives, Educational Game Design, Open Pedagogy on Manifold, and Working with Open Government Data. See below for the full prompts.",
+      "Process: Register for the seminar-style roundtable portion of our symposium by completing the registration form and selecting the title of the seminar roundtable you would like to participate in (descriptions of each below) and sharing a brief, 3-4 sentence reflection on your interest in the topic. Once registered, participants will receive an email explaining how to post their abstracts on the GC Digital Fellows Spring 2025 Symposium website. Contributions will be due April 29th at noon.",
+      "AI for Qualitative Research Facilitators: Parisa Setayesh and Silvia Rivera Alfaro",
+      "Artificial intelligence is increasingly shaping the ways researchers collect, analyze, and interpret qualitative data. AI-powered tools can automate coding, accelerate thematic analysis, and expand accessibility by lowering the barriers to advanced computational methods. At the same time, these technologies introduce critical concerns about bias, transparency, environmental sustainability, and the potential de-skilling of researchers. As AI becomes more integrated into qualitative research, how can scholars navigate its benefits while mitigating its risks?",
+      "This roundtable invites scholars who are engaging with AI-driven qualitative research to discuss the following questions:",
+      "How can AI assist in qualitative research without compromising human interpretation and nuance?",
+      "What are the ethical concerns surrounding AI-driven analysis, particularly regarding bias, privacy, and transparency?",
+      "How do open-source tools like Taguette, Weft QDA, and AcademiaOS democratize access to AI-driven research methods?",
+      "What are the environmental and infrastructural costs of AI, and how should researchers account for them?",
+      "What skills do scholars need to engage with AI tools critically, and how can they balance automation with meaningful intellectual labor?",
+      "Participants are encouraged to share insights, experiences, and strategies for integrating AI tools into their research while maintaining methodological rigor and ethical responsibility. The discussion will emphasize both practical applications and critical reflections, fostering a dialogue on the evolving role of AI in qualitative research.",
+      "Digital Archives Facilitators: Maggie Schreiner and Stefano Morello",
+      "Across disciplines, many of us rely on digital archives to find primary sources, organize our research materials, and present our findings. Digital archives, like all collections, are artificial creations, reflecting the availability of primary sources, technologies for transforming and digitizing materials, the use of descriptive taxonomies, the knowledge systems that inform their architecture, and more. In this roundtable session, participants will discuss how they have navigated decisions in using and creating digital archives, with an emphasis on resource sharing and collaborative support.",
+      "Educational Game Design Facilitators: Zach Lloyd and Anna Schlenz",
+      "Educational game design sits at the intersection of pedagogy, technology, and interactive storytelling. As gaming becomes increasingly ingrained in our cultural and educational spaces, educators are faced with a variety of important questions: Can we create games that are both engaging and pedagogically effective? What role should interactivity, narrative, and game mechanics play in fostering meaningful learning experiences? And how can we assess learning outcomes without disrupting the flow of play? This roundtable invites participants from diverse disciplines to discuss the principles of effective educational game design, share experiences with game-based learning, and explore challenges such as accessibility, assessment, and balancing fun with instructional goals. We will explore such topics as:",
+      "The role of narrative and immersion in knowledge retention",
+      "Designing for different disciplines and learning goals",
+      "The tension between gamification and intrinsic motivation",
+      "Challenges in evaluating learning outcomes in games",
+      "Participants are encouraged to bring examples from their own work or experiences, whether they are designing games, using them in teaching, or researching their impact. This roundtable will serve as a space to exchange ideas, troubleshoot design challenges, and consider future collaborations in educational game development.",
+      "Open Pedagogy on Manifold Facilitators: Cen Liu and Maura McCreight",
+      "Open Pedagogy represents a transformative approach to teaching and learning that deeply resonates with CUNY's commitment to social justice, accessibility, and inclusivity in education. As defined by scholars DeRosa and Jhangiani, it \"makes learning processes visible and shared, inviting peer and public critique and collaboration, and allowing students to contribute to public knowledge.\" CUNY instructors across disciplines are already engaging with these principles through practices that question traditional power structures, center student agency, and shift from content consumption to collaborative knowledge creation. In this session, we invite participants to discuss how these pedagogical philosophies can be utilized on CUNY’s instance of Manifold, including the freedom to experiment with digital platforms, the development of interdisciplinary models and relationships, and structural critiques of systems that fail students and educators.",
+      "Join us for a discussion of the ways you are putting Open Pedagogy into practice in the classroom with the support of Open Educational Resources (OER) and Zero-Cost Textbooks (ZCT) like Manifold. Share your student-centered assignments, and hear how others are including students in the publication process. This session will examine how these approaches enhance learning and intersect to create a more dynamic and inclusive classroom environment. Finally, we welcome contributions that suggest ways to translate your teaching practices into scholarship.",
+      "Working with Open Government Data Facilitators: Peyton Cordero and Ian Williams",
+      "Open government data, once hailed as the future of government, is now a regular institutional practice - right alongside archives. Researchers across disciplines (including social sciences, humanities, and STEM) rely on openly accessible data to identify social issues, form and answer research questions, test hypotheses, and observe changes in public administration over time. Whether this be housing, economic, education, environmental, or health data, utilizing these materials come with a variety of inferential and ethical concerns. Additionally, the platforms and interfaces used to access these data sets also vary in quality and design, and can take some time to find what you’re looking for.",
+      "This session is designed to provide opportunities for participants to talk through some of these issues in relation to your own projects, no matter what stage you are in the research process. This includes research questions, data sources, research plans, digital tools and analytic techniques, and more. Together we’ll brainstorm strategies for making the data work for you, address potential biases or shortcomings with your data, and discuss how recent changes in our government might require us to approach these data from different, new, critical perspectives."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.07674868998208649,
+      0.2877851633522766,
+      0.0002172314227488901,
+      8.411767063320566e-05,
+      0.0027871836498477207,
+      0.04177200765228218,
+      0.00027199448472493625,
+      0.5903336117853999
+    ],
+    "words": [
+      [
+        "digital",
+        17
+      ],
+      [
+        "participant",
+        15
+      ],
+      [
+        "roundtable",
+        14
+      ],
+      [
+        "research",
+        14
+      ],
+      [
+        "ai",
+        12
+      ],
+      [
+        "game",
+        11
+      ]
+    ]
+  },
+  {
+    "id": "21235",
+    "title": "Ethical Metadata for Digital Projects",
+    "date": "2025-02-28",
+    "year": "2024–2025",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "digital archives",
+      "Digital Fellows",
+      "metadata"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/02/28/ethical-metadata-for-digital-projects/",
+    "signals": [
+      "Archives, text & media",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Metadata is a foundational element of many digital projects, from tagging posts on a blog, to categorizing resources, to describing archival materials. Metadata is the information that describes the data or content that comprise our digital projects – and it plays a powerful role in the shaping of our project's outcomes, such as how content is discovered, interpreted, and shared. In a previous Tagging the Tower blog post, I discussed how metadata reflects both the biases of the creators of widely used metadata standards (such as the Library of Congress), as well as the biases of individuals as they apply metadata in their projects. If you use a digital tool like our library catalog, it’s important to be aware of how these biases influence your ability to find resources. And if you are embarking on creating your own digital project, it is important to thoughtfully work towards creating transparent and ethical metadata for the resources…"
+    ],
+    "fullParagraphs": [
+      "Metadata is a foundational element of many digital projects, from tagging posts on a blog, to categorizing resources, to describing archival materials. Metadata is the information that describes the data or content that comprise our digital projects – and it plays a powerful role in the shaping of our project's outcomes, such as how content is discovered, interpreted, and shared. In a previous Tagging the Tower blog post, I discussed how metadata reflects both the biases of the creators of widely used metadata standards (such as the Library of Congress), as well as the biases of individuals as they apply metadata in their projects. If you use a digital tool like our library catalog, it’s important to be aware of how these biases influence your ability to find resources. And if you are embarking on creating your own digital project, it is important to thoughtfully work towards creating transparent and ethical metadata for the resources you are describing. Fortunately, information workers – such as librarians, archivists, curators, and catalogers – have developed lots of resources that can guide us through the process of creating ethical metadata and descriptive language.",
+      "Controlled Vocabularies, Taxonomies, and Name Authority Files",
+      "Controlled vocabularies, taxonomies, and name authority files are lists of terms and names that are maintained by information workers and institutions. Using a controlled vocabulary ensures that different people are describing similar materials, people, and organizations in the same way. For instance, two people working in an image database might tag different photos of the Graduate Center as “CUNY Graduate Center” or “Grad Center”. This would create two different tags, and thus the photos wouldn’t be related to each other in the database. A controlled vocabulary would instruct these two different people to use a consistent term, perhaps “Graduate Center, CUNY.” Using a controlled vocabulary allows groups of people to create consistent descriptions across projects and institutions, which in turns facilitates collaboration and enhances discoverability.",
+      "It’s also important to use terminology that reflects the self-identification and wishes of the people and communities being described. In many cases, information workers and activists work closely with communities to develop lists of appropriate terms to include in a controlled vocabulary or taxonomy. The resources listed below have been developed collaboratively, and thus reflect community wishes for terminology and naming practices.",
+      "Densho Terminology This is a very brief guide to terminology for describing the incarceration of Japanese Americans in the United States during the 1940s. This guide was developed by Densho, an organization which preserves and shares the history of Japanese American incarceration to promote equity and justice today. Additional suggested terminology, developed by Yale University, can be found here.",
+      "First National, Métis, and Inuit Indigenous Ontology Community names pertaining to First Nations, Métis, and Inuit Indigenous communities in Canada. This ontology was developed by the National Indigenous Knowledge and Language Alliance and the Canadian Federation of Library Association’s Indigenous Matters Committee.",
+      "The Homosaurus is a vocabulary of LGBTQ terms, which can function as a companion to the Library of Congress Subject Headings. The Homosaurus is currently being translated into Spanish (learn more here). Originally developed in 1997, the vocabulary is now maintained by an Editorial Board of information workers focusing on gender and sexuality.",
+      "Tribal Name Authority Files Published by the National Native American Boarding School Healing Coalition, this site contains over 500 profiles and confirmed names of Tribal Nations in the United States.",
+      "Descriptive Guidelines",
+      "Information workers have also developed narrative toolkits or training modules to guide metadata creators through the ethical decisions they may encounter in their work. Each of the resources listed below results from a multi-year collaborative and consultative process to create guidelines and best practices for creating metadata or descriptions of community materials. These resources have important insights and suggestions applicable to people creating metadata and descriptions outside of the archival field.",
+      "Archives for Black Lives Anti-Racist Descriptive Resources",
+      "Originally released in 2017, and updated in 2020, this guide was created by archivists as a set of recommended best practices for an anti-oppressive approach to creating and editing archival description. This includes both suggestions for addressing harmful or racist language in existing description, descriptions of materials pertaining to slavery, and navigating the limitations of Library of Congress Subject Headings. The resource also includes a substantial annotated bibliography of additional resources.",
+      "Metadata Best Practices for Trans and Gender Diverse Resources",
+      "First published in 2022, and most recently updated in late 2023, this guide results from the work of dozens of contributors to describe, catalog, and classify resources about trans and gender diverse people. This guide includes substantial information on navigating Library of Congress Subject Headings, as well as naming individuals.",
+      "Protocols for Native American Archival Materials",
+      "Originally developed in 2006, the Protocols outline professional best practices for the care and use of Native American Indigenous materials. The Protocols recognize the importance of consultation, recognition, and special treatment of some materials, revisions to traditional archival practice regarding accessibility, use, and copyright, and the significance of community-based research practices. These Protocols were endorsed by the Society of American Archivists (the primarily professional association for archivists in the United States) in 2018, after a delay of more than a decade. This resource also includes a brief glossy and bibliography of relevant publications.",
+      "For more information, including additional resources and further reading, please check out the Inclusive Metadata Toolkit, which was published by the Digital Library Federation’s Cultural Assessment Working Group in 2024.",
+      "You can learn more about metadata and ethical description practices at this semester’s Digital Fellows workshop “Data About Data: Best Practices for Metadata” on Monday, March 24th from noon to 2 pm. Register for the workshop here."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.6554053490085625,
+      0.2019257431861051,
+      0.002347406674954816,
+      0.004159467694683987,
+      0.0002280301133200835,
+      0.031582348900016606,
+      0.00041562172420133564,
+      0.10393603269815564
+    ],
+    "words": [
+      [
+        "metadata",
+        14
+      ],
+      [
+        "resource",
+        14
+      ],
+      [
+        "create",
+        10
+      ],
+      [
+        "develop",
+        9
+      ],
+      [
+        "practice",
+        9
+      ],
+      [
+        "information",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "21255",
+    "title": "Become a 2025-2026 GC Digital Fellow",
+    "date": "2025-02-27",
+    "year": "2024–2025",
+    "authors": [
+      "Lisa Marie Rhody"
+    ],
+    "originalAuthors": [
+      "Lisa Marie Rhody"
+    ],
+    "aliases": [
+      "Lisa Marie Rhody"
+    ],
+    "account": "Lisa Marie Rhody",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "Featured",
+      "Opportunities"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/02/27/become-a-2025-2026-gc-digital-fellow/",
+    "signals": [],
+    "paragraphs": [
+      "Deadline: March 21, 2025 @ 11:59 p.m.",
+      "Application link: https://cuny.is/gcdf25-26",
+      "Are you looking for a fellowship that will challenge you to enhance your existing technical skills? Do you enjoy working collaboratively with an interdisciplinary team? Do you like working with students, faculty, and staff to help them learn new digital tools and methods? If learning new open source technologies and helping others to integrate them thoughtfully and productively into their research sounds exciting to you, consider applying to become a GC Digital Fellow.",
+      "GC Digital Initiatives is searching for new doctoral students to join our dynamic team. Together, GC Digital Fellows lead week-long digital research institutes, teach workshops on technical skills, create resources for GC students and faculty, and build digital projects that make use of the affordances of emerging technology while considering the ethical, social, and political stakes. In fact,…"
+    ],
+    "fullParagraphs": [
+      "Deadline: March 21, 2025 @ 11:59 p.m.",
+      "Application link: https://cuny.is/gcdf25-26",
+      "Are you looking for a fellowship that will challenge you to enhance your existing technical skills? Do you enjoy working collaboratively with an interdisciplinary team? Do you like working with students, faculty, and staff to help them learn new digital tools and methods? If learning new open source technologies and helping others to integrate them thoughtfully and productively into their research sounds exciting to you, consider applying to become a GC Digital Fellow.",
+      "GC Digital Initiatives is searching for new doctoral students to join our dynamic team. Together, GC Digital Fellows lead week-long digital research institutes, teach workshops on technical skills, create resources for GC students and faculty, and build digital projects that make use of the affordances of emerging technology while considering the ethical, social, and political stakes. In fact, the GC Digital Fellows are twice-recognized by the National Endowment for the Humanities (NEH) for their digital pedagogy and in the next two years will work with a research team to develop new workshops for GC students that will also be used nationally.",
+      "Based in the GC Digital Scholarship Lab, the GC Digital Fellows Program operates as an in-house think-and-do tank for digital projects, connecting Fellows to digital initiatives throughout The Graduate Center. GC Digital Fellows utilize a team-based approach as they explore creative solutions for projects and implement them collaboratively. In the process, the GC Digital Fellows Program helps build out “The Digital GC” — a vision of the Graduate Center that incorporates technology into its core research and teaching missions. GC Digital Fellows are particularly invested in the way in which questions of race, gender, and social justice intersect with technology.",
+      "Our work includes:",
+      "Exploring new ways for Graduate Center faculty, students, and staff to share their academic work through emergent technological tools and social media tools;",
+      "Contributing to and helping to implement a strategic vision for public digital scholarship at the GC;",
+      "Consulting with GC faculty and students on digital scholarly projects;",
+      "Offering skill-building workshops to GC students, faculty, and staff;",
+      "Leading a week-long digital research institute;",
+      "Facilitating user and working groups around shared research interests;",
+      "Fostering community around digital projects at the GC and CUNY;",
+      "Experimenting with computational and networked forms of scholarly communication;",
+      "Supporting innovative courses that introduce emerging digital methods;",
+      "Encouraging the exploration of digital scholarship, methods, and tools through virtual consultations and office hours.",
+      "Graduate Center doctoral students within their first 7 years of GC funding are eligible to apply, and we encourage applications from women and gender minorities and BIPOC. We hope to add strength to our program in Python, R, and Javascript; however, this is not an exhaustive list. We encourage those with other skills and interests to also apply.",
+      "To get a better sense of our work, you can read the GC Digital Fellows’ blog, Tagging the Tower, and our semesterly blog post “What is GCDI?” You might also read through our 2024-2025 Annual Report.",
+      "Compensation",
+      "Compensation for the fellowship will be a minimum of $30,179 for the academic year. Fellows will be appointed to the Graduate Center payroll as Graduate Assistant Bs (GAB) at their own current rate and also receive a Provost’s Award paid through the Office of Financial Aid. The GAB title provides eligibility to purchase the low-cost NYSHIP health insurance as well as in-state tuition remission for fellows who are within their first 10 registered semesters of doctoral study. The 2017-2023 PSC-CUNY Contract also provides in-state tuition remission at the Level 3 tuition rate for doctoral students for four additional semesters past the first 10 registered semesters of doctoral study as long as they are employed in a title recognized under Article 1 of the collective bargaining agreement.",
+      "The initial DF appointment is for one year (exact dates vary and will be specified upon appointment). Determinations of DF re-appointments will be made on an annual basis up to three years, depending on individual eligibility and GC needs.",
+      "Application Instructions",
+      "To apply, please complete our online application form, which includes uploading a letter of interest (no more than 1-2 pages), a CV, a list of digital projects undertaken and/or completed, and the name and contact information for a faculty reference. (NOTE: Faculty reference letters are not requested at this point of the application process.)",
+      "Applications must be received by March 21 to be considered. Questions can be directed to Lisa Marie Rhody via email at LRHODY@gc.cuny.edu."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005264670302648487,
+      0.04532417544098687,
+      0.00046112495181827436,
+      0.00017855960397884297,
+      0.00031677437119484,
+      0.04107365768016903,
+      0.048174657385584456,
+      0.8639445835360028
+    ],
+    "words": [
+      [
+        "digital",
+        24
+      ],
+      [
+        "student",
+        9
+      ],
+      [
+        "work",
+        7
+      ],
+      [
+        "faculty",
+        7
+      ],
+      [
+        "application",
+        6
+      ],
+      [
+        "research",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "21151",
+    "title": "Rethinking Participatory Mapping as a Justice-Oriented Practice",
+    "date": "2025-02-21",
+    "year": "2024–2025",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "mapping",
+      "social justice",
+      "Spatial Humanities and Social Sciences"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/02/21/rethinking-participatory-mapping-as-a-justice-oriented-practice/",
+    "signals": [
+      "Maps & visualization",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Maps do more than document space—they shape who is visible, prioritized, and excluded. Participatory mapping is often framed as a democratizing tool, giving communities the power to define their spaces, advocate for their needs, and counterbalance top-down spatial governance. Yet, its impact is far from straightforward. Who gets to participate? Whose knowledge is valued? Does participatory mapping shift power, or does it generate more data for existing decision-makers?",
+      "Even when participatory mapping is used to collect data more inclusively, it is only one part of the cartographic process. How data is interpreted, visualized, and shared introduces further ethical ambiguities. Who decides how community-generated data is represented, what is emphasized or omitted, and how it informs policy? Mapping is about participation and who controls the narrative that emerges from the map.",
+      "Whose Knowledge Counts?",
+      "Mapping tends to privilege “expert”…"
+    ],
+    "fullParagraphs": [
+      "Maps do more than document space—they shape who is visible, prioritized, and excluded. Participatory mapping is often framed as a democratizing tool, giving communities the power to define their spaces, advocate for their needs, and counterbalance top-down spatial governance. Yet, its impact is far from straightforward. Who gets to participate? Whose knowledge is valued? Does participatory mapping shift power, or does it generate more data for existing decision-makers?",
+      "Even when participatory mapping is used to collect data more inclusively, it is only one part of the cartographic process. How data is interpreted, visualized, and shared introduces further ethical ambiguities. Who decides how community-generated data is represented, what is emphasized or omitted, and how it informs policy? Mapping is about participation and who controls the narrative that emerges from the map.",
+      "Whose Knowledge Counts?",
+      "Mapping tends to privilege “expert” data while sidelining local, Indigenous, and community knowledge. Scientific models and GIS technology often take precedence, while oral histories, cultural understandings of space, and lived experiences are treated as anecdotal.",
+      "This is especially evident in Indigenous land mapping, where governments demand scientific proof of land occupation, even though Indigenous spatial knowledge has been passed down for generations. If mapping is to serve justice, it must value multiple ways of knowing.",
+      "What Gets Mapped, What is Left Out?",
+      "Governments and institutions only map what aligns with their administrative, economic, and political priorities—land ownership records, taxable properties, formal infrastructure, and predefined risk zones. Communities that fall outside these categories—such as informal settlements, migrant populations, and unhoused groups—often remain unmapped or misrepresented. If an area is not included in official mapping systems, it is often not recognized in policy, meaning no government resources, legal protections, or climate adaptation funding.",
+      "Participatory mapping is often used to make marginalized communities visible, yet visibility is not always safe. For some groups, remaining off the map is a deliberate act of protection—a way to avoid surveillance, policing, eviction, or forced assimilation into state systems. The ethics of mapping must consider not only who is made visible but also who decides whether visibility is in their best interest. A just mapping practice requires acknowledging that exclusion from official maps is not always about being ignored—it can also be about resistance, autonomy, or survival.",
+      "Who Controls How Maps Are Used?",
+      "Even when communities contribute data, governments and institutions still decide how that data informs policy. Climate justice activists, for example, have used participatory mapping to document flood risks in underserved areas. However, if decision-makers continue to prioritize economic interests, the data may be ignored—or worse, used to justify displacement rather than protection.",
+      "True justice in mapping is not just about collecting data—it depends on whether communities have the power to act on that data and shape the policies that affect them.",
+      "Who Has the Tools to Map?",
+      "Participatory mapping assumes equal access to technology, the internet, and spatial literacy, but these resources are not evenly distributed. The communities most vulnerable to climate change, displacement, or environmental hazards often face economic barriers, infrastructural limitations, and systemic exclusion from digital tools and education. Limited access to reliable internet, a lack of familiarity with mapping technologies, and language or literacy barriers can all hinder meaningful participation. In some cases, distrust of institutional mapping efforts—stemming from histories of land dispossession, policing, or extractive research practices—also discourages engagement.",
+      "Without addressing these underlying disparities, participatory mapping risks reinforcing the same inequalities it seeks to challenge, privileging those with access to resources while leaving the most vulnerable voices unheard. If mapping is to be a tool for justice, it must be accessible and inclusive, not another barrier that reinforces privilege.",
+      "Climate justice activists and adaptation efforts have embraced participatory flood mapping to incorporate local knowledge into risk assessments. Some key projects include: FloodNet NYC, MapSwipe, Public Lab, and Ushahidi. While these tools attempt to correct biases in traditional flood maps, they also raise ethical questions, like who decides whether community data is incorporated into official policies. Do governments only accept participatory data when it aligns with existing priorities? Can these projects redistribute power, or do they simply create more data for centralized decision-makers?",
+      "Rethinking Participatory Mapping as a Justice-Oriented Practice",
+      "For participatory mapping to serve justice, it must do more than add new data to existing systems—it must challenge the structures that govern spatial knowledge.",
+      "Challenging Dominant Ways of Seeing Space",
+      "Maps are often used to make land and communities legible for governance, investment, or control. However, justice-oriented mapping should question dominant spatial categories rather than reinforce them.",
+      "Can participatory mapping resist bureaucratic classifications rather than conform to them?",
+      "Instead of mapping climate risk as governments define it, what if communities mapped risk based on their own priorities— housing security, cultural sites, or informal economies?",
+      "Contesting Power Over Decision-Making",
+      "Even when participatory mapping is framed as collaborative, power often remains with decision-makers.",
+      "Who controls how maps are interpreted, and whose priorities shape the response?",
+      "What mechanisms can ensure community-led mapping leads to community-led decision-making?",
+      "How can participatory mapping be embedded into long-term governance models, not just treated as a temporary research tool?",
+      "Expanding Alternative Mapping Traditions",
+      "Justice-oriented mapping should avoid dominant cartographic methods and embrace alternative mapping traditions.",
+      "Counter-mapping movements challenge state and corporate control of spatial representation. Indigenous land reclamation mapping, for instance, resists colonial narratives by asserting traditional land occupation based on Indigenous knowledge.",
+      "Feminist & radical cartography reject rigid GIS models, using storytelling, lived experience, and embodied knowledge as valid mapping methods.",
+      "For participatory mapping to truly challenge inequality, it must prioritize local knowledge, shift decision-making power, and embrace alternative mapping traditions. Otherwise, it risks becoming just another tool for reinforcing existing power structures.",
+      "As digital mapping expands, we must ask:",
+      "Can participatory mapping be a tool for liberation, or will it remain a symbolic gesture within systems of control?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0020407243267756207,
+      0.8488824160443641,
+      0.0002829049803689972,
+      0.015569129865821546,
+      0.04485535813584019,
+      0.08703744525928932,
+      0.0003542240500377921,
+      0.0009777973375024163
+    ],
+    "words": [
+      [
+        "mapping",
+        30
+      ],
+      [
+        "map",
+        18
+      ],
+      [
+        "participatory",
+        16
+      ],
+      [
+        "data",
+        14
+      ],
+      [
+        "community",
+        13
+      ],
+      [
+        "knowledge",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "21025",
+    "title": "Doing humanidades digitales at CUNY",
+    "date": "2025-02-14",
+    "year": "2024–2025",
+    "authors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "originalAuthors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "aliases": [
+      "Silvia Rivera Alfaro"
+    ],
+    "account": "Silvia Rivera Alfaro",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Fellows",
+      "Hispanic digital humanities",
+      "humanidades digitales",
+      "Latinx digital humanities"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/02/14/doing-humanidades-digitales-at-cuny/",
+    "signals": [],
+    "paragraphs": [
+      "Humanidades Digitales is the Spanish name for Digital Humanities (DH). While this might be seen as a mere translation, for many of us it materializes our scholarship and everyday experience that moves between languages, communities, and connections to diverse geographies.",
+      "In the context of the US, it also implies acknowledging that Spanish has been spoken in these territories for centuries– as both, English and Spanish, have a colonial history. Additionally, naming DH in Spanish while writing in English also makes evident the existence of communities that think and feel in both languages.",
+      "This year, as part of my work as a digital fellow, I started a blog to explore the work in humanidades digitales created by CUNY students, faculty, and alumni. Among the many reasons for creating this resource, I want to highlight that CUNY is a Hispanic-serving institution and it is important to understand how DH contributes to the institution across…"
+    ],
+    "fullParagraphs": [
+      "Humanidades Digitales is the Spanish name for Digital Humanities (DH). While this might be seen as a mere translation, for many of us it materializes our scholarship and everyday experience that moves between languages, communities, and connections to diverse geographies.",
+      "In the context of the US, it also implies acknowledging that Spanish has been spoken in these territories for centuries– as both, English and Spanish, have a colonial history. Additionally, naming DH in Spanish while writing in English also makes evident the existence of communities that think and feel in both languages.",
+      "This year, as part of my work as a digital fellow, I started a blog to explore the work in humanidades digitales created by CUNY students, faculty, and alumni. Among the many reasons for creating this resource, I want to highlight that CUNY is a Hispanic-serving institution and it is important to understand how DH contributes to the institution across its many colleges. The second reason is that even for those of us who are part of the Spanish departments it is unclear how humanidades digitales have been developing at CUNY.",
+      "The blog includes DH projects in Spanish about a multitude of topics and around issues that communicate with the identities imagined as “Speanish-speaking”, and OER projects about those communities or the Spanish language. The emphasis on “imagined as Spanish-speaking” here is for two reasons: first, associating the language to a specific community comes from preconceptions that have been challenged in the sociolinguistic fields, particularly on the perspective of raciolinguistics; second, within the Latinx community not all individuals speak Spanish. The blog, then, includes this perspective in which the projects related to communities might not be in Spanish and still could be considered humanidades digitales, such as the podcast mentioned below which uses translanguaging practices.",
+      "When identifying projects to write about, I have started to understand that there is much more being done than what I might have previously imagined. I have learned about faculty and alumni working on public-facing projects for the memory of different communities, such as the archive by Professor Aranzazú Borrachero, the digital editions by the alumn Clayton McCarl, or the collection Libros en Español by CUNY Manifold’s Open Educational Technologist Robin Miller.",
+      "In the process, I have also been surprised by the quality of the Open Educational Resources produced by fellow students of the PhD Program in Latin American, Iberian, and Latino cultures, such as the Open Educational Resource to teach about Spanish in New York City created by Tania Aviles, Anthony J. Harb, Andrea Ariza, Rosalía Reyes Simon, and Ricardo Martín Coloma. Along the same line, I have been delighted by projects like the podcast Latinx Visions, created by Baruch College professors Rojo Robles and Rebecca L. Salois and their students.",
+      "These are only a few of the projects the blog will include, and there will be room to continue learning about humanidades digitales in CUNY and beyond. The blog is open to collaboration: to volunteer, please join the Humanidades Digitales group on CUNY Academic Commons and express your interest in the forum. The Graduate Center Digital Fellows and I look forward to reviewing and including your work!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.07261331111331538,
+      0.048708986273184075,
+      0.01991122858878215,
+      0.00030490504929784885,
+      0.0005409180078429272,
+      0.14663189264482998,
+      0.000985910465060618,
+      0.710302847857687
+    ],
+    "words": [
+      [
+        "spanish",
+        11
+      ],
+      [
+        "community",
+        7
+      ],
+      [
+        "project",
+        7
+      ],
+      [
+        "humanidades",
+        6
+      ],
+      [
+        "digitales",
+        6
+      ],
+      [
+        "digital",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "20845",
+    "title": "Welcome to Spring 2025!",
+    "date": "2025-02-04",
+    "year": "2024–2025",
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "originalAuthors": [
+      "Tuka Al-Sahlani"
+    ],
+    "aliases": [
+      "Tuka Al-Sahlani"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
+    "tags": [
+      "announcements",
+      "Announcements",
+      "Digital Fellows",
+      "gcdf",
+      "News",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/02/04/welcome-to-spring-2025/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing resources, events, workshops, and opportunities to help you continue to learn and develop your digital scholarly projects. This post includes a recap of January and a glimpse of GCDI and the GC Digital Fellows’ upcoming programming and services.",
+      "January’s Successful GC Digital Research Institute",
+      "We began 2025 gathering (virtually) at the GC Digital Research Institute (DRI). For four cold days from January 21 to January 24, we made our favorite warm drinks, wrapped ourselves around our laptops, and supported each other on our annual digital skills adventure. We taught and learned skills like HMTL/CSS, Python, command line, digital mapping, data literacies, and more alongside more than 30 attendees. The DRI curriculum is hosted on DRIFT and is available openly to everyone to learn, review, and improve your skills!"
+    ],
+    "fullParagraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing resources, events, workshops, and opportunities to help you continue to learn and develop your digital scholarly projects. This post includes a recap of January and a glimpse of GCDI and the GC Digital Fellows’ upcoming programming and services.",
+      "January’s Successful GC Digital Research Institute",
+      "We began 2025 gathering (virtually) at the GC Digital Research Institute (DRI). For four cold days from January 21 to January 24, we made our favorite warm drinks, wrapped ourselves around our laptops, and supported each other on our annual digital skills adventure. We taught and learned skills like HMTL/CSS, Python, command line, digital mapping, data literacies, and more alongside more than 30 attendees. The DRI curriculum is hosted on DRIFT and is available openly to everyone to learn, review, and improve your skills!",
+      "Where to find us",
+      "This semester, we are updating and revising some of our programs and services to better meet the needs of the GC Community. Join us at one of our virtual or in-person workshops, request a one-on-one consultation with a GC Digital Fellow, and visit us during our weekly virtual digital scholarship drop-in hours.",
+      "Are you interested in finding communities of scholars working on a specific platform or digital scholarship methodology? Check out our GC Digital Fellow supported working groups on the CUNY Academic Commons.",
+      "Want to keep up to date on all the GCDI happenings? Be sure to join our GCDI Group on the Commons, subscribe to our calendar, follow us on LinkedIn, check out our Linktr.ee, and be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Spring 2025 Opportunities",
+      "Workshops",
+      "This semester, GCDI will offer hands-on in-person and remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. (Learn how to get the most out of our workshops.) Registration is required, you can select the workshop on the calendar and complete the workshop RSVP.",
+      "Workshops will run from February to April. They include:",
+      "Introduction to TEI (Text Encoding Initiative)",
+      "Wed. Feb. 19 | Online | 5 pm - 7 pm.",
+      "Mapping 1: Beginners intro to ArcGIS Storymaps",
+      "Wed. Feb. 26 | Online | 2 pm - 4 pm.",
+      "Data Visualization in R",
+      "Thurs. Feb. 27 | Online| 5 pm - 7 pm",
+      "Intro to Text Analysis in R",
+      "Thurs. March 6 | In Person | 4 pm - 5:30 pm",
+      "Multimodal storytelling with Knight Lab tools",
+      "Tues. March 11 | Online | 4 pm - 5:30 pm",
+      "Web Scraping with Python",
+      "Wed. March 19 | Online | 2 pm - 4 pm",
+      "Data About Data: Best Practices for Metadata",
+      "Mon. March 24 | Online | 12 pm - 2 pm",
+      "Mapping 2: Advanced GIS--Visualizations",
+      "Wed. April 9 | In Person | 12 pm - 2 pm",
+      "In order to be as responsive as possible (workshop space is limited), please:",
+      "1) Be sure to RSVP to the workshops.",
+      "2) If you realize you can’t make it, please RSVP again with the “Can’t go” option.",
+      "Digital Scholarship Drop-in Hour",
+      "Are you working on learning a digital skill? Having trouble with some code? Do you have questions regarding a digital project, or are you seeking reviews about using a digital tool? This semester, drop-in (virtually) on Mondays from 11 am to 1 pm to engage your curiosity, troubleshoot challenges, and grow our community. Look at our calendar and follow our website news page for updates on in-person drop in hours in the future!",
+      "One-on-one Consultations",
+      "Have a question about your digital project? Thinking of including digital tools in your scholarship or teaching? GCDI staff are available to meet in-person at the GC and/or remotely with GC students, faculty, and staff to talk through technical challenges, digital skills, or simply brainstorm. Sign up for a 30-minute consultation through this form.",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice, and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), the Digital Dissertations Group and the Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have free use of the open source, digital publishing platform, Manifold. Manifold is an Andrew W. Mellon Foundation and National Endowment for the Humanities (NEH) funded collaboration between the GC, University of Minnesota Press, and Cast Iron Coding. On CUNY’s instance of Manifold you can publish your own scholarship (searching for mami & abuelita - dissertation, Queer and Trans Prison Voices - capstone), journals (Journal of Interactive Technology and Pedagogy JITP), Open Education Resources (OER) such as: archival projects (Let My People Know, Realizing the Dream of a Black University), class projects & course materials (Black Diasporic Visions, Modern Art and OER Writing Seminar, Archives Unbound) teaching editions of public domain texts (The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), and creative work such as poetry or personal essays (When We Had Cancer).",
+      "Manifold projects are multimedia friendly and texts built in Manifold may be annotated using Manifold’s built-in social annotation tool. To learn about the project, its development, and the institutions using it, follow Manifold on GitHub, join the Manifold Users group on the CAC, and check out our Quick Guides, documentation and walkthroughs to get started using Manifold! If you have questions about using Manifold please contact Robin Miller or Manifold Graduate Fellows Cen Liu and Maura McCreight.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible to register for an account on the CUNY Academic Commons. The Commons is a CUNY-created and run platform for building websites, collaborating with groups, and connecting with peers across the university. Faculty, staff, and students at CUNY use the Commons to teach and take courses, create academic portfolios, host websites for their research projects or academic departments, and more! To learn more, check out the Commons' About page, read the latest Commons News releases, browse featured groups and sites, and visit the Commons' HELP pages for support with getting started.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such as tools, methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Racialized Aspects of Data Collection & Data Use by Peyton Cordero",
+      "What is metadata, and why does it matter? by Maggie Schreiner",
+      "Tidying Data Using tidyverse in R by Chen Zhou",
+      "AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 1) by Parisa Setayesh",
+      "6 Tools for Digital Safety in the Age of Surveillance by Anna Corbett",
+      "10 Useful Extensions for VSCode by Zachary Lloyd",
+      "WordPress: How to create content by Silvia Rivera Alfaro",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "Additional resources include the Digital Archive Research Collective, the Digital Dissertations Resource Guide, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Stay in touch!",
+      "The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "Please don’t hesitate to contact the Digital Fellows gc.digitalfellows@gmail.com with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Anna, Chen, Maggie, Parisa, Peyton, Silvia, Tuka, and Zach",
+      "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023, Zachary Lloyd in 2022, Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018, Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "20693",
+    "title": "Have patience, think creatively: reflections on building digital identity and communications capacity for @gcsocialwelfare",
+    "date": "2024-12-13",
+    "year": "2024–2025",
+    "authors": [
+      "Ian G. Williams"
+    ],
+    "originalAuthors": [
+      "Ian G. Williams"
+    ],
+    "aliases": [
+      "Ian G. Williams",
+      "Ian Williams"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is written by Ian G. Williams",
+    "tags": [
+      "Degree Programs"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/12/13/have-patience-think-creatively-reflections-on-building-digital-identity-and-communications-capacity-for-gcsocialwelfare/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "This post is written by Ian G. Williams, PhD student in Social Welfare and Program Social Media Fellow. Connect with Ian G. Williams on Bluesky@igraywill.bsky.social; Instagram@igraywill; LinkedIn http://linkedin.com/in/iangraywilliams",
+      "Over the last two and a half years, I've had the pleasure of working as the Program Social Media Fellow (PSMF) for The Ph.D. Program in Social Welfare. I manage scholarly communications and our social media accounts. PSMF is a three-year position, intended to support programs at The Graduate Center build their communications infrastructure and social media presence. Every program (and center) at The Graduate Center is unique; the PSMF team reports directly to their program or center, and also works with GCDI.",
+      "The Social Welfare Program started in 1974 as a professional, three-year Doctor of Social Welfare (DSW), and restructured in 2001 into a research-focused Ph.D. It was excluded from the Graduate Center…"
+    ],
+    "fullParagraphs": [
+      "This post is written by Ian G. Williams, PhD student in Social Welfare and Program Social Media Fellow. Connect with Ian G. Williams on Bluesky@igraywill.bsky.social; Instagram@igraywill; LinkedIn http://linkedin.com/in/iangraywilliams",
+      "Over the last two and a half years, I've had the pleasure of working as the Program Social Media Fellow (PSMF) for The Ph.D. Program in Social Welfare. I manage scholarly communications and our social media accounts. PSMF is a three-year position, intended to support programs at The Graduate Center build their communications infrastructure and social media presence. Every program (and center) at The Graduate Center is unique; the PSMF team reports directly to their program or center, and also works with GCDI.",
+      "The Social Welfare Program started in 1974 as a professional, three-year Doctor of Social Welfare (DSW), and restructured in 2001 into a research-focused Ph.D. It was excluded from the Graduate Center Fellowship's relatively uniform funding structure, and most of its students worked outside of school - often in nonprofit and government human services. In 2021, Dr. Harriet Goodman, the program's previous Executive Officer, retired after over 10 years at the helm. Though the degree was always granted by The Graduate Center, it had a long-standing affiliation with what is now the Silberman School of Social Work at Hunter College. Informally, its branding and identity were associated with Hunter, and students took their required classes at that campus. Our current Executive Officer, Dr. Barbra Teater—tenured at The College of Staten Island—was the first EO from a different CUNY school. This triggered some reorganization. In Fall 2021 Social Welfare physically moved into The Graduate Center, while classes were still being held remotely due to the COVID-19 pandemic. When hybrid classes started in Spring 2022, they were held at the GC campus. Dr. Teater started multiple projects and initiatives, including a newsletter, \"In The Loop\", which I took over as managing editor when I came onboard (read the December 2024 issue here).",
+      "When I started as a PSMF in Fall 2022, I was in my second year. I had no experience managing public-facing media. I had ample experience with nonprofit and public sector administration and operations in my career as a social worker. This primed me to the importance of learning the contours and rhythms of our program. To me, learning the contours and rhythms of our program was as essential to getting started as figuring out how to create a LinkedIn profile and to schedule posts with Fedica. That semester I was the incoming program representative for the Doctoral and Graduate Students' Council. Social Welfare was also finishing up a once-every-10-years self-study, which involved an external review by the site reviewers, who conducted focus groups with students and staff before producing a final report. These other processes helped me, crucially, to identify audiences within our school's communities, key stakeholders we were trying to build relationships with, and gave me ample messaging and language to work with. As a PSMF, I focused on internal capacity building to get the needs of our program known and on the agenda for upcoming years. We had a home, but we needed resources - namely, dedicated space and funding parity with other social science programs, which we are now working towards.",
+      "Start-up wasn't as simple as creating accounts, announcing \"hello, world!\" across the Internet. Communications had to fit with our existing operations (often using legacy technologies, fitting the personalities and work habits of administrative staff), and had to make sense for our needs (which were often practical and modest). The marketing and business growth oriented metrics inherent in social media platforms and analytics were largely unhelpful - some degree of quantitative data, like number of followers or post engagements, were useful, but for an academic program of specialists, we’re not the ideal user for mainstream platforms. Figuring out and putting together the program's communications infrastructure required asking a lot of questions.",
+      "Each year had an overarching theme. The first year was learning the rhythms and cycles of our program at The Graduate Center: mapping out strategy, setting up accounts (and reclaiming the inactive ones), creating a CUNY Academic Commons page, working with our APO to set up a program listserv, playing around with graphic design software (Canva and Adobe), developing a production cycle for the newsletter, and attending all program-related events such as faculty meetings and open houses. The second year focused on refining our processes, and brought on an MSW student intern focusing on community organizing at the Silberman School of Social Work to help with some of our community-building and advocacy efforts, the newsletter, and organizing our program's first student symposium. I also sought to increase our documentation of and visibility at conferences, making us known as a distinct Graduate Center program not just within CUNY, but also within the professional and epistemic circles in which our students participate. In my third year, I'm refining these processes and increasing the quality of our visuals (see examples below), gathering more stories from students on their conference experiences, and working with another student intern on some student-led initiatives that help . I am also writing documentation and procedure manuals for the work, so the various tasks and processes can be distributed among students and permanent staff for our program.",
+      "Working as a Program Social Media Fellow is a very interesting and rewarding job. It has its own challenges and constraints, but it's been pretty amazing to help build out our program in ways that I am confident will have a lasting positive impact. It’s extremely rewarding to cultivate a sense of community among my fellow students and promote their accomplishments. It's also been a great way to learn about how a program at The Graduate Center functions. As someone who researches the politics of emerging technologies and digital life, it's also been fascinating to be behind the scenes in the social media and scholarly communications world during the demise of Academic Twitter and diffusion into other platforms and spaces.",
+      "Want to learn more about Social Welfare? Check out our LinkTree and follow our socials from there."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00041040976809098554,
+      0.15755984813942003,
+      0.03528152377256802,
+      0.0001391969514643852,
+      0.0002469429019208279,
+      0.2153599281935368,
+      0.0004500933371530116,
+      0.5905520569358459
+    ],
+    "words": [
+      [
+        "program",
+        23
+      ],
+      [
+        "social",
+        17
+      ],
+      [
+        "work",
+        12
+      ],
+      [
+        "student",
+        12
+      ],
+      [
+        "year",
+        11
+      ],
+      [
+        "medium",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "20674",
+    "title": "Racialized Aspects of Data Collection & Data Use",
+    "date": "2024-12-06",
+    "year": "2024–2025",
+    "authors": [
+      "Peyton Cordero"
+    ],
+    "originalAuthors": [
+      "Peyton Cordero"
+    ],
+    "aliases": [
+      "Peyton Cordero"
+    ],
+    "account": "Peyton Cordero",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "data ethics",
+      "data usage",
+      "News",
+      "racial equity"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/12/06/racialized-aspects-of-data-collection-data-use/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "There is a common misconception that data is neutral, an objective truth. However, the data that we use to build computer programs, to conduct research, and to inform policy cannot exist outside of the systems of oppression that permeate our society. For example, studies show that facial recognition software is least reliable for people of color, women, and nonbinary individuals (Buolamwini & Gebru, 2018; Costanza-Chock, 2020); risk assessment algorithms are more likely to falsely flag black defendants as future criminals as opposed to white defendants (Angwin et al., 2016); and racialized data creates real barriers for minority groups’ access to housing and employment (Williams and Rucker, 2000). Given this, we—as researchers, practitioners, and educators—have a responsibility to consider how systemic inequities impact our data practices.",
+      "Optimization & Standardization",
+      "White, male heteronormativity is often technologically privileged by…"
+    ],
+    "fullParagraphs": [
+      "There is a common misconception that data is neutral, an objective truth. However, the data that we use to build computer programs, to conduct research, and to inform policy cannot exist outside of the systems of oppression that permeate our society. For example, studies show that facial recognition software is least reliable for people of color, women, and nonbinary individuals (Buolamwini & Gebru, 2018; Costanza-Chock, 2020); risk assessment algorithms are more likely to falsely flag black defendants as future criminals as opposed to white defendants (Angwin et al., 2016); and racialized data creates real barriers for minority groups’ access to housing and employment (Williams and Rucker, 2000). Given this, we—as researchers, practitioners, and educators—have a responsibility to consider how systemic inequities impact our data practices.",
+      "Optimization & Standardization",
+      "White, male heteronormativity is often technologically privileged by ideas of optimization and standardization. The ‘database revolution’ of the 1960s, characterized by the need to create more streamlined processes for how large amounts of data is organized, arranged, and managed, emphasized the importance of optimizing databases for usability and to provide “natural” representations of data. However, Stevens, Hoffman, and Florini (2021) argue that “database optimization efforts reproduce and sustain white racial dominance, in part, by making it easier for dominant actors in government and business to both conceive of and organize the social world in ways that served white interests” (p. 114). Some of the most prominent works to emerge from the database revolution take up whiteness as a kind of implicit optimum, the norm for which anything outside becomes a deviation.",
+      "Therefore, it is critical for us to assess how data is collected and constructed in ways that reinforce the matrix of domination (Collins, 1990). The matrix of domination is a “conceptual model that helps us think about how power, oppression, resistance, privilege, penalties, benefits, and harms are systematically distributed,” and, when we think about data as a reflection of existing power dynamics, it is imperative that we consider the ways in which databases can serve to enshrine inequities (Costanza-Chock, 2020, p. 20). The most vulnerable populations should have both access to and control over their data, and are entitled to informed consent and transparency about how their data is being used.",
+      "Data Collection",
+      "“The decisions people make about which data matter, what means and methods to use to collect them, and how to analyze and share them are important but silent factors that reflect the interests, assumptions, and biases of the people involved” (Gaddy & Scott, 2020, 1). Racial and gender equity need to be considered during the entire data life cycle, including in planning, collection, access, use of statistical tools, analysis, and dissemination. Oftentimes, disparities are overlooked or ignored due to a simple lack of data on certain populations. For example, Boston University’s Center for Antiracist Research assisted race and ethnicity data collection efforts during the COVID-19 pandemic. They found that state-reported data suffered from deficiencies that led to errors and underestimations of racial and ethnic inequalities, including incomplete datasets, failing to account for the ways that race and ethnicity can intersect, and defining race and ethnicity in overly broad ways that obscure experiences of racism and subordination (Khoshkhoo et al., 2022). These limitations hindered evidence-based responses to the pandemic for already-marginalized groups. Remember, when collecting data, it is important to not only consider what data is available, but also what data is missing and why. Data collection practices that fail to consider race as a critical factor pose tangible harms to individuals of color.",
+      "Data Use",
+      "The University of Pennsylvania’s Actionable Intelligence for Social Policy created a toolkit for Centering Racial Equity Throughout Data Integration. Here, they uphold the work of BU’s Center by encouraging researchers to practice ethical data use with a racial equity lens “that supports power sharing and building across agencies and community members” (AISP, 2022, p. 1). They shine a light on the risks and benefits of civic data use and suggest that, while cross-sector data can often give us a more holistic view of the individuals who are ‘datafied,’ it can also reinforce legacies of racist policies and promote problematic practices. The toolkit states that:",
+      "Incorporating a racial equity lens during data analysis includes incorporating individual, community, political, and historical contexts of race to inform analysis, conclusions and recommendations. Solely relying on statistical outputs will not necessarily lead to insights without careful consideration during the analytic process, such as ensuring data quality is sufficient and determining appropriate statistical power. (AISP, 2022, p. 28)",
+      "Data should be used in ways that benefit the communities from which the data comes from.",
+      "Conclusion",
+      "Data reflects our social world, meaning that race—as well as gender, class, sexuality—is a powerful mediator for how we use and interpret it. Using some of the insights and resources from this blog, I am hopeful that readers will take some time to consider how they incorporate antiracist methodologies into their data work. Remember that all data have limits, and it’s both incorrect and harmful to assume that something technological is automatically objective and neutral. Nuanced identities and circumstances exist as much in the digital world as they do in the physical world, and they require our attention.",
+      "References & Resources:",
+      "Actionable Intelligence for Social Policy. (2022). A Toolkit for Centering Racial Equity Throughout Data Integration. https://aisp.upenn.edu/wp-content/uploads/2022/07/AISP-Toolkit_5.27.20.pdf",
+      "Buolamwini, J., & Gebru, T. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. Proceedings of Machine Learning Research, 81, 1-15.",
+      "Costanza-Chock, S. (2020). Design Justice: Community-led Practices to Build the Worlds We Need. MIT Press.",
+      "Williams, D. R., & Rucker, T. D. (2000). Understanding and addressing racial disparities in health care. Health care financing review, 21(4), 75–90.",
+      "Stevens, N., Hoffmann, A.L., & Florini, S. (2021) The unremarked optimum: whiteness, optimization, and control in the database revolution. Review of Communication, 21(2), 113-128.",
+      "Angwin, J., Larson, J., Mattu, S., and Kirchner, L. (2016). Machine Bias. ProPublica, https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
+      "Collins, P.H. (2002). Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment. New York: Routledge.",
+      "Gaddy, M. & Scott, K. (2020). Principles for Advancing Equitable Data Practice. Urban Institute. https://www.urban.org/sites/default/files/publication/102346/principles-for-advancing-equitable-data-practice.pdf",
+      "Khoshkhoo, N.A., Schwarz, A.G., Puig, L.G., Glass, C., Holtzman, G.S., Nsoesie, E.O., and Rose, J.B.G. (2022). Toward Evidence-Based Antiracist Policymaking: Problems and Proposals for Better Racial Data Collection and Reporting. BU Center for Antiracist Research. https://www.bu.edu/antiracism-center/files/2022/06/Toward-Evidence-Based-Antiracist-Policymaking.pdf"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.10634135321535242,
+      0.6641594367937006,
+      0.040316232148748174,
+      0.00012750822343430722,
+      0.020219679414355998,
+      0.10530562246709498,
+      0.0004122978355218007,
+      0.0631178699017916
+    ],
+    "words": [
+      [
+        "data",
+        35
+      ],
+      [
+        "racial",
+        9
+      ],
+      [
+        "consider",
+        6
+      ],
+      [
+        "practice",
+        6
+      ],
+      [
+        "database",
+        6
+      ],
+      [
+        "way",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "20646",
+    "title": "Digital Humanities in the Anthropocene",
+    "date": "2024-11-25",
+    "year": "2024–2025",
+    "authors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "originalAuthors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "aliases": [
+      "Silvia Rivera Alfaro"
+    ],
+    "account": "Silvia Rivera Alfaro",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "AI",
+      "data ethics",
+      "DH",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/11/25/digital-humanities-in-the-anthropocene/",
+    "signals": [
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "The Anthropocene is the age marked by the substantial consequences that human activities have caused to the Earth system (the different natural processes and their interactions) [1]. As humans, we are part of the natural world; our digital artifacts are not. With that said, what are some challenges of doing Digital Humanities (DH) in the Anthropocene?",
+      "An epistemological challenge is to revise how we think about DH projects. As humanists, we need to include the material part in the project design and consider its environmental impact: the digital infrastructure required to make it possible, including all the different layers of software and hardware you need for your project; those you can see and those you do not see.",
+      "An ontological challenge that arises from this is to resituate ourselves: to think about ourselves together with other species within the natural world, rather than as superior or external to nature. This line of thinking…"
+    ],
+    "fullParagraphs": [
+      "The Anthropocene is the age marked by the substantial consequences that human activities have caused to the Earth system (the different natural processes and their interactions) [1]. As humans, we are part of the natural world; our digital artifacts are not. With that said, what are some challenges of doing Digital Humanities (DH) in the Anthropocene?",
+      "An epistemological challenge is to revise how we think about DH projects. As humanists, we need to include the material part in the project design and consider its environmental impact: the digital infrastructure required to make it possible, including all the different layers of software and hardware you need for your project; those you can see and those you do not see.",
+      "An ontological challenge that arises from this is to resituate ourselves: to think about ourselves together with other species within the natural world, rather than as superior or external to nature. This line of thinking also includes seeing the value of all human lives as equal, rather than through the lens of the imaginary hierarchies that societies have invented. The understanding of our belonging to the Earth alongside other species implies a different positionality in the humanities to respect and care for life in general.",
+      "To approach these challenges, we can guide our responses by Paulo Freire’s idea of knowledge as the transformative collective action of human beings over the world, to see that our DH projects are not individual, but part of society. Then, we can think of DH in terms of situated knowledge and explore ideas of a caring society, which also implies a paradigm shift towards an operative perspective for working on reducing the environmental impact of DH projects. I use the term “working” because discussing is not enough, the material consequences of everyday technologies require responses in the realm of action. And here I have no recipe, this is a call for collective action.",
+      "Now, let’s contextualize those challenges beyond any specific DH project. We live in a moment when data is a major commodity that is central to markets. For example, we pay tech companies, who are third parties, to store our files “in the cloud” and/or to process our data (e.g. with smartwatches and other devices). Tech companies also extract information from our everyday digital activities to use it for profit by selling it or applying it to developing new tools, such as training artificial intelligence. This model has been described as data colonialism.",
+      "However, data colonialism requires digital infrastructure. The unhappy metaphor of “the cloud” is a distraction to shade scrutiny. In reality, data centers are industrial complexes [2] spread across the globe, as seen in this Data Center Map. The natural resources needed to operate data storage facilities affect the conditions of the ecosystems around them, for humans and non-humans. One of those resources is massive amounts of water; a report by environmental organizations mentions that “the U.S. Department of Energy estimated that U.S. data centers consumed 1.7 billion liters per day in 2014, or 0.14% of daily U.S. water use” (p.5).",
+      "Additionally, creating the hardware for those data centers and the infrastructure that connects us to them has only been possible due to extractivist practices. The history of technological development is linked to the extraction of raw materials (e.g. copper, silver, gold, lithium) mainly from the Global South, disregarding its effects on life on Earth. This implies that some of the most affected communities are those who have been historically dispossessed and happen to be also the most vulnerable to the changes in the Anthropocene. In other words, when someone says that “data is the new oil,” we can think of this comparison not only from the side of the value of its production, but also from the damaging effects of the oil industry profiting without caring for life on Earth.",
+      "To all this, we need to add the recent rise of Artificial Intelligence, which adds a layer of complexity due to the massive amounts of computing power and data centers required to train and interact with the model, leading to even greater consumption of natural resources. We might learn more about the carbon impact of AI to make informed decisions, and, in case we use artificial intelligence in a project, it would be worth adding a note of the environmental impact of our research in the disclosure statement at the end of our work.",
+      "Thinking through these ethical needs and the footprints of our DH projects is a very challenging proposal, but it is especially urgent in the current context. Responding to this challenge might make a difference in the creation of humanistic knowledge that could contribute beyond the humanities.",
+      "References that are not available with open access:",
+      "[1] Zalasiewicz, Jan, Colin N. Waters, Mark Williams, and Colin P. Summerhayes. (eds). 2019. The Anthropocene as a Geological Time Unit: A Guide to the Scientific Evidence and Current Debate. Cambridge: Cambridge University Press. https://doi.org/10.1017/9781108621359.",
+      "[2] Hogan, Mél. 2021. “The Data Center Industrial Complex.” In Melody Jue & Rafico Ruiz (eds.) Saturation: An Elemental Politics. Duke University"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005163472023628219,
+      0.5661970021055456,
+      0.0031982824798231536,
+      0.0001751273045970357,
+      0.1101515389154656,
+      0.2187755208428548,
+      0.0005662741326117296,
+      0.10041990701673921
+    ],
+    "words": [
+      [
+        "data",
+        12
+      ],
+      [
+        "project",
+        8
+      ],
+      [
+        "human",
+        6
+      ],
+      [
+        "challenge",
+        6
+      ],
+      [
+        "natural",
+        5
+      ],
+      [
+        "digital",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "20620",
+    "title": "What is metadata, and why does it matter?",
+    "date": "2024-11-15",
+    "year": "2024–2025",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "data ethics",
+      "digital archives",
+      "metadata",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/11/15/what-is-metadata/",
+    "signals": [
+      "Archives, text & media",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Metadata is “data about data”. In other words, metadata is information that describes one or more aspects of data. It makes working with data easier, and it allows machines to interpret and display data. One example of metadata is the catalog card, which was used to locate books in a library prior to the creation of digital catalogs. From the catalog card below, we can learn over a dozen data points about the one book represented by the card: its title, author, the author’s lifespan, the original language of publication, the translator, the publisher and year of publication, the number of pages, the physical size of the book, and its call number (or location in the library). We can even surmise that this catalog card was created before 1960, since Camus’ death date is written in by hand.",
+      "Catalog card for Albert Camus' The Stranger. Image credit: Rachel Mattson.",
+      "As humans, we are able to interpret these different data points, and…"
+    ],
+    "fullParagraphs": [
+      "Metadata is “data about data”. In other words, metadata is information that describes one or more aspects of data. It makes working with data easier, and it allows machines to interpret and display data. One example of metadata is the catalog card, which was used to locate books in a library prior to the creation of digital catalogs. From the catalog card below, we can learn over a dozen data points about the one book represented by the card: its title, author, the author’s lifespan, the original language of publication, the translator, the publisher and year of publication, the number of pages, the physical size of the book, and its call number (or location in the library). We can even surmise that this catalog card was created before 1960, since Camus’ death date is written in by hand.",
+      "Catalog card for Albert Camus' The Stranger. Image credit: Rachel Mattson.",
+      "As humans, we are able to interpret these different data points, and understand their relative significance and meaning. For a computer to interpret this catalog card, it is necessary for the data to be structured and tagged. For digital library catalog to function, the book’s title must be indicated as the title; publisher as the publisher, and number of pages as the number of pages, and so forth. In libraries and archives, this is often accomplished through standards such as the Standard Generalized Markup Language or XML. Furthermore, different metadata standards and vocabularies are used to ensure that resources are being described in similar ways by different people and at different institutions. Commonly used metadata standards include MARC and Dublin Core (which will be familiar to users of Omeka). A vocabulary that all library users will have encountered is Library of Congress Subject Headings (LCSH), which is used to indicate the subject matter of items in library catalogs.",
+      "MARC record for Albert Camus' The Stranger. The Library of Congress Subject headings appear in MARC field 650.",
+      "Metadata standards and vocabularies allow digital catalogs to return appropriate results to library users. However, these standards reflect the biases of both the creators of these standards, and how they are applied to individual resources. LCSH, which are used across the United States and around the world, are an excellent example. In 1980, the subject heading, or topical term, “Aliens, Illegal” was established by the Library of Congress to describe materials on the topic of unauthorized immigration. This term reflected a longstanding nativist framing of immigrants as both illegal, and fundamentally “alien” to the American body politic.[1]",
+      "In 2014, Dartmouth University students and staff submitted an official proposal to the Library of Congress to change the subject heading; two years later the Library announced the term would be replaced with “noncitizens” and/or “unauthorized immigration”. Shortly after this announcement, the House of Representatives ordered the Library of Congress to continue using the term “illegal aliens” (this was the first time Congress intervened in a LCSH change). Many libraries individually opted to stop using this term, which remained in official usage until 2021. The current subject heading is “illegal immigration,” thus only partial resolving the demands of librarians and student activists. You can learn more about the campaign to change this subject heading by watching the documentary Change the Subject or reading the thesis of Grad Center librarian Silvia Cho on this topic.",
+      "More recently, librarians and their allies have successfully advocated to add new subject headings pertaining to the historical existence of Palestine, including “Palestine question (to 1948),” which was largely unrecognized within the LCSH prior to 2023.",
+      "[1] Ngai, Mae M. Impossible Subjects: Illegal Aliens and the Making of Modern America. Princeton: University Press, 2004."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.7838035892267176,
+      0.020278094735427143,
+      0.0038166357019774238,
+      0.00020898626914064196,
+      0.0003707529167864109,
+      0.10705745994035352,
+      0.0039526918709481065,
+      0.08051178933864911
+    ],
+    "words": [
+      [
+        "library",
+        14
+      ],
+      [
+        "subject",
+        10
+      ],
+      [
+        "catalog",
+        9
+      ],
+      [
+        "data",
+        8
+      ],
+      [
+        "standard",
+        7
+      ],
+      [
+        "heading",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "20594",
+    "title": "Tidying Data Using tidyverse in R",
+    "date": "2024-11-08",
+    "year": "2024–2025",
+    "authors": [
+      "Chen Zhou"
+    ],
+    "originalAuthors": [
+      "Chen Zhou"
+    ],
+    "aliases": [
+      "Chen Zhou"
+    ],
+    "account": "Chen Zhou",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "R",
+      "RStudio",
+      "tidyverse"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2024/11/08/tidying-data-using-tidyverse-in-r/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Introduction",
+      "When researchers collect quantitative data, they often store it in a CSV, TSV, or TXT file for cleaning and analysis. This data can then be loaded into R for visualization and statistical processing. However, before data can be effectively visualized or analyzed, it often requires cleaning and reshaping to be in the correct format. The tidyverse, a popular collection of R packages, provides tools to make this process more efficient. The tidyverse includes packages like readr (for reading data files), dplyr (for data transformation), tidyr (for reshaping data), and ggplot2 (for data visualization), along with tibble, stringr, purrr, and forcats. In this post, I’ll walk you through some essential functions in these packages for tidying your data, with exercises included to help you practice programming in R.",
+      "Prerequisites",
+      "Download and install R and RStudio on your computer. Then, open the RStudio and create a new R script so…"
+    ],
+    "fullParagraphs": [
+      "Introduction",
+      "When researchers collect quantitative data, they often store it in a CSV, TSV, or TXT file for cleaning and analysis. This data can then be loaded into R for visualization and statistical processing. However, before data can be effectively visualized or analyzed, it often requires cleaning and reshaping to be in the correct format. The tidyverse, a popular collection of R packages, provides tools to make this process more efficient. The tidyverse includes packages like readr (for reading data files), dplyr (for data transformation), tidyr (for reshaping data), and ggplot2 (for data visualization), along with tibble, stringr, purrr, and forcats. In this post, I’ll walk you through some essential functions in these packages for tidying your data, with exercises included to help you practice programming in R.",
+      "Prerequisites",
+      "Download and install R and RStudio on your computer. Then, open the RStudio and create a new R script so you can save your work for later. To get started, install the tidyverse package and load it into your script: install.packages(\"tidyverse\") library(tidyverse)",
+      "Let's Create a Hypothetical Dataset!",
+      "Let's create a hypothetical dataset that records students' IDs, genders, and their mid-term scores in English, Biology, Maths, and Physics. student_scores <- data.frame( Student_ID = 1:11, English = c(85, 78, 92, 67, 88, 76, 95, 80, 72, 90, 100), Biology = c(95, 87, 90, 79, 94, 96, 93, 82, 89, 97, 105), Maths = c(90, 82, 58, 74, 89, 91, 88, 77, 84, 92, 100), Physics = c(78, 85, 89, 80, 90, 76, 83, 91, 87, 79, 100), Gender = c(\"f\", \"f\", \"m\", \"m\", \"f\", \"m\", \"m\", \"f\", \"m\", \"m\", \"non-binary\")) In this dataset, each column is a variable, each row is an observation, and each cell is a single value. You can view the dataset in RStudio using the following lines of code. The first line opens a new window and display the entire dataset, while the second line shows just the first six rows by default: view(student_scores) head(student_scores) The dataset looks like this:",
+      "Extracting the Rows You Need: filter()",
+      "If you want to work specifically with certain rows, you can use the filter() function. You can combine it with logical or/and boolean operators to extract the rows you want. Commonly used logical operators with filter() include:",
+      "== (is equal to)",
+      "!= (is not equal to)",
+      "> (greater than)",
+      "< (less than)",
+      ">= (greater than or equal to)",
+      "<= (less than or equal to)",
+      "For example, to create a new dataset (called tmp) that only includes scores for female students (\"f\" represents female while \"m\" represents male), you can use ==: tmp <- student_scores %>% filter(Gender == \"f\") The %>% operator, known as the pipe, passes the object (in this case, our dataset) on its left as the input argument to the function to its right (in this case, the function below).",
+      "Or, if you want scores for students who are NOT female students, use !=: tmp <- student_scores %>% filter(Gender != \"f\") You can also create a dataset that includes only students with Maths scores of 90 or higher: tmp <- student_scores %>% filter(Maths >= 90) To add a bit more complexity, you might want to include only students with Maths scores of 90 or higher and Physics scores above 76. In this case, use the & operator (a boolean operator meaning \"and\") to combine these two conditions: tmp <- student_scores %>% filter(Maths >= 90 & Physics > 76) Other commonly used (boolean) operators with the filter() function include:",
+      "| (or)",
+      "!is.na() (is not an NA value, used to filter out missing values coded as NA in the dataset",
+      "Exercise 1: Try creating a dataset that includes only students with ID numbers from 1 to 5. Hint: use the %in% operator along with filter(). If you're unsure what the %in% operator does, take a few minutes to look it up -- it is a useful tool often combined with the filter()!",
+      "Selecting Specific Columns: select()",
+      "Sometimes a dataset can have many columns, but we only want to select some of it to play with. We can use select() to get the specific columns we need: tmp <- student_scores %>% select(one_of(c(\"Student_ID\", \"Maths\", \"Physics\", \"Gender\"))) Alternatively, you can get the same dataset by deleting the unnecessary column using the - operator: tmp <- student_scores %>% select(-c(\"English\", \"Biology\")) You can also use the : operator to select a range of columns. For example, if you want to select Student_ID, English, Biology, and Maths (since they are next to each other in our dataset), you don't need to type each column name individually. Instead, you can simply use: tmp <- student_scores %>% select(Student_ID:Maths)",
+      "Creating a New Column Based on an Existing Column: mutate()",
+      "Sometimes, you may need to add a new column to your dataset based values in an existing column. For example, if we know whether students failed in the Maths, you can create a new column (let's name it as fail_in_maths) that marks a failed score with 1 and others with 0. You can use mutate() combined with ifelse() to achieve this: tmp <- student_scores %>% mutate(fail_in_maths = ifelse(Maths < 60, 1, 0)) If you're still unsure of what ifelse() does, try asking RStudio for help: ?ifelse() Running the code adds fail_in_maths as a new column, where 1 represents a failing Maths score and 0 represents a passing score.",
+      "Exercise 2: Create a dataset that includes only students with a passing Maths score.",
+      "Hint 1: use both mutate() and filter().",
+      "Hint 2: the %>% operator can be used multiple times to chain functions together.",
+      "Reshape the Dataset: pivot_longer() and pivot_wider()",
+      "Some functions that I will introduce soon, such as group_by(), summarise(), require the dataset to be in a specific shape. Currently, our dataset has each course score in separate columns, which isn't ideal for calculating descriptive statistics like mean, maximum, minimum, and standard deviation. You can reshape the dataset to list all the scores in one column, with an additional column showing the course corresponding to each score. Since you are going to need this dataset for descriptive statistics, let's name this new dataset as scores_reshape.",
+      "To do this, we can use pivot_longer(), which rearranges multiple columns into two new columns: one for the course names and one for the scores: scores_reshape <- student_scores %>% pivot_longer( cols = English:Physics, # columns to reshape: from English to Physics names_to = \"courses\", # new column name for the course names values_to = \"scores\" # new column name for the scores ) After running this, your dataset will have a courses column listing each course name, and a scores column showing each student's score for each course.",
+      "Exercise 3: use pivot_wider() to convert scores_reshape back to its original form, where each course has a separate column for its scores.",
+      "Last but Not Least: group_by() and summarise()",
+      "The group_by() function allows you to group your dataset by a specific variable so that you can perform further operations, like summarise()within each group. For example, if you want to calculate the average scores of each course, you can first group the data by course with group_by(). Then, use summarise()to create a new dataset that calculates the mean for each group (in this case, each course is a group), with each group represented in a separate row.",
+      "To calculate the average scores, use mean() function as shown below: mean_scores <- scores_reshape %>% group_by(courses) %>% summarise(ave_scores = mean(scores)) mean_scores This code will produce a new dataset mean_scores, with two columns: courses and ave_scores. It will contain four rows, each representing the average score for one of the four courses: English, Biology, Maths, and Physics.",
+      "Note: summarize() and summarise() are synonyms. They can be used interchangeably.",
+      "Exercise 4: Create a new dataset that calculates the mean and standard deviation of scores for female and male students.",
+      "Hint 1: Use filter() to exclude the non-binary student.",
+      "Hint 2: Use sd() to calculate the standard deviation.",
+      "Additional resources",
+      "If you find this tutorial helpful and want to explore more functionalities of R for data analysis, here are some online books you can use for self-learning:",
+      "Data Analytics in Digital Research with R (an online book by our former Digital Fellow, Yuxiao Luo)",
+      "R for Data Science (second edition)",
+      "Learning Statistical Models Through Simulation in R",
+      "If you'd like to see the answer keys to exercises in this tutorial, or need help working through them, feel free to join our R User Group on Mattermost! I will be posting the answer keys there."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0031657278209940094,
+      0.00027219167868156773,
+      0.7916577060810217,
+      9.22718716829947e-05,
+      0.1636561890337165,
+      0.035693450073785035,
+      0.00029836109350268083,
+      0.005164102346615417
+    ],
+    "words": [
+      [
+        "score",
+        45
+      ],
+      [
+        "student",
+        28
+      ],
+      [
+        "dataset",
+        27
+      ],
+      [
+        "column",
+        25
+      ],
+      [
+        "math",
+        17
+      ],
+      [
+        "course",
+        15
+      ]
+    ]
+  }
+]

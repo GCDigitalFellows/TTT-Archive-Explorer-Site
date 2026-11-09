@@ -1,0 +1,12 @@
+{
+  "population": 299,
+  "archive": 421,
+  "cloudLimit": 60,
+  "sunburstLimit": 5,
+  "inputs": [
+    "nlp/corpus_manifest.csv",
+    "nlp/cleaned_text/",
+    "nlp/stopwords_english.txt",
+    "nlp/stopwords_custom.txt"
+  ]
+}

@@ -1,0 +1,2124 @@
+[
+  {
+    "id": "6057",
+    "title": "Top Mapping Mistakes",
+    "date": "2021-05-12",
+    "year": "2020–2021",
+    "authors": [
+      "Olivia Ildefonso"
+    ],
+    "originalAuthors": [
+      "Olivia Ildefonso"
+    ],
+    "aliases": [
+      "Olivia Ildefonso"
+    ],
+    "account": "Olivia Ildefonso",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "data",
+      "Featured",
+      "gis",
+      "mapping",
+      "Reflections",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/05/12/top-mapping-mistakes/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "Throughout the past three years as a Graduate Center Digital Fellow, I’ve spent much of my time helping other students and faculty with their mapping projects. I’ve loved getting to learn about the rich range of research projects across disciplines. Though each project has been unique, I’ve noticed common challenges and frustrations that seem to exist for every mapping practitioner. I’ve also consulted with members of the GIS Working Group to collect their input on this topic. Thank you to everyone who shared their observations!",
+      "This article addresses some of the most common mapping mistakes so you can save yourself from these pitfalls and have a smoother experience in your mapping journey.",
+      "Cartographic Issues",
+      "Every mapmaker soon discovers that cartography is much more than making a map look good. The cartographic process is filled with subjective decision-making—which colors to choose, what data to visualize, what symbols to use—that can…"
+    ],
+    "fullParagraphs": [
+      "Throughout the past three years as a Graduate Center Digital Fellow, I’ve spent much of my time helping other students and faculty with their mapping projects. I’ve loved getting to learn about the rich range of research projects across disciplines. Though each project has been unique, I’ve noticed common challenges and frustrations that seem to exist for every mapping practitioner. I’ve also consulted with members of the GIS Working Group to collect their input on this topic. Thank you to everyone who shared their observations!",
+      "This article addresses some of the most common mapping mistakes so you can save yourself from these pitfalls and have a smoother experience in your mapping journey.",
+      "Cartographic Issues",
+      "Every mapmaker soon discovers that cartography is much more than making a map look good. The cartographic process is filled with subjective decision-making—which colors to choose, what data to visualize, what symbols to use—that can dramatically alter the final product. Poor decisions can lead to confusing or even misleading maps. Even beautifully designed maps can be cartographically inaccurate. To avoid this pitfall, take the time to become well-versed in standard cartographic best practices.",
+      "Here are some common cartographic mistakes:",
+      "1. Showing too much data. This is a mistake made by even veteran GIS practitioners. Mapmaking is a delicate balance between trying to represent a complex reality and producing a readable map. To help address this problem, find ways to contextualize your map, such as integrating your map into a Story Map or embedding it on a website where you can provide more information.",
+      "2. Adding unnecessary mapping elements. Beginner GISers are often so excited when it’s finally time to jazz up their map that they go a little overboard and include fancy scale bars and north arrows that are either unnecessary or that clash with the style of the map.",
+      "3. Using a multicolored categorization for quantitative data. Multicolored categorizations are best for qualitative data, such as a map that shows different types of vegetation. Additionally, the color choices shouldn’t be random but reflective of the category—woodland (brown), forest (green), tundra (white or light brown), etc.",
+      "4. Using choropleth maps to display absolute numbers. Choropleth maps represent values by shading patterns. They should be used to display normalized data, which is data that has been compared to the whole population (e.g. rates, percentages, proportions, per capita values, medians, or averages).",
+      "5. Choosing the wrong color ramp. A bi-chromatic color ramp (the one with two distinct colors) should be used with data that goes above and below a midpoint (e.g. above and below sea level). A single-color ramp should be used to display a continuum without a midpoint (e.g. percent of population fully vaccinated).",
+      "For more on this topic, check out these helpful resources on standard cartographic practices:",
+      "Book: How to Lie with Maps by Mark Monmonier",
+      "Book: Ways of Representing the World by Daniel Dorling and David Fairbairn",
+      "Article: Which Color Scale to Use When Visualizing Data",
+      "Skipping Steps",
+      "Mapping takes time, so it’s tempting to skip steps to speed up the process. If you are using ArcGIS, maybe you skip over organizing your data in ArcCatalog. If you are using QGIS maybe you fail to document the plugins that you used. While speeding up the initial process, skipping steps can cause much more time wasted in the future. So be kind to your future self and avoid some of these common mistakes.",
+      "1. Not documenting the process. This can lead to a lot of confusion down the road if you have to recreate your map. Be sure to record where you got the data, how you cleaned the data, and your general workflow, including the spatial operations you performed and the settings.",
+      "2. Not taking the time to familiarize yourself with your data. Once a student told me that there was something wrong with QGIS because they had over 5000 rows in their map layer, but only a few hundred points showed up on the map. When we looked at the attribute table together, we discovered the cause of the confusion--the data was longitudinal. While at first glance it seemed that there were over 5000 addresses, there were only a few hundred unique addresses with data provided for several years.",
+      "3. Not taking the time to select the best data available to you. I often see people using Census tract data when they are actually interested in a spatial phenomenon occurring at the neighborhood level. In this case, they should consider using neighborhood tabulation areas (for NYC), Census designated places (for some suburbs and rural areas), zip code tabulation areas (ZCTAs), or community tabulation areas (CTAs).",
+      "4. Not cleaning your data. Taking the extra steps to clean your data before you import it into your mapping software will help tremendously in the long run. For example, often we only need a few variables from a large dataset. The mapping process will be more manageable if you remove the unnecessary variables.",
+      "Being Uncritical",
+      "Maps are powerful. The cartesian map that divides the world into coordinates has its origins as a tool for nation-state building and colonialism. Due to this history, maps are often seen as authoritative and therefore representing objective truth. Still today, if something is displayed in the form of a map, it’s rarely questioned for its veracity. And yet, the real truth is that all maps only represent partial truths. For this reason, it’s essential to take the mapmaking process seriously and to approach it with a critical perspective.",
+      "Here are some common ways that being uncritical can negatively affect your map and affect how people engage with it:",
+      "1. Assuming that the default parameters for a tool are the most appropriate. While the GIS software is programmed to read and respond to certain aspects of your data, remember that you are the one who knows the data the best. If you let your mapping software make decisions for you, it could easily result in a map with compounded inaccuracies.",
+      "2. Not being aware of the geographic coordinate system and the projected coordinate system. A geographic coordinate system (GCS) tells the software where to draw the data and a projected coordinate system (PCS) tells it how to draw the data by flattening a 3D world onto a 2D surface. GCSs and PCSs work together and there are many to choose from. Each GCS is designed to fit a different part of the world and each PCS is designed to reduce different types of distortions. If you haphazardly combine them, your data may draw in the wrong place and your map may include unforeseen distortions. It’s important to decide which GCSs and PCSs you want to use and transform the map layers so they will be drawn without unknown errors. Check out this helpful article for more on how to select the right geographic transformation.",
+      "3.Thinking the map will speak for itself. Instead of treating your map as a representation of objective reality, try taking a feminist approach and be transparent about the subjective decisions that occur during the mapping process. This includes providing information about why the data was chosen, what important information is missing (the map’s silences), and how spatial operations manipulated the data.",
+      "4. Not knowing how the data was collected. Data collection is a tricky process that is also fraught with subjective decisions and human errors. Suppose you are not collecting the data yourself. In that case, it’s even more important to take the time to learn about your data sources and how they went about collecting, aggregating, manipulating and cleaning the data.",
+      "5. Not selecting an appropriate resolution for the data. Does the data’s resolution make sense in answering your research question? A lot of people use Census data, such as Census tracts, but sometimes these aren’t the most appropriate boundaries. For example, suppose you are studying a spatial phenomenon at the community level, do the boundaries that you’ve selected have meaning to those communities? Does it represent their sense of place?",
+      "6. Not fully understanding how the spatial operation works. Let’s say you need to aggregate data from the Census tract level to the Census Designated Place (CDP) level. You’d need to perform a Spatial Join by Location that compares the boundaries of both layers and aggregates the census tracts in each CDP. But how would the mapping software decide which Census tracts to include and which to leave out? If only a tiny bit of one Census tract is inside a CDP boundary should the whole tract be counted? Learning about how the Spatial Join by Location operation works is necessary to answer these critical questions.",
+      "Data Management",
+      "When people complain about things going haywire and “not working”, they are more often than not having data management issues. Much can go wrong when handling spatial data, from accidentally breaking up your shapefiles to having mismatches in your target and join fields.",
+      "Here is a list of some of the most common data management issues:",
+      "1. Not keeping your data organized. Although shapefiles are still the most widely used vector data format, handling them can be a pain. Each shapefile is not just one file but a set of files that must be kept together for the data visualization to work. Additionally, as you perform spatial joins and other operations, your number of files can quickly grow. To save yourself future headaches, be sure to establish a proper file management structure.",
+      "2. Giving your variables names that are too long, contain spaces, or have special characters. For shapefiles, there is a 10-character limit for attribute names. This can be a problem if you join a CSV that has attribute names longer than 10 characters. The names will be truncated, which could make them unreadable. Be sure to keep your attribute names short and without spaces or special characters since those can cause additional issues. Additionally, if using QGIS, note that the automatic join setting adds a prefix to each of the joined fields. The default prefix is the joint layer's name, so if you have a long name, it will entirely cut off your field names, making them impossible to decipher.",
+      "3. Not getting the data into the correct format before importing it into your mapping software. Be careful if you edit a CSV dataset with Excel before importing it in your GIS software as Excel might automatically change long numbers into scientific notation. Once you save the CSV, those long numbers will be truncated. This is particularly problematic for US Census numeric ID numbers. Excel is also known for misformatting date fields. Be sure to check all of the attribute field types before importing the text file into your mapping software.",
+      "4. When performing a Join by Attribute the field type of the join and target fields don’t match. While seemingly small, this mistake will prevent a successful spatial join. There are a few ways to resolve this issue. One is to use a special tool in your mapping software to change the attribute type. In QGIS you can use the refactor field tool. Another option is to make sure that your mapping software reads in the CSV’s field types when you import the file. One way to do this is to create a .csvt file to indicate column data types in a CSV file.",
+      "5. Not setting up the “environmental settings” when working with raster data. I admittedly only work with vector data, but a member of the GIS Working Group provided this recommendation for raster users. They warned that not setting the mask, cell size, and snapping to option can cause significant problems. They recommended checking the environmental setting at the general and tool level before running any tool.",
+      "Moving Forward",
+      "With this list of common mapping mistakes on hand, I hope you will save yourself some time and frustration. Also, remember that if you ever need assistance from a Graduate Center Digital Fellow, you can request a 30 minute consultation. Additionally, I hope you will join the Graduate Center’s GIS Working Group on CUNY Academic Commons where you can be part of a community of mapping practitioners and enthusiasts. All levels are welcome!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00019831465610456757,
+      0.012854462711847984,
+      0.010720408216285993,
+      6.726154615877443e-05,
+      0.6044456505615855,
+      0.28757706660087246,
+      0.002326831655232897,
+      0.0818100040519119
+    ],
+    "words": [
+      [
+        "data",
+        45
+      ],
+      [
+        "map",
+        29
+      ],
+      [
+        "mapping",
+        16
+      ],
+      [
+        "spatial",
+        10
+      ],
+      [
+        "census",
+        10
+      ],
+      [
+        "software",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "17816",
+    "title": "Who Benefits from Health Misinformation?",
+    "date": "2021-05-07",
+    "year": "2020–2021",
+    "authors": [
+      "Erin McAweeney"
+    ],
+    "originalAuthors": [
+      "Erin McAweeney"
+    ],
+    "aliases": [
+      "Erin McAweeney"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/05/07/who-benefits-from-health-misinformation/",
+    "signals": [],
+    "paragraphs": [
+      "The insightful blog post from Data & Society: Points draws attention towards the harmful effects of health misinformation that circulates on social media and the internet. The author explores how minsinformation regarding the COVID-19 pandemic created an online information ecosystem that eroded trust in health experts and institutions.",
+      "Read more: Who Benefits from Health Misinformation?"
+    ],
+    "fullParagraphs": [
+      "The insightful blog post from Data & Society: Points draws attention towards the harmful effects of health misinformation that circulates on social media and the internet. The author explores how minsinformation regarding the COVID-19 pandemic created an online information ecosystem that eroded trust in health experts and institutions.",
+      "Read more: Who Benefits from Health Misinformation?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "6053",
+    "title": "My Feelings on the Digital Research Institute",
+    "date": "2021-05-03",
+    "year": "2020–2021",
+    "authors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "originalAuthors": [
+      "Silvia Rivera Alfaro"
+    ],
+    "aliases": [
+      "Silvia Rivera Alfaro"
+    ],
+    "account": "Silvia Rivera Alfaro",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "GCDRI",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/05/03/my-feelings-on-the-digital-research-institute/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "“Hello, world!” That’s the message that we prompted our computers to print with the first line of code that we wrote, and it really felt like saying hello to a new dimension. That was a sustained feeling at each of the five meetings of the Digital Research Institute (DRI), held between January 29 and February 27. The creative space therein, marked by a collaborative ethos nurtured by the GC Digital Fellows, was particularly refreshing at a time when, because of the pandemic, a sense of community was so hard to achieve.",
+      "On a personal level, the institute helped me to discover possibilities I had not considered, such as using python for text analysis in my research. In fact, the conversations we had and the digital tools we explored during those five weeks, made me realize that, as part of my dissertation, I want to develop a digital project that includes public data and mapping tools. The DRI motivated me to challenge myself with new…"
+    ],
+    "fullParagraphs": [
+      "“Hello, world!” That’s the message that we prompted our computers to print with the first line of code that we wrote, and it really felt like saying hello to a new dimension. That was a sustained feeling at each of the five meetings of the Digital Research Institute (DRI), held between January 29 and February 27. The creative space therein, marked by a collaborative ethos nurtured by the GC Digital Fellows, was particularly refreshing at a time when, because of the pandemic, a sense of community was so hard to achieve.",
+      "On a personal level, the institute helped me to discover possibilities I had not considered, such as using python for text analysis in my research. In fact, the conversations we had and the digital tools we explored during those five weeks, made me realize that, as part of my dissertation, I want to develop a digital project that includes public data and mapping tools. The DRI motivated me to challenge myself with new digital adventures. Additionally, cutting through different topics and listening to the rest of the participants' ideas and projects was central to understanding what approaches to digital tools can be used to best respond to a world where data and technology are at the center of our everyday life.",
+      "You might be wondering how the institute facilitated all of this. In large part, it was “simply” due to the ethos of the Digital Fellows —a learning community that offers the experience accumulated during their years as digital humanities practitioners to those of us who are just starting the journey. I used quotation marks to acknowledge that this kind of simplicity is not easy to achieve in academia. What we easily find, instead, is a traditional and patriarchal individualistic model that encourages people to compete; an approach that creates unhealthy relationships with each other and with our own work.",
+      "The DRI creates a counternarrative to such dominant academic practices; a narrative with an emphasis on collaboration, empathy, and humility. For instance, the very first ice-breaking activity of the introductory session of the DRI consisted of splitting participants into groups of four, each led by a fellow. After the team members introduced themselves to each other, each group created their own channel on the collaborative Slack workspace to which all participants took part. Being part of a team allowed me to create more intimate bonds, give and receive asynchronous support, and stay in contact with other participants in the time between workshops. This sense of connection was then reinforced every Saturday, during each synchronous Zoom session.",
+      "The DRI was a gateway opportunity that led to participating more consistently to the events organized by GCDI and to becoming a member of the Digital GC Community. At the DRI and the other GCDI events I attended, the fellows created the collaborative environment required to be successful in any setting as challenging as one where technology is involved, one that includes the openness to say “I don’t know” or “I need help.” This attitude creates the conditions of possibility to shift from a learning process overwhelmed by frustration to a playful one, where you can learn with genuine curiosity. I would recommend anyone interested or curious about digital tools to get involved!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.030308385818352945,
+      0.1062058773681198,
+      0.004910950483261895,
+      0.0002689073046451859,
+      0.0004770560666609181,
+      0.28111440521221953,
+      0.017735532712935966,
+      0.5589788850338038
+    ],
+    "words": [
+      [
+        "digital",
+        10
+      ],
+      [
+        "dri",
+        6
+      ],
+      [
+        "create",
+        6
+      ],
+      [
+        "tool",
+        4
+      ],
+      [
+        "part",
+        4
+      ],
+      [
+        "participant",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "17798",
+    "title": "Remember When You Could See Inside a Gaming Console?",
+    "date": "2021-04-28",
+    "year": "2020–2021",
+    "authors": [
+      "Cecilia D'Anastasio"
+    ],
+    "originalAuthors": [
+      "Cecilia D'Anastasio"
+    ],
+    "aliases": [
+      "Cecilia D'Anastasio"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "console games",
+      "culture",
+      "News",
+      "nintendo",
+      "product design",
+      "textbelowleftfullbleed",
+      "via bookmarklet",
+      "video games",
+      "web"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/28/remember-when-you-could-see-inside-a-gaming-console-wired/",
+    "signals": [
+      "Web & scholarly identity",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "The thought-provoking article from Wired discusses the translucent design of older video game consoles to provide an insight into gaming culture. Translucency allowed intrepid gamers to look inside their consoles, which enabled a culture of creative console modification and repair. The author notes that current generation consoles have sharply diverged from the aesthetics of translucency and embraced a more \"impenetrable\" style that denies gamers access into the inner workings of their consoles. Such a shift in style also reflects the video game industry's concerted effort against console owner's right to repair their own machines.",
+      "Read more: Remember When You Could See Inside a Gaming Console?"
+    ],
+    "fullParagraphs": [
+      "The thought-provoking article from Wired discusses the translucent design of older video game consoles to provide an insight into gaming culture. Translucency allowed intrepid gamers to look inside their consoles, which enabled a culture of creative console modification and repair. The author notes that current generation consoles have sharply diverged from the aesthetics of translucency and embraced a more \"impenetrable\" style that denies gamers access into the inner workings of their consoles. Such a shift in style also reflects the video game industry's concerted effort against console owner's right to repair their own machines.",
+      "Read more: Remember When You Could See Inside a Gaming Console?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "6047",
+    "title": "Basic Audio Editing with Audacity",
+    "date": "2021-04-27",
+    "year": "2020–2021",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/27/basic-audio-editing-with-audacity/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "A couple of weeks ago, I ran a workshop on the Basics of Audio Editing with Audacity. This workshop comes after my Fall workshop on Getting Good (Enough) Audio Recording. For those who might be considering sound projects but were not able to participate in the previous workshops, I hope this post will be useful to you as I recap some of the key applications of Audacity from the workshop. If you have questions about the post, please feel free to reach out via the Sound Studies commons group or through setting up a consultation session with the GC Digital Fellows.",
+      "Before Cleaning and Editing",
+      "Before getting started on audio editing, it is important to keep in mind that there is only so much you can do to salvage, clean, and/or edit a badly recorded audio file. For example, you can’t put back data you don’t have (e.g. when the audio file is clipped) or isolate tracks from loud background noise (e.g. when you record in a crowded cafe). As…"
+    ],
+    "fullParagraphs": [
+      "A couple of weeks ago, I ran a workshop on the Basics of Audio Editing with Audacity. This workshop comes after my Fall workshop on Getting Good (Enough) Audio Recording. For those who might be considering sound projects but were not able to participate in the previous workshops, I hope this post will be useful to you as I recap some of the key applications of Audacity from the workshop. If you have questions about the post, please feel free to reach out via the Sound Studies commons group or through setting up a consultation session with the GC Digital Fellows.",
+      "Before Cleaning and Editing",
+      "Before getting started on audio editing, it is important to keep in mind that there is only so much you can do to salvage, clean, and/or edit a badly recorded audio file. For example, you can’t put back data you don’t have (e.g. when the audio file is clipped) or isolate tracks from loud background noise (e.g. when you record in a crowded cafe). As such, make sure that the recording is as good as you can get it (refer to the workshop on Getting Good (Enough) Audio Recording for a more detailed discussion).",
+      "For the workshop, I focused on Audacity as: 1) it’s free! and 2) it’s cross-platform (Windows, MacOS, GNU/Linux, and Chromebook). While learning Audacity can be intimidating, I hope to demystify part of the process. To that end, I have attached a short Gif for each step of the process followed by a description of the task.",
+      "Cleaning and Editing in Audacity",
+      "Whenever I import my files into Audacity (File > Import > Audio), I always make sure to duplicate the original track before adding any filters or edits. To duplicate the track, select the original track then click on Edit > Duplicate (or use Ctrl/Cmd + D). I duplicate the track to avoid making direct edits in case of a file corruption or other non-reversible actions. When working in Audacity, I always save my work-in-progress as an Audacity project file (.aup).",
+      "After importing and duplicating the audio file, I also listen to the full clip and do a quick visual inspection of the file. In this example, when I zoomed out to inspect the waveform of my full audio clip, I noticed that there was a clipped section in my audio file (indicated in red) that required my attention before I moved to cleaning and editing. I then zoomed into that section of the audio clip and played the audio back to check if it was something I could easily remove and noted the timing of the clipped audio.",
+      "After inspecting my file, I then employ the Noise Reduction effect (Effect > Noise Reduction). This helps me in reducing consistent background sound from my recorded audio file, such as the room tone of my recording environment.",
+      "There are two steps to using the Noise Reduction effect. The first step is to let Audacity know what it should identify as the “baseline” for noise/room tone. Before selecting the effect, I will highlight a portion of the track that I’ve previously recorded as room tone. Next, I will navigate to the Noise Reduction effect (Effect > Noise Reduction), and click on the “Get Noise Profile” button. The dialog box disappears (a silent success!), and I will then select the portions of my track that I want to remove the noise from (double-click or Ctrl/Cmd + A to select the full track). For a more detailed explanation of the effect, please check out the Audacity manual.",
+      "Following the Noise Reduction effect, I then choose to either employ an Amplify effect or Normalize effect on my track. In this example, I first remove the clipped audio before employing the effect. Amplify applies the same amount of loudness to the entire track base on the loudest moment in the track. Hence, amplification will be minimal if I employ it before removing the clipped audio, since the default setting will not allow me to amplify a track beyond the maximum limits. After removing the clipped section, Amplify will increase the volume of the entire track based on how much it takes for the loudest portion of the track to reach maximum limits. While I rarely do this, checking the checkbox next to “Allow clipping” will allow me to increase the volume of my audio recording beyond the maximum limits. Because Amplify applies the same amount of effect to the whole track, if my recorded audio is unbalanced, the track will retain the unbalanced sound even after the application.",
+      "If I want to balance a track, or if my track is generally too loud, I use the Normalize effect instead. For most purposes, only the last two options in the dialog box are relevant. “Normalize peak amplitude to [ ]” tells audacity the limit to place on your audio file. Unlike Amplify, Normalize cannot go beyond the default of -1db, which is just below the maximum limit of your device/software. If checked, the second option to “Normalize stereo channels independently” will employ a different amount of effect onto each channel. This is useful when trying to rebalance the left and right channel.",
+      "Before the next section, I want to emphasize a couple of things. Firstly, I apply as few effects as I can to my audio track. With each effect, I am introducing a new digital distortion. Over application can result in a “robotic” voice and/or excessive loss of data. Next, in all the effects introduced so far, there is a “Preview” button at the bottom of the dialog boxes. This is a really useful button as it allows the user to hear a preview (usually about 6-10 seconds) of the clip after the effect is employed. This is particularly important when working with longer clips, as the time it takes for Audacity to apply the effect increases as the length of the file increases (e.g. 1 hour uncompressed audio ~ 10 mins to apply an effect). Utilizing the preview function to check if the application is too much or too little can help save some time.",
+      "Fading-in and out",
+      "Fading an audio clip is a useful audio cue that signals to listeners that a clip is starting and ending. It is also useful when introducing a new audio segment to the existing clip (e.g. cross-fading) so that the change/transition is not jarring to the listener. There are 2 main ways in which I do fade-ins and fade-outs.",
+      "The first way is the quickest way to introduce a fade. Audacity has default effects for fading that can be applied quickly onto any part of a track. For this example, the effect I chose employs a linear fade. You may notice that I have added a background music track to my podcast project, and I want to have it fade in to indicate that the episode is starting. Ithen have to do a cross fade between my background track and my spoken narrative to indicate to listeners that I am switching over to my main audio track. To do this, I employ a fade out on my background track and a fade in on my main audio track. I have also chosen to silence the rest of my background track after doing a cross-fade.",
+      "To signal to the listener that the audio track is ending, Iuse a similar technique of cross-fade, but this time, I fade in my background track and fade out my main audio track. To read up more about the different kinds of fading effect Audacity provides, check out the documentation.",
+      "Alternatively, you can also employ a more manual fade on your tracks. This method will allow you to keep your background music without silencing it completely as your episode progresses.",
+      "This method utilizes the Envelope Tool and the insertion of control points. In this example, I inserted 4 control points for my background track and 2 for my main audio track. This allows for a more minute manipulation of the track. Dragging the external control points (the ones on the blue line) will ensure that it will not be amplified beyond the maximum limit of the track. Dragging the inner control points (the ones on the grey shaded area) will allow it to be dragged beyond the maximum volume.",
+      "Mixing and Exporting",
+      "When I am done with cleaning and editing, I will prepare to mix the tracks and export them. As more tracks are added into the Audacity project, I will need to be mindful of the total volume of the entire project. Since sound is additive, the more tracks in the project the louder it will be. Hence, while it may not reach the maximum limits on each track when it is played individually, the final project might still clip when the tracks are played all together. Hence, before I conduct a final mix and render, I check my playback.",
+      "If I hear clipping during the playback (usually sounds like distortion), I will then make some adjustments. I may need to change the gain of all the tracks, or just one - this depends on the project. A quick way to lower the volume of a single track is to lower the gain of that track using the slider on the track control panel. Double-clicking on the gain slider will open up a dialog box that allows for finer adjustments.",
+      "When I’m ready, I select the tracks (Ctrl/Cmd + clicking the “Select” button) I would like to include in my final version of the file. The tracks are selected when the track selection panel turns blue (unselected tracks are indicated in grey). I usually choose the Mix and Render to New Track (Tracks > Mix > Mix and Render to New Tracks) just to be safe. Mix and Render will overwrite tracks, so if you are choosing this option, be really certain that you will not be making any more edits.",
+      "The final step is to then export the project to a common audio file format. If you’re planning to stream your audio file, saving it in a compressed file format (e.g. .mp3) is the best option. If you’re planning to archive your audio file, an uncompressed file format is a better choice. You can either export your whole project or just the selected tracks. As I have already mixed and rendered the final track, I will just export that track as the final audio file. For your project, select the track (“Select” button on the track control panel) and choose how you would like to export your file (File > Export > Export Selected Audio).",
+      "Congratulations! You’ve successfully imported, cleaned, edited, mixed and exported your project. I hope that this provided you with a place to begin with exploring Audacity and playing with your audio data."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0061167879999033505,
+      0.00022180739879138365,
+      0.0001941806379883982,
+      0.7629000554831833,
+      0.03668296274992199,
+      0.08921631778821114,
+      0.09692263628925488,
+      0.0077452516527456005
+    ],
+    "words": [
+      [
+        "track",
+        56
+      ],
+      [
+        "audio",
+        35
+      ],
+      [
+        "effect",
+        23
+      ],
+      [
+        "file",
+        22
+      ],
+      [
+        "fade",
+        18
+      ],
+      [
+        "audacity",
+        16
+      ]
+    ]
+  },
+  {
+    "id": "17786",
+    "title": "Do Brain Implants Change Your Identity?",
+    "date": "2021-04-23",
+    "year": "2020–2021",
+    "authors": [
+      "Christine Kenneally"
+    ],
+    "originalAuthors": [
+      "Christine Kenneally"
+    ],
+    "aliases": [
+      "Christine Kenneally"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "annals of medicine",
+      "australia",
+      "brain",
+      "clinical trials",
+      "devices",
+      "epilepsy",
+      "magazine",
+      "medicine",
+      "neurologists",
+      "neurology",
+      "neurosurgeons",
+      "News",
+      "patients",
+      "science",
+      "splitscreenimagerightinset",
+      "standard",
+      "surgeries",
+      "surgery",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/23/do-brain-implants-change-your-identity/",
+    "signals": [],
+    "paragraphs": [
+      "This article from The New Yorker reports on the experiences of people who have used brain implants to treat epilepsy. It paints a fascinating narrative of the ways in which these technologies can shape people's understanding of themselves and their relationship to the world. The author also raises significant doubts surrounding brain implant technology, whose medical effects and ethical ramifications remains relatively understudied.",
+      "Read more: Do Brain Implants Change Your Identity? | The New Yorker"
+    ],
+    "fullParagraphs": [
+      "This article from The New Yorker reports on the experiences of people who have used brain implants to treat epilepsy. It paints a fascinating narrative of the ways in which these technologies can shape people's understanding of themselves and their relationship to the world. The author also raises significant doubts surrounding brain implant technology, whose medical effects and ethical ramifications remains relatively understudied.",
+      "Read more: Do Brain Implants Change Your Identity? | The New Yorker"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "6005",
+    "title": "Sonification for Data Communication",
+    "date": "2021-04-19",
+    "year": "2020–2021",
+    "authors": [
+      "Connor M French"
+    ],
+    "originalAuthors": [
+      "Connor M French"
+    ],
+    "aliases": [
+      "Connor M French"
+    ],
+    "account": "Connor M French",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Audio",
+      "Coding",
+      "communication",
+      "data",
+      "Reflections",
+      "Resources",
+      "Sound",
+      "Visualization"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/19/sonification-for-data-communication/",
+    "signals": [
+      "Code & computational methods",
+      "Maps & visualization",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "A few weeks ago my partner shared a TED Talk with me that changed how I conceptualize data communication. In it Dr. Wanda Diaz Merced, an astronomer who lost her eyesight in her early twenties, discusses her journey back into science after this setback. A crucial technique helped her interpret hefty astronomy data sets- sonification. Sonification turns data into sound. It is analogous to data visualization, where both methods aim to communicate patterns and relationships within data clearly and efficiently. Not only did sonification make data accessible for Dr. Merced, it helped her uncover patterns obscured by visualizing graphs and charts.",
+      "There are quite a few applications for sonification. The bing you get when an email lands in your inbox is one familiar example. The recognizable noise conveys a simple piece of information without requiring you to be sitting at the computer or staring at your phone. Representing large data sets…"
+    ],
+    "fullParagraphs": [
+      "A few weeks ago my partner shared a TED Talk with me that changed how I conceptualize data communication. In it Dr. Wanda Diaz Merced, an astronomer who lost her eyesight in her early twenties, discusses her journey back into science after this setback. A crucial technique helped her interpret hefty astronomy data sets- sonification. Sonification turns data into sound. It is analogous to data visualization, where both methods aim to communicate patterns and relationships within data clearly and efficiently. Not only did sonification make data accessible for Dr. Merced, it helped her uncover patterns obscured by visualizing graphs and charts.",
+      "There are quite a few applications for sonification. The bing you get when an email lands in your inbox is one familiar example. The recognizable noise conveys a simple piece of information without requiring you to be sitting at the computer or staring at your phone. Representing large data sets gets a little more complicated.",
+      "Audio has multiple dimensions that can be exploited to represent information, including:",
+      "pitch",
+      "loudness",
+      "duration",
+      "spatial arrangement (e.g. stereo panning)",
+      "These can be combined to represent multiple data dimensions or used interchangeably to represent the same data in a new way. Best practices are still being formed and are often context-dependent on the user, but a great resource for the latest practices is the Floe Inclusive Learning Design Handbook.",
+      "A particular application that is relevant for folks who want to increase the accessibility of their publications is to sonify their existing data visualizations. Below are a few common examples. Each example is a visualization, followed by the sonification. I have chosen to represent values on the y-axis as changes in pitch, while time indicates change along the x-axis. To emphasize the change in time along the x-axis, I have added short white noise pulses for each data point along the x-axis. The listener is \"reading\" the plot from left to right.",
+      "A common data visualization technique for single variables is the histogram. These emphasize the distribution of the variable under consideration. Below, I've simulated data representing my mood 15 minutes before eating dinner over the last several weeks.",
+      "Notice how the pitch oscillates in a similar manner to the shape of the distribution and the pulses are evenly spaced, representing the bins of the distribution!",
+      "Now, let's sonify two variables at once! The visualization below is a scatterplot, a common technique for two continuous variables. The data is simulated to represent how much I crave a burger depending on how hungry I am.",
+      "Notice how the pitch increase with time, but there are oscillations which represent error around a perfect linear relationship. Also notice how the pulses are less even- the points aren't evenly distributed on the x-axis. Pretty cool!",
+      "The final visualization I'll present is an exponential relationship between two variables. The simulated data in this scenario represents my craving for a big ol' plate of nachos dependent on how hungry I am.",
+      "In this case, the pitch increases, well, exponentially! In addition, the points are tighter together- The pitch oscillates less than the linearly related data. My nacho cravings are pretty consistent.",
+      "These are just a few ways sonification can be incorporated into your data communication and exploration arsenal. Besides making data more accessible to those who are blind or low vision, sonification opens up another avenue of data exploration to uncover patterns not evident in a visual medium. Dr. Merced was able to hear a distinct frequency pattern not evident from a chart that led her to discover that star formation likely plays an important part in supernova explosions! Sighted astronomers now use sonification as a complement to visualization to investigate their data. If you would like to take a crack at sonification yourself, there are a variety of resources. The sonifications for this post were created using the R package sonify, which is a straightforward interface that will get you there quickly, without much overhead. You can find the R code for this blog post here.",
+      "Those of us at the Graduate Center Digital Initiatives strive to make interactions with digital media more accessible. We provide a variety of resources to take advantage of digital tools in your research. In addition, we provide community and support with the Digital Fellows, so I encourage you to take a look and connect with us!",
+      "Featured Image: Example spectrogram from an audio file of the author's."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005818566210015667,
+      0.0005821481606646629,
+      0.046925811750164734,
+      0.1487290957684367,
+      0.37477388843192144,
+      0.302231167660966,
+      0.0006381178243133599,
+      0.12553791378253149
+    ],
+    "words": [
+      [
+        "data",
+        20
+      ],
+      [
+        "represent",
+        10
+      ],
+      [
+        "sonification",
+        9
+      ],
+      [
+        "visualization",
+        7
+      ],
+      [
+        "pitch",
+        6
+      ],
+      [
+        "axis",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "6001",
+    "title": "Text Analysis With AntConc",
+    "date": "2021-04-15",
+    "year": "2020–2021",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/15/text-analysis-with-antconc/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "The purpose of this blog post is to introduce readers to AntConc, a freeware text analysis tool for Windows, Mac, and Linux. I discuss what this tool is and how it might be useful. I also direct readers towards more in-depth resources that explain the nuts and bolts of AntConc with greater specificity.",
+      "What is AntConc?",
+      "AntConc surfaces how words and phrases are commonly used in any given textual dataset. It is a tool that facilitates keyword-in-context searches across a collection of texts. A keyword-in-context search allows you to discern thematic and linguistic patterns in text files by presenting the keyword that you searched for, alongside other text that occurs before and after it in the document. AntConc allows for a comparative study of the ways in which language and representation might work across a number of different texts.",
+      "Let's take a look at Figure 1 below to gain more information on AntConc and keyword-in-context searches.…"
+    ],
+    "fullParagraphs": [
+      "The purpose of this blog post is to introduce readers to AntConc, a freeware text analysis tool for Windows, Mac, and Linux. I discuss what this tool is and how it might be useful. I also direct readers towards more in-depth resources that explain the nuts and bolts of AntConc with greater specificity.",
+      "What is AntConc?",
+      "AntConc surfaces how words and phrases are commonly used in any given textual dataset. It is a tool that facilitates keyword-in-context searches across a collection of texts. A keyword-in-context search allows you to discern thematic and linguistic patterns in text files by presenting the keyword that you searched for, alongside other text that occurs before and after it in the document. AntConc allows for a comparative study of the ways in which language and representation might work across a number of different texts.",
+      "Let's take a look at Figure 1 below to gain more information on AntConc and keyword-in-context searches. This screenshot presents the AntConc user interface, which I loaded with a dataset of 150 English novels published between 1770 and 1930. I then used AntConc to search for how the keyword “India” appears in these novels, and I specified that I would like to see 50 characters to the left and to the right of “India” in each of these texts. After a minute of processing, AntConc produced 434 results that you see below. It presents each hit for the keyword “India” in alphabetical order by file name. Moreover, we are given the 50 characters that appear to the left and to the right of “India.”",
+      "Figure 1: The AntConc Interface with a keyword in context search for “India”",
+      "Now, I can look through the results and gain a better sense of the ways in which India signifies in my dataset of novels. I might even go a step further and search for other keywords such as “Jamaica,” “Australia,” and “Canada” to see how these other English colonies were represented in my dataset. Then I can compare the differences between these different keywords to build a larger argument about colonialism, geography, representation, and English novels.",
+      "How does AntConc fit in the research process?",
+      "AntConc is a very helpful tool for digital text analysis. It is especially useful in the early stages of research when we are interested in exploring our dataset and trying to formulate a hypothesis. For example, if you have a dataset of 10,000 tweets, and you are interested in studying how gender pronouns are used, then you might consider loading the tweets into AntConc and running searches for words like “her,” “his,” “their,” etc. This would allow you to quickly scan through your dataset and gain a better understanding of how these keywords appear in your collection of tweets. Furthermore, this would also allow you to clean your dataset and get rid of the tweets that don’t contain these keywords.",
+      "Where can I learn more?",
+      "One of the major benefits of AntConc is that there many guides that people have made explaining it. I highly recommend starting with Heather Froehlich’s “Corpus Analysis with AntConc” post on Programming Historian. It provides the best in-depth look at this tool. For more visual oriented learners, I also recommend checking out the creator of AntConc’s (Laurence Anthony) 11-part YouTube video tutorial for AntConc. Those interested in a quicker guide to using AntConc might even check out the official help file to using AntConc. You can find even more guides in multiple languages on the AntConc homepage (scroll to the middle of the page)."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.50822295949853,
+      0.0007344101649523169,
+      0.09433319885237727,
+      0.00024896205802986616,
+      0.07070936834051801,
+      0.2875900664674374,
+      0.016420062408846137,
+      0.02174097220930895
+    ],
+    "words": [
+      [
+        "antconc",
+        20
+      ],
+      [
+        "dataset",
+        8
+      ],
+      [
+        "search",
+        8
+      ],
+      [
+        "text",
+        7
+      ],
+      [
+        "keyword",
+        7
+      ],
+      [
+        "india",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "5994",
+    "title": "Exploring Data with Python and Pandas",
+    "date": "2021-04-09",
+    "year": "2020–2021",
+    "authors": [
+      "Rafael Davis Portela"
+    ],
+    "originalAuthors": [
+      "Rafael Davis Portela"
+    ],
+    "aliases": [
+      "Rafael Davis Portela"
+    ],
+    "account": "Rafael Davis Portela",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/09/exploring-data-with-python-and-pandas-2/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "This workshops assumes a bit of familiarity with Python. If you have taken one of our Introduction to Python workshop or asynchronous course, you are good to go. You can run this workshop in Jupyter Notebook, which comes by default if you have installed Anaconda. Alternatively, you can use Google Colab which requires no installation. If you're not familiar with those, I suggest watching this short video for Jupyter Notebook or this one for Google Colab.",
+      "69a6e0062dc6cfa71a81c294a0c30812"
+    ],
+    "fullParagraphs": [
+      "This workshops assumes a bit of familiarity with Python. If you have taken one of our Introduction to Python workshop or asynchronous course, you are good to go. You can run this workshop in Jupyter Notebook, which comes by default if you have installed Anaconda. Alternatively, you can use Google Colab which requires no installation. If you're not familiar with those, I suggest watching this short video for Jupyter Notebook or this one for Google Colab.",
+      "69a6e0062dc6cfa71a81c294a0c30812"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.005504007290338932,
+      0.005506765077005244,
+      0.32680449143615753,
+      0.0018667709572718584,
+      0.0033117523951534376,
+      0.5172227694162075,
+      0.006036203817824207,
+      0.13374723961004126
+    ],
+    "words": [
+      [
+        "python",
+        2
+      ],
+      [
+        "workshop",
+        2
+      ],
+      [
+        "jupyter",
+        2
+      ],
+      [
+        "notebook",
+        2
+      ],
+      [
+        "google",
+        2
+      ],
+      [
+        "colab",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "17754",
+    "title": "Rethinking Artificial Intelligence through Feminism | CCCB LAB",
+    "date": "2021-04-09",
+    "year": "2020–2021",
+    "authors": [
+      "Caroline Sinders"
+    ],
+    "originalAuthors": [
+      "Caroline Sinders"
+    ],
+    "aliases": [
+      "Caroline Sinders"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/04/09/rethinking-artificial-intelligence-through-feminism-cccb-lab/",
+    "signals": [
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "How might intersectional feminism inform machine learning algorithms? This post explores this question by drawing attention to the Feminist Data Set art project. This fascinating project brings together theories of social justice, feminism, data science, and design, in order to provide critical insight into every step of the AI development project. Read more about the Feminist Data Set's aesthetic strategies and digital approaches - Rethinking Artificial Intelligence through Feminism | CCCB LAB"
+    ],
+    "fullParagraphs": [
+      "How might intersectional feminism inform machine learning algorithms? This post explores this question by drawing attention to the Feminist Data Set art project. This fascinating project brings together theories of social justice, feminism, data science, and design, in order to provide critical insight into every step of the AI development project. Read more about the Feminist Data Set's aesthetic strategies and digital approaches - Rethinking Artificial Intelligence through Feminism | CCCB LAB"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19869",
+    "title": "Choosing the Right Platform for Your Digital Archive",
+    "date": "2021-03-22",
+    "year": "2020–2021",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/03/22/choosing-the-right-platform-for-your-digital-archive/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "Please note: This blogpost is a summary of a GCDI workshop that I co-led with Filipa Calado on March 17, 2021.",
+      "During my tenure as a Digital Fellow, I have led my Intro to Omeka workshop multiple times. One of the recurring questions in that context has been: Why should I choose Omeka over WordPress to build my digital archive? This blog post is an attempt to answer that question, with a tweak: When should I choose Omeka over WordPress or a different platform to build my digital archive? Each of the web development tools that we will survey in this post has its place in the digital scholarship toolkit and deciding among them is just a matter of what your project demands and what resources you have available.",
+      "What follows is not meant to be an exhaustive survey of the web platforms you can use to build a digital collection, exhibition, or archive, but rather an introductory guide and an orienting tool for scholars just getting started on…"
+    ],
+    "fullParagraphs": [
+      "Please note: This blogpost is a summary of a GCDI workshop that I co-led with Filipa Calado on March 17, 2021.",
+      "During my tenure as a Digital Fellow, I have led my Intro to Omeka workshop multiple times. One of the recurring questions in that context has been: Why should I choose Omeka over WordPress to build my digital archive? This blog post is an attempt to answer that question, with a tweak: When should I choose Omeka over WordPress or a different platform to build my digital archive? Each of the web development tools that we will survey in this post has its place in the digital scholarship toolkit and deciding among them is just a matter of what your project demands and what resources you have available.",
+      "What follows is not meant to be an exhaustive survey of the web platforms you can use to build a digital collection, exhibition, or archive, but rather an introductory guide and an orienting tool for scholars just getting started on their projects. In this regard, before we dive into a comparison among some of the tools that can be used (or repurposed) to build your archive, I want to stress the importance of project planning in building any scholarly digital project. In our case, some of the preliminary questions you might want to reflect on include:",
+      "What do I mean by “digital archive”? (You can find some inspiring thoughts on this subject here and here)",
+      "What are my pre-existing digital skills and how much time/resources do I have to invest to develop new ones or familiarize with a new platform?",
+      "How important is structured metadata to my project?",
+      "How do I want to display the items in my collection(s)?",
+      "What kind of media/files do I want to host in my archive?",
+      "What are my priorities in terms of discoverability and accessibility?",
+      "What are my plans with regards to sustainability?",
+      "Who is my audience? Who are my interlocutors?",
+      "According to your answers, you might find out that accessibility matters to you more than metadata, or that a low-maintenance and more easily sustainable platform is more important to you than using a software with a shallow learning curve.",
+      "All of the platforms covered in this workshop are open source and most of them are polyfunctional Content Management Systems (CMS) that rely on an underlying database management service (such as MySQL) that holds and in which the content of your website is organized. CMS also usually rely on a set of theming files that control the look and feels of the web pages through which the content in your database will be displayed. As such, most of these platforms also require some familiarity with the basic principles of HTML/CSS and web hosting. It’s also important to note that some of these tools can work in combination with each other.",
+      "Omeka",
+      "Sample sites: Colored Conventions; Omeka Classic Directory; Omeka Semantic Directory.",
+      "I’m going to start with Omeka, because it’s considered the Gold Standard in many scholarly communities. Omeka is a free CMS and a web publishing system built by and for scholars that is used by hundreds of archives, historical societies, libraries, museums, and individual researchers and teachers to create searchable online databases and scholarly online interpretations of their digital collections. Omeka is developed by the Roy Rosenzweig Center for History and New Media at George Mason University – the same institution that brought valuable tools such as Zotero and Tropy to us. If you have a digital collection of primary sources that you want to publish online in a scholarly way, you’ll want to consider Omeka. Omeka allows you to describe items according to archival standards (using Dublin Core), sort them in collections, import and export descriptive information from other systems, and to create as many interpretive online exhibits as you like from those items.",
+      "While Omeka has become the go-to stand-alone lightweight CMS for many personal or class digital archives, it has its use even in large institutions that use very robust and expensive CMSs, because it allows the possibility to import collections from these larger (often expensive) platforms and make them accessible and available on the web. Dublin Core makes linked open data possible and collections more discoverable. In other words, through Dublin Core, Omeka and the databases on which it relies are able to talk to one another.",
+      "Unfortunately with easy publishing formats can also come some degrees of inflexibility, especially in terms of web infrastructure and aesthetics – designing a dynamic and... pretty Omeka site will often require the skills of a seasoned web designer. Navigating through a theme’s files can make even fundamental changes (fonts, headers, column widths, the addition of a logo or footer) incredibly frustrating. Displaying and sorting content in ways in which the platform is not natively designed to do may also require some creative thinking.",
+      "Pros:",
+      "For Scholars By Scholars",
+      "Native capacity to describe items using strict (but open) metadata standards",
+      "Modularity (a decent range of plugins is available)",
+      "Multiple versions with different affordances",
+      "Hosted version available",
+      "Geared towards publishing",
+      "Great for teaching about archival and curatorial practices",
+      "Cons:",
+      "Self hosting can be challenging (e.g., server compatibility issues, occasional bugs, plugins developed by small developers get discontinued, etc.)",
+      "Small community of practice",
+      "Styling your website may require advanced coding skills",
+      "Requires some maintenance",
+      "WordPress",
+      "Sample Sites: Open Culture (Archive as a repository); The Bais Yaakov Project (Scholarly archive with structured metadata); The Berkeley Revolution (Ongoing class project that features items with some metadata descriptors and digital interpretative essays/exhibitions).",
+      "WordPress is a flexible open-source CMS that powers nearly 40% of all sites on the web. If you have used the Commons for one of your classes (as a student, or as a teacher), you already are a WordPress user! As such, you may know that building websites with it can be a matter of just a few clicks and that the looks and feels of it can be changed by selecting (and then editing) a new theme. Likewise, functionalities can be added by installing and activating plugins.",
+      "WordPress's native category and tagging system can be used to organize your archive’s information architecture, but structured metadata to describe your items is not immediately available and has to be implemented using plugins or by creating custom fields with some extra coding. Likewise, creating exhibitions, timelines, or maps featuring your items, will also require considerably more effort than it would if you were to use Omeka. One of the advantages of working with a CMS so widely used is that if you are looking for a plugin that adds a functionality to your website, chances are that someone has already developed it (although many of those plugins rely on a freemium business model) and widely tested it, whereas only a limited number of plugins is available for Omeka, and oftentimes, especially for less popular ones, they don’t have much mileage under their belt. As a result, you might run into issues that have yet to be identified or resolved.",
+      "However, one of the disadvantages of working with a platform that heavily relies on plugins to extend its core functionalities is that it will require quite a bit of maintenance: WordPress updates are as frequent as biweekly and, for each update, you have to make sure that the different components (WordPress, its themes, and plugins, as well as any additional customization you might have implemented directly to the code) are compatible with each other. This may not be as labor intensive as my previous sentence made it sound... until something goes wrong with your website and you have to figure out which update caused the issue. Luckily, you can rely on a large community of support and extensive pre-existing resources both to set up and troubleshoot your website.",
+      "If you are looking to create a website for your students to engage class material, write blog posts, and interact with one another, a WordPress course site is often a better and more flexible option. Likewise, if you’re looking to build a highly customizable and aesthetically appealing website that works as a repository or that offers some level of metadata description, WordPress might be a good solution for you. Omeka, by contrast, is best suited for projects that involve a digital (or digitizable) collection with metadata that you want to curate, organize, describe, and publish in the form of a digital exhibition. With a little bit of work, you might even opt to have your main Wordpress site where you can provide a link to your Omeka site and even style them in a similar way. This option allows each platform to do what it does best.",
+      "Pros:",
+      "Immediacy of use (if used as a repository)",
+      "Thousands of plugins",
+      "Easily customizable (yes, it's relatively easy to make it look pretty)",
+      "Can be fully hosted (wordpress.com or… CUNY Commons!)",
+      "Largest community of practice (easier to find support and tutorials)",
+      "Cons:",
+      "Requires plugins or programming for structured metadata and exhibitions",
+      "Hosted version available but not as customizable",
+      "High maintenance",
+      "Drupal",
+      "Sample sites: John Latham Archive; Indian Culture.",
+      "Like WordPress, Drupal is also a free and open-source web content management framework written in PHP. Drupal provides a back-end framework for at least 12% of the top 10,000 websites worldwide – ranging from personal blogs to corporate, political, and government sites. Drupal’s native installation also does not allow you to upload and describe the items in your archive out of the box – but it does allow a great (perhaps the greatest, among the platforms we are surveying) degree of flexibility and creativity when it comes to, respectively, describing your items (i.e., its content management functions) and displaying them (i.e., its publishing functions). For instance, as the John Latham Archive shows, Drupal allows you to display items in more than one arrangement, including ways that are highly unconventional and, in this case, mimic the aesthetic statement of the artist to whom the items in the collection belong. As the project’s developer highlighted in an essay documenting his curatorial process:",
+      "Drupal makes no assumption about the type of content one needs to publish. There is an unlimited number of content types that could be created in any Drupal installation. Each content type is customizable by adding a set of fields according to a specification. ... In using Drupal for online archives, the archivist can follow this strategy for content organization: all items in the archive share a common content type, and the decisions in formats (e.g., video, image, text, etc.) comes from the attached metadata.",
+      "Drawing a comparison between Drupal and Omeka, Quinn Dombrowski has noted that “For where the data doesn’t fit well into the item / exhibit paradigm, or that require a different set of metadata, Omeka lacks the user-configurable customization options to easily support projects outside its defined scope.” Similarly, it allows to link all the items in your collection in a much more systematic way than Omeka does, and without as much twisting and turning. Assuming you’ve set up your platform just right.",
+      "Indeed, while Drupal allows you to develop an extremely customizable infrastructure for your archive, this comes at the cost of investing considerably more time in the planning phase as well as the programming process, before you can populate your archive. While this process can be extremely frustrated for beginners (both Filipa and I can testify to this!), Dombrowski has created a set of tutorials dedicated to humanists looking to learn Drupal. If you are interested in getting started on a Drupal-based digital archive, you also want to look into ArchiveX, a distribution of Drupal developed to store different digital formats of notable archives (e.g., Albums, Exhibits, Music, Library, Videos, Orders, Software, etc.) and the Drupal Group for Cultural Heritage.",
+      "Pros:",
+      "Extremely customizable and extendable",
+      "An item can be displayed in multiple ways",
+      "Fairly large community of practice",
+      "Cons:",
+      "Set up and structural changes to the website can be extremely challenging",
+      "Steep learning curve",
+      "High maintenance",
+      "Wax (Jekyll-based)",
+      "Sample Site: Wax",
+      "Ok, this solution is a little different from the other platform’s we have looked at, in as far as Jekyll is not a CMS. Wax Exhibits is a digital exhibition generator that makes use of Jekyll to build static websites based on minimal computing principles. Let’s unpack this definition.",
+      "Static websites, as opposed to dynamic websites, do not generate the pages that a viewer is browsing upon queries that interrogate the website’s underlying database. In other words, with a CMS, every time you click on an item, or rather, any time your browser is loading a page, you are sending a request to the web server where your website is hosted to generate a page with the content stored in your database that you are seeking to view. On the other hand, in static sites, web pages already exist on the server (or your local computer!) before and regardless of whether a user generates a query. This implies that in order to build and run a Jekyll-based website, you can rely on a much less powerful web server – e.g., all CMS require a LAMP (Linux, Apache, MySQL, PHP/Perl/Python) package to run on your server, whereas Jekyll doesn’t. As such, Wax is a much more lightweight and sustainable option, if compared to the previous platforms.",
+      "Alex Gil, one of its developers, recently shared a document (\"Wax Exhibits: Collaborations, Workflows and Best Practices”) on Twitter that includes a chart that maps the difference between Wax and Omeka. Gil also contributed to a Twitter thread that explains who might benefit from using Wax and in what circumstances. An additional guide to Jekyll can be found here.",
+      "Pros:",
+      "Based on minimal computing principles (No LAMP required)",
+      "Easy to style",
+      "Low maintenance",
+      "Good for teaching computation fundamentals",
+      "Cons:",
+      "Steep learning curve",
+      "Limited functionalities",
+      "Small community of practice",
+      "I want to conclude this survey by briefly mentioning three more platforms that I encourage you to look into.",
+      "Collective Access is a highly customizable relational database that “enables powerful searching and browsing options and provides opportunities for nuanced web-based collection discovery.” Collective Access is often used in conjunction with Omeka to make the most of the potentiality for minutious and flexible descriptions of the former, and the publishing functions of the latter.",
+      "Sample sites: Kress Collection Digital Archive; New York State Archives Digital Collections; ZineCat (a project developed by two GC alumni).",
+      "Mukurtu is a grassroots built platform developed in collaboration with Indigenous communities to manage and share digital cultural heritage in culturally relevant and ethically-minded ways.",
+      "Gather (Connecting Aboriginal communities with collections and stories from the State Library of NSW).",
+      "CollectionBuilder is a lightweight, flexible tool for creating metadata driven digital collection websites. Like Wax, CollectionBuilder also makes use of Jekyll’s static web technology. It mostly relies on three simple components to develop its websites: “a spreadsheet of metadata, a directory of assets, and a configuration file.” CollectionBuilder offers three options: one offered through GitHub hosting, one through traditional web servers and one that works in conjunction with an existing CMS. A version compatible with Mukurtu is in the works.",
+      "A final note: if you do find a digital archive that you want to reverse engineer, Wappalyzer is usually a good starting point to understand its underlying informational technology.",
+      "What is your experience with these (or other) platforms? What are your concerns? We are eager to hear from you! Join us at our next Digital Archive Research Collective (DARC) meetings on April 12 and May 5 at 12pm. Sign up to the DARC Group to receive updates and be a part of our community of practice. ICYM: DARC also has a Wiki with additional information on platforms and resources available at the GC."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.3911631545904382,
+      0.03776016089619317,
+      0.0009126550977363112,
+      4.9973955803347945e-05,
+      8.865649381480471e-05,
+      0.16508076344895467,
+      0.2947947468548123,
+      0.1101498886622473
+    ],
+    "words": [
+      [
+        "archive",
+        24
+      ],
+      [
+        "digital",
+        23
+      ],
+      [
+        "omeka",
+        23
+      ],
+      [
+        "platform",
+        18
+      ],
+      [
+        "website",
+        18
+      ],
+      [
+        "web",
+        16
+      ]
+    ]
+  },
+  {
+    "id": "19868",
+    "title": "Lessons from the DRI – Coding & Communication: Knowing What We Say Rather than What We Mean",
+    "date": "2021-03-15",
+    "year": "2020–2021",
+    "authors": [
+      "Jessie McCormack"
+    ],
+    "originalAuthors": [
+      "Jessie McCormack"
+    ],
+    "aliases": [
+      "Jessie McCormack"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "GCDRI",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/03/15/lessons-from-the-dri-coding-communication-knowing-what-we-say-rather-than-what-we-mean/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The GC Digital Research Institute (DRI) educates in more ways even than advertised. GC Digital Initiatives (GCDI), the program that runs the DRI, advertises that it will teach CUNY students, faculty, and staff the foundational concepts and skills necessary for understanding and using digital technologies, and help participants in developing their individual digital projects. This year, they rose to the challenge of shifting the institute online, using Zoom and Slack, with weekly meetings (5 total) on Saturday morning. Going into the institute, I was eager just to get started, thinking I could eventually learn to make websites or programs for interactive introductions to philosophical material. But in my case, learning how Python could be used for text analysis opened a whole range of possible Python-using research projects as well, provided I can get digital versions of the relevant historical texts. For anyone—like me—who is…"
+    ],
+    "fullParagraphs": [
+      "The GC Digital Research Institute (DRI) educates in more ways even than advertised. GC Digital Initiatives (GCDI), the program that runs the DRI, advertises that it will teach CUNY students, faculty, and staff the foundational concepts and skills necessary for understanding and using digital technologies, and help participants in developing their individual digital projects. This year, they rose to the challenge of shifting the institute online, using Zoom and Slack, with weekly meetings (5 total) on Saturday morning. Going into the institute, I was eager just to get started, thinking I could eventually learn to make websites or programs for interactive introductions to philosophical material. But in my case, learning how Python could be used for text analysis opened a whole range of possible Python-using research projects as well, provided I can get digital versions of the relevant historical texts. For anyone—like me—who is interested in the genealogy of certain concepts, Python is a tool worth learning about. It is the Swiss-Army-knife version of a wordsearch function: the things you wish a word-search could do, Python can probably do.",
+      "But while I found all of this both helpful and exciting, I found myself thinking too of the intrinsic value of learning to talk to computers. In her introduction to the Workshop Series, GCDI’s Deputy Director, Lisa Rhody, emphasized that the platitude that computers are smart is misleading. They are the ultimate pedants. A mis-capitalization or typo will result in an error message. (Imagine if normal human communication had evolved to this. That would probably be the end of the human experiment.) This is not much unlike formal logic, which models the transitions involved in logical, truth-preserving, reasoning. For example, if we know something is either x or y, and it’s not x, then we can deduce that it’s y. The “sentences” (or ‘well-formed formulae’) in logic look odd compared to ordinary sentences, though we can see the structural similarity. Much of what facilitates or decorates natural human communication is trimmed away, and the syntactic elements remain, bare and exposed for analysis. In this sense, formal logic models what is explicitly said, rather than what is meant by what is said: the intended interpretation a speaker has in mind. In ordinary conversations, we all rely so much on the ability of others to interpret what we mean that miscommunication is not uncommon. As a professor once grumbled on my paper, we can’t rely on telepathy. Formal logic then, in addition to being a model, also functions as a skill. It highlights what we take for granted and demands of us that we be explicit and exact in what we say.",
+      "So too do computer languages. In some ways, it’s even more challenging than running a model argument in formal logic (called ‘derivations’): there are more terms and functions, more possible transitions, and greater chances for making mistakes that halt one’s work. It’s not just that the computer requires certain inputs from us, it’s that we have to shift—temporarily—how we think in order to get familiar with providing the proper inputs. It’s necessary to build up some speed and regularity. Even though I’d learned ‘shifting’ like this before with logic, I had to learn a new sort of shifting. It’s an experience that’s hard to describe. It’s like wearing special glasses so that you see the world in pixels. You can still see, but it’s a bizarre experience, one that makes you enjoy the fresh pixelated-vision but also renews your appreciation for regular vision. Coding works like these special glasses, but for communication.",
+      "Fortunately, the marvelous GC Digital Fellows are there to guide participants in learning this new (to us) pedantic language, reminding us we needed to act like the stickler correcting split infinitives at the pub. Those who have learned another language—and everyone has learned at least mathematics—know that you start by learning to make simple sentences and gradually learn to form more and more complex ones, involving more rules of construction and more variety of words. Before one learns to add 6 numbers together, they learn to add 2; before one learns large numbers, they learn the ones they can count on their fingers. The sessions on Command Line and Python (and presumably R, though I was not in this session) coached participants in constructing various sorts of simple sentences. As mentioned, unlike learning a second language, the programs have no mercy for mistakes in the constructions. The Digital Fellows promptly helped participants fix the mistakes, while also emphasizing that mistakes are common and expected. Coding is initially a counter-intuitive, unconventional way of writing.",
+      "And the information that goes into, and is produced, by such coding is likewise peculiar, as was discussed in the session on Data Literacy. For instance, I am currently writing this post in Microsoft Word, which—like many programs—does so much formatting work for me. This is so familiar to us that we rarely reflect on it. The words that appear on the page may come from my head, but their transference to the page is fully handled by the algorithms constructed by Microsoft programmers. This raises proprietary questions, ones that result in practical conflicts when another person has a program that can’t read formats from another. If one can do their own formatting (as on LaTeX), one can mitigate these concerns.",
+      "Thus, while the DRI does, unquestionably and deftly, enable participants to grasp foundational computer skills and concepts, it also provokes reflection and enriches non-computer skills and concepts that many of us—within and without academia—use. Learning to communicate directly with one’s computer via the Command Line, for example, shows in contrast how much is involved in natural communication that not only are we unconscious of but tacitly adept at. But how tacitly adept? It seems sometimes that we increasingly live in a world of shorthand and incomplete explanation, one that can be exploited in the direction of accusing (“I know you meant this!”) or deflecting (“I didn’t really mean that”) with little resolution. The functionality and the emotionality of human communication sometimes seem inseparable.",
+      "Perhaps it is a worthwhile exercise, as human beings, to learn to speak to a machine who cares not what we intended, but disinterestedly processes only what we said. That GC Digital Fellows provided such a composed, informed, and welcoming environment to engage in this humbling exercise, while also efficiently introducing new subject-matters to participating students, is a marvel that lifted my spirits and fueled my eagerness to learn more."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0003891742030198356,
+      0.06868926864903814,
+      0.1307315892573537,
+      0.00013199457435168367,
+      0.0023038594190643753,
+      0.5477858910018047,
+      0.0004268044510388661,
+      0.24954141844432864
+    ],
+    "words": [
+      [
+        "learn",
+        19
+      ],
+      [
+        "digital",
+        8
+      ],
+      [
+        "computer",
+        7
+      ],
+      [
+        "like",
+        6
+      ],
+      [
+        "logic",
+        6
+      ],
+      [
+        "program",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "17702",
+    "title": "Can Free Assembly Survive the Internet?",
+    "date": "2021-03-11",
+    "year": "2020–2021",
+    "authors": [
+      "Lucy Bernholz",
+      "Toussaint Nothias"
+    ],
+    "originalAuthors": [
+      "Lucy Bernholz & Toussaint Nothias"
+    ],
+    "aliases": [
+      "Lucy Bernholz",
+      "Toussaint Nothias"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/03/11/can-free-assembly-survive-the-internet/",
+    "signals": [],
+    "paragraphs": [
+      "This review essay from Public Books discusses how digital surveillance affects the political practice of assembly and protest. By analyzing Laura DeNardis’s The Internet in Everything: Freedom and Security in a World with No Off Switch, Sasha Costanza-Chock’s Design Justice: Community-Led Practices to Build the Worlds We Need, and Shalini Kantayya’s documentary Coded Bias, this article explores the ways in which the fact of digitization is shaping democracy itself. Even as the internet builds coalitions of solidarity and social justice, it becomes the location to surveil each protest and protestor. Exploring such contradictions, this articles raises questions on how such modes surveillance affects democratic ideals like free speech, free assembly, and other civil liberties. Duly highlighting both the oppressive potentialities of digital technologies as well as its capacity for resistance, this article is a very helpful introduction to…"
+    ],
+    "fullParagraphs": [
+      "This review essay from Public Books discusses how digital surveillance affects the political practice of assembly and protest. By analyzing Laura DeNardis’s The Internet in Everything: Freedom and Security in a World with No Off Switch, Sasha Costanza-Chock’s Design Justice: Community-Led Practices to Build the Worlds We Need, and Shalini Kantayya’s documentary Coded Bias, this article explores the ways in which the fact of digitization is shaping democracy itself. Even as the internet builds coalitions of solidarity and social justice, it becomes the location to surveil each protest and protestor. Exploring such contradictions, this articles raises questions on how such modes surveillance affects democratic ideals like free speech, free assembly, and other civil liberties. Duly highlighting both the oppressive potentialities of digital technologies as well as its capacity for resistance, this article is a very helpful introduction to current conversations on the impact of the internet and the digital more broadly on society today.",
+      "Read more: Can Free Assembly Survive the Internet? | Public Books"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19867",
+    "title": "The Digital Research Institute Workshop Series",
+    "date": "2021-03-08",
+    "year": "2020–2021",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Filipa Calado",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Featured",
+      "GCDRI",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/03/08/the-digital-research-institute-workshop-series/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Between January 29 and February 27, the Digital Fellows ran their annual Digital Research Institute (DRI), which teaches foundational skills for doing digital research, as a remote Workshop Series. For this iteration of the institute, we transformed our usual in-person, 4-day institute into a series of workshops held remotely over 5 weekends. Each Saturday, 28 participants from 18 different programs at The Graduate Center joined us online to take workshops on the Command Line, Data Literacies, the Python and R programming languages, Text Analysis, Data Analysis, and Project Development. Bringing our DRI curriculum to an online environment, we tried to facilitate the kind of collective and supportive learning that we prioritize in our face-to-face sessions. As we confronted the challenge of bringing this ethos to an online learning environment, we realized how necessary this kind of support is for students at the GC."
+    ],
+    "fullParagraphs": [
+      "Between January 29 and February 27, the Digital Fellows ran their annual Digital Research Institute (DRI), which teaches foundational skills for doing digital research, as a remote Workshop Series. For this iteration of the institute, we transformed our usual in-person, 4-day institute into a series of workshops held remotely over 5 weekends. Each Saturday, 28 participants from 18 different programs at The Graduate Center joined us online to take workshops on the Command Line, Data Literacies, the Python and R programming languages, Text Analysis, Data Analysis, and Project Development. Bringing our DRI curriculum to an online environment, we tried to facilitate the kind of collective and supportive learning that we prioritize in our face-to-face sessions. As we confronted the challenge of bringing this ethos to an online learning environment, we realized how necessary this kind of support is for students at the GC.",
+      "The development of this DRI is closely entwined with that of the Digital Humanities Research Institute (DHRI), an NEH-funded program that grew out of the first DRI to offer its curriculum nation-wide. For the DHRI, Institute Coordinator Kalle Westerling and a team of Digital Fellows created in-person workshops with the main goal of teaching participants to run their own Digital Research Institutes at their home institutions. Due to the changes of the COVID pandemic, we shifted our DHRI curriculum from in-person, synchronous workshops to online, mostly asynchronous workshops. Our curriculum revision, led by Lisa Rhody, Kalle Westerling, Stephen Zweibel, with seven digital fellows, attempted to address one central challenge: How to teach digital skills to a beginner audience online, while staying true to our practice of supportive, communal learning.",
+      "Now that we have piloted this new revised curriculum at our annual DRI at The Graduate Center, we’ve learned a few things about teaching digital skills online. First, to create a sense of community, we opened a Slack workspace that offers students an online platform for discussion, link sharing, and check-ins. We also split up our participants into teams to replicate the small-table atmosphere of our in-person workshops. Then, when we began teaching the workshops, we shifted our pedagogical approach to make the most out of our participants’ attention spans online. We offered a combination of asynchronous and synchronous spaces and instructions to give participants more flexible and fuller access to the curriculum. And, in synchronous instruction, we got rid of multiple screens and created dedicated time blocks for demonstration, practice, and group work. These small adjustments to the organization of our participants, curriculum, and the timing and pacing of our synchronous workshops helped to recreate within our new online environment the slow, cumulative, and personal approach that is ideal for teaching technological concepts to beginners.",
+      "Despite our success with the online DRI Workshop Series, it also brought to light some of the more challenging problems that we couldn’t immediately address. As the series progressed, we realized that the most effective approach involved participants reading our asynchronous materials prior to the synchronous instruction. In order to better enable self-directed learning, therefore, the content of some of the workshops will need to be expanded and re-organized. Additionally, the synchronous sessions require more structuring and support to better help students who are having technical problems. Finally, we realized that some workshops, like Python for instance, are more time intensive online than in person, and will require more synchronous instruction time before moving on to advanced workshops like Text Analysis. Unfortunately, the increasing constraints that we face as the pandemic continues make it difficult to address many of these issues.",
+      "Soon, we will be sharing blog posts from this year’s DRI participants, who will explain first-hand their experience of the institute. In the meantime, we’d love to hear your thoughts!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005800616715197588,
+      0.003665217924794287,
+      0.031356723862275275,
+      0.006366468298535017,
+      0.0003490221812322442,
+      0.27045016899495916,
+      0.000636149316580111,
+      0.6865961877501041
+    ],
+    "words": [
+      [
+        "workshop",
+        13
+      ],
+      [
+        "online",
+        11
+      ],
+      [
+        "digital",
+        9
+      ],
+      [
+        "participant",
+        8
+      ],
+      [
+        "institute",
+        7
+      ],
+      [
+        "dri",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "17662",
+    "title": "LAPD Asked for Ring Surveillance Video Related to Black Lives Matter Protests",
+    "date": "2021-03-01",
+    "year": "2020–2021",
+    "authors": [
+      "Sam Biddle"
+    ],
+    "originalAuthors": [
+      "Sam Biddle"
+    ],
+    "aliases": [
+      "Sam Biddle"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/03/01/lapd-asked-for-ring-surveillance-video-related-to-black-lives-matter-protests/",
+    "signals": [
+      "Archives, text & media",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "This news article discusses the use of private security cameras, public surveillance, and policing protestors, by drawing attention to the LAPD's investigation of the Black Lives Matter protests in the summer of 2020. The article uncovers how the LAPD garnered information from the owners of Amazon Ring security systems in the neighborhoods where protests had taken place through a process that required no oversight from a judge. The LAPD would send requests to individual Ring owners to obtain footage. This process allowed for the voluntary transfer of footage without the consent of those being recorded. Such practices raise larger questions regarding the use of private security systems to target peaceful protestors.",
+      "Read more: LAPD Asked for Ring Surveillance Video Related to Black Lives Matter Protests"
+    ],
+    "fullParagraphs": [
+      "This news article discusses the use of private security cameras, public surveillance, and policing protestors, by drawing attention to the LAPD's investigation of the Black Lives Matter protests in the summer of 2020. The article uncovers how the LAPD garnered information from the owners of Amazon Ring security systems in the neighborhoods where protests had taken place through a process that required no oversight from a judge. The LAPD would send requests to individual Ring owners to obtain footage. This process allowed for the voluntary transfer of footage without the consent of those being recorded. Such practices raise larger questions regarding the use of private security systems to target peaceful protestors.",
+      "Read more: LAPD Asked for Ring Surveillance Video Related to Black Lives Matter Protests"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19866",
+    "title": "GCDI is Here for You!",
+    "date": "2021-02-19",
+    "year": "2020–2021",
+    "authors": [
+      "Connor M French"
+    ],
+    "originalAuthors": [
+      "Connor M French"
+    ],
+    "aliases": [
+      "Connor M French"
+    ],
+    "account": "Connor M French",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This updated post by GC Digital Fellow Connor French",
+    "tags": [
+      "Announcements",
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/02/19/gcdi-is-here-for-you-2-2/",
+    "signals": [],
+    "paragraphs": [
+      "Note: This updated post by GC Digital Fellow Connor French is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester. Subsequently, it was updated by Kelsey Chatlosh in fall 2018, by Javier Otero Peña in the spring of 2019, by Kristen Hackett in fall of 2019, and by Olivia Ildefonso and Stefano Morello in fall of 2020. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "Greetings Digital GC, and welcome back!",
+      "May your winter breaks have been cheerful, restful, and productive.",
+      "As you transition back to your semesterly schedule, let us remind and update you about all the ways that GCDI is here to support you and your scholarship.",
+      "Consultations",
+      "The GC Digital Fellows are offering individual consultations this semester. Faculty and students at the Graduate Center are invited to request a consultation with the Digital Fellows to seek conceptual direction and technical advice for their…"
+    ],
+    "fullParagraphs": [
+      "Note: This updated post by GC Digital Fellow Connor French is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester. Subsequently, it was updated by Kelsey Chatlosh in fall 2018, by Javier Otero Peña in the spring of 2019, by Kristen Hackett in fall of 2019, and by Olivia Ildefonso and Stefano Morello in fall of 2020. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+      "Greetings Digital GC, and welcome back!",
+      "May your winter breaks have been cheerful, restful, and productive.",
+      "As you transition back to your semesterly schedule, let us remind and update you about all the ways that GCDI is here to support you and your scholarship.",
+      "Consultations",
+      "The GC Digital Fellows are offering individual consultations this semester. Faculty and students at the Graduate Center are invited to request a consultation with the Digital Fellows to seek conceptual direction and technical advice for their digital research and pedagogy projects. Each consultation meeting typically lasts 30 to 40 minutes and is conducted via video or phone call. Request a consultation by filling out this form!",
+      "We also encourage you to prepare for your consultation so you can get the most out of this opportunity. Review the tips outlined in this post.",
+      "Special Interest Working Groups",
+      "We have several groups for people with targeted interests who seek to convene with scholars working with similar methods and tools. These interdisciplinary student groups share resources, advice and opportunities online through the CUNY Academic Commons, Slack, and Zoom.",
+      "Python Users’ Group (PUG), R Users’ Group (RUG), Data Visualization Working Group (DVG), Sound Studies and Methods Working Group and the Digital Archives Research Collective (DARC) have regular meetings this semester.",
+      "Their schedules are as follows:",
+      "PUG, Fridays, 3:30pm to 5:00pm, including: 3/5, 3/19, 4/16, 4/30, 5/14",
+      "RUG, Fridays, 1:00pm to 2:30pm, including: 3/5, 3/19, 4/16, 4/30, 5/14",
+      "DARC's meeting dates for the Spring 2021 semester will be announced shortly. Please join our group on the CUNY Academic Commons to stay abreast of our future meeting dates.",
+      "DVG will be meeting this semester! Stay tuned on our Commons page to get notified of our future meeting dates.",
+      "The Sound Studies and Methods working group will be meeting this Spring semester! We meet once a month beginning late Feb/early March. In the meantime, if you are interested in exploring and sharing all things related to sound and audio, please join us over on our commons group to keep up with us. As we continue to build our community, folx are always welcome to post questions, share resources, and support each other via our forum in the meantime.",
+      "Workshops",
+      "Our workshops will fire up again in March! Keep an eye out on our workshop calendar for the latest updates. In the meantime, check out this blogpost for some asynchronous workshops we posted online last August!",
+      "Special Events",
+      "Our annual GCDI Showcase will be hosted on May 13th, from 6:30 - 8:30 PM. The event will be online, where participants will showcase their digital projects in lightning talks followed by discussion. This is a great opportunity for you to share your work and/or learn more about how the GC community is using digital methods and tools to extend their scholarship in new and exciting directions. This will be our second online hosting of the event- our first was a blast! Be on the lookout for a call to participate and an invitation to attend which will out soon!",
+      "GCDI Resources",
+      "The GCDI website is a great resource for you. Here you can learn more about the GCDI, the students, faculty and staff, and centers that fall under its umbrella and about the different ways you can be a part of the GCDI community. You can also view our Calendar to stay up-to-date with monthly happenings, learn more about our projects, including Manifold, our latest digital publishing platform, and the CUNY Academic Commons, an academic social network for community- and web-building, access a digital resource guide created by past and present GC Digital Fellows, peruse DH and digital scholarship news from around the GC and beyond, and more.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive semester,",
+      "your Digital Fellows,",
+      "Filipa, Olivia, Rafa, Stefano, Yuxiao, Di, Connor, and Param"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19865",
+    "title": "Digital Fellows' Guide to Digital Dissertations Update",
+    "date": "2020-12-09",
+    "year": "2020–2021",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/12/09/digital-fellows-guide-to-digital-dissertations-update/",
+    "signals": [],
+    "paragraphs": [
+      "In response to growing interest towards creating digital dissertations, I recently revised and updated the Digital Fellows’ guide on the topic. I expanded our old page to add information on:",
+      "What is a digital dissertation",
+      "How to begin designing a digital dissertation",
+      "Resources to help get your project off the ground",
+      "Please check out the guide and feel free to reach out if you have any questions, thoughts, suggestions!"
+    ],
+    "fullParagraphs": [
+      "In response to growing interest towards creating digital dissertations, I recently revised and updated the Digital Fellows’ guide on the topic. I expanded our old page to add information on:",
+      "What is a digital dissertation",
+      "How to begin designing a digital dissertation",
+      "Resources to help get your project off the ground",
+      "Please check out the guide and feel free to reach out if you have any questions, thoughts, suggestions!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.11910267378155692,
+      0.00535015929480646,
+      0.004683781293437332,
+      0.0018136822342445598,
+      0.0032175701362338774,
+      0.5309523737784939,
+      0.005864541433977658,
+      0.3290152180472492
+    ],
+    "words": [
+      [
+        "digital",
+        4
+      ],
+      [
+        "dissertation",
+        3
+      ],
+      [
+        "guide",
+        2
+      ],
+      [
+        "response",
+        1
+      ],
+      [
+        "grow",
+        1
+      ],
+      [
+        "interest",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "19864",
+    "title": "Getting the Most Out of Working Groups",
+    "date": "2020-12-08",
+    "year": "2020–2021",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/12/08/getting-the-most-out-of-working-groups/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "An important pillar of the ethos of the GCDI community is collective, collaborative inquiry. With this in mind, the GC Digital Fellows lead a number of different working groups that nurture interdisciplinary conversations, learning, and feedback. Building these kinds of communities of practice is especially important at a time when the COVID-19 pandemic has limited those prized serendipitous encounters that are a valued part of graduate school life.",
+      "If you’re unfamiliar with our working groups, the following post includes a quick introduction to those supported by GC Digital Initiatives and a few pointers about how to get involved in order to take advantage of what these groups have to offer.",
+      "What is a working group?",
+      "A loosely organized and informal collective",
+      "Focuses on an interdisciplinary technology topic",
+      "Welcomes novice to expert users",
+      "A place to share your work and get feedback, to ask and answer questions",
+      "Holds occasional meetings…"
+    ],
+    "fullParagraphs": [
+      "An important pillar of the ethos of the GCDI community is collective, collaborative inquiry. With this in mind, the GC Digital Fellows lead a number of different working groups that nurture interdisciplinary conversations, learning, and feedback. Building these kinds of communities of practice is especially important at a time when the COVID-19 pandemic has limited those prized serendipitous encounters that are a valued part of graduate school life.",
+      "If you’re unfamiliar with our working groups, the following post includes a quick introduction to those supported by GC Digital Initiatives and a few pointers about how to get involved in order to take advantage of what these groups have to offer.",
+      "What is a working group?",
+      "A loosely organized and informal collective",
+      "Focuses on an interdisciplinary technology topic",
+      "Welcomes novice to expert users",
+      "A place to share your work and get feedback, to ask and answer questions",
+      "Holds occasional meetings (attendance is never required)",
+      "Makes use of a Group forum on the Commons (and, occasionally, other platforms as well)",
+      "How do I participate?",
+      "Join a group on the Commons",
+      "Set your group participation to “All email”",
+      "Attend meetings (when you can)",
+      "Post questions and responses to the forum",
+      "Why do I want to join a working group?",
+      "To join a community of scholars working along and across methodological and disciplinary lines",
+      "To learn by doing",
+      "To problem-solve collaboratively",
+      "To share and build resources",
+      "To begin or join conversations on methodological and theoretical concerns",
+      "If you are interested in participating in any of the specialized communities of interest to learn together, make connections, or share your work, feel free to join their group on the CUNY Academic Commons!",
+      "The GIS/Mapping Working Group is a network of CUNY students, faculty and staff interested in sharing methods and techniques, and finding support from others about ways GIS can be used to further research and teaching. It offers a discussion space and a forum where students, faculty, and staff can present their projects.",
+      "The Python User’s Group (PUG) is an open and informal collaborative space for experimentation and exploration with the Python programming language, where all interested in Python – from complete beginners to advanced users – can come to work together and find support for their projects, learn skills, tools, or just hang around. Similarly, the R User’s Group (RUG) is a place for newbies and experts alike to learn and work together on projects using the statistical programming language, R. Whether you’re looking to learn a new library, or to solve a challenge collectively, PUG and RUG are the spaces you are looking for.",
+      "The Digital Archives Research Collective (DARC) is a platform that aims to address the needs of students, faculty, and communities working on archival research at The Graduate Center. Its primary goal is to assist in the creation of digital archives and exhibitions, but DARC also provides resources (in the form of tutorials, best practices, and workshops) on the archival research process itself and the theoretical concerns around archival work.",
+      "The Sound Studies and Methods Working Group is a network of CUNY students, faculty, and staff interested in sharing theories, methods, and techniques related to doing qualitative and quantitative research, teaching, storytelling, and creating art with sounds and audio files, and finding resources and support from others to do so. The group is open to scholars from all disciplines to explore ways that we as researchers and makers can study and use sound in our scholarship and pedagogy. If you’re working on a podcast for your class or your research project, you might want to join the Sound Studies and Methods Working Group.",
+      "The Data Visualization Group (DVG) is a newly born working group where folks interested in sharing theories, methods, and techniques related to data visualization can come and ask questions on their projects or learn new tricks. Members are encouraged to meet to discuss topics such as data preprocessing, data explanation, data exploration, theories of data visualization, real-world examples, and ongoing work. Throughout the academic year, DVG will explore the fundamentals of data visualization including design principles, best practices, dashboards, visualization tools, ethics, and more.",
+      "Can’t find the community you were looking for? Check out the Participate page on the GCDI website! If a group matching your interests doesn’t exist yet, create it yourself using the CUNY Academic Commons!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.09630133532599879,
+      0.031562116600693586,
+      0.036680594606362395,
+      0.010523464207054717,
+      0.00029298532019162804,
+      0.09495984448395414,
+      0.005713170099669434,
+      0.7239664893560752
+    ],
+    "words": [
+      [
+        "group",
+        18
+      ],
+      [
+        "work",
+        14
+      ],
+      [
+        "learn",
+        7
+      ],
+      [
+        "data",
+        7
+      ],
+      [
+        "community",
+        6
+      ],
+      [
+        "share",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "19863",
+    "title": "GIS at Scale with Google Earth Engine",
+    "date": "2020-11-20",
+    "year": "2020–2021",
+    "authors": [
+      "Connor M French"
+    ],
+    "originalAuthors": [
+      "Connor M French"
+    ],
+    "aliases": [
+      "Connor M French"
+    ],
+    "account": "Connor M French",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "big data",
+      "code",
+      "Featured",
+      "gis",
+      "Google",
+      "python",
+      "R",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/20/gis-at-scale-with-google-earth-engine-2/",
+    "signals": [
+      "Code & computational methods",
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "Sometimes your GIS project needs some extra oomph. Maybe finding the data you need to understand deforestation in Brazil is giving you a headache. Or, you need to run a machine learning algorithm on 50 gigabytes of weather station data and your poor laptop is melting the finish off of your dining room table. Google Earth Engine (GEE) is here to help.",
+      "From the website, GEE’s purpose is to:",
+      "Provide an interactive platform for geospatial algorithm development at scale",
+      "Enable high-impact, data-driven science",
+      "Make substantive progress on global challenges that involve large geospatial datasets",
+      "GEE is designed to make large-scale GIS projects feasible, but is also suitable for smaller projects. My main use-case is to pull environmental data from their petabyte scale database to model the potential distribution of species through time, e.g. this set of maps projecting the distribution of a species of Peruvian poison dart frog as it’s changed since…"
+    ],
+    "fullParagraphs": [
+      "Sometimes your GIS project needs some extra oomph. Maybe finding the data you need to understand deforestation in Brazil is giving you a headache. Or, you need to run a machine learning algorithm on 50 gigabytes of weather station data and your poor laptop is melting the finish off of your dining room table. Google Earth Engine (GEE) is here to help.",
+      "From the website, GEE’s purpose is to:",
+      "Provide an interactive platform for geospatial algorithm development at scale",
+      "Enable high-impact, data-driven science",
+      "Make substantive progress on global challenges that involve large geospatial datasets",
+      "GEE is designed to make large-scale GIS projects feasible, but is also suitable for smaller projects. My main use-case is to pull environmental data from their petabyte scale database to model the potential distribution of species through time, e.g. this set of maps projecting the distribution of a species of Peruvian poison dart frog as it’s changed since the mid-Pleistocene.",
+      "The first five panels show models of a frog species' potential range from the present-day back to the mid-Pleistocene. The sixth panel shows areas of stability in the frog's range over this time period. These models were constructed using publicly available environmental data related to the frog's ecological tolerances.",
+      "Large amounts of data can be pulled down with a single line of code! An “Earth Engine Snippet” is provided for each dataset that you can copy into your GEE code editor.",
+      "Example dataset highlighting the type of data available on Google Earth Engine and the ease of acquiring it through the Earth Engine Snippet.",
+      "In addition to acquiring data, a myriad of data processing and analytical tools are available. From cropping an image to machine learning, these tasks are performed on the Google Cloud platform, saving your computer from unnecessary RAM overload. There is a bit of a learning curve to using these tools, especially for those unfamiliar with coding. Thankfully, learning resources are plentiful. And for those with a preferred coding language, GEE code has been translated to JavaScript (the native language), python, and R! My preferred language is R, and there are a ton of examples to base your own ideas off of. For your next big GIS project, I recommend giving Google Earth Engine a shot!",
+      "Should you need help with your GIS project, we have some great resources through the GC Digital Fellows. For coding help and camaraderie, check out the Python User Group (PUG) and the R User Group (RUG). To hang out with folks interested in everything GIS, check out the GIS Working Group!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0008658678780555701,
+      0.010075963981951423,
+      0.23560478894142656,
+      0.0002936727591960029,
+      0.28141569025515895,
+      0.325423417017414,
+      0.02857857763603951,
+      0.11774202153075794
+    ],
+    "words": [
+      [
+        "data",
+        9
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "earth",
+        5
+      ],
+      [
+        "engine",
+        5
+      ],
+      [
+        "gee",
+        5
+      ],
+      [
+        "need",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "5881",
+    "title": "DARC Open Meeting Recap",
+    "date": "2020-11-18",
+    "year": "2020–2021",
+    "authors": [
+      "Stefano Morello"
+    ],
+    "originalAuthors": [
+      "Stefano Morello"
+    ],
+    "aliases": [
+      "Stefano Morello"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/18/darc-open-meeting-recap/",
+    "signals": [],
+    "paragraphs": [
+      "Over the past couple of years, the Digital Archive Research Collective (DARC) has created resources and fostered community among digital archivists and researchers at The Graduate Center. As part of our effort to build a community of practice around digital archival work, we created a Wiki with articles on various resources for archival research, led an event series, and hosted monthly Open Meetings, inspired by the models offered by PUG, RUG, and the GIS working groups. This year, in response to the difficulty of doing archival research due to the pandemic, DARC has decided to tailor its programming according to the needs of students whose research plans have been disrupted by the inability to access archives.",
+      "While our October Open Meeting focused on streamlining communication with archivists and cultivating institutional relationships, in our second virtual Open Meeting, we explored a number of options to engage with archival data…"
+    ],
+    "fullParagraphs": [
+      "Over the past couple of years, the Digital Archive Research Collective (DARC) has created resources and fostered community among digital archivists and researchers at The Graduate Center. As part of our effort to build a community of practice around digital archival work, we created a Wiki with articles on various resources for archival research, led an event series, and hosted monthly Open Meetings, inspired by the models offered by PUG, RUG, and the GIS working groups. This year, in response to the difficulty of doing archival research due to the pandemic, DARC has decided to tailor its programming according to the needs of students whose research plans have been disrupted by the inability to access archives.",
+      "While our October Open Meeting focused on streamlining communication with archivists and cultivating institutional relationships, in our second virtual Open Meeting, we explored a number of options to engage with archival data remotely, in the form of digital collections, artifacts and datasets. The generative questions of the meeting were:",
+      "What are some possible ways to conduct research in the present moment?",
+      "How can digital tools help us explore new possibilities to engage with archival research?",
+      "How do we make use of dataset (and especially metadata) from archives and libraries to explore collections remotely? What kind of questions do they enable us to answer?",
+      "After a brief round of introductions, the conversation shifted organically towards two complementary approaches: first, using web APIs (software intermediaries that allows two web applications to talk to each other) to pull information from existing databases; and second, using Jupyter Notebooks to explore GLAM datasets.",
+      "Since none of the attendees (including the Digital Fellows) could claim a strong expertise in working with APIs, we referred to this tutorial on using APIs to search historical newspapers crafted by former Digital Fellow Patrick Smyth. Together, we learned about the affordances of using APIs for research purposes and explored The Metropolitan Museum of Art Collection API, applying what we learned from the tutorial. Following the documentation, we identified the base url (“https://www.metmuseum.org/”), the path (“api/collection/collectionlisting”), and the query parameter (“isHighlight”) required to visualize what the Met has flagged as “popular and important artwork” in their collections.",
+      "Documentation for The Metropolitan Museum of Art Collection API.",
+      "Adding those three together, we assembled the URL we would need to feed to an API to perform a query on The Met database. While we didn’t have the time to create our own API, we successfully obtained the results of the query in JSON format, a text-based data storage format designed to be easy to read for both humans and machines.",
+      "JSON Result of our Query.",
+      "We then turned to the affordances of using text analysis to study archival data. Specifically, we referred to the GLAM Workbench, a website developed by Tim Sherratt, Associate Professor of Digital Heritage at the University of Canberra, that shows how to perform queries and data analysis from a variety of GLAM collections, as well as from one’s own datasets.",
+      "GLAM data consists of collections held by cultural institutions (books, manuscripts, photographs, objects, and other artifacts) in the form of datasets. As Sherratt writes,",
+      "We’re used to exploring [...] collections through online search interfaces or finding aids, but sometimes we want to do more – instead of a list of search results on a web page, we want access to the underlying collection data for analysis, enrichment, or visualisation. We want collections as data.",
+      "GLAM Workbench demonstrates a variety of tools and techniques that you can use to explore your data. The ready-made notebooks developed by Sherratt allow users to perform text analysis (and other forms of data analysis) on archival material without having to visit the archives in person, and without knowing much programming. It’s worth noting that, unlike other similar tools (such as those developed by/for JStor and HathiTrust), the notebooks on the GLAM Workbench site can also be edited by users to debug errors or adapt the applications to their needs.",
+      "Quantitative Analysis through a Jupyter Notebook on GLAM Workbench.",
+      "A still from a \"How to Edit a Jupyter Notebook\" on GLAM Benchwork.",
+      "GLAM data can be obtained either through APIs or by downloading datasets from an institution’s website. As we emphasized in our first meeting, using ArchiveGrid can be especially helpful to identify both digital and non-digital collections and archives, with query results often including links to finding aids and other forms of indexed datasets. Remember that whether you are looking for finding aids, more structured metadata, or information on an archive’s APIs, it’s generally a good idea to reach out to the institution, introduce yourself and your work, and ask for help from archivists.",
+      "Looking at APIs and the GLAM Workbench was especially helpful to think about the kinds of questions we can answer by looking at archival data through a mix of quantitative and qualitative methods. Through the course of the meeting, we learned new ways to conduct archival research; how digital tools can push our work in different directions than originally thought or allow us to a deeper engagement with the research questions we had already formulated; and how they can ultimately help us spend more quality time in the archives, having done some of the “dirty work” from home.",
+      "We look forward to seeing you in the next and last DARC open meeting of the semester, on Thursday, December 10, at 11am. If you’re interested in receiving updates from us or in attending future DARC meetings, don’t forget to sign up to the DARC Group on the CUNY Academic Commons! And, if there are topics you’d like us to address in future meetings, feel free to leave a message on the forum, or send us a note at gc.digitalfellows@gmail.com !"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.5139622427287234,
+      0.0003975982661758121,
+      0.00034807623825801483,
+      0.00013478419463688068,
+      0.00023911443322958845,
+      0.22755360833623792,
+      0.002549260258409382,
+      0.254815315544329
+    ],
+    "words": [
+      [
+        "collection",
+        12
+      ],
+      [
+        "digital",
+        11
+      ],
+      [
+        "data",
+        11
+      ],
+      [
+        "glam",
+        10
+      ],
+      [
+        "research",
+        9
+      ],
+      [
+        "archival",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "5873",
+    "title": "Thinking with Sound: Starting a Podcast Project",
+    "date": "2020-11-17",
+    "year": "2020–2021",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/17/thinking-with-sound-starting-a-podcast-project-2/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "As we start to settle into the rhythms of our new normal, many of us have taken this opportunity to also think about the different ways to disseminate information. There has been a renewed interest in exploring digital sound and audio as this has become key to our means of communication. From teaching and learning online to data collections (e.g. interviews) to audio publishing, sound and audio projects are being integrated in a variety of new avenues… and this is really exciting to me! If you’ve followed my previous posts on this blog and/or workshops (you can find links to these at the end of the post), you may have noticed that I’ve mostly written about interviewing and recording tips as well as planned workshops relating to audio recording and editing; hence, this current exploration of sound really gets me going!",
+      "One of the more recent interests is actually regarding podcasts. We, the GC Digital Fellows, have received several…"
+    ],
+    "fullParagraphs": [
+      "As we start to settle into the rhythms of our new normal, many of us have taken this opportunity to also think about the different ways to disseminate information. There has been a renewed interest in exploring digital sound and audio as this has become key to our means of communication. From teaching and learning online to data collections (e.g. interviews) to audio publishing, sound and audio projects are being integrated in a variety of new avenues… and this is really exciting to me! If you’ve followed my previous posts on this blog and/or workshops (you can find links to these at the end of the post), you may have noticed that I’ve mostly written about interviewing and recording tips as well as planned workshops relating to audio recording and editing; hence, this current exploration of sound really gets me going!",
+      "One of the more recent interests is actually regarding podcasts. We, the GC Digital Fellows, have received several consultation requests regarding podcast projects, from how to begin to edits and publishing platforms. In this blog post, I will be discussing some of the possibilities of doing a podcast project that may be helpful to your initial planning stages.",
+      "Firstly, a pivotal question: is your project a podcast or a compilation of interviews (e.g. oral histories) and/or sound clips? While this may not always be true, I often consider podcast episodes as audio narratives. What this means is that each episode should have at least a theme and a narrative that guides the listener through some main ideas. As such, this differs from simply compiling a series of sound clips or just publishing an interview. The host has the additional task of tying in the overall narrative of the collated clips, guiding the listener to follow the story that is being told.",
+      "In addition, as a podcast episode is primarily an audio narrative, certain features differ from a written one. For example, when planning and writing for an audio narrative (e.g. a script), simple words rather than multi-syllabic words are always preferred. Similarly, shorter sentences are easier to follow through an auditory medium. Hence, when planning for an audio narrative, it is important that we don’t simply read out an academic essay and really focus on how we can communicate complex ideas simply (Note: This is not simplifying complexity but using simple, concise language to communicate complex ideas!) I really enjoy this challenge, as it asks us (in the academy) to really consider our role as translators, especially because podcasts are fundamentally tools for public communication. Personally, in a class that I am currently teaching, I’ve asked my students to work on a podcast episode as their final assignment, and really asking them to consider how can they translate the knowledge they learn in the classroom to the larger public (e.g., I’ve asked them to think of their potential audience as a keen middle-schooler).",
+      "Podcasts are also creative projects! They’re not just an alternative means of public communication but also one that encourages us to engage with our senses differently. Within our conventional training, we often prioritize vision out of all the other senses. When you choose to try a podcast project, why not consider exploring what your auditory senses can do differently? For example, when thinking about the audio narrative you’re constructing, consider what sounds can help augment your points. If you’re including an interview with a gig worker, consider recording the background sound of their workplace and adding it to your episode as a way to immerse your audience in the story. Alternatively, we’ve also learned to note a fade-in and a fade-out as an auditory signal for when a clip is beginning and ending, and this transition can be very helpful when you’re piecing together different sound clips. For example, an abrupt ending in a podcast feels very similar to a jump-cut or a sudden blank screen in a film clip. Thoughtful background music, sound, and transitions all help in guiding listeners through an audio narrative.",
+      "I hope that this post is helpful for those of you who are thinking about starting a podcast project. I am always thrilled when people are exploring auditory mediums and sound projects, and it does seem that the remote learning/teaching/working environment has made many realize the importance of audio in our day-to-day communication. While in this post I have not gone into too many technical details for how to record, edit, and publish, I will leave you with a few resources and invite you to join our Sound Studies and Methods Working Group as well as set up a 1:1 consultation with us for when you’re ready to begin your podcast and/or audio projects.",
+      "GCDI Recording Workshop - Getting a Good (Enough) Audio Recording",
+      "GCDI Audacity Workshop - Using Audacity for Interviews",
+      "NPR Training - Audio guides",
+      "Considerations for using Creative Commons licensed music for your podcast",
+      "The Sound Studies and Methods Working Group meets monthly as a working group. Our next meeting is coming up on December 7th (Mon) at 2pm. Our sessions are open opportunities for anyone (affiliated with the GC) to join the Zoom call and receive some support as they are thinking and working through sound projects. There will be at least one GCDI Fellow on the call who can answer questions and help troubleshoot issues as they arise. To be kept up-to-date with the latest information, be sure to join our working group!",
+      "Featured Image: \"Microphone in front of computer screen with audio editor.\" Credit: Ryan Ozawa Repository: Flickr"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.002781219408579231,
+      0.016827592783086057,
+      0.0003855595838508828,
+      0.43323901052004316,
+      0.0026058894593999045,
+      0.28249154390044784,
+      0.04496224133034908,
+      0.21670694301424376
+    ],
+    "words": [
+      [
+        "audio",
+        15
+      ],
+      [
+        "sound",
+        13
+      ],
+      [
+        "podcast",
+        11
+      ],
+      [
+        "project",
+        10
+      ],
+      [
+        "narrative",
+        8
+      ],
+      [
+        "interview",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "19862",
+    "title": "Mapping the Effects of COVID-19",
+    "date": "2020-11-02",
+    "year": "2020–2021",
+    "authors": [
+      "Olivia Ildefonso"
+    ],
+    "originalAuthors": [
+      "Olivia Ildefonso"
+    ],
+    "aliases": [
+      "Olivia Ildefonso"
+    ],
+    "account": "Olivia Ildefonso",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/02/mapping-the-effects-of-covid-19-2/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "In March 2020, when the COVID-19 virus started to spread throughout New York City, former Digital Fellow Javier Otero Peña and I got together to think about the ways mapping could be used to identify some of the challenges produced by the pandemic. At the time we were co-coordinating the GIS /Mapping Working Group on the CUNY Academic Commons and over the years we had seen the many ways that GIS users throughout CUNY were constantly trying to use mapping to address some of the most current and urgent social issues. We strongly felt that it would be valuable to bring these GIS practitioners together with on-the-ground activists to come up with a mapping project that could be used to meet the needs of the current moment. In particular, we were interested in understanding how the pandemic was affecting vulnerable communities in New York and what could be done about it. We scheduled a virtual brainstorming session for April 17th and…"
+    ],
+    "fullParagraphs": [
+      "In March 2020, when the COVID-19 virus started to spread throughout New York City, former Digital Fellow Javier Otero Peña and I got together to think about the ways mapping could be used to identify some of the challenges produced by the pandemic. At the time we were co-coordinating the GIS /Mapping Working Group on the CUNY Academic Commons and over the years we had seen the many ways that GIS users throughout CUNY were constantly trying to use mapping to address some of the most current and urgent social issues. We strongly felt that it would be valuable to bring these GIS practitioners together with on-the-ground activists to come up with a mapping project that could be used to meet the needs of the current moment. In particular, we were interested in understanding how the pandemic was affecting vulnerable communities in New York and what could be done about it. We scheduled a virtual brainstorming session for April 17th and invited colleagues throughout CUNY and beyond.",
+      "Before the brainstorming session, we asked registrants to send us any maps that they had come across that addressed some aspect of the pandemic; we did this to avoid duplicating existing efforts with our mapping project. We also asked registrants to send ideas about potential maps that we could develop together. We included the research of existing maps and the recommendations for potential maps in a working document and sent it out to all participants before the call.",
+      "Over a dozen students, professors, and activists joined the session. By the end of the call, we had seven pages worth of ideas, which included mapping how COVID is affecting the neighborhoods where CUNY students live, mapping where there is a shortage of staff in medical facilities, and mapping vacant housing units as a way to show the contrast between the unsheltered population and the amount of property that remained unused in New York City. After the call, we encouraged participants to add to the working document and to indicate which projects they would be interested in working on. In the end, the group decided to pursue not one, but four mapping projects that focused on the intersections of COVID and food insecurity, housing, climate change, and incarceration. Once we had the teams established, we sent out a notice to a number of GIS listservs, asking if anyone else would like to join the efforts. To our surprise, we had over 100 people from around the nation reply! Each team ended up having between 10-25 members.",
+      "Each team had one team lead, whose responsibilities included setting up virtual meetings and keeping members on task. Generally, team members would meet once a week to report back to each other on what they had accomplished and to brainstorm the next steps. It was in these spaces that activists could say what they had been experiencing and hearing and researchers could add their expertise on how to find and process data related to the unfolding situations. Most teams also set up a Slack workspace to stay in touch between meetings.",
+      "Taking on this effort during a pandemic proved to be as difficult as it sounds. While many people were excited about joining and wanted to use their skills to make a difference, one challenge that we faced was retention. For various reasons, people had to leave the projects before completion, and two of the projects—focusing on COVID and climate change and COVID and housing—weren’t able to be completed. Regardless of their completion, I am so grateful for the work that was put into those projects and I hope that working with GIS practitioners and activists from around the nation was a fulfilling experience for all folks involved; their efforts and collaborations certainly inspired me!",
+      "The other two projects—\"COVID and Cages” and “The Food Chain”—were successfully completed. I am proud to share below the information about those mapping projects. As a member of the COVID and Cages team, I am also grateful to the GC News and Communications staff for featuring the mapping project on the Graduate Center homepage. Lastly, I invite anyone who’s interested in exploring GIS and mapping to join the GIS/Mapping Working Group on CUNY Academic Commons.",
+      "COVID and Cages",
+      "Team Lead: Celeste Winston, Ph.D.",
+      "Lead GIS practitioner: Olivia Ildefonso",
+      "COVID and Cages sought to discover how the pandemic is affecting incarcerated people in the United States. Since prisons and jails are sites where social distancing is impossible to attain, it was obvious that America’s prisons would quickly become COVID hotspots, putting at risk the lives of inmates and all who work inside of the prison system. In order to get access to relevant data, members of the team partnered with The COVID Prison Project, an initiative started by a group of interdisciplinary, public health scientists to create a public database on the state of COVID-19 in America’s correctional facilities. With access to a wealth of data from The COVID Prison Project, and additional data from UCLA Law Covid-19 Behind Bars Data Project, and the Vera Institute of Justice, the team created two different maps.",
+      "How State Prisons responded to the first wave of COVID in the US",
+      "As a response to the spread of COVID-19 in prisons, many states announced plans to reduce prison populations by releasing inmates who met certain criteria: often people nearing the end of their sentences, who were convicted of nonviolent offenses, and/or who comprised at-risk populations. Despite these new regulations, reductions to state prison populations had been minimal; by May, the average state prison system had reduced its population by just 5%.",
+      "The first map from the COVID and Cages team shows that by April 30th, states with some of the highest rates of COVID cases amongst state prisoners had released just a small percentage of their prison populations. In Ohio state prisons, for example, where the case rate stood at approximately 90 per 1,000 incarcerated people on May 21, there was only a 2.6 percent reduction in the state prison population in April. By contrast, states like Alaska, Iowa, and Rhode Island that released larger proportions of their state prison populations in April had seen smaller case rates. In general, the state prison systems that had larger population reductions had seen much smaller case rates compared to state prison systems with more limited releases.",
+      "In summarizing the results, the COVID and Cages team argued that the map provided evidence for the immediate need for widespread decarceration. They further explained that “in the context of the COVID-19 pandemic, prisons have become clear epicenters of crisis as people locked behind bars face higher risks of contracting the virus while systematically lacking access to quality healthcare,” adding, “Prior to the pandemic, incarceration itself was already a health crisis” with this being the latest chapter in a long history of epidemics and diseases spreading throughout prison and jail systems with little recourse or relief.",
+      "COVID19-Related State Prison Incarceration Reprieves in Pennsylvania by Committing County",
+      "The second map from the COVID and Cages team focused on Pennsylvania, one of the few states to release data on their temporary release program. The team found that the state only actually released a fraction of the people who were qualified. In May, Pennsylvania had over 41,000 people incarcerated in its state prisons. Under the temporary reprieve program, approximately 1,500 to 1,800 incarcerated people would have been eligible. However, as of July 14, 2020, only 159 people had their sentences reprieved through the program (Pennsylvania Department of Corrections).",
+      "The team also found that counties with significant Black populations were half as likely to receive re-entrants compared to the average. While they were unable to know the race and income of the people released under the temporary reprieve program, the team stated that these statistics raised a concern that Black people were less likely to be released and were therefore more likely to be exposed to COVID-19 in Pennsylvania’s state prisons. Additionally, they suggested the need for continued attention to this issue since understanding the racial and economic contexts in which re-entry is occurring is an important step in holistically addressing the needs of formerly incarcerated people and their communities.",
+      "The Food Chain",
+      "Team Lead: Lucienne Canet",
+      "Team members: Elena Abou Mrad, Regina Biswas Thomas, Donna Auguste",
+      "When COVID started to spread throughout the United States there was an immediate reaction in America’s food chains. Food banks across the country began to run out of food, while farmers in the Midwest and across the country were dumping milk and eggs, potatoes and onions and euthanizing hogs and chickens because they could not be sold to shuttering restaurants and other food-centered businesses. Though the government had ordered meat plants to stay open, there had been no coordinated effort to save produce, fruit, and dairy.",
+      "With this in mind, The Food Chain got to work to build a network of over 100 food transport volunteers from across the country to help drive shipments of food from the Midwest to the East Coast. The first “food rally” of three different cars delivered 100 dozen eggs from Zimmerman Farm in Pennsylvania to a food pantry in the Bronx. Once the team had a successful rally, they focused on developing maps that could help them find the shortest routes between farms, volunteers, and food banks.",
+      "The Food Chain projects’ mapping and data volunteer team aggregated and presented cleaned data to the communications and food transport volunteers. This data was accessible as a Google spreadsheet and included address and contact information for farms, food banks, and volunteers. You can read more about this mapping process in these two articles authored by team members: “Data for a Farm-to-Food-Bank Volunteer Project” and “Support Veteran-Owned Farms with an Innovative Interactive Map.”",
+      "The Food Chain team also created a public web map to equip food transport volunteers with information and navigation capability on their mobile phones. Each point on the map, when clicked, opens a pop-up menu for information. With the app, the volunteers could use the “Navigation” link in the pop-up menu for directions, and automatically open the address in Google Maps.",
+      "The team also made a considerable effort to account for race and class disparities in both the access to food and the ability to sell food. Aware that farms owned by people within marginalized communities might be overlooked by some methodologies, the team specifically noted the importance of including and annotating farms owned by people within marginalized communities — e.g., farmers who are Black, Latinx, indigenous peoples, veterans, LGBTQ+, and or differently-abled people. The team also included a median household income layer to motivate users to recognize food apartheid in their neighborhood related to food networks' locations.",
+      "For more information about The Food Chain’s “Food Sovereignty Network Map” and the process of making the map, please see this detailed article by team member, Regina Biswas Thomas."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00021784369208608452,
+      0.4902758995805714,
+      0.0001908061782455322,
+      7.388512699192555e-05,
+      0.1588496074145071,
+      0.12705592229511817,
+      0.004873025254906116,
+      0.2184630104575737
+    ],
+    "words": [
+      [
+        "team",
+        26
+      ],
+      [
+        "food",
+        25
+      ],
+      [
+        "covid",
+        24
+      ],
+      [
+        "state",
+        21
+      ],
+      [
+        "prison",
+        21
+      ],
+      [
+        "map",
+        19
+      ]
+    ]
+  },
+  {
+    "id": "17293",
+    "title": "The Dictatorship of Data",
+    "date": "2020-11-02",
+    "year": "2020–2021",
+    "authors": [
+      "Kenneth Cukier",
+      "Viktor Mayer-Schönberger"
+    ],
+    "originalAuthors": [
+      "Kenneth Cukier and Viktor Mayer-Schönberger"
+    ],
+    "aliases": [
+      "Kenneth Cukier",
+      "Viktor Mayer-Schönberger"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/02/the-dictatorship-of-data/",
+    "signals": [],
+    "paragraphs": [
+      "Robert McNamara is remembered as JFK's and LBJ's secretary of defense, who was a primary motivator in escalating the Vietnam War. What is less known about McNamara--as discussed in this recent MIT Technology Review article-- is that he was obsessed with accumulating data for any objective that he undertook. While ordinarily we would think this is a good thing for making informed decisions, this article discusses the limitations on the usefulness and reliability of data, and the lessons this has for modern day's Big Data, with particular attention to Google.",
+      "Read more here:The Dictatorship of Data",
+      "Photo courtesy of Neerav Bhatt"
+    ],
+    "fullParagraphs": [
+      "Robert McNamara is remembered as JFK's and LBJ's secretary of defense, who was a primary motivator in escalating the Vietnam War. What is less known about McNamara--as discussed in this recent MIT Technology Review article-- is that he was obsessed with accumulating data for any objective that he undertook. While ordinarily we would think this is a good thing for making informed decisions, this article discusses the limitations on the usefulness and reliability of data, and the lessons this has for modern day's Big Data, with particular attention to Google.",
+      "Read more here:The Dictatorship of Data",
+      "Photo courtesy of Neerav Bhatt"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17290",
+    "title": "Body Language",
+    "date": "2020-11-01",
+    "year": "2020–2021",
+    "authors": [
+      "Sanjana Varghese"
+    ],
+    "originalAuthors": [
+      "Sanjana Varghese"
+    ],
+    "aliases": [
+      "Sanjana Varghese"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/11/01/body-language-sanjana-varghese/",
+    "signals": [],
+    "paragraphs": [
+      "In this thought provoking article from The Baffler, Sanjana Varghese discusses the dangers of biometric surveillance beyond facial recognition. Whereas facial recognition has rightfully occupied a lot of attention for its racist biases and its authoritarian overreach, Varghese points towards other similar technologies that also deserve public critique. Varghese discusses emotion recognition, gait recognition, earprint recognition and voice recognition as examples of emergent surveillance technologies that build the carceral state. \"Tearing this entire infrastructure down to its studs—and making it impossible to build on—is the only way forward,\" Varghese concludes.",
+      "Read more: Body Language"
+    ],
+    "fullParagraphs": [
+      "In this thought provoking article from The Baffler, Sanjana Varghese discusses the dangers of biometric surveillance beyond facial recognition. Whereas facial recognition has rightfully occupied a lot of attention for its racist biases and its authoritarian overreach, Varghese points towards other similar technologies that also deserve public critique. Varghese discusses emotion recognition, gait recognition, earprint recognition and voice recognition as examples of emergent surveillance technologies that build the carceral state. \"Tearing this entire infrastructure down to its studs—and making it impossible to build on—is the only way forward,\" Varghese concludes.",
+      "Read more: Body Language"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19861",
+    "title": "Don't Let Installations Stop You From Learning Python!",
+    "date": "2020-10-30",
+    "year": "2020–2021",
+    "authors": [
+      "Rafael Davis Portela"
+    ],
+    "originalAuthors": [
+      "Rafael Davis Portela"
+    ],
+    "aliases": [
+      "Rafael Davis Portela"
+    ],
+    "account": "Rafael Davis Portela",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/30/dont-let-installations-stop-you-from-learning-python/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Learning Python, or any programming language, is not easy. It requires commitment and persistence. This is a reality we need to accept to avoid frustration. However, I am a strong believer that, with the proper help and attitude, anyone can learn to program.",
+      "As long as they survive software installation.",
+      "I've taught many introductory Python workshops. While we strive to make them accessible for people without any previous programming knowledge, making sure everyone has Python properly installed on their machine in time for the workshop is always a struggle. I have seen common, not so common, and even downright weird installation issues.",
+      "To be frank, this shouldn't be an issue users still have to face in 2020. By now, any new Windows or Mac computer should come with Python 3 installed by default (like most Linux versions do), saving new users from the struggle. However, in reality, Windows comes with no Python, while many Mac versions…"
+    ],
+    "fullParagraphs": [
+      "Learning Python, or any programming language, is not easy. It requires commitment and persistence. This is a reality we need to accept to avoid frustration. However, I am a strong believer that, with the proper help and attitude, anyone can learn to program.",
+      "As long as they survive software installation.",
+      "I've taught many introductory Python workshops. While we strive to make them accessible for people without any previous programming knowledge, making sure everyone has Python properly installed on their machine in time for the workshop is always a struggle. I have seen common, not so common, and even downright weird installation issues.",
+      "To be frank, this shouldn't be an issue users still have to face in 2020. By now, any new Windows or Mac computer should come with Python 3 installed by default (like most Linux versions do), saving new users from the struggle. However, in reality, Windows comes with no Python, while many Mac versions still come with Python 2, a deprecated version that can confuse beginners by leading them to assume they already have a fully functional version of Python on their computer.",
+      "Additionally, installing Python 3 is not as straightforward nor intuitive as it should be. On a Mac, you usually have to take multiple steps (e.g., installing Xcode and Homebrew, before getting to Python), while on a Windows machine you might have to deal with system environment variables to run a python script in the command line. There are also many options to choose from, which is great, but can be overwhelming for newcomers – for example, new users will have to decide whether to install Python by itself or use a distribution such as Anaconda, or perhaps a lighter version called Miniconda.",
+      "My point is that, depending on your comfort level with computers, the installation process itself can become a wall that prevents you from even trying to learn Python. But it does not have to be. And here's why.",
+      "You don't have to install anything to start learning Python.",
+      "There are browser-based options, like repl.it and Google Colab, that let you experiment with Python code (and even do serious work) without any installation. Those platforms allow you to code from any computer, as long as you have internet access and a browser. That is a great way of dipping your toes before getting in the water. Once you feel ready to commit, you can work on the installation.",
+      "There are installation guides and walk-throughs available",
+      "If you feel somewhat comfortable following tutorials, those guides can be handy. We, the GC Digital Fellows, have been working on one. There are instructions for both Windows and Mac, and if you follow them carefully, you'll have smaller chances of running into problems. A quick note: even though we try to update those guides every year, the options and screenshots might not be the most current ones, so it is important to be mindful of that.",
+      "You can and should ask for help.",
+      "Those who have experience troubleshooting know the most common errors and solutions because they had to struggle themselves to solve them. There is no need to go through that yourself, unless you are having fun with it. (Yes, for some of us it can be very rewarding to find a solution to a problem by ourselves!)",
+      "Who should you ask? Well, you can ask us, for instance! Just fill the form out for a one-on-one consultation, and one of the Digital Fellows will reach out to help.",
+      "Do you like working in groups? You can also join the Python Users' Group (PUG) and ask for help in the forum or in our Slack group.",
+      "The good news is that after installations, you probably won't have to worry about it ever again---at least not on that computer. With installations out of mind and out of sight, you should be able to concentrate in the most important and most fun part: learning the Python language itself. And you can start right here."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.004180817716843701,
+      0.014738461712740153,
+      0.34193268781444563,
+      0.0037435347504706233,
+      0.0003981519974603021,
+      0.537261631072775,
+      0.049993154415847854,
+      0.047751560519416654
+    ],
+    "words": [
+      [
+        "python",
+        16
+      ],
+      [
+        "installation",
+        8
+      ],
+      [
+        "learn",
+        5
+      ],
+      [
+        "computer",
+        5
+      ],
+      [
+        "version",
+        5
+      ],
+      [
+        "help",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "17258",
+    "title": "A radical new technique lets AI learn with practically no data",
+    "date": "2020-10-22",
+    "year": "2020–2021",
+    "authors": [
+      "Karen Hao"
+    ],
+    "originalAuthors": [
+      "Karen Hao"
+    ],
+    "aliases": [
+      "Karen Hao"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/22/a-radical-new-technique-lets-ai-learn-with-practically-no-data-mit-technology-review/",
+    "signals": [
+      "Teaching & learning",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "This article from MIT discusses a new paper from University of Waterloo (Ontario), in which researchers suggest that there may be a way to trim down on the number of examples needed to jump-start an AI model. Typically, AI models have to be fed thousands of images to get it to recognize any particular thing. Not only is this very different from how humans learn to identify objects, but also it takes a lot of computation to accomplish. However, in this study, researchers suggested that \"soft label\" images could be more efficient in enabling AI object-identification. \"Soft labels\" are ones with a bit of ambiguity--such as a unicorn sharing properties of a horse and a rhino. While the researchers did not build a model, they ran the hypothesis with machine-learning algorithms with promising results.",
+      "Read more here: A radical new technique lets AI learn with practically no data | MIT Technology Review"
+    ],
+    "fullParagraphs": [
+      "This article from MIT discusses a new paper from University of Waterloo (Ontario), in which researchers suggest that there may be a way to trim down on the number of examples needed to jump-start an AI model. Typically, AI models have to be fed thousands of images to get it to recognize any particular thing. Not only is this very different from how humans learn to identify objects, but also it takes a lot of computation to accomplish. However, in this study, researchers suggested that \"soft label\" images could be more efficient in enabling AI object-identification. \"Soft labels\" are ones with a bit of ambiguity--such as a unicorn sharing properties of a horse and a rhino. While the researchers did not build a model, they ran the hypothesis with machine-learning algorithms with promising results.",
+      "Read more here: A radical new technique lets AI learn with practically no data | MIT Technology Review"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17227",
+    "title": "Why Facebook Can’t Fix Itself",
+    "date": "2020-10-19",
+    "year": "2020–2021",
+    "authors": [
+      "Andrew Marantz"
+    ],
+    "originalAuthors": [
+      "Andrew Marantz"
+    ],
+    "aliases": [
+      "Andrew Marantz"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "2016 election",
+      "2020 election",
+      "a reporter at large",
+      "Donald Trump",
+      "england",
+      "Facebook",
+      "fake news",
+      "hate speech",
+      "internet",
+      "inverted",
+      "jair bolsonaro",
+      "magazine",
+      "mark zuckerberg",
+      "News",
+      "peter thiel",
+      "politics",
+      "social media",
+      "splitscreenimagerightinset",
+      "technology",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/19/why-facebook-cant-fix-itself-the-new-yorker/",
+    "signals": [],
+    "paragraphs": [
+      "This article from The New Yorker dives into the longstanding content moderation troubles at Facebook. At heart is the difficulty of balancing a platform that values \"free speech,\" on the one hand, with policing and stopping the spread of hateful content on the other. The article's author Andrew Marantz critiques Facebook at failing to adequately confront this issue and notes, \"the company’s strategy has never been to manage the problem of dangerous content, but rather to manage the public’s perception of the problem.\"",
+      "Read more: Why Facebook Can’t Fix Itself"
+    ],
+    "fullParagraphs": [
+      "This article from The New Yorker dives into the longstanding content moderation troubles at Facebook. At heart is the difficulty of balancing a platform that values \"free speech,\" on the one hand, with policing and stopping the spread of hateful content on the other. The article's author Andrew Marantz critiques Facebook at failing to adequately confront this issue and notes, \"the company’s strategy has never been to manage the problem of dangerous content, but rather to manage the public’s perception of the problem.\"",
+      "Read more: Why Facebook Can’t Fix Itself"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5804",
+    "title": "Using RQDA for Qualitative Data Analysis",
+    "date": "2020-10-16",
+    "year": "2020–2021",
+    "authors": [
+      "Yuxiao Luo"
+    ],
+    "originalAuthors": [
+      "Yuxiao Luo"
+    ],
+    "aliases": [
+      "Yuxiao Luo"
+    ],
+    "account": "Yuxiao Luo",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/16/use-rqda-for-qualitative-data-analysis/",
+    "signals": [],
+    "paragraphs": [
+      "Why Do I Need Qualitative Data Analysis Software?",
+      "I’m a PhD student in Business (Information Systems), and I employed qualitative research methods in two of my previous projects to analyze interview data of commercial ERP system implementation and speeches of CEOs from public firms. Qualitative data analysis is a useful and powerful research method that includes the human encoding and description of texts to surface patterns; whereas, quantitative methods such as econometric modeling, machine learning, and natural language preprocessing are computationally, or numerically, driven.",
+      "Solely relying on quantitative analysis can sometimes miss the broadness and depth of the information we try to analyze. For example, it reduces social complexity and has weaknesses in building theory and identifying new patterns. Additionally, numbers sometimes present an illusion of precision, adding bias and losing the perspective of the people that the…"
+    ],
+    "fullParagraphs": [
+      "Why Do I Need Qualitative Data Analysis Software?",
+      "I’m a PhD student in Business (Information Systems), and I employed qualitative research methods in two of my previous projects to analyze interview data of commercial ERP system implementation and speeches of CEOs from public firms. Qualitative data analysis is a useful and powerful research method that includes the human encoding and description of texts to surface patterns; whereas, quantitative methods such as econometric modeling, machine learning, and natural language preprocessing are computationally, or numerically, driven.",
+      "Solely relying on quantitative analysis can sometimes miss the broadness and depth of the information we try to analyze. For example, it reduces social complexity and has weaknesses in building theory and identifying new patterns. Additionally, numbers sometimes present an illusion of precision, adding bias and losing the perspective of the people that the research tries to understand. As a social science researcher with a statistical background, I personally prefer a mixed-method approach, whereby both qualitative data analysis and quantitative methods are employed to propose a theoretical model and then validating the corresponding hypotheses.",
+      "If you are interested in using a mixed-methods approach but want to avoid expensive and proprietary licenses, your software options are limited. In the following post, I will introduce one possible option called RQDA, a free qualitative data analysis software based on the R programming environment. First, I will give you a brief guide on how to install it, and then show you how to get started using it.",
+      "Introduction to RQDA",
+      "RQDA is a R package for Qualitative Data Analysis that works on both Windows and Mac Os platforms. I became a RQDA user when I started a project that required qualitative data analysis of interview transcripts. The project aimed to investigate why users are resistant to use a commercial ERP system that was newly deployed in a large organization. I conducted a series of interviews with key employees in different positions inside an organization and tried to develop hypotheses from the interview data. Like many other qualitative research projects, my aim was to either connect this case to existing theory or build a new theory to explain users' behavior in the organization. Then, the first challenge I was facing was to find a Qualitative Data Analysis (QDA) software that could enable both synchronous and asynchronous team collaboration of qualitative coding and data management.",
+      "After much research, I finally chose RQDA for three reasons:",
+      "RQDA is open source and free! All the other available QDA (qualitative data analysis) software require a license (i.e. ATLAS.ti offers a student price of $100 for two-year use);",
+      "It is seamlessly integrated into the R programming environment and RStudio, and data manipulation and analysis can be executed through both Graphical User Interface (GUI) and coding in R;",
+      "It includes all the standard computer-aided qualitative data analysis features. With RQDA you can do anything that you could do in a proprietary QDA software.",
+      "Something you should consider before you start using RQDA: the developer stopped maintaining the software in early 2020 for unknown reasons. The old releases are still functional, but we don't currently know whether the software will be further developed in the future. Even though its development has been discontinued, its capabilities can fulfill most qualitative analysis requirements and it is thus still a highly recommended tool for completing qualitative research projects.",
+      "Currently, RQDA supports plain text formatted data (i.e. ‘.txt’ files) and statistical analysis on coding, as well as data analysis extended by writing R functions. Through its GUI, it offers three major features: Qualitative Coding, Organization, and Search. Qualitative coding can fulfill the needs of researchers using methods widely used in qualitative research, including first-level coding, second-level coding, and concept development. Moreover, RQDA has sophisticated features to support code, memo, and file organization. Through the extended R functions, general search and conditional search of codes are well integrated into the query features of RQDA.",
+      "Through Qualitative Coding, you can do character-level coding using codes, files editing after coding, and memos of documents, codes, projects, and files. Moreover, retrieval or conditional retrieval of coding is also possible.",
+      "The Organization Feature, allows you to organize codes into code categories (for theory building) and organize files into file categories.",
+      "Finally, with the Search feature, you can search for files by keywords, and search for information about a selected case on the internet via a pop-up menu. Through R functions, you can do even more things, including calculating inter-code relationships.",
+      "How to Install RQDA?",
+      "First, you need to install R and RStudio. You can find the instructions on how to proceed with the installation here. When you install R, make sure you are selecting the R 3.6.3 (2020-02-29) release, as the newest R version (4.0.2) no longer supports RQDA. Please, also be advised that you can install multiple R versions on your computer (both Windows and Mac can do that), as well as in RStudio. You can switch between different R versions in RStudio conveniently by clicking the tab “Tools” and choose “Global Options.” Then you can click on “Change” in the “R Sessions” to select the one that you want to use.",
+      "Switch to different versions of R in RStudio",
+      "You will then have to install RQDA. Below is a simplified step by step tutorial to do so. You can also find more detailed documentation on my personal GitHub RQDA repository. I made two versions, for Windows users and Mac users separately, which are almost the same except that GTK+ software has a different format for Windows and Mac as well as Mac does not need to install Rtools. I will introduce the case for Windows in this article. For Mac users, you can check out the Github page and find out the step-by-step tutorial, which is very similar to the one for Windows users. There is another Mac user who shared her experience of successful installation in Oct 2020, check out this Github link for the step-by-step details.",
+      "Make sure you have the 3.6.3 (2020-02-29) release of R installed. The release of your RStudio installation shouldn't matter.",
+      "Install Rtools35 (Make sure you don't select the newest version, Rtools40) The reason is that RQDA had stopped updating before Rtools40 was released. Thus, RQDA package only fits Rtools35.",
+      "After installing Rtools35, run the following command in RStudio",
+      "writeLines('PATH=\"${RTOOLS35_HOME}\\\\usr\\\\bin;${PATH}\"', con = \"~/.Renviron\"",
+      "Download GTK+ from either SoundForge or Github.",
+      "The following 3 packages (RGtk2, cairoDevice, DBI) can be downloaded from The Comprehensive R Archive Network (CRAN) directly through the following command in RStudio:",
+      "install.packages(c(\"RGtk2\", “cairoDevice\", “DBI”))",
+      "The following 4 packages (gWidgets, gWiedgetsRGtk2, RQDA, RSQLite) were delisted from CRAN, but can be downloaded from Github. Specifically, gWidgets provides a toolkit-independent API for building interactive GUIs in R. gWiedgetsRGtk2 is the toolkit implementation of gWidgets for RGtk2. RQDA is the package for QDA software. While RSQLite embeds the 'SQLite' database engine in R and provides an interface compliant with the 'DBI' package.",
+      "You can copy-paste the four folders you just downloaded into your personal R library. Use the R command",
+      ".libPaths()",
+      "to identify the library location. (e.g., \"C:\\Users\\Henry\\Documents\\R\\win-library\\3.6\"). The four packages that you should put in the library location are: a. gWidgets; b. gWidgetsRGtk2; c. RQDA; d. RSQLite .",
+      "Congratulations, you have now successfully installed RQDA in the R environment on your computer. Run the following commands to launch it,",
+      "# load RQDA package",
+      "Library(“RQDA”)",
+      "# open RQDA",
+      "RQDA()",
+      "Interface of RQDA in RStudio",
+      "A GUI of RQDA will then pop up in RStudio. Now, you are ready to go! For information on how to do qualitative coding in RQDA, you can refer to this detailed tutorial. This tutorial will walk you through the qualitative coding features in RQDA step by step and show some interesting examples of visualizing codes and categories. Moreover, it provides demos of useful RQDA functions for organizing and searching the coded files and memos.",
+      "At last, RQDA is an open-source (free) package in R and offers all the functionalities as a Qualitative Data Analysis program. I've used it in two of my projects instead of Atlas.ti and would recommend it in any process involved with qualitative analysis. Furthermore, the coded data could also be piped into other text analysis models in the same R working project easily.",
+      "RUG & DVG",
+      "If you have any questions regarding RQDA and its use, do not hesitate to join us at the RUG (R User Group) meetings, the DVG (Data Visualization Group) meetings, or to schedule a consultation with the GC Digital Fellows."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.29855490690073,
+      0.00025624938994886097,
+      0.44971565390772095,
+      8.686750066253269e-05,
+      0.00015410763289384088,
+      0.09081086812885557,
+      0.09290334011092333,
+      0.06751800642826489
+    ],
+    "words": [
+      [
+        "rqda",
+        32
+      ],
+      [
+        "r",
+        26
+      ],
+      [
+        "qualitative",
+        22
+      ],
+      [
+        "data",
+        18
+      ],
+      [
+        "analysis",
+        17
+      ],
+      [
+        "user",
+        11
+      ]
+    ]
+  }
+]

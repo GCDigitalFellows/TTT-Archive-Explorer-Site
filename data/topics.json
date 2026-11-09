@@ -1,0 +1,82 @@
+[
+  {
+    "label": "Archives & text research",
+    "words": [
+      "text",
+      "data",
+      "library",
+      "collection",
+      "tool"
+    ]
+  },
+  {
+    "label": "AI, access & sociotechnical power",
+    "words": [
+      "ai",
+      "data",
+      "community",
+      "technology",
+      "access"
+    ]
+  },
+  {
+    "label": "Programming & structured data",
+    "words": [
+      "r",
+      "python",
+      "data",
+      "program",
+      "code"
+    ]
+  },
+  {
+    "label": "Audio practices / project support",
+    "words": [
+      "sound",
+      "audio",
+      "track",
+      "maker",
+      "record"
+    ]
+  },
+  {
+    "label": "Spatial data & visualization",
+    "words": [
+      "data",
+      "map",
+      "layer",
+      "file",
+      "color"
+    ]
+  },
+  {
+    "label": "Reflection & problem-solving language",
+    "words": [
+      "time",
+      "think",
+      "way",
+      "work",
+      "like"
+    ]
+  },
+  {
+    "label": "Web publishing & infrastructure",
+    "words": [
+      "file",
+      "website",
+      "page",
+      "create",
+      "web"
+    ]
+  },
+  {
+    "label": "Research support & community programming",
+    "words": [
+      "project",
+      "research",
+      "student",
+      "work",
+      "workshop"
+    ]
+  }
+]

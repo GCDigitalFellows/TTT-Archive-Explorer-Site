@@ -496,5 +496,53 @@
     "oversight": "Direct human factual confirmation; no broader year assignment for other current GCDI role families or exact appointment dates.",
     "artifact": "../.archify/tree-confirmed-cohorts-20261104-233716/index.html",
     "checks": "52 recorded tests passed plus frozen-reference verification; scoped CUA review; native automated browser gate skipped, not passed."
+  },
+  "pedagogical_code_guidance": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Required future code to support human review and learning to understand and edit the code and website design; CRediT Conceptualization and Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) wrote source/public agent guidance and a learner editing route using existing project architecture.",
+    "evidence": "../docs/CODE_REVIEW.md",
+    "oversight": "Human direction is documented. Learner comprehension, participant testing and independent review of future code are not established."
+  },
+  "code_review_literature_knowledge_base": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested an academic search on code review and digital humanities and a knowledge base drawn from open papers/articles. CRediT Conceptualization and Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) performed targeted primary-source discovery, selected 17 scholarly/practice sources, inspected accessible sections, recorded access/version/rights limits, and drafted source annotations, a synthesis, metadata and BibTeX.",
+    "evidence": "../docs/knowledge/code-review-digital-humanities/README.md",
+    "oversight": "Targeted English-language exploratory search. Not a systematic review or human-verified scholarship. One publisher article used indexed excerpts, a preprint retains unverified journal status, and guidelines are distinguished from empirical studies. Project applications are proposals."
+  },
+  "code_review_literature_integration": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested integrating the code-review knowledge base into project files and agent instructions. CRediT Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) linked the source/public agent guidance and project review guides, added a task-scaled review worksheet, and documented use of source IDs with evidence and interpretation limits.",
+    "evidence": "../docs/knowledge/code-review-digital-humanities/REVIEW_WORKSHEET.md",
+    "oversight": "Integration is authorized. Earlier source findings retain their original access limits; the worksheet and reading routes have not been evaluated with human learners. No method change, model fit or publication is implied."
+  },
+  "modular_browser_release": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Requested starting the reviewed plan to break the large public index into reviewable components. CRediT Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) implemented modular assets, per-view source markup, bounded JSON reconstruction, checksum/readiness/retry handling, allowlist enforcement, complete-data equivalence checks and local browser verification.",
+    "evidence": "reviews/mockups/welcoming-pathways/modular_validation.json",
+    "oversight": "Implementation requested. Agent checks do not establish human review, accessibility conformance or learner comprehension. Changes remain local; all saved evidence is loaded before controls become available."
+  },
+  "deferred_word_data": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Endorsed the modular implementation and requested continued work. CRediT Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) selected the four larger word-analysis datasets for deferred loading, implemented atomic/cached requests, persistent status and keyboard retry, guarded navigation during pending requests, and performed recorded automated and local browser checks.",
+    "evidence": "reviews/mockups/welcoming-pathways/deferred_validation.json",
+    "oversight": "Agent selected this scoped next step under Ian’s continuation request. No new model fit, source population change, human evaluation or production release is claimed."
+  },
+  "deferred_people_data": {
+    "date": "2026-11-08",
+    "human": "Ian G. Williams",
+    "human_scope": "Endorsed prior improvements and requested continued work. CRediT Project administration.",
+    "agent_scope": "OpenAI Codex (exact build not recorded) selected people-history data for on-demand loading, reused independent cached group requests, and added page status/retry and one-time control initialization preserving filters and evidence return.",
+    "evidence": "reviews/mockups/welcoming-pathways/people_loading_validation.json",
+    "oversight": "Agent-selected continuation of the modular implementation. Source populations, identities, methods and saved model values are unchanged. No production release or human/AT evaluation is claimed."
   }
 }

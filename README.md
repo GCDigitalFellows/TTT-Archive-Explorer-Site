@@ -4,7 +4,7 @@ Published website files. This is a project demonstration and a work in progress.
 
 The [main explorer](index.html) now uses the Welcoming pathways interface, approved by Ian G. Williams on November 4, 2026. [Current user guide](PUBLIC_GUIDE.html) · [Research methods](METHODS_AND_DATA.html). The previous interface is preserved in the private source archive; former entry points redirect here. Earlier public Git history remains available.
 
-The project source and research work history are maintained separately in the private GCDigitalFellows/TTT-Archive-Explorer repository. Browser code and published data here are public. Original project code, documentation and analysis are [MIT-licensed](LICENSE), to the extent project rights permit. Original posts and media retain separate terms; see [Creative Commons acknowledgments and license scope](NOTICE.md) and [source rights](SOURCE_RIGHTS.html). MIT does not override those terms.
+The project source and research work history are maintained separately in the private GCDigitalFellows/TTT-Archive-Explorer repository. Browser code and published data here are public. The small entry page loads readable code, styles and saved-data files. See the [modular contribution and build guide](methods/modular_methods.md) for source mappings, loading checks and editing instructions. Original project code, documentation and analysis are [MIT-licensed](LICENSE), to the extent project rights permit. Original posts and media retain separate terms; see [Creative Commons acknowledgments and license scope](NOTICE.md) and [source rights](SOURCE_RIGHTS.html). MIT does not override those terms.
 
 ## Inclusive-design guidance
 
@@ -27,6 +27,21 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-08 — Publish the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.
+- 2026-11-08 — Added the Digital Scholarship Lab location to the welcome-page Digital Fellows introduction.
+- 2026-11-08 — Expanded the shared header institution label to The Graduate Center, City University of New York.
+- 2026-11-08 — Load People & methods records on demand with independent failure recovery and preserved review controls.
+- 2026-11-08 — Load larger saved word-analysis datasets on demand while retaining complete full-text search at startup.
+- 2026-11-08 — Split the large public index into a small entry, seven editable view sources, separate browser modules/styles and saved-data files within a 180,000-byte review budget.
+- 2026-11-08 — Integrated the code-review literature knowledge base into project and agent guidance with a reusable review worksheet.
+- 2026-11-08 — Fetched and compared the private and public GitHub main branches and recorded their current revisions.
+- 2026-11-08 — Created a source-linked knowledge base on code review, digital humanities and learning to edit research software.
+- 2026-11-08 — Required future code and website revisions to support human review, learning and editing in VS Code.
+- 2026-11-08 — Refactored maintained project source for human review in VS Code with consistent blocks, separate public styles, explanatory comments, a workspace and a code map.
+- 2026-11-06 — Added a two-repository update preflight and an approval gate for significant conflicts with revision plans.
+- 2026-11-06 — Reorganized People & methods around writers, fellowship history and source evidence.
+- 2026-11-06 — Replaced vague headings and tightened generated copy across the explorer and its main public guides.
+- 2026-11-06 — Unified the project title typography and replaced the analysis slogan with a direct heading.
 - 2026-11-06 — Prepared the shared-post summary, author–year matrix, and keyboard navigation enhancements for public release.
 - 2026-11-06 — Added matrix sorting, a return to the selected cell, and a shortcut when the network graph is too narrow.
 - 2026-11-06 — Added an interactive author–year matrix, evidence population counts, and connection previews.

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "4508",
+    "title": "Kicking off the GCDI Sound Series: A Workshop on Sound",
+    "date": "2017-10-10",
+    "year": "2017–2018",
+    "authors": [
+      "Kelsey Chatlosh"
+    ],
+    "originalAuthors": [
+      "Kelsey Chatlosh"
+    ],
+    "aliases": [
+      "Kelsey Chatlosh"
+    ],
+    "account": "Kelsey Chatlosh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Anthropology",
+      "Audacity",
+      "Audio",
+      "DH",
+      "DHSI",
+      "Digital Humanities",
+      "Events",
+      "Garageband",
+      "interviewing",
+      "interviews",
+      "machine learning",
+      "recording",
+      "Sound",
+      "Soundscape"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/10/10/kicking-off-the-gcdi-sound-series-a-workshop-on-sound/",
+    "signals": [
+      "Archives, text & media",
+      "Teaching & learning",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "Image: Teodorik Menšl on Flickr, 2005",
+      "Later today, I am teaching a workshop on sound, kicking off our new GCDI Sound Series. In the workshop I will review a variety of digital tools, techniques and concepts for recording, editing and sharing sound.",
+      "Sound Workshop 10/11",
+      "Like the workshops led by previous Digital Fellows, my workshop is publicly available to follow online. It is currently available here through Google slides and it will soon also be available on my GitHub repository. The workshop proceeds along this general outline:",
+      "Theorizing sound (‘sound’ vs. ‘audio,’ ‘acoustemology,’ ‘soundscape,’ ‘silence,’ ‘authenticity’)",
+      "Recording sound (ethical considerations, equipment, key terms and techniques, sound archives)",
+      "Editing and mixing audio (software, tips, techniques)",
+      "Transcribing and/or coding audio (transcribing audio of human voices, qualitative coding, preparing audio for machine learning)",
+      "Sharing or presenting with sound (interview…"
+    ],
+    "fullParagraphs": [
+      "Image: Teodorik Menšl on Flickr, 2005",
+      "Later today, I am teaching a workshop on sound, kicking off our new GCDI Sound Series. In the workshop I will review a variety of digital tools, techniques and concepts for recording, editing and sharing sound.",
+      "Sound Workshop 10/11",
+      "Like the workshops led by previous Digital Fellows, my workshop is publicly available to follow online. It is currently available here through Google slides and it will soon also be available on my GitHub repository. The workshop proceeds along this general outline:",
+      "Theorizing sound (‘sound’ vs. ‘audio,’ ‘acoustemology,’ ‘soundscape,’ ‘silence,’ ‘authenticity’)",
+      "Recording sound (ethical considerations, equipment, key terms and techniques, sound archives)",
+      "Editing and mixing audio (software, tips, techniques)",
+      "Transcribing and/or coding audio (transcribing audio of human voices, qualitative coding, preparing audio for machine learning)",
+      "Sharing or presenting with sound (interview project websites, digital storytelling, podcasting, sound installations)",
+      "Resources at the GC (funding, office hours, workshops, events)",
+      "Overall, the workshop foregrounds an understanding of sound as a “modality of knowing and being in the world,” of creating a sense of place or a narrative - drawing from Steven Feld’s concept of “acoustemology” in \"Sound Worlds” (2000). While my own research as a cultural anthropologist is decidedly qualitative and my interest in sound is primarily in relation to interviews and oral histories, the workshop incorporates an array of resources that may be useful to folks doing research or projects with music, soundscapes and other forms of sound. And I do reference some awesome resources for those preparing sound for machine learning. Stay posted for a GC Digital Initiatives workshop this spring 2018 semester on that!",
+      "Simply put, I designed the workshop to share some things that I have learned and found useful so far for theorizing, recording, editing and sharing various kinds of sounds. Much of this I learned through attending Professor John Barber’s DHSI course on Sounds and Digital Humanities at the University of Victoria, BC, Canada in June 2017 (which I blogged on before here) and a SoundCamp event in London in May 2017.",
+      "Hope you can make it!",
+      "I hope to see you later today, Wednesday, October 11th, at 6:30pm in GC room 9206! Register here. For those of you who can’t make it, stay posted for another sound workshop in the spring 2018 semester.",
+      "2017-2018 GCDI Sound Series #GCDIsound",
+      "This week’s sound workshop is just the first of a whole series of talks and workshops on sound that the GC Digital Fellows are organizing for this 2017-2018 academic year!",
+      "The GCDI Sound Series will be a series of talks and workshops on topics related to sound analysis, comparison, theory, production, and recording. This series explores a variety of research methods and perspectives on sound, including audio annotation and processing, oral histories and interviews, soundscapes, and DIY audio equipment. We invite scholars from all disciplines to explore ways we can study and use sound in our scholarship.",
+      "Our next scheduled GCDI Sound Series event will be a talk by Dr. Johanna Devaney, who will introduce and teach her open-source software, The Automatic Music Performance Analysis and Comparison Toolkit (AMPACT.org). The event will be held on Thursday, November 16th, from 6:30 - 8:30 PM in GC room 9206. The event is free and open to the public! Register here.",
+      "More information on the GCDI Sound Series and upcoming events will be posted here."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0006687740252309692,
+      0.007782414801464027,
+      0.0005857696160133784,
+      0.5266114460720229,
+      0.0004024002627617671,
+      0.05928940371096724,
+      0.000733439494429204,
+      0.40392635201711047
+    ],
+    "words": [
+      [
+        "sound",
+        27
+      ],
+      [
+        "workshop",
+        14
+      ],
+      [
+        "series",
+        8
+      ],
+      [
+        "audio",
+        7
+      ],
+      [
+        "digital",
+        6
+      ],
+      [
+        "event",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "4474",
+    "title": "An Anthropologist’s Visit to DHSI to Learn about Sound",
+    "date": "2017-09-20",
+    "year": "2017–2018",
+    "authors": [
+      "Kelsey Chatlosh"
+    ],
+    "originalAuthors": [
+      "Kelsey Chatlosh"
+    ],
+    "aliases": [
+      "Kelsey Chatlosh"
+    ],
+    "account": "Kelsey Chatlosh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Anthropology",
+      "Audacity",
+      "Audio",
+      "DH",
+      "DHSI",
+      "Digital Humanities",
+      "Featured",
+      "Garageband",
+      "Institutional Review Board",
+      "interviewing",
+      "interviews",
+      "IRB",
+      "oral histories",
+      "pdig",
+      "Provost's Digital Innovation Grants",
+      "recording",
+      "Reflections",
+      "Sound",
+      "Soundscape"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/09/20/an-anthropologists-visit-to-dhsi-to-learn-about-sound/",
+    "signals": [
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Kelsey’s photo, Smuggler’s Cove, Victoria, BC, Canada",
+      "I knelt down with my knees in the sand, feeling a bit silly and bit nostalgic of my more artistic childhood, and held my audio recorder close to the tips of the waves as they rolled into the beach’s shoreline. I was careful to block the wind with my body because, as I learned the hard way, the best way to filter out the sounds of the wind is to block the wind as much as possible from hitting the recording device. Mufflers can only block so much. I took a few recordings, each just over three minutes to be sure I had ample audio recorded to work with and ample space for mistakes (per Dr. Barber’s advice when recording soundscapes).",
+      "My experience at the Digital Humanities Summer Institute (DHSI) at the University of Victoria (UVic) combined a lot of learning and a bit of magic. In this blog post, I’m going to share a bit about why I went to DHSI to take a course on Sounds and Digital…"
+    ],
+    "fullParagraphs": [
+      "Kelsey’s photo, Smuggler’s Cove, Victoria, BC, Canada",
+      "I knelt down with my knees in the sand, feeling a bit silly and bit nostalgic of my more artistic childhood, and held my audio recorder close to the tips of the waves as they rolled into the beach’s shoreline. I was careful to block the wind with my body because, as I learned the hard way, the best way to filter out the sounds of the wind is to block the wind as much as possible from hitting the recording device. Mufflers can only block so much. I took a few recordings, each just over three minutes to be sure I had ample audio recorded to work with and ample space for mistakes (per Dr. Barber’s advice when recording soundscapes).",
+      "My experience at the Digital Humanities Summer Institute (DHSI) at the University of Victoria (UVic) combined a lot of learning and a bit of magic. In this blog post, I’m going to share a bit about why I went to DHSI to take a course on Sounds and Digital Humanities and what I got out of it, in terms of new things learned and thoughts sparked.",
+      "Victoria, Canada, is a beautiful place to spend a week, with double decker public transit buses (it is part of British Columbia) and the most amazing salmon sushi freshly fished off the coast. I recommend staying at the university dormitories (info for visitors here), which I believe is both the cheapest and most convenient option. They are just a short walk away from all of the DHSI classes and events, and a slightly further walk from the beach. Various public buses from campus will also take you into the city. Pro tip for future DHSI-ers: use the DHSI listserv to find folks to split a cluster unit - a four bedroom set-up with a shared kitchen and living room, which, when divided by four, costs about the same as a single dormitory room but provides many more amenities.",
+      "I’ll start with the learning and interlace some anecdotes of the magic.",
+      "But before I begin, I must give a big thank you to the Digital Initiatives and Provost’s offices at The Graduate Center (GC), CUNY, for providing the funding that made this trip possible. The Provost’s Digital Innovation Travel Grant covered all of my travel expenses, room and board. Note that this year’s call for proposals for Provost’s Digital Innovation Grants will be announced later this week and the deadline to apply will be mid-October of 2017, find more information here! All matriculated doctoral students at The Graduate Center are eligible to apply. I also received a tuition scholarship through the Graduate Center Digital Initiatives to cover the cost of the DHSI course that I completed: Sounds and Digital Humanities with Professor John Barber. I received separate funding to cover the cost of a high quality handheld digital audio recorder - to use both during the workshop and for future ethnographic fieldwork recordings. I purchased a Tascam DR 100 MK II PCM portable digital audio recorder. I heard the Zoom H4N is also a great recorder (and perhaps a bit more intuitive).",
+      "As a cultural anthropology Ph.D. student, I wanted to take a course on sound. In contemporary anthropology nearly all of us work with sound - usually oral interviews - but its quality as such is often taken for granted. Audio files of interviews are often quickly transcribed or qualitatively coded into text, then analyzed and written into books. And the soundscapes of our fieldwork sites are often taken for granted as well. Their meanings and textures as sounds are thus erased. Much of my interest in sound studies emerges from these methodological concerns. In addition, I am very interested in the possibilities of sound for storytelling - in particular for sharing our own research in a more accessible form, although with the exceptions structured by access to technology and limited hearing ability. Ironically, I am a bit hard of hearing myself (an inheritor of “cookie bite” hearing loss) and have become more attentive to how much we are affected by the sounds we do not hear, that which we miss in practice but could better catch with the help of audio recorders or, of course, amplification devices such as hearing aids.",
+      "This is not to disregard anthropology's past preoccupation with capturing sound - namely, as part of \"salvage anthropology,\" which is a now highly criticized approach that aims to materialize and preserve the \"remains\" of \"disappearing\" cultures or languages. In the early-mid 1900s, many white ethnographers used phonographs to salvage various Native American peoples’ languages and music throughout the settler colonial territory of the United States on the stolen indigenous lands of Turtle Island (see Roshanak Kheshti’s Modernity's Ear: Listening to Race and Gender in World Music, 2015, for further reading on this).",
+      "Returning to DHSI... Professor John Barber’s course on Sounds and Digital Humanities reviewed a variety of themes, including the basic physics of how sound is produced, a brief history of sound theorizing in the humanities, and a survey of types of hardware, software and other resources for creating things with sound. Throughout the course, Dr. Barber discussed a broad range of sound sources and practices such as: soundscapes (a term coined by R. Murray Schafer), found sounds, oral histories, aural narratives (usually without the aid of human voice narration), radio dramas, remixes, sound art, sound installations, sound maps, and sound walks. Overall, the course approaches sound as a \"modality of knowing and being in the world,\" of creating a sense of place or a narrative – drawing from Steven Feld’s concept of “acoustemology” in “Sound Worlds” (2000) (discussed in Michael Bull and Les Beck’s Auditory Culture Reader, 2003).",
+      "Kelsey’s photo, Victoria Waterfront, BC, Canada",
+      "Dr. Barber is a sound artist and a professor in The Creative Media & Digital Culture Program at Washington State University in Vancouver, Washington. His work focuses on the creative aspects of working, creating and presenting with sound. He emphasizes learning by doing, with careful attention to technique and to why you choose to put something together in a particular way. His approach is to first develop the concept, then make the thing, then document and share the thing you made.",
+      "Accordingly, Dr. Barber’s workshop takes a hands-on approach and has an emphasis on the making of what he calls “sound artifacts.” Each of us in the class created our own sound artifacts through the course of the week, which proved to be a useful exercise in practicing the mechanics of recording, mashing up and editing audio files (hear them here). The artifacts produced also highlight the interesting mix of participants that the workshop attracted, including: a few poets and fiction authors, sound artists and producers, and English, Italian, Latin American Studies, Comparative Literature, Music and Film Studies graduate students and professors.",
+      "What we created, for me at least, exhibited some magic in the form of creativity - such as Italian Professor Serena Ferrando’s “Sound Map,” which combines samples from recorded conversations, a bicycle, a bird, footsteps, and tapping a parking meter with a plastic water bottle. She created this sound artifact as part of her larger “Noisemakers” project. Listen here (scroll down a bit) or on her site here.",
+      "I ended up creating two sound artifacts. The first is a sort of meditation audio clip, featuring my mother's voice saying a phrase she used to always say to calm me when I was younger, mashed up with sounds of my own breathing and the wave sounds I mentioned capturing at the beginning of this post. The second sound artifact I created combines a recording of myself reading a poem I wrote with sounds of crumpling paper, pencil on paper, and birdsong and a butterfly fluttering to elicit gardening - I found the latter three sounds through the Freesound Project, a collaborative database of Creative Commons licensed sounds. I then used GarageBand, a sound editing software that comes pre-installed on Mac computers, to create each sound artifact. Note that Audacity is a great free open source alternative that works on PCs and Macs alike. Abashedly, I share the link to listen to both sound artifacts, \"Breathe\" and \"Gardening,\" here.",
+      "Some issues I ran into included removing ambient background sounds, blocking wind when recording, and managing volume levels of different audio clips on the same track. These are issues I am continuing to work on through practice. Later in the summer after DHSI I attempted to record sounds again as part of a pre-dissertation research trip. However, applying for Institutional Review Board (IRB) approval to do such research with human subjects (info on this for CUNY students here) ended up being a quite arduous process that ultimately kept me from being able to audio record oral interviews this summer. I recommend starting this process at least four months in advance of the proposed research start date - or March at the latest if that start date is in the summer - and seeking guidance from professors or students familiar with CUNY’s IRB process.",
+      "While at DHSI, I also participated in an unconference session on “Bringing the Anti-, De-, & Post- Colonial into Digital Space, Time & Pedagogy,” led by Ashley Caranto Morford and Arun Jacob. Beginning with a recognition that Victoria is on the stolen lands of the Songhees, Esquimault, and W̱SÁNEĆ nations, this session provided an open space for DHSI-ers to discuss critiques of the intersections of settler colonialism, Orientalism, corporate capitalism and some Digital Humanities tools, projects and approaches. For example, one participant discussed frustrations with how the terminology of “master” and “slave” is used in the coding language to build a cloud. For those interested in reading more on these issues, you can see the notes of this unconference session in a Google Doc.",
+      "In closing, I want to recommend those interested in the digital humanities to check out DHSI’s upcoming workshops for summer 2018 (including Sounds and the Digital Humanities and a new workshop on Pedagogy of the Digitally Oppressed: Inculcating De-/Anti-/Post-Colonial Digital Humanities). I also want to encourage matriculated GC doctoral students to apply for a Provost’s Digital Innovation Grant to cover funds to attend this or another training, or work on a digital research project - the call for proposals will be announced later this week!",
+      "The GC Digital Fellows are organizing a whole series of talks and workshops on topics related to sound analysis, comparison, theory, production, and recording for this 2017-2018 academic year. Learn about the workshop on sound that I am leading to kick off the series here. Learn more about the 2017-2018 GCDI Sound Series #GCDIsound and upcoming sound-related events at the GC here."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.043802523966226595,
+      0.00022771393468955058,
+      0.007461838842654338,
+      0.47334928608668414,
+      0.01224109206881705,
+      0.1617961141802306,
+      0.0002496071110214038,
+      0.3008718238096763
+    ],
+    "words": [
+      [
+        "sound",
+        45
+      ],
+      [
+        "digital",
+        19
+      ],
+      [
+        "dhsi",
+        11
+      ],
+      [
+        "audio",
+        10
+      ],
+      [
+        "course",
+        10
+      ],
+      [
+        "humanity",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "6221",
+    "title": "New blog post from the GC Digital Fellows on Tagging the Tower",
+    "date": "2017-09-15",
+    "year": "2017–2018",
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "originalAuthors": [
+      "Rachel Rakov"
+    ],
+    "aliases": [
+      "Rachel Rakov"
+    ],
+    "account": "Rachel Rakov",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "News"
+    ],
+    "url": "https://digitalfellows.commons.gc.cuny.edu/2017/09/14/passions-projects-and-python/",
+    "signals": [],
+    "paragraphs": [],
+    "fullParagraphs": [],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "4459",
+    "title": "Passions, Projects, and Python",
+    "date": "2017-09-14",
+    "year": "2017–2018",
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "originalAuthors": [
+      "Rachel Rakov"
+    ],
+    "aliases": [
+      "Rachel Rakov"
+    ],
+    "account": "Rachel Rakov",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "python",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/09/14/passions-projects-and-python/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Two days before this semester's Introduction to Python Programming workshop (which was held this past Tuesday night), I came across the following tweet from Jake VanderPlas, author of 'The Whirlwind Tour of Python' and 'The Python Data Science Handbook', and all-around Python Guy (contributor to scipy and scikit-learn, among other Python libraries). Here's what it said.",
+      "\"My advice on learning Python: Don't set out to 'learn Python'. Choose a problem you're interested in, and solve it using Python.\" -- Jake VanderPlas, September 10, 2017, Twitter.",
+      "After reading this, I sat and thought about it for awhile. My first instinct when reading this tweet was actually frustration. \"But what if someone doesn't know Python?\" I thought to myself, former frustrations welling up. \"What if you're a complete beginner, and you don't even know where to start? How can you know how to solve your problem with Python if you don't know anything about Python?\""
+    ],
+    "fullParagraphs": [
+      "Two days before this semester's Introduction to Python Programming workshop (which was held this past Tuesday night), I came across the following tweet from Jake VanderPlas, author of 'The Whirlwind Tour of Python' and 'The Python Data Science Handbook', and all-around Python Guy (contributor to scipy and scikit-learn, among other Python libraries). Here's what it said.",
+      "\"My advice on learning Python: Don't set out to 'learn Python'. Choose a problem you're interested in, and solve it using Python.\" -- Jake VanderPlas, September 10, 2017, Twitter.",
+      "After reading this, I sat and thought about it for awhile. My first instinct when reading this tweet was actually frustration. \"But what if someone doesn't know Python?\" I thought to myself, former frustrations welling up. \"What if you're a complete beginner, and you don't even know where to start? How can you know how to solve your problem with Python if you don't know anything about Python?\"",
+      "But the longer I thought about it, the more this advice started to make sense to me.",
+      "I've been a Python educator for five years. I've taught graduate courses, hosted workshops, tutored one-on-one and educated in boot-camp style settings. And yet there is still a part of me that feels like I am a complete Python beginner, because there are things that I still do not know about Python. One of the reasons for this is because Python is an extremely versatile programming language, and there are things it can do that I haven't found a need for in my own research. Another reason for this is because wonderful people keep updating Python, so that it continues to function as a rich programming language that works well, and so there is constantly new information to be learned. As an example, I just updated to Python 3.6 this past Monday, and when I was asking around about what's new in Python 3.6 from Python 2.7, I found out the dictionaries are ordered now! Wow! That's a big change, and, in my opinion, a good one. But it emphasizes that there is never really a limit on \"how to learn Python\". Python is an evolving and shifting programming language, and there will always be more to learn. To sit down at a computer and say \"I am going to Learn To Code In Python\" can be an extremely daunting task. I know how terrifying it was for me, seven years ago, when I started coding for the first time.",
+      "So I reconsidered, then, VanderPlas's advice; instead of focusing on \"learning to use Python\", focus instead on a problem that you want to solve, and then solve it with Python. For me, in my own research, that was a little bit easier to put into words, even as a beginner. My research is in computational linguistics, and specifically, in speech processing and prosody modeling. The problem that interests me is how to get computers to better understand intonation in human speech. That's a problem I want to work on, and Python is a tool that allows me to really work on solving this problem.",
+      "It's a shift in the way we focus, when we think not so much about the programming syntax that we are learning, but rather, how what we are learning will apply to the problems that we each want to solve, as individuals. It makes it more exciting to me, as an instructor, to teach for loops not as \"this is a thing that you need to do to say that you know how to use Python\" but rather, as a tool that will make whatever problem you're working on easier to solve. And I hope, too, that focusing on this an an instructor helps to make Python easier and more accessible to beginner programmers who are nervous about \"Learning Python\". By shifting the focus away from the Python syntax itself and more onto the passions and interests of those using it, my hope is that students will, from the start, focus on how they can use Python as a tool to help them solve their own research problems, rather than on just getting the syntax right, or Knowing How To Code. The former, in my opinion, creates not only a more accessible learning environment, but also one that is a lot more fun and a lot more creative. Python is a tool that can help people solve problems that they are passionate about. Let's aspire to teach it as such.",
+      "Looking for more practical advice on how to get started with Python programming? Check out our Python Resources guide."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005910006163922821,
+      0.0037343375008560245,
+      0.25196091005375104,
+      0.0002004471884234988,
+      0.0003556041268894782,
+      0.5584240531159325,
+      0.0006481459759810522,
+      0.1840855014217741
+    ],
+    "words": [
+      [
+        "python",
+        33
+      ],
+      [
+        "learn",
+        11
+      ],
+      [
+        "problem",
+        10
+      ],
+      [
+        "solve",
+        9
+      ],
+      [
+        "know",
+        8
+      ],
+      [
+        "focus",
+        6
+      ]
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "22801",
+    "title": "Human in the Loop: Interpretive and Participatory AI in Research",
+    "date": "2025-10-10",
+    "year": "2025–2026",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "AI",
+      "Guides, Tutorials, Reviews",
+      "Research method"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/10/10/human-in-the-loop-interpretive-and-participatory-ai-in-research/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "Across every field I know, including urban studies, environmental science, design, and social research, the presence or question of AI and its possibilities or challenges has become unavoidable. We seem to fall into two approaches: rush to embrace or fiercely say no, both reproducing the public discourse of AI as either salvation or doom. Yet AI is already sitting quietly in our spreadsheets and sensors, mailboxes, search results, and more visibly in our writing, mapping, and predictive tools. Still, what feels under-examined is not what AI can do, but what it does to the way we think, reason, and collaborate when we integrate it into our work. This is a part of a two-piece series where I try to explain strategies for using AI in research using a combination of theoretical and technical concepts and recent research or projects. This is important because, for research that draws from both quantitative and qualitative methodologies, AI…"
+    ],
+    "fullParagraphs": [
+      "Across every field I know, including urban studies, environmental science, design, and social research, the presence or question of AI and its possibilities or challenges has become unavoidable. We seem to fall into two approaches: rush to embrace or fiercely say no, both reproducing the public discourse of AI as either salvation or doom. Yet AI is already sitting quietly in our spreadsheets and sensors, mailboxes, search results, and more visibly in our writing, mapping, and predictive tools. Still, what feels under-examined is not what AI can do, but what it does to the way we think, reason, and collaborate when we integrate it into our work. This is a part of a two-piece series where I try to explain strategies for using AI in research using a combination of theoretical and technical concepts and recent research or projects. This is important because, for research that draws from both quantitative and qualitative methodologies, AI creates a productive tension: it expands our analytical reach but risks shrinking our interpretive abilities. Machine learning systems can process mountains of data, but they don't know what that data means. They can predict outcomes but not weigh their moral or political implications.",
+      "Rethinking \"Human in the Loop\"",
+      "The idea of Human in the Loop (HITL) could be more than a technical term; it is also a broader epistemic stance: that humans must remain active interpreters, mediators, and co-producers of knowledge within any AI-assisted inquiry. Traditionally, HITL meant that a human would supervise an automated system: approving an action, validating an output, correcting an error. In engineering, it was about efficiency, a safeguard against automation going rogue. But this loop can be re-imagined as a space of dialogue between human judgment and machine patterning, ensuring that data remains tethered to context and grounded in meaning. Rather than treating AI systems as autonomous decision-makers, HITL reasserts the value of human judgment, contextual reasoning, and ethical accountability throughout the research process, from data selection to interpretation and dissemination. It is a way of saying that AI should expand our interpretive capacity, not replace it.",
+      "In practice, the loop isn’t a chain of command but a conversation. The machine identifies patterns; the human interprets, questions, and adds meaning. Quantitative insights rely on qualitative understanding to become knowledge; data points become stories when someone asks why this pattern matters, to whom, and under what conditions. Most of the examples here come from urban and environmental research that has integrated AI tools over the past three years, focusing on climate resilience and community-engaged research.",
+      "You can see this principle in projects like the Pulo Aceh \"AI for Blue Economy\" initiative in Indonesia, where local fishers co-designed sensor networks with data scientists. The community made decisions about where sensors should go, how to interpret the readings, and how forecasts might actually support daily life (Diani, 2025). Or, consider the Appalachia Flood Resilience Dashboard, where researchers used generative AI to integrate real-time flood data and supplemented it with a Community Engagement Studio where residents and emergency responders shaped how the system looked and worked (Mills, 2024). The AI handled the automation; the humans defined its purpose. In both cases, human input and insight are not checkmarks in a workflow; they're the interpretive spine of the research process.",
+      "Three Dimensions of Human in the Loop Research",
+      "When we keep humans actively engaged in AI-assisted research, three critical dimensions emerge:",
+      "The Interpretive Dimension — Human actors translate computational outputs into contextually meaningful insights. They ask why a model predicts what it does and what it implies for lived realities. Interpretation ensures that AI supports reasoning rather than replacing it.",
+      "The Ethical Dimension — Humans in the loop assess the moral and distributive consequences of automated decisions. They keep sight of who benefits, who bears risk, and whose voices are missing. Ethical oversight becomes a form of continual auditing, preventing biases and inequities from being naturalized within the model.",
+      "The Participatory Dimension — Communities become co-designers and co-owners of AI systems, not merely data sources. This transforms research from extraction to collaboration, ensuring that knowledge production aligns with community goals and capacities.",
+      "When we think this way, HITL stops being a defensive mechanism (\"make sure a human signs off\") and becomes a generative ethic. It is about making AI relational, situating it inside webs of human understanding rather than apart from them.",
+      "The Loop as a Space of Care",
+      "To keep humans in the loop is, at its core, an act of care. It's a reminder that research, especially research augmented by AI, is not only about producing insights but about maintaining relationships: between data and meaning, between researchers and communities, between technology and justice. Feminist scholars have long argued that knowledge is not created through detachment or neutrality but through attentiveness and situated responsibility, what Carol Gilligan first described as an ethic of care grounded in relational understanding rather than universal rules (Gilligan, 1982). Seen through that lens, the \"loop\" is a space of ethical interdependence. It connects the coder to the community, the dataset to the lives it represents, and the researcher to the social worlds their work might transform.",
+      "In recent years, feminist AI theorists have expanded this understanding into what has been called a data ethics of care, urging designers and researchers to see data work as a form of relational maintenance. It's the recognition that our tools are never neutral; they reflect the care, or lack thereof, invested in their creation. Feminist scholars like Eleanor Drage and Catherine D'Ignazio have shown how re-centering care and accountability in AI research transforms it from a managerial pursuit into a collaborative practice of response-ability, the ability to respond (Drage, 2023; D'Ignazio & Klein, 2020).",
+      "This framework of care helps us see HITL not as technical oversight but as a commitment to plural perspectives and community-led inquiry that treats participation not as supervision but as co-ownership of knowledge.",
+      "When the Human Leaves the Loop",
+      "But what happens when that interpretive link disappears? If HITL represents an ethics of co-production, then the absence of that loop reveals what happens when judgment, context, and lived experience are stripped out of research and decision-making. Across climate and urban applications, the consequences of human withdrawal are visible in algorithmic bias, opaque decision-making, and what scholars increasingly call epistemic injustice, the silencing of local and situated knowledge in favor of machine-generated abstraction(Chamuah,2023).",
+      "Ironically, we didn't even need Generative AI to leave humans out of the loop. One glaring example is how, after Hurricane Katrina, recovery models built on \"neutral\" datasets failed to capture the realities of Black and low-income neighborhoods in New Orleans. The algorithms directed resources toward wealthier, whiter areas, effectively re-coding structural racism as mathematical fairness (Sustainability Directory, 2025). A similar dynamic emerged in AI-driven \"climate-smart agriculture\" in India. Platforms promised efficiency through satellite-based crop recommendations, designed to optimize planting decisions based on satellite and meteorological data (Malik, 2025). These systems ended up deskilling farmers and eroding traditional ecological knowledge. Local expertise, attuned to soil, seed, and seasonal rhythms, was displaced by algorithmic prescriptions that often prioritized commercial seed and insurance interests (Tsosie, 2012). In this case, removing humans from the loop didn’t improve efficiency or productivity; it just redefined expertise and relegated the farmers and their generational wisdom to passive users of a system they could neither question nor correct.",
+      "These examples raise a deeper question within the phrase \"Human in the Loop\": which humans are we referring to? The term itself comes from military control systems, where the \"human\" was simply an operator ensuring that automated weapons obeyed commands. When imported into research, that legacy risks reducing oversight to a managerial act, one expert supervising the machine rather than diverse publics shaping what the system is for. To be meaningful today, Human in the Loop has to move beyond that narrow, technocratic origin toward a more democratic and grounded interpretation. The \"human\" cannot just be the researcher or data engineer; it must include the communities and participants whose lives the research touches. The loop should be a space of shared authorship where those once treated as research subjects become collaborators who help define the purpose, ethics, and benefits of AI.",
+      "This shift mirrors a broader transformation already underway in the social and environmental sciences: a move away from extractive, top-down approaches toward community-engaged and participatory research. In these frameworks, knowledge is co-produced through transparency, reciprocity, and shared decision-making. Translated into AI, this means designing systems that align with community values, training models on local knowledge, giving residents ownership of their data, and ensuring that the technologies deliver tangible benefits to those most affected by climate or infrastructural risk.",
+      "The big risk here is that in the rush toward embracing AI tools, we fuel a faster, less meaningful, and less reliable version of the old extractive logic. When these questions of which humans are ignored, AI simply repeats older patterns of extraction. Data is taken without consent, models predict community behavior without input, and algorithmic \"findings\" justify decisions that communities never agreed to. We see this in generative models that produce confident but fabricated environmental statistics, misinformation presented with the authority of truth.",
+      "Taken together, these cases illustrate that human absence is not a neutral design choice; it is a moral and epistemological failure. Without humans, and more precisely, without the right humans, in the loop, algorithms interpret social and ecological realities as if they were static, quantifiable, and apolitical.",
+      "Reclaiming Oversight as Collaboration",
+      "When humans re-enter the loop, something shifts. Oversight becomes collaboration.",
+      "The Pulo Aceh project is again instructive: the sensors and machine-learning models worked because they were co-designed by those whose lives depend on the ocean. The system's intelligence was a blend of data and memory, technology and tradition (Diani, 2025). Likewise, the Appalachia dashboard wasn't just a piece of software; it was a civic process. Residents helped define what \"useful data\" meant. The loop became a shared space for interpreting risk and action, not just for generating predictions (Mills, 2024).",
+      "These examples demonstrate HITL as a generative ethic, inviting us to treat research as a shared act of sense-making, one that requires care, patience, and plurality. The challenge now is to scale this sensibility into how we structure research itself. As AI seeps into every discipline, we need to move from ad-hoc ethics to institutional reflexivity, rules, habits, and cultures that keep the loop open.",
+      "That could mean building formal interpretive checkpoints into AI-driven projects, where results are reviewed by interdisciplinary teams not just for accuracy but for meaning. It could involve embedding community review boards into environmental modeling or pairing data scientists with qualitative researchers who can translate findings back into lived experiences. The loop, in other words, should expand horizontally to encompass communities and society as a whole.",
+      "Institutions can also adopt clearer protocols around transparency and consent. Some of the most effective AI projects in climate and infrastructure have relied on open communication between universities, city agencies, and communities, turning oversight into partnership rather than surveillance.",
+      "Finally, keeping humans in the loop also means keeping benefits aligned. AI research shouldn't simply study communities; it should serve them. Community-based participatory research already does this in the social sciences. HITL can bring that ethos into the algorithmic realm, ensuring that machine learning projects generate tangible value for those whose data they rely on.",
+      "Human in the Loop, reimagined ethically, becomes an antidote to algorithmic abstraction, a commitment to maintaining the relationships that make knowledge meaningful, accountable, and just.",
+      "References",
+      "Chamuah, A. (2023). AI, Climate Adaptation, and Epistemic Injustice | Platypus. https://blog.castac.org/2023/07/ai-climate-adaptation-and-epistemic-injustice/",
+      "Diani, H. (2025, April 24). AI for climate resilience meets local know-how | GIZ. https://www.giz.de/en/newsroom/stories/ai-climate-resilience-meets-local-know-how",
+      "D’Ignazio, C., & Klein, L. F. (2020). Data Feminism. https://direct.mit.edu/books/book/4660/Data-Feminism",
+      "Drage, E., & Frabetti, F. (2023). AI that Matters: A Feminist Approach to the Study of Intelligent Machines. In J. Browne, S. Cave, E. Drage, & K. McInerney (Eds.), Feminist AI: Critical Perspectives on Algorithms, Data, and Intelligent Machines (p. 0). Oxford University Press. https://doi.org/10.1093/oso/9780192889898.003.0016",
+      "Gilligan, C. (1982). In a different voice: Psychological theory and women’s development (pp. xxx, 184). Harvard University Press.",
+      "Kathrepta, C. (2025, September 11). 5 AI Climate Resilience Projects Making Real Impact in 2025. https://ecoskills.academy/5-ai-climate-resilience-projects-making-impact/",
+      "Malik, A. (2025). Linking climate-smart agriculture to farming as a service: Mapping an emergent paradigm of datafied dispossession in India. ResearchGate. https://www.researchgate.net/publication/365388707_Linking_climate-smart_agriculture_to_farming_as_a_service_mapping_an_emergent_paradigm_of_datafied_dispossession_in_India",
+      "Mills, A. (2024, October 11). Climate Change And Community: New ESIP Lab Awards - ESIP. https://www.esipfed.org/climate-change-and-community-new-esip-lab-awards/",
+      "Sustainability Directory. (2025). How Does Data Bias Affect Urban Planning? → Question. Climate → Sustainability Directory. https://climate.sustainability-directory.com/question/how-does-data-bias-affect-urban-planning/",
+      "Tsosie, R. (2012). Indigenous Peoples and Epistemic Injustice: Science, Ethics, and Human Rights. Washington Law Review, 87(4), 1133."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0001806005623935239,
+      0.796405506170141,
+      0.0001581854529241304,
+      6.12535316468365e-05,
+      0.00010866706992242735,
+      0.13318756971594373,
+      0.009802705211594038,
+      0.06009551228543441
+    ],
+    "words": [
+      [
+        "human",
+        31
+      ],
+      [
+        "ai",
+        30
+      ],
+      [
+        "research",
+        23
+      ],
+      [
+        "loop",
+        23
+      ],
+      [
+        "data",
+        19
+      ],
+      [
+        "community",
+        17
+      ]
+    ]
+  },
+  {
+    "id": "22629",
+    "title": "Maps for Multi-Sensorial Learning",
+    "date": "2025-10-03",
+    "year": "2025–2026",
+    "authors": [
+      "Anna Corbett"
+    ],
+    "originalAuthors": [
+      "Anna Corbett"
+    ],
+    "aliases": [
+      "Anna Corbett",
+      "Anna Schlenz"
+    ],
+    "account": "Anna Corbett",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "interactive pedagogy",
+      "mapping",
+      "storymaps"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/10/03/maps-for-multi-sensorial-learning/",
+    "signals": [
+      "Maps & visualization",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "In one of my seminar classes last week, a peer made a passing critique of cartographic methods, commenting that cartographers have a bias toward visuality over other modes of interfacing with the world. While this critique is well-taken, as sight is the sense that people value and rely on over the other senses, I find it a bit outdated. Over the past twenty years, mapmakers have been innovating in terms of what kinds of data can be mapped, and this has included the expansion and integration of multi-sensory data into cartographic projects. After all, our senses of touch, sight, sound, movement, body position, smell, taste, and internal sensation all work together to interpret reality. I do multi-sensory mapping projects with my own students. Here are 3 of my favorite multi-sensory cartographic methods you can use on your own or with your students.",
+      "Soundscapes",
+      "Our first multi-sensory map is a collective soundscape mapping project using…"
+    ],
+    "fullParagraphs": [
+      "In one of my seminar classes last week, a peer made a passing critique of cartographic methods, commenting that cartographers have a bias toward visuality over other modes of interfacing with the world. While this critique is well-taken, as sight is the sense that people value and rely on over the other senses, I find it a bit outdated. Over the past twenty years, mapmakers have been innovating in terms of what kinds of data can be mapped, and this has included the expansion and integration of multi-sensory data into cartographic projects. After all, our senses of touch, sight, sound, movement, body position, smell, taste, and internal sensation all work together to interpret reality. I do multi-sensory mapping projects with my own students. Here are 3 of my favorite multi-sensory cartographic methods you can use on your own or with your students.",
+      "Soundscapes",
+      "Our first multi-sensory map is a collective soundscape mapping project using ESRI StoryMaps. Students are split into small groups and are assigned a site on campus–the dining hall, the library, the quad, etc. Students go to their assigned site and close their eyes, focusing in on only what they can hear. What kinds of sounds create this place? How loud is it here? Are the sounds uniform in pitch? Can they pick out any patterns or melodies? Students are encouraged to make recordings and take decibel measurements in addition to recording their aural observations. When we regroup as a class, students create a collective StoryMap, where they describe the sonic landscape of their site and embed their sound recordings.",
+      "Foregrounding sonic stimuli apart from their visual accompaniments challenges preconceptions about urban life. As architect Usue Ruiz Arana notes in an interview about her book Urban Soundscapes, “We often think of the urban environment as sound-negative, while we address natural sounds such as birds singing, as positive. But to quote John Cage: ‘If we listen to Beethoven or Mozart, you see they are always the same. But if you listen to traffic, you see it’s always different.’”",
+      "Great, public examples of StoryMap soundscapes include this Soundscape of Sequoia and Kings Canyon National Parks, Underwater Sounds of the U.S. National Marine Sanctuary System, and the Sounds of the Wild West.",
+      "A Soundscape of The Old Pottery in the UK, by Usue Ruiz Arana",
+      "Scent Maps",
+      "Similar to soundscapes, scent maps eschew visual predominance in favor of our olfactory sense. During this project, students go off on a meandering journey around campus. They are tasked with taking olfactory observation notes as they move slowly from site to site. What is this place in terms of scent alone? Are there multiple, competing smells? Or just one overpowering scent? Is it pleasant? Gross? What does it remind you of? When students return to class, they make a map of their journey, using only the scents they observed to mark their path.",
+      "Before heading out on their olfactory explorations, I show students examples of creative scent maps like Dr. Kate McLean’s smellscapes. My favorites of hers include an olfactory map of a hospital as experienced by the patients, workers, and visitors; a crowd-sourced map of sniffs around Astor Place in the summertime; and a scentscape of Singapore.",
+      "Smells of Singapore, by Kate McLean",
+      "Astor Place by sniffs, by Kate McLean",
+      "Hospital smellscape, by Kate McLean",
+      "Interoceptscapes",
+      "If you’re still thinking humans only use five senses, you’re in for a fun surprise. In addition to the classic five, we have three more: our senses of orientation, proprioception, and interoception. Interoception is our ability to perceive internal bodily stimuli, whether that’s hunger, sleepiness, joy, or sadness. In short, interoception is what gives us the power to answer the question, “How do you feel?”",
+      "Even though interoception senses internal body states, body states are largely influenced by the places we’re in. This is where true multi-sensory integration comes into play. A comfortable seat in the way back of a warm lecture hall might make us feel sleepy in the middle of the day, while a lively basketball game can make us feel alert, excited, and a bit anxious. Cinnebon directs the vents to their ovens to the storefronts, so the scent makes passerbys suddenly feel peckish for a sweet snack.",
+      "For this mapping project, students choose a place made up of a collection of sites, whether that be buildings, streets, or city blocks. The place should be somewhere they regularly frequent. Over the course of a few weeks, students tune in to their interoceptive sense each time they traverse through their selected place. They keep a field journal, noting their bodily sensations from site to site. At the end of the data collection period, students make a map of their place using only their interoceptive data, generating a map of their feelings-in-place. One student made a map of every place they felt hunger and included the nearby restaurants. Another student mapped their hometown during winter break by every place where they either laughed or cried.",
+      "To give a sense of what interoceptive mapping can look like, students are shown maps like the RISD CRY project, where an architecture student has her classmates contribute to a map of the Rhode Island School of Design campus based on where they’ve cried to critique the pressures of artistic productivity.",
+      "\"Mapping Our Tears: RISD CRY\" by Yimiao Wang",
+      "These multi-sensory mapping projects subvert the long-held dominance of visuality in cartography, inviting us to reinterpret places not as they appear to our eyes, but as rich, embodied spaces of experience. By incorporating sound, scent, and internal sensation, we can engage more deeply with place—learning to attune ourselves to the complex ways in which place is in dialectical relation with perception and knowledge production. This shift toward multi-sensory mapping isn’t just a pedagogical tool; it’s a powerful reminder that our ways of knowing the world are always filtered through our bodies, which, in turn, are filtered through our environments. As cartography continues to evolve, embracing sensory integration helps create fuller representations of the world around us.",
+      "Related Resources",
+      "For insights on how to use ESRI StoryMaps, check out Digital Fellow Parisa's Tagging the Tower post on StoryMaps and visual storytelling.",
+      "For reflections on collective maps, Parisa has another great piece on participatory mapping practices."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.035722304033587525,
+      0.09530369204338647,
+      0.0003634383071779062,
+      0.23184532208470762,
+      0.14809926263412174,
+      0.3060045281023306,
+      0.0004550594653353979,
+      0.18220639332935273
+    ],
+    "words": [
+      [
+        "map",
+        17
+      ],
+      [
+        "student",
+        16
+      ],
+      [
+        "place",
+        15
+      ],
+      [
+        "sound",
+        9
+      ],
+      [
+        "sensory",
+        8
+      ],
+      [
+        "site",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "22123",
+    "title": "Welcome to Fall '25!",
+    "date": "2025-09-09",
+    "year": "2025–2026",
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "originalAuthors": [
+      "Tuka Al-Sahlani"
+    ],
+    "aliases": [
+      "Tuka Al-Sahlani"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Tuka Al-Sahlani",
+    "tags": [
+      "GCDI Updates",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/09/09/welcome-to-fall-25/",
+    "signals": [],
+    "paragraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows are excited to welcome you all back to a new semester! Below you will find resources, workshops, and opportunities we have been developing to help you continue to learn and advance your digital scholarly projects.",
+      "Where to find us",
+      "This semester, consider joining us at one of our virtual workshops, requesting a one-on-one consultation with a GC Digital Fellow, subscribing to our calendar for our weekly virtual digital scholarship drop-in hours, or attending one of our events!",
+      "Are you interested in finding communities of scholars working on a specific platform or digital scholarship methodology? Check out our GC Digital Fellow-supported working groups on the CUNY Academic Commons.",
+      "Want to keep up to date on all the GCDI happenings? Be sure to join our GCDI Group on the Commons, subscribe to our calendar, follow us on LinkedIn,BlueSky, and check out our Linktr.ee. Please be…"
+    ],
+    "fullParagraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows are excited to welcome you all back to a new semester! Below you will find resources, workshops, and opportunities we have been developing to help you continue to learn and advance your digital scholarly projects.",
+      "Where to find us",
+      "This semester, consider joining us at one of our virtual workshops, requesting a one-on-one consultation with a GC Digital Fellow, subscribing to our calendar for our weekly virtual digital scholarship drop-in hours, or attending one of our events!",
+      "Are you interested in finding communities of scholars working on a specific platform or digital scholarship methodology? Check out our GC Digital Fellow-supported working groups on the CUNY Academic Commons.",
+      "Want to keep up to date on all the GCDI happenings? Be sure to join our GCDI Group on the Commons, subscribe to our calendar, follow us on LinkedIn,BlueSky, and check out our Linktr.ee. Please be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Fall 2025 Opportunities",
+      "Workshops",
+      "This semester, GCDI will offer virtual workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. (Learn how to get the most out of our workshops.) Registration is required, you can select the workshop on the calendar and complete the workshop RSVP.",
+      "We will begin the fall semester with the following workshops:",
+      "Tools of DH",
+      "Thurs. Sept. 18 | Online | 12:30 pm - 2:00 pm.",
+      "Introduction to Python",
+      "Wed. Sept. 24 | Online | 1:00 pm - 3:00 pm.",
+      "Digital Methods in Languages Other Than English (LOTE)",
+      "Thurs. Sept. 25 | Online| 12:00 pm - 1:30 pm",
+      "Introduction to QCIS",
+      "Mon. Oct. 6 | Online | 4:00 pm - 6:00 pm",
+      "In order to be as responsive as possible (workshop space is limited), please:",
+      "1) Be sure to RSVP to the workshops.",
+      "2) If you realize you can’t make it, please RSVP again with the “Can’t go” option.",
+      "Digital Scholarship Drop-in Hour",
+      "Are you working on learning a digital skill? Having trouble with some code? Do you have questions regarding a digital project, or are you seeking reviews about using a digital tool? This semester we will hold virtual drop-in hours on Thursday from 4pm to 5pm to engage your curiosity, troubleshoot challenges, and grow our community. Register here to visit us!",
+      "One-on-one Consultations",
+      "Have a question about your digital project? Thinking of including digital tools in your scholarship or teaching? GCDI staff are available to meet in-person at the GC and/or remotely with GC students, faculty, and staff to talk through technical challenges, digital skills, or simply brainstorm. Sign up for a 30-minute consultation through this form.",
+      "CUNY and GC Resources",
+      "Manifold Digital Publishing Platform",
+      "As CUNY students, you have free access to Manifold, an open source, digital publishing platform. Manifold is an Andrew W. Mellon Foundation and National Endowment for the Humanities (NEH) funded collaboration between the GC, University of Minnesota Press, and Cast Iron Coding. Manifold projects are multimedia friendly and texts created in Manifold may be annotated using Manifold’s built-in social annotation tool.",
+      "On CUNY’s instance of Manifold you can publish:",
+      "Your own scholarship - searching for mami & abuelita (dissertation), Queer and Trans Prison Voices (capstone)",
+      "Journals - Journal of Interactive Technology and Pedagogy - JITP",
+      "Open Educational Resources (OER) such as:",
+      "Archival projects - Let My People Know, Adrienne Rich:Teaching at CUNY",
+      "Class projects & course sites - Black Diasporic Visions: (De) Constructing Modes of Power, Modern Art and OER Writing Seminar, Theatre History II",
+      "Teaching editions of public domain texts - The Narrative of the Life of Frederick Douglass",
+      "Teaching and pedagogy resources - Teach@CUNY Handbook",
+      "Creative work such as poetry or personal essays When We Had Cancer, Happy Nostalgia",
+      "To learn more about using Manifold, check out our Getting Started with Manifold Quick Guides! Join the Manifold Users group on the CUNY Academic Commons to be notified about Manifold workshops and updates.",
+      "If you have questions about using Manifold please contact Robin Miller or Manifold Graduate Fellows Cortnie Belser, Herline Honorat, Cen Liu, and August Smith.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible to register for an account on the CUNY Academic Commons. The Commons is a CUNY-created and run platform for building websites, collaborating with groups, and connecting with peers across the university. Faculty, staff, and students at CUNY use the Commons to teach and take courses, create academic portfolios, host websites for their research projects or academic departments, and more! To learn more, check out the Commons' About page, read the latest Commons News releases, browse featured groups and sites, and visit the Commons' HELP pages for support with getting started.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such as tools, methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Racialized Aspects of Data Collection & Data Use by Peyton Cordero",
+      "What is metadata, and why does it matter? by Maggie Schreiner",
+      "Tidying Data Using tidyverse in R by Chen Zhou",
+      "AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 1) by Parisa Setayesh",
+      "6 Tools for Digital Safety in the Age of Surveillance by Anna Corbett",
+      "10 Useful Extensions for VSCode by Zachary Lloyd",
+      "WordPress: How to create content by Silvia Rivera Alfaro",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "Additional resources include the Digital Archive Research Collective, the Digital Dissertations Resource Guide, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Stay in touch!",
+      "The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "Please don’t hesitate to contact the Digital Fellows gc.digitalfellows@gmail.com with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Anna, Chinmay, Chris, Eunah, Maggie, Meha, Parisa, and Tuka",
+      "Note: This post by GC Digital Fellow Tuka Al-Sahlani is revised and updated from the post by GC Digital Fellows Rebecca Krisel in 2023, Zachary Lloyd in 2022, Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018, Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

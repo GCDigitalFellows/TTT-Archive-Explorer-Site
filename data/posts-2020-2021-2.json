@@ -1,0 +1,690 @@
+[
+  {
+    "id": "17144",
+    "title": "When Algorithms Give Real Students Imaginary Grades",
+    "date": "2020-10-14",
+    "year": "2020–2021",
+    "authors": [
+      "Meredith Broussard"
+    ],
+    "originalAuthors": [
+      "Meredith Broussard"
+    ],
+    "aliases": [
+      "Meredith Broussard"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Coronavirus (2019-nCoV)",
+      "E-Learning",
+      "Education (K-12)",
+      "International Baccalaureate",
+      "News",
+      "Tests and Examinations",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/14/opinion-when-algorithms-give-real-students-imaginary-grades-the-new-york-times/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This op-ed by Meredith Broussard throws light on the extremely troubling use of predictive grading for assessing the International Baccalaureate examinations, which recently gave thousands of students a failing grade based on data points like the student's socio-economic demographics, teacher estimated grades, and other measures. Broussard discusses how the algorithms enabling predictive grading are rooted in racial and class biases, which disproportionally failed students of color in low income areas. Broussard drives home a clear lesson: \"Algorithms should not be used to assign student grades. And we should think much more critically about algorithmic decision-making overall, especially in education. The pandemic makes it tempting to imagine that social institutions like school can be replaced by technological solutions. They can’t.\" It is high time that we reimagined the role of artificial intelligence in teaching and learning."
+    ],
+    "fullParagraphs": [
+      "This op-ed by Meredith Broussard throws light on the extremely troubling use of predictive grading for assessing the International Baccalaureate examinations, which recently gave thousands of students a failing grade based on data points like the student's socio-economic demographics, teacher estimated grades, and other measures. Broussard discusses how the algorithms enabling predictive grading are rooted in racial and class biases, which disproportionally failed students of color in low income areas. Broussard drives home a clear lesson: \"Algorithms should not be used to assign student grades. And we should think much more critically about algorithmic decision-making overall, especially in education. The pandemic makes it tempting to imagine that social institutions like school can be replaced by technological solutions. They can’t.\" It is high time that we reimagined the role of artificial intelligence in teaching and learning.",
+      "Read more: When Algorithms Give Real Students Imaginary Grades"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17111",
+    "title": "Twitter Apologizes for Racist Image-Cropping Algorithm",
+    "date": "2020-10-05",
+    "year": "2020–2021",
+    "authors": [
+      "Alex Hern"
+    ],
+    "originalAuthors": [
+      "Alex Hern"
+    ],
+    "aliases": [
+      "Alex Hern"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "Race",
+      "technology",
+      "Twitter",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/05/twitter-apologises-for-racist-image-cropping-algorithm-twitter-the-guardian/",
+    "signals": [
+      "Code & computational methods",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "This news article published in The Guardian covers Twitter's response to a racist image cropping algorithm that automatically focused on White faces over Black ones. The article notes that Twitter isn't the first or only technology company struggling to explain the racist basis of its algorithms, and discusses similar issues in the Google Photos service. This article calls to attention the continuing failure of large tech firms with structurally addressing the racist assumptions undergirding their technology.",
+      "Read more: Twitter apologises for ‘racist’ image-cropping algorithm"
+    ],
+    "fullParagraphs": [
+      "This news article published in The Guardian covers Twitter's response to a racist image cropping algorithm that automatically focused on White faces over Black ones. The article notes that Twitter isn't the first or only technology company struggling to explain the racist basis of its algorithms, and discusses similar issues in the Google Photos service. This article calls to attention the continuing failure of large tech firms with structurally addressing the racist assumptions undergirding their technology.",
+      "Read more: Twitter apologises for ‘racist’ image-cropping algorithm"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17108",
+    "title": "The Authoritarian Trade-Off",
+    "date": "2020-10-05",
+    "year": "2020–2021",
+    "authors": [
+      "Jathan Sadowski"
+    ],
+    "originalAuthors": [
+      "Jathan Sadowski"
+    ],
+    "aliases": [
+      "Jathan Sadowski"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/10/05/the-authoritarian-trade-off/",
+    "signals": [],
+    "paragraphs": [
+      "In this fascinating article, the media theorist Jathan Sadowski casts a critical eye on the ways in which the COVID-19 pandemic has become a cover for the expansion of state surveillance across the world. Sadowski discusses the ways in which the opaque processes like contact tracing, social-network analysis, and other ways of dealing with the spread of the coronavirus provides even greater impetus to authoritarian practices. Sadowski questions the value of trading privacy rights for a fantasy of public health and argues that more \"transparency, accountability, and, most important, humanity\" is needed in the global response to the pandemic.",
+      "Read more: The Authoritarian Trade-Off"
+    ],
+    "fullParagraphs": [
+      "In this fascinating article, the media theorist Jathan Sadowski casts a critical eye on the ways in which the COVID-19 pandemic has become a cover for the expansion of state surveillance across the world. Sadowski discusses the ways in which the opaque processes like contact tracing, social-network analysis, and other ways of dealing with the spread of the coronavirus provides even greater impetus to authoritarian practices. Sadowski questions the value of trading privacy rights for a fantasy of public health and argues that more \"transparency, accountability, and, most important, humanity\" is needed in the global response to the pandemic.",
+      "Read more: The Authoritarian Trade-Off"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5781",
+    "title": "Creating a Dissertation Blog with Open Source Tools",
+    "date": "2020-09-29",
+    "year": "2020–2021",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Filipa Calado",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/29/creating-a-dissertation-blog-with-open-source-tools-2/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "This post is an overview of how to get up and running with a dissertation blog. I offer my own blog, “Queer Tools,” as an example, where I post my developing thoughts and share drafts of my work in progress.",
+      "To create the blog, I use a combination of open-source tools that are relatively easy to get up and running. First, for the actual writing, I use Markdown, a lowkey “markup language” for writing in plain text. Second, I use Github Pages to host the blog online for free. Then, I use the Reverie theme (powered by Jekyll) for managing my blog’s appearance, giving it a streamlined look. Finally, I’ve added digital annotation functionality with Hypothesis so people can comment on my drafts. Together, these tools create a public facing record of my work in progress, allowing interested folks to read and comment.",
+      "In what follows, I provide an overview of how to get your own blog up and running, with links to tutorials for each step. At…"
+    ],
+    "fullParagraphs": [
+      "This post is an overview of how to get up and running with a dissertation blog. I offer my own blog, “Queer Tools,” as an example, where I post my developing thoughts and share drafts of my work in progress.",
+      "To create the blog, I use a combination of open-source tools that are relatively easy to get up and running. First, for the actual writing, I use Markdown, a lowkey “markup language” for writing in plain text. Second, I use Github Pages to host the blog online for free. Then, I use the Reverie theme (powered by Jekyll) for managing my blog’s appearance, giving it a streamlined look. Finally, I’ve added digital annotation functionality with Hypothesis so people can comment on my drafts. Together, these tools create a public facing record of my work in progress, allowing interested folks to read and comment.",
+      "In what follows, I provide an overview of how to get your own blog up and running, with links to tutorials for each step. At first, some of these steps can seem overwhelming, but it is actually pretty straightforward as long as you follow the instructions for your Operating System. By the end of this workshop, not only will you have a custom blog, you will also have learned how to install programs with the command-line, which is essential for doing more complex digital projects. Also, developing familiarity with open source tools like Markup, Jekyll, Git, and Hypothesis allows you to create your own workflow that suits your academic goals. That being said, some minimal knowledge of the command-line is highly recommended, so please check out our command-line tutorial if you need a primer or refresher. If you get stuck, please reach out to the Digital Fellows for help!",
+      "Before getting started, make a new project folder. You can use the command-line to make the new folder and navigate inside it:",
+      "$ mkdir my-project",
+      "$ cd my-project",
+      "Now, the first step to building the blog is to get Jekyll working on your computer.",
+      "Jekyll",
+      "Jekyll is a “static site generator” that transforms plain-text files into websites. In simple terms, Jekyll takes text written in markdown (see Digital Fellow Rafa Portela’s instructions on using markdown), and automatically applies layouts and styling. By using Jekyll, you avoid the headache involved with databases, components, and styling that comes with building a website in the usual way.",
+      "To get the Jekyll website up and running, we need to install some prerequisites, specifically Ruby (version 2.5 or later), Jekyll, and Bundler. This process will be different according to your operating system and version, and you may even have them pre-installed on your computer, depending on your OS. For Windows, follow these instructions for installing Ruby, Jekyll, and Bundler for Windows. For Mac OSX, you will need to first install Ruby for Mac OSX, and then install Jekyll and Bundler for Mac OSX.",
+      "Warning: this is the most complicated step, as the process depends on your OS and specific system requirements. If you are not familiar with using your computer’s command line, or run into errors, please do not hesitate to reach out to the Digital Fellows.",
+      "Like I said, the process will be different depending on your system requirements, so be patient and take time to read the relevant instructions. Sometimes a quick google search that includes your operating system will be most helpful, like “Catalina install jekyll,” for example.",
+      "To test that the previous installations are working, open your command line, navigate to the project folder, and run",
+      "$ bundle exec jekyll serve",
+      "The output should look something like the following:",
+      "Configuration file: /Users/filipacalado/Desktop/one-more-test/_config.yml",
+      "Source: /Users/filipacalado/Desktop/one-more-test",
+      "Destination: /Users/filipacalado/Desktop/one-more-test/_site",
+      "Incremental build: disabled. Enable with --incremental",
+      "Generating...",
+      "Jekyll Feed: Generating feed for posts",
+      "done in 0.616 seconds.",
+      "Auto-regeneration: enabled for '/Users/filipacalado/Desktop/one-more-test'",
+      "Server address: http://127.0.0.1:4000/",
+      "Server running... press ctrl-c to stop.",
+      "Now, copy the server address (in the above example, you can see it’s http://127.0.0.1:4000/) into your web browser, and hit enter. You should see a sample site that says “Welcome to Jekyll.” To stop the server, hit control-c. You can start it back up again with the command “bundle exec jekyll serve.”",
+      "You now have a Jekyll site running on your local machine! I would spend some time playing around with this new space, adding new content. Check out Jekyll’s excellent documentation about creating posts, for starters. Once you get more comfortable with Jekyll, you can experiment with theming, that is, customizing the appearance of your blog. Jekyll themes allow you to choose a specific look, and many of them are ready “out of the box,” so you can focus on just creating the content. Personally, I use a theme called Reverie which offers a clean one-column layout. Other nice layouts include Hyde, which you can see at work in Jeffrey Moro’s neat dissertation blog.",
+      "Github Pages",
+      "The next step is to get this thing online, so others can see your site on the internet. For this task, I choose Github Pages because it offers free web hosting. Additionally, because Github Pages runs on Git, a software that offers version-control, it automatically creates backups every time you “push” (or save & publish) your site. This comes in very useful if, for example, you decide you want to find something you deleted or revert to a previous version of your draft.",
+      "If you don’t already have a Github account, create one on GitHub.com. Then, you need to create a github repository, initialize the repository locally, and add that repo to github. Follow these instructions for creating, initializing, and pushing your repo to Github. (Note: For the future, you’ll want to read up on a few basic commands for working with Git, and be sure to check out our workshop on using Git/Github on the command line).",
+      "Once you finish those steps, you need to activate Github Pages on your repo. To activate Github Pages, navigate to your repo’s main page, then click on the “Settings’ tab. Scroll down to the “GitHub Pages” section, and in the box that says “Source,” select “Master,” then “Save.” In a few minutes, you should see your new site at www.your-username.github.io/your-project-name/ (with your name and project in the place of your-username and your-project-name). In case you have any issues with the site, this page is a good place to start troubleshooting Github Pages and Jekyll. Also, if you notice that the styling is off (a common error), read through this post about adding your the correct styling path to your config file.",
+      "Hypothesis",
+      "Still with me? We are almost there! The last step is to add Hypothesis, a digital annotation tool that allows users to comment on your pages. I’ve used Hypothesis to share drafts in progress with my writing group. Because the tool is embedded in the web page, readers don't have to download or install anything, they can just sign in and comment directly on my writing. This creates a very seamless way of getting feedback and participating in asynchronous conversations about my work.",
+      "To add Hypothesis, simply copy and paste the following code somewhere on that page’s markdown file where you want the annotation tool to appear (you can copy/paste the code snippet from here)",
+      "Save the page, and reload. The hypothesis toolbar should show up on the right-hand side.",
+      "Congratulations! You now have a fully working, public-facing, and annotatable blog! Remember, however, that this tutorial isn’t the only way to get up and running with a blog on Jekyll and Github Pages. The above process is just my preference, and there are so many other options for getting this done. If the above is difficult for you, consult one or more of the resources below, which offer approximately the same end result, just with different steps:",
+      "Amanda Visconti’s in-depth guide to working with the command line, Jekyll, and Github pages.",
+      "Jonathan McGlone’s quick guide to “Creating and Hosting a Personal Site on GitHub.”",
+      "Landing page with official Github documentation for setting up a Github Pages site with Jekyll & the walkthrough for downloading Jekyll dependencies and activating Github.",
+      "“Plug and play” with a Jekyll theme, such as Reverie or Poole."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00027891563430453313,
+      0.00027905538517634997,
+      0.009144219984602934,
+      9.459864026028541e-05,
+      0.00016782309165453473,
+      0.15674245581532897,
+      0.8161320464465788,
+      0.01716088500209361
+    ],
+    "words": [
+      [
+        "jekyll",
+        26
+      ],
+      [
+        "github",
+        21
+      ],
+      [
+        "page",
+        18
+      ],
+      [
+        "run",
+        10
+      ],
+      [
+        "create",
+        10
+      ],
+      [
+        "command",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "17057",
+    "title": "Google offers to help others with the tricky ethics of AI",
+    "date": "2020-09-28",
+    "year": "2020–2021",
+    "authors": [
+      "Tom Simonite"
+    ],
+    "originalAuthors": [
+      "Tom Simonite"
+    ],
+    "aliases": [
+      "Tom Simonite"
+    ],
+    "account": "Jessie McCormack",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/28/google-offers-to-help-others-with-the-tricky-ethics-of-ai-ars-technica/",
+    "signals": [
+      "Ethics, access & power",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "Google is planning to offer new services to tech companies regarding AI ethics, despite having a spotty past itself on such issues. Some services are specific, such as detecting racial biases in computing vision technology (e.g., that is involved in facial recognition software), but they also plan to offer general advice on developing ethical frameworks. Google has faced its own controversies on ethical matters, and is seeking to use the ethics they developed as a result to inform and guide other companies. The ethics of technology is becoming an increasingly pressing need to address, as public and political suspicion about the ethics of technological developments mount. Google clearly hopes to fill this market need, though they have not yet determined whether (or how much) they will charge for their services.",
+      "Read more: Google offers to help others with the tricky ethics of AI"
+    ],
+    "fullParagraphs": [
+      "Google is planning to offer new services to tech companies regarding AI ethics, despite having a spotty past itself on such issues. Some services are specific, such as detecting racial biases in computing vision technology (e.g., that is involved in facial recognition software), but they also plan to offer general advice on developing ethical frameworks. Google has faced its own controversies on ethical matters, and is seeking to use the ethics they developed as a result to inform and guide other companies. The ethics of technology is becoming an increasingly pressing need to address, as public and political suspicion about the ethics of technological developments mount. Google clearly hopes to fill this market need, though they have not yet determined whether (or how much) they will charge for their services.",
+      "Read more: Google offers to help others with the tricky ethics of AI"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17052",
+    "title": "Toward Anti-Racist Technical Terminology",
+    "date": "2020-09-25",
+    "year": "2020–2021",
+    "authors": [
+      "The Association for Computers and the Humanities"
+    ],
+    "originalAuthors": [
+      "The Association for Computers and the Humanities"
+    ],
+    "aliases": [
+      "The Association for Computers and the Humanities"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/25/the-association-for-computers-and-the-humanities-toward-anti-racist-technical-terminology/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "The rootedness of racialized language in technical terminology has been a matter of tense critique for many years. Following their statement on Black Lives Matter, the Association for Computers and the Humanities (ACH) has offered a guide to help Digital Humanities centers, labs, developers, and other technologists be mindful of the technical terminology embedded in the tools they use, and provide specific resources for using different terms. Although this guide draws attention to only 4 terms at the present, it will be expanded over time to include more terms and resources. How might digital scholarship continue to enact an anti-racist praxis?",
+      "Read more: Toward anti-racist technical terminology"
+    ],
+    "fullParagraphs": [
+      "The rootedness of racialized language in technical terminology has been a matter of tense critique for many years. Following their statement on Black Lives Matter, the Association for Computers and the Humanities (ACH) has offered a guide to help Digital Humanities centers, labs, developers, and other technologists be mindful of the technical terminology embedded in the tools they use, and provide specific resources for using different terms. Although this guide draws attention to only 4 terms at the present, it will be expanded over time to include more terms and resources. How might digital scholarship continue to enact an anti-racist praxis?",
+      "Read more: Toward anti-racist technical terminology"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5772",
+    "title": "GC Digital Scholarship Lab Virtual Open House 2020: Recap",
+    "date": "2020-09-22",
+    "year": "2020–2021",
+    "authors": [
+      "Di Yoong"
+    ],
+    "originalAuthors": [
+      "Di Yoong"
+    ],
+    "aliases": [
+      "Di Yoong"
+    ],
+    "account": "Di Yoong",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/22/gc-digital-scholarship-lab-virtual-open-house-2020-recap/",
+    "signals": [],
+    "paragraphs": [
+      "Hi everyone! If you missed the GC Digital Initiatives (GCDI) open house held a couple of weeks ago, have no fear! This post will provide you with a recap of what was covered and where and how you can access our resources.",
+      "In all three sessions of the open house, we began with a round of introductions, which included how folx found out about us and how they imagined GCDI could be supportive of them in this remote learning environment. We learned that many folx are excited to meet and form communities with like-minded individuals and looking at how GCDI and the digital fellows can help facilitate that.",
+      "While we may now be working in a remote environment, we have continued to offer our programmings in response to the changes. During our open house presentation, we introduced our fall semester line-up. As GC Digital Fellows, we primarily lead workshops and support working groups in digital tools and methodologies. We also support…"
+    ],
+    "fullParagraphs": [
+      "Hi everyone! If you missed the GC Digital Initiatives (GCDI) open house held a couple of weeks ago, have no fear! This post will provide you with a recap of what was covered and where and how you can access our resources.",
+      "In all three sessions of the open house, we began with a round of introductions, which included how folx found out about us and how they imagined GCDI could be supportive of them in this remote learning environment. We learned that many folx are excited to meet and form communities with like-minded individuals and looking at how GCDI and the digital fellows can help facilitate that.",
+      "While we may now be working in a remote environment, we have continued to offer our programmings in response to the changes. During our open house presentation, we introduced our fall semester line-up. As GC Digital Fellows, we primarily lead workshops and support working groups in digital tools and methodologies. We also support consultations for students, faculty, and staff at the GC who are thinking about digital projects.",
+      "In this current moment, you can expect that our workshops will be offered in a variety of modes, ranging from synchronous to hybrid and asynchronous sessions. In addition, instead of having drop-in office hours, we are now offering a consultation model where you can sign up to meet with a digital fellow to discuss your projects and queries. You can be at any stage of your digital work to request a consultation. We are happy to think with you from your planning stage through to your publication stage!",
+      "If you're interested in exploring a tool or methodology, you can also join any (or all!) of the working groups that we currently support. This is also a great place to meet folx who are similarly interested in the tool or methodology. For most of our offerings, you need not come with any experience on the tool, just an interest in it~!",
+      "In the list below you can find the links that were shared during the open house sessions. If you would like access to the slides from the open house, you can also click here.",
+      "Fall Workshops",
+      "Consultation/Office Hours",
+      "Working Groups",
+      "Resources",
+      "The best way to keep up-to-date with us is to regularly check our website. Hope to see you at our future events!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0011384777668694026,
+      0.0011390482019432943,
+      0.0009971764141236516,
+      0.0003861327063323438,
+      0.0006850202538569867,
+      0.10093045690966933,
+      0.013357792907316908,
+      0.8813658948398881
+    ],
+    "words": [
+      [
+        "digital",
+        7
+      ],
+      [
+        "open",
+        5
+      ],
+      [
+        "house",
+        5
+      ],
+      [
+        "work",
+        4
+      ],
+      [
+        "tool",
+        4
+      ],
+      [
+        "consultation",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "17035",
+    "title": "What Can the Humanities Do for Data Science?",
+    "date": "2020-09-21",
+    "year": "2020–2021",
+    "authors": [
+      "The Alan Turing Institute"
+    ],
+    "originalAuthors": [
+      "The Alan Turing Institute"
+    ],
+    "aliases": [
+      "The Alan Turing Institute"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/21/what-can-the-humanities-do-for-data-science-the-alan-turing-institute/",
+    "signals": [],
+    "paragraphs": [
+      "The paper ‘Challenges and prospects of the intersection of humanities and data science: A white paper from The Alan Turing Institute’, has been produced by The Alan Turing Institute’s Humanities and Data Science special interest group - an extensive, multidisciplinary group of researchers from a wide range of universities and cultural organizations including The National Archives, The British Library and The National Library of Scotland. Digital tools and data science present many opportunities that could transform humanities research. At the same time, the humanities - academic disciplines that study aspects of human society and culture - also have the potential to transform data science research. This should be a two-way exchange of approaches and knowledge. The new paper defines the UK’s current landscape of digital humanities research and reflects on what data-driven research within the humanities entails. It also highlights a…"
+    ],
+    "fullParagraphs": [
+      "The paper ‘Challenges and prospects of the intersection of humanities and data science: A white paper from The Alan Turing Institute’, has been produced by The Alan Turing Institute’s Humanities and Data Science special interest group - an extensive, multidisciplinary group of researchers from a wide range of universities and cultural organizations including The National Archives, The British Library and The National Library of Scotland. Digital tools and data science present many opportunities that could transform humanities research. At the same time, the humanities - academic disciplines that study aspects of human society and culture - also have the potential to transform data science research. This should be a two-way exchange of approaches and knowledge. The new paper defines the UK’s current landscape of digital humanities research and reflects on what data-driven research within the humanities entails. It also highlights a series of recommendations for how these two communities can more easily and better work together to realize the full potential of interdisciplinary work.",
+      "Read more: What can the humanities do for data science?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "17032",
+    "title": "What Can America Learn from Europe About Regulating Big Tech?",
+    "date": "2020-09-21",
+    "year": "2020–2021",
+    "authors": [
+      "Nick Romeo"
+    ],
+    "originalAuthors": [
+      "Nick Romeo"
+    ],
+    "aliases": [
+      "Nick Romeo"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "annals of technology",
+      "Facebook",
+      "Google",
+      "News",
+      "regulation",
+      "Silicon Valley",
+      "stanford university",
+      "technology",
+      "via bookmarklet",
+      "web"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/21/what-can-america-learn-from-europe-about-regulating-big-tech-the-new-yorker/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This fascinating article from The New Yorker profiles Marietje Schaake, a former member of the European Parliament and currently the international policy director at Stanford University's Cyber Policy Center. The article provides an overview of Schaake's career and opinions within the larger context of the importance of government regulation over large informational technology companies. Transnational tech corporations are already facing tougher governmental oversight in the European Union in matters like anti-competitive practices and the security of user data. In the United States, the movement for greater accountability of these companies culminated in the July 2020 congressional hearings, when the top executives of Amazon, Facebook, Google, and Amazon were made to testify. This article raises important questions regarding the lessons the United States government can learn from the European Union as it tries to control the power…"
+    ],
+    "fullParagraphs": [
+      "This fascinating article from The New Yorker profiles Marietje Schaake, a former member of the European Parliament and currently the international policy director at Stanford University's Cyber Policy Center. The article provides an overview of Schaake's career and opinions within the larger context of the importance of government regulation over large informational technology companies. Transnational tech corporations are already facing tougher governmental oversight in the European Union in matters like anti-competitive practices and the security of user data. In the United States, the movement for greater accountability of these companies culminated in the July 2020 congressional hearings, when the top executives of Amazon, Facebook, Google, and Amazon were made to testify. This article raises important questions regarding the lessons the United States government can learn from the European Union as it tries to control the power wielded by these firms.",
+      "Read more: What Can America Learn from Europe About Regulating Big Tech?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "16994",
+    "title": "Bias in AI and New York City's governance",
+    "date": "2020-09-14",
+    "year": "2020–2021",
+    "authors": [
+      "Shirin Ghaffary"
+    ],
+    "originalAuthors": [
+      "Shirin Ghaffary "
+    ],
+    "aliases": [
+      "Shirin Ghaffary"
+    ],
+    "account": "Param Ajmera",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "News",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/14/new-york-city-wanted-to-make-sure-the-algorithms-are-fair-vox/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "Though many people might not realize it, complicated algorithms, including AI in some cases, help cities like New York make decisions every day about everything from where kids should go to school to who should receive extra screening from police and which neighborhoods should have more fire stations.",
+      "These systems have the potential to help government be more efficient by processing large volumes of information — like, say, DNA samples at crime scenes — rapidly. But if these systems are implemented poorly, they can also introduce bias across racial, gender, and class lines to exacerbate societal inequalities. And while researchers have proven AI can be biased at an aggregate level, the victims of these biases don’t know when it’s happening to them.",
+      "How do we even begin to imagine alternative conceptions of AI that are geared towards reparation, as opposed to bias?",
+      "Read more at New York City wanted to make sure the algorithms are fair on…"
+    ],
+    "fullParagraphs": [
+      "Though many people might not realize it, complicated algorithms, including AI in some cases, help cities like New York make decisions every day about everything from where kids should go to school to who should receive extra screening from police and which neighborhoods should have more fire stations.",
+      "These systems have the potential to help government be more efficient by processing large volumes of information — like, say, DNA samples at crime scenes — rapidly. But if these systems are implemented poorly, they can also introduce bias across racial, gender, and class lines to exacerbate societal inequalities. And while researchers have proven AI can be biased at an aggregate level, the victims of these biases don’t know when it’s happening to them.",
+      "How do we even begin to imagine alternative conceptions of AI that are geared towards reparation, as opposed to bias?",
+      "Read more at New York City wanted to make sure the algorithms are fair on Recode"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "16991",
+    "title": "Tech's ever-growing deepfake problem",
+    "date": "2020-09-14",
+    "year": "2020–2021",
+    "authors": [
+      "Ashley Gold"
+    ],
+    "originalAuthors": [
+      "Ashley Gold"
+    ],
+    "aliases": [
+      "Ashley Gold"
+    ],
+    "account": "Filipa Calado",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "artificial intelligence",
+      "Donald Trump",
+      "Facebook",
+      "Google",
+      "Joe Biden",
+      "Misinformation",
+      "Nancy Pelosi",
+      "News",
+      "Reddit",
+      "social media",
+      "TikTok",
+      "Twitter",
+      "via bookmarklet"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/14/techs-ever-growing-deepfake-problem-axios/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "The run-up to the U.S. presidential election is also speeding up the arrival of a tipping point for digital fakery in politics, Axios' Ashley Gold reports.",
+      "As the election, a pandemic and a national protest movement collide with new media technology, this political moment is accelerating the proliferation and evolution of deliberately deceptive media, leaving companies struggling to enforce often-vague policies.",
+      "Why are platforms taking such a mild approach towards detecting this kind of content?",
+      "Read more at Axios: Tech’s ever-growing deepfake problem"
+    ],
+    "fullParagraphs": [
+      "The run-up to the U.S. presidential election is also speeding up the arrival of a tipping point for digital fakery in politics, Axios' Ashley Gold reports.",
+      "As the election, a pandemic and a national protest movement collide with new media technology, this political moment is accelerating the proliferation and evolution of deliberately deceptive media, leaving companies struggling to enforce often-vague policies.",
+      "Why are platforms taking such a mild approach towards detecting this kind of content?",
+      "Read more at Axios: Tech’s ever-growing deepfake problem"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "5760",
+    "title": "GCDI is Here for You!",
+    "date": "2020-09-04",
+    "year": "2020–2021",
+    "authors": [
+      "Stefano Morello",
+      "Olivia Ildefonso"
+    ],
+    "originalAuthors": [
+      "Stefano Morello",
+      "Olivia Ildefonso"
+    ],
+    "aliases": [
+      "Stefano Morello",
+      "Olivia Ildefonso"
+    ],
+    "account": "Stefano Morello",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso",
+    "tags": [
+      "Announcements",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2020/09/04/gcdi-is-here-for-you-falll2020/",
+    "signals": [],
+    "paragraphs": [
+      "Note that this blog post is revised and updated every semester, typically in early September or February. Links in this post may be outdated. For up to date information, please check the most recent \"Welcome to GCDI\"/\"What is GCDI?\"/\"GCDI is Here For You!\" post.",
+      "Greetings Digital GC – Welcome back!",
+      "As we all adjust to a semester of mostly online learning, the Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects despite the physical distance.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find…"
+    ],
+    "fullParagraphs": [
+      "Note that this blog post is revised and updated every semester, typically in early September or February. Links in this post may be outdated. For up to date information, please check the most recent \"Welcome to GCDI\"/\"What is GCDI?\"/\"GCDI is Here For You!\" post.",
+      "Greetings Digital GC – Welcome back!",
+      "As we all adjust to a semester of mostly online learning, the Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects despite the physical distance.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual events this semester! Don’t miss our GC Digital Scholarship Lab Virtual Open House on Wednesday, September 9th. It will be offered at three different times: 12-1 PM, 2-3 PM, and 4-5 PM. This event is free and open to the entire Graduate Center community; however, registration is required. When you come, you can expect to hear a short presentation about what GCDI offers, meet and chat with the Fellows, tour the programs we have to offer, and learn about how you can be more involved with the GCDI community.",
+      "The variety of our offerings means we have something for everyone. This semester we will offer both synchronous and asynchronous workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the R User’s Group (RUG), the Python User’s Group (PUG), the Digital Archives Research Collective (DARC), and the GIS/Mapping Working Group. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!.",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons for regular updates, to follow us on Twitter (@Digital_Fellows, @cunygcdi), to be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project? Try one of these:",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet virtually – via Zoom, Webex, Skype, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Open House",
+      "We will host an Open House at the GC Digital Scholarship Lab at the beginning of each semester to introduce folks to the various resources GC Digital Initiatives has to offer and to assist individuals with questions related to their digital project. Our Fall 2020 Digital Scholarship Lab Open House will be held virtually next Wednesday, September 9th from 12-1 PM, 2-3 PM, and 4-5 PM. Check out our event page for more information about registration and what to expect!!",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed Slack workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. We also have an upcoming Data Viz working group, stay tuned for more details! No experience is needed to join; only an interest in the central topic and community. This year the Sound Studies group will focus on developing podcasts.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer hands-on, remote synchronous and asynchronous workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. Registration is required, and information about how to register can be found on our website.",
+      "This semester we are offering 6 workshops across 6 weeks in September and October. These include:",
+      "Tools for the Digital Humanities // September 2 @ 6:30 - 7:30 pm",
+      "Introduction to Python // September 10 @ 6:00 - 8:30 pm",
+      "Introduction to the Command Line // September 17 @ 10:00 am - 1:00 pm",
+      "Intro to R and RStudio // September 24 @ 5:00 - 7:00 pm",
+      "Getting Good (Enough) Audio Recording // October 1 @ 2:00 - 3:00 pm",
+      "Intro to RQDA (R Qualitative Data Analysis) // October 7 @ 4:00 - 6:00 pm",
+      "Intro to Making an Interactive Map // October 15 @ 1:00 - 3:00 pm",
+      "Working with HathiTrust Data // October 22 @ 4:00 - 6:00 pm",
+      "In order to be as responsive as possible, workshop space is limited, so:",
+      "1) Be sure to RSVP when you know you want to attend and;",
+      "2) If you realize you can’t make it, please cancel your RSVP so someone else can attend!",
+      "Dates and Deadlines",
+      "Dates and deadlines on the horizon for this Fall 2020 semester:",
+      "The 19th annual CUNY IT Conference will be on December 3rd-4th. This year’s theme is: “The Next or New Normal?”",
+      "The CUNY Digital Humanities Initiative (DHI) lightning talks event will take place virtually this year. Stay tuned to our calendar for information about the date and time and how to register!",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold's reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, join the Building Manifold Development Blog, join the Manifold Community Slack channel, and visit the Manifold website for current documentation. You can also contact Manifold Co-PI Matthew K. Gold or Manifold Digital Fellow Jojo Karlin.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. If you’re new to CUNY, check out the Commons Basics guide. Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms, you might see associated with GCDI are some amazing partners -- the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "While we are not physically at the GC, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such topics, tools, and methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Which Digital Tool Should I Use? By Hannah Aizenman",
+      "An Introduction to Programming Paradigms by Patrick Smyth",
+      "What to Consider When Planning a Digital Project by Kristen Hackett",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "Using Audacity for Interviews by Di Yoong",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective Wiki, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive and smooth (!) remote semester,",
+      "your Digital Fellows,",
+      "Connor, Di, Filipa, Olivia, Param, Rafa, Stefano, Yuxiao",
+      "Note: This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester. Subsequently, it was updated by Kelsey Chatlosh in fall 2018, by Javier Otero Peña in the spring of 2019, and by Kristen Hackett in fall of 2019. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

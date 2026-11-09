@@ -1,0 +1,941 @@
+{
+  "version": 2,
+  "documents": {
+    "wp-data": {
+      "fields": {
+        "posts": {
+          "concat": [
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2012-2013-1.json",
+                  "sha256": "cb0661f475fb37a1dfde081b9b035bc1b68f3b6b3b7988d90641353b126d534a"
+                },
+                {
+                  "file": "data/posts-2012-2013-2.json",
+                  "sha256": "645df3c8e6aac46e3c91ceecd4299b5386fbe083881201d46d7257d250906a30"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2013-2014-1.json",
+                  "sha256": "b88b8a7c2709d802ee336450abf0671eb9fba62ad4464d711cefbd1b0cd2f4d0"
+                },
+                {
+                  "file": "data/posts-2013-2014-2.json",
+                  "sha256": "8093f0c209ede0b08a74197a211957d524f02d7ec285165a966b11eff100be49"
+                }
+              ]
+            },
+            {
+              "file": "data/posts-2014-2015.json",
+              "sha256": "496b784113ced8e481e13bd0b27286a69be1f292a7c08dfaa1549313f841a4dc"
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2015-2016-1.json",
+                  "sha256": "ae7b8f6ca65bf09b1bd14b1a26d26dc6b0c9787e190818eafa7a765f4cda153a"
+                },
+                {
+                  "file": "data/posts-2015-2016-2.json",
+                  "sha256": "46d76606578f5744553c10690d467660633d59b16868ef8c459edd08a6c0c8e8"
+                }
+              ]
+            },
+            {
+              "file": "data/posts-2016-2017.json",
+              "sha256": "63e2133acf4e39bf491b20c3f00cb1f30bc9efdef591de1b16cf5556a8e1db87"
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2017-2018-1.json",
+                  "sha256": "213c4f311fccdc08f47074b08cffeeac1021377557d540a3e0baadf4d1ae5af3"
+                },
+                {
+                  "file": "data/posts-2017-2018-2.json",
+                  "sha256": "4310d6e9515261808fd9b6c925fbe914b0947b1bbf1692a8e93a79eadd206c73"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2018-2019-1.json",
+                  "sha256": "661f8a95f33ce52862895d2e0b69812109093d704e69db109d7f887d4d2edf61"
+                },
+                {
+                  "file": "data/posts-2018-2019-2.json",
+                  "sha256": "2b6125fb7f5a55db2f6d973f258b8216e6830b50c32f5fb340ebe966be32278d"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2019-2020-1.json",
+                  "sha256": "6e46c954c628a43659da34372651ddaeaae435b78da9f21ddf2e80b77e8d141f"
+                },
+                {
+                  "file": "data/posts-2019-2020-2.json",
+                  "sha256": "0d8f63aba1f4d57d6e613c3f879e7311b31428ec7e99d2516892a25cf5f5a6c5"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2020-2021-1.json",
+                  "sha256": "ad39a8401b48d9ca3772801ab5fb67a292a7b4250eca72345a82ccb7e2754f95"
+                },
+                {
+                  "file": "data/posts-2020-2021-2.json",
+                  "sha256": "23f0c3c142d4fee8872789e895625fed9875cf7915d9f7c547eae9376c592e41"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2021-2022-1.json",
+                  "sha256": "6fff46c66a1f80577e2e20de026ec96f44dfe90b733fe9c7689bb12032bab668"
+                },
+                {
+                  "file": "data/posts-2021-2022-2.json",
+                  "sha256": "cd377a2637ca3ce6c8e4acdd00a1d2eb79bfc9db4db65b45acec5178c13ae3e3"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2022-2023-1.json",
+                  "sha256": "a529fdb659814a939ae54ad8d2e4b009dd4d0544e86857ff12f3c884d37219e6"
+                },
+                {
+                  "file": "data/posts-2022-2023-2.json",
+                  "sha256": "dd9ca4fa180603021873369c6bedafab722052362667d591496ab3cb6c431734"
+                }
+              ]
+            },
+            {
+              "file": "data/posts-2023-2024.json",
+              "sha256": "bad35dc300d1ff339b3800ec8a184d7b7b7824d06687b4f4cf91702285e21b31"
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2024-2025-1.json",
+                  "sha256": "7553775df27a04232097a30ebe9fb87a0ee3a9a8ec689273b3aff6a2ca8d8eb5"
+                },
+                {
+                  "file": "data/posts-2024-2025-2.json",
+                  "sha256": "8fbc7dc9590028fc35c7eccaecaae639a06ed788fc2e08efab01ba2e95f93aed"
+                }
+              ]
+            },
+            {
+              "concat": [
+                {
+                  "file": "data/posts-2025-2026-1.json",
+                  "sha256": "b3075b9a379c7b2066b7fda6391cd8e743f3758d8fde67c47f2968848eecfb65"
+                },
+                {
+                  "file": "data/posts-2025-2026-2.json",
+                  "sha256": "4d02d37c437484a4cfde790bdba955dad9b876a19ef3ee74974ff979606a6014"
+                }
+              ]
+            },
+            {
+              "file": "data/posts-2026-2027.json",
+              "sha256": "0fc2c3ddf116728063d7ddb5284dafe1881cc481522b70bedcd4cc9e493a734e"
+            }
+          ]
+        },
+        "groups": {
+          "file": "data/groups.json",
+          "sha256": "8e25185e3a6f4e6aaa342c615452f89834d567c902239324f21dc92aaf6e47eb"
+        },
+        "keywordNames": {
+          "file": "data/keywordNames.json",
+          "sha256": "9be7b419d24377f57545d0bba544e8bb67b7e489bd22c4bb251bd9c4a1979eca"
+        },
+        "topics": {
+          "file": "data/topics.json",
+          "sha256": "d1d73afed025ad18cc16691a21626f97d9abb8f807146f1bf148ff3da7ed7065"
+        },
+        "design": {
+          "file": "data/design.json",
+          "sha256": "d6a8567598d99665f15251773e3192f427a280323df2b16a7a93b4a159b7a201"
+        },
+        "snapshot": {
+          "file": "data/snapshot.json",
+          "sha256": "4bec07e6a8b7b5a6c243043b39a86d6adf557d861ca4229324c96977797608cb"
+        },
+        "model": {
+          "file": "data/model.json",
+          "sha256": "6a9059a6d92c718807fcd66b55046465736450fb21ff600918e37859e75aeee6"
+        },
+        "limits": {
+          "file": "data/limits.json",
+          "sha256": "b9b2a8af12e2b54c4de73d1cb023de872b1ac644ef9e2b595e6339676952d3f0"
+        },
+        "wordViews": {
+          "merge": [
+            {
+              "file": "data/wordViews-1.json",
+              "sha256": "cea4ebd4236c6d5a85475a9e849499ff647fd4bc95b81dfddd3df3648ae31c91"
+            },
+            {
+              "fields": {
+                "years": {
+                  "concat": [
+                    {
+                      "file": "data/wordViews-2-value-1.json",
+                      "sha256": "b34ff2dbf5d43ddcdc37ff1e88e272ab4efe981e955381d658ba092834774ba9"
+                    },
+                    {
+                      "file": "data/wordViews-2-value-2.json",
+                      "sha256": "8f7ac214d5b1e973f60fd7225dd7a4d50331b22befa6dd33be2c7841aa09f5c1"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "file": "data/wordViews-3.json",
+              "sha256": "c4e82a8b451ac3d4eddb53474466d009efcc5857365215ef2e512b5870bed3f5"
+            }
+          ]
+        },
+        "cloudCounts": {
+          "merge": [
+            {
+              "file": "data/cloudCounts-1.json",
+              "sha256": "3ecb4977d6190099048db3d8425fd37cd2c2a25c7ed8e4dfb105258baa9ae8fe"
+            },
+            {
+              "file": "data/cloudCounts-2.json",
+              "sha256": "9aee7185ad3639cda7c6fa739ce41751921044382a4f72866b654eacab8a65af"
+            },
+            {
+              "file": "data/cloudCounts-3.json",
+              "sha256": "8cd762931bd97193cd30701e6ab1655d217a112a58be00f8f7a1097f318d7949"
+            },
+            {
+              "file": "data/cloudCounts-4.json",
+              "sha256": "183f7286b0203a1c55c0a7ebb80e859144d94a16fa41bbebd5a4387bcacd563b"
+            },
+            {
+              "file": "data/cloudCounts-5.json",
+              "sha256": "44334c5455d5c6e13eb57f18e873f4a663653f5b67eb1a969bbf4aa75de61eb1"
+            },
+            {
+              "file": "data/cloudCounts-6.json",
+              "sha256": "c4cd5ddd24a73bf36d5c96abb70404f74ae79d9fdfb968f0616113f17438d04d"
+            },
+            {
+              "file": "data/cloudCounts-7.json",
+              "sha256": "5a95cb04d54ab75830c3cedf0789e318ba8b324d52ed814dcff5998a0d0d3a9d"
+            },
+            {
+              "file": "data/cloudCounts-8.json",
+              "sha256": "491b3bb101c6e9cacd3106453cf028a13c3e9e1f72b90a6d7184d2b0da51c90e"
+            }
+          ]
+        },
+        "peopleHistory": {
+          "merge": [
+            {
+              "file": "data/peopleHistory-1.json",
+              "sha256": "7531d1d957e218feeefef04d214f6abd82260e939f692d30cbb8977696a9550f"
+            },
+            {
+              "fields": {
+                "people": {
+                  "concat": [
+                    {
+                      "file": "data/peopleHistory-2-value-1.json",
+                      "sha256": "cb1b026a673fc36c02890ddb0cdc753524ada8e9b5f4c162dbddb10550ef496f"
+                    },
+                    {
+                      "file": "data/peopleHistory-2-value-2.json",
+                      "sha256": "a504947f23af5eeadb8771ea2848e0795ceb7831961188b05c3cd4f145d7ab2c"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "fields": {
+                "roster": {
+                  "concat": [
+                    {
+                      "file": "data/peopleHistory-3-value-1.json",
+                      "sha256": "3bc059374c3596ca8927eb517e6fba3d1a134cc6b8c20427257637f7e6433de0"
+                    },
+                    {
+                      "file": "data/peopleHistory-3-value-2.json",
+                      "sha256": "9cfaba2bbb8683bd165782f9d403d65d6da08c15cbedef85e141f87b11996885"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "file": "data/peopleHistory-4.json",
+              "sha256": "4beb3245c3dd9ee5e74f46385ce145d458f1baa289e25e8379232a1e5ddedfd3"
+            },
+            {
+              "file": "data/peopleHistory-5.json",
+              "sha256": "3fdee01f55cfa0d413c79662728ea4fd79fe176a88e3b27d0445ac9ab492f8e1"
+            }
+          ]
+        },
+        "yearExclusive": {
+          "merge": [
+            {
+              "file": "data/yearExclusive-1.json",
+              "sha256": "32dc4d24dde3048bea204e75c8e0b9880e426f07648c418e0dc2050d5d5d006a"
+            },
+            {
+              "fields": {
+                "groups": {
+                  "concat": [
+                    {
+                      "file": "data/yearExclusive-2-value-1.json",
+                      "sha256": "d647838743df16ac6cad1e48f0523ca607f5bf068a78d31bfe8478f902cdfd9e"
+                    },
+                    {
+                      "file": "data/yearExclusive-2-value-2.json",
+                      "sha256": "c90d296593d860e37974c1b69bd66927d0014b8132a60ddc63e3bbce16a01c3d"
+                    },
+                    {
+                      "file": "data/yearExclusive-2-value-3.json",
+                      "sha256": "0d93a46b9e71524a864fc0ce5e6fb33217b7daaa279a709ad8186bac819f83d1"
+                    },
+                    {
+                      "file": "data/yearExclusive-2-value-4.json",
+                      "sha256": "664949e63e0c835a38970dad91a971f77325f70ac757ee95e775401f1f13a492"
+                    },
+                    {
+                      "file": "data/yearExclusive-2-value-5.json",
+                      "sha256": "d08e06b07cd35e773e1d416faae674a2ad94af6cf210d6e0d4fc03020a31776f"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "hierarchies": {
+          "merge": [
+            {
+              "file": "data/hierarchies-1.json",
+              "sha256": "f4cfae0482e87635fb8534e0d10afd259c5ae756d3bdda4d4c09865b05711a03"
+            },
+            {
+              "fields": {
+                "modes": {
+                  "merge": [
+                    {
+                      "fields": {
+                        "shared": {
+                          "merge": [
+                            {
+                              "file": "data/hierarchies-2-value-1-value-1.json",
+                              "sha256": "b18cd13a69d54b789131986e5d039d361a79d8582eba4dae2833fa84b40e8c67"
+                            },
+                            {
+                              "file": "data/hierarchies-2-value-1-value-2.json",
+                              "sha256": "128b4109f1cd181ec4f852153ca91f1220b375f7d146d0ef6efab0a3391aa407"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "fields": {
+                        "topics": {
+                          "file": "data/hierarchies-2-value-2-value.json",
+                          "sha256": "264cdbad41001741c9a790daa548952511fe96798cc13e2cab615db99a4cfb50"
+                        }
+                      }
+                    },
+                    {
+                      "fields": {
+                        "distinct": {
+                          "merge": [
+                            {
+                              "file": "data/hierarchies-2-value-3-value-1.json",
+                              "sha256": "9d5a70c06f40d9b6fbf6a7d283c884021610d693d10aedcb8ee4e106f9a24933"
+                            },
+                            {
+                              "file": "data/hierarchies-2-value-3-value-2.json",
+                              "sha256": "379a04955a5b5450ec93ae87868203104bd5d8f99dd40f2fc2881f4501d2f3b4"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "fields": {
+                        "phrases": {
+                          "merge": [
+                            {
+                              "file": "data/hierarchies-2-value-4-value-1.json",
+                              "sha256": "ba3390b7c2530083244081021db7d6e02bbc2949c7db8a1f83cf0878a16eb7d6"
+                            },
+                            {
+                              "file": "data/hierarchies-2-value-4-value-2.json",
+                              "sha256": "33acfff869ce1736f99cd6febfe357bc8e578ed0815b767cc1bfbd07a1d26063"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "fields": {
+                        "raw": {
+                          "merge": [
+                            {
+                              "file": "data/hierarchies-2-value-5-value-1.json",
+                              "sha256": "94d118b2adbb89070e09494ed9ebb6ed5628a98305ae87dad70668c821b0f365"
+                            },
+                            {
+                              "file": "data/hierarchies-2-value-5-value-2.json",
+                              "sha256": "c9eeedafc3c9d29246eb926916af170c59710917a93c9b0e8cf009dd1f9aa70d"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "file": "data/hierarchies-3.json",
+              "sha256": "661338c306bc9b8c4b8060e204bcb9f8f667fb88f4eef6d0d38797a2f0d489e3"
+            }
+          ]
+        }
+      }
+    },
+    "quote-pool": {
+      "merge": [
+        {
+          "file": "data/quote-pool-1.json",
+          "sha256": "5019a35bc92e21f73bb6f0a1c3bca01241afafaba16956f6323a6d401a95d1b7"
+        },
+        {
+          "fields": {
+            "candidates": {
+              "concat": [
+                {
+                  "file": "data/quote-pool-2-value-1.json",
+                  "sha256": "60b5c0b98afc454b2653ceba312387a5d6377234c7c500f3ad26e510f507791d"
+                },
+                {
+                  "file": "data/quote-pool-2-value-2.json",
+                  "sha256": "0a2f02b1c38a54f955a18af64139b42b596405cec0165fea95010d1ea5fb0ee7"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "file": "data/quote-pool-3.json",
+          "sha256": "a3bc13696a22809efed08234f27ac53d64f3f0addc57b07d4162826dde64b9d0"
+        }
+      ]
+    }
+  },
+  "deferred": {
+    "words": [
+      "wordViews",
+      "cloudCounts",
+      "hierarchies",
+      "yearExclusive"
+    ],
+    "people": [
+      "peopleHistory"
+    ]
+  },
+  "postOrder": [
+    "24863",
+    "24843",
+    "24783",
+    "24691",
+    "24455",
+    "24429",
+    "24393",
+    "24351",
+    "24321",
+    "24263",
+    "24201",
+    "24079",
+    "24057",
+    "23981",
+    "23845",
+    "23741",
+    "23481",
+    "23509",
+    "23273",
+    "23261",
+    "23199",
+    "23177",
+    "23141",
+    "23009",
+    "22867",
+    "22801",
+    "22629",
+    "22123",
+    "21969",
+    "21891",
+    "21773",
+    "21699",
+    "21649",
+    "21509",
+    "21495",
+    "21395",
+    "21329",
+    "21235",
+    "21255",
+    "21151",
+    "21025",
+    "20845",
+    "20693",
+    "20674",
+    "20646",
+    "20620",
+    "20594",
+    "20557",
+    "20486",
+    "20506",
+    "20481",
+    "20216",
+    "7114",
+    "7099",
+    "7075",
+    "7042",
+    "7016",
+    "6961",
+    "6943",
+    "19893",
+    "6927",
+    "19892",
+    "6877",
+    "19891",
+    "19890",
+    "19889",
+    "19385",
+    "19375",
+    "19888",
+    "6794",
+    "19886",
+    "6755",
+    "19885",
+    "6729",
+    "19884",
+    "6662",
+    "6655",
+    "6651",
+    "19883",
+    "19882",
+    "19881",
+    "19115",
+    "19880",
+    "19879",
+    "19878",
+    "6520",
+    "19066",
+    "19036",
+    "19029",
+    "19877",
+    "18998",
+    "19876",
+    "6446",
+    "18968",
+    "18940",
+    "6431",
+    "18870",
+    "19875",
+    "19874",
+    "6358",
+    "6380",
+    "18600",
+    "18595",
+    "18576",
+    "6346",
+    "18569",
+    "6337",
+    "18542",
+    "18536",
+    "19872",
+    "18529",
+    "18526",
+    "18521",
+    "18498",
+    "18489",
+    "18486",
+    "18482",
+    "18479",
+    "18475",
+    "18470",
+    "18438",
+    "18440",
+    "18435",
+    "18432",
+    "18426",
+    "18421",
+    "18417",
+    "18412",
+    "18408",
+    "18378",
+    "18368",
+    "18365",
+    "19871",
+    "19870",
+    "6243",
+    "6217",
+    "6196",
+    "6198",
+    "6153",
+    "6091",
+    "6057",
+    "17816",
+    "6053",
+    "17798",
+    "6047",
+    "17786",
+    "6005",
+    "6001",
+    "5994",
+    "17754",
+    "19869",
+    "19868",
+    "17702",
+    "19867",
+    "17662",
+    "19866",
+    "19865",
+    "19864",
+    "19863",
+    "5881",
+    "5873",
+    "19862",
+    "17293",
+    "17290",
+    "19861",
+    "17258",
+    "17227",
+    "5804",
+    "17144",
+    "17111",
+    "17108",
+    "5781",
+    "17057",
+    "17052",
+    "5772",
+    "17035",
+    "17032",
+    "16994",
+    "16991",
+    "5760",
+    "19860",
+    "5569",
+    "5583",
+    "5549",
+    "16601",
+    "16480",
+    "5544",
+    "19858",
+    "5527",
+    "5513",
+    "16028",
+    "16030",
+    "15857",
+    "19857",
+    "19856",
+    "19855",
+    "5401",
+    "13188",
+    "13139",
+    "12199",
+    "12195",
+    "5386",
+    "11830",
+    "19854",
+    "11786",
+    "11785",
+    "19853",
+    "11737",
+    "11729",
+    "5355",
+    "19852",
+    "11673",
+    "11623",
+    "11570",
+    "11553",
+    "11543",
+    "19851",
+    "11450",
+    "11396",
+    "11277",
+    "11255",
+    "11248",
+    "11246",
+    "11134",
+    "11133",
+    "19850",
+    "10975",
+    "10885",
+    "10859",
+    "10857",
+    "10855",
+    "5184",
+    "10796",
+    "10788",
+    "10740",
+    "10728",
+    "10726",
+    "10698",
+    "5162",
+    "10644",
+    "10633",
+    "5140",
+    "10617",
+    "10589",
+    "10560",
+    "10554",
+    "10329",
+    "19849",
+    "10294",
+    "5111",
+    "5064",
+    "7527",
+    "5080",
+    "4934",
+    "4920",
+    "4903",
+    "19848",
+    "4825",
+    "4819",
+    "4809",
+    "19847",
+    "4747",
+    "7060",
+    "19846",
+    "4726",
+    "4714",
+    "6934",
+    "4698",
+    "19845",
+    "4456",
+    "4685",
+    "4647",
+    "19844",
+    "4574",
+    "4570",
+    "6595",
+    "19843",
+    "19842",
+    "6526",
+    "19841",
+    "19834",
+    "4508",
+    "4474",
+    "6221",
+    "4459",
+    "19838",
+    "4414",
+    "4388",
+    "4364",
+    "4259",
+    "4348",
+    "19840",
+    "19839",
+    "3351",
+    "19837",
+    "19836",
+    "19835",
+    "3889",
+    "3866",
+    "19832",
+    "3823",
+    "3788",
+    "19831",
+    "3798",
+    "3776",
+    "19830",
+    "19829",
+    "19828",
+    "19827",
+    "19826",
+    "3507",
+    "19825",
+    "19824",
+    "19823",
+    "19821",
+    "19822",
+    "19820",
+    "3393",
+    "19819",
+    "19818",
+    "19817",
+    "19816",
+    "19815",
+    "19814",
+    "19813",
+    "19812",
+    "19811",
+    "3206",
+    "19810",
+    "19809",
+    "3130",
+    "19807",
+    "19808",
+    "19806",
+    "3028",
+    "19805",
+    "19803",
+    "19802",
+    "19801",
+    "19800",
+    "2755",
+    "19799",
+    "19797",
+    "19796",
+    "2292",
+    "19793",
+    "19792",
+    "2313",
+    "2300",
+    "19790",
+    "19789",
+    "19788",
+    "19787",
+    "19786",
+    "19785",
+    "19784",
+    "19783",
+    "19782",
+    "2050",
+    "19781",
+    "19780",
+    "19779",
+    "19778",
+    "19777",
+    "1911",
+    "19776",
+    "19775",
+    "19771",
+    "19774",
+    "19770",
+    "19773",
+    "19769",
+    "19768",
+    "19766",
+    "19767",
+    "19765",
+    "19763",
+    "19762",
+    "19761",
+    "19760",
+    "19759",
+    "19758",
+    "19757",
+    "19756",
+    "19755",
+    "19754",
+    "19753",
+    "19752",
+    "19751",
+    "19750",
+    "19749",
+    "19748",
+    "19747",
+    "19746",
+    "19745",
+    "19744",
+    "19743",
+    "19742",
+    "19741",
+    "19739",
+    "19740",
+    "889",
+    "19738",
+    "19737",
+    "19736",
+    "19735",
+    "19733",
+    "19734",
+    "19732",
+    "19731",
+    "19730",
+    "19729",
+    "19728",
+    "19727",
+    "19726",
+    "19724",
+    "315",
+    "19725",
+    "19723",
+    "19722",
+    "19721"
+  ],
+  "scripts": [
+    {
+      "file": "assets/scripts/routes.js",
+      "integrity": "sha256-CJ5omfE4ni07aLdinCaUSJN98zuISc8S5POjc0PHTIo="
+    },
+    {
+      "file": "assets/scripts/search.js",
+      "integrity": "sha256-IAPKiUWUgxJlGM0uDtdj4sdpfNf8ZhGuhoFsBaXDHNQ="
+    },
+    {
+      "file": "assets/scripts/core.js",
+      "integrity": "sha256-CGwmFCqq6uG/11ToaHqZFUDpQY83X2q2HbuZ1+IvxJo="
+    },
+    {
+      "file": "assets/scripts/analysis-core.js",
+      "integrity": "sha256-k6/tY4YIFDLPZhRAQV93SZ64X5BEg2HECmSed0OE4ZY="
+    },
+    {
+      "file": "assets/scripts/exclusive.js",
+      "integrity": "sha256-kKQSVg920QLRZjyGXFUBsvEbVZ3eS7ltz0DiOFoY69U="
+    },
+    {
+      "file": "assets/scripts/cloud.js",
+      "integrity": "sha256-sk/6JeqfISdKt10S6ZjLnMeXrmz84P/Z27JBTbw9Elc="
+    },
+    {
+      "file": "assets/scripts/words.js",
+      "integrity": "sha256-yTyFY+WbwfcM1PjUJygqgz6bTj+UPV+19ammybKYPOM="
+    },
+    {
+      "file": "assets/scripts/analysis.js",
+      "integrity": "sha256-3D8lZnzpF7HF9vWiCfbHXceduWHRneoZFheWcvX5kuA="
+    },
+    {
+      "file": "assets/scripts/people.js",
+      "integrity": "sha256-ccXeFPZyblimZXrNl7YSQHC+KjAuwwUjMzmdvSI9YSE="
+    },
+    {
+      "file": "assets/scripts/interface.js",
+      "integrity": "sha256-AbpoE6QzkOPrCvD2cVKlirp5G7lGFDsjeIcKuvSTREI="
+    },
+    {
+      "file": "assets/scripts/quote-core.js",
+      "integrity": "sha256-n1v8LJaK+Nuxf9lMoPiC9hraUTy8Axm+4t7gGlKnV1E="
+    },
+    {
+      "file": "assets/scripts/quotes.js",
+      "integrity": "sha256-TrD62HSn1qefvbjCl3c2Vfq6Y7z5aecobQA9htilL2o="
+    }
+  ]
+}

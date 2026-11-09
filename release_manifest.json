@@ -1038,6 +1038,451 @@
       "source": "CHANGELOG.md",
       "destination": "CHANGELOG.md",
       "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/analysis-core.js",
+      "destination": "assets/scripts/analysis-core.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/analysis.js",
+      "destination": "assets/scripts/analysis.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/cloud.js",
+      "destination": "assets/scripts/cloud.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/core.js",
+      "destination": "assets/scripts/core.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/exclusive.js",
+      "destination": "assets/scripts/exclusive.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/interface.js",
+      "destination": "assets/scripts/interface.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/loader.js",
+      "destination": "assets/scripts/loader.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/people.js",
+      "destination": "assets/scripts/people.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/quote-core.js",
+      "destination": "assets/scripts/quote-core.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/quotes.js",
+      "destination": "assets/scripts/quotes.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/routes.js",
+      "destination": "assets/scripts/routes.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/search.js",
+      "destination": "assets/scripts/search.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/scripts/words.js",
+      "destination": "assets/scripts/words.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/styles/explorer.css",
+      "destination": "assets/styles/explorer.css",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-1.json",
+      "destination": "data/cloudCounts-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-2.json",
+      "destination": "data/cloudCounts-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-3.json",
+      "destination": "data/cloudCounts-3.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-4.json",
+      "destination": "data/cloudCounts-4.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-5.json",
+      "destination": "data/cloudCounts-5.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-6.json",
+      "destination": "data/cloudCounts-6.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-7.json",
+      "destination": "data/cloudCounts-7.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/cloudCounts-8.json",
+      "destination": "data/cloudCounts-8.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/design.json",
+      "destination": "data/design.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/groups.json",
+      "destination": "data/groups.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-1.json",
+      "destination": "data/hierarchies-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-1-value-1.json",
+      "destination": "data/hierarchies-2-value-1-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-1-value-2.json",
+      "destination": "data/hierarchies-2-value-1-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-2-value.json",
+      "destination": "data/hierarchies-2-value-2-value.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-3-value-1.json",
+      "destination": "data/hierarchies-2-value-3-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-3-value-2.json",
+      "destination": "data/hierarchies-2-value-3-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-4-value-1.json",
+      "destination": "data/hierarchies-2-value-4-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-4-value-2.json",
+      "destination": "data/hierarchies-2-value-4-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-5-value-1.json",
+      "destination": "data/hierarchies-2-value-5-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-2-value-5-value-2.json",
+      "destination": "data/hierarchies-2-value-5-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/hierarchies-3.json",
+      "destination": "data/hierarchies-3.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/keywordNames.json",
+      "destination": "data/keywordNames.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/limits.json",
+      "destination": "data/limits.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/manifest.json",
+      "destination": "data/manifest.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/model.json",
+      "destination": "data/model.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-1.json",
+      "destination": "data/peopleHistory-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-2-value-1.json",
+      "destination": "data/peopleHistory-2-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-2-value-2.json",
+      "destination": "data/peopleHistory-2-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-3-value-1.json",
+      "destination": "data/peopleHistory-3-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-3-value-2.json",
+      "destination": "data/peopleHistory-3-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-4.json",
+      "destination": "data/peopleHistory-4.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-5.json",
+      "destination": "data/peopleHistory-5.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2012-2013-1.json",
+      "destination": "data/posts-2012-2013-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2012-2013-2.json",
+      "destination": "data/posts-2012-2013-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2013-2014-1.json",
+      "destination": "data/posts-2013-2014-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2013-2014-2.json",
+      "destination": "data/posts-2013-2014-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2014-2015.json",
+      "destination": "data/posts-2014-2015.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2015-2016-1.json",
+      "destination": "data/posts-2015-2016-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2015-2016-2.json",
+      "destination": "data/posts-2015-2016-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2016-2017.json",
+      "destination": "data/posts-2016-2017.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2017-2018-1.json",
+      "destination": "data/posts-2017-2018-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2017-2018-2.json",
+      "destination": "data/posts-2017-2018-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2018-2019-1.json",
+      "destination": "data/posts-2018-2019-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2018-2019-2.json",
+      "destination": "data/posts-2018-2019-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2019-2020-1.json",
+      "destination": "data/posts-2019-2020-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2019-2020-2.json",
+      "destination": "data/posts-2019-2020-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2020-2021-1.json",
+      "destination": "data/posts-2020-2021-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2020-2021-2.json",
+      "destination": "data/posts-2020-2021-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2021-2022-1.json",
+      "destination": "data/posts-2021-2022-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2021-2022-2.json",
+      "destination": "data/posts-2021-2022-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2022-2023-1.json",
+      "destination": "data/posts-2022-2023-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2022-2023-2.json",
+      "destination": "data/posts-2022-2023-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2023-2024.json",
+      "destination": "data/posts-2023-2024.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2024-2025-1.json",
+      "destination": "data/posts-2024-2025-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2024-2025-2.json",
+      "destination": "data/posts-2024-2025-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2025-2026-1.json",
+      "destination": "data/posts-2025-2026-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2025-2026-2.json",
+      "destination": "data/posts-2025-2026-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/posts-2026-2027.json",
+      "destination": "data/posts-2026-2027.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-1.json",
+      "destination": "data/quote-pool-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-2-value-1.json",
+      "destination": "data/quote-pool-2-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-2-value-2.json",
+      "destination": "data/quote-pool-2-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-3.json",
+      "destination": "data/quote-pool-3.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/snapshot.json",
+      "destination": "data/snapshot.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/topics.json",
+      "destination": "data/topics.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/wordViews-1.json",
+      "destination": "data/wordViews-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/wordViews-2-value-1.json",
+      "destination": "data/wordViews-2-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/wordViews-2-value-2.json",
+      "destination": "data/wordViews-2-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/wordViews-3.json",
+      "destination": "data/wordViews-3.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-1.json",
+      "destination": "data/yearExclusive-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-1.json",
+      "destination": "data/yearExclusive-2-value-1.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-2.json",
+      "destination": "data/yearExclusive-2-value-2.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-3.json",
+      "destination": "data/yearExclusive-2-value-3.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-4.json",
+      "destination": "data/yearExclusive-2-value-4.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-5.json",
+      "destination": "data/yearExclusive-2-value-5.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/modular_methods.md",
+      "destination": "methods/modular_methods.md",
+      "treatment": "copy"
     }
   ],
   "redirects": {

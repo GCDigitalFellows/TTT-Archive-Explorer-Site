@@ -1,0 +1,627 @@
+[
+  {
+    "id": "19765",
+    "title": "Linking Outside the Box (Linked Data for the Uninitiated, Part 2)",
+    "date": "2013-10-21",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A. L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed export metadata credit",
+    "creditQuote": "item_author: A. L. McMichael",
+    "tags": [
+      "data",
+      "Linked Data",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/21/linking-outside-the-box/",
+    "signals": [],
+    "paragraphs": [
+      "My last post, \"Linked Data for the Uninitiated,\" was designed to introduce the concept of Linked Data, a philosophy that constructs information to be readable and useful for both machines and humans on the internet.* As a follow up, I had intended to write a review of good Linked Data and RDF-related plugins but quickly realized the futility of such an exercise--plugins are constantly being updated (or becoming outdated); the needs of individual projects and users differ too greatly for me to have concrete advice; and my own expertise lies outside that area. I've touched on plug-ins here, but am focusing instead on openness and general suggestions for incorporating Linked Data principles into projects using an out-of-the-box CMS (content management system). At the end, you'll find a link to a Zotero bibliography collected in the GC Digital Fellows group geared toward a more technical introduction to Linked Data. (If you have favorite…"
+    ],
+    "fullParagraphs": [
+      "My last post, \"Linked Data for the Uninitiated,\" was designed to introduce the concept of Linked Data, a philosophy that constructs information to be readable and useful for both machines and humans on the internet.* As a follow up, I had intended to write a review of good Linked Data and RDF-related plugins but quickly realized the futility of such an exercise--plugins are constantly being updated (or becoming outdated); the needs of individual projects and users differ too greatly for me to have concrete advice; and my own expertise lies outside that area. I've touched on plug-ins here, but am focusing instead on openness and general suggestions for incorporating Linked Data principles into projects using an out-of-the-box CMS (content management system). At the end, you'll find a link to a Zotero bibliography collected in the GC Digital Fellows group geared toward a more technical introduction to Linked Data. (If you have favorite plug-ins, tools, or CMS advice, please weigh in with a comment).",
+      "Collecting, sharing, and attributing data The biggest stumbling block to widespread Linked Data is insufficient digital literacy. W3C’s recent Working Group Document, “Publishing and Linking on the Web,” is evidence of the disconnect between internet use and digital literacy, and ongoing efforts to educate the public. Developers and large institutions will have more complex methods, but I want to emphasize the importance of small-scale or entry-level applications of Linked Data.",
+      "As the five-star data model indicates, putting data on the web in an open, machine-readable, non-proprietary format can go a long way toward being a part of the Linked Data cloud. Data presented as a table or text (rather than in a flat image or PDF) is machine readable, searchable, and more useful. Likewise, even in a printed or PDF version, including a permanent URL for the online version is helpful. It's best to explicitly note how your data was collected, what your policy is for letting others use the data, and a suggested citation so that users will be able to assess your collection methods and reliability of the data provided. A Creative Commons license can be specified for an entire website or a specific kind of data. Leigh Dodds' Lost Boy blog has some information about attribution and citation of data. And to cover all sides of the issue, Melanie Conroy's \"Linked Data for Individual Use\" series on the HASTAC blog touches on the issue of data quality and when you might not want to use Linked Data.",
+      "Creating manual hyperlinks to a stable URLs is another simple way to promote Linked Data on any kind of site. Classics librarian Phoebe Acheson has created a practical primer on best practices for linking bibliographic data. She is also the collector of hundreds of bibliographic entries in her Ancient World Open Bibliographies project that includes a blog, wiki site, and public Zotero library. The project pulls together bibliographic data about the ancient world that is openly available on the web and organizes it. Most importantly, entries link to a permanent URI. WorldCat provides a permanent URL for almost any book or publication. Zotero data can easily be shared and offers lots of categories for recording metadata about each item.",
+      "Metadata Metadata is a set of data that gives information about a particular item (a photo or document, for example). A digital camera may record the date and time a photo is taken or the GPS coordinates of the photo’s location. The geographic information could be mapped or contributed to Open Street Map. These pieces of information associated with each photo are the item’s metadata. EXIF data is a kind of metadata recorded by digital cameras. When you open a photo in certain sites (like EXIFdata.com) or software (such as Picasa or Adobe Lightroom).",
+      "Using keywords in the \"tags\" feature of a blog post, photograph, or document is another way to add metadata to files to make them more easily searchable. Some sites, including Flickr, also allow machine-readable tags. Pleiades is an example of a site that utilizes machine tags from Flickr users who would like to participate. Participants can create a machine tag on one of their Flickr photos that corresponds to an ancient site that is mapped in Pleiades. The the Pleiades entry for that ancient location can automatically call up the machine-tagged photo to be displayed alongside the rest of the location data. Tom Elliot has written a post explaining how users can link their Flickr photos to ancient world sites. This is a model that could be used in many other kinds of projects, as explained in the Flickr API forum.",
+      "Libraries are often keepers and innovators of metadata. For instance, the Library of Congress records metadata for every object in its collection, displayed in a list, as it does for this photo of Ortahisar, Cappadocia. It also keeps a MARC (machine-readable) record, viewable through a link at the bottom of the record. Museums keep similar records, and any researcher can record similar data. The Dublin Core element set is a list of categories that can be used in conjunction with any item (i.e. a book in a library, or a sculpture in a museum). It is important to denote clearly what you are describing: e.g. the Pantheon in Rome or a photograph of the Pantheon taken last summer. (There can be separate metadata for each). Ideally, each metadata element (in Dublin Core or any other element set) will be completed with a description from a controlled vocabulary, (a pre-determined, widely accepted set of terms). Art historians often look to Getty Vocabularies, and Schema.org is a hub for exploring other options. Useful reflections on interpreting these categories can be found on Lee Ann Ghajar's blog.",
+      "Content Management Systems Although there’s no simple Linked Data solution for using an out-of-the-box Content Management System (CMS), there are some tweaks and hacks available. Here are a few examples:",
+      "Omeka, designed with the organization and display of collections in mind, uses Dublin Core to describe items in collections. (There’s hope for an Omeka Linked Open Data plugin as well).",
+      "Drupal developers are working on ways to integrate Linked Open Data into a site. (See also Joachim Neubert’s work on Linked Data for special collections).",
+      "WordPress has a number of linked data plugins available, including ISAW’s Ancient World Linked Data for WordPress, which creates a javascript pop-up when you roll over a link. (Click here for examples). There are also RDF and RDFa plugins available. You can also tweak Permalink Settings so that posts and pages have a cleaner, custom URL (without the default question marks and numbers).",
+      "considering longevity Longevity is a crucial aspect of Linked Data that should be considered from the outset of any project. Encouraging others to use your data is a signal that you intended for it to remain available. It is important to decide who will be paying for server access and whether those funds will be available for the foreseeable future. Many academic institutions have repositories that can archive work indefinitely, often hosted by a library or media lab.",
+      "\"Link rot\" is a problem; it's a nickname for hyperlinks that call up an error message because the original resource has disappeared. Last week, thousands of researchers temporarily lost access to their data while the US Federal Government and its affiliated websites were shut down. While this is not entirely avoidable, it underscores the importance of permanent URIs that allow us to link to reliable data sets that are likely to remain relevant.",
+      "conclusions Linked Data is accomplished through the structure of data as it is put on the web--through constructing clean URIs when building websites; using tools like plug-ins; and even manually adding hyperlinks to a permanent reference. It helps to do the best you can to incorporate Linked Data principles in the planning of the project, from the beginning. Thoughtfully upload data to make sure it can be exported in useful formats. But I'd like to stress that attempting perfection can cripple a project, particularly one with a limited budget and small group. Barriers to entry can be overcome through collaboration, through institutions like LAWDI or THATCamp, in graduate education and supplementary workshops, and by promoting open access whenever possible.",
+      "further reading More resources for learning about Linked Data are in the GC Digital Fellows Linked Data folder in the new, public Zotero group.",
+      "*This essay is cross-posted on Documenting Cappadocia, a project in the GC New Media Lab, with thanks for the time I was able to spend researching Linked Data."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.5692796380990719,
+      0.04684204202571832,
+      0.00023967649889771969,
+      0.005913842228093544,
+      0.05255394730332788,
+      0.15523240422803,
+      0.10798921278074695,
+      0.061949236836113676
+    ],
+    "words": [
+      [
+        "data",
+        42
+      ],
+      [
+        "link",
+        16
+      ],
+      [
+        "linked",
+        12
+      ],
+      [
+        "metadata",
+        10
+      ],
+      [
+        "photo",
+        9
+      ],
+      [
+        "machine",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "19763",
+    "title": "Tool refresh: a crash course",
+    "date": "2013-10-14",
+    "year": "2013–2014",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/14/tool-refresh-a-crash-course/",
+    "signals": [],
+    "paragraphs": [
+      "It's one thing to start playing around with the tools and methods associated with the Digital Humanities, it's quite another to get a grip on the best digital practices to help you organize your research and pedagogy. Even if you prefer to approach your academic tasks with nothing more savvy than a good old fashion book and thinking cap, the ability to stay afloat in today's info deluge all but requires some software know how past your basic word processor.",
+      "But figuring out what tools to use and invest time in can be a daunting task. Spending an afternoon importing citations into Zotero and then never using the program again can make one less eager to experiment with new software. And while there is a wealth of academic blog posts and articles (Prof Hacker, for example) that spotlight various methods, no amount of praise can guarantee that any method will be useful for your own workflow. Even furthermore, it's nearly impossible to keep…"
+    ],
+    "fullParagraphs": [
+      "It's one thing to start playing around with the tools and methods associated with the Digital Humanities, it's quite another to get a grip on the best digital practices to help you organize your research and pedagogy. Even if you prefer to approach your academic tasks with nothing more savvy than a good old fashion book and thinking cap, the ability to stay afloat in today's info deluge all but requires some software know how past your basic word processor.",
+      "But figuring out what tools to use and invest time in can be a daunting task. Spending an afternoon importing citations into Zotero and then never using the program again can make one less eager to experiment with new software. And while there is a wealth of academic blog posts and articles (Prof Hacker, for example) that spotlight various methods, no amount of praise can guarantee that any method will be useful for your own workflow. Even furthermore, it's nearly impossible to keep up with new tools and new updates. More often than not, time gone into researching or integrating tools often feels like time wasted on primary research. And so, we often inherit practices haphazardly. Someone sends you a Dropbox invite to share a file, and then, voila, you're a Dropbox user. Then, a few months later, you run out of room. No one told you that other cloud storage services have 10 GB of free space instead of 2 GB.",
+      "This Wednesday, Keith and I will be running the first of a two-part crash course through digital tools that we think are of use for research and pedagogy. Not only will we be covering tools that specifically cater to academic needs, such as citation managers, annotators and notetakers, but also tools and practices that might make life easier in general, like password managers, task managers, forms, and data back up plans. Our aim is to show you not only what sort of tools we think are most applicable but also what features to look for so that you can quickly judge what might work best for you. Characteristics we will consider are cost, security, compatibility and exportability.",
+      "We'll be adding info to the tools wiki on the CUNY Academic Commons. If you don't have a Commons membership, Graduate Center students and faculty can sign up here. Feel free to add to the the wiki, or add questions, tips or specific tech problems below.",
+      "If you would like to attend the workshop, please RSVP for either our first or second workshop at Eventbrite. For more information, contact gc.digitalfellows@gmail.com or see our Events page for a full list of workshops."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0009076642856373802,
+      0.005735230532811381,
+      0.0007950101828240753,
+      0.00030784867061403,
+      0.05847147768713117,
+      0.5293893150710313,
+      0.05892076620072976,
+      0.3454726873692209
+    ],
+    "words": [
+      [
+        "tool",
+        9
+      ],
+      [
+        "research",
+        4
+      ],
+      [
+        "academic",
+        4
+      ],
+      [
+        "method",
+        3
+      ],
+      [
+        "digital",
+        3
+      ],
+      [
+        "practice",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19762",
+    "title": "What's in it for me?",
+    "date": "2013-10-13",
+    "year": "2013–2014",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "collaboration",
+      "Interactive Technology and Pedagogy",
+      "philosophy",
+      "Reflections",
+      "teaching",
+      "technology",
+      "tools"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/13/whats-in-it-for-me/",
+    "signals": [
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Just over a year ago, I set out to create a wiki for philosophers – an online, collaborative resource that would help graduate teaching fellows and adjuncts create lesson plans around topics they have never taught before. I named the wiki Enlightened Educators, and hoped it would be a space for educators with varying levels of experience to come together and offer each other suggestions for overcoming many of the obstacles that we all face when trying to determine the most effective ways to teach our students. The process of getting my wiki up and running was pretty challenging; I encountered numerous logistical and technical problems that were, at times, extremely discouraging and made me want to abandon the entire project. Yet, despite the developmental hurdles, the problem I encountered that left me the most dispirited involved the way that some of my fellow colleagues wanted to use the wiki: as a way to get credit for creating…"
+    ],
+    "fullParagraphs": [
+      "Just over a year ago, I set out to create a wiki for philosophers – an online, collaborative resource that would help graduate teaching fellows and adjuncts create lesson plans around topics they have never taught before. I named the wiki Enlightened Educators, and hoped it would be a space for educators with varying levels of experience to come together and offer each other suggestions for overcoming many of the obstacles that we all face when trying to determine the most effective ways to teach our students. The process of getting my wiki up and running was pretty challenging; I encountered numerous logistical and technical problems that were, at times, extremely discouraging and made me want to abandon the entire project. Yet, despite the developmental hurdles, the problem I encountered that left me the most dispirited involved the way that some of my fellow colleagues wanted to use the wiki: as a way to get credit for creating certain lesson plans.",
+      "My goal for Enlightened Educators is for it to be a collaborative database that contains creative approaches for teaching specific topics to students. When I invited other students in my department to contribute to the wiki, I had gone to great lengths to explain why the collaborative nature of the wiki was essential to its success. The structure of a wiki precludes giving formal credit for contributions; instead, it encourages users to engage with one another over the best way to represent a certain topic or idea irrespective of a particular viewpoint. I want Enlightened Educators to offer some of the best strategies for teaching specific lessons to students, and I believe that a collaborative approach to lesson planning will yield these strategies. Unfortunately, this kind of approach is in tension with how graduate students are taught to compose and present research (and, consequently, the way we teach): a focus on credit, praise, recognition, etc., leaves many of us weary of collaboration.",
+      "A few of my fellow colleagues seemed very interested in contributing to the wiki, mentioning that they had crafted some excellent exercises for specific topics. Yet, they also inquired about what kind of credit they would receive if others used their exercises. Granted, we are all at the beginnings of our careers and receiving credit for our projects and endeavors is an important part of establishing ourselves as scholars. Even still, I was really taken back by how pervasive this need for recognition can be, and perplexed about how we can try and move beyond it.",
+      "Academia is becoming increasingly more collaborative – especially with the recent surge in digital humanities partnerships – and this is a good thing. Collaboration doesn’t preclude the assignment of credit for work done. Rather, it has the potential to increase the profile of the projects that we work on and the potential to improve how we begin and sustain our own scholarly pursuits. We stand to gain much more when we collaborate with others – not only because of the potential significance that collaborative projects may achieve, but also because of how our own interests and approaches are shaped and reshaped by our interactions with others, and this substantially affects our growth as scholars."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007895201334046182,
+      0.000789915723014485,
+      0.000691529407440028,
+      0.012864181132868593,
+      0.0004750530031844481,
+      0.35971128024533866,
+      0.0008658608523050424,
+      0.6238126595024441
+    ],
+    "words": [
+      [
+        "wiki",
+        8
+      ],
+      [
+        "collaborative",
+        6
+      ],
+      [
+        "teach",
+        6
+      ],
+      [
+        "credit",
+        6
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "student",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19761",
+    "title": "3D Printing in the Lab",
+    "date": "2013-10-08",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "Announcements"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/",
+    "signals": [],
+    "paragraphs": [
+      "With a library, colorful furniture, decorations, and a Makerbot Replicator 2, the GC Digital Scholarship Lab has become a hub of digital scholarship and maker culture. GC Digital Fellow Keith Miyake's 3D rendering of the CUNY Academic Commons logo is the most recent creation.",
+      "Other photos:"
+    ],
+    "fullParagraphs": [
+      "With a library, colorful furniture, decorations, and a Makerbot Replicator 2, the GC Digital Scholarship Lab has become a hub of digital scholarship and maker culture. GC Digital Fellow Keith Miyake's 3D rendering of the CUNY Academic Commons logo is the most recent creation.",
+      "Other photos:"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": [],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908201620/http://digitalfellows.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/"
+  },
+  {
+    "id": "19760",
+    "title": "Upcoming Workshop: Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)”",
+    "date": "2013-10-03",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "cloud storage",
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Please join us for our second workshop of the Fall 2013 term:",
+      "Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)” Wednesday, Oct. 16, 6:30-8:30 pm, Room C196.03 This workshop will introduce digital storage, citation, and note taking tools with a focus on the best ways to organize and back up your research. We will cover a range of tools including Zotero, Evernote, Drop Box, and Google Drive.",
+      "The workshop will be hosted by Erin Glass and Keith Miyake.",
+      "If you would like to attend the workshop, please click here to RSVP at Eventbrite. For more information, contact gc.digitalfellows@gmail.com or see our Events page for a full list of workshops."
+    ],
+    "fullParagraphs": [
+      "Please join us for our second workshop of the Fall 2013 term:",
+      "Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)” Wednesday, Oct. 16, 6:30-8:30 pm, Room C196.03 This workshop will introduce digital storage, citation, and note taking tools with a focus on the best ways to organize and back up your research. We will cover a range of tools including Zotero, Evernote, Drop Box, and Google Drive.",
+      "The workshop will be hosted by Erin Glass and Keith Miyake.",
+      "If you would like to attend the workshop, please click here to RSVP at Eventbrite. For more information, contact gc.digitalfellows@gmail.com or see our Events page for a full list of workshops."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0030248535348550427,
+      0.0030263691398144717,
+      0.002649426004541389,
+      0.0010259268258565105,
+      0.0018200495403827232,
+      0.26816496399158013,
+      0.03549069491683289,
+      0.6847977160461368
+    ],
+    "words": [
+      [
+        "workshop",
+        5
+      ],
+      [
+        "please",
+        2
+      ],
+      [
+        "storage",
+        2
+      ],
+      [
+        "citation",
+        2
+      ],
+      [
+        "tool",
+        2
+      ],
+      [
+        "join",
+        1
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20141018224758/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/"
+  },
+  {
+    "id": "19759",
+    "title": "3D Printing and Maker Culture",
+    "date": "2013-10-01",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "3D printer",
+      "Art",
+      "Digital Humanities",
+      "digital technology",
+      "maker culture",
+      "Reflections",
+      "technology"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/01/3d-printing-and-maker-culture/",
+    "signals": [],
+    "paragraphs": [
+      "The Digital Fellows program recently acquired a 3D printer. For those unfamiliar with the technology, think of a typical ink jet printer, but instead of printing with ink, they put out melted plastic. And instead of printing on a single sheet of printer, imagine printing hundreds of layers of paper, with each representing one sliver of an object, and then imagine away the paper, and what you're left with is a solid plastic object printed one layer at a time. Here is a this time-lapse video of a 3D printer in action:",
+      "So why a 3D printer? Before addressing that question directly, indulge my long anecdotal interlude.",
+      "When I was in high school back in the 1990s, I was involved in what would later came to be known as the \"Los Altos Academy of Engineering\" (not to be confused with the school in Los Altos, CA). It was an extracurricular program funded almost exclusively through donation drives, candy bar sales, and prize money from design…"
+    ],
+    "fullParagraphs": [
+      "The Digital Fellows program recently acquired a 3D printer. For those unfamiliar with the technology, think of a typical ink jet printer, but instead of printing with ink, they put out melted plastic. And instead of printing on a single sheet of printer, imagine printing hundreds of layers of paper, with each representing one sliver of an object, and then imagine away the paper, and what you're left with is a solid plastic object printed one layer at a time. Here is a this time-lapse video of a 3D printer in action:",
+      "So why a 3D printer? Before addressing that question directly, indulge my long anecdotal interlude.",
+      "When I was in high school back in the 1990s, I was involved in what would later came to be known as the \"Los Altos Academy of Engineering\" (not to be confused with the school in Los Altos, CA). It was an extracurricular program funded almost exclusively through donation drives, candy bar sales, and prize money from design competitions. Under the tutelage of an overly ambitious (and overcommitted) computer science teacher and a handful of local professional engineers, we designed and built cool stuff like a human powered airplane, solar/electric powered vehicles, and computer-controlled battery cycling systems. All but the most complicated parts were fabricated by students. Since the shop classes at our school had long ago been defunded and dismantled in favor of other sorts of occupational prep classes, students took it upon themselves to teach each other how to do just about everything, from machining and welding, to working with composite materials, to acid etching circuit boards, to designing with CAD software, to writing funding proposals. It was transformative and empowering to discover we had the ability to follow through on our ideas all the way from design to racetrack. Furthermore, it was a space where students worked together to teach and learn in the process of making stuff.",
+      "This last point gets back to the question of why a 3D printer. The way I see things, it is one piece in moving the Digital Fellows program in the direction of fostering a \"maker culture\" within the GC. That is, a culture of designing, building, tinkering, repurposing, and hacking (by which I mean modifying someone else's already existing thing). 3D printers make it pretty easy to create tangible objects either from an original design or by downloading and modifying someone else's design files from the Internet. Although the types of things one can make with the type of 3D printer that the Digital Fellows acquired are limited to solid pieces made from a couple different types of plastic, it opens up the possibilities for making components for more complex assemblies, like the chassis and propellor for a homemade drone radio controlled helicopter. While there are plenty of silly things that people make with 3D printers, like figurines of their favorite comic book characters, there are also fantastic possibilities for quickly manufacturing other things like complex geometric shapes or artistic designs.",
+      "Similar to the high school program I described before, building a maker culture within the GC is an experiment in giving academics a space and a set of tools to learn, teach, and grow, and to see what sorts of wacky things we can come up with as a community that is immediately and necessarily connected to other digital communities via the Internet. And more than an end unto itself, I take the 3D printer to be part of the machinery that facilitates these communities of sharing and collaborative learning that make the world of Digital Humanities a powerful onto-epistemological framework for engaging with scholarship. And while the 3D printer is obviously quite limited in what it can actually produce or what sort of community or culture it can actually foster, the point is that it's one more tool in the DH repertoire that opens possibilities for exploration and creativity in the otherwise staid ways of academia. And what do you know, nearly 15 years after I graduated, the engineering group at my alma mater recently raised the funds for their own 3D printer."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0039317645180099526,
+      0.05688358872173063,
+      0.06673444979844051,
+      0.03330575642169692,
+      0.023540720579267517,
+      0.6144692074914816,
+      0.007301405335964685,
+      0.19383310713340812
+    ],
+    "words": [
+      [
+        "printer",
+        12
+      ],
+      [
+        "design",
+        8
+      ],
+      [
+        "thing",
+        6
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "program",
+        4
+      ],
+      [
+        "print",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150309070729/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/01/3d-printing-and-maker-culture/"
+  },
+  {
+    "id": "19758",
+    "title": "Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities",
+    "date": "2013-09-30",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/1452/",
+    "signals": [
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Please join us for our first workshop of the Fall 2013 term:",
+      "Social Media and Academia: Creating Digital Research Communities. Thursday, October 10 2013 – 6:30-8:30pm; Room C196.02",
+      "This workshop will introduce various aspects of social media as solutions or initiatives for creating communities around research. We’ll explore how to use the CUNY Commons, WordPress, and Twitter to find or create online research communities across CUNY and other universities. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please click here to RSVP at Eventbrite.",
+      "For more information, contact gc.digitalfellows@gmail.com."
+    ],
+    "fullParagraphs": [
+      "Please join us for our first workshop of the Fall 2013 term:",
+      "Social Media and Academia: Creating Digital Research Communities. Thursday, October 10 2013 – 6:30-8:30pm; Room C196.02",
+      "This workshop will introduce various aspects of social media as solutions or initiatives for creating communities around research. We’ll explore how to use the CUNY Commons, WordPress, and Twitter to find or create online research communities across CUNY and other universities. The workshop will be hosted by Andrew G. McKinney and Laura Kane.",
+      "If you would like to attend the workshop, please click here to RSVP at Eventbrite.",
+      "For more information, contact gc.digitalfellows@gmail.com."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.003408695722765538,
+      0.0034104036521191675,
+      0.0029856278941772993,
+      0.0011561129631141296,
+      0.02017902442320302,
+      0.012145775973443122,
+      0.05812234417569514,
+      0.8985920151954825
+    ],
+    "words": [
+      [
+        "workshop",
+        4
+      ],
+      [
+        "research",
+        3
+      ],
+      [
+        "community",
+        3
+      ],
+      [
+        "please",
+        2
+      ],
+      [
+        "social",
+        2
+      ],
+      [
+        "medium",
+        2
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20131025010825/http://digitalfellows.commons.gc.cuny.edu/2013/09/30/1452/"
+  },
+  {
+    "id": "19757",
+    "title": "Reflections on a New Academic Year",
+    "date": "2013-09-30",
+    "year": "2013–2014",
+    "authors": [
+      "Andrew G McKinney",
+      "Erin Glass",
+      "Laura Kane",
+      "Micki Kaufman",
+      "Keith Miyake",
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney",
+      "Erin Glass",
+      "Laura Kane",
+      "Micki Kaufman",
+      "Keith Miyake",
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "Andrew G McKinney",
+      "Erin Glass",
+      "Laura Kane",
+      "Laura Wildemann Kane",
+      "Micki Kaufman",
+      "Keith Miyake",
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "Here's what the group members shared. | Andrew McKinney : After one year as a Digital Fellow | Micki Kaufman : After a semester among the Digital Fellows | Keith Miyake : As a new addition | A.L. McMichael : At first it felt | Erin Glass : Fellowship activities | Laura Kane : This past year",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/reflections-on-a-new-academic-year/",
+    "signals": [],
+    "paragraphs": [
+      "At the start of this semester, the GC Digital Fellows took stock and reflected on our aspirations surrounding digital scholarship and pedagogy. Here's what the group members shared.",
+      "Andrew McKinney: After one year as a Digital Fellow my skills with certain tools (specifically Wordpress and the CUNY Academic Commons) have greatly increased, but this year I'm looking to expand those skills and start exploring new things like Omeka, Commons in a Box, and various visualization tools. My specific role consulting with faculty in the New Media Lab persists and has really taken off in the first month of semester. My major goal for this year is to leverage this activity towards building a vibrant community of practice amongst Grad Center faculty that pushes the Grad Center towards the forefront of digital scholarship.",
+      "Erin Glass: Fellowship activities this year have already been action packed, some of them unexpected outgrowths of projects and…"
+    ],
+    "fullParagraphs": [
+      "At the start of this semester, the GC Digital Fellows took stock and reflected on our aspirations surrounding digital scholarship and pedagogy. Here's what the group members shared.",
+      "Andrew McKinney: After one year as a Digital Fellow my skills with certain tools (specifically Wordpress and the CUNY Academic Commons) have greatly increased, but this year I'm looking to expand those skills and start exploring new things like Omeka, Commons in a Box, and various visualization tools. My specific role consulting with faculty in the New Media Lab persists and has really taken off in the first month of semester. My major goal for this year is to leverage this activity towards building a vibrant community of practice amongst Grad Center faculty that pushes the Grad Center towards the forefront of digital scholarship.",
+      "Erin Glass: Fellowship activities this year have already been action packed, some of them unexpected outgrowths of projects and ideas from last year. Late August and early September were mostly a blur as Social Media Fellow Jennifer Stoops and I tried our hand at grant writing for the National Endowment of Humanities Digital Start Up Grant. Neither of us had any much experience with this sort of writing, so we pretty much lived in the Digital Lab for about two weeks trying to figure out how to turn our many drafts into a no-nonsense proposal for a software project idea that came out of the ITP Core Course we took together last fall. We looked often to the jackalope for guidance and inspiration. Matt Gold was also a tremendous help in walking us through all the nitty gritties, such as creating a budget and connecting us to people who could write letters of support, not to mention reeling in some of our utopian promises. By the end of the writing marathon, Jennifer and I had not only completed our first grant (and on time!), but had soaked in enough grant speak to talk about celebratory drinks in terms of innovative statements, work plans, tech specs and environmental scans.",
+      "Now that the grant is in -- and more on that soon -- my attention turns to the Islamic History Commons site which came out of discussions last year for a peer review project with then Provost, now Interim President Chase F. Robinson. Plans to publish selected chapters from Dr. Robinson's forthcoming book on CommentPress -- a WordPress theme that allows paragraph by paragraph commenting in the margins and has been used for pre-publication peer review by scholars such as Kathleen Fitzpatrick -- turned into a much larger, collaborative project. The Islamic History Commons, a social networking site that utilizes CommentPress, will host working papers of any interested scholar working in the field of Islamic History so that scholars can see and comment on one another's work while still in progress. The site runs off of CBOX, the open source, social platform developed by CUNY to enable any organization or institution to set up a social platform like the CUNY Academic Commons for free. Aside from the many other activities I'll be involved in as a digital fellow this year, I'm excited to play a part in the community building, software development and scholarly innovation inherent in these social software endeavors.",
+      "Laura Kane: This past year I've become more knowledgable of project management, website design, coding, and skill sharing through my work on various digital fellows projects. My goals for this year involve putting those skills to use in a much more collaborative way. I would like to work together with the other digital fellows to develop and implement a new digital tool that could be used to enhance the way we research, the way we teach, or the way we think about technology at the Graduate Center. Being given the chance to make something useful for future scholars is an important part of how we can leave our digital footprint at the Graduate Center. Further, being able to share what we have learned with the Graduate Center community helps to promote a culture that welcomes digital technology as an integral part of teaching and learning.",
+      "Micki Kaufman: After a semester among the Digital Fellows, my goals for the fellowship have crystallized - most of all, I hope to enhance my understanding of digital humanities by continuing to lead workshops in research approaches and methods for text analysis and visualization. In addition to project management of the exciting DH Debates online collaboration and commenting platform, I hope to participate in a number of other exciting student and faculty projects as a team member and project manager. In addition, I hope to build a sizable pool of resources for future digital humanities projects at the GC.",
+      "Keith Miyake: As a new addition to the Digital Fellows team for this year, everything is still new and shiny and reason for excitement. So I'm generally looking forward to contributing to the GC's digital initiatives and further developing my techie skill set and DH repertoire. First among these is working with the Committee on Globalization and Social Change to set up a customized CBOX network for an international collaboration and knowledge sharing program. In addition to the academic organizing ends of this project, this is an opportunity to develop a site whose functionality will push my existing web administration, deployment, and hacking capabilities. Directly related to this, I'm also looking to sharpen my Wordpress plugin development skills by contributing to the existing CBOX platform and helping with a proposed social platform for grad students to share works in progress, dubbed the Social Paper. Finally, I'm both excited and slightly skeptical about figuring out some fun/educational/creative projects to put a recently acquired 3D printer to use. As a luddite who grew up in wood and machine shops, it'll be a challenge for me to figure out how the printer can become a meaningful addition for my own work related to the digital humanities.",
+      "A.L. McMichael: At first it felt as though writings about digital humanities were chock-full of jargon describing an endless stream of new tools. Last year I began thinking about digital literacy, particularly in terms of understanding how the internet works and how that knowledge can be useful for scholarship. In the coming months I hope to promote digital literacy, a deeper knowledge of how tools work, by translating technical concepts into plain language through contributing to the Commons wiki, attending and leading workshops, and writing here on the blog. This year I also hope to be a little more fearless in trying out new tools and software, by taking the Makerbot 3D printer for a spin and conquering my fear of GitHub once and for all."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.004127096227398377,
+      0.01355833161997677,
+      0.00031065314953217064,
+      0.00012029299897244553,
+      0.00021340627028470005,
+      0.2973989734182113,
+      0.01925108277420227,
+      0.6650201635414219
+    ],
+    "words": [
+      [
+        "digital",
+        21
+      ],
+      [
+        "year",
+        12
+      ],
+      [
+        "project",
+        12
+      ],
+      [
+        "work",
+        11
+      ],
+      [
+        "social",
+        8
+      ],
+      [
+        "new",
+        7
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "24455",
+    "title": "Using Omeka",
+    "date": "2026-05-19",
+    "year": "2025–2026",
+    "authors": [
+      "Christopher Colon"
+    ],
+    "originalAuthors": [
+      "Christopher Colon"
+    ],
+    "aliases": [
+      "Christopher Colon"
+    ],
+    "account": "Christopher Colon",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Omeka",
+      "Uncategorized"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/05/19/using-omeka/",
+    "signals": [],
+    "paragraphs": [
+      "Omeka is an open-source publishing platform used for libraries, archives, and museums. It can be used to showcase digital collections: cultural heritage and online exhibitions. It can also be used to build a community photograph collection like The Bushwick Archive. I teach the free version in and out of academia and emphasize the importance of being in control of what we want to curate. As such, 3 Omeka tools share similar names, serving different intended audiences. You can start your digital curation journey with Omeka.",
+      "It is a great platform for broadening your audience.",
+      "Different versions of Omeka:",
+      "Omeka S is intended for institutions with multiple sites/projects, and requires a server for self-hosting.",
+      "Omeka Classic is intended for a single site/project, and requires a server for self-hosting",
+      "Omeka.net is intended for a single site/project, and is a hosted service by Omeka",
+      "I personally use Omeka as an example of a pedagogical tool that…"
+    ],
+    "fullParagraphs": [
+      "Omeka is an open-source publishing platform used for libraries, archives, and museums. It can be used to showcase digital collections: cultural heritage and online exhibitions. It can also be used to build a community photograph collection like The Bushwick Archive. I teach the free version in and out of academia and emphasize the importance of being in control of what we want to curate. As such, 3 Omeka tools share similar names, serving different intended audiences. You can start your digital curation journey with Omeka.",
+      "It is a great platform for broadening your audience.",
+      "Different versions of Omeka:",
+      "Omeka S is intended for institutions with multiple sites/projects, and requires a server for self-hosting.",
+      "Omeka Classic is intended for a single site/project, and requires a server for self-hosting",
+      "Omeka.net is intended for a single site/project, and is a hosted service by Omeka",
+      "I personally use Omeka as an example of a pedagogical tool that can help people in and out of the classroom.",
+      "Different ways to use Omeka:",
+      "Share digital objects with the public",
+      "Collect digital objects from a community",
+      "Create a collaborative class digital archive",
+      "The Bushwick Archives:",
+      "The way I use Omeka for my community archive project, The Bushwick Archives.",
+      "The Bushwick Archive is a community-led bilingual digital archive that collects, preserves, and honors the stories of poor and working-class people of color in our neighborhood. Centering the archive as curriculum, we prioritize process and elucidate the importance of who is doing the archiving and preserving.",
+      "Using Omeka:",
+      "For the GCDI workshop I facilitated in Spring 2026, Introduction to Omeka, I focused on the free Omeka.net plan.",
+      "This has 500 MB of storage space.",
+      "I emphasized how Educators can build inquiry-based tasks for students, create lesson plans with an archive of primary sources, or build learning modules with your team.",
+      "And how students can create a digital essay that draws on an annotated collection of primary sources.",
+      "Like I suggested in my workshop, if you are having some trouble thinking through what to create on Omeka, consider this exercise.",
+      "Write a 2-3 sentence introduction to your topic",
+      "Write a brief overview of your collection of items. (About two paragraphs is fine).",
+      "Sign up for an Omeka account:",
+      "Be sure to click the free version!",
+      "Click “Start your free Omeka trial” and fill out the form to create your site.",
+      "Important things to know:",
+      "Metadata = information about an object. It is the information that describes an object or other piece of data",
+      "Items are organized through Dublin Core",
+      "I currently teach workshops outside of academia so that people in general have access to a free digital platform that they can use to curate their own vision and ideas. Overall, Omeka bridges the gap between archival databases and creating an engaging website that does not require any prior technical skills!",
+      "As the summer approaches, it is the perfect time to experiment with a personal project or think about how you can use Omeka for the upcoming Fall semester.",
+      "The first big step is creating a free account!! Feel free to contact GCDI for a consultation on Omeka and look out for future workshops."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.4465247160281249,
+      0.008129375185891139,
+      0.0006118847558950884,
+      0.0002369377307875017,
+      0.0004203403177990711,
+      0.1548131232108983,
+      0.12336832287843466,
+      0.26589529989216937
+    ],
+    "words": [
+      [
+        "omeka",
+        20
+      ],
+      [
+        "archive",
+        10
+      ],
+      [
+        "digital",
+        8
+      ],
+      [
+        "free",
+        7
+      ],
+      [
+        "create",
+        7
+      ],
+      [
+        "project",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "24429",
+    "title": "Let’s Archive It! Event Recap",
+    "date": "2026-05-08",
+    "year": "2025–2026",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "digital archiving",
+      "Digital GC",
+      "Uncategorized"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/05/08/lets-archive-it-event-recap/",
+    "signals": [
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "In April, the Digital Fellows were delighted to host the event “Let’s Archive It,” which brought together three archivists from across the CUNY system to discuss the exciting archival work that is happening here at the Graduate Center and across the CUNYverse. The goal of this event was to share the innovative and impactful work happening at CUNY to the GC community of students and scholars across disciplinary divides. The event kicked off with Jessica Webster, Head of Archives and Special Collections at Baruch College as well as a PhD student in history at the GC. She opened the afternoon’s conversation with a quote from archival studies scholar Michelle Caswell:",
+      "\"The archive\" has been deconstructed, decolonized, and queered by scholars in fields as wide-ranging as English, anthropology, cultural studies, and gender and ethnic studies. Yet almost none of the humanistic inquiry at \"the archival turn\" (even that which addresses \"actually…"
+    ],
+    "fullParagraphs": [
+      "In April, the Digital Fellows were delighted to host the event “Let’s Archive It,” which brought together three archivists from across the CUNY system to discuss the exciting archival work that is happening here at the Graduate Center and across the CUNYverse. The goal of this event was to share the innovative and impactful work happening at CUNY to the GC community of students and scholars across disciplinary divides. The event kicked off with Jessica Webster, Head of Archives and Special Collections at Baruch College as well as a PhD student in history at the GC. She opened the afternoon’s conversation with a quote from archival studies scholar Michelle Caswell:",
+      "\"The archive\" has been deconstructed, decolonized, and queered by scholars in fields as wide-ranging as English, anthropology, cultural studies, and gender and ethnic studies. Yet almost none of the humanistic inquiry at \"the archival turn\" (even that which addresses \"actually existing archives\") has acknowledged the intellectual contribution of archival studies as a field of theory and praxis in its own right... In essence, humanities scholarship is suffering from a failure of interdisciplinarity when it comes to archives.”",
+      "Jessica continued on to outline the lifecycle of work in archives, from acquiring new materials, to describing and making materials accessible, through preservation considerations. In addition to the substantial work and care that goes into this process, Jessica highlighted the role of subjectivity and power, and thus the constructed nature of the archival record.",
+      "Natalie Milbrodt, the inaugural University Archivist for the City University of New York (CUNY), shared initial findings from Cultivating Archives & Institutional Memory, an ambitious project to unify practice at CUNY’s 31 libraries and 100 cultural centers and institutes. The three-year, grant funded project has seen a team of over a dozen archivists work across the CUNY system to survey archival holdings at each campus. The team opened every single box (over 50,000!) and recorded information about content, unique formats, or any condition concerns. The team also surveyed digital materials, identifying over a Petabyte (1,000TB) of material. The team also works to foster appreciation of CUNY’s incredible archival collections: creating a research guide on the Red Scare at CUNY and hosting an accompanying event, contributing to scholarly publications, creating a Faculty Fellowship, and more.",
+      "The final presenter was Roxanne Shirazi is associate professor and Head of Archives and Special Collections at the GC’s Mina Rees Library. Roxanne focussed her presentation on the CUNY Digital History Archive, and methods for activating CUNY history in CUNY classrooms. Roxanne outlined how, unlike the archival survey project discussed by Natalie, the CUNY Digital History Archive (CDHA) is a counter-institutional archive which centers the CUNY community to foreground an experiential, narrative-driven, and contextual approach to exploring CUNY’s history. It is also a digital, post-custodial archive in which materials are digitized and then returned to their owners, and prioritizes the participation of students, alumni, faculty and staff. Roxanne also discussed recent efforts to bring CUNY’s activist histories into undergraduate classrooms by building community around teaching with primary sources from CUNY archives, including creating short-term fellowships for GC doctoral students, designing open educational resources, hosting pedagogy workshops, and more.",
+      "Attended by approximately fifty people, in-person and online, the event bridged disciplinary boundaries to share the foundations and possibilities of archival practice and engagement at CUNY."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.2956242362408038,
+      0.12905230459354594,
+      0.0005715402248530035,
+      0.017572592213678677,
+      0.00039262524100347896,
+      0.019676348840628643,
+      0.00418587832536878,
+      0.5329244743201177
+    ],
+    "words": [
+      [
+        "archive",
+        13
+      ],
+      [
+        "archival",
+        9
+      ],
+      [
+        "work",
+        6
+      ],
+      [
+        "history",
+        6
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "event",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "24393",
+    "title": "Update from the Digital Scholarship Lab: Visit our Data Lab",
+    "date": "2026-05-01",
+    "year": "2025–2026",
+    "authors": [
+      "Tuka Al-Sahlani"
+    ],
+    "originalAuthors": [
+      "Tuka Al-Sahlani"
+    ],
+    "aliases": [
+      "Tuka Al-Sahlani"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "data lab",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/05/01/the-data-lab-at-the-digital-scholarship-lab/",
+    "signals": [],
+    "paragraphs": [
+      "Every spring semester, the digital fellows discuss their observations and findings from the fall semester about the Graduate Center’s students, faculty, and staff needs regarding technical skills, digital tools, or digital scholarship. The question we ask each other is, aside from the drop-in hours, workshops, consultations, user groups, and blog posts, how can we respond to the GC community’s immediate need(s)? Last year, the digital fellows held the Conversations in Digital Scholarship: a gathering of GC digital humanists and scholars to work through ideas and projects on five topics in round table discussions that culminated in a whole group reflection session.",
+      "This semester, the digital fellows found that many scholars, ourselves included, needed a space to workshop our digital projects and the work we do with data. After some considerations, we opened the Data Lab: an informal and interdisciplinary space to discuss all things data.…"
+    ],
+    "fullParagraphs": [
+      "Every spring semester, the digital fellows discuss their observations and findings from the fall semester about the Graduate Center’s students, faculty, and staff needs regarding technical skills, digital tools, or digital scholarship. The question we ask each other is, aside from the drop-in hours, workshops, consultations, user groups, and blog posts, how can we respond to the GC community’s immediate need(s)? Last year, the digital fellows held the Conversations in Digital Scholarship: a gathering of GC digital humanists and scholars to work through ideas and projects on five topics in round table discussions that culminated in a whole group reflection session.",
+      "This semester, the digital fellows found that many scholars, ourselves included, needed a space to workshop our digital projects and the work we do with data. After some considerations, we opened the Data Lab: an informal and interdisciplinary space to discuss all things data. On Friday, March 6th, we held Data Lab: Wrangle Your Date and on Thursday April 30th, we held Data Lab: Visualizations. Below, I mention some of the resources I found especially helpful for beginners and pedagogues. resources to get you started on your data journey or to use in your classrooms.",
+      "Data Lab: Wrangle Your Data",
+      "Digital scholarship begins with data. We observe something, ask a question about it, and then collect information to answer that question. The data we collect can range from the total number of complaints made to NYC 311 about city potholes to transcripts of interviews for an oral history project. Whether numerical or alphabetic, we need to collect, clean, sort, read, and analyze our data. We have the option to produce our own data or to retrieve accessible public data. Open public data sets are also helpful to use to practice cleaning, sorting, and analyzing data for scholarship or for pedagogical purposes. A few public data sources I find helpful are: NYC Open Data, Data is Plural, and, one of my favorites to use for text analysis, Project Gutenberg. Once you have found the data that responds to your query or learning objective, you will need to clean, sort, and manipulate it to narrate your research. One powerful method of data storytelling is data visualization.",
+      "Data Lab: Visualizations",
+      "Who is your audience? This was the question at the beginning of our Visualizations session. Your audience and purpose determine your story and thus determine the type of visualization you use to narrate that story. A helpful resource for novice data visualizers and pedagogues is Data Viz Project. This project is a catalogue of visualization types. For each type, you can explore the visualization's function, structure, and input requirements (i.e, how data should be organized). For example, if you want to compare data points, you can use the Sunburst Diagram. But, how do you know to use this diagram? You can either filter what you need from the homepage or you can select a visualization type and explore it further. On the visualization type page, you will find information about its design, purpose, family ( chart, diagram, graph etc.), function, shape, and input. For example, if I select the Sunburst Diagram, I quickly learn that it \"illustrates hierarchical data in a radial layout\" and functions to compare information. ( As a writing instructor, I wish there is a genre catalogue similar to this to assist students when they approach writing projects.)",
+      "The Data Viz Project catalogue helps you select the function (or the way you want to tell your story) and organize your data for the desired purpose (e.g. present your findings to an interdisciplinary dissertation committee or show the use of gendered language in LLMs to undergraduate students). Like any good story, data must be structured to create a vivid and lasting image in the reader’s mind. Data visualizations are like the metaphors that capture the audience's attention and reveal the deeper meanings and connections of a research project.",
+      "As we continue to tell our stories and guide our students to tell theirs, I encourage you to visit our Data Literacies curriculum on DHRIFT and to learn from Data Visualizations experts at the Open Visualization Academy. Of course, remember to subscribe to our calendar for upcoming Data Lab sessions and come explore data cleaning, sorting, ethics, management, and more!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.1332380967876655,
+      0.0005311925800960466,
+      0.05128905363009161,
+      0.0001800721235380677,
+      0.23467467317273633,
+      0.17695230614021448,
+      0.0005822632044654761,
+      0.4025523423611925
+    ],
+    "words": [
+      [
+        "data",
+        35
+      ],
+      [
+        "visualization",
+        12
+      ],
+      [
+        "digital",
+        9
+      ],
+      [
+        "project",
+        9
+      ],
+      [
+        "need",
+        6
+      ],
+      [
+        "lab",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "24351",
+    "title": "Breaking Tableau Out of the Boardroom",
+    "date": "2026-04-24",
+    "year": "2025–2026",
+    "authors": [
+      "Anna Corbett"
+    ],
+    "originalAuthors": [
+      "Anna Corbett"
+    ],
+    "aliases": [
+      "Anna Corbett",
+      "Anna Schlenz"
+    ],
+    "account": "Anna Corbett",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "digital technology",
+      "Guides, Tutorials, Reviews",
+      "Visualization"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/04/24/breaking-tableau-out-of-the-boardroom/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "If you’ve ever loaded a research dataset into Tableau, you’ve probably been a bit intimidated. The interface templates are set up to analyze things like \"Regional Sales\" or \"Shipping Costs,\" leaving those of us researchers with census tracts or survey data feeling like we’ve picked the wrong tool for the job.",
+      "But with a little massaging, Tableau can be great for visualizing datasets for academic research—provided you stop using it the way an MBA would. The trick is knowing which business features to ignore and which research-specific workflows to lean into.",
+      "Here are some tips to breaking into the Tableau biz:",
+      "1. Embrace Long Data",
+      "Academic datasets often come in a “wide” format, where each subject has a single row followed by dozens of columns for different variables or time points. Tableau, however, functions best with long data. If you keep your data wide, you’ll be forced to manually drag every individual variable onto your workspace,…"
+    ],
+    "fullParagraphs": [
+      "If you’ve ever loaded a research dataset into Tableau, you’ve probably been a bit intimidated. The interface templates are set up to analyze things like \"Regional Sales\" or \"Shipping Costs,\" leaving those of us researchers with census tracts or survey data feeling like we’ve picked the wrong tool for the job.",
+      "But with a little massaging, Tableau can be great for visualizing datasets for academic research—provided you stop using it the way an MBA would. The trick is knowing which business features to ignore and which research-specific workflows to lean into.",
+      "Here are some tips to breaking into the Tableau biz:",
+      "1. Embrace Long Data",
+      "Academic datasets often come in a “wide” format, where each subject has a single row followed by dozens of columns for different variables or time points. Tableau, however, functions best with long data. If you keep your data wide, you’ll be forced to manually drag every individual variable onto your workspace, which is tedious and limits your analysis.",
+      "To fix this, go to the Data Source tab, select your variable columns, and click Pivot. This transforms your data by collapsing those many columns into just two: one for the Variable Name and one for the Result. This single step allows you to use a simple filter to toggle through every data point in your study, making your workbook much easier to manage and scale.",
+      "2. Find the Tools for Distribution",
+      "In a corporate dashboard, \"Total\" or \"Average\" is usually enough. The default visualization options in Tableau usually work in these terms. But in research, the average is often just the beginning of the story!",
+      "Switch your default visualization from bar charts to something like Box-and-Whisker Plots. Box-and-Whisker Plots give you an immediate look at the spread of your data. It’s a much more transparent way to present findings because it doesn't hide the variance. If you’re dealing with categorical data, a Highlight Table is often better than a chart, since it maintains the precision of the raw numbers while using color density to reveal patterns across categories.",
+      "3. Normalize Populations",
+      "A common mistake in spatial research is mapping raw counts, such as \"Registered Democrats\" or \"Disease Cases.\" Because more people live in cities, raw counts usually just result in a map of the most populated areas rather than showing where a phenomenon is actually most intense. Because Tableau is set up for sales data, it emphasizes raw counts over proportions or density.",
+      "To normalize your geographic data, always create a Calculated Field This allows you to compare a small rural county to a major urban center on equal terms by looking at the rate of occurrence, not just the total volume.",
+      "4. Prove Your Trends Are Actually Real",
+      "Tableau makes it very easy to add a",
+      "\"Trend Line\" to a chart, but just because a line is there, it doesn’t mean that the data actually supports the line. In research, a trend line is basically a \"best guess\" at a pattern. Before you trust it, you need to check if that pattern is a real discovery or just a random coincidence.",
+      "To check this, right-click your trend line and select Describe Trend Model. Look for these two numbers:",
+      "The p-value (The \"Chance\" Score): At risk of oversimplifying, this number tells you if your pattern is likely a fluke. Generally, you want this number tobe 0.05 or smaller.",
+      "The R-squared (The \"Fit\" Score): This tells you how closely your data points actually follow the trend line. It’s a scale from 0 to 1. A score of 0.90 means the dots are hugging the line pretty perfectly. A score of 0.10 means the dots are scattered all over the place, and the line isn't doing a great job of explaining them.",
+      "5. Use Tooltips for Context",
+      "In a corporate dashboard, tooltips (the boxes that pop up when you hover over a data point) usually just repeat the numbers you can already see on the screen. In research, you can use this space to provide the qualitative context that a chart can’t show on its own.",
+      "Instead of just showing \"Sales per Month\" you can customize your tooltip to include citation information, specific notes about that data point’s collection, or a brief explanation of why a particular value is an outlier.",
+      "The Bottom Line",
+      "Don’t be intimidated by the business lingo. Just because Tableau is corporate software doesn't mean that you have to use it that way. With just a little retooling away from tracking business analytics, Tableau can be a powerful tool for quick and professional data visualization!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.04771718059906905,
+      0.09494129042080829,
+      0.04765595279440576,
+      0.0001673165716959872,
+      0.556488988659807,
+      0.2483712826306508,
+      0.0005410181280795956,
+      0.004116970195483444
+    ],
+    "words": [
+      [
+        "data",
+        16
+      ],
+      [
+        "tableau",
+        9
+      ],
+      [
+        "line",
+        9
+      ],
+      [
+        "research",
+        7
+      ],
+      [
+        "trend",
+        6
+      ],
+      [
+        "point",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "24321",
+    "title": "Vibe Coding My Way Out of a Teaching Problem",
+    "date": "2026-04-17",
+    "year": "2025–2026",
+    "authors": [
+      "Nicole Walker"
+    ],
+    "originalAuthors": [
+      "Nicole Walker"
+    ],
+    "aliases": [
+      "Nicole Walker"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is written by guest contributor Nicole Walker",
+    "tags": [
+      "Digital GC",
+      "Digital pedagogy",
+      "Vibe Coding"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/04/17/vibe-coding-my-way-out-of-a-teaching-problem/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "This post is written by guest contributor Nicole Walker.",
+      "In Base44’s recent Super Bowl advertisement, office workers who have never coded before suddenly realize they can use A.I. to create apps. Drunk on power, they build apps to cater to niche interests, like protein tracking and dating apps for dogs. While my own experience using Claude Code involved much more time and many more emails to tech support than were strictly television-friendly, the fact that I—a person unsure which remote controls the television in her own apartment—was able to build a digital tool (one complex enough to require an API key, no less!) is proof that Claude Code is, in fact, incredibly empowering.",
+      "I made my tool to solve a problem familiar to writing teachers. I teach ENG 111, Lehman’s mandatory first-year composition course. Because high school English teachers must prepare students for state tests, first-year students tend to think of writing as a means of…"
+    ],
+    "fullParagraphs": [
+      "This post is written by guest contributor Nicole Walker.",
+      "In Base44’s recent Super Bowl advertisement, office workers who have never coded before suddenly realize they can use A.I. to create apps. Drunk on power, they build apps to cater to niche interests, like protein tracking and dating apps for dogs. While my own experience using Claude Code involved much more time and many more emails to tech support than were strictly television-friendly, the fact that I—a person unsure which remote controls the television in her own apartment—was able to build a digital tool (one complex enough to require an API key, no less!) is proof that Claude Code is, in fact, incredibly empowering.",
+      "I made my tool to solve a problem familiar to writing teachers. I teach ENG 111, Lehman’s mandatory first-year composition course. Because high school English teachers must prepare students for state tests, first-year students tend to think of writing as a means of assessment rather than a forum for exploring ideas. Every semester, I attempt to convince students that I am genuinely interested in their thoughts—that applying their minds (and not anticipating mine) is the point. And every semester, long weeks go by before my students believe me. My most successful efforts toward this end have always involved using the products of large language models as examples of the generic “mid” writing that students should avoid. With this in mind, I began this past semester with a unit titled “Defining the Human in the Age of A.I.” I also made my tool, Seeing the Difference: A Human vs. A.I. Visualization Tool.",
+      "It’s called “vibe coding”—this practice of describing to a large language model what you would like it to create and then watching it build it for you. For smaller, simpler apps, it can take as little as thirty seconds. Building my tool was, as I have already alluded, not entirely smooth, in part because I started with the free version of ChatGPT, only moving to Claude Code on the advice of Stefano Morello at the New Media Lab. I thought I had created a working prototype long before I actually had; the program had created a folder of random words it was pulling from rather than connecting to the internet and selecting the one hundred or so words most associated with the paper topic. However, once I got that sorted out, the tool was quite helpful.",
+      "In its most recent iteration, students populate fields with the paper topic and with the five or so words most significant to their own treatment of that topic. Choosing words to represent their content is, of course, its own exercise and assessment. Once this is completed, students click on a button labeled “Generate,” and a bubble appears with their own “significant words” inside it. A.I. then fills the field surrounding the bubble with the words most frequently associated with the paper topic.",
+      "Something about the exercise, whether it was the resulting visual representation, the novelty of the tool, or the fact that I was willing to try something new with them—got through to my students more quickly than any of my previous exhortations to “use your own brain” or “think of your own associations.” Or so it would seem. I have students write for the first twenty minutes of every class, and in the last two months, I have watched them progress more rapidly than the students of previous semesters, moving from the generic, unnatural-sounding text they produced for state tests to writing that is looser and richer—that takes interesting risks and detours and engages their own thoughts and ideas. Since the only substantive change I have made is introducing the tool, I feel comfortable giving Claude the credit.",
+      "There is, of course, great irony in the fact that I used A.I. to build a tool illustrating the importance of using one’s own mind. I have no defense for this unless it is the difficulty I have in imagining myself accomplishing it any other way. I wanted to make the tool for this semester’s students, not the students I might have years from now when I have mastered the required coding. I wanted Betzy, Mylik, and Elian to understand that their ideas mattered and belonged in the classroom. And now they do. While A.I. is problematic for a whole host of reasons, I am convinced that the technology that will inevitably shape our future needs to be in the hands of people who feel the weight of that responsibility, people who center equity, inclusion, and social justice in their work, like many of my peers at the Graduate Center."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.04532391165431659,
+      0.14051874526709682,
+      0.048058409864873246,
+      0.00017855960397884297,
+      0.00031677437119484,
+      0.5002474650766994,
+      0.042574976807577984,
+      0.22278115735426224
+    ],
+    "words": [
+      [
+        "student",
+        12
+      ],
+      [
+        "tool",
+        10
+      ],
+      [
+        "ai",
+        6
+      ],
+      [
+        "word",
+        6
+      ],
+      [
+        "build",
+        5
+      ],
+      [
+        "write",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "24263",
+    "title": "When AI Makes Us More Active, We Risk Being Less Wise",
+    "date": "2026-04-10",
+    "year": "2025–2026",
+    "authors": [
+      "Eunah Cho"
+    ],
+    "originalAuthors": [
+      "Eunah Cho"
+    ],
+    "aliases": [
+      "Eunah Cho"
+    ],
+    "account": "Eunah Cho",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Artificial intelligence (AI)",
+      "Digital Fellows",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/04/10/when-ai-makes-us-more-active-we-risk-being-less-wise/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "What generative AI is changing is not just what we produce, but how we behave.",
+      "When I began studying how workers were using generative AI on digital labor platforms, I expected to see a familiar story of empowerment. I assumed AI would help people write better proposals, respond more quickly, and compete more effectively for opportunities. In some ways, that was true. ChatGPT made it easier to produce polished language and lowered the effort required to participate in a highly competitive market. But the reality was more complex and, in many ways, more sobering.",
+      "What I found was that AI did not simply improve performance. It changed behavior. Workers were not just using ChatGPT to write better bids. They were also shifting into different competitive patterns, becoming faster, more active, and more aggressive in how they approached the market. That may sound like progress, but it raises a deeper question: does becoming more active…"
+    ],
+    "fullParagraphs": [
+      "What generative AI is changing is not just what we produce, but how we behave.",
+      "When I began studying how workers were using generative AI on digital labor platforms, I expected to see a familiar story of empowerment. I assumed AI would help people write better proposals, respond more quickly, and compete more effectively for opportunities. In some ways, that was true. ChatGPT made it easier to produce polished language and lowered the effort required to participate in a highly competitive market. But the reality was more complex and, in many ways, more sobering.",
+      "What I found was that AI did not simply improve performance. It changed behavior. Workers were not just using ChatGPT to write better bids. They were also shifting into different competitive patterns, becoming faster, more active, and more aggressive in how they approached the market. That may sound like progress, but it raises a deeper question: does becoming more active actually mean becoming more effective? Not always. In my study, some of the most active bidding patterns were associated with better outcomes for less experienced workers, but worse outcomes for more experienced workers. The same behavioral shift that helped one group compete more successfully pushed another toward rejection.",
+      "This finding reveals something deeper about the relationship between AI and human judgment. We often think of AI as a productivity tool, something that helps people work faster or communicate better. But AI also changes the conditions of action. When a system can generate polished language in seconds and make a person feel more prepared to compete, it does not just improve execution. It can also reinforce behavioral tendencies that were already there. In that sense, AI does not simply support work. It can accelerate habits.",
+      "That is why the issue is not only whether AI makes people more capable, but whether it makes them more calibrated. In competitive settings, activity can look like competence from the outside. A person who responds more quickly, bids more frequently, and sounds more polished may appear better positioned to succeed. But those signals can be misleading. Increased action is not always evidence of better judgment. Sometimes it is simply evidence that the cost of acting has fallen.",
+      "This is where AI introduces a new kind of illusion. My earlier work focused on what I called the capability illusion: the appearance of competence without the foundation of real mastery. This study points to a related problem. AI can also create a strategic illusion. It can make people feel as though they are competing better simply because they are moving faster, participating more often, and sounding more persuasive. But acceleration is not the same as calibration. AI can make people more active without making them more accurate.",
+      "This is not just a labor market problem. It is also an educational one. If students use AI to generate cleaner prose, quicker analysis, and more polished answers, the immediate result may look positive. They may appear more fluent, more confident, and more productive. But the deeper question is whether they are actually thinking better or simply moving faster through tasks they do not fully understand. That is the risk education now faces: not just dependency on a tool, but dependency on a mode of behavior built around speed, fluency, and unexamined confidence.",
+      "Much of the current discussion around AI literacy focuses on prompt engineering, how to ask better questions and get better outputs. While that skill has practical value, it misses the larger point. True AI literacy is not just about using the tool well. It is about developing judgment. Students need to learn not only how to generate answers, but how to question them, verify them, and recognize when a polished response reflects fluency rather than understanding. In that sense, AI literacy should be taught less as a technical skill and more as a reflective discipline.",
+      "The goal is not to ban AI from learning. It is to make sure that education still rewards the human capacities that matter most: interpretation, calibration, self-awareness, and the ability to recognize when confidence has moved ahead of understanding.",
+      "Generative AI has already changed how we work, learn, and compete. It has lowered barriers to participation and increased the speed of output. But it has also introduced a new challenge. It can make people more active without making them more reflective. The future will not belong simply to those who use AI the most. It will belong to those who can tell the difference between movement and progress. In the age of generative AI, fluency is no longer enough. What we need is wisdom.",
+      "References",
+      "Barber, B. M., & Odean, T. (2001). Boys will be boys: Gender, overconfidence, and common stock investment. Quarterly Journal of Economics, 116(1), 261-292.",
+      "Brynjolfsson, E., Li, D., & Raymond, L. R. (2023). Generative AI at work (Working Paper No. 31161). National Bureau of Economic Research.",
+      "Cho, E. (2026). Generative AI, latent bidding regimes, and hiring outcomes in digital labor markets. Working paper.",
+      "Dell’Acqua, F., McFowland, E., Mollick, E. R., Lifshitz-Assaf, H., Kellogg, K., Rajendran, S., Krayer, L., Candelon, F., & Lakhani, K. R. (2023). Navigating the jagged technological frontier: Field experimental evidence of the effects of AI on knowledge worker productivity and quality.",
+      "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151, 90-103.",
+      "Noy, S., & Zhang, W. (2023). Experimental evidence on the productivity effects of generative artificial intelligence. Science, 381(6654), 187-192."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005012076077070142,
+      0.5256062250211977,
+      0.0004390005844023713,
+      0.00016999247208001887,
+      0.002967082244821025,
+      0.420270399086167,
+      0.0005496706518674172,
+      0.049496422331757446
+    ],
+    "words": [
+      [
+        "ai",
+        20
+      ],
+      [
+        "good",
+        7
+      ],
+      [
+        "people",
+        6
+      ],
+      [
+        "simply",
+        6
+      ],
+      [
+        "compete",
+        5
+      ],
+      [
+        "polished",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "24201",
+    "title": "There is a question more important than “Does AI have consciousness?”",
+    "date": "2026-03-27",
+    "year": "2025–2026",
+    "authors": [
+      "Meha Gupta"
+    ],
+    "originalAuthors": [
+      "Meha Gupta"
+    ],
+    "aliases": [
+      "Meha Gupta"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Artificial intelligence (AI)",
+      "brain",
+      "Digital Fellows",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/03/27/there-is-a-question-more-important-than-does-ai-have-consciousness/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "The consciousness question:",
+      "Recent news that shook the internet, albeit in the guise of emotional marketing, is Anthropic’s CEO’s remark that Claude may have gained consciousness. Based on “intrusive thoughts” detected during prompted internal testing, Anthropic attributed a 15-20% probability of being conscious to Claude. There have been speculative public discussions about advanced AI behavior, but Anthropic did not verify any claim that Claude is conscious or assign it a probability of consciousness. In this post, I will read AI’s “intrusive thoughts” as just unexpected or misaligned generations emerging from a latent statistical structure. Frankly, it marked only one of the nodes of heightened anxiety about AI’s uncertain futures in the network of a larger technopessimism. At the core, this anxiety is based on the overdetermination of consciousness as a concept and the science fiction validated fear that AI will replace humanity. In…"
+    ],
+    "fullParagraphs": [
+      "The consciousness question:",
+      "Recent news that shook the internet, albeit in the guise of emotional marketing, is Anthropic’s CEO’s remark that Claude may have gained consciousness. Based on “intrusive thoughts” detected during prompted internal testing, Anthropic attributed a 15-20% probability of being conscious to Claude. There have been speculative public discussions about advanced AI behavior, but Anthropic did not verify any claim that Claude is conscious or assign it a probability of consciousness. In this post, I will read AI’s “intrusive thoughts” as just unexpected or misaligned generations emerging from a latent statistical structure. Frankly, it marked only one of the nodes of heightened anxiety about AI’s uncertain futures in the network of a larger technopessimism. At the core, this anxiety is based on the overdetermination of consciousness as a concept and the science fiction validated fear that AI will replace humanity. In light of this debate, what can researchers in the humanities and social sciences offer?",
+      "Why does our society care about consciousness?",
+      "The collective anxiety over AI \"waking up\" isn't actually about the machines—it’s about us. It is a fear of the superhuman. We aren’t worried about new technology; we are worried about a force that can do everything a human can do, but better. Currently, tech research is often obsessed with the \"ultimate future\" (the birth of a digital soul) rather than the processual reality (how AI is affecting us right now). This obsession is a defensive maneuver. By obsessing over whether AI has \"attained\" consciousness, we are trying to maintain a hierarchy where humans stay at the top of the agentic chain. Ultimately, AI is shifting the very definition of humanity. In this light, AI anxiety is actually a fear of our own evolution.",
+      "Why the consciousness question is a dead end:",
+      "We actually know more about what consciousness isn't than what it is. A synthesis of literature and computation reveals a startling truth: an AI doesn't need a soul to understand you. By reading the vast corpus of human writing, LLMs have learned the \"map\" of the human mind. They don't need to feel to perform feeling. I have issues with two characteristics we are afraid to associate AI with:",
+      "Self-Awareness as Functional Mimesis: AI ‘self-awareness’ can be understood as a functional simulation rather than an internal subjective state. Modern systems can track aspects of their own outputs, limitations, and instructions (e.g., through system prompts, memory, or tool use), creating an operational form of self-reference without evidence of genuine self-consciousness or subjective experience",
+      "Emotional Intelligence as Predictive Mirroring: AI's emotional intelligence might be best described as pattern-based response generation rather than felt emotion. By training on large datasets of human communication, models learn statistical associations between language and emotional contexts, enabling them to produce contextually appropriate and empathetic-seeming responses without possessing internal emotional states.",
+      "If we define consciousness simply as \"the ability to know one's own body/state,\" then AI is already conscious. We often deny AI this label because we force human-centric expectations onto it. We don't demand human emotions from plants—which exhibit complex biological responsiveness and signaling without evidence of subjective consciousness comparable to humans. AI consciousness cannot be defined by human standards. A New Materialist approach suggests that intelligence and \"knowing\" are not exclusive to the human brain; they are properties of matter itself.",
+      "How will future technological advancements change the consciousness question? Three Theses.",
+      "As we enter 2026, the industry is shifting away from \"black box\" chatbots toward systems that understand the physical world and the probabilistic nature of reality.",
+      "Thesis 1: Prediction Models vs. Multi-Agentic Models",
+      "We must distinguish between how AI worked yesterday and how it works today:",
+      "Prediction-Based Models (LLMs): Our current AI models are \"wordsmiths in the dark” or “the great averager”. They function on the principle of next-token prediction, calculating the most likely word to follow another based on patterns. They are reactive and stop once the text is generated.",
+      "Multi-Agentic Models: These future models function like a professional team rather than a single speaker. An Orchestrator agent breaks a goal into tasks, assigning them to specialized agents (e.g., a \"Researcher,\" a \"Coder,\" and a \"Critic\"). These models are goal-driven rather than prompt-driven; they can use tools, validate their own work, and even \"self-correct\" before giving you a final answer Deepchecks. (2025). Multi-Agent LLMs: How Specialized AI Agents Collaborate..",
+      "Thesis 2: Quantum Physics: The End of Binary Logic",
+      "Quantum computing is progressing beyond early laboratory research, though large-scale, practical deployment remains limited and experimental. It might change AI by replacing the Binary Bit (0 or 1) with the Qubit.",
+      "Superposition & Parallelism: Quantum approaches theoretically allow exploration of many possibilities in parallel. This is essential for Quantum Neural Networks (QNNs), which aim to converge on solutions exponentially faster than classical deep learning USDSI. (2026). From Qubits to Insights: The Rise of Quantum AI in 2026..",
+      "Entanglement as Intuition: Quantum entanglement allows bits of information to be linked regardless of distance. Instead of processing data in a linear chain, the model can \"see\" relationships across massive datasets instantly, mimicking what we often call human intuition or \"gut feeling.\"",
+      "Thesis 3: Spatial Intelligence: The Scaffolding of Cognition",
+      "If quantum physics provides the \"brain\" power, Spatial Intelligence provides the \"body.\" Leading researchers argue that spatial intelligence is the \"missing link\" for AILi, Fei-Fei. (2025). Spatial Intelligence Is AI's Next Frontier. TIME..",
+      "World Models: Unlike LLMs that see the world as a sequence of words, Spatially Intelligent World Models represent the world in 3D. They understand depth, gravity, and object permanence.",
+      "From Viewer to Participant: This allows AI to transition into Embodied AI. It can reason about how an environment changes if an object is moved, which is critical for robotics and \"moral reasoning\" in physical spaces Roboflow. (2025). Spatial Intelligence in AI: World Models, 3D Vision & Action..",
+      "Why we must replace the consciousness question with the embodiment question",
+      "At this point, I want to interject with a possible future technological advancement through Quantum computing. Researchers at the Google Quantum AI lab are hoping to explain consciousness using quantum concepts of entanglement and superposition while running with the metaphysical assumption that experimenting with the human brain using qubits can reveal the essential workings of the brain’s “quantum origin”---with the hope that this discovery can help create more human-like AI systems capable of “moral reasoning”. A different perspective on AI consciousness and anxiety could be that AI systems occasionally generate outputs that appear unprompted or misaligned, not because they possess independent thought, but because probabilistic models can surface low-likelihood associations that were never explicitly intended by either the user or the system designers.",
+      "The embodiment question allows us to ask about the effect of AIs on us; rather than trying to dig deep into their mysteries, we don’t understand ourselves. Quantum computing and spatial intelligence will significantly replace the general technological intuition the Y2K computer revolution afforded us by changing how units of computation work—from binaries to qubits.",
+      "By focusing on how AI is \"embodied\"—how it occupies our space, our decision-making processes, and our quantum reality—we move away from the ghost in the machine and toward the possible reality of our shared future.",
+      "Further Readings:",
+      "ET Edge Insights. (2026). Why 2026 will be the breakthrough year for AI–quantum convergence.",
+      "Aguero. (2024). From Mind to Image: Obvious’s Breakthrough in AI Art",
+      "Refernces:"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0003041828691917031,
+      0.6312056592701543,
+      0.04070882199367083,
+      0.00010316842183392696,
+      0.00018302634652728344,
+      0.30682834427049777,
+      0.00033359508799244596,
+      0.020333201740131736
+    ],
+    "words": [
+      [
+        "ai",
+        32
+      ],
+      [
+        "consciousness",
+        16
+      ],
+      [
+        "human",
+        13
+      ],
+      [
+        "model",
+        13
+      ],
+      [
+        "quantum",
+        13
+      ],
+      [
+        "intelligence",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "24079",
+    "title": "AI Literacy for Research: Why Operational Fluency Is Not Enough",
+    "date": "2026-03-13",
+    "year": "2025–2026",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Guides, Tutorials, Reviews"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/03/13/ai-literacy-for-research-why-operational-fluency-is-not-enough/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "As LLMs move into research settings, social scientists face a familiar but newly urgent problem: how to incorporate a powerful new tool without surrendering methodological clarity. These systems can support parts of qualitative research in intriguing ways: summarizing interviews, generating candidate codes, comparing excerpts, and surfacing patterns across documents. But they also risk flattening ambiguity, overstating coherence, and producing interpretations that sound persuasive before they have been properly examined. We are used to asking how tools shape what we can know. Large language models now belong in that conversation. There are both practical and epistemological reasons why we should be thinking about this in the context of using LLMs responsibly in research. This is why I think we need more than fluency; We need literacy.",
+      "AI literacy vs operational fluency",
+      "One of the main ideas from our recent GCDI workshop was a simple…"
+    ],
+    "fullParagraphs": [
+      "As LLMs move into research settings, social scientists face a familiar but newly urgent problem: how to incorporate a powerful new tool without surrendering methodological clarity. These systems can support parts of qualitative research in intriguing ways: summarizing interviews, generating candidate codes, comparing excerpts, and surfacing patterns across documents. But they also risk flattening ambiguity, overstating coherence, and producing interpretations that sound persuasive before they have been properly examined. We are used to asking how tools shape what we can know. Large language models now belong in that conversation. There are both practical and epistemological reasons why we should be thinking about this in the context of using LLMs responsibly in research. This is why I think we need more than fluency; We need literacy.",
+      "AI literacy vs operational fluency",
+      "One of the main ideas from our recent GCDI workshop was a simple distinction:",
+      "Operational fluency is about using the tool smoothly and getting to “a result” quickly. Example: you can produce a summary, a list of themes, a draft paragraph, or a chunk of code without a lot of friction.",
+      "AI literacy is about understanding what kind of system you are interacting with, what it is optimized to do, and how it can fail. Example: you know why a summary might omit caveats, why “themes” can sound more definitive than your data supports, and how to structure prompts so the model has to show its work.",
+      "Operational fluency tends to increase speed. AI literacy helps you keep that speed aligned with research judgment. A simple way to say it is this: operational fluency gets you to an output, AI literacy helps you decide what the output is worth.",
+      "When I explain context windows and prompting, I like a river metaphor.",
+      "Imagine a riverbed full of material. Some of it is valuable, some of it is noise, and some of it looks valuable until you test it. Your job is to extract something useful from what is available.",
+      "In an LLM interaction, the context window is the stretch of river you can access in the moment. It includes your instructions, the text you paste, the chat history, and, in some systems, the passages retrieved from a corpus. That is the material the model can condition on when it generates its response. The prompt is like choosing a tool and a technique for extraction. Panning, sluicing, dredging, and metal detection will all give you different results, even if you stand in the same spot.",
+      "One important detail keeps this metaphor honest. The model is not literally pulling “facts” out of the riverbed. It is generating new text by prediction, and the “river” is the material that shapes which continuations become likely.",
+      "This is why operational fluency alone can be misleading. Every time you get to an output quickly, it can feel like you found gold. AI literacy is what helps you test whether it is gold, fool’s gold, or just a rock.",
+      "A mental model: what happens when you prompt?",
+      "Illustrated Transformer (Jay Alammar)",
+      "The Annotated Transformer (Harvard NLP)",
+      "1) Tokenization: breaking the material into workable pieces",
+      "Before the system can “work” with your text, it breaks it into tokens. Tokens are not always words. They can be word pieces, punctuation, or even spaces.",
+      "In the river metaphor, you cannot pan a boulder. You need grains. Tokenization is how the system turns language into pieces small enough to handle computationally.",
+      "Why this matters: token limits shape what you can include, what gets left out, and how much context the system can use.",
+      "2) Embeddings: giving tokens measurable signatures",
+      "Next, tokens are converted into vectors, often called embeddings. This is one of the key “math about language” moves. Language becomes something that can be computed on.",
+      "In the metaphor, embeddings are like giving each grain a measurable signature. Not a perfect definition of meaning, but a numerical representation that lets the model compare, group, and relate pieces of text.",
+      "3) Attention: deciding what influences what",
+      "Transformer-style models use attention mechanisms to estimate how much each token should draw from other tokens in the context. This is one reason your wording and structure matter so much. The model is constantly reweighting what counts as relevant.",
+      "In the metaphor, attention is like controlling the flow through a sluice. You are not changing the river itself. You are changing what gets caught and what washes through.",
+      "A useful literacy note: attention is not automatically the model’s “reason.” It is a weighting mechanism. It can be suggestive, but it is not a guarantee of explanation.",
+      "4) Next-token prediction: generating text one step at a time",
+      "Finally, the model generates by predicting the next token repeatedly until a response is produced. That objective is why the output can feel fluent and coherent. It is also why it can produce fluent text that is incorrect, ungrounded, or overly confident.",
+      "In the metaphor, it is like repeatedly selecting what to keep from each pass, one small choice at a time. Small choices compound.If you work with qualitative data, this part matters. Researchers already have sophisticated ways of working with text. Methods like content analysis, discourse analysis, and narrative analysis are not just different deliverables. They are different commitments about what text is, what counts as evidence, and what claims can be justified.",
+      "A literacy move is noticing that prompting can steer an LLM toward outputs that resemble different methodological stances.",
+      "For example, think of these three different questions and how you approach each of them:",
+      "Content analysis often asks: what is being said, what categories appear, and how patterns show up across a dataset. It tends to emphasize systematic coding and transparent decision rules.",
+      "Discourse analysis asks: how is language doing social work, and how are power, identity, legitimacy, and agency constructed through linguistic choices. It often emphasizes close attention to language in use and context.",
+      "Narrative analysis asks: what story is being told, how events are sequenced, and how people make meaning over time. It emphasizes temporality, turning points, and evaluation.",
+      "Exercise: Prompting as methodological steering",
+      "A prompt can function as a mini-analysis protocol. It sets, sometimes implicitly:",
+      "unit of analysis (sentence, excerpt, full interview)",
+      "analytic lens (coding, rhetorical features, narrative structure)",
+      "output schema (codes, memo, story outline)",
+      "evidence standard (what counts as support)",
+      "If you do not specify the evidence standard, the model will often provide confident interpretations that feel “researchy” but are hard to audit.",
+      "The context window: what the model can see becomes the dataset in the moment. What is inside the window might include:",
+      "your instructions (the prompt)",
+      "excerpts you paste",
+      "chat history (in chatbot use)",
+      "retrieved passages (in retrieval-augmented generation, or RAG)",
+      "This has a methodological implication. What you include in the window becomes the model’s effective corpus for that response. Everything outside the window is replaced by general patterns from training.",
+      "In the river metaphor, the context window is the stretch of river you can reach. Operational fluency is learning to pan quickly. AI literacy is remembering that you cannot find what is not within reach, and you should not pretend you did.",
+      "Chatbot vs RAG, two ways of building context:",
+      "Chatbot mode: context is the conversation. A common risk is drift over time, and loss of detail as earlier information gets pushed out of the window.",
+      "RAG mode: context is your question plus retrieved chunks from a larger corpus. The strength is that the response can be grounded in provided documents. A risk is retrieval bias, since what gets retrieved shapes what becomes salient and “true” in the moment.",
+      "Some principles and practices can help turn fluency into research-ready use, and the important thing here is treating the tool reflexively and making your process auditable.",
+      "The Evidence Rule: For any analytic claim the model makes, require an exact quote from the excerpt(s) used and source ID",
+      "Treat outputs as drafts at best, not findings: Think candidate codes, candidate memos, candidate interpretations.",
+      "Stabilize your analytic protocol: Reuse the same instructions and schema across batches so results are comparable.",
+      "Reflexive methodology: Think about the method you have for examining your",
+      "Batch intentionally: Do not paste an entire dataset into a chat and hope for methodological miracles. Work in chunks, document decisions, then synthesize.",
+      "Keep a lightweight audit log: Tool, date, purpose, key prompts, what you verified, what you rejected.",
+      "If you want a deeper dive into best practices from recent research on LLMs in research workflows, plus two short pieces I wrote that build on this workshop, you can find them here: Human in the Loop and Walled Garden.",
+      "Operational fluency can make you faster, which can also mean faster at making mistakes. Literacy enables you to make your use of LLMs meaningful enough to integrate into research in a way that aligns with methodologies, values, and evidence standards.",
+      "If you attended the AI literacy for research workshop (GCDI February 2026), thank you for the thoughtful discussion.",
+      "References and Suggested Reading:",
+      "Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., … Amodei, D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems.",
+      "Fairclough, N. (2003). Analysing discourse: Textual analysis for social research. Routledge.",
+      "Jain, S., & Wallace, B. C. (2019). Attention is not explanation. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).",
+      "Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., … Riedel, S. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. Advances in Neural Riessman, C. K. (1993). Narrative analysis. SAGE Publications. Information Processing Systems.",
+      "Stemler, S. (2001). An overview of content analysis. Practical Assessment, Research, and Evaluation, 7(1).",
+      "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., … Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.07048498046330652,
+      0.4430562220669581,
+      0.13192366753931511,
+      8.000234138461688e-05,
+      0.0001419284699423377,
+      0.3320148125243294,
+      0.0002586875677594836,
+      0.02203969902700437
+    ],
+    "words": [
+      [
+        "model",
+        15
+      ],
+      [
+        "research",
+        11
+      ],
+      [
+        "context",
+        11
+      ],
+      [
+        "literacy",
+        11
+      ],
+      [
+        "analysis",
+        11
+      ],
+      [
+        "system",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "24057",
+    "title": "Call for Applications: GC Digital Fellows 2026-2027",
+    "date": "2026-03-11",
+    "year": "2025–2026",
+    "authors": [
+      "Lisa Marie Rhody"
+    ],
+    "originalAuthors": [
+      "Lisa Marie Rhody"
+    ],
+    "aliases": [
+      "Lisa Marie Rhody"
+    ],
+    "account": "Lisa Marie Rhody",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "GCDI Updates",
+      "News",
+      "Opportunities"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/03/11/gcdf26-27/",
+    "signals": [],
+    "paragraphs": [
+      "Applications due Wednesday, April 1, 2026 at 11:59 PM",
+      "Are you looking for a fellowship that will challenge you to enhance your existing technical skills? Do you enjoy working collaboratively with an interdisciplinary team? Do you like working with students, faculty, and staff to help them learn new digital tools and methods? If learning new open-source technologies and helping others to integrate them thoughtfully and productively into their research sounds exciting to you, consider applying to become a GC Digital Fellow.",
+      "Based in the GC Digital Scholarship Lab, the program operates as an in-house think-and-do tank, connecting fellows to digital initiatives throughout The Graduate Center. They utilize a team-based approach as they explore creative solutions for projects and implement them collaboratively, building out “The Digital GC” — a vision of the Graduate Center that incorporates technology into its core research and teaching…"
+    ],
+    "fullParagraphs": [
+      "Applications due Wednesday, April 1, 2026 at 11:59 PM",
+      "Are you looking for a fellowship that will challenge you to enhance your existing technical skills? Do you enjoy working collaboratively with an interdisciplinary team? Do you like working with students, faculty, and staff to help them learn new digital tools and methods? If learning new open-source technologies and helping others to integrate them thoughtfully and productively into their research sounds exciting to you, consider applying to become a GC Digital Fellow.",
+      "Based in the GC Digital Scholarship Lab, the program operates as an in-house think-and-do tank, connecting fellows to digital initiatives throughout The Graduate Center. They utilize a team-based approach as they explore creative solutions for projects and implement them collaboratively, building out “The Digital GC” — a vision of the Graduate Center that incorporates technology into its core research and teaching missions. In the process, fellows contribute to and implement a strategic vision for public digital scholarship by leading week-long digital research institutes, teaching workshops on technical skills, creating resources for GC students and faculty, and building digital projects that make use of the affordances of emerging technology while considering the ethical, social, and political stakes. GC Digital Fellows foster community around digital projects and explore new ways for faculty, students, and staff to share their academic work through emergent digital tools during consultations, working group meetings, and events. In fact, the fellows have been recognized twice by the National Endowment for the Humanities (NEH) for their leadership in digital pedagogy. The group is particularly invested in the ways in which questions of race, gender, and social justice intersect with technology.",
+      "Graduate Center doctoral students within their first 7 years of GC funding are eligible to apply.",
+      "To get a better sense of our work, you can read the GC Digital Fellows’ blog, Tagging the Tower, and our semesterly blog post “What is GCDI?” You might also read through the GCDI Annual Reports on our website.",
+      "Compensation",
+      "GC Digital Fellows work a total of 450 non-teaching hours during the academic year (two 15-week semesters). The initial DF appointment is for one year (exact dates vary and will be specified upon appointment). Determinations of re-appointments will be made on an annual basis up to three years, depending on individual eligibility and GC needs. Please note that students may not hold this Fellowship and a GTF concurrently. Compensation for the fellowship will be approximately $31,141 for the academic year. The fellowship is paid in two parts. Fellows will be appointed to the Graduate Center payroll as Graduate Assistant Bs (GAB) at their own current rate (the minimum GAB salary is currently $14,982) and also receive a Provost’s Award in the amount of $16,159 that will be paid through the Office of Fellowships and Financial Aid in two equal lumps sum payments. One payment will come towards the beginning of the Fall 2026 semester, and the second will come towards the beginning of the Spring 2027 semester. The GAB title provides eligibility to purchase the low-cost NYSHIP health insurance as well as in-state tuition remission for fellows who are within their first ten registered semesters of doctoral study. Fellows who are past their ten registered semesters of doctoral study will be eligible to receive in-state tuition remission at the Level III rate as per the 2017-2023 PSC-CUNY contract (this benefit provides for this tuition remission for a maximum of four semesters past the student’s 10th registered semester).",
+      "Application Instructions",
+      "To apply, please complete our online application form, which includes uploading a letter of interest (no more than 1-2 pages), a CV, a list of digital projects undertaken and/or completed, and the name and contact information for a faculty reference. (NOTE: Faculty reference letters are not requested at this point of the application process).",
+      "Note on AI Use: We value the application and interview process as a means of getting to know each applicant. We request that you refrain from using AI generated text in your letter of interest or CV and only submit materials that reflect your original work. Use of AI for projects in your digital portfolio will be accepted, but it should be documented with process statements that clearly define what tools were used, what they were used for, and how AI helped achieve the project’s goals. For more information on developing AI process statements see https://crln.acrl.org/index.php/crlnews/article/view/26548/34482.",
+      "Applications must be received by April 1, 2026 at 11:59 PM to be considered.",
+      "Apply here: https://cuny.is/gcdf26cfp"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00337353410275417,
+      0.07436360948031262,
+      0.008986448927641378,
+      0.00018109478637393382,
+      0.00032127192154315,
+      0.09276948154228744,
+      0.034660677750620005,
+      0.7853438814884672
+    ],
+    "words": [
+      [
+        "digital",
+        16
+      ],
+      [
+        "work",
+        7
+      ],
+      [
+        "semester",
+        7
+      ],
+      [
+        "application",
+        6
+      ],
+      [
+        "student",
+        6
+      ],
+      [
+        "project",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "23981",
+    "title": "An Introduction to Matplotlib",
+    "date": "2026-03-06",
+    "year": "2025–2026",
+    "authors": [
+      "Pranav Chinmay"
+    ],
+    "originalAuthors": [
+      "Pranav Chinmay"
+    ],
+    "aliases": [
+      "Pranav Chinmay"
+    ],
+    "account": "Pranav Chinmay",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Guides, Tutorials, Reviews",
+      "Uncategorized"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/03/06/an-introduction-to-matplotlib/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "In Python, the most widely used library for creating various kinds of visualizations is Matplotlib. In this post, we will introduce the core ideas behind Matplotlib and illustrate them through simple, concrete examples that can serve as modular foundations for more advanced visualizations. Matplotlib is a low-level plotting library that gives the user fine-grained control over every aspect of a figure. While higher-level libraries such as Seaborn or Plotly build further on this foundation, Matplotlib remains the backbone of most scientific plots produced in Python. The design of Matplotlib is inspired by MATLAB, which makes it intuitive for users with a background in numerical computing.",
+      "Let us begin with a simple example, of a ”line plot,”, i.e., a typical two-dimensional plot of a function of a single variable. The most common way to get started is by using the pyplot interface, which provides a state-based, convenient syntax for…"
+    ],
+    "fullParagraphs": [
+      "In Python, the most widely used library for creating various kinds of visualizations is Matplotlib. In this post, we will introduce the core ideas behind Matplotlib and illustrate them through simple, concrete examples that can serve as modular foundations for more advanced visualizations. Matplotlib is a low-level plotting library that gives the user fine-grained control over every aspect of a figure. While higher-level libraries such as Seaborn or Plotly build further on this foundation, Matplotlib remains the backbone of most scientific plots produced in Python. The design of Matplotlib is inspired by MATLAB, which makes it intuitive for users with a background in numerical computing.",
+      "Let us begin with a simple example, of a ”line plot,”, i.e., a typical two-dimensional plot of a function of a single variable. The most common way to get started is by using the pyplot interface, which provides a state-based, convenient syntax for creating plots. This is enforced by importing Matplotlib as follows: import matplotlib.pyplot as plt",
+      "Following this import command, we use NumPy to call the mathematical function sin(x), and visualize it as follows: import numpy as np x = np.linspace(0, 10, 100) #generate 100 evenly spaced points from 0 to 10 y = np.sin(x) plt.plot(x, y) plt.xlabel(\"x\") plt.ylabel(\"sin(x)\") plt.title(\"A Simple Line Plot\") plt.show()",
+      "All Photos: Pranav Chinmay",
+      "Here, NumPy is used to generate evenly spaced points and call sin(x), and Matplotlib draws a smooth curve connecting them. The functions xlabel, ylabel, and title allow us to annotate the figure. There are further customization options available in the documentation, which is linked at the end of the post.",
+      "In addition to simple plots such as these, Matplotlib supports a wide range of plot types. Let’s look at a few of them.",
+      "Scatter Plots",
+      "Scatter plots are useful for visualizing relationships between variables, especially when dealing with noisy data. Here is an example: x = np.random.randn(500) y = np.random.randn(500) plt.scatter(x, y, alpha=0.5) plt.xlabel(\"x values\") plt.ylabel(\"y values\") plt.title(\"Scatter Plot Example\") plt.show()",
+      "In this example, we use NumPy to generate a random set of x and y values, which we then plot with Matplotlib.",
+      "Histograms",
+      "Histograms, on the other hand, summarize data by grouping values into bins and counting their frequencies.",
+      "data = np.random.randn(1000) plt.hist(data, bins=30) plt.xlabel(\"Value\") plt.ylabel(\"Frequency\") plt.title(\"Histogram Example\") plt.show()",
+      "Once again, the data is randomly generated using NumPy, before we use the hist method of Matplotlib’s pyplot to generate the histogram image.",
+      "Multiple Curves and Customization",
+      "One of Matplotlib’s strengths is the degree of customization it offers. Nearly every element of a plot can be controlled: line styles, marker sizes, fonts, tick marks, and figure dimensions. For instance, we can easily adjust the size of a figure and plot multiple curves on the same axes. plt.figure(figsize=(6, 4)) #adjust figure size plt.plot(x, np.sin(x), label=\"sin(x)\") #plots sine plt.plot(x, np.cos(x), label=\"cos(x)\") #plots cosine plt.legend() plt.title(\"Multiple Curves on One Plot\") plt.show()",
+      "Matplotlib also allows the creation of figures with multiple axes, which is useful for side-by-side comparisons or more complex layouts. While the pyplot interface is sufficient for many tasks, more advanced use cases often benefit from working directly with the Figure and Axes objects.",
+      "This post has provided a brief introduction to Matplotlib’s basic functionality. With these tools, you can already produce a wide variety of informative and polished figures. As your needs grow, Matplotlib’s extensive documentation offers detailed guidance on advanced topics."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.09549981785496994,
+      0.0006373723446539637,
+      0.4884236328140356,
+      0.00021606663173932882,
+      0.24431613739236482,
+      0.1581159018050327,
+      0.010862519092432934,
+      0.001928552064770658
+    ],
+    "words": [
+      [
+        "plt",
+        22
+      ],
+      [
+        "plot",
+        20
+      ],
+      [
+        "matplotlib",
+        15
+      ],
+      [
+        "figure",
+        9
+      ],
+      [
+        "example",
+        6
+      ],
+      [
+        "sin",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "23845",
+    "title": "Thoughts on Situating AI Literacy",
+    "date": "2026-02-20",
+    "year": "2025–2026",
+    "authors": [
+      "Ian G. Williams"
+    ],
+    "originalAuthors": [
+      "Ian G. Williams"
+    ],
+    "aliases": [
+      "Ian G. Williams",
+      "Ian Williams"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is written by guest contributor Ian G. Williams",
+    "tags": [
+      "Artificial intelligence (AI)",
+      "Digital GC",
+      "literacy",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/02/20/thoughts-on-situating-ai-literacy/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "This post is written by guest contributor Ian G. Williams.",
+      "AI literacy is having a moment. Since the release of ChatGPT 3.5 in November 2022, widespread use and adoption of artificial intelligence systems - specifically large language models, generative (pre-trained transformer) AI systems (genAI) - have skyrocketed around the world. Often, this adoption is integrated and layered into existing infrastructures and enterprise systems: Microsoft Copilot suddenly appearing in your Outlook inbox, a notice from Google that Gemini is now part of your storage plan, a note at the top of Adobe Acrobat that says it's easy to summarize a long article and save time, Brightspace offering to generate quiz questions. New models and versions of AI systems seemingly appear every day: AI agents taking the technophile world by storm, and “AI theater” becoming a real-life instance of Pokémon arguing things out on a social media site. The pace of development…"
+    ],
+    "fullParagraphs": [
+      "This post is written by guest contributor Ian G. Williams.",
+      "AI literacy is having a moment. Since the release of ChatGPT 3.5 in November 2022, widespread use and adoption of artificial intelligence systems - specifically large language models, generative (pre-trained transformer) AI systems (genAI) - have skyrocketed around the world. Often, this adoption is integrated and layered into existing infrastructures and enterprise systems: Microsoft Copilot suddenly appearing in your Outlook inbox, a notice from Google that Gemini is now part of your storage plan, a note at the top of Adobe Acrobat that says it's easy to summarize a long article and save time, Brightspace offering to generate quiz questions. New models and versions of AI systems seemingly appear every day: AI agents taking the technophile world by storm, and “AI theater” becoming a real-life instance of Pokémon arguing things out on a social media site. The pace of development and deployment continues. The material and social infrastructures to support AI - data centers, high power computing, fiber optic cables, coding schools and boot camps, AI forward policies - receive massive investments.",
+      "With this explosion of genAI growth, a potpourri of neologisms has emerged - terms like \"prompt engineering,\" \"vibe coding,\" and \"model switching.\" These denote ideas of a skillful use of the technologies; a capacity to instrumentalize and coax them towards a desired set of outcomes - a prototype, a website, an image, an essay, a travel itinerary. These terms imply a mastery and synergy with these new interfaces, and a capacity to integrate them into everyday life. These ideas broadly fit within the concept of \"digital literacy,\" a term first introduced in 1997 by Paul Gilster, which supplanted its predecessor term, \"computer literacy.\" Digital literacy was intended to be more general and broad, and was often used interchangeably with the concept of new media literacies in the early 2000's. When the big data revolution kicked off in the 2010s, data literacy was the new thing (Pangrazio and Sefton-Green, 2020). AI literacy's ascent and emergence are an extension of the lineage, forming around a particular set of technologies, and it is the latest evolution of this ever-changing concept. It's everywhere because we live in a world saturated with AI systems and agents, discourse, marketing, and ideas about AI. For instance, when riding the subway, take a moment to observe how many ads for AI systems and tools cover the train.",
+      "The world is saturated by AI systems, which often get framed as both causes of and solutions to society's ills. Making meaning of AI is largely framed in terms of literacy; as Luci Pangrazio (2026) argued in a recent essay, AI literacy is invoked in both optimistic and pessimistic responses to AI’s ascent - even as the continued idea of literacy forecloses on other possibilities for relating to, finding meaning in, and resisting the flow of AI. Yet AI literacy is here, shaping not just scholarly inquiry, but also policymaking. Last week, the US Department of Labor released an AI Literacy Framework, formalizing a working definition of what this means, part of a wider commitment of the Federal government to \"prioritizing AI literacy and skill development across the workforce and education systems\" (Department of Labor, 2026, p. 1-2).",
+      "Like technologies before it, the sudden rollout of AI systems into the world through unregulated, direct-to-consumer releases does not equally distribute benefits and harms. AI universalism is limited and ignores the importance of local context, and how AI systems layer into and rearrange existing sociotechnial systems. Examining how AI literacies are enacted and played out in people's lives can help ground discussions. While many of us in higher education feel pressure to develop and articulate AI literacies to preserve our turf, engage in sustained critique, and adjust to a new reality, we are a small subset of overall users and consumers of digital technologies. It can be easy to lose sight of this in the academy and forget how everyday people of a variety of backgrounds and skillsets experience this AI moment, and this call for AI literacy.",
+      "Earlier this week, I attended a talk and then an invited workshop, organized by Data & Society. It focused on the report (404) Job Not Found: The AI Literacy Trap At Work, an ethnographic study by Anuli Akanegbu, PhD, of Atlanta's digital skills and job landscape in the midst of the \"AI literacy\" boom. Akanegbu's report also builds upon Daniel Greene's work in this area, crystallized in his book The Promise of Access: Technology, Inequality, and the Political Economy of Hope where he argues that in the 1990's, problems of persistent poverty - particularly in an era of welfare reform and neoliberal market policies - were transformed into problems of technology access: what is now known as the digital divide. Greene describes \"the access doctrine\" - a belief that access to technology (and requisite skills) can solve poverty and social inequality - in his comparative institutional ethnography of Washington, DC in the mid 2010’s. At a conference last year, Greene explained to me how his project emerged from frustrations working in social services and workforce development, where the mantra “learn to code” was unquestionably repeated as the solution to structural poverty.",
+      "Akanegbu’s report builds an important layer of this work, and updates for the current landscape of the mid 20202’s, by taking a close look into Atlanta, a major Southern US city with the highest wealth disparity in the country, the origin of the cotton gin, and a currently booming tech hub that was reinventing itself as \"Silicon Peach.\" The report followed the experiences of Black Atlanta residents as they navigated the AI literacy landscape. The event discussed perspectives on the report, including the central argument that AI literacy is a \"strategic abstraction\" - a deliberately vague concept that is hard to pin down, and always pointing towards an uncertain future, proclaimed in the language of policymakers, businesspeople, and public-private partnerships. This vagueness keeps people, particularly job-seekers and working folk, ever guessing, always having to upskill and position themselves for a changing set of definitions and technologies. Akangegu identitied a digital skills training and AI literacy model that offers an alternative to patchwork, undersupported landscapes often designed with the assumption that participants who are white collar office workers, upskilling on the job, flexibly scheduled, or able to bear the risks of tuition for a precarious and uncertain future. Serena Oduro and Anuli Akanegbu’s companion policy brief identifies strategies for tangible improvements to the current AI literacy landscape.",
+      "Our conversation afterwards with a range of stakeholder organizations - policymakers, labor unions, think tanks, educational institutions, workforce development social enterprises - focused on the concept of AI literacy in education, labor policy, and history. It made me think about my own experiences with trying to make sense of this concept, and what the different dimensions of what becoming \"AI literate\" might entail. Rather than presume an object or universal understanding, I thought it would be helpful in this note to locate and situate my experiences, which are rooted in my activities and relationships at GCDI. Although I am a social worker, my \"practice\" has been primarily on campus and in university settings for some time now - I work in community with other academics. Much of my funding has come from fellowships and programs associated with GCDI, which exposed me to the world of digital humanities.",
+      "I have been thinking and reading about AI literacy, and digital skills, for some time. This genAI moment unfolded during my time at The Graduate Center and my perception has been shaped by institutional context. Sometimes, I am so immersed in how we approach technology, education, and society here that I forget the distinct contours of our approach and our daily practices here - hence why the Data & Society event was so refreshing and thought-provoking. It is hard to articulate concisely what we do at GCDI, but if I had to, I would say our approach grounds humanistic inquiry, tempered optimism, a strong commitment to situated ethics, and a belief in the importance of fostering communities of practice and mutual support might start to sum it up. CUNY has a rich history of both organizing against harmful technological practices in education and building alternative practices and infrastructures (Fabricant & Brier, 2016). There is a real commitment here to seeking structural policy solutions along with adapting education and other institutions to the current times - such as we are seeing in initiatives such as The Critical AI Literacy Institute and the emergent CUNY AI Lab. It gives me some hope regarding how we can develop meaningful and actually useful approaches to what AI literacy can be, and sustains my curiosity about how this AI literacy moment will continue to play out in CUNY, and in society.",
+      "—",
+      "References",
+      "Fabricant, M., & Brier, S. (2016). Austerity blues: Fighting for the soul of public higher education. JHU press.",
+      "Gilster, P. (1997). Digital literacy. New York: Wiley Computer Pub.",
+      "Greene, D. (2021). The promise of access: Technology, inequality, and the political economy of hope. mit press.",
+      "Pangrazio, L. (2026). The (im)possibility of AI literacy. Learning, Media and Technology, 51(1), 1–7. https://doi.org/10.1080/17439884.2026.2615553",
+      "Pangrazio, L., & Sefton-Green, J. (2020). The social utility of ‘data literacy’. Learning, Media and Technology, 45(2), 208-220. https://doi.org/10.1080/17439884.2020.1707223"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.000264776683685334,
+      0.5564750643302625,
+      0.0016400410898352031,
+      8.98031919641774e-05,
+      0.00297556965691684,
+      0.22483563436177487,
+      0.007331013490892798,
+      0.20638809719466827
+    ],
+    "words": [
+      [
+        "ai",
+        39
+      ],
+      [
+        "literacy",
+        27
+      ],
+      [
+        "system",
+        11
+      ],
+      [
+        "technology",
+        9
+      ],
+      [
+        "digital",
+        8
+      ],
+      [
+        "work",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "23741",
+    "title": "A.I. Meets Critical Media Art",
+    "date": "2026-02-13",
+    "year": "2025–2026",
+    "authors": [
+      "Jonah Brucker-Cohen"
+    ],
+    "originalAuthors": [
+      "Jonah Brucker-Cohen"
+    ],
+    "aliases": [
+      "Jonah Brucker-Cohen"
+    ],
+    "account": "Tuka Al-Sahlani",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post is written by guest contributor Jonah Brucker-Cohen",
+    "tags": [
+      "Artificial intelligence (AI)",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/02/13/a-i-meets-critical-media-art/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "This post is written by guest contributor Jonah Brucker-Cohen from Lehman College. Connect with Jonah Brucker-Cohen at Jonah.bruckercohen@lehman.cuny.edu",
+      "A.I. Meets Critical Media Art is a series of eight distinct projects of which five of them will be detailed here. These works build off of my previous work in the area of A.I. by maintaining the focus on questioning not only the results of A.I. but the medium itself.",
+      "AGGRO-MOUSE",
+      "AGGRO-MOUSE is a hacked computer mouse infused with A.I. that intentionally limits a user’s ability to use their computer if conditions are met. For instance, opening the same folder or drive over and over again instructs AGGRO-MOUSE to impede your ability to move the mouse towards that folder or drive on the desktop. The mouse monitors user habits and imposes restrictions when repetitive patterns are detected. When these conditions are met, the AGGRO-MOUSE disrupts the physical movement of the cursor,…"
+    ],
+    "fullParagraphs": [
+      "This post is written by guest contributor Jonah Brucker-Cohen from Lehman College. Connect with Jonah Brucker-Cohen at Jonah.bruckercohen@lehman.cuny.edu",
+      "A.I. Meets Critical Media Art is a series of eight distinct projects of which five of them will be detailed here. These works build off of my previous work in the area of A.I. by maintaining the focus on questioning not only the results of A.I. but the medium itself.",
+      "AGGRO-MOUSE",
+      "AGGRO-MOUSE is a hacked computer mouse infused with A.I. that intentionally limits a user’s ability to use their computer if conditions are met. For instance, opening the same folder or drive over and over again instructs AGGRO-MOUSE to impede your ability to move the mouse towards that folder or drive on the desktop. The mouse monitors user habits and imposes restrictions when repetitive patterns are detected. When these conditions are met, the AGGRO-MOUSE disrupts the physical movement of the cursor, introducing friction into the user’s interface experience. This design probes the boundaries between user autonomy, machine agency, and the psychological impact of disrupted routines in human-computer interaction.",
+      "EXPRESSION OF MEMORY",
+      "“Expression of Memory” is a calendar with A.I. that will only show important dates from someone’s life that correspond to their current emotional, facial expression. One begins by training the calendar on important dates from their life based on their emotional responses (happy, sad, angry, fearful, surprised, disgusted, neutral, and confused) to those dates. Once trained, the calendar detects their emotional state based on their facial expression and responds with the date and name of the event in their life that corresponds to their current emotional state. For instance, if one smiles at the screen, dates and media related to “happy” moments in their life will emerge such as a past birthday, favorite vacation, wedding day, graduation, or other joyful moments of their life. If crying or frowning, sad days materialize such as a death in the family, when an injury occurred, or when they lost their job.For decades, theorists have studied how emotional states can trigger memories in individuals. “Expression of Memory” functions as an emotional detection system that can tell how a person is feeling based on their facial expression and recall a memory that corresponds to this feeling.",
+      "SubTask",
+      "“Subtask” is a media artwork that visually marks parts of websites that rely on crowd labor or data-labeling work and use cloud labor sites like Amazon Mechanical Turk, Appen, Scale A.I., and others to create the site. The project overlays data such as pay rates, testimonials, and ethical ratings from public datasets and activist sources related to each website that it is asked to check. The goal of the project is to critically examine how the Internet is largely built by underpaid laborers and A.I. software and how the web exists as another form of control to get large online presences built. “Subtask” is an open source extension to the popular browser, Google Chrome, allowing anyone to install it and search for invisible forms of labor across any website that they view. It works by crawling crowd and A.I. worker sites like Appen, Mechanical Turk, and Scale A.I. for user testimonials about how much was paid to workers to complete menial tasks such as labelling images, resizing design elements, and adding statistical data to documents. Once installed, the extension places “green” flags next to content that was created by online “clickworkers” and a testimonial of their activity on the site to expose these blatantly abusive labor practices.",
+      "Weather The Times",
+      "“Weather The Times” is an open source Chrome extension with A.I. that filters which New York Times articles can be read based on the local weather of where the user is situated. By dynamically fetching real-time weather data and conducting sentiment analysis of articles, “Weather The Times” nudges a viewer’s news diet to match the mood of the skies above: On sunny days, only lighthearted and uplifting stories are accessible such as lifestyle, food, and travel. On rainy or stormy days, the extension restricts access to more serious and somber news about world events, crises, and politics. Articles that don’t fit the current weather mood are visually blurred and overlaid with poetic messages explaining their temporary inaccessibility. This project is a critique of how external forces, like the environment or algorithmic curation shape our information consumption, questioning our passive relationship to news and the emotional filters that color our perception of the world.",
+      "Not THIS",
+      "“Not THIS” is a conceptual and experiential artwork that engages both A.I. and Baudrillardian theory to explore absence, exclusion, and the poetics of negation. A live camera feed captures the viewer and their surroundings, but the AI does not identify what is present, instead, it generates text describing what is not detected, with phrases such as “Not a person. Not a tree. Not memory.” By refusing to recognize reality directly, the A.I. inverts its conventional role as an objective classifier, creating a tension between what is visible and what is acknowledged. The piece is based on Baudrillard’s notion of simulacra and hyper reality Baudrillard, Jean. Simulacres et Simulation. Éditions Galilée, 1981. , in which signs and representations can replace or precede reality. Here, the A.I.’s negations produce a hyperreal commentary: the viewer exists in the video feed yet is rendered partially absent in the textual output. This inversion exposes the limitations of machine perception while turning A.I. into a poetic device, generating meaning through omission rather than factual identification. “Not This” reveals the limits of machine perception. The A.I. refuses to affirm what it sees, instead naming what is not present, echoing Magritte’s paradox of language and image. Both works question the authority of vision and truth, inviting viewers to confront the instability of meaning, and how representation, whether painted or algorithmic constructs, rather than captures, the real.",
+      "Conclusion",
+      "Despite the seemingly inevitability of A.I. as an all-encompassing force for content generation and online deception such as the ease in creating “fake news” or celebrity impersonations, the potential for artists to subvert these systems is exponential. Instead of merely using an A.I. system to create something it was intended to make, my intention is to subvert the software itself by using it to critically examine its own use. The projects outlined above along with the previous projects help prove that questioning these platforms is the ultimate method of provoking new understandings of just how much A.I. has infiltrated our daily lives and how its existence is still one that should be questioned and hacked.",
+      "This full paper was published in the proceedings of EVA London 2026 - http://www.eva-london.org/"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0003614916512895747,
+      0.5559565006143022,
+      0.00031662537386197904,
+      0.015502393221738896,
+      0.00021750894917737284,
+      0.17431066839831236,
+      0.16957410904240658,
+      0.08376070274891097
+    ],
+    "words": [
+      [
+        "ai",
+        19
+      ],
+      [
+        "mouse",
+        7
+      ],
+      [
+        "emotional",
+        7
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "user",
+        6
+      ],
+      [
+        "expression",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "23481",
+    "title": "Why Should You Make a Website For Your Tenants’ Association?",
+    "date": "2026-02-06",
+    "year": "2025–2026",
+    "authors": [
+      "Sam O'Hana"
+    ],
+    "originalAuthors": [
+      "Sam O'Hana"
+    ],
+    "aliases": [
+      "Sam O'Hana"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "By Sam O'Hana",
+    "tags": [
+      "#DigitalGC",
+      "Digital GC",
+      "digital humanities",
+      "resources",
+      "Uncategorized",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/02/06/why-should-you-make-a-website-for-your-tenants-association/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "By Sam O'Hana",
+      "“Stewardship, not ownership, is the path to adulthood” – Amy Starecheski, Ours to Lose: When Squatters Became Homeowners in New York City",
+      "68% of the world’s wealth is held in real estate, and 79% of that is in residential housing.1 In the US in the 2010s, landlords collected more than $4.5 trillion from tenants in rent payments.2 In 2024, the residential vacancy rate in New York City hit an all-time low of 1.4%,3 while homelessness in the city doubled since the pandemic to an estimated 350,000 people, including 35,000 homeless children.4",
+      "For those who rent rather than own their homes, protecting your tenancy can be a part time job. At any time you might be outbid on the rights your home by a newcomer who can afford to pay more. But this work need not happen alone. A tenants’ association– a group of tenants in a building who organize to defend their rights to affordable, stable and safe housing– redresses the power imbalance…"
+    ],
+    "fullParagraphs": [
+      "By Sam O'Hana",
+      "“Stewardship, not ownership, is the path to adulthood” – Amy Starecheski, Ours to Lose: When Squatters Became Homeowners in New York City",
+      "68% of the world’s wealth is held in real estate, and 79% of that is in residential housing.1 In the US in the 2010s, landlords collected more than $4.5 trillion from tenants in rent payments.2 In 2024, the residential vacancy rate in New York City hit an all-time low of 1.4%,3 while homelessness in the city doubled since the pandemic to an estimated 350,000 people, including 35,000 homeless children.4",
+      "For those who rent rather than own their homes, protecting your tenancy can be a part time job. At any time you might be outbid on the rights your home by a newcomer who can afford to pay more. But this work need not happen alone. A tenants’ association– a group of tenants in a building who organize to defend their rights to affordable, stable and safe housing– redresses the power imbalance between renters and landlords, forcing owners to negotiate with a group of tenants rather than with each one on a case-by-case basis.",
+      "The corruption that is required to raise rents, evict tenants and displace longstanding communities can only function in the dark. Fraudulent deregulation of rent stabilized apartments, absence of essential repairs, and arbitrary refusal to renew leases become the norm only when landlords are not held to account by the facts of the law and of public exposure. When tenants learn their rights, they simultaneously learn to recruit the assistance of city agencies like HPD, DHCR, DOB and the FDNY to defend the integrity of their home life.",
+      "A tenants’ association website is a key tool for tenants to disrupt the narrative that speculative real estate runs on because online listings market properties as lucrative investments. A tenants association website, by showing up on internet search results, shows prospective buyers, lenders and tenants that the occupants of the building know their rights in relation to their tenancies and are willing to enforce them using all appropriate channels, including litigation if need be.",
+      "A simple self-hosted Wordpress site such as the one at https://157huronstreet.com/ makes it clear to all stakeholders– current and prospective– that the risk of attempting to harass tenants in order, for example, to empty out a building in order to “flip” it for substantial returns, is much higher than in a building where the tenants are not organized. This is because tenants can file collective complaints with the city authorities, who will in turn deploy multi-agency harassment prevention “task forces” that can issue violations for neglect and nuisances, as well as stop work orders for any illegitimate construction work.",
+      "Landlords are often unscrupulous, but they are almost always well organized. They share attorneys who know how to intimidate tenants and drag out legal claims made by tenants, bluffing their way through the courts and wasting the time and resources of the taxpayer-funded judicial system. Only by joining with each other can tenants effectively counter narratives of misinformation. It is far more effective if those counternarratives can be published online through a website because it puts on the record the issues at stake for all members of the community to see.",
+      "Many neighborhoods in New York have tenants’ associations that you can find by searching online, such as Flatbush, Crown Heights, Chinatown, Upper Manhattan, Bushwick, Southwest Brooklyn, Astoria, Ridgewood. There is also a newly emerging national Tenant Union Federation.",
+      "1. Tracy Rosenthal & Leonardo Vilchis. Abolish Rent, Haymarket Books, 2024.",
+      "2. Ibid.",
+      "3. NYC Housing Preservation and Development, New York City’s Vacancy Rate Reaches Historic Low of 1.4 Percent, Demanding Urgent Action & New Affordable Housing, February 8, 2024.",
+      "4. Coalition for the Homeless, Basic Facts About Homelessness: New York City, January 2026."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007340423725129831,
+      0.461378196479337,
+      0.004546698130081962,
+      0.00024896205802986616,
+      0.023864237528885664,
+      0.26807126196259057,
+      0.12962912853695763,
+      0.11152747293160427
+    ],
+    "words": [
+      [
+        "tenant",
+        18
+      ],
+      [
+        "city",
+        7
+      ],
+      [
+        "new",
+        6
+      ],
+      [
+        "york",
+        5
+      ],
+      [
+        "rent",
+        5
+      ],
+      [
+        "housing",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "23509",
+    "title": "Welcome to Spring'26!",
+    "date": "2026-02-02",
+    "year": "2025–2026",
+    "authors": [
+      "Meha Gupta"
+    ],
+    "originalAuthors": [
+      "Meha Gupta"
+    ],
+    "aliases": [
+      "Meha Gupta"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "GCDI Updates",
+      "News",
+      "Opportunities",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/02/02/welcome-to-spring26/",
+    "signals": [],
+    "paragraphs": [
+      "Welcome back to the Spring semester! The GC Digital Fellows have been hard at work developing more events, workshops, and resources to support digital scholarship at the Graduate Center. Read on to find out more about what we’ve been up to and what we have in store for you this semester.",
+      "January’s Successful GC Digital Research Institute",
+      "Just last week, the GCDI ran its fourteenth Digital Research Institute. We had a lovely time teaching and learning skills like HTML/CSS, Python, Command Line, and QGIS alongside more than 30 participants. If you’re feeling FOMO and don’t want to wait until next winter to join us in the DRI, you can follow the curriculum and do some independent learning through the DHRIFT online learning platform. And as always, set a reminder for this November to remember to apply for next year’s DRI!",
+      "Spring Workshops",
+      "Every semester, the Digital Fellows offer hands-on in-person and remote online workshops on digital…"
+    ],
+    "fullParagraphs": [
+      "Welcome back to the Spring semester! The GC Digital Fellows have been hard at work developing more events, workshops, and resources to support digital scholarship at the Graduate Center. Read on to find out more about what we’ve been up to and what we have in store for you this semester.",
+      "January’s Successful GC Digital Research Institute",
+      "Just last week, the GCDI ran its fourteenth Digital Research Institute. We had a lovely time teaching and learning skills like HTML/CSS, Python, Command Line, and QGIS alongside more than 30 participants. If you’re feeling FOMO and don’t want to wait until next winter to join us in the DRI, you can follow the curriculum and do some independent learning through the DHRIFT online learning platform. And as always, set a reminder for this November to remember to apply for next year’s DRI!",
+      "Spring Workshops",
+      "Every semester, the Digital Fellows offer hands-on in-person and remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. (Ready yourself by learning how to get the most out of our workshops here.) Registration is required, you can do so by selecting the workshop on the workshop calendar and completing the workshop RSVP to get on our attendee list. Here’s a list of our upcoming workshops for Spring 2026:",
+      "Basic Audio Editing with Audacity",
+      "Tuesday, 2/10/26 12-1:30 pm",
+      "This hands-on workshop will be a foundational exploration of Audacity as an audio editing software. We will discuss some of its functionalities that can help you edit and clean your audio files to prepare them for publishing and sharing. Prior knowledge and experience are not necessary for the workshop. We will work with a demo audio, but having a pre-recorded sound clip/file (~1 min) that you can practice on is encouraged.",
+      "AI Tools for Research: Understanding AI Systems in Research Contexts",
+      "Wednesday, 2/18/26 12-2 pm",
+      "This workshop introduces the fundamentals of artificial intelligence and large language models (LLMs) with a focus on how these systems operate when used in research settings. Rather than emphasizing tools or tricks, the session centers on building conceptual literacy: what LLMs are, how they generate outputs, and what happens when researchers interact with them through prompts and iterative feedback. Participants will explore common research use cases, such as literature exploration, drafting, and analytic support, alongside key limitations, risks, and ethical considerations. By developing a clearer mental model of AI systems, attendees will be better equipped to use these tools intentionally, critically, and responsibly in their research workflows.",
+      "Text Analysis for Right to Left Languages",
+      "Thursday, 2/19/26 12:30-2:00 pm",
+      "Doing DH in languages other than English, especially right to left languages, once required building tools from the ground up. Today, we find that there are several text analysis tools that can be used when working with right to left languages. In this workshop we will explore one text analysis tool and one AI tool that may assist in multilingual text analysis.",
+      "Slides with LaTeX",
+      "Thursday, 2/26/26 1:00-2:30 pm",
+      "\"A presentation is not a set of slides: it is all about someone having something to say to an audience-slides or no slides.\" With this aphorism of Doumont in mind, we will learn how to use the Beamer package in the typesetting software LaTeX to create effective slides for short talks. Beamer is a powerful tool that inherently forces you to carefully consider how to use judiciously use slide space, enabling the creation of useful slides that complement your talk. This workshop is designed for those with a basic understanding of LaTeX, including those who attended Fall 2025's Introduction to LaTeX. We will go through some examples of efficient slides, walk through how to use Beamer, and finish by creating our own mini-slide deck as a workshop activity.",
+      "Making Beautiful Maps with QGIS and Tableau",
+      "Monday, 3/9/2612-1:30 pm",
+      "Do you know the basics of QGIS but lose all hope when you try to stylize your map? QGIS is notorious for its frustrating, counterintuitive, and finicky design options. Have no fear! This workshop will teach you how to export your spatial data from QGIS and use Tableau, a data visualization platform, to make a visually compelling, interactive map in just a few simple steps.",
+      "Queer DH: Key Projects and Concepts",
+      "Tuesday, 3/17/26 12-1:30 pm",
+      "What does it mean to do queer digital humanities? This workshop will explore key themes of identity, narrative, and space in queer DH, and introduce participants to projects exemplifying the possibilities and limitations of queer(ing) digital humanities. We will engage in a critical exploration of queer archives, mapping, gaming, and more!",
+      "Introduction to Omeka",
+      "Tuesday, 3/24/26 12-1:30 pm",
+      "This workshop introduces beginners to Omeka Classic, which is a free version of the content management system for sharing collections of objects or other sources online. It is built using free, open source software used to encourage websites for sharing digital collections and creating online exhibits. This is ideal for scholarly projects, community based projects, classroom assignments, and public history. This workshop gives a brief overview of the platform, its features, and how to use it.",
+      "LLM-Assisted Coding",
+      "Thursday, 3/19/26 12-1:30 pm",
+      "This workshop introduces graduate students to using Large Language Models (LLMs) to accelerate research coding and everyday technical work. The session focuses on hands-on workflows for writing and refactoring code, debugging errors, cleaning and transforming data, and generating analysis templates. It also highlights responsible use, including verification habits, privacy awareness, and academic integrity. Participants will leave with reusable prompt templates and a clear framework for integrating LLM assistance into reproducible research.",
+      "One-on-one Consultations",
+      "Have a question about your digital project? Thinking of including digital tools in your scholarship or teaching? GCDI staff are available to meet in-person at the GC and/or remotely with GC students, faculty, and staff to talk through technical challenges, digital skills, or simply brainstorm. Sign up for a 30-minute consultation through this form.",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice, and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and the Digital Dissertations Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Resources and Funding Opportunities",
+      "Provost’s Digital Innovation Grant",
+      "DEADLINE: Tuesday, February 10, 2026",
+      "Application Form",
+      "Provost’s Digital Innovation Grants (PDIGs), a recurring GC Digital Initiatives program, provide financial support of up to $2,000 to doctoral students at the CUNY Graduate Center as they design and develop digital projects that contribute to the GC’s research, teaching, and service missions. Since 2012, PDIGs have supported a wide range of inventive projects across the disciplines, such as an online, open-access, crowdsourced database of mentor relationships within the field of writing studies; an app to support street medics and promote health and safety among activist communities; a computational analysis of Cold War diplomatic history; and many others.",
+      "Projects at any stage of development are eligible for PDIG awards. Proposals may also include the initial development of a digital project or the ongoing development, growth, and deployment of established individual or team digital projects. Such projects may require additional resources to make a tool presentable to an academic audience or to improve the design of an early prototype based on feedback and evaluation. Proposals should describe how they address a challenge or problem in the applicant’s scholarly field.",
+      "Successful applicants will be asked to share a description on the Provost’s Digital Innovation Grant website and to write a white paper upon completion of the grant that will also be published on our website. Additionally, grantees will be expected to present publicly on their work in progress during the academic year, including presenting at the 2026 Digital GC Showcase on Thursday, May 14th at 6:30 PM and participating in occasional collaborative meetings and discussions with current and past grantees. Projects that use open-source tools and that focus on making work publicly accessible are strongly encouraged.",
+      "Manifold Digital Publishing Platform",
+      "As CUNY students, you have free access to Manifold, an open source, digital publishing platform. Manifold is an Andrew W. Mellon Foundation and National Endowment for the Humanities (NEH) funded collaboration between the GC, University of Minnesota Press, and Cast Iron Coding. Manifold projects are multimedia friendly and texts created in Manifold may be annotated using Manifold’s built-in social annotation tool.",
+      "On CUNY’s instance of Manifold you can publish:",
+      "Your own scholarship – searching for mami & abuelita (dissertation), Queer and Trans Prison Voices (capstone)",
+      "Journals – Journal of Interactive Technology and Pedagogy – JITP",
+      "Course Sites and Open Educational Resources (OER) such as:",
+      "Archival projects – Let My People Know, Adrienne Rich:Teaching at CUNY",
+      "Class projects & course sites – Black Diasporic Visions: (De) Constructing Modes of Power, Modern Art and OER Writing Seminar, Theatre History II",
+      "Teaching editions of public domain texts – The Narrative of the Life of Frederick Douglass",
+      "Teaching and pedagogy resources – Teach@CUNY Handbook",
+      "Creative work such as poetry or personal essays When We Had Cancer, Happy Nostalgia",
+      "To learn more about using Manifold, check out our Getting Started with Manifold Quick Guides! Join the Manifold Users group on the CUNY Academic Commons to be notified about Manifold workshops and updates.",
+      "If you have questions about using Manifold please contact Robin Miller or Manifold Graduate Fellows Cortnie Belser, Herline Honorat, Cen Liu, and August Smith.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible to register for an account on the CUNY Academic Commons. The Commons is a CUNY-created and run platform for building websites, collaborating with groups, and connecting with peers across the university. Faculty, staff, and students at CUNY use the Commons to teach and take courses, create academic portfolios, host websites for their research projects or academic departments, and more! To learn more, check out the Commons’ About page, read the latest Commons News releases, browse featured groups and sites, and visit the Commons’ HELP pages for support with getting started.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such as tools, methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Racialized Aspects of Data Collection & Data Use by Peyton Cordero",
+      "What is metadata, and why does it matter? by Maggie Schreiner",
+      "How AI Is Changing What It Means to Learn by Eunah Cho",
+      "AI is everywhere; is it in qualitative research, too? Potentials, Pitfalls, and Open-Source Solutions (Part 1) by Parisa Setayesh",
+      "Digital Tools to Experiment with this Winter by Meha Gupta",
+      "Introduction to Python’s NetworkX By Pranav Chinmay",
+      "What about Public Presence? by Christopher Colon",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "Additional resources include the Digital Archive Research Collective, the Digital Dissertations Resource Guide, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Stay in touch!",
+      "Want to keep up to date on all the GCDI happenings? Be sure to join our GCDI Group on the Commons, subscribe to our calendar, follow us on LinkedIn, check out our Linktr.ee, and be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "Please don’t hesitate to contact the Digital Fellows gc.digitalfellows@gmail.com with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Anna, Tuka, Maggie, Parisa, Chinmay, Meha, Chris, and Eunah"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "23273",
+    "title": "Introduction to Python’s NetworkX",
+    "date": "2025-12-12",
+    "year": "2025–2026",
+    "authors": [
+      "Pranav Chinmay"
+    ],
+    "originalAuthors": [
+      "Pranav Chinmay"
+    ],
+    "aliases": [
+      "Pranav Chinmay"
+    ],
+    "account": "Pranav Chinmay",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital Fellows",
+      "Digital GC",
+      "Digital Scholarship",
+      "News",
+      "T"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/12/12/introduction-to-pythons-networkx/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Network science provides a powerful lens through which we can study complex systems, examples of which range from molecular structures to social interactions. In Python, the most widely used library for representing and analyzing networks is NetworkX, an intuitive and remarkably flexible toolkit for graph creation. In this post, we will explore the basics of NetworkX and illustrate its capabilities using a classic model from statistical physics, percolation on a square lattice. I have used NetworkX extensively to create visuals for my own presentations on the mathematical concept of bond percolation. I have exemplified it below:",
+      "All Photos: Pranav Chinmay",
+      "NetworkX, fundamentally, is a Python library designed to handle the analysis and visualization of the mathematical objects known as graphs, which are collections of vertices with connecting edges. With NetworkX, you can define a graph by prescribing the vertices and edges, and then, as…"
+    ],
+    "fullParagraphs": [
+      "Network science provides a powerful lens through which we can study complex systems, examples of which range from molecular structures to social interactions. In Python, the most widely used library for representing and analyzing networks is NetworkX, an intuitive and remarkably flexible toolkit for graph creation. In this post, we will explore the basics of NetworkX and illustrate its capabilities using a classic model from statistical physics, percolation on a square lattice. I have used NetworkX extensively to create visuals for my own presentations on the mathematical concept of bond percolation. I have exemplified it below:",
+      "All Photos: Pranav Chinmay",
+      "NetworkX, fundamentally, is a Python library designed to handle the analysis and visualization of the mathematical objects known as graphs, which are collections of vertices with connecting edges. With NetworkX, you can define a graph by prescribing the vertices and edges, and then, as desired, compute structural properties, run algorithms (e.g., finding shortest paths between points), and crucially, draw visuals using Python’s matplotlib. NetworkX’s flexibility makes it excellent for modeling both abstract mathematical objects, such as random graphs, and real-world systems, such as specific graphs built from an experimental dataset. In this blogpost, we will take a look at a famous example of a random graph, which is site percolation on the square lattice.",
+      "The square lattice is a grid of points where each point is connected to its nearest neighbors. With NetworkX, we can conveniently construct these as follows: import networkx as nx",
+      "n = 50 #creates a 101x101 grid G = nx.grid_2d_graph(2*n + 1, 2*n + 1)",
+      "Next, in site percolation, each vertex of the lattice is independently labeled either open (with probability p) or closed. Edges connect open sites only. As we vary p, the system undergoes a phase transition: at the critical probability, a giant cluster emerges. The images at the start of this post represent the subcritical, critical and supercritical regimes for bond percolation, where the largest cluster is colored in red.",
+      "With NetworkX, simulating this process is straightforward. After generating the 2D grid as we did before, we simply have to remove vertices with probability 1-p. A self-contained script is given below, with comments appended using hashtags to explain each line. import random import networkx as nx",
+      "def percolate_lattice(n, p): G = nx.grid_2d_graph(2*n + 1, 2*n + 1) #generates the 2D grid of radius n closed = #creates a list of vertices to remove by checking repeatedly if each drawn random value is larger than the parameter p G.remove_nodes_from(closed) #removes the vertices from the grid return G Once we have the percolated graph, we can now analyze it using NetworkX’s built-in methods. For example, to compute connected components: components = list(nx.connected_components(G)) largest_cluster = max(components, key=len) print(components)",
+      "NetworkX can return components as lists of vertices. Using further methods, we can examine their sizes, shapes, or whether they span from one side of the grid to the other. One central question in percolation theory is whether an open cluster connects opposite boundaries of the lattice. To test this, we check whether any component contains a node on the left boundary and a node on the right boundary. def spans(component): xs = return (min(xs) == 0) and (max(xs) == 2*n)",
+      "Iterating this check over all components in the list “components” allows us to understand the presence of spanning clusters across repeated trials. Finally, NetworkX can draw graphs using matplotlib. While drawing large lattices can be slow, for modest sizes the visualization can be illuminating. For example, the following snippet can be added to the previous ones to enable visualization of the percolated graph: import matplotlib.pyplot as plt",
+      "pos = {(i, j): (i, j) for (i, j) in G.nodes()} plt.figure(figsize=(6, 6)) nx.draw(G, pos=pos, node_size=10, linewidths=0) plt.show()",
+      "Open nodes appear as connected points, while removed (closed) nodes simply do not appear. For more sophisticated simulations, including bond percolation (which is the model the pictures represent), or higher‑dimensional grids, NetworkX provides the flexibility to modify the underlying graph structure without changing the logic of the simulation. This post provides a simple entry point into using NetworkX to study graphs and networks. Its documentation provides a large number of additional tools and methods to perform precisely the tasks you may need."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.05882954583206172,
+      0.031236288934322603,
+      0.3745507947808901,
+      0.0001955307007209226,
+      0.3866565225945519,
+      0.0756369755677199,
+      0.055819340024914836,
+      0.017075001564818035
+    ],
+    "words": [
+      [
+        "networkx",
+        15
+      ],
+      [
+        "graph",
+        13
+      ],
+      [
+        "component",
+        11
+      ],
+      [
+        "grid",
+        9
+      ],
+      [
+        "node",
+        8
+      ],
+      [
+        "percolation",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "23261",
+    "title": "Digital Tools to Experiment with this Winter",
+    "date": "2025-12-05",
+    "year": "2025–2026",
+    "authors": [
+      "Meha Gupta"
+    ],
+    "originalAuthors": [
+      "Meha Gupta"
+    ],
+    "aliases": [
+      "Meha Gupta"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/12/05/digital-tools-to-experiment-with-this-winter/",
+    "signals": [],
+    "paragraphs": [
+      "While the winter break as a graduate student is much-needed time to rest, a lot of us struggle with stress related to the change of routine and productivity expectations. In the past, I have utilized my winter breaks not as a time to catch up on work or create new deadlines for myself, but rather, a time to reset and build ground for a more steady and fulfilling semester. During the semester, we do not get time to try new things as they disrupt our routine. So, this winter break, I encourage you to experiment with new software and digital tools that could change the way you read, write, research, and teach.",
+      "OneDrive: This is an alternative to Zotero, local drive, or Google Drive for reliable access to your files (and CUNY gets free access to it). It securely stores your documents in the cloud, keeps everything automatically synced, and integrates smoothly with Microsoft 365 for easy collaboration. As a student, you can draft your…"
+    ],
+    "fullParagraphs": [
+      "While the winter break as a graduate student is much-needed time to rest, a lot of us struggle with stress related to the change of routine and productivity expectations. In the past, I have utilized my winter breaks not as a time to catch up on work or create new deadlines for myself, but rather, a time to reset and build ground for a more steady and fulfilling semester. During the semester, we do not get time to try new things as they disrupt our routine. So, this winter break, I encourage you to experiment with new software and digital tools that could change the way you read, write, research, and teach.",
+      "OneDrive: This is an alternative to Zotero, local drive, or Google Drive for reliable access to your files (and CUNY gets free access to it). It securely stores your documents in the cloud, keeps everything automatically synced, and integrates smoothly with Microsoft 365 for easy collaboration. As a student, you can draft your chapter on your laptop at home, make edits on your office computer, and pull it up instantly during a meeting, and even make highlights and notes—no frantic USB-hunting or version confusion.",
+      "Flora: Even grad students struggle to stay focused—especially with constant notifications. Flora uses a gamified focus timer that “grows” plants as you concentrate, helping you stay off your phone and maintain momentum. You may start a 25-minute session (Pomodoro technique) while reading dense theory, and watching your plant grow becomes a gentle accountability partner that keeps you from wandering back into doom-scrolling or email-checking territory.",
+      "Unroll.me: Students drowning in subscription emails will seriously appreciate Unroll.me. It helps you unsubscribe from endless mailing lists with a click and bundles the rest into one clean digest so you can actually breathe in your inbox again. As a PhD student, you can clear out all those conference advertisements and newsletter blasts, making it far easier to spot important messages from your advisor or committee.",
+      "Hypothesis: Anyone who values deep reading and collaborative annotation will benefit from Hypothesis. It lets you highlight, comment, and discuss texts directly on the webpage or PDF, creating a shared layer of insights. You can use it for both research and teaching to annotate an article as a group, turning solitary reading into a collective, thoughtful, and genuinely helpful conversation.",
+      "Obsidian: Grad students committed to dense online note-taking and juggling long-term research projects will really benefit from Obsidian. It’s a powerful note-taking tool that links your ideas together like a personal knowledge graph, helping you see patterns across your thinking. You can link notes from different papers, map how theories connect, and watch your dissertation framework evolve in a way that feels organized rather than overwhelming. It might be time-consuming, but the results are surely fulfilling to see.",
+      "NordVPN: In these days of data privacy concerns—especially when many of us work in cafés or airports—any student using public Wi-Fi can benefit from NordVPN. It encrypts your browsing, protects your identity, and gives you secure access to your data and resources. It has a minimal fee, but you can use it to safely open your files or work with sensitive research data while on public WiFi.",
+      "Superhuman: Students who want to take control of their inbox instead of drowning in it will benefit from Superhuman. It speeds up email with shortcuts, reminders, and AI sorting that helps you get through messages quickly and confidently. You can schedule follow-up nudges for advisor emails, clear clutter in seconds, and turn your inbox from a stress zone into a manageable workflow.",
+      "Rize: Students who care about how they spend their time—and want to improve it—will benefit from Rize. It automatically tracks and categorizes your activities, helping you understand your habits, focus patterns, and productivity blocks. Perhaps in 2026, you can review your weekly time breakdown, notice when most writing or emailing happened, and adjust your schedule to actually match your best focus windows.",
+      "StudyTube: Finally, if you are someone who seeks academic inspiration from the community, I suggest exploring EduTube or StudyTube. Studytube is a group of creators on YouTube who vlog their education in order to create access to the process of learning in or outside of the academy. Many of these creators do in-depth walkthroughs of their research and writing styles, thereby making visible the ambiguities of the hidden curriculum. At the same time, in the realm of public humanities, they offer some great insights into the effects of AI in their fields. Some creators I watch are Sarah Fisher (Rhetoric and Composition), Kaelyn Grace Apple (History), Adam Walker (English), and Vee Kativhu (Education). I often take breaks between study sessions by watching vlogs that ignite an embodied sense of learning in me.",
+      "I hope some of these suggestions warm up your winter break. While none of these tools are neutral, and they may be critiqued in multiple ways, what better time to investigate them than the novelty of the new year?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0004675580733590729,
+      0.1620937074323149,
+      0.00040952743791284495,
+      0.00761823732080015,
+      0.005254434025569816,
+      0.469137868257706,
+      0.07510934365283557,
+      0.2799093237995016
+    ],
+    "words": [
+      [
+        "student",
+        9
+      ],
+      [
+        "time",
+        9
+      ],
+      [
+        "break",
+        5
+      ],
+      [
+        "research",
+        5
+      ],
+      [
+        "help",
+        5
+      ],
+      [
+        "benefit",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "23199",
+    "title": "What about Public Presence?",
+    "date": "2025-11-21",
+    "year": "2025–2026",
+    "authors": [
+      "Christopher Colon"
+    ],
+    "originalAuthors": [
+      "Christopher Colon"
+    ],
+    "aliases": [
+      "Christopher Colon"
+    ],
+    "account": "Christopher Colon",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "By Christopher Colon",
+    "tags": [
+      "Digital Fellows",
+      "Knowledge Commons",
+      "News"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/11/21/what-about-public-presence/",
+    "signals": [],
+    "paragraphs": [
+      "By Christopher Colon",
+      "We have grown accustomed to sharing a great deal about ourselves online, leaning into whatever feels convenient at the moment. Whether we use social media platforms like Instagram and Facebook for personal expression or LinkedIn for professional networking, maintaining a public presence has become part of our everyday lives. What we often overlook is how much we willingly disclose without considering our data and privacy. Social media platforms can disappear, and the truth is that these proprietary spaces ultimately control our data.",
+      "Although I see the value in connecting with different people and audiences through these platforms, I believe it is important to consider alternatives. No single platform can meet all of your online-presence needs, and not all platforms are designed with your best interests in mind. Taking agency over how you present yourself to the world is essential. I discovered the Knowledge Commons…"
+    ],
+    "fullParagraphs": [
+      "By Christopher Colon",
+      "We have grown accustomed to sharing a great deal about ourselves online, leaning into whatever feels convenient at the moment. Whether we use social media platforms like Instagram and Facebook for personal expression or LinkedIn for professional networking, maintaining a public presence has become part of our everyday lives. What we often overlook is how much we willingly disclose without considering our data and privacy. Social media platforms can disappear, and the truth is that these proprietary spaces ultimately control our data.",
+      "Although I see the value in connecting with different people and audiences through these platforms, I believe it is important to consider alternatives. No single platform can meet all of your online-presence needs, and not all platforms are designed with your best interests in mind. Taking agency over how you present yourself to the world is essential. I discovered the Knowledge Commons platform and gravitated toward it for several reasons. I am deeply interested in open educational networks and value the privacy of my work.",
+      "My research is multidisciplinary, and I have found it challenging to house all of my work on one platform. Knowledge Commons is a free platform that offers a collection of tools aimed at supporting and uplifting educational and research work—built by, for, and with the academic community. Similar to CUNY Commons, it can be used for classes, but it also connects to a broader academic network. I especially appreciate that I can build a website using WordPress. Creating a profile allows me to share a single URL that brings together my contact information, CV, and research interests. The site also enables me to host research papers, photographs, and links to other spaces where my work lives. We should all consider the importance of protecting our data and intentionally shaping how we present ourselves and our work to the world.",
+      "Look out for my Knowledge Commons workshop via GCDI in Spring 2026!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.03839607012069282,
+      0.24936289113889193,
+      0.0010219258911989013,
+      0.0003957163491341795,
+      0.0007020221532488961,
+      0.1965088457601786,
+      0.0012795487995538467,
+      0.5123329797871008
+    ],
+    "words": [
+      [
+        "platform",
+        8
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "common",
+        4
+      ],
+      [
+        "research",
+        4
+      ],
+      [
+        "consider",
+        3
+      ],
+      [
+        "data",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "23177",
+    "title": "2025 CUNY DHI Lightning Talks In Review",
+    "date": "2025-11-14",
+    "year": "2025–2026",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "digital humanities",
+      "Events",
+      "Events",
+      "Uncategorized"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/11/14/2025-cuny-dhi-lightning-talks-in-review/",
+    "signals": [],
+    "paragraphs": [
+      "Thank you for making the 2025 CUNY Digital Humanities Initiative Lightning Talks a big success! The event saw twenty presenters from six CUNY campuses share a wide range of exciting and innovative digital projects. The event was fully hybrid, with in-person presenters and attendees in the Graduate Center's Skylight room, with additional participants joining us on Zoom. Using the event's 3-slide, 3-minute format, we heard updates on the evolution of long-term projects, learned about new projects in development, and everything in between. For the first time, we had a suite of presentations examining the use of artificial intelligence in research, pedagogy, and design. The event was live-streamed at the NYC Public Interest Technology Pop Up at the Oculus. See below for the evening's schedule of presentations, and the full slide deck.",
+      "https://speakerdeck.com/digitalfellow/2025-dhi-lightning-talks"
+    ],
+    "fullParagraphs": [
+      "Thank you for making the 2025 CUNY Digital Humanities Initiative Lightning Talks a big success! The event saw twenty presenters from six CUNY campuses share a wide range of exciting and innovative digital projects. The event was fully hybrid, with in-person presenters and attendees in the Graduate Center's Skylight room, with additional participants joining us on Zoom. Using the event's 3-slide, 3-minute format, we heard updates on the evolution of long-term projects, learned about new projects in development, and everything in between. For the first time, we had a suite of presentations examining the use of artificial intelligence in research, pedagogy, and design. The event was live-streamed at the NYC Public Interest Technology Pop Up at the Oculus. See below for the evening's schedule of presentations, and the full slide deck.",
+      "https://speakerdeck.com/digitalfellow/2025-dhi-lightning-talks"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0025354163486464324,
+      0.09692308328460289,
+      0.0022207349642022075,
+      0.0008599264780323292,
+      0.0015255559672094742,
+      0.036001671488183506,
+      0.08368319785946096,
+      0.7762504136096623
+    ],
+    "words": [
+      [
+        "event",
+        4
+      ],
+      [
+        "project",
+        3
+      ],
+      [
+        "digital",
+        2
+      ],
+      [
+        "presenter",
+        2
+      ],
+      [
+        "slide",
+        2
+      ],
+      [
+        "presentation",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "23141",
+    "title": "Digital Humanities at the Lesbian Lives Conference",
+    "date": "2025-11-07",
+    "year": "2025–2026",
+    "authors": [
+      "Maggie Schreiner"
+    ],
+    "originalAuthors": [
+      "Maggie Schreiner"
+    ],
+    "aliases": [
+      "Maggie Schreiner",
+      "Margaret Schreiner"
+    ],
+    "account": "Maggie Schreiner",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital Fellows",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/11/07/digital-humanities-at-the-lesbian-lives-conference/",
+    "signals": [],
+    "paragraphs": [
+      "Last month, the Graduate Center hosted the Lesbian Lives conference, an international gathering of academics, filmmakers, artists, and activists to share, discuss, and celebrate lesbian history and culture. Organized by Journal of Lesbian Studies, Sinister Wisdom, and CLAGS: the Center for LGBT Studies, the conference was being held in North America for the first time since 1993! I had the opportunity to attend the conference, and present about a digital humanities project I am developing, which uses digital tools to analyze the archival records of the Lesbian Switchboard, a telephone hotline that operated for twenty-four years in New York City. While I was attending the conference, I was particularly interested to learn about other digital humanities projects focused on lesbian history. Here are a few:",
+      "Queering the Map",
+      "Reese Schaffer presented their research on the platform Queering the Map. The site is a global mapping project, based…"
+    ],
+    "fullParagraphs": [
+      "Last month, the Graduate Center hosted the Lesbian Lives conference, an international gathering of academics, filmmakers, artists, and activists to share, discuss, and celebrate lesbian history and culture. Organized by Journal of Lesbian Studies, Sinister Wisdom, and CLAGS: the Center for LGBT Studies, the conference was being held in North America for the first time since 1993! I had the opportunity to attend the conference, and present about a digital humanities project I am developing, which uses digital tools to analyze the archival records of the Lesbian Switchboard, a telephone hotline that operated for twenty-four years in New York City. While I was attending the conference, I was particularly interested to learn about other digital humanities projects focused on lesbian history. Here are a few:",
+      "Queering the Map",
+      "Reese Schaffer presented their research on the platform Queering the Map. The site is a global mapping project, based on Google Maps, which allows users to anonymously share a memory or reflection tied a specific location. The site is self-described as “a community generated counter-mapping platform for digitally archiving LGBTQ2IA+ experience in relation to physical space.” As an undergraduate thesis, Schaffer spent hours exploring posts in the United States, noting how the site functions as a site of digital longing, connection, and engagement. Minimal moderation and the lack of metadata (posts are neither attributed nor timestamped) leads to creative uses: people “talk” through geographically proximate posts, and experiment with creative identities in liminal spaces such as the ocean (for instance, posting as a shark). Schaffer noted the many tensions in the site, and the role of fickle infrastructure in shaping the user experience. In addition to the anonymous timelessness of the posts, the site loads slowly which influences how users can move through the digital space of the site and mediates access to content.",
+      "Dykes A Lot!: Encoding Lesbian Lexicon",
+      "June Murphy shared their project using TEI to encode portions of the Queen’s Vernacular: A Gay Lexicon. Originally published in 1972, the Queen’s Vernacular is a lexicon of gay slang that was compiled by amateur lexicographer Bruce Rodgers based on twelve years of research. It was, in Murphy’s words “one of the first ‘serious’ studies of gay slang ever written.” Using TEI Lex-0, an XML standard for encoding dictionaries, Murphy encoded all the entries in the Queens Vernacular pertaining to lesbian slang. Encoding these entries enabled Murphy to create a topical index, which allows users to learn about geographically-specific terminology (such as “dutch baby”, “dove”, “fuck handles”, and “jasper” – all NYC-specific lesbian slang), as well as early lesbian slang and slang from French, German, and Haitian Creole. Murphy also shared their findings with us in zine form.",
+      "Queen’s Vernacular",
+      "Feminist Bookstore News: Visualizing 30 Years",
+      "Salome “Sam” Grasland presented about a large-scale project by Sinister Wisdom to build a database of all the articles that had appeared in the twenty-four year run of the publication Feminist Bookstore News. A vital element of the Women in Print movement, Feminist Bookstore News published information about newly published titles, bookstore announcements, awards, gossip, reviews, and much more. The Feminist Bookstore News corpus includes 134 issues comprising over 10,000 pages of material! To create a database of articles, a team of forty volunteers scanned issues held at the San Francisco Public Library and entered data about each article into a Google spreadsheet. Grasland normalized the data, and pulled bibliographic information for some referenced books using the ISBNs. With a colleague, she then created a Tableau dashboard for the data, which is available here. The descriptive data is also published and available through the Post45 Data Collective. You can view the dataset and learn more about the technical process on the Post45 Data Collective website.",
+      "Thank you to the presenters for sharing these projects which I look forward to continuing to explore! These projects resonated with my own efforts to use digital tools to preserve and interpret lesbian history, highlighting how technology can extend the reach of queer memory."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.3584823217317875,
+      0.1585878794925876,
+      0.0005310006516651732,
+      0.0002056172967868518,
+      0.0809674963386654,
+      0.008608371250699257,
+      0.010337189940445012,
+      0.38228012329736316
+    ],
+    "words": [
+      [
+        "lesbian",
+        10
+      ],
+      [
+        "project",
+        7
+      ],
+      [
+        "site",
+        7
+      ],
+      [
+        "digital",
+        6
+      ],
+      [
+        "slang",
+        6
+      ],
+      [
+        "data",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "23009",
+    "title": "How AI Is Changing What It Means to Learn",
+    "date": "2025-10-24",
+    "year": "2025–2026",
+    "authors": [
+      "Eunah Cho"
+    ],
+    "originalAuthors": [
+      "Eunah Cho"
+    ],
+    "aliases": [
+      "Eunah Cho"
+    ],
+    "account": "Eunah Cho",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/10/24/how-ai-is-changing-what-it-means-to-learn/",
+    "signals": [
+      "Teaching & learning",
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "When I analyzed how low-skill freelancers were using large language models (LLMs) on online labor platforms, I expected to see a story of empowerment: one where technology leveled the playing field and allowed those with fewer resources to compete with highly skilled peers. The reality, however, was more complex and, in many ways, more sobering.",
+      "Low-skill workers did use LLMs to expand their knowledge into more domains. Their proposals covered a wider range of topics, their vocabulary became more sophisticated, and their writing sounded more confident. But despite this apparent growth, they were less likely to win contracts and their completed projects were consistently rated as lower quality than those of higher-skill workers using the same tools.",
+      "This finding reveals something deeper about the relationship between AI and human learning, or what I call the capability illusion. LLMs create the sense of increased competence, but that…"
+    ],
+    "fullParagraphs": [
+      "When I analyzed how low-skill freelancers were using large language models (LLMs) on online labor platforms, I expected to see a story of empowerment: one where technology leveled the playing field and allowed those with fewer resources to compete with highly skilled peers. The reality, however, was more complex and, in many ways, more sobering.",
+      "Low-skill workers did use LLMs to expand their knowledge into more domains. Their proposals covered a wider range of topics, their vocabulary became more sophisticated, and their writing sounded more confident. But despite this apparent growth, they were less likely to win contracts and their completed projects were consistently rated as lower quality than those of higher-skill workers using the same tools.",
+      "This finding reveals something deeper about the relationship between AI and human learning, or what I call the capability illusion. LLMs create the sense of increased competence, but that competence is often superficial. The model helps users access information and generate output that looks expert, but without foundational understanding, they cannot evaluate, refine, or build upon what the model provides. The illusion of mastery replaces the practice of mastery.",
+      "This isn’t just a labor market problem; it’s an educational one. If students begin relying on AI before developing core skills, we risk producing a generation that can produce polished answers without understanding the logic behind them. The question for educators, then, is not whether to integrate AI into learning, but how to do it in a way that strengthens human cognition rather than outsourcing it.",
+      "Tool Dependency vs. Skill Development",
+      "At the heart of this issue is a growing dependency on AI as a shortcut to performance. LLMs make it possible to produce high-quality text, code, or analysis almost instantly, but they also make it easy to skip the slow, often frustrating process of learning. For workers and students alike, this can create the illusion of progress: an increase in output that is not matched by an increase in understanding.",
+      "Education, therefore, faces a new dual mandate: to teach both foundational thinking and AI collaboration. The challenge lies in ensuring that one strengthens the other, rather than allowing AI to replace the very processes that build expertise.",
+      "Teaching AI Literacy as Judgment",
+      "Much of the current discussion around \"AI literacy\" focuses on prompt engineering: how to phrase a question in a way that elicits better answers. While this skill has practical value, it misses the larger point. True AI literacy is not about generating outputs; it’s about developing judgment.",
+      "To be AI literate is to know when to trust the model, when to verify its claims, and when to reject its conclusions entirely. It means understanding not only how to use AI, but also what its limitations are: where it tends to hallucinate, what kinds of biases it reproduces, and how its probabilistic reasoning differs from human logic.",
+      "In this sense, AI literacy should look less like programming and more like philosophy: a practice of questioning, verifying, and reflecting on what it means to know something in the age of machine intelligence.",
+      "Rethinking Assessment: Measuring Understanding, Not Output",
+      "In an AI-mediated world, output alone no longer reflects ability. The line between human and machine contribution is increasingly blurred. To ensure that education continues to measure learning, assessments must evolve to capture how students arrive at their answers, not just what those answers are.",
+      "This could take the form of reflective essays, process logs, or oral defenses where students articulate their reasoning independently of AI. The emphasis should shift toward metacognition, the ability to describe one's thought process, evaluate alternatives, and justify decisions. In other words, we need assessments that reward thinking, not just completion.",
+      "The Skilled User Model",
+      "High-skill workers in my study used LLMs differently. They didn’t depend on AI to fill gaps; they used it to amplify strengths. They knew where their expertise ended and used the model strategically to expand beyond it by automating routine tasks, exploring new ideas, and synthesizing information faster. Their value came not from resisting AI, but from knowing how to integrate it intelligently.",
+      "This is the model education should aim for: the skilled user. The skilled user treats AI as an assistant, not an authority. They leverage the model for efficiency but retain control over interpretation, ethical reasoning, and creative direction. They use AI to enhance cognitive diversity (to test hypotheses, simulate alternatives, and explore new conceptual terrain), but they remain the one doing the actual thinking.",
+      "Training students to become skilled users requires more than technical proficiency. It demands self-awareness, critical thinking, and disciplinary depth. It's about cultivating humans who can collaborate with intelligence that isn't their own, without losing their own capacity for discernment.",
+      "Redefining the Purpose of Education",
+      "If AI can already generate essays, debug code, and pass standardized exams, then education’s role cannot simply be to teach students to produce outputs. The value of learning must shift from what students know to how they know, from knowledge reproduction to knowledge interpretation.",
+      "This shift requires a new pedagogy. It should treat AI not as a threat, but as a mirror reflecting our own intellectual habits. It challenges both teachers and students to ask harder questions: What does it mean to learn when machines can answer for us? What is the role of struggle, confusion, or curiosity in an age of instant solutions?",
+      "Conclusion: Beyond AI Literacy Toward AI Wisdom",
+      "Generative AI has already changed how we work, learn, and think. It has democratized access to information while revealing new inequalities in how that information is used. My study shows that low-skill workers gained breadth but lost depth; they could cover more ground but could not build strong foundations. High-skill workers, by contrast, used AI to extend what they already knew, not to replace it.",
+      "The lesson for education is clear: the future of learning will not belong to those who use AI the most, but to those who use it wisely. We must move beyond teaching students how to prompt and start teaching them how to think alongside technology. This means thinking critically, creatively, and reflectively.",
+      "References",
+      "Acemoglu, D., Autor, D., & Hazell, J. (2021). AI and jobs: Evidence from online vacancies. Brookings Papers on Economic Activity, 2021(1), 1–46.",
+      "Brynjolfsson, E., Li, D., & Raymond, L. R. (2023). Generative AI at work (Working Paper No. 31161). National Bureau of Economic Research. https://doi.org/10.3386/w31161",
+      "Cho, E., & Gao, Q. (2025). Human Capital in the Age of ChatGPT: A Paradox of Depth and Breadth, Working Paper",
+      "Kokkodis, M., & Ipeirotis, P. G. (2023). The good, the bad, and the unhirable: Recommending job applicants in online labor markets. Management Science, 69(11), 6969-6987. https://doi.org/10.1287/mnsc.2023.4690"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00034428290777837613,
+      0.5221664759191174,
+      0.005794415854998104,
+      0.00011676898292883647,
+      0.00020715447569387505,
+      0.2795318175100043,
+      0.0003775725017645248,
+      0.19146151184771457
+    ],
+    "words": [
+      [
+        "ai",
+        25
+      ],
+      [
+        "skill",
+        9
+      ],
+      [
+        "student",
+        9
+      ],
+      [
+        "model",
+        8
+      ],
+      [
+        "learn",
+        7
+      ],
+      [
+        "know",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "22867",
+    "title": "The Walled Garden: Care and Containment in AI Research",
+    "date": "2025-10-17",
+    "year": "2025–2026",
+    "authors": [
+      "Parisa Setayesh"
+    ],
+    "originalAuthors": [
+      "Parisa Setayesh"
+    ],
+    "aliases": [
+      "Parisa Setayesh"
+    ],
+    "account": "Parisa Setayesh",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "AI",
+      "Guides, Tutorials, Reviews",
+      "Research method"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2025/10/17/the-walled-garden-care-and-containment-in-ai-research/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "Introduction: On the Ethics of Boundaries",
+      "AI, especially in research, is often imagined as an infinite horizon, with models expanding endlessly, datasets merging across domains, and knowledge networks collapsing boundaries at turbo speed. But as the past few years have shown, when everything becomes open, risks accumulate and very little remains meaningful or accountable. This is the second part of a two-piece series where I try to explain strategies for using AI in research using a combination of theoretical and technical concepts and recent research or projects. You can read the previous piece on Human in The Loop here.",
+      "Eg. English and Persian Walled Gardens",
+      "The metaphor of the Walled Garden helps make sense of this paradox. In the digital world, the phrase initially described proprietary ecosystems like Apple's App Store or Facebook's platform economies, where control was synonymous with exclusion. But here, I want to reclaim the term…"
+    ],
+    "fullParagraphs": [
+      "Introduction: On the Ethics of Boundaries",
+      "AI, especially in research, is often imagined as an infinite horizon, with models expanding endlessly, datasets merging across domains, and knowledge networks collapsing boundaries at turbo speed. But as the past few years have shown, when everything becomes open, risks accumulate and very little remains meaningful or accountable. This is the second part of a two-piece series where I try to explain strategies for using AI in research using a combination of theoretical and technical concepts and recent research or projects. You can read the previous piece on Human in The Loop here.",
+      "Eg. English and Persian Walled Gardens",
+      "The metaphor of the Walled Garden helps make sense of this paradox. In the digital world, the phrase initially described proprietary ecosystems like Apple's App Store or Facebook's platform economies, where control was synonymous with exclusion. But here, I want to reclaim the term in a more generative way that allows for a more ethical and ecological sense. Consider two traditions of walled gardens: the English walled garden, a space of private exclusivity where walls create enclosed order and controlled nature, versus the Persian walled garden, a larger, less manicured and more naturalistic public space where walls serve not to exclude but to protect, where boundaries enabled the cultivation of greenery and life in harsh climates through careful water management and shared stewardship. The walls in this example weren't about restricting access but about creating conditions for flourishing, a commons that needed protection to remain generative. This is the model I want to invoke for AI research: a Walled Garden without exclusive control and data extraction. Instead, it works as a framework of bounded commons, where walls enable cultivation, boundaries create conditions for community-engaged knowledge to grow, and protection serves collective flourishing rather than private ownership.",
+      "Every dataset, model, and community operates within its own ecology of meaning. Without boundaries that reflect those contexts, AI research risks becoming extractive, mining data, scraping narratives, or reproducing inequities in the name of innovation. Across the climate and urban case studies I've encountered, the difference between projects that built trust and those that collapsed often came down to an ethical boundary design problem. When data flows were transparent, locally governed, and contextually grounded, as in Lisbon's flood digital twin or Pulo Aceh's community-owned ocean sensors, the technology deepened collaboration and resilience (Diani, 2025). Conversely, when those boundaries dissolved, as in Toronto's Sidewalk Labs project, AI became surveillance, not stewardship(Bozikovic, 2019).",
+      "The Walled Garden, then, is a metaphor for careful containment: an approach that links accountability to context, safety to transparency, and openness to trust. It invites us to think of governance not as control but as cultivation — an ongoing practice that keeps research generative while protecting it from extractive logics. Scholars like María Puig de la Bellacasa remind us that care is not just emotion but maintenance; it includes the work of sustaining fragile relations between humans, technologies, and the more-than-human world (De la Bellacasa, 2017). Boundaries, in this sense, are acts of care: they make space for coexistence, consent, and context. In AI research frameworks, these walls are not barriers to knowledge but interfaces of responsibility. They define who gets to handle data, under what conditions, and how decisions ripple beyond the lab.",
+      "Productive Containment: Examples of Ethical Boundaries",
+      "These boundaries come to life in projects where containment becomes productive rather than restrictive, where limits protect context, consent, and trust. Lisbon's Flood Digital Twin uses AI to simulate storm impacts, but its success lies in its boundaries. The system is built on municipal data, managed by city engineers, and governed within a transparent, local framework (Prime, 2022). The data stays rooted in the city's institutional ecosystem, where residents can trace how the model shapes decisions about their neighborhoods.",
+      "The Amsterdam LIFE project takes a similar approach. The digital twin integrates data from the city's grid, solar arrays, and battery systems, but remains locally governed, a bounded environment that balances transparency with privacy (Fabrique, 2025). By containing data flows within municipally managed infrastructure, Amsterdam avoids turning sustainability data into surveillance.",
+      "The Pulo Aceh \"AI for Blue Economy\" initiative in Indonesia also takes containment into community governance. Local fishers helped decide where ocean sensors would be placed and how data would be shared (Diani, 2025). The information stays in community hands, circulated through village meetings rather than uploaded into anonymous cloud repositories. The boundary is cultural and relational: it protects the community's knowledge system from being abstracted or commodified.",
+      "These examples show that containment, when guided by care, becomes protection through design. Each wall, technical, institutional, or cultural, anchors AI within the ecology it serves. In a world obsessed with frictionless data, these projects embrace friction as ethics, a necessary slowness that keeps technology accountable.",
+      "The Cost of having No Walls",
+      "When data circulates without consent, when models operate without oversight, and when technology scales faster than reflection, the walls collapse. What follows is not openness but exposure: systems that promise innovation instead reproduce exploitation.",
+      "Toronto's Sidewalk Labs project promised a neighborhood built \"from the internet up,\" powered by ubiquitous sensors and AI-driven decision-making. Yet what began as sustainability became surveillance and data extraction. Residents realized the data infrastructure was designed without community consent and would place corporate actors in control of public life (Euklidiadas, 2024). When AI systems are unbounded, accountability becomes no one's responsibility.",
+      "A similar dynamic plays out across proprietary risk-scoring tools, urban analytics dashboards, and generative models trained on scraped public data. These systems operate without clear limits. Their developers celebrate scalability, but what they really scale is moral distance, the separation between those who design and those who are affected. The lack of containment also enables misinformation and energy exploitation. Generative AI fabricates environmental data with the polish of authority, while large-scale model training consumes staggering electricity and water, contributing to the climate crisis these systems claim to mitigate.",
+      "Building Gardens, Not Fortresses",
+      "If unbounded AI exposes us to harm, the answer isn't to wall technology off but to build gardens, spaces that balance openness with care. This means designing boundaries that are transparent, participatory, and protective, not restrictive. A research garden begins with contextual boundaries: clarity about what data is being gathered, where it comes from, and whose lives it represents. Building a boundary means pausing to understand those origins and secure consent, embedding documentation, provenance tracking, and participatory review into every project phase.",
+      "Next come access boundaries, the ethical fences that determine who can interact with a system and under what conditions. Ethical containment reframes access as responsibility, inviting collaboration while protecting against extraction. The Appalachia Flood Dashboard models this balance by keeping its data pipeline open to community partners but closed to commercial use (Mills, 2024).",
+      "Finally, every research garden needs environmental boundaries, recognizing that AI has a footprint. Training large models consumes resources and produces emissions. Cities and universities can address this by adopting greener infrastructure, disclosing energy metrics, and prioritizing efficiency. A responsible garden manages its own ecology.",
+      "Institutions can weave these principles into research governance: community advisory boards, open yet secure repositories, transparent model cards, and ethical audits. A fortress isolates; a garden connects. A fortress guards knowledge as property; a garden shares it as sustenance. Building Walled Gardens for AI research is about reclaiming stewardship from control, drawing boundaries that make collaboration safer, slower, and more reciprocal.",
+      "Boundaries as Ethics: The Walled Garden as a Framework of Care",
+      "If the Human in the Loop essay asked how interpretation keeps research human, the Walled Garden asks how boundaries keep it ethical. The two are inseparable. Where the loop values collaboration, the garden values stewardship, an ethic of protection grounded in care.",
+      "Feminist scholars have long reframed care as a political and epistemological practice. As María Puig de la Bellacasa writes, \"care is everything that is done to maintain, continue, and repair our world so that we can live in it as well as possible\" (De la Bellacasa, 2017). To build a Walled Garden for research is to engage in this maintenance: to construct limits that sustain relationships between knowledge, power, and accountability.",
+      "Boundaries, when built with care, are not barriers; they are acts of responsibility. They delineate the edges of consent, the shape of transparency, and the rhythm of reciprocity. In AI research, where data moves faster than reflection, these boundaries slow us down just enough to ask: Who benefits? Who decides? Who bears the risk?",
+      "The Walled Garden is not an argument for retreat but for rootedness. It envisions research as an ecosystem, not a marketplace, where data is cultivated with care, tools are governed with integrity, and communities remain part of the conversation. In a time when technological ambition outpaces ethical reflection, the garden offers a different rhythm: patient, deliberate, and protective of what truly matters.",
+      "Boundaries, like care, are what make flourishing possible. Without them, everything, knowledge, justice, even trust, evaporates into abstraction. With them, we build spaces where research can grow safely, meaningfully, and in relation to the worlds it hopes to serve.",
+      "References",
+      "Bozikovic, A. (2019, January 15). Google in Toronto: A Question of Privacy. Architect Magazine. https://www.architectmagazine.com/design/google-in-toronto-a-question-of-privacy_o",
+      "Chamuah, A. (2023). AI, Climate Adaptation, and Epistemic Injustice | Platypus. https://blog.castac.org/2023/07/ai-climate-adaptation-and-epistemic-injustice/",
+      "De La Bellacasa, M. P. (2017). Matters of Care: Speculative Ethics in More than Human Worlds. University of Minnesota Press. https://www.jstor.org/stable/10.5749/j.ctt1mmfspt",
+      "Diani, H. (2025, April 24). AI for climate resilience meets local know-how | GIZ. https://www.giz.de/en/newsroom/stories/ai-climate-resilience-meets-local-know-how",
+      "D’Ignazio, C., & Klein, L. F. (2020). Data Feminism. https://direct.mit.edu/books/book/4660/Data-Feminism",
+      "Drage, E., & Frabetti, F. (2023). AI that Matters: A Feminist Approach to the Study of Intelligent Machines. In J. Browne, S. Cave, E. Drage, & K. McInerney (Eds.), Feminist AI: Critical Perspectives on Algorithms, Data, and Intelligent Machines (p. 0). Oxford University Press. https://doi.org/10.1093/oso/9780192889898.003.0016",
+      "Euklidiadas, M. (2024, January 19). Sidewalk Toronto, the vision behind Google’s failed city—Tomorrow.City—The biggest platform about urban innovation. https://www.tomorrow.city/sidewalk-toronto-the-vision-behind-googles-failed-city/, https://www.tomorrow.city/sidewalk-toronto-the-vision-behind-googles-failed-city/",
+      "Fabrique. (2025). Local Inclusive Future Energy (LIFE) City platform. AMS. https://www.ams-institute.org/urban-challenges/urban-energy/local-inclusive-future-energy-life-city-platform/",
+      "Gilligan, C. (1982). In a different voice: Psychological theory and women’s development (pp. xxx, 184). Harvard University Press.",
+      "Kathrepta, C. (2025, September 11). 5 AI Climate Resilience Projects Making Real Impact in 2025. https://ecoskills.academy/5-ai-climate-resilience-projects-making-impact/",
+      "Malik, A. (2025). Linking climate-smart agriculture to farming as a service: Mapping an emergent paradigm of datafied dispossession in India. ResearchGate. https://www.researchgate.net/publication/365388707_Linking_climate-smart_agriculture_to_farming_as_a_service_mapping_an_emergent_paradigm_of_datafied_dispossession_in_India",
+      "Mills, A. (2024, October 11). Climate Change And Community: New ESIP Lab Awards - ESIP. https://www.esipfed.org/climate-change-and-community-new-esip-lab-awards/",
+      "Prime, G. W. (2022, March 4). Lisbon’s City Scale Digital Twins for Flood Resilience. Geospatial World. https://geospatialworld.net/prime/case-study/aec/lisbons-city-scale-digital-twins-for-flood-resilience-2/",
+      "Sustainability Directory. (2025). How Does Data Bias Affect Urban Planning? → Question. Climate → Sustainability Directory. https://climate.sustainability-directory.com/question/how-does-data-bias-affect-urban-planning/",
+      "Tsosie, R. (2012). Indigenous Peoples and Epistemic Injustice: Science, Ethics, and Human Rights. Washington Law Review, 87(4), 1133."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.027625809856495185,
+      0.8269653096618288,
+      0.011410752558411575,
+      7.940468697189746e-05,
+      0.0013859451185519944,
+      0.08923466312565485,
+      0.006482139651153012,
+      0.0368159753409327
+    ],
+    "words": [
+      [
+        "boundary",
+        22
+      ],
+      [
+        "garden",
+        21
+      ],
+      [
+        "data",
+        20
+      ],
+      [
+        "ai",
+        16
+      ],
+      [
+        "research",
+        16
+      ],
+      [
+        "wall",
+        12
+      ]
+    ]
+  }
+]

@@ -1,0 +1,406 @@
+[
+  {
+    "id": "315",
+    "title": "Language Acquisition",
+    "date": "2012-11-15",
+    "year": "2012–2013",
+    "authors": [
+      "Hillary Miller"
+    ],
+    "originalAuthors": [
+      "Hillary Miller"
+    ],
+    "aliases": [
+      "Hillary Miller"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Hillary Miller",
+    "tags": [
+      "Coding",
+      "Digital Scholarship",
+      "Hacking",
+      "Reflections",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/15/language-acquisition/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Alice Lynn described the early challenges of this fellowship, in which we were tasked to create a local installation of Wordpress, and began to manipulate CSS and PHP. It was a crash course in the elements of hacking a wordpress theme. I came to the Fellows program with some level of familiarity with wordpress but no real experience getting my fingers dirty in code. Many people around me compared the process to learning a new language, an apt comparison to some degree. But learning a language also requires learning about a culture, and the culture around wordpress hacking is one whose points of access can mystify. At moments it felt less like something that can be acquired and more like gaining entrance into a new universe-- could it be visited without total submission, without adopting it as a new object of obsession? And is it required knowledge to compete in the world of content production as digital scholars? If it isn't, what is?…"
+    ],
+    "fullParagraphs": [
+      "Alice Lynn described the early challenges of this fellowship, in which we were tasked to create a local installation of Wordpress, and began to manipulate CSS and PHP. It was a crash course in the elements of hacking a wordpress theme. I came to the Fellows program with some level of familiarity with wordpress but no real experience getting my fingers dirty in code. Many people around me compared the process to learning a new language, an apt comparison to some degree. But learning a language also requires learning about a culture, and the culture around wordpress hacking is one whose points of access can mystify. At moments it felt less like something that can be acquired and more like gaining entrance into a new universe-- could it be visited without total submission, without adopting it as a new object of obsession? And is it required knowledge to compete in the world of content production as digital scholars? If it isn't, what is? How and why do we privilege the tools that we gravitate towards? If I'm starting at ground zero on wordpress hacking, but am also at ground zero on ArcGIS or Photoshop, which tools should I embrace first, given the realities of time and energies?",
+      "Some of these questions were answered by Boone Georges, a developer extraordinaire and the creator of a very cool wordpress-to-e-book plugin, Anthologize. His workshops reinforced this line of inquiry around why one needs or wants these skills. How might they function in our lives as educators or scholars? For if some of these skills are akin to learning a language, what is the territory of my chosen language, and why have I chosen it? Because I like Sangria, or because I've always wanted to go to Cinque Terra, or because Mandarin is really in demand? Where does my work coincide with the variable difficulty of any one of these tools?",
+      "Motivation, process, and product are, as in so many forms, entangled. Let’s say you’re reading this post because you’re curious about landing a job in the digital humanities, maybe as a lab manager or a digital technologist at a university. True to their names, the skills required for many of these positions highlight a whole range of other languages, and demand a range of familiarity-- perhaps even expertise-- in them: PHP, MySQL, CSS, ArcGIS, Adobe Creative Suite, Javascript, web best practices, Flash and Adobe Flex, SPSS, SEO, Omeka, WordPress and Drupal. If you’re a doctoral student in the humanities who knows what even half of those are—not to mention Ruby, Python, Perl, AJAX or JQuery—you’re probably ahead of the game. But ahead of what game?",
+      "When a colleague from my department asked me what the Digital Fellowship was all about, she wondered if her reliance on excel spreadsheets, shared docs, and other digital files during her research process would be considered digital scholarship. Based in New York, she works closely with an archive in Iowa, and routinely emails photos back and forth with a research assistant there. Definitions of digital scholarship are appropriately inclusive, I told her, and she's probably right where she needs to be in terms of the tools required for the task. But if she wanted to take a next step, perhaps to consider a method of visualizing her findings, or sharing a public component of her work, she'd have to address a whole slew of new questions and expand her knowledge of available tools. How is she sharing, on what platform, and why? These are the needs that the Fellowship has forced me to consider more thoughtfully. What if the public phases of our research are not restricted to the requirements of a well-rounded online identity, but framed instead as choosing the most effective and appropriate language through which to communicate our work in the sphere of public ideas?"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.004151597906020295,
+      0.07404210844600365,
+      0.05299317070872013,
+      0.00022286205296914485,
+      0.010878896501706013,
+      0.35179222839894914,
+      0.18942411396356262,
+      0.316495022022069
+    ],
+    "words": [
+      [
+        "wordpress",
+        7
+      ],
+      [
+        "digital",
+        7
+      ],
+      [
+        "language",
+        6
+      ],
+      [
+        "new",
+        5
+      ],
+      [
+        "tool",
+        5
+      ],
+      [
+        "learn",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150117024923/http://digitalfellows.commons.gc.cuny.edu:80/2012/11/15/language-acquisition/"
+  },
+  {
+    "id": "19725",
+    "title": "Taking a Personal Approach",
+    "date": "2012-11-14",
+    "year": "2012–2013",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "Coding",
+      "collaboration",
+      "Digital Humanities",
+      "Reflections",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/14/160/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The Digital Fellows spent the first few weeks of this semester completing a number of digital challenges. Depending on internet tutorials and each other, we learned how to download XAMPP or MAMP for a local installation of Wordpress on our laptops and began to trudge through manipulating CSS and PHP, slowly but surely. It was a group assignment, meaning that if one of us failed, we all did. Through flurries of emails, meetings in person, and the occasional phone call, we triumphed as a group, proving just as many people have before us that collaboration is key for most digital projects. But an unintended side affect for me was some useful introspection into the ways that individuals learn within a group setting.",
+      "Some people like to know the “why” of everything they learn, (for instance the overarching concepts of how PHP relates to HTML); others just want to know that a formula works. People comprehend information in myriad ways. For…"
+    ],
+    "fullParagraphs": [
+      "The Digital Fellows spent the first few weeks of this semester completing a number of digital challenges. Depending on internet tutorials and each other, we learned how to download XAMPP or MAMP for a local installation of Wordpress on our laptops and began to trudge through manipulating CSS and PHP, slowly but surely. It was a group assignment, meaning that if one of us failed, we all did. Through flurries of emails, meetings in person, and the occasional phone call, we triumphed as a group, proving just as many people have before us that collaboration is key for most digital projects. But an unintended side affect for me was some useful introspection into the ways that individuals learn within a group setting.",
+      "Some people like to know the “why” of everything they learn, (for instance the overarching concepts of how PHP relates to HTML); others just want to know that a formula works. People comprehend information in myriad ways. For every stage of our project, there were dozens of tutorials available on the internet. The quality varied wildly, but even among the best of those, none stood out as perfect. The members of the group had different criteria as to what made an ideal tutorial—lots of screen shots for some, vocabulary for others, and big-picture conceptual explanations versus just the facts.",
+      "My response to this is that despite the unabashed interdisciplinarity of Digital Humanities, newbies might do well to remember what drew them to their chosen academic field. Of our group, Laura is the philosophy major. She realized pretty quickly that the logic of philosophy and the logic of hacking complement one another quite well. I teach my art history students that the key to learning images is through repetition, considering them in a variety of contexts. And sure enough, in learning to hack Wordpress themes, I needed to hear the vocabulary and concepts several times, from several sources, to make them stick. Through video tutorials, a self-study book, workshops, conversations with the other fellows, and hands-on tweaking of code, I’m pushing my own boundaries a little farther with each repeated how-to.",
+      "I don’t think that everyone who studies a particular subject learns the same way, of course. But the way a person approaches her chosen field could be a useful guide to approaching digital projects as well, intuitively playing to one’s strengths and worldview. This isn’t an entirely original concept. Aaron Knoll, a consultant in the GC’s New Media Lab, notes that even if twenty people ask him the same question, they all absorb and respond to the answer in a different way. In the midst of collaborating, the way each individual approaches a project is key. As we learn to play to our strengths, I will be interested to see how the six fellows incorporate their personalized methodologies into a cohesive group."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0054207754966409775,
+      0.005421205381249149,
+      0.13307294717977997,
+      0.00029099281366203153,
+      0.0005162369512251457,
+      0.4821520490411077,
+      0.03288058964063103,
+      0.340245203495704
+    ],
+    "words": [
+      [
+        "learn",
+        7
+      ],
+      [
+        "group",
+        6
+      ],
+      [
+        "way",
+        6
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "tutorial",
+        4
+      ],
+      [
+        "people",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150117024917/http://digitalfellows.commons.gc.cuny.edu:80/2012/11/14/160/"
+  },
+  {
+    "id": "19723",
+    "title": "Looking Under the Hood",
+    "date": "2012-11-13",
+    "year": "2012–2013",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "blogs@baruch",
+      "child themes",
+      "Reflections",
+      "sociology",
+      "teaching"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/13/looking-under-the-hood/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "As a sociologist with a specialization in the sociology of technology, I probably should have had a much greater handle on the myriad tools and techniques that power my object of study before I entered into the Digital Fellows program. This is not to say that I was without a certain amount of knowledge, but it was basic and less about the technology itself and more about teaching people rudimentary skills for accomplishing a task, not interacting with the technology itself at any meaningful level. As the year progresses, what I’m hoping for and feel like I’m in some ways starting to do is develop a greater understanding of the back end of the tools that make what I study and how and what I teach possible.",
+      "To be fair, I often refer to myself as a sociologist of sport, a self-description that elicits a lot of laughs and “I didn’t know that was a thing.” But what I study specifically is the activities that sports fans engage in on the…"
+    ],
+    "fullParagraphs": [
+      "As a sociologist with a specialization in the sociology of technology, I probably should have had a much greater handle on the myriad tools and techniques that power my object of study before I entered into the Digital Fellows program. This is not to say that I was without a certain amount of knowledge, but it was basic and less about the technology itself and more about teaching people rudimentary skills for accomplishing a task, not interacting with the technology itself at any meaningful level. As the year progresses, what I’m hoping for and feel like I’m in some ways starting to do is develop a greater understanding of the back end of the tools that make what I study and how and what I teach possible.",
+      "To be fair, I often refer to myself as a sociologist of sport, a self-description that elicits a lot of laughs and “I didn’t know that was a thing.” But what I study specifically is the activities that sports fans engage in on the Internet: blogging, playing fantasy sports, writing blog comments, uploading youtube videos, etc. What I've been working on for all these activities is developing a kind of catalogue of all the labor (both paid and unpaid) that goes into making this plethora of fan products and interactions. And for understanding that labor, this fellowship has been immensely helpful. Our early workshops on Wordpress child-theming which forced us to learn some rudimentary CSS and PHP really brought home to me the hours of work that is behind even the simplest website. It was tough stuff to learn for someone with no previous experience in website design at all (outside of setting up some Wordpress blogs for faculty at a previous job and using a Blogs@Baruch site for teaching), but, hey, at least I got paid. The same cannot be said for all my research subjects.",
+      "Aside from my research, my other primary duties as an academic are of the pedagogical variety. My experience with using technology, particularly blogs and specifically Wordpress, for teaching and learning purposes was relatively significant, but, again, fairly rudimentary. I could explain to you what a category menu was, show you how to embed video, and maybe even pull an RSS feed from a New York Times section that was relevant to your class. Now from our workshops, building sites for our Digital Scholars Lab and this very site you're reading this post on, and my work with faculty as the faculty liaison in the New Media Lab I've been able to start building a variety of skills that have already informed my ability to both use and explain the organization and display of information on Wordpress which is essential to any kind of pedagogical endeavor.",
+      "When I first started teaching I realized that there was nothing that could make you understand a subject more than teaching it. And I'm hoping that if anything, what the Digital Fellows program can provide for me and others is that kind of knowledge."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.014955837696352434,
+      0.005573798454396391,
+      0.000772632678477888,
+      0.00029918351749591224,
+      0.0005307677017353684,
+      0.45350223116653515,
+      0.13232214706623946,
+      0.39204340171876734
+    ],
+    "words": [
+      [
+        "teach",
+        6
+      ],
+      [
+        "technology",
+        4
+      ],
+      [
+        "wordpress",
+        4
+      ],
+      [
+        "study",
+        3
+      ],
+      [
+        "digital",
+        3
+      ],
+      [
+        "rudimentary",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19722",
+    "title": "The Luddite-Technophile Spectrum",
+    "date": "2012-11-12",
+    "year": "2012–2013",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "communication",
+      "Digital Scholarship",
+      "digital technology",
+      "English",
+      "Facebook",
+      "Reflections",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/12/the-luddite-technophile-spectrum/",
+    "signals": [
+      "Web & scholarly identity",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Like many, my relationship towards digital technology has been one of both great anxiety and great excitement. The spectrum of this bipolar attitude is perhaps nowhere better demonstrated than in my home department. In the field of English we have those who are blazing academic trails in the wilds of the world wide web to great acclaim. But we also have those who still pretend they don't own a cellphone, shrivel their noses at the mention of Facebook, and are probably even the tiniest ashamed about conducting their work on Microsoft Word rather than with the ascetic's pen and paper. Their attitude, too, I must admit, earns much of my respect. But after my own attempt at rejecting all the daily goods of digital technology (an old job had burnt me on the Internet and the strange frazzled string-- I feared -- it was making out of my mind), I realized such Luddite extremism was not only impractical and personally-detrimental, but was…"
+    ],
+    "fullParagraphs": [
+      "Like many, my relationship towards digital technology has been one of both great anxiety and great excitement. The spectrum of this bipolar attitude is perhaps nowhere better demonstrated than in my home department. In the field of English we have those who are blazing academic trails in the wilds of the world wide web to great acclaim. But we also have those who still pretend they don't own a cellphone, shrivel their noses at the mention of Facebook, and are probably even the tiniest ashamed about conducting their work on Microsoft Word rather than with the ascetic's pen and paper. Their attitude, too, I must admit, earns much of my respect. But after my own attempt at rejecting all the daily goods of digital technology (an old job had burnt me on the Internet and the strange frazzled string-- I feared -- it was making out of my mind), I realized such Luddite extremism was not only impractical and personally-detrimental, but was justified -- at least for me -- on assumptions that made little sense. The print culture that had shaped my tastes and values after all, was just as historically contingent and man made as the culture evolving from the digital revolution.",
+      "Thus my new challenge became not fighting the tide of digital technology from a little off-the-grid hut in upstate New York, but trying to make sense of it and figure out the best practices for living, learning and making community under its powerful sway. I joined the English department at the Graduate Center in 2011 in order to put the anxieties and excitements of digital culture under the microscope. It was a happy surprise, therefore, to get the opportunity to explore these questions at a practical level as a Digital Fellow. No amount of theorizing about digital technology and its application to education matters if one does not confront the fact that its relative newness means there are still great barriers to entry. The first barrier is figuring out among an overwhelming set of options what digital tools are worth one's time and attention. The second barrier is gaining proficiency in said tools, which can be as nerve-wracking as it is exciting. Crossing these barriers, while remaining engaged with one's original work, can be near impossible and so it's not surprising that there are many who avoid the digital realm at all costs. But, if we're ever to learn the true potential of these tools we need people and institutions to invest time, resources and patience into exploring their potential without expectation that they immediately reveal their true worth.",
+      "So, instead of just theorizing about how digital technology might be applied to education I now have a chance to learn firsthand exactly what kind of work it takes to do so. And boy, it takes work! Just hacking a Word Press blog to meet the needs of a scholar or scholarly organization can take longer than one thinks. When it takes three hours to finally get one little box to show up right on a web page (three hours one could have used to read half a book!) one might start dreaming of log cabins and power outages. But it's this sort of hands-on experience that has really got me thinking about how powerful the tools are that we have before us, and how we're only just beginning to learn what we can do with them. Personally, I still think that the most powerful asset of digital technology is really only an intensification of print culture's most powerful asset -- that is, communication. As this year progresses I'd like to think about using digital tools to share and collaborate on work in increasingly specific ways. Ultimately, I think, the true success of the Digital Initiatives, both here at the GC and at large, will be determined by whether scholars -- not just \"digital scholars\" -- become so familiar with these new digital tools, that we no longer think of them as \"digital,\" but simply as the most useful, practical and enriching way of conducting one's work."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.018854389346455232,
+      0.062465209847811544,
+      0.03330640104123785,
+      0.00023177124692712843,
+      0.00041117469668606755,
+      0.6238842321878562,
+      0.0007494323179357617,
+      0.2600973893150902
+    ],
+    "words": [
+      [
+        "digital",
+        16
+      ],
+      [
+        "technology",
+        6
+      ],
+      [
+        "work",
+        6
+      ],
+      [
+        "tool",
+        6
+      ],
+      [
+        "think",
+        6
+      ],
+      [
+        "great",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19721",
+    "title": "A Fresh Perspective",
+    "date": "2012-11-12",
+    "year": "2012–2013",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Apple",
+      "Interactive Technology and Pedagogy",
+      "philosophy",
+      "programming",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2012/11/12/am-i-an-author/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "My entry into the Digital Fellows program has reshaped not only my perspective on the use of technology in graduate education, but my perspective on how the skills I brought with me to the program can be useful in implementing new tools for graduate training as well.",
+      "I came to the Graduate Center to study philosophy and am currently enrolled in the philosophy PhD program. A great deal of my experience outside of academia has been with technology, and this prompted me to enroll in the Interactive Technology and Pedagogy (ITP) certificate program, in addition to my philosophical studies. I was curious to learn how technology shapes and reshapes our social practices and our epistemic intuitions, especially in academia. The ITP program furnished me with an understanding of the historical significance of technology in both research and pedagogy. It also instilled in me many new skills and a fresh perspective on how to use them to promote…"
+    ],
+    "fullParagraphs": [
+      "My entry into the Digital Fellows program has reshaped not only my perspective on the use of technology in graduate education, but my perspective on how the skills I brought with me to the program can be useful in implementing new tools for graduate training as well.",
+      "I came to the Graduate Center to study philosophy and am currently enrolled in the philosophy PhD program. A great deal of my experience outside of academia has been with technology, and this prompted me to enroll in the Interactive Technology and Pedagogy (ITP) certificate program, in addition to my philosophical studies. I was curious to learn how technology shapes and reshapes our social practices and our epistemic intuitions, especially in academia. The ITP program furnished me with an understanding of the historical significance of technology in both research and pedagogy. It also instilled in me many new skills and a fresh perspective on how to use them to promote technology in the classroom and in my research. I am currently working on a project for the ITP program, entitled “Enlightened Educators,” that seeks to establish an online community for new educators to share content-specific teaching strategies with one another in a collaborative environment.",
+      "In addition to my studies at the Graduate Center, I had worked as an Apple Certified Macintosh Technician, troubleshooting and repairing software and hardware problems in a customer service environment. This experience gave me a perspective on computing that has helped me to be more comfortable learning new software and programming languages.",
+      "The Digital Fellowship program has sharpened my programming skills and web development skills, and has given me a new venue to employ such skills. I’m very interested in collaboration, especially in research and pedagogy. I’ve found that my work in the Digital Fellows program has been based on collaboration and building a community around technology at the Graduate Center - this is exciting! I think that scholars can benefit greatly through collaboration, both within their discipline and across disciplines. I’d like to see the Fellows working together with representatives from other programs at the Graduate Center to build an infrastructure for communication across disciplines – a ‘Digital GC’ - and I think technology plays a crucial role in realizing that goal."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0070230077043383875,
+      0.07796096652011587,
+      0.0009735973794492933,
+      0.00037700228934437727,
+      0.0006688224015115453,
+      0.15765837700637306,
+      0.0012190368879504648,
+      0.754119189810917
+    ],
+    "words": [
+      [
+        "program",
+        9
+      ],
+      [
+        "technology",
+        8
+      ],
+      [
+        "skill",
+        5
+      ],
+      [
+        "new",
+        5
+      ],
+      [
+        "digital",
+        4
+      ],
+      [
+        "perspective",
+        4
+      ]
+    ]
+  }
+]

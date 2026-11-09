@@ -1,0 +1,396 @@
+[
+  {
+    "id": "6198",
+    "title": "Quick and easy mapping with R",
+    "date": "2021-11-03",
+    "year": "2021–2022",
+    "authors": [
+      "Rilquer Mascarenhas"
+    ],
+    "originalAuthors": [
+      "Rilquer Mascarenhas"
+    ],
+    "aliases": [
+      "Rilquer Mascarenhas"
+    ],
+    "account": "Rilquer Mascarenhas",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "gis",
+      "gisinr",
+      "mapping",
+      "resources",
+      "RStudio"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/11/03/quick-and-easy-mapping-with-r/",
+    "signals": [
+      "Code & computational methods",
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "The R language is a very versatile tool, which explains why it is used by so many academics (with a growing community). Almost any statistical modeling can be done in the R platform, and several packages for a number of tools have been developed in the past years . It is easy to get lost when you have one simple goal but are faced with a higher number of tools than you can possibly learn during your PhD years. This is why I think little posts like these one might be helpful to guide our tool search process.",
+      "Spatial analyses are important in our globalized world and, despite not being originally built for that goal, the R environment has seen the increase of packages devoted to GIS investigation. Other tools, like QGIS, will remain useful for initial data exploration and visualization (and much more for those who dive into it). However, implementing GIS in R allows you to streamline your analyses; i.e., spatial data can be both…"
+    ],
+    "fullParagraphs": [
+      "The R language is a very versatile tool, which explains why it is used by so many academics (with a growing community). Almost any statistical modeling can be done in the R platform, and several packages for a number of tools have been developed in the past years . It is easy to get lost when you have one simple goal but are faced with a higher number of tools than you can possibly learn during your PhD years. This is why I think little posts like these one might be helpful to guide our tool search process.",
+      "Spatial analyses are important in our globalized world and, despite not being originally built for that goal, the R environment has seen the increase of packages devoted to GIS investigation. Other tools, like QGIS, will remain useful for initial data exploration and visualization (and much more for those who dive into it). However, implementing GIS in R allows you to streamline your analyses; i.e., spatial data can be both statistically modeled and plotted on a map, all within the same environment, with no need to export and import data in different formats.",
+      "Anyone who has attempted spatial analyses in R must have realized that they are very memory-demanding. This is why one of the biggest findings in my journey through R GIS was the package sf. In this post, I will briefly introduce what this package is and how to use it to plot simple maps.",
+      "Using simple features with the package sf",
+      "In GIS, we refer to features as any representation of real world entities. Features have a geometry, i.e., how they should be represented in space, and attributes, which are any other properties and information of the feature. For instance, if the feature is a building in a city, its geometry might be a line delimiting the area of the building in space (a polygon geometry); or it might be the coordinate where the feature is located (a point geometry). The attributes of that feature are any additional information we want to keep about the building (for instance, its name, its owner, how many people live there, how old it is, etc.).",
+      "A single file of spatial data can include many features (for instance, a shapefile of the US states may have 50 features, one for each state, each with a different polygon geometry representing the state boundaries, and maybe some attributes with information about each state). The term \"simple features\" is used to define a simple way of describing spatial features. The package sf handles spatial data in this simple feature format, and its advantage comes from the fact that spatial data is represented as native R objects. This means that no new type of object had to be created for this package; it only uses the native ways in which R can store data (vectors, matrix, lists, etc.).",
+      "An SF object is basically a matrix, where each row is a feature, and columns refer to different attributes. One of these attributes will be the geometry of the feature (i.e., how is that feature visualized in space). This geometry can be of many types, but the most common are points, polygons or a derivation of those (like, multipoints and multipolygons; Fig. 1).",
+      "Figure 1. Output of an SF object when printed in R. Besides some spatial information (like dimensions and projection), the output shows the first three rows of the feature matrix. Each feature is a row (highlighted in green); each column is an attribute, which includes the geometry attribute (highlightied in red). The blue lines highlight the format of the geometry (multipolygon) for the first feature. Source: https://r-spatial.github.io/sf/articles/sf1.html",
+      "In comparison to other spatial packages in R (like rgdal), the package sf stores data in a more compact format, which can save up to 30% of memory space (based on a recent test I did in a simple shapefile). This small difference can easily scale up to significantly reduce processing time when you are dealing with large amounts of data.",
+      "Installing and plotting",
+      "As any other package in R, the package sf can be installed with the function install.packages and loaded with the function library:",
+      "install.packages('sf') library('sf')",
+      "The package comes with several functions that can be used to deal with spatial data (here is a quick cheat sheet). All function are prefixed by st_, which makes it easy to find them by command-line completion (i.e., you can just type “st_” and a list of all functions will appear; browse through those with directional arrows and press tab to complete the command with the chosen function).",
+      "As an example, we can load a shapefile from the Natural Earth Database to show us the proximity of airports to urban centers in the world:",
+      "airports = st_read(‘ne_10m_airports.shp) cities = st_read(‘ne_10m_urban_areas.shp’)",
+      "Since the SF object is basically a matrix, we can use the package ggplot, a very popular R package to make elegant plants. With this package, we can overlay different layers (i.e., different spatial files, like our airports and cities files that were loaded above). We can also ustomize options of our maps using the function geom_sf, a ggplot function made specifically to deal with SF objects. The code below is an example showing how to plot our data of cities and airports locations with a focus on North America. We load the package rnaturalearth to retrieve a SF object containing a polygon of the boundaries of all countries in the world. We save this SF objecy with the name \"world\", and we use it as the main data to be plotted by ggplot (ggplot(data = world)). Then, we use geom_sf to set the fill color of these polygons, and to load new data (airports and cities, setting a size for the points and a color for the cities polygons). Finally, we use the function coord_sf to delimit the boundaries of our map (setting minimum and maximum longitude and latitude).",
+      "library(\"ggplot2\") library(\"rnaturalearth\")",
+      "#The line below uses the ne_countries function from the rnaturalearth package to retrieve #a sf object of the boundaries of countries, in the medium scale, saving it to “world”. world = ne_countries(scale = \"medium\", returnclass = \"sf\")",
+      "theme_set(theme_bw()) # Setting a color theme for the plot ggplot(data = world) + # Main data is the boundaries of countries geom_sf(fill= \"antiquewhite\", size = 0.1)+ # Setting color for countries polygons geom_sf(data = airports, size = 2, color = 'purple')+ geom_sf(data = cities, colour = \"black\", fill = NA, size = 0.1)+",
+      "# In the line below, we use coord_sf to delimit the longitude and latitude minimum and # maximum limits of our map (focusing on North America). coord_sf(xlim = c(-127.908761,-60.320873), ylim = c(25.288551,49.270773), expand = FALSE)+",
+      "# The line below sets a few cosmetics, like color of lines and background theme(panel.grid.major = element_line(color = gray(.9), linetype = \"dashed\", size = 0), panel.background = element_rect(fill = \"aliceblue\"))",
+      "Figure 2. Plot resulting from code above, where polygons show the location of large urban areas, and purple points show the locations of airports",
+      "From the figure above, you can do all sorts of spatial analyses (still within the R environment), like computing the average distance from airports to the nearest urban area, or creating a model to spatially predict number of airports in an area based on the number of nearby urban areas within a radius. The possibilities are endless!",
+      "If you are new to R GIS and want to explore the package sf further, you can check out this page to get started. It contains several tutorials on how to use open-source data to build maps with both packages sf and ggplot."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0037012360634648025,
+      0.002009815259487911,
+      0.30983777018620245,
+      0.00349104075064237,
+      0.5736370653225003,
+      0.10262816966685588,
+      0.0003488312646095313,
+      0.004346071486236687
+    ],
+    "words": [
+      [
+        "package",
+        21
+      ],
+      [
+        "data",
+        19
+      ],
+      [
+        "feature",
+        18
+      ],
+      [
+        "r",
+        14
+      ],
+      [
+        "spatial",
+        12
+      ],
+      [
+        "function",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "6153",
+    "title": "How to create websites with audio and visual elements on the CUNY Academic Commons",
+    "date": "2021-10-27",
+    "year": "2021–2022",
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "originalAuthors": [
+      "Rebecca Krisel"
+    ],
+    "aliases": [
+      "Rebecca Krisel"
+    ],
+    "account": "Rebecca Krisel",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Digital Humanities",
+      "resources",
+      "Resources",
+      "websites",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/10/27/how-to-create-websites-with-audio-and-visual-elements-on-the-cuny-academic-commons/",
+    "signals": [
+      "Web & scholarly identity",
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Whether you are seeking to make your research publicly available, host an interactive website for your courses, or track research for your M.A. thesis or dissertation, creating websites has become critical in academic scholarship. Doing so with visual and audio elements can bring data and research findings to life.",
+      "On your Wordpress-supported CUNY Academic Commons (CAC) you can embed a wide array of content with plugins (including videos and sounds from Youtube and Spotify), charts and graphs from Infogram and Plotly, interactive timelines from Timeline JS, and so much more.",
+      "In this blog post, I will start by defining some key terms. Next, I will discuss some of the ethical and legal questions to consider before embedding content on your website. And finally, I will walk you through how to use the CAC’s three main tools for embedding content on your website.",
+      "Defining key terms: Embed, URL, Shortcode",
+      "The term ’embedding’ means to place…"
+    ],
+    "fullParagraphs": [
+      "Whether you are seeking to make your research publicly available, host an interactive website for your courses, or track research for your M.A. thesis or dissertation, creating websites has become critical in academic scholarship. Doing so with visual and audio elements can bring data and research findings to life.",
+      "On your Wordpress-supported CUNY Academic Commons (CAC) you can embed a wide array of content with plugins (including videos and sounds from Youtube and Spotify), charts and graphs from Infogram and Plotly, interactive timelines from Timeline JS, and so much more.",
+      "In this blog post, I will start by defining some key terms. Next, I will discuss some of the ethical and legal questions to consider before embedding content on your website. And finally, I will walk you through how to use the CAC’s three main tools for embedding content on your website.",
+      "Defining key terms: Embed, URL, Shortcode",
+      "The term ’embedding’ means to place content on your website as opposed to only linking to it.",
+      "This means your website readers won’t have to leave your site in order to consume additional content.",
+      "For example, instead of just sharing a link to a Youtube video that a website visitor must click on and open in a different window, your website visitor can watch the video on your website.",
+      "URL (Uniform Resource Locators): Websites have unique addresses or website links to help people locate them and typically start with “www.”",
+      "URLs a more commonly referred to as website links",
+      "Shortcode (advanced tool): A shortened html code that enhances your website features.",
+      "“Think of a shortcode as a shortcut to add features to your website that would normally require lots of complicated computer code and technical ability” (WordPress).",
+      "WordPress plugins: What are they? Where are they located? How do they work?",
+      "A plugin is a piece of software that can extend functionality or add new features to your WordPress websites. Think of it like an app for your website.",
+      "Where to find available plugins for a CAC website:",
+      "From your CAC WordPress website, hover over your toolbar in the top, left corner of the website, and navigate to your “Dashboard” (this will be under the second menu from the left).",
+      "How to navigate to your dashboard from your CAC website",
+      "Once on your dashboard, click on “Plugins” from the left toolbar. There you will find a list of plugins that have been preloaded to your CAC website, no downloading necessary.",
+      "Where to find Plugins on your CAC website",
+      "Activating a plugin: Most of the plugins will be “inactive.” To activate a plugin click the “activate” button below the plugin you want to use.",
+      "How to activate a Plugin on your CAC website",
+      "How to use a plugin:",
+      "Each plugin listed on your CAC website comes with instructions. You can access these instructions by clicking on the “visit plugin site” below the plugin description.",
+      "If the plugin instructions are not clear, you can use Google (or other search engines like Yahoo, Bing, etc…) to look for more information about the plugin you are interested in.",
+      "Ethical/legal considerations before embedding content on your website:",
+      "Before embedding content on your website, you want to make sure you have the appropriate license to do so.",
+      "When embedding video content, you always want to make sure you have the appropriate permission to share/use video content:",
+      "If you’ve created the video content yourself, make sure that anyone who is featured in the video has consented to the video being viewed publicly.",
+      "If you are using video content shared by another creator you either want to get their permission directly or check to see if their video content is listed as part of the Creative Commons before embedding it into your website.",
+      "When embedding audio content, always check the audio platform Terms of Service:",
+      "Soundcloud and Spotify: a public audio file is public domain. Therefore, you are legally allowed to share this audio content on your website.",
+      "When embedding social media content, always check the social media platform’s Terms of Service:",
+      "Twitter: Content from public accounts is technically public.",
+      "Note: Although you are legally allowed to display public content on your website, there are still ethical concerns with including content created by an account whose owner may not know that their content is being shared on your website. So use your best judgement. You may also want to ask the user directly for their consent.",
+      "When using a dataset to create graphs, charts, maps, and interactive dashboards, you want to make sure you properly credit the owner/creator of the dataset.",
+      "How can I embed content on my CAC website?",
+      "Preset Wordpress Embeds:",
+      "By default, your CAC WordPress website comes with a variety of preset (already activated) plugins to embed content videos from Youtube and Vimeo, audio content from Soundcloud and Spotify, social media content from Twitter, and more. WordPress provides a list here.",
+      "Note: Facebook (and Instagram) no longer allow embeds with WordPress",
+      "Embedly:",
+      "The Embedly Plugin extends WordPress’s automatic embed feature.",
+      "Embedly works with 700 providers that can be embedded into WordPress from Infogram and Plotly to Prezi. See full list here.",
+      "To find the “Embedly” plugin, navigate to your plugins menu (see instructions above), scroll down the table of plugins organized alphabetically OR use the search tool in the top, right corner of the webpage.",
+      "Click “activate” and you are good to go!",
+      "Shortcodes:",
+      "As defined above, a shortcode is a shortened html code that enhances your website features. There isn’t a comprehensive list of items that can be embedded into your CAC with Shortcodes. You typically find Shortcodes by searching for them via Google, or other search engines. However, WordPress does offer a few, and you can find them here.",
+      "Embedding content using the WordPress Block Editor",
+      "The CAC WordPress block editor comes pre-loaded with a list of digital platforms and services that can be easily embedded.",
+      "How to access the WordPress block editor?",
+      "Step 1: From your WordPress website editor page, click the “+” symbol to add a new block, and click the “browse all” button at the bottom of the block window.",
+      "How to navigate the block editor",
+      "Step 2: From the “browse all” menu, search for the term “embed”",
+      "Finding the preset embed options on Wordpress",
+      "Step 3: Select the embed service (e.g., Youtube, Vimeo, Spotify, Twitter, etc…) that you want to use.",
+      "Step 4: Copy the URL for the content you want to use and paste into the block.",
+      "Example: Embedding a Youtube video",
+      "https://www.youtube.com/watch?v=-TbZyrUT77k",
+      "Embedding content using the Embedly plugin",
+      "Embedding content from a service or platform that is part of the Embedly list of providers is simple: just copy the URL for the content you want to share, and paste it directly into your WordPress text editor. See full list of providers here.",
+      "Step 1: In your WordPress website editor page, click the “+” symbol to add a new block, and select paragraph.",
+      "How to select a paragraph block",
+      "Step 2: Simply copy and then paste the URL. The Embedly website will recognize the URL, and will automatically embed the content.",
+      "Example: Embedding graphics from Infogram",
+      "Infogram is a web-based data visualization platform for creating interactive graphs, charts, maps, infographics, and live dashboards. See example here.",
+      "Company: Infogram",
+      "Proprietary or Open Source: Proprietary.",
+      "Cost: Infogram offers both free and paid subscriptions.",
+      "Data sources: Connects to data in a variety of formats like Excel, CSV, and Google Sheets.",
+      "Sharing: Share your graphics with a URL or embed into your own website.",
+      "Ease of Use: Beginners. See list of resources and how-to guides here.",
+      "Strengths:",
+      "Free!",
+      "Easy to use web interface",
+      "Good for quick, basic interactive data visualization",
+      "Access and work on your visualization projects anytime, anywhere, on any computer",
+      "Easy to embed into a website",
+      "Weaknesses:",
+      "Not ideal for large datasets",
+      "Embedding Infogram graphics with Embedly:",
+      "Infogram embeds into WordPress through Embedly.",
+      "Make sure your Embedly WordPress plugin is activated.",
+      "From the Infogram website, click the “share” button in the top right corner of the graphic you want to embed, then click “copy link” or copy the link manually.",
+      "Next, on your WordPress website editor page, click the “+” symbol to add a new block, and select paragraph. Then simply paste your link (URL). The Embedly website will recognize the URL, and will automatically embed the graphic.",
+      "The examples below are selected from Infogram's Featured list",
+      "https://infogram.com/most-haunted-states-per-ghost-sightings-in-the-us-1hdw2jn9elqo4l0",
+      "https://infogram.com/how-machines-destroyed-and-created-jobs-usa-1g4qpz6dqdvo21y",
+      "Embedding content using a Shortcode",
+      "Working with Shortcodes is a little more advanced. Here’s a list of all the Shortcodes available on WordPress.",
+      "How to embed using a Shortcode block?",
+      "Step 1: From your WordPress website editor page, click the “+” symbol to add a new block, and search for “Shortcode” in the block window search bar, and then click on “Shortcode.”",
+      "Finding the Shortcode block",
+      "Step 2: Once you are in the Shortcode block editor, you can add your Shortcode script into the window.",
+      "Adding your code to the Shortcode block",
+      "Step 3: Click “Preview” in the top, right corner to see if your code worked.",
+      "Example: Embedding an interactive timeline from Timeline JS",
+      "Timeline JS is a web-based digital tool for creating visual, interactive timelines.",
+      "Company: Knight Lab at Northwestern University",
+      "Proprietary or Open Source: Open Source.",
+      "Cost: Free",
+      "Data sources:",
+      "Beginners can create a timeline using a Google spreadsheet. Start with the template.",
+      "Advanced users can use JSON to create custom installations, while keeping TimelineJS’s core functionality.",
+      "TimelineJS can pull in media from a variety of sources including Twitter, Flickr, YouTube, Vimeo, Vine, Dailymotion, Google Maps, Wikipedia, SoundCloud, Document Cloud and others.",
+      "Sharing: Share your timeline with a URL or embed into your own website.",
+      "Ease of Use: Intermediate/advanced. Follow instructions here.",
+      "Strengths:",
+      "Free!",
+      "Easy to use",
+      "Easy to embed into a website",
+      "Weaknesses:",
+      "Best if used with fewer than 20 slides.",
+      "Does not work well for stories that need to jump around in the timeline",
+      "Embedding a Timeline JS using a shortcode:",
+      "Timeline JS embeds using Shortcodes (see Timeline JS embedding instructions here for more detail)",
+      "You also need to activate the Knight Lab TimelineJS plugin on your CAC website",
+      "First, follow the instructions for organizing the content you want to include in your timeline in a Google Spreadsheet.",
+      "Per the instructions, publish your spreadsheet to the web (select od1, not entire document) and then click publish. Close the “publish” window using the X in the top right corner.",
+      "Copy the Google Speadsheet URL in your browser’s address bar.",
+      "On your WordPress website editor page, click the “+” symbol to add a new block, and click the “browse all” button at the bottom of the block window. Search for the Shortcode plugin in the block browser.",
+      "Using the code below, paste your Google Spreadsheet URL where it says “Your source url here.” (keep the quotation marks in the code)",
+      "The example below is created by the TimelineJS team",
+      "Note: This blog is an adaptation of the Creating interactive, audio & visual, data driven websites in WordPress workshop, and you can find the full curriculum here."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0002021523307150724,
+      0.00020225361928043978,
+      0.0012521424627127684,
+      6.856315408340871e-05,
+      0.09257852537773843,
+      0.05769955048806041,
+      0.7925557501661669,
+      0.05544106240124263
+    ],
+    "words": [
+      [
+        "website",
+        47
+      ],
+      [
+        "embed",
+        36
+      ],
+      [
+        "content",
+        31
+      ],
+      [
+        "wordpress",
+        26
+      ],
+      [
+        "block",
+        19
+      ],
+      [
+        "click",
+        17
+      ]
+    ]
+  },
+  {
+    "id": "6091",
+    "title": "GCDI is Here for You!",
+    "date": "2021-09-15",
+    "year": "2021–2022",
+    "authors": [
+      "Param Ajmera"
+    ],
+    "originalAuthors": [
+      "Param Ajmera"
+    ],
+    "aliases": [
+      "Param Ajmera"
+    ],
+    "account": "Param Ajmera",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Param Ajmera",
+    "tags": [
+      "Announcements",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2021/09/15/gcdi-is-here-for-you-3-2/",
+    "signals": [],
+    "paragraphs": [
+      "Greetings Digital GC – Welcome back!",
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual events this semester! Don’t miss our GC Digital Scholarship Lab Virtual Open House on Wednesday, September 15th. It will be offered at three different times:…"
+    ],
+    "fullParagraphs": [
+      "Greetings Digital GC – Welcome back!",
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual events this semester! Don’t miss our GC Digital Scholarship Lab Virtual Open House on Wednesday, September 15th. It will be offered at three different times: 12-1 PM, 2-3 PM, and 4-5 PM. This event is free and open to the entire Graduate Center community; however, registration is required. When you come, you can expect to hear a short presentation about what GCDI offers, meet and chat with the Fellows, tour the programs we have to offer, and learn about how you can be more involved with the GCDI community.",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the R User’s Group (RUG), the Python User’s Group (PUG), the Sound Studies and Methods Working Group, the Digital Archives Research Collective (DARC), and the GIS/Mapping Working Group. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!.",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons for regular updates, to follow us on Twitter (@Digital_Fellows, @cunygcdi), to be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project? Try one of these:",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet remotely – via Zoom, Teams, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Open House",
+      "We will host an Open House at the GC Digital Scholarship Lab at the beginning of each year to introduce folks to the various resources GC Digital Initiatives has to offer and to assist individuals with questions related to their digital project. Our Fall 2021 Digital Scholarship Lab Open House will be held virtually on Wednesday, September 15th from 12-1 PM, 2-3 PM, and 4-5 PM. Check out our event page for more information about registration and what to expect!!",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed Slack workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer hands-on, remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. Registration is required, and information about how to register can be found on our website.",
+      "This semester we are offering 8 workshops across September to November. These include:",
+      "Tools for the Digital Humanities // September 17 @ 1 - 2 pm",
+      "Introduction to Python // September 23 @ 11 - 1 pm",
+      "Intro to R and RStudio // October 1 @ 3 – 4:30 pm",
+      "Creating interactive, visual, data driven websites in Wordpress // October 7 @ 2 – 3:30 pm",
+      "Foundations of Microsoft Excel // October 20 @ 4 – 5:30 pm",
+      "Basic Audio Editing with Audacity // October 21 @ 11 – 12:30 pm",
+      "Intro to Educational Game Design // October 28 @ 3 – 4:30 pm",
+      "Intro to GIS // TBD",
+      "In order to be as responsive as possible, workshop space is limited, so:",
+      "1) Be sure to register on Eventbrite when you know you want to attend and;",
+      "2) If you realize you can’t make it, please cancel your RSVP so someone else can attend!",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold's reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, join the Building Manifold Development Blog, join the Manifold Community Slack channel, and visit the Manifold website for current documentation. You can also contact Manifold Co-PI Matthew K. Gold or Manifold Digital Fellow Jojo Karlin.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. If you’re new to CUNY, check out the Commons Basics guide. Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms, you might see associated with GCDI are some amazing partners -- the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "While we are not physically at the GC, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such topics, tools, and methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Which Digital Tool Should I Use? By Hannah Aizenman",
+      "An Introduction to Programming Paradigms by Patrick Smyth",
+      "What to Consider When Planning a Digital Project by Kristen Hackett",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "Using Audacity for Interviews by Di Yoong",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective Wiki, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive and smooth (!) remote semester,",
+      "your Digital Fellows,",
+      "Chelsea, Di, Rebecca, Rilquer, Param, Leanne, Zach, Yuxiao",
+      "Note: This post by GC Digital Fellow Param Ajmera is updated from the post by GC Digital Fellows Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

@@ -1,0 +1,7672 @@
+{
+  "matrix": [
+    {
+      "key": "academiaos",
+      "label": "academiaos",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": 6.457120423108236,
+          "count": 6.457120423108236,
+          "ids": [
+            "21329",
+            "20486",
+            "20481"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "accountability",
+      "label": "accountability",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": 6.701086492089279,
+          "count": 6.701086492089279,
+          "ids": [
+            "23261",
+            "22867",
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "acknowledgement",
+      "label": "acknowledgement",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19747"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": 4.779761231103453,
+          "count": 4.779761231103453,
+          "ids": [
+            "19860",
+            "5569",
+            "5549",
+            "19854"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "alice",
+      "label": "alice",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": 5.956207938382747,
+          "count": 5.956207938382747,
+          "ids": [
+            "19748",
+            "19729",
+            "315"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "arduino",
+      "label": "arduino",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": 8.615127929567265,
+          "count": 8.615127929567265,
+          "ids": [
+            "4414",
+            "19839",
+            "19830"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "asynchronous",
+      "label": "asynchronous",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": 5.624483836816078,
+          "count": 5.624483836816078,
+          "ids": [
+            "6053",
+            "5994",
+            "19867",
+            "5804",
+            "5781",
+            "5772"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "7042"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "attribution",
+      "label": "attribution",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": 4.486455983684469,
+          "count": 4.486455983684469,
+          "ids": [
+            "1911",
+            "19770",
+            "19765"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6729"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "audit",
+      "label": "audit",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": 6.170571775390498,
+          "count": 6.170571775390498,
+          "ids": [
+            "24079",
+            "22867",
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "award",
+      "label": "award",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19775"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": 5.978818548845887,
+          "count": 5.978818548845887,
+          "ids": [
+            "4259",
+            "19840",
+            "19835"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21255"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24057",
+            "23141"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bootstrap",
+      "label": "bootstrap",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": 6.326298758490978,
+          "count": 6.326298758490978,
+          "ids": [
+            "19773",
+            "19769",
+            "19768"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "3507"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": [
+            "3889"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19874"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6431"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "borough",
+      "label": "borough",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19734"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": 5.8879804479830025,
+          "count": 5.8879804479830025,
+          "ids": [
+            "19883",
+            "19879"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "butt",
+      "label": "butt",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": 6.789157329342313,
+          "count": 6.789157329342313,
+          "ids": [
+            "4364",
+            "19840",
+            "19837",
+            "3866",
+            "19832"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "car",
+      "label": "car",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19862"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": 4.910076360514862,
+          "count": 4.910076360514862,
+          "ids": [
+            "19872",
+            "18368"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21395",
+            "20481"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "carpentry",
+      "label": "carpentry",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": 6.382106112369077,
+          "count": 6.382106112369077,
+          "ids": [
+            "19828",
+            "19820",
+            "3393"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "carto",
+      "label": "carto",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19834"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": 4.651298452185993,
+          "count": 4.651298452185993,
+          "ids": [
+            "5184",
+            "4920"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "cbox",
+      "label": "cbox",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19757"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": 4.59963805819331,
+          "count": 4.59963805819331,
+          "ids": [
+            "2292",
+            "19792"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "chorus",
+      "label": "chorus",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": 6.186129291411478,
+          "count": 6.186129291411478,
+          "ids": [
+            "4747",
+            "4685"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19889"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "civic",
+      "label": "civic",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19774"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "20674"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": 7.5645890801402045,
+          "count": 7.5645890801402045,
+          "ids": [
+            "24843",
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "covid",
+      "label": "covid",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": 4.943013355241575,
+          "count": 4.943013355241575,
+          "ids": [
+            "19867",
+            "19864",
+            "19862"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19880",
+            "19878"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19888"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": 0.28497075655140985,
+          "count": 0.28497075655140985,
+          "ids": [
+            "21891",
+            "20693",
+            "20674"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "crime",
+      "label": "crime",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": 5.085064885363552,
+          "count": 5.085064885363552,
+          "ids": [
+            "19799",
+            "19797"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19843"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "decimal",
+      "label": "decimal",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19797"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": 4.362518959010508,
+          "count": 4.362518959010508,
+          "ids": [
+            "6662",
+            "19883"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "declare",
+      "label": "declare",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19774"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": 5.199582977709846,
+          "count": 5.199582977709846,
+          "ids": [
+            "6358",
+            "6243"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "dhi",
+      "label": "dhi",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": [
+            "2755"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": 5.344631406950414,
+          "count": 5.344631406950414,
+          "ids": [
+            "19825",
+            "19815",
+            "19808"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "distinguished",
+      "label": "distinguished",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": 6.002153652439901,
+          "count": 6.002153652439901,
+          "ids": [
+            "19860",
+            "5569",
+            "5549"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "docx",
+      "label": "docx",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19874"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": 4.362518959010508,
+          "count": 4.362518959010508,
+          "ids": [
+            "6729",
+            "19877"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21649"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "fisher",
+      "label": "fisher",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": 5.808001696005791,
+          "count": 5.808001696005791,
+          "ids": [
+            "23261",
+            "22867",
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "funny",
+      "label": "funny",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19818"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": 5.56883629199402,
+          "count": 5.56883629199402,
+          "ids": [
+            "4934",
+            "4809"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "gallery",
+      "label": "gallery",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": 6.808384078571832,
+          "count": 6.808384078571832,
+          "ids": [
+            "19779",
+            "19773",
+            "19768"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "gcdisound",
+      "label": "gcdisound",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": 6.475635908606463,
+          "count": 6.475635908606463,
+          "ids": [
+            "4685",
+            "4508",
+            "4474"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "hannah",
+      "label": "hannah",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "3393",
+            "19815"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": 5.762685117981122,
+          "count": 5.762685117981122,
+          "ids": [
+            "4364",
+            "4259",
+            "19840",
+            "19835",
+            "3798"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "hathitrust",
+      "label": "hathitrust",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19814",
+            "19805"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": 6.3477506532208965,
+          "count": 6.3477506532208965,
+          "ids": [
+            "19860",
+            "5569",
+            "5549"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "5881"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "influential",
+      "label": "influential",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": 6.236260952907149,
+          "count": 6.236260952907149,
+          "ids": [
+            "5140",
+            "7527",
+            "4934",
+            "4819"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "ingredient",
+      "label": "ingredient",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6651"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": 4.789195623438795,
+          "count": 4.789195623438795,
+          "ids": [
+            "19893",
+            "19892"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "innovator",
+      "label": "innovator",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19765"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21891"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": 4.953154368057858,
+          "count": 4.953154368057858,
+          "ids": [
+            "24843",
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "inpho",
+      "label": "inpho",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19786"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": 5.69729907091148,
+          "count": 5.69729907091148,
+          "ids": [
+            "19860",
+            "5569",
+            "5549"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "law",
+      "label": "law",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19741"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19862"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "23481"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": 4.3461655610067025,
+          "count": 4.3461655610067025,
+          "ids": [
+            "24843",
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "listener",
+      "label": "listener",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4819"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": 4.887518242649873,
+          "count": 4.887518242649873,
+          "ids": [
+            "6047",
+            "6005",
+            "5873"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21509"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "lynn",
+      "label": "lynn",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": 5.956207938382747,
+          "count": 5.956207938382747,
+          "ids": [
+            "19748",
+            "19729",
+            "315"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "marketplace",
+      "label": "marketplace",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": 4.789195623438795,
+          "count": 4.789195623438795,
+          "ids": [
+            "7016",
+            "19890"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "22867"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24843"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "math",
+      "label": "math",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19815"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19834"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4825"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": 5.3823526547062635,
+          "count": 5.3823526547062635,
+          "ids": [
+            "21773",
+            "20594"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24079"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "matthew",
+      "label": "matthew",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19724"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": 4.393187180725884,
+          "count": 4.393187180725884,
+          "ids": [
+            "19801",
+            "19793",
+            "19792",
+            "19789"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19835"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24843"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "meme",
+      "label": "meme",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": 4.940805069380978,
+          "count": 4.940805069380978,
+          "ids": [
+            "4934",
+            "4825",
+            "4809"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": 0.9030873403732111,
+          "count": 0.9030873403732111,
+          "ids": [
+            "19884",
+            "19876"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": [
+            "21649"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "microphone",
+      "label": "microphone",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4685"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4819"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": 5.170551184135619,
+          "count": 5.170551184135619,
+          "ids": [
+            "19858",
+            "5355"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "5873"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "military",
+      "label": "military",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": 6.314657112411289,
+          "count": 6.314657112411289,
+          "ids": [
+            "7114",
+            "19891"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "misshula",
+      "label": "misshula",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": 6.382106112369077,
+          "count": 6.382106112369077,
+          "ids": [
+            "3393",
+            "19815",
+            "19813",
+            "19806"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "null",
+      "label": "null",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": 4.698041762254305,
+          "count": 4.698041762254305,
+          "ids": [
+            "19799",
+            "19797"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19827"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4920"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": [
+            "5401"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "ocean",
+      "label": "ocean",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": 6.170571775390498,
+          "count": 6.170571775390498,
+          "ids": [
+            "23141",
+            "22867",
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "organizational",
+      "label": "organizational",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19771"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19823"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": 4.590584288673149,
+          "count": 4.590584288673149,
+          "ids": [
+            "24843",
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "overflow",
+      "label": "overflow",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19870",
+            "6217"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": 4.990550181623551,
+          "count": 4.990550181623551,
+          "ids": [
+            "19877",
+            "19876"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "praat",
+      "label": "praat",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": 7.6600604797438905,
+          "count": 7.6600604797438905,
+          "ids": [
+            "19846",
+            "4456",
+            "4685"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "preparing",
+      "label": "preparing",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": 5.82355921202677,
+          "count": 5.82355921202677,
+          "ids": [
+            "4698",
+            "19845",
+            "4508"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "preset",
+      "label": "preset",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19852"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": 4.910076360514862,
+          "count": 4.910076360514862,
+          "ids": [
+            "6337",
+            "6153"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "printer",
+      "label": "printer",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": 5.533761698462826,
+          "count": 5.533761698462826,
+          "ids": [
+            "19759",
+            "19757"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19839"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19888"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "profession",
+      "label": "profession",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19753"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": 4.722494805978844,
+          "count": 4.722494805978844,
+          "ids": [
+            "19793",
+            "19789"
+          ]
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "rectangle",
+      "label": "rectangle",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": 5.988078872516135,
+          "count": 5.988078872516135,
+          "ids": [
+            "6358",
+            "6243"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19883"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "reduction",
+      "label": "reduction",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19858"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": 5.7849485090093244,
+          "count": 5.7849485090093244,
+          "ids": [
+            "6047",
+            "19862"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "resize",
+      "label": "resize",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": 4.7759626008794545,
+          "count": 4.7759626008794545,
+          "ids": [
+            "2050",
+            "19773"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "23741"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "score",
+      "label": "score",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19754",
+            "19753"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": 5.5930679211374335,
+          "count": 5.5930679211374335,
+          "ids": [
+            "21773",
+            "20594"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": [
+            "24351"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "silo",
+      "label": "silo",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": 6.318778017767455,
+          "count": 6.318778017767455,
+          "ids": [
+            "19756",
+            "19752",
+            "19734"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "sophistication",
+      "label": "sophistication",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": 5.956207938382747,
+          "count": 5.956207938382747,
+          "ids": [
+            "19753",
+            "19745",
+            "19727"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "soundcamp",
+      "label": "soundcamp",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": 8.797564003493825,
+          "count": 8.797564003493825,
+          "ids": [
+            "4747",
+            "4685",
+            "4508"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "spanish",
+      "label": "spanish",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19891"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": 6.056582493524507,
+          "count": 6.056582493524507,
+          "ids": [
+            "21235",
+            "21025"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "synchronous",
+      "label": "synchronous",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": 7.514300919065655,
+          "count": 7.514300919065655,
+          "ids": [
+            "6053",
+            "19867",
+            "5804",
+            "5772"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "taguette",
+      "label": "taguette",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": 6.457120423108236,
+          "count": 6.457120423108236,
+          "ids": [
+            "21329",
+            "20486",
+            "20481"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "tahir",
+      "label": "tahir",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": 7.030165428846108,
+          "count": 7.030165428846108,
+          "ids": [
+            "4364",
+            "19840",
+            "19837",
+            "3866",
+            "19832"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "target",
+      "label": "target",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19754"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19812"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4456",
+            "19844"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6057"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": 5.623677723519263,
+          "count": 5.623677723519263,
+          "ids": [
+            "7114",
+            "19893",
+            "19892"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "timeline",
+      "label": "timeline",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19779"
+          ]
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19811"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19854"
+          ]
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19869"
+          ]
+        },
+        {
+          "year": "2021–2022",
+          "value": 4.844488018887285,
+          "count": 4.844488018887285,
+          "ids": [
+            "6358",
+            "6153"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6927"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "unconference",
+      "label": "unconference",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": [
+            "4474"
+          ]
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": 6.641210361743117,
+          "count": 6.641210361743117,
+          "ids": [
+            "24843",
+            "24783"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "unsplash",
+      "label": "unsplash",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": 6.3949404367028855,
+          "count": 6.3949404367028855,
+          "ids": [
+            "6729",
+            "6446",
+            "6431"
+          ]
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "utility",
+      "label": "utility",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": 6.588556989836503,
+          "count": 6.588556989836503,
+          "ids": [
+            "19827",
+            "3507",
+            "19821"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "verb",
+      "label": "verb",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": 5.7405600832815535,
+          "count": 5.7405600832815535,
+          "ids": [
+            "19818",
+            "19816"
+          ]
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19838"
+          ]
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "vscode",
+      "label": "vscode",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": [
+            "6358"
+          ]
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": 5.435963408633422,
+          "count": 5.435963408633422,
+          "ids": [
+            "7016",
+            "19890"
+          ]
+        },
+        {
+          "year": "2024–2025",
+          "value": 0.7606496071700894,
+          "count": 0.7606496071700894,
+          "ids": [
+            "21509",
+            "20557"
+          ]
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "wildly",
+      "label": "wildly",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": 6.318778017767455,
+          "count": 6.318778017767455,
+          "ids": [
+            "19746",
+            "19730",
+            "19725"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "wireless",
+      "label": "wireless",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": [
+            "19728"
+          ]
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": 5.3882640463522,
+          "count": 5.3882640463522,
+          "ids": [
+            "19849",
+            "5111",
+            "4819"
+          ]
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    },
+    {
+      "key": "wisdom",
+      "label": "wisdom",
+      "cells": [
+        {
+          "year": "2012–2013",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2013–2014",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2014–2015",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2015–2016",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2016–2017",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2017–2018",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2018–2019",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2019–2020",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2020–2021",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2021–2022",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2022–2023",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2023–2024",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2024–2025",
+          "value": null,
+          "count": null,
+          "ids": []
+        },
+        {
+          "year": "2025–2026",
+          "value": 6.460078392585483,
+          "count": 6.460078392585483,
+          "ids": [
+            "24263",
+            "23141",
+            "23009",
+            "22801"
+          ]
+        },
+        {
+          "year": "2026–2027",
+          "value": null,
+          "count": null,
+          "ids": []
+        }
+      ]
+    }
+  ]
+}

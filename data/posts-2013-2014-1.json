@@ -1,0 +1,1788 @@
+[
+  {
+    "id": "19783",
+    "title": "The FCC, Net Neutrality, and You",
+    "date": "2014-05-11",
+    "year": "2013–2014",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "communication",
+      "debate",
+      "discussion",
+      "philosophy",
+      "technology"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/05/11/the-fcc-net-neutrality-and-you/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "A few weeks ago, the Federal Communications Commission (FCC) announced it will propose new rules that effectively allow Internet service providers (ISP) to charge more money to certain companies in exchange for ‘faster lanes’ to deliver content to consumers. These new rules could mean the beginning of the end for net neutrality.",
+      "The philosophy of net neutrality espouses two main ideas: 1) that all producers of Internet content (Netflix, The New York Times, NPR, Boing Boing, You, Me, etc.) should be given equal access to the lanes that deliver content, and 2) that all users should have equal access to any content produced (so long as that content is legal, of course). This means that you and I can visit any website we wish and 1) the content will be available and 2) the content will be delivered to us at equal speed (so, no long loading times for your personal blog while Nextflix loads immediately).",
+      "So, why does the news from the FCC…"
+    ],
+    "fullParagraphs": [
+      "A few weeks ago, the Federal Communications Commission (FCC) announced it will propose new rules that effectively allow Internet service providers (ISP) to charge more money to certain companies in exchange for ‘faster lanes’ to deliver content to consumers. These new rules could mean the beginning of the end for net neutrality.",
+      "The philosophy of net neutrality espouses two main ideas: 1) that all producers of Internet content (Netflix, The New York Times, NPR, Boing Boing, You, Me, etc.) should be given equal access to the lanes that deliver content, and 2) that all users should have equal access to any content produced (so long as that content is legal, of course). This means that you and I can visit any website we wish and 1) the content will be available and 2) the content will be delivered to us at equal speed (so, no long loading times for your personal blog while Nextflix loads immediately).",
+      "So, why does the news from the FCC threaten net neutrality, and why should that matter to users?",
+      "The new proposed rules from the FCC would allow certain ISP’s (those that have significantly more money and, potentially, influence) to pay higher prices for access to new ‘fast lanes.’ These ‘fast lanes’ would enable ISP’s to transfer preferred content at a faster rate to consumers, relegating other non-preferred content to the slower lanes. An example from the New York Times highlights one problematic scenario that could arise: a large video game company pays to use a fast lane to deliver their game to consumers at the expense of a smaller start-up video game company. The start-up company’s game will most likely suffer (and the start-up may fail) because customers are dissatisfied with how the start-up game loads in comparison to the larger company’s game.",
+      "Although gamers represent a large portion of the Internet-using population, a much more dangerous trend may emerge for the majority of Internet users if these proposed rules take effect.",
+      "Under current Internet regulations (which uphold a net neutrality policy), Americans have access to major Internet news sources (New York Times, Al Jazeera, CNN, The Guardian, etc.), more independent news sources (Boing Boing, Alternet, Mother Jones, etc.), and individual news blogs (Gawker, The Huffington Post, ThinkProgress, etc.). We are able to access major and minor news stories across different sites, comparing coverage and bias to make our own judgment about any particular event. A move away from net neutrality would mean a weakened selection of news outlets and, quite plausibly, suppressed speech.",
+      "Major ISP’s (for instance, Comcast or Time Warner Cable) that purchase faster lanes may very likely preference their own news providers at the expense of smaller, more independent news providers. This means that ISP’s would control, to a certain extent, the news that would be available to their subscribers. Independent news sources may not have the means to deliver their content through the faster lanes, thus the content they produce will be much more difficult to access – a consequence that has troublesome implications for free speech.",
+      "Proponents of net neutrality believe that our right to free speech guarantees us all 1) equal access to produce (legal) Internet content and 2) equal right to access (legal) Internet content. So, Internet regulations should be employed to protect all content producers so that the smallest voice is just powerful as the loudest voice.",
+      "Proponents of the more fiscally driven approach to Internet regulatory policy believe that the Internet is a business and should operate as one: goods (content) are produced and services are required to deliver those goods to consumers (users). So, individuals and/or companies have the rights to pay to improve their service (thus improving their business) by paying for faster service lanes. As a result, certain voices become more powerful than others.",
+      "The fiscally driven approach to Internet regulatory policy may produce a sphere of knowledge that purposely excludes certain voices, opinions and facts from public discourse. This possibility alone is enough reason to follow what the FCC plans to propose, if it’s not enough of a call to become active in the conversation."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005431965290608736,
+      0.5754167740655455,
+      0.003364588660587714,
+      0.04351639237362457,
+      0.003215651063634824,
+      0.2272627289686848,
+      0.10748171103954383,
+      0.039198957299317834
+    ],
+    "words": [
+      [
+        "content",
+        15
+      ],
+      [
+        "internet",
+        12
+      ],
+      [
+        "news",
+        10
+      ],
+      [
+        "lane",
+        9
+      ],
+      [
+        "access",
+        8
+      ],
+      [
+        "new",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "19782",
+    "title": "On 8 1/2 by 11",
+    "date": "2014-04-29",
+    "year": "2013–2014",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/04/29/on-8-12-by-11/",
+    "signals": [],
+    "paragraphs": [
+      "The following post is the first of an ongoing series about development for Social Paper, a project imagined by the Digital Fellows and recent recipient of the 2014 NEH Digital Humanities Start Up Grant. This will be cross posted on the Social Paper's blog after launch.",
+      "When Jen and I were sketching out plans for Social Paper's writing environment, we were adamant on maintaining the 8 1/2- by 11-inch format standard to desktop word processors such as Microsoft Word or Open Office. There are an increasing number of digital environments that enable online writing or annotation, but few privilege the look and feel of the printed page to which our Desk Jet generation has become accustomed. Such willingness to explore new spaces for writing and reading can only be applauded, especially in the midst of criticism that demands more from the digital format than a mere translation of printed media, such as we see with the PDF. Part of the…"
+    ],
+    "fullParagraphs": [
+      "The following post is the first of an ongoing series about development for Social Paper, a project imagined by the Digital Fellows and recent recipient of the 2014 NEH Digital Humanities Start Up Grant. This will be cross posted on the Social Paper's blog after launch.",
+      "When Jen and I were sketching out plans for Social Paper's writing environment, we were adamant on maintaining the 8 1/2- by 11-inch format standard to desktop word processors such as Microsoft Word or Open Office. There are an increasing number of digital environments that enable online writing or annotation, but few privilege the look and feel of the printed page to which our Desk Jet generation has become accustomed. Such willingness to explore new spaces for writing and reading can only be applauded, especially in the midst of criticism that demands more from the digital format than a mere translation of printed media, such as we see with the PDF. Part of the challenge of innovating the forms of publishing is the identification and removal of historical blinders. We should be thinking of what a text could look like, instead of what it has.",
+      "However, throughout our participation in the Interactive Technology and Pedagogy seminars, Jen and I had done a fair bit of experimenting with different writing and reading platforms. When it came time to bang our heads together in order to bang a grant out together, we didn't hesitate for a second when reaching for our tool. Even though the idea for Social Paper came partly as a critique of proprietary communication tools, the 8 1/2- by 11-inch feel of Google Docs was one of the many features that made it a hands down winner over the other possibilities.",
+      "Such stodgy commitment to the conventions of print may seem like an embarrassment for those interested in digital innovation. Office paper, after all, is hardly the product of a scientific consensus on Best Reading Format. A short post on the Atlantic (citing a user post on a typesetting forum, interestingly), explains that the \"unfortunate size of office paper\" was conventionalized for the use of handwriting and typewriting. As the post points out, \"times and fonts have changed,\" leaving us with a paper size that allows too much print per line for comfortable reading. (Whoever and whatever decides the \"comfortable reading\" standard is still, to this researcher, shrouded in complete mystery). One might also read of the \"average maximum stretch of a vatman’s arms\" in the 17th century or the early 20th century Committee on the Simplification of Paper Sizes as other historical factors contributing to today's office paper conventions. At any rate, one need not wade too deeply through the history of print culture to realize that the way we format our papers, articles, grant submissions, or what have you, is by no means purely a product of considerations for best reading experience.",
+      "But back to our insistence on the archaic. Part of our preference for the format, of course, was because ultimately, regardless of what form our notes and drafts took, the form we ultimately needed to produce was indeed an 8 1/2- by 11-inch document with standard formatting constraints typical of any sort of application to be distributed to various offices and evaluators. Since we had to submit a particular number of pages written in a particular font size, it made sense to create drafts in the same form in order to maintain sense of how our work stood in relation to our final goal. Not to blow your mind or anything. Considerations for the best format for writing are not just about the ease of producing, reading and collaborating, but also about the imposed constraints of the final product. Undoing this convention would not be about merely changing our writing tools, but reforming the entire ecology of production, distribution, consumption and storage of text. However arbitrary we might find the 8 1/2- by 11-inch convention of the printed page, it seems impossible to imagine how, or even reasons why, we might want to immediately disrupt this convention. Standardization, distasteful when imposed, also has its use. Plus, what would we do with our Lisa Frank folders?",
+      "And thus convention itself, however arbitrary, also becomes its own defense. Because we are so familiar with the 8 1/2- by 11-inch space of the page, we are able to orient ourselves immediately to the terrain of the text. The amount of page numbers immediately gives the reader a sense of how long it might take to read, and -- especially if the text is printed -- a sense of place or spatial orientation to the ideas themselves. It seems, then, that while reading, we also produce a vague conceptual map whose orientational value, I think, has yet to be fully articulated. As we explore writing and reading in new environments, orientation becomes difficult because the web does not impose the sense of place in the same way that printed forms do. One could put the entire text of Moby Dick on single webpage if they wished, but clearly this would make its reading impractical. By developing a better sense of how we orient ourselves to a text, we might better appreciate the necessity of imposing intentional constraints (old or new) on layout to enhance our reading and writing experience.",
+      "Though I by no means want to argue for an adherence to conventional forms simply for convention's sake, it's important to examine the role convention plays in our reading and writing experience so as to not disregard our practical, even if arbitrary, habits. How might we create a sense of place with text on the web? What are other means of textual orientation? How might we might allow readers to develop their own orientation in addition to platform-imposed orientations? When is standardization useful, when is it stifling? In my next post, I hope to further explore some of these questions by evaluating open source and proprietary writing spaces currently available on the web."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.08715481374188455,
+      0.004993866969803379,
+      0.00037588018782721785,
+      0.0001455506088258078,
+      0.02764526856436168,
+      0.6223023334802795,
+      0.03698670979663238,
+      0.22039557665038542
+    ],
+    "words": [
+      [
+        "paper",
+        10
+      ],
+      [
+        "reading",
+        10
+      ],
+      [
+        "convention",
+        8
+      ],
+      [
+        "might",
+        8
+      ],
+      [
+        "format",
+        7
+      ],
+      [
+        "text",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "2050",
+    "title": "A Crash Course in Digital Photo Editing",
+    "date": "2014-04-28",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/",
+    "signals": [],
+    "paragraphs": [
+      "Understanding the Basics of Digital Images Because digital photography is ubiquitous in both digital and print projects, this post is geared toward bloggers and scholars who would like an introduction to the logistics and vocabulary of resizing and scaling images. The ideas here are pretty basic, but the vocabulary will be useful when you become advanced enough to learn Photoshop or a similar image editing program, or when you need work with publishers to get articles and books to press.",
+      "Image size and density We generally think of digital photos as being two-dimensional images on a flat screen. But if you imagine a digital image as a malleable, three-dimensional object like a cube of modeling clay, you can get a more tangible idea of how the manipulation of digital images works. For instance, a cube of clay could have a width and height of 100 pixels each. Additionally, it would also have and a specific depth/density that is similar to…"
+    ],
+    "fullParagraphs": [
+      "Understanding the Basics of Digital Images Because digital photography is ubiquitous in both digital and print projects, this post is geared toward bloggers and scholars who would like an introduction to the logistics and vocabulary of resizing and scaling images. The ideas here are pretty basic, but the vocabulary will be useful when you become advanced enough to learn Photoshop or a similar image editing program, or when you need work with publishers to get articles and books to press.",
+      "Image size and density We generally think of digital photos as being two-dimensional images on a flat screen. But if you imagine a digital image as a malleable, three-dimensional object like a cube of modeling clay, you can get a more tangible idea of how the manipulation of digital images works. For instance, a cube of clay could have a width and height of 100 pixels each. Additionally, it would also have and a specific depth/density that is similar to an image’s resolution. (More on pixels and resolution below).",
+      "Think of a digital image as a malleable, three-dimensional object with a height, width, and depth (resolution).",
+      "A helpful, if slightly cheesy, metaphor is to think of a digital image as a malleable, three-dimensional cube of clay, as in the image at left. Translating that metaphor into image editing terms: When you scan an image (or choose one that is already digitized), it will be at a specific size and density. The size (width and height) is often measured in pixels but could also be in inches. The density, often measured in dpi (dots per inch) or ppi (pixels per inch), refers to the resolution of the image.",
+      "Image resolution and proportion As you increase size of a digital image, you decrease the resolution. Looking back to the clay metaphor, if you flatten the cube, you increase the surface area (size), but you also decrease the density because you will have a wide, thin blob instead of a dense cube. When a photo has been stretched too thin in this manner, it becomes pixelated and has a bitmapped quality to it.",
+      "To that end, it helps to know ahead of time how the image will be used (i.e. in print or online) and at what size. A high resolution (hi-res) image of approximately 300 dpi would be necessary for commercial printing. But a digital image intended for online use would be fine at a lower resolution of 72-150 dpi.",
+      "The Document Size box shows the image's width, height, and resolution.",
+      "To change the Image Resolution and proportion in Photoshop, to to the top menu item, \"Image\" and scroll down to \"Image Size.\" See the photo at left for an example. The Document Size is the print size.",
+      "Regarding the Document Size: the Width/Height of the image and its Resolution are inversely related—as one increases, the other must decrease. You cannot add dpi without shrinking the image; this will cause it to bitmap. (Note for the moment that “Resample image” box is not checked. See the Resampling section, below, for more on this).",
+      "For more information, try this handy tutorial by Steve Patterson on resizing images in Photoshop.",
+      "Don't forget to constrain proportions when you resize an image.",
+      "Also note that as you flatten the modeling clay, the proportions can get completely out of whack. The same goes for a digital photo— it’s important to constrain proportions. If you increase the height, you must increase the width by the same ratio, or you’ll have a photo that looks like it has been stretched out of shape.",
+      "In most software programs, do this by holding the shift key and pulling the image from the corner. (Don’t resize an image from the top, bottom, or sides because it may stretch out of proportion). This works in PowerPoint, Word, and Photoshop. (In PowerPoint choose the Format Picture tab and go to the Size section at right; if you have the box checked next to the Height and Width measurements, the proportions will stay constrained as long as you pull the image from the corner).",
+      "Cropping Digital Photos Cropping the image (using the crop tool from the toolbar) will remove unselected content from the width and/or height of the image. For more information try this Photoshop Essentials tutorial on “Cropping Photos to Specific Frame Sizes in Photoshop.”",
+      "When the Resample Image box is checked, the pixel dimensions (and amount of data in the file) can change.",
+      "Resampling the Image When you check the “Resample image” box, Photoshop can redraw the image with a new pixel count based on what you specify. This will change the number of pixels in the image and can change the file size (i.e. the number of MB in your image file).",
+      "“Upsampling” adds pixels. (It does not change resolution but width and height will change relative to pixel dimensions). If you increase the number of pixels this way, photoshop fills in pixels to redraw image, letting the software make decisions as to which pixels to replicate—this is not a good idea for image quality!",
+      "“Downsampling” is decreasing the pixel count; it is perfectly fine for shrinking the image.",
+      "In other words, when resampling, the pixels are always affected, and it changes amount of data in image. Resampling does not change the image resolution.",
+      "Resampling affects image quality, and can degrade it, especially if you increase the resolution with the Resample Image box checked. Don't resample an image more than once, even if you are downsampling. For more information, see the Adobe tutorial on Advanced Cropping, Resizing, and Resampling.",
+      "This post coincides with our recent workshop, \"Intro to Image Editing.\" Click here for the workshop handout."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.13688756962982945,
+      0.0004666320385749976,
+      0.00040851165222645293,
+      0.00015818636262182744,
+      0.7171118765974036,
+      0.1380830297525729,
+      0.0005114955973929612,
+      0.00637269836937778
+    ],
+    "words": [
+      [
+        "image",
+        48
+      ],
+      [
+        "size",
+        14
+      ],
+      [
+        "pixel",
+        14
+      ],
+      [
+        "resolution",
+        14
+      ],
+      [
+        "digital",
+        12
+      ],
+      [
+        "width",
+        9
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20141017184640/http://digitalfellows.commons.gc.cuny.edu:80/2014/04/28/a-crash-course-in-digital-photo-editing/"
+  },
+  {
+    "id": "19781",
+    "title": "Introduction to Image Editing Handout",
+    "date": "2014-04-27",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "handout",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/",
+    "signals": [],
+    "paragraphs": [
+      "Posted below is a link to the handout for the \"Introduction to Image Editing\" workshop that was held on April 10, 2014. The workshop was organized for attendees who are interested in the use of Photoshop for scholarly publishing, exploring some of the complex, though fundamental, aspects of Adobe’s indispensable image editing software.",
+      "Click here for the Google doc handout."
+    ],
+    "fullParagraphs": [
+      "Posted below is a link to the handout for the \"Introduction to Image Editing\" workshop that was held on April 10, 2014. The workshop was organized for attendees who are interested in the use of Photoshop for scholarly publishing, exploring some of the complex, though fundamental, aspects of Adobe’s indispensable image editing software.",
+      "Click here for the Google doc handout."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "fewer than 30 cleaned tokens",
+    "weights": null,
+    "words": [],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908201003/http://digitalfellows.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/"
+  },
+  {
+    "id": "19780",
+    "title": "Beating Back Your Digital Doppleganger",
+    "date": "2014-04-24",
+    "year": "2013–2014",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "blogging",
+      "digital identity",
+      "dopplegangers",
+      "molly hatchet",
+      "pedagogy",
+      "Twitter"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/04/24/beating-back-your-digital-doppleganger/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Searching for the traces of oneself on the Internet is such an immanent practice for its users that the term“egosurfing”, describing possibly the earliest form of what we currently refer to as “oogling” oneself, dates all the way back to 1996. But, of course, googling oneself is only that, one person looking for what the search engine of record says about them in order to measure their own sense of self-worth against it. However, what is by nature a much greater possibility is someone else googling you. And herein is where the true anxiety of the egosurfer lies.",
+      "A personal example: I have a very common name. Not quite “John Smith” common but common enough. When I was growing up, my doctor’s office had another Andrew McKinney that was my age and the nurses in the office would often get confused as to why I was in again even though I had just visited last week. As I got older and the Internet availed me of the chance, I discovered a few…"
+    ],
+    "fullParagraphs": [
+      "Searching for the traces of oneself on the Internet is such an immanent practice for its users that the term“egosurfing”, describing possibly the earliest form of what we currently refer to as “oogling” oneself, dates all the way back to 1996. But, of course, googling oneself is only that, one person looking for what the search engine of record says about them in order to measure their own sense of self-worth against it. However, what is by nature a much greater possibility is someone else googling you. And herein is where the true anxiety of the egosurfer lies.",
+      "A personal example: I have a very common name. Not quite “John Smith” common but common enough. When I was growing up, my doctor’s office had another Andrew McKinney that was my age and the nurses in the office would often get confused as to why I was in again even though I had just visited last week. As I got older and the Internet availed me of the chance, I discovered a few more Andrew McKinneys out there, one a prominent postcard photographer, another the 3rd or 4th bass player (accounts vary) of the southern rock band Molly Hatchet. But I was generally unconcerned with this until “egosurfing” about three years ago. After years of adding my middle initial to various email and social media accounts in a vague attempts to differentiate myself, I googled “Andrew G McKinney.” To my dismay, the top hit was a man of my height, approximate weight, and hair color from Oklahoma who had a 3 page long criminal record. I felt a curious combination of panic and deep amusement (I have an odd sense of humor, what can I say), but came away with my ego mildly bruised and a resolve to do something about it.",
+      "What I did was not very interesting or revelatory, but it was effective. I blogged on the CUNY Academic Commons. I used my Twitter account relatively vigorously. Nothing particularly special. But now a Google search for “Andrew G McKinney” brings up my work on the GC Digital Fellows blog first and even a search sans the middle initial shows me near the top.",
+      "In the workshops we run as Digital Fellows I regularly tell this story to drive one very particular point home: your digital identity might seem out of your hands. It might seem like your evil dopplegangers are out there just trying to keep you from getting the job that you want. Do not fret, you can take the reins with only a modicum of training. I’m no techno-utopian who believes that whatever Web x.0 we’re on gives us total control and boundless creativity at our fingertips, but gaining control over the front page of your Google results by blogging and tweeting even the simplest of content does at least give you the boost to your egos that you may or may not need."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.05329494948288386,
+      0.0009841269165494367,
+      0.0008615510283174025,
+      0.00033361502086867484,
+      0.04244090337987598,
+      0.5736981973734292,
+      0.1527815588659273,
+      0.17560509793214807
+    ],
+    "words": [
+      [
+        "google",
+        5
+      ],
+      [
+        "search",
+        4
+      ],
+      [
+        "common",
+        4
+      ],
+      [
+        "andrew",
+        4
+      ],
+      [
+        "oneself",
+        3
+      ],
+      [
+        "mckinney",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19779",
+    "title": "Learning to Map with ArcGIS StoryMaps",
+    "date": "2014-03-24",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed cross-reference credit",
+    "creditQuote": "There is a variety of platforms and tools to analyze geographic information. Former Digital Fellow Keith Miyake posted a couple of great guides for mapping using CartoDB and ArcGIS Storymaps . More recently, my colleague Digital Fellow Kristen Hackett posted this awesome guide on using Social Explorer to Spatialize Demographic Data . Also, a recent Digital Fellows initiative relied actively on GIS and other mapping tools to Visualize the National Endowment for the Humanities Open Data . I decided to go with QGIS because it is an open-source software that offers a powerful and adaptable platform to do GIS analysis, and although it may seem scary the first time you open it (what are all those buttons for!?) with this guide I hope to reduce that fear any first-time user may have and gain some knowledge and confidence in using a GIS platform. It is important to note that all GIS platforms have different interfaces, but knowledge of the basic concepts and navigating a bit through QGIS will allow you to identify similar elements in other GIS software, such as proprietary-yet-popular-and-powerful ArcGis or other open-source options such as gvSIG.",
+    "tags": [
+      "cartography",
+      "maps",
+      "resources",
+      "storymaps",
+      "tools"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/03/24/learning-to-map-with-arcgis-storymaps/",
+    "signals": [
+      "Maps & visualization",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Introduction",
+      "Maps are extremely versatile tools for communicating ideas and information. Creating maps can be challenging, but this tutorial will introduce one tool that simplifies the process of making several types of maps in order to tell your stories.",
+      "The tool is called StoryMaps, and it was created by ESRI, the company behind one of the most widely used commercial Geographic Information Systems software tools, ArcGIS. StoryMaps allows users to create maps in order to tell a story around spatialized data, such as photographs, videos, or social information based around specific places.",
+      "There are tons of existing examples of StoryMaps that you can check out on the application's website. They have a searchable gallery as well as curated collections based on predefined categories. One example of what you can do with StoryMaps, which I chose in honor of the recently deceased Harold Ramis, and since I'm currently in New York City, is this…"
+    ],
+    "fullParagraphs": [
+      "Introduction",
+      "Maps are extremely versatile tools for communicating ideas and information. Creating maps can be challenging, but this tutorial will introduce one tool that simplifies the process of making several types of maps in order to tell your stories.",
+      "The tool is called StoryMaps, and it was created by ESRI, the company behind one of the most widely used commercial Geographic Information Systems software tools, ArcGIS. StoryMaps allows users to create maps in order to tell a story around spatialized data, such as photographs, videos, or social information based around specific places.",
+      "There are tons of existing examples of StoryMaps that you can check out on the application's website. They have a searchable gallery as well as curated collections based on predefined categories. One example of what you can do with StoryMaps, which I chose in honor of the recently deceased Harold Ramis, and since I'm currently in New York City, is this particularly fun StoryMap of locations used in the movie Ghostbusters, \"Ghostbusters: Something Strange in Your Neighborhood.\"",
+      "There's something strange in your neighborhood: a StoryMap tour of the Ghostbusters movie via filming locations in Manhattan",
+      "StoryMaps offers several different types of map templates that you can use to tell your own stories, but they roughly fall into two broad categories: point maps and thematic maps. Point maps contain a series of specific locations (e.g., addresses, map coordinates, point markers, etc.), which can be ordered or unordered, and are usually used to point out where specific things are located. Thematic maps contain data about places that are not necessarily tied to specific points on a map (although they can include those as well) but rather, present generalized information about large areas, such as population density within a zip code, or satellite imagery taken in a specific year and light spectrum.",
+      "For both of these categories, StoryMaps offers a variety of ways to present the information based on the story you are trying to tell. For example, timelines or tours might use a sequential series of points, whereas a story about urban change over time might use a thematic map with a \"slider\" that lets viewers seamlessly compare two different thematic maps side by side (you have to see it to get it).",
+      "Getting Started",
+      "There are pretty well documented tutorials on using the various types of StoryMaps on the ESRI website. What I aim to do here is to help explain what the different options are for creating and displaying your StoryMaps so that you know where to look for help on the ESRI site.",
+      "Step 1: Explore",
+      "The first thing you should do, if you haven't already, is to explore some of the StoryMaps on the ESRI website in their searchable gallery and curated collections. This will give you a sense of what's possible and the different ways of conveying different types of stories and communicating different sorts of ideas.",
+      "Step 2: Gather Data",
+      "Once you have a sense of the story you want to tell, the next step is to figure out what data you need in order to tell that story.",
+      "If you want to tell a story about a collection of points, this might include photographs, videos, news clippings, or simply informational text about specific places.",
+      "If your story is one involving one or more themed maps, you want to figure out if maps containing your data already exist. You can search the ArcGIS Online website to see if someone else has already created a map appropriate to your story. Or you can create your own basemaps using the ArcGIS online tools or desktop application (although these methods are beyond the scope of this guide).",
+      "To help you build your data collections, you might consider using the ESRI Collector smartphone application, which lets you capture all sorts of data (pictures, video, routes, etc.) along with geospatial information such as where the picture was taken, so that you can build up your StoryMaps data automatically. I'm not trying to turn this into a full blown ad for ESRI tools, but it's actually a pretty nifty application that integrates easily with their map making software.",
+      "Step 3: Decide on a Map Type (Application)",
+      "If you looked around the StoryMaps gallery, you noticed that there are several different types of maps that you can build. Each of these particular applications of the StoryMaps platform has a slightly different process for building your map, and might have different constraints on how you actually get the map displayed for people to view. Specifically, there are tools on the StoryMaps website that allow you to build and host map tours, \"swipe\" maps, and \"spyglass\" maps, but to create other types of maps you will need to manually edit data files and host them on an external server.",
+      "StoryMaps Hosted Maps",
+      "StoryMaps hosted maps can be built in a matter of minutes with online tools. These maps can be viewed on the StoryMaps website without any further setup. The downside is that you are extremely limited in the types of maps you can create. The big big big upside is that they are super easy to set up.",
+      "Self-Hosted Maps",
+      "Self-hosted maps are self-contained \"web applications\" consisting of database files, or the data; and application files, or the stuff that tells a browser how to display the map. The big upsides here is there is a ton of flexibility to customize your maps to display your data in whatever fashion you want. You can use one of the provided templates as a scaffolding upon which you can add functionality, pizzaz, and flair. You can also use the templates as ready-to-go maps that only require you to add your data and maybe to change a couple of other options to give it your own titles, descriptions, colors, etc. The big downside is that there is a slight learning curve to get started, and an even steeper one to major customizations. It also requires a minimal knowledge of web hosting and, of course, access to a web server.",
+      "Step 4: Play",
+      "Try all of the different StoryMaps builder tools. Play around with other people's maps hosted on the StoryMaps website. See what works for you, what is confusing, and what is downright silly. Then use this knowledge to help you create a more effective map. If the purpose of a StoryMap is to communicate ideas, then one of the most important considerations should be how to communicate those ideas clearly. Maybe you'll stumble onto a map that uses one of the StoryMap applications in a way that you hadn't considered. Maybe your story is really best told through some variable that doesn't necessarily fit into maps, but that is still communicable through spatialized data. Don't be afraid to start over when your first map seems awkward or clunky. As long as you keep your underlying data, creating a new map shouldn't be too difficult.",
+      "Conclusion",
+      "StoryMaps provides a variety of options for creating your own maps. They offer a pretty big step up in functionality over some other tools such as custom Google Maps, and are better suited to communicating a range of ideas than Google Maps, which are more appropriate for the simple display of points or areas on a map. Getting started using StoryMaps is easy if you already have an idea in mind—you just need to start gathering data and can immediately begin mapping using one of the StoryMaps builder tools. Alternatively, if you just like the idea of creating your own maps (maybe you recently came across the counter cartographies collective?), but aren't quite sure what you want to map, browsing the StoryMaps galleries might give you some inspiration. With your idea and some data, all that remains is building the map. I encourage everyone to try playing with the map builder tools. It's free and really simple to get started. But if you are down for the challenge, I strongly encourage you to also try developing your own web application using one of the StoryMaps templates since they offer a great deal of additional flexibility in how you tell the geographic stories that are meaningful (or simply useful) to you."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.06342508543328712,
+      0.00028283114780844353,
+      0.00024760370043421637,
+      9.587860843117711e-05,
+      0.45269059796954986,
+      0.273120930536863,
+      0.20928128618825606,
+      0.0008557864153700646
+    ],
+    "words": [
+      [
+        "map",
+        49
+      ],
+      [
+        "storymaps",
+        23
+      ],
+      [
+        "data",
+        16
+      ],
+      [
+        "story",
+        13
+      ],
+      [
+        "tool",
+        12
+      ],
+      [
+        "create",
+        12
+      ]
+    ]
+  },
+  {
+    "id": "19778",
+    "title": "Intro to Data Cleaning and Visualization Tools Handout",
+    "date": "2014-03-17",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed institutional guide credit",
+    "creditQuote": "Intro to Data Cleaning and Visualization Tools Handout — A.L. McMichael",
+    "tags": [
+      "handout",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/03/17/intro-to-data-cleaning-and-viz-handout/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "This is the handout from the \"Introduction to Data Cleaning and Visualization Tools\" workshop led by Micki Kaufman* on Thursday, March 13th 2014. The workshop presented the fundamentals of using data in humanities research, with specific focus on data cleaning and basic visualization techniques and practices.",
+      "DF-Workshop-Tools",
+      "CUNY GC Digital Fellows Workshop: Intro to Data Cleaning and Visualization Tools",
+      "Workshop Packet available here:",
+      "http://www.mickikaufman.com/dfw-tools.zip",
+      "This workshop’s Google Drive shared folder is available here:",
+      "https://drive.google.com/?authuser=0#folders/0B3fKjwvUspd5ZzhaUUVrY0RxeE0",
+      "Data Collection and Management",
+      "DownThemAll http://www.downthemall.net/",
+      "Microsoft Excel / OpenOffice",
+      "Google Refine / OpenRefine http://openrefine.org",
+      "TextWrangler / BBEdit / (WordPad, NotePad) http://www.barebones.com/products/textwrangler/",
+      "Visualization",
+      "Gephi http://www.gephi.org",
+      "ManyEyes Visualization Site…"
+    ],
+    "fullParagraphs": [
+      "This is the handout from the \"Introduction to Data Cleaning and Visualization Tools\" workshop led by Micki Kaufman* on Thursday, March 13th 2014. The workshop presented the fundamentals of using data in humanities research, with specific focus on data cleaning and basic visualization techniques and practices.",
+      "DF-Workshop-Tools",
+      "CUNY GC Digital Fellows Workshop: Intro to Data Cleaning and Visualization Tools",
+      "Workshop Packet available here:",
+      "http://www.mickikaufman.com/dfw-tools.zip",
+      "This workshop’s Google Drive shared folder is available here:",
+      "https://drive.google.com/?authuser=0#folders/0B3fKjwvUspd5ZzhaUUVrY0RxeE0",
+      "Data Collection and Management",
+      "DownThemAll http://www.downthemall.net/",
+      "Microsoft Excel / OpenOffice",
+      "Google Refine / OpenRefine http://openrefine.org",
+      "TextWrangler / BBEdit / (WordPad, NotePad) http://www.barebones.com/products/textwrangler/",
+      "Visualization",
+      "Gephi http://www.gephi.org",
+      "ManyEyes Visualization Site http://www-958.ibm.com/software/analytics/manyeyes/",
+      "D3 http://d3js.org",
+      "FlowingData http://flowingdata.com/",
+      "Visual.ly http://visual.ly/",
+      "*You can also view this information on Micki Kaufman's website."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.2282383774917996,
+      0.0030263691398144717,
+      0.002649426004541389,
+      0.0010259268258565105,
+      0.09834013123621609,
+      0.07512480059991335,
+      0.0033173343515551026,
+      0.5882776343503034
+    ],
+    "words": [
+      [
+        "workshop",
+        6
+      ],
+      [
+        "data",
+        5
+      ],
+      [
+        "visualization",
+        5
+      ],
+      [
+        "cleaning",
+        3
+      ],
+      [
+        "tool",
+        3
+      ],
+      [
+        "micki",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19777",
+    "title": "PSA: Backup Your Data Now",
+    "date": "2014-03-04",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "anxiety",
+      "backup",
+      "data",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/",
+    "signals": [],
+    "paragraphs": [
+      "Backup. It’s one of those anxiety provoking dirty words. We all want to feel happily ignorant that the possibility of losing our precious data could actually happen to us. And this is despite the fact that most everyone has lost some sort of irreplaceable data at some point in their digital lives. Most of us have, at some point, made an effort to set up a data backup system. Probably one involving an external hard drive that we picked up on sale a few years ago. Probably after losing some data and telling ourselves, “Never Again.” But fewer of us actually keep up with our backup ambitions.",
+      "In this post, I will tell you why you need to be more proactive with data backups and provide some tips to help you set up a better backup plan.",
+      "The Motivation",
+      "My friend recently had their backpack stolen while they were at an academic conference. Inside the backpack was their laptop and tons (and TONS) of handwritten field notes, ideas, song lyrics,…"
+    ],
+    "fullParagraphs": [
+      "Backup. It’s one of those anxiety provoking dirty words. We all want to feel happily ignorant that the possibility of losing our precious data could actually happen to us. And this is despite the fact that most everyone has lost some sort of irreplaceable data at some point in their digital lives. Most of us have, at some point, made an effort to set up a data backup system. Probably one involving an external hard drive that we picked up on sale a few years ago. Probably after losing some data and telling ourselves, “Never Again.” But fewer of us actually keep up with our backup ambitions.",
+      "In this post, I will tell you why you need to be more proactive with data backups and provide some tips to help you set up a better backup plan.",
+      "The Motivation",
+      "My friend recently had their backpack stolen while they were at an academic conference. Inside the backpack was their laptop and tons (and TONS) of handwritten field notes, ideas, song lyrics, etc. In other words, not just digital data, but irreplaceable analog data as well. This friend had been using an external hard drive for backups for quite a while, as well as cloud storage for most of their working documents. When it came time to assess the extent of the loss, they realized that the hard drive backups hadn’t been saving new data for a couple of months and a lot of data like pictures, music, scanned field notes, etc. weren’t synced to their cloud storage. Cue the tummy turning feeling you get when you realize the situation is FUBAR.",
+      "This is too important to ignore, particularly since for many of us, our digital information is our lives. If I lost all my dissertation research, I’m pretty sure that I’d drop out of grad school and become an off-the-grid hermit.",
+      "Point 1: It’s really easy to get lazy or complacent about ensuring that backups are up-to-date and fully functional.",
+      "If you are using an external hard drive to backup your data, check it right now. Make sure that your documents 1) can be opened and aren’t corrupted; 2) are up to date and your backup schedule is still active; 3) if it’s a bootable recovery (e.g., Carbon Copy Cloner, SuperDuper!; Arconis and Time Machine do almost this), that it actually boots your system; and 4) that everything you care about is actually included in the backup (e.g., secondary hard drives, other user accounts).",
+      "Point 2: All mechanical hard drives fail. Guaranteed.",
+      "If any of your hard drives (internal or backup) is more than 2 years old, think about buying a replacement. If it’s more than 3 years old, replace it now. Before it fails. Some hard drives with minimal use will last 5 or more years, but that is the exception, not the norm. Backup hard drives seem to always fail (or are discovered to be failing) at the exact same time as your internal hard drive. If you happen to have a solid state drive in your computer (like the one in MacBook Airs), you are less prone to hard drive failure, and probably won’t need to replace your drive during the computer’s lifetime.",
+      "Point 3: Rain clouds and thunderstorms",
+      "Great, you’re taking advantage of cheap cloud storage to maintain copies of your documents remotely. If you’re using Dropbox, then what about all the stuff outside of your Dropbox folder? If you are using a free plan on any of the popular cloud storage services, what happens when you run out of space? Do you have old copies of working files (oops, I accidentally saved a different version over the original but want the original back! Dropbox saves 30 days of history , but not all services do this)? These are just some of the most obvious limitations of entrusting the cloud with your backup plan. So what do you do? Do you upgrade your account so that you can store everything in the cloud? Should you run free accounts on 10 different cloud storage services simultaneously to eke out like 50GB of space? My suggestion is to think of cloud storage as your “sync-everywhere” storage, and not as a backup solution. If you need more than a few gigabytes of sync-everywhere storage, then upgrade. If you want to backup your data, then use something else because the cost to use cloud storage as backup is usually really expensive and far less effective than cloud-based backup solutions…",
+      "Point 4: The Other Cloud/Offisite Backups",
+      "Digital information loss was hardly the worst impact of Hurricane Sandy. But the flooding certainly brings up a good point about backups. External hard drives simply aren’t sufficient. If something happens to your external drive, such as fire or flood damage, it’s pretty much useless. There is a good reason most companies have been using offsite tape backups of their servers for decades. Luckily, you don’t have to rely on a huge tape backup system. There are numerous web-based backup services that help you maintain offsite backups of all of your data for really cheap. For instance, CrashPlan has an unlimited family plan for about $150/yr that lets you backup 10(!) computers, so you, your bestie, your grandma, and your roommate can each backup 2 computers without ever worrying about the gigs and gigs of cat pictures your grandma’s been hoarding. Think of it this way: an external hard drive dedicated to backup is going to cost a couple hundred dollars, especially if you are backing up your other external hard drive containing all of your pictures, music, and home vids. Online backup might let you replace one or two of those hard drives for about the same price.",
+      "Point 5, the Game Plan: Rule of 3",
+      "The general rule of digital data is that if there is something you don’t want to risk losing, keep 3 copies. That way, if something happens to one of them, and your primary backup conveniently stops working, the you still have a third place to turn to. The first copy is your primary. The second might be an external hard drive, USB memory stick, or cloud storage. The third should be offsite. This could be a tape backup, an external drive you keep in your office, or a cloud backup service. An added bonus is for this third copy to have multiple versions of files saved (file history), or to be slightly older than your day-to-day copies so that you don’t have to worry about overwriting a file or forgetting to paste that last paragraph back in after you cut it.",
+      "Bonus Round: Analog Data",
+      "So in my friend’s situation described above, the biggest loss wasn’t the laptop or the data on it. It was all of the handwritten notes and other analog data. So what do we do about that, besides use a tablet or something like that to take digital notes? My first suggestion is to be religious about scanning or taking pictures of important hard copy documents. If you have a smartphone or tablet, there are countless programs to help with the process of digitizing paper documents. Just do it! Water damage, theft, leaving it on the subway—not as big of an issue if you have a backup. My second suggestion—and this is totally untested and kind of gimmicky—is to check out the Evernote Moleskines. It’s basically the same as digitizing your documents using a camera, but it has added functionality for users of Evernote by helping you to convert things to searchable text, automatically adding tags, and +3 hipster-/geekster-ness points."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.059961837048778076,
+      0.07925472309214862,
+      0.009058277715693031,
+      0.00011185380172321734,
+      0.0001984346790488109,
+      0.7658683997052788,
+      0.08454809730597308,
+      0.0009983766513563584
+    ],
+    "words": [
+      [
+        "backup",
+        32
+      ],
+      [
+        "drive",
+        20
+      ],
+      [
+        "hard",
+        17
+      ],
+      [
+        "data",
+        16
+      ],
+      [
+        "cloud",
+        14
+      ],
+      [
+        "storage",
+        10
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20141018180825/http://digitalfellows.commons.gc.cuny.edu:80/2014/03/04/psa-backup-your-data-now/"
+  },
+  {
+    "id": "1911",
+    "title": "What's in a Wiki?",
+    "date": "2014-02-17",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [
+      "Reflections",
+      "resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/",
+    "signals": [],
+    "paragraphs": [
+      "What are we really asking when we ask people to contribute to a crowd-sourced project? What do they gain? What are the ethics or politics? Is it best to ask people who have something to gain from using the resource? What's the difference between volunteerism and unpaid labor?",
+      "I've been wrestling with these questions as I learn to edit and contribute to the wiki section of the CUNY Academic Commons, particularly the CUNY Digital Humanities Resource Guide.",
+      "The CUNY Academic Commons Wiki.",
+      "Even though wikis are supposed to be loose and crowdsourced, it seems like some oversight is beneficial—guard against trolls, monitor for double entries, monitor (to an extent) for appropriateness and accuracy, keeping sources up to date. A participant in last semester's GitHub workshop commented on the lack of alphabetical organization in that section. I joked that we call it “crowd-source casual,” and he knew understood the platform's ebb and flow. But it…"
+    ],
+    "fullParagraphs": [
+      "What are we really asking when we ask people to contribute to a crowd-sourced project? What do they gain? What are the ethics or politics? Is it best to ask people who have something to gain from using the resource? What's the difference between volunteerism and unpaid labor?",
+      "I've been wrestling with these questions as I learn to edit and contribute to the wiki section of the CUNY Academic Commons, particularly the CUNY Digital Humanities Resource Guide.",
+      "The CUNY Academic Commons Wiki.",
+      "Even though wikis are supposed to be loose and crowdsourced, it seems like some oversight is beneficial—guard against trolls, monitor for double entries, monitor (to an extent) for appropriateness and accuracy, keeping sources up to date. A participant in last semester's GitHub workshop commented on the lack of alphabetical organization in that section. I joked that we call it “crowd-source casual,” and he knew understood the platform's ebb and flow. But it did bring up the point that readers been socially trained/programmed to consume information in certain structures, and being bombarded by lists and a jumble of information can feel disconcerting to users who aren't used to the visuality of a wiki.",
+      "However, a crowd sourced platform doesn't have to be at the mercy of chaos. We see large-scale responses to this with Wikipedian in residence programs or Wikipedia edit-a-thons (like an Art and Feminism one held last week) designed to help balance under-served communities and topics. These are constructed events designed to help counteract the learning curve and encourage both interest and action.",
+      "Beyond the philosophies of editing, I've been trying (with varying degrees of success) to get new contributors interested in plumping up the offerings and updating resources. It was an interesting study in various types of rhetoric.",
+      "For instance, there's the rhetoric of charity contributions--references to karma, paying it forward, and helping the next generation of scholars. This one appeals to DH practitioners who are often willing to share, but falls short when swamped academics are simply too busy to take on anything new.",
+      "There's the rhetoric of sales that focuses on tangible benefits. The lesson here might be that letting people know from the beginning what they’re getting themselves into--in this case a casual commitment with low stakes while they learn a new skill--may encourage enthusiasm and action. Attribution can be an issue for some users. In a recent post, Laura reflected on her colleagues' resistance to uncredited contributions on another wiki project. Notably, contributors to the Commons wiki are noted on pages they edit. Might a significant contribution be worthy of a line on a cv or a mention in a cover letter? It points to skills like collaboration, proficiency in wiki markup language, and writing/editing for a general audience.",
+      "I also explored the rhetoric of marketing, doing research in order to focus the message better. I perused Paul Jarvis' new book about succeeding on the web, and tried tried using the vocabulary of project management. It wasn't particularly enlightening for recruitment, but it sparked ideas about editing and monitoring a group site. (For readings, see the 11/15/13 section in the DH Praxis seminar syllabus).",
+      "I realize that several of these lean on vocabularies of monetary contributions, and in that light, it's particularly relevant to point out Andy's work on digital labor. Time is money, and it's important for people to know how and why their contribution of time and information could make a difference.",
+      "These all lead to another important question: what’s the fastest way to train people to use/understand the wiki in order to make that contribution as efficient as possible? There's a bit of a learning curve to wiki markup language (although I found that a quick search on Wikipedia provided enough information to get me started). With a new understanding of how crowd-sourced projects open up the dialogue around attributions, digital labor, and building communities online. I'll be brainstorming ways to makes this easier in the coming months,",
+      "The bottom line, I've realized, is knowing whether the people you expect to use the resource are the ones who would be contributing. If it's a beginner's resource, you might be looking for more experienced practitioners to contribute. If it's for a set of users with a sophisticated skill set, few people will be able to contribute. There are two audiences to consider with a wiki: the reader/user and the contributor/editor. They can certainly overlap, but it's important to consider both.",
+      "Further reading:",
+      "\"Digital Humanities and Crowdsourcing: An Exploration\" an article presented at theMuseums and the Web 2013 conference by Laura Carletti, Gabriella Giannachi, Dominic Price, Derek McAuley.",
+      "\"Rules of Crowdsourcing: Models, Issues, and Systems of Control\" by Gregory D. Saxton, Onook Oh, Rajiv Kishore in Information Systems Management, Vol. 30, Iss. 1, 2013."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.09819542030198883,
+      0.07809017888108298,
+      0.0004730450060154591,
+      0.0001831753597484298,
+      0.0003249629709616331,
+      0.3408458738253971,
+      0.03218667356019039,
+      0.4497006700946152
+    ],
+    "words": [
+      [
+        "wiki",
+        9
+      ],
+      [
+        "people",
+        7
+      ],
+      [
+        "edit",
+        6
+      ],
+      [
+        "contribution",
+        6
+      ],
+      [
+        "contribute",
+        5
+      ],
+      [
+        "source",
+        5
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150908152948/http://digitalfellows.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/"
+  },
+  {
+    "id": "19776",
+    "title": "tech versus culture: what makes for good digital collaboration?",
+    "date": "2014-02-10",
+    "year": "2013–2014",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/02/10/tech-versus-culture-what-makes-for-good-digital-collaboration/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Late last summer, social media fellow Jennifer Stoops and I collaborated on a grant proposal together. Sometimes that meant sitting cheek to cheek in front of the same computer where, without much thought about the process, we tossed ideas -- and keyboard control -- back and forth like a hot potato. When our schedules didn't align, we worked separately and exchanged drafts for revision or feedback. Other times we sat in the same room but at different computers, working simultaneously on the very same paragraph, but without saying a word aloud. Using cloud-based writing software, I'd watch her words appear on the screen -- while she watched mine -- in what became one of the weirdest, yet most effective, writing relay races I've ever participated in. By the end of our grant writing marathon, we could seamlessly compose sentence after sentence together. The continuous feedback loop of activity kept the process from succumbing to those…"
+    ],
+    "fullParagraphs": [
+      "Late last summer, social media fellow Jennifer Stoops and I collaborated on a grant proposal together. Sometimes that meant sitting cheek to cheek in front of the same computer where, without much thought about the process, we tossed ideas -- and keyboard control -- back and forth like a hot potato. When our schedules didn't align, we worked separately and exchanged drafts for revision or feedback. Other times we sat in the same room but at different computers, working simultaneously on the very same paragraph, but without saying a word aloud. Using cloud-based writing software, I'd watch her words appear on the screen -- while she watched mine -- in what became one of the weirdest, yet most effective, writing relay races I've ever participated in. By the end of our grant writing marathon, we could seamlessly compose sentence after sentence together. The continuous feedback loop of activity kept the process from succumbing to those blanks and blocks so often complained about by the typical solo writer.",
+      "Walking back from a coffee break we talked about how uncanny it was that over the days of this sort of collaboration the process of simultaneously writing had begun to feel natural. So natural in fact, that when I approached solo writing tasks shortly afterwards, the return of the wordless cursor made it feel as though part of my own brain was missing. Though people often talk about having fluid collaborative experiences in physical activities such as dance, music or sports, its presence in the small and typically personal space of sentence construction was altogether unexpected. It's not as if written collaboration was an entirely novel experience for either of us, but the software we were using -- Google Docs -- enabled a pace of exchange otherwise impossible.",
+      "In addition to the simultaneous writing functionality of Google Docs, the ability to produce and manage documents entirely online saved us from the frustrating task of keeping track of additions, changes, and comments across multiple drafts that would have been produced in an email exchange. All this was extremely helpful, not only because neither of us had written a grant before, but also because writing the grant forced us to think out the specifics of the proposed project. The process therefore was just as much about learning and thinking as it was about producing a final draft, and the opportunity to improve was far more expansive in this case than in other writing projects, such as a term paper, that typically get one shot at feedback.",
+      "The ability to continuously review and push one anothers' thought, therefore, was essential to the process. Near the end of the grant writing period, we were also able to easily share the documents with peers and faculty whose changes and comments were immediately reflected in a single online draft, enabling our reviewers to build off one another's comments and changes. Such a process would have been entirely unthinkable on a desktop word processor such as Microsoft Word. Had that been our writing tool, I'm confident that we not only would have learned less, but that our final draft would not have been as strong.",
+      "Despite our positive experience, however, it's important to note that technological design is not the sole determining factor of a software's success. Our genuine excitement for the project and pre-existing friendship made collaboration enjoyable; our complete ignorance of writing a grant proposal under a tight deadline made it necessary. Google Docs alone is not so fertile a bed that any passing thought might spring up into a site of rich, collaborative activity; human interest and commitment is necessary too. NYU Press and MediaCommons 2012 White Paper on online peer review warns of focusing too much on technological design:",
+      "...human relationships and investments – more than technologies – are essential for attracting participation in open review processes, for developing and modeling norms for participation, for teaching and practicing principles of mutual responsibility and good citizenship, and for enacting a participatory ethos, all of which are essential to a successful open review.",
+      "As we dream up new software platforms and set out on new collaborative projects, it's a good reminder that no amount of software can generate the interest, excitement, participation and human organization critical to the success of any project. On the other hand, if those factors are already in place, technological design can, and does, make all the difference. One can hardly imagine, for example, how voices from around the globe might come together in a single day to discuss the contents of an article before newspapers enabled commenting. In the next semester, I'll be thinking more about how both technological design and human behavior influence engagement in academic projects, whether through collaboration, discussion, review or consumption. How do we determine if an academic project is a success? What sort of tools and methods can we put in place to help facilitate that success? Whom do we trust to design those tools and methods, and, because these projects live in a much different space than that of the physical library, whom do we trust to host?"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00045401100669732904,
+      0.09462000988604566,
+      0.00039766175572846776,
+      0.03395708242431403,
+      0.0002731776975468567,
+      0.5641978416368213,
+      0.002912417449812921,
+      0.3031877981430334
+    ],
+    "words": [
+      [
+        "write",
+        12
+      ],
+      [
+        "project",
+        8
+      ],
+      [
+        "process",
+        7
+      ],
+      [
+        "grant",
+        6
+      ],
+      [
+        "draft",
+        5
+      ],
+      [
+        "software",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19775",
+    "title": "Illuminating the Challenges of Web Design",
+    "date": "2014-01-07",
+    "year": "2013–2014",
+    "authors": [
+      "Laura Kane"
+    ],
+    "originalAuthors": [
+      "Laura Kane"
+    ],
+    "aliases": [
+      "Laura Kane",
+      "Laura Wildemann Kane"
+    ],
+    "account": "Laura Kane",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "design",
+      "Reflections",
+      "resources",
+      "web design"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2014/01/07/illuminating-the-challenges-of-web-design/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "I have always wanted an Artichoke Lamp. I could never afford one (or really any piece of mid-century decor), so when I found a relatively inexpensive substitute that looked really cool, I jumped at the chance to make it a part of my home.",
+      "The Norm 69 is an award winning DIY lamp that has a comparable look to the Artichoke Lamp without the steep price.",
+      "It’s also a pain-in-the-rear to put together.",
+      "From Normann Copenhagen:",
+      "Extraordinary in its form, the Norm 69 holds a special place in the Normann-Copenhagen legacy. As the first product launched in 2002, this stunning lamp comes in 69 pieces that anyone can assemble without the use of any tools or glue. Lends extraordinary light to any space.",
+      "After a couple of minutes you understand the concept of how to fold the different elements. Once this is done, just follow the detailed instructions and after a little while you are the proud owner of your very own handmade Norm 69 lamp – made by you."
+    ],
+    "fullParagraphs": [
+      "I have always wanted an Artichoke Lamp. I could never afford one (or really any piece of mid-century decor), so when I found a relatively inexpensive substitute that looked really cool, I jumped at the chance to make it a part of my home.",
+      "The Norm 69 is an award winning DIY lamp that has a comparable look to the Artichoke Lamp without the steep price.",
+      "It’s also a pain-in-the-rear to put together.",
+      "From Normann Copenhagen:",
+      "Extraordinary in its form, the Norm 69 holds a special place in the Normann-Copenhagen legacy. As the first product launched in 2002, this stunning lamp comes in 69 pieces that anyone can assemble without the use of any tools or glue. Lends extraordinary light to any space.",
+      "After a couple of minutes you understand the concept of how to fold the different elements. Once this is done, just follow the detailed instructions and after a little while you are the proud owner of your very own handmade Norm 69 lamp – made by you.",
+      "This description is totally misleading – within seconds of opening the box I knew I was not in for an easy or smooth construction project. First, I had to watch a youtube video to learn how to fold all of the various pieces because the instructions that came with the lamp were very confusing (judging by the video’s 42,000+ hits, this seems to be a common first step). Second, while the creators tout that you don’t need any tools, if you don’t want cut-up fingers or broken lamp pieces you are definitely going to need something to help with bending the plastic into the right shapes (I used a Black Stick – a tool from my computer technician days that, to this day, I cannot live without). Third, the description carefully notes that you will have your very own lamp “after a little while”. For me, a little while was over 3 hours - with sore fingers and a few busted/cracked pieces – and that’s only because I had a partner that helped me assemble the lamp.",
+      "Now, don’t get me wrong – the lamp does look really cool, and I don’t regret purchasing it (in fact, you could say that I am a proud owner of my lamp, especially since, yeah, I did build it). This story is not meant illustrate my frustrations with lamp-building. Instead, it’s meant to highlight my frustrations with designs touted as “easy to use” or “intuitive to navigate” that are actually more difficult than the designers claim.",
+      "When I first started this fellowship I hadn’t been very concerned with web design. The last time I had created a website (other than through social networking sites) was during the GeoCities era. I wasn’t entirely unfamiliar with Wordpress (after all, there are over 60 million Wordpress websites out there), but I had never used it to design a site of my own. Since I’m now responsible for creating websites on the CUNY Commons, I had to learn how to use Wordpress to design informative and aesthetically pleasing websites.",
+      "Wordpress is a content management system, which means that you can control most of the elements of a website from a central interface (the Dashboard) without much need for manual coding. This makes the software extremely user friendly, as it allows someone with virtually no web development experience to jump right in a create a website through one-click page creations, drag and drop navigation organization and theme packages that come with their own complete design schemes. Wordpress was designed to be easy to use and intuitive to navigate and, in turn, it is supposed to make web design easy and intuitive. And it is easy to use – within hours of my first time using the software I had made a website.",
+      "After creating a handful of websites, I began to pay more attention to the way in which I was designing sites. I didn’t focus on layouts, color schemes or header images, though. Instead, I started to focus on the way I was presenting information to potential users: would they find the site as easy to navigate as I did? This was not an easy question to answer (in fact, there are tons of heuristic resources available for testing the usability of websites).",
+      "You see, Wordpress really is easy to use as a website creator. However, website design is an entirely different beast that Wordpress can’t teach you – at least not through the Dashboard. While Wordpress is designed to put website creation at your fingertips in an easy to use, intuitive to navigate package, it doesn’t guide users through the finer points of making a website usable. This isn’t a design flaw with Wordpress, just as my lamp-building trouble isn’t a design flaw with the Norm 69. Rather, the issue lies in the assumption that the people who have come across these products – a content management system and a DIY lamp – have the ability to make something wonderful with them without any additional tools or skills.",
+      "Once I had started to think about these things, website design became more and more challenging. It wasn’t about finding interesting layouts, images, or color schemes anymore. Instead, a good design meant that my site had a clear taxonomy of navigation choices – that the correct items were groups together under the best categories, that the search function actually provided accurate results, and that users who visited one of my sites for the first time would have a really good idea of where to go to find what they were looking for. Web design has become akin to the process I undergo when writing an academic paper – how can I best present my argument so that it is clear, with consistent premises and a conclusion that is persuasive and elegant?",
+      "There are some people that pride themselves on putting the Norm 69 lamp together in under 35 minutes. These people have obviously practiced to reach such an impressive time, the same way I’ve practiced writing paper after paper to become a decent academic writer. While it’s possible to create a website using Wordpress your first time out, designing a good website is a bit more difficult than having a good layout. The platform may be easy to use, but the design know-how takes considerable practice."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00040336657391304404,
+      0.0518876808455674,
+      0.0003533030204515998,
+      0.004427150821356417,
+      0.00024270502323391717,
+      0.6020852405417751,
+      0.3222180701469912,
+      0.01838248302671127
+    ],
+    "words": [
+      [
+        "design",
+        17
+      ],
+      [
+        "lamp",
+        15
+      ],
+      [
+        "website",
+        15
+      ],
+      [
+        "easy",
+        10
+      ],
+      [
+        "wordpress",
+        10
+      ],
+      [
+        "first",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "19771",
+    "title": "Speaking of 'Speaking in Code' (Part 2)",
+    "date": "2013-12-28",
+    "year": "2013–2014",
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "originalAuthors": [
+      "Micki Kaufman"
+    ],
+    "aliases": [
+      "Micki Kaufman"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Micki Kaufman",
+    "tags": [
+      "brainstorming",
+      "codespeak",
+      "collaboration",
+      "community",
+      "conference",
+      "debate",
+      "discussion",
+      "Events",
+      "maker culture",
+      "physical computing",
+      "praxis",
+      "Reflections",
+      "research",
+      "resources",
+      "speaking in code",
+      "summit",
+      "teams"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/12/28/speaking-of-speaking-in-code-part-2/",
+    "signals": [
+      "Code & computational methods",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "As noon approached, lunch beckoned and the discussion became atomic, situational, one-on-one. Folks began following each other on Twitter, gathering their thoughts, etc., and just then I heard fellow historian Lincoln Mullen mention casually that as the users who comprised the '#codespeak' hash-tag's 'network' on Twitter began following each other, the diversity of the network actually became _less_ interesting, as what were once distinct branches of 'follows' were fused. An incredibly unpackable idea, in the ether with so many others at this one-of-a-kind event. Perhaps good DH was, in a sense, all about mixing it up - just as we were doing here at the conference – keeping the approach fresh, diverse, and dynamic while surfacing the deep humanities questions we were asking.",
+      "After this intellectually athletic morning session I was ready for a burger with a few of my new friends, each one fascinating. After the discussion over lunch…"
+    ],
+    "fullParagraphs": [
+      "As noon approached, lunch beckoned and the discussion became atomic, situational, one-on-one. Folks began following each other on Twitter, gathering their thoughts, etc., and just then I heard fellow historian Lincoln Mullen mention casually that as the users who comprised the '#codespeak' hash-tag's 'network' on Twitter began following each other, the diversity of the network actually became _less_ interesting, as what were once distinct branches of 'follows' were fused. An incredibly unpackable idea, in the ether with so many others at this one-of-a-kind event. Perhaps good DH was, in a sense, all about mixing it up - just as we were doing here at the conference – keeping the approach fresh, diverse, and dynamic while surfacing the deep humanities questions we were asking.",
+      "After this intellectually athletic morning session I was ready for a burger with a few of my new friends, each one fascinating. After the discussion over lunch (which was refreshing to both mind and body) we ambled back happily to the Lab in Alderman Library and settled down to work - and play. Next up was classicist Hugh Cayless, whose own work on TEI and text organizational systems was close to my own (historical text analysis-besotted) heart. Hugh walked us through the many layers of meaning and function in text – and the complicated nature of managing these computationally. Organizing systems for managing and researching text must confront the daunting reality that (thanks John Laudun), 'texts' themselves as an object of research can possess context, subtext, and paratext, can be related to one another thru allusion and reference, and can serve any number of purposes, whether narrative and poetical, linguistic or material.",
+      "As Hugh plainly stated, \"Texts are complicated and the tools are stupid.\" True enough. And maybe some of us can help change that (indeed, many of those in attendance have already started).",
+      "Many humanists have text-based sources, about which they (we) want to learn and understand a lot more - so a vibrant discussion about what it means to research and work with (text and other) data in a DH framework ensued, a central theme being the nature of 'mastery', and what it means for the research and pedagogical relationship. In many developer communities, walls of expertise are erected around those with core knowledge - many times, those who are also best equipped to provide the kind of education in a software tool or code base that a DH scholar might need. The 'noobie' has enough trouble just trying to learn to swim in a fast-moving code repository, and having a 'mentor' or 'master' to help you can be instrumental in providing that 'tacit' knowledge.",
+      "The last seminar of this whirlwind day was led by Mia Ridge, whose own work and presentation on managing 'messiness' in data was incredibly apropos to some of my own work. I was fascinated by the demonstration of her approaches to working with cultural heritage metadata and excited to learn more from the group.",
+      "The resultant conversation about decision-making in data management, specifically regarding the uniformity (or incongruity) of data, including error, “edge cases” and ambiguous or contradictory information, had me at once both rapt and raring to go. A meta-theme was, essentially, how to manage the balance between crafting one's data to fit the tools used and, more importantly, crafting the tools to best work with the data. We talked about some of the error scenarios and strategies many of us have faced in text analysis of library archives (including OCR typos, fuzzy dates, metadata errors and the choices behind when to use 'stopword lists' and 'stemming'). The code and data we assemble is certainly a discussion between technologists and academics, as mentioned by Bill Turkel, but it also even more true that as Jean Bauer commented, the data is as much an argument itself as it is a subject of argument. Even more fascinating was the conversation about 'visualizing absence', a blog post about which was quickly disseminated via Twitter as the post-conference conversation continued. From Mia's seminar (as with the others), I came away with a trove of conceptual and practical 'nuggets' I have only just begun to unpack and examine in greater detail.",
+      "Last was a building exercise - we separated into groups and defined a project based on the discussion we'd had and the themes, platforms, approaches and goals that had most interested us. I sat down with a few of my colleagues and we started hatching our plan. The topic of engaging people (audiences and scholars) from 'marginalized' communities had been a fascinating and recurring theme (ie the varying technological and academic knowledge successfully made available to, and the varying participation of, LGBT individuals, those of other ethnic/class backgrounds, the disabled and others). so we would set about exploring (in addition to the many ideas I detailed above and the many more that I have not), possible solutions to those barriers. Whatever obstacles those who are 'marginalized' may face, it is clear there are (and there are in DH) many novel means to overcome and upend them. Given its ongoing revolutionary aspect, Digital Humanities promises to remain a progressive and dynamic locus of study for many scholars of all fields and backgrounds. I am excited to be a part of the field and of the community that has emerged from the Lab.",
+      "PS: During dinner that night, we had a poetry slam and my limerick won!",
+      "\"The secret to DH as racket Is to download some source code and hack it Do whatever it takes to make sure nothing breaks... ...and never forget that !\"",
+      "I was given a lovely 3d-printed bracelet courtesy of Bethany, Jeremy and the Scholars' Lab MakerBot! Awesome ending to the conference."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.16380803986118403,
+      0.14674189331305618,
+      0.0004015398386674083,
+      0.00015548669463984427,
+      0.02221832553404961,
+      0.32101853780359807,
+      0.0005027662210780867,
+      0.3451534107337268
+    ],
+    "words": [
+      [
+        "many",
+        11
+      ],
+      [
+        "text",
+        8
+      ],
+      [
+        "data",
+        8
+      ],
+      [
+        "work",
+        7
+      ],
+      [
+        "discussion",
+        5
+      ],
+      [
+        "approach",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20140112084030/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/28/speaking-of-speaking-in-code-part-2/"
+  },
+  {
+    "id": "19774",
+    "title": "On Being Stuck",
+    "date": "2013-12-16",
+    "year": "2013–2014",
+    "authors": [
+      "A. L. McMichael"
+    ],
+    "originalAuthors": [
+      "A.L. McMichael"
+    ],
+    "aliases": [
+      "A. L. McMichael",
+      "A.L. McMichael",
+      "Alice Lynn McMichael"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "A.L. McMichael",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/",
+    "signals": [],
+    "paragraphs": [
+      "In the digital sphere, people like to wax poetic about experimentation and play. We like to encourage failure and serendipity and downtime. These are all good things. But sometimes when I’m flat-out stuck with a deadline looming, I just want to click a fancy button and forget that I’m supposed to be learning what makes these digital projects tick.",
+      "My latest experiment has been precisely that kind of exercise in patience (a virtue that generally escapes me). I’ve been trying out tools to automate and visualize the Digital Fellows’ bibliographies. I thought it would be a quick and easy page wherein I could activate the Zotpress plugin and call it a day. Instead, it has become a lesson in troubleshooting. I spent days tweaking Zotero settings for both my individual account and a group one, dissecting the minutiae of collections versus libraries, asking advice from other users, and exchanging messages with the developer. So what I thought…"
+    ],
+    "fullParagraphs": [
+      "In the digital sphere, people like to wax poetic about experimentation and play. We like to encourage failure and serendipity and downtime. These are all good things. But sometimes when I’m flat-out stuck with a deadline looming, I just want to click a fancy button and forget that I’m supposed to be learning what makes these digital projects tick.",
+      "My latest experiment has been precisely that kind of exercise in patience (a virtue that generally escapes me). I’ve been trying out tools to automate and visualize the Digital Fellows’ bibliographies. I thought it would be a quick and easy page wherein I could activate the Zotpress plugin and call it a day. Instead, it has become a lesson in troubleshooting. I spent days tweaking Zotero settings for both my individual account and a group one, dissecting the minutiae of collections versus libraries, asking advice from other users, and exchanging messages with the developer. So what I thought would be a lesson in plug-in activation became instead a tutorial in utilizing the vocabulary of bug reporting and troubleshooting.",
+      "I’ve shared this story not to whine or discourage the use of plug-ins, but because my experience highlights a common occurrence in the classroom. I’ve had students who, after trying unsuccessfully to upload a paper to Blackboard, gave up and declared it “not working.” When students are unwilling to troubleshoot, it’s often easier to babysit and do the task for them. But solving these mundane issues is a skill. When students (or faculty, for that matter) balk at following step-by-step directions or deciphering content management systems, it may reveal a lack of patience or confidence. I sympathize greatly with that despair and frustration. But it’s equally useful for a PhD student to practice describing a problem, systematically troubleshooting, and finding alternatives if the problem takes longer than the allotted time to fix.",
+      "While I continue to tinker and troubleshoot, I’ve tried out a few other visualization tools to analyze the Digital Fellows' reading lists. The result was that in alleviating that need for a particular plug-in to work right away, I have a few more options in my digital tool belt for future projects. In the meantime, check out our new Digital Fellows Library page and enjoy some visualizations of our resources, courtesy of Serendip-o-matic.",
+      "To use Serendip-o-matic, simply copy text into its search box, and it will return a selection of images that match machine-selected words. Above, a excerpt from Micki Kaufman's review of the Speaking in Code event returned images ranging from airplanes to Michelangelo's painting.",
+      "Parsed through Serendip-o-matic, the Linked Data bibliography brought up a range of old photographs and geographic spaces, a reminder that data often refers to civic records."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.20266804442245703,
+      0.010511601322943011,
+      0.005595113408118965,
+      0.0003063697894917615,
+      0.01975920610603106,
+      0.38272849811057064,
+      0.16912793044042598,
+      0.2093032363999615
+    ],
+    "words": [
+      [
+        "digital",
+        6
+      ],
+      [
+        "troubleshoot",
+        4
+      ],
+      [
+        "student",
+        4
+      ],
+      [
+        "try",
+        3
+      ],
+      [
+        "tool",
+        3
+      ],
+      [
+        "plug",
+        3
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20150507075208/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/16/on-being-stuck/"
+  },
+  {
+    "id": "19770",
+    "title": "Speaking of 'Speaking in Code' (Part 1)",
+    "date": "2013-12-05",
+    "year": "2013–2014",
+    "authors": [
+      "Micki Kaufman"
+    ],
+    "originalAuthors": [
+      "Micki Kaufman"
+    ],
+    "aliases": [
+      "Micki Kaufman"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Micki Kaufman",
+    "tags": [
+      "brainstorming",
+      "codespeak",
+      "collaboration",
+      "community",
+      "conference",
+      "debate",
+      "discussion",
+      "Events",
+      "maker culture",
+      "physical computing",
+      "praxis",
+      "Reflections",
+      "research",
+      "resources",
+      "speaking in code",
+      "summit",
+      "teams"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/12/05/speaking-of-speaking-in-code-part-1/",
+    "signals": [
+      "Code & computational methods",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "In early November I had the opportunity to participate in the Speaking in Code conference at the Scholars' Lab at the University of Virginia in Charlottesville, a summit on the use of technology alongside humanities research run by the Lab's director Bethany Nowviskie and her unbelievably talented, incredibly helpful and congenial team.",
+      "The conference was a good 7 hour drive from NYC, but it was the vivid height of autumn and the gorgeous Virginia countryside helped clear my mind. I was excited to see my friends among the attendees and meet other attendees for the first time, some well-known 'visionaries' in the field, and others talented practitioners across the DH (Digital Humanities) world whose work I did not know. For many of the attendees, I too would be among the latter category. The conference was slated to be a singular experience, a handful of diverse DH practitioners in an environment expressly defined as one of professional…"
+    ],
+    "fullParagraphs": [
+      "In early November I had the opportunity to participate in the Speaking in Code conference at the Scholars' Lab at the University of Virginia in Charlottesville, a summit on the use of technology alongside humanities research run by the Lab's director Bethany Nowviskie and her unbelievably talented, incredibly helpful and congenial team.",
+      "The conference was a good 7 hour drive from NYC, but it was the vivid height of autumn and the gorgeous Virginia countryside helped clear my mind. I was excited to see my friends among the attendees and meet other attendees for the first time, some well-known 'visionaries' in the field, and others talented practitioners across the DH (Digital Humanities) world whose work I did not know. For many of the attendees, I too would be among the latter category. The conference was slated to be a singular experience, a handful of diverse DH practitioners in an environment expressly defined as one of professional and personal respect for diversity. A rich and varied community of coders, each exploring the issues and opportunities presented by software in DH scholarship.",
+      "This was new.",
+      "Inspired by the desire to surface deep issues in DH into discourse, the first 'question' of the conference was a central one - the seeming disconnect between 'tacit' and 'explicit' knowledge. I understood this to be like the experiential lessons learned when handed a lump of play-doh as a child versus having its elasticity, strength, etc. described and demonstrated in vocabulary and numbers. A similar disconnect can be seen between technology knowledge (that of computer scientists and/or coders) and scholarship knowledge (that of humanists) in a wide range of DH study from pedagogy, scholarly communication, collaboration, discourse and 'building'. Historian/Maker Bill Turkel presented on his work, detailing many ways a cognitive leap between these knowledge types is possible - interfacing with the (literally) tangible through the use of robotics, circuitry, new software and interfaces and even 3d 'made' objects. The intersection of theory, physical and software skills that these physical computing approaches require (and embody) helped initiate a vigorous discussion.",
+      "Play, it was clear, was central. Popping the hood, getting in there and making art out of spaghetti. DH education could benefit greatly from an effective adaptation to the fact that in some cases the discourse, learning and collaborating that underlie the scholarship/software relation could use a little less university and a little more kindergarten.",
+      "At its core, however large or small the group and whatever process and tools they employ, DH also requires the application of novel ways of thinking and new 'processing' software (or hardware) on sometimes-familiar source data. Humanists often do not even think of their sources as data, but in fact nearly every imaginable body on which research can be done can be seen as data – ripe for a panoply of potential DH analyses (sociological, historical, anthropological, archaeological, literary or otherwise). That having been said, the concepts and consequences of DH are likewise dazzlingly complicated and ever-dynamic, at any moment as varied as there are teams and practitioners. The manifold considerations that shape DH compel all manner of solo, pair and group collaboration efforts.",
+      "We who do DH are working towards and preparing for this goal of knowledge exchange and collaboration. The question arose, given that many Computer Science degree requirements include some form of humanities, what about the reverse? Should effective, 'tacit'-knowledge oriented computer science classes be part of a standard educational curriculum? In addition to courses, shouldn't more humanities departments permit the use of a programming language to fulfill a DH practitioner's language requirements? Coding helps make sure good theories of logical thinking and problem-solving are instilled in the 'coder' even as computers and the production of software fade into the background. It helps students to understand that which is increasingly hidden for the benefit of the 'user' behind hand-held devices with slick, simple, tactile interfaces.",
+      "This is not to say all slick, simple, tactile interfaces are bad – far from it! Stefan Sinclair lead the next presentation and set the stage for our ongoing discussion, showing us some engaging and intriguing 'procedural' interface design. He also lead us in an exercise of team design, in which we learned that the unexplained but implicit forms of 'tacit' knowledge in this new culture of learning were not physically embedded (indeed, occluded) in a discipline – we do learn by doing, but in not so formulaic a pattern – rather, the formulas and 'muscle memory' of design and coding are stepping stones to the ideas that drive us. Great design accomplishes these goals, as evidenced in a number of Stefan's projects to date.",
+      "More in Part 2.",
+      "Please note: Many of the ideas expressed in this essay emerged from a conversation between the assembled 'Speaking in Code' participants. Given the interactive nature of this summit, attribution of each idea to its likeliest proponent would be impossible. Any credit is due to all who attended and it is my hope that recounting these ideas will stimulate new practices and concepts to inhabit and expand the reader's own creativity."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.010625127739596086,
+      0.17299464728852348,
+      0.00041783927234393016,
+      0.0026988182685098224,
+      0.0002870388432361827,
+      0.45328936544279214,
+      0.0005231746684751218,
+      0.35916398847652325
+    ],
+    "words": [
+      [
+        "knowledge",
+        7
+      ],
+      [
+        "software",
+        6
+      ],
+      [
+        "new",
+        5
+      ],
+      [
+        "conference",
+        4
+      ],
+      [
+        "humanity",
+        4
+      ],
+      [
+        "help",
+        4
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20140112084025/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/05/speaking-of-speaking-in-code-part-1/"
+  },
+  {
+    "id": "19773",
+    "title": "Learn Bootstrap Part 3: Customize Bootstrap and Add a Header",
+    "date": "2013-12-02",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Bootstrap",
+      "Coding",
+      "learn bootstrap",
+      "resources",
+      "Resources",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This is the third in a series of lessons on using the Bootstrap web framework to develop a WordPress theme.",
+      "In the first lesson, we started to get a feel for what Bootstrap looks like in a web browser and began to think about using Bootstrap code snippets to lay out a website.",
+      "In the second lesson, we incorporated the Bootstrap framework into a basic WordPress theme template and added some Bootstrap components to the WordPress site.",
+      "For this lesson, we will generate our own customized version of Bootstrap with modified colors, styles, etc., add it to our WordPress theme, and then incorporate Bootstrap into the site’s header.",
+      "Customizing Bootstrap",
+      "One of the neat things about Bootstrap is that its CSS styles are generated from compiled LESS code. What this means is that it uses variables to store information such as a color palette, relative font sizes and styles, and spacing rules. When you make a change to a single variable definition,…"
+    ],
+    "fullParagraphs": [
+      "This is the third in a series of lessons on using the Bootstrap web framework to develop a WordPress theme.",
+      "In the first lesson, we started to get a feel for what Bootstrap looks like in a web browser and began to think about using Bootstrap code snippets to lay out a website.",
+      "In the second lesson, we incorporated the Bootstrap framework into a basic WordPress theme template and added some Bootstrap components to the WordPress site.",
+      "For this lesson, we will generate our own customized version of Bootstrap with modified colors, styles, etc., add it to our WordPress theme, and then incorporate Bootstrap into the site’s header.",
+      "Customizing Bootstrap",
+      "One of the neat things about Bootstrap is that its CSS styles are generated from compiled LESS code. What this means is that it uses variables to store information such as a color palette, relative font sizes and styles, and spacing rules. When you make a change to a single variable definition, that change will be propagated throughout the Bootstrap CSS automatically. So if you don’t like the default shade of blue that Bootstrap ships with, you can choose a different shade of blue and then everything that was the original blue will now be styled with your new shade of blue.",
+      "Standard Bootstrap Theme",
+      "Custom Themed Bootstrap",
+      "There are a number of ways to generate a custom build of Bootstrap. We’ll cover a few of them.",
+      "The official Bootstrap website has a built-in customization page where you can manually set all of the different variables before downloading the Bootstrap package.",
+      "Bootstrap Magic is a graphical/WYSIWYG version of the official Bootstrap customizer. It lets you preview your customizations as you edit them. Highly recommended. When you finish customizing, you can download the .css file, put it into your WordPress theme folder and change the wp_enqueue_style() to point to your custom Bootstrap CSS instead of the default one (refer back to the previous lesson in this series if you aren’t sure about how to do this). The other thing you can do—this is a little more involved—is to download the \".less\" file that is generated, place it in your Bootstrap \"less\" directory, and either rename it \"variables.less\" or modify bootstrap.less to include your customized magic-variables.less file instead of the default variables.less. The specifics of this process are beyond this lesson, but you can find plenty of assistance on Google.",
+      "Paintstrap is a less-involved tool that generates Bootstrap variables/CSS files for you based on a color palette you find or generate on ColourLovers or Adobe kuler. While very straightforward, Paintstrap’s only really useful for customizing your color scheme, but doesn’t help with the rest of your customizations like fonts, spacing, etc. What you can do, however, is to download the variables.less file that it generates and import it into Bootstrap Magic to finish your customization.",
+      "Bootswatch has complete themes that you can download, with customizations throughout the Bootstrap interface system. If you’re looking for something slightly different from the default Bootstrap look with minimum fuss, this is definitely the place to start looking.",
+      "Once you have used one of the above tools to generate either a custom Bootstrap CSS or LESS file, you’ll want to make sure that you are using this custom version in your WordPress theme instead of the default version of bootstrap.css.",
+      "If you used methods 1, 2, or 4 above, the only thing you need to do is to copy the generated CSS file into your WordPress theme directory. Replace the default bootstrap.css file at /bootstrap/bootstrap.css with the one you generated, renaming it if needed.",
+      "If you used method 3 above, or method 2 and you downloaded the .less variables file, you can place the variables.less file into the LESS directory within your Bootstrap directory. You will then need to use a program such as Koala or LESS.app to convert the LESS files into CSS code. I won’t go through all of the details of this process, but basically, you set the LESS directory as the input directory in whichever program you use, then set the CSS directory as the output directory. Make sure that your variables.less file is included in the bootstrap.less file (you’ll need to open it in a text editor to check), and then run bootstrap.less through the LESS compiler to generate a custom bootstrap.css file.",
+      "Finally, you might also consider using one of the WP-LESS WordPress plugins (directions here or an alternative version in the WP plugin repository here) that allow you to directly include your LESS files in your WordPress theme like you would CSS files. The great thing about doing things this way is that you can add options to your theme that modify your LESS styles (see the first linked above).",
+      "Now that you have your own customized version of Bootstrap integrated into your WordPress theme, the last thing we’ll cover is integrating Bootstrap into your WordPress theme header.",
+      "Bootstrapping The WordPress Header",
+      "Starting with the base theme we modified in the last lesson, we will be modifying the header.php file to incorporate the Bootstrap navbar component, which will generate something that looks like this:",
+      "Fully Themed Bootstrap Navbar",
+      "Step 1: Open “header.php” in your text editor. Notice the bit around line 24 that says <header id=\"masthead\" class=\"site-header\" role=\"banner\">? We’re going to start our edits right below that. But first, delete lines 25-34, which contain the original header that we’re about to replace.",
+      "Step 2: Copy-paste the following chunk of code at line 25, right below the “header” tag (this code is taken directly from the example on the Bootstrap website):",
+      "&lt;nav class=&quot;navbar navbar-default&quot;&gt; &lt;!-- Brand and toggle get grouped for better mobile display --&gt; &lt;div class=&quot;navbar-header&quot;&gt; &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot;&gt; &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt; &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;/button&gt; &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Brand&lt;/a&gt; &lt;/div&gt;",
+      "&lt;!-- Collect the nav links, forms, and other content for toggling --&gt; &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt; &lt;ul class=&quot;nav navbar-nav&quot;&gt; &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;dropdown&quot;&gt; &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot;&gt;Dropdown &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt; &lt;ul class=&quot;dropdown-menu&quot;&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;One more separated link&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;form class=&quot;navbar-form navbar-left&quot;&gt; &lt;div class=&quot;form-group&quot;&gt;",
+      "&lt;/div&gt; &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt; &lt;/form&gt; &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;dropdown&quot;&gt; &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot;&gt;Dropdown &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt; &lt;ul class=&quot;dropdown-menu&quot;&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;&lt;!-- /.navbar-collapse --&gt; &lt;/nav&gt;",
+      "Step 3: Edit the first line where it says <nav class=\"navbar navbar-default\" role=\"navigation\"> add the class “navbar-fixed-top” (I also suggest trying “navbar-static-top” to see how they differ). You should end up with a line that looks like: <nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\" style=\"top: 28px;\">",
+      "The \"navbar-fixed-top” class styles the navbar so that it sticks to the top of the page, while the little bit that says “top: 28px” moves it down just enough so that it is not covered by the WordPress top bar thing. If you use the “static” navbar instead, you’ll notice that it scrolls with the page instead of remaining visible as you scroll. If you prefer the static navbar, you will want to remove the 'style=\"top: 28px\"' bit.",
+      "Step 4: Save the file and load your theme in a browser (refer to the previous lesson if you’re unsure about this). You should see a generic looking navigation bar at the top of the page, and when you scroll it should “stick” to the top:",
+      "The Default Navbar before adding WordPress functionality",
+      "If you’re not seeing this, double check that your theme is correctly including the bootstrap.css file. You should also check to see if the page contains errors that might be preventing something from working. You can do this using the developer tools built in to most browsers (Google is your friend in this…).",
+      "Step 5: Edit the line that says: <a class=\"navbar-brand\" href=\"#\">Brand</a> and replace “Brand” with <?php bloginfo( 'name' ); ?> and replace the “#” with <?php echo esc_url( home_url( '/' ) ); ?> so that you end up with a line that looks like: <a class=\"navbar-brand\" href=\"<?php echo esc_url( home_url( '/' ) ); ?>\"><?php bloginfo( 'name' ); ?></a>",
+      "What this does is call the WordPress function “bloginfo(’name')”, which displays the title of your blog, in this case, within the navbar. It also uses the “home_url()” function to link the blog name to the homepage URL.",
+      "We’re now well on our way to a working header navigation bar, but the next step of adding the WordPress menus will take a few additional steps...",
+      "Add WordPress Menus to The Bootstrap Navbar",
+      "Step 1: WordPress uses a system called a “navwalker” to generate its menus. In order to get the menus to work with the Bootstrap navbar, we need to add a custom navwalker that will override the built in WordPress system. There are several ready-to-use navwalkers on Github that are compatible with Bootstrap 3.0, but we’re going to use the version developed by Github user twittem here. There are some other forks of this navwalker with additional functionality, such as this one that supports multi-level dropdown menus and this one that adds the blog description to the navbar.",
+      "Download the wp-bootstrap-navwalker zip from one of the above Github repositories, unzip it, and copy “wp_bootstrap_navwalker.php” to your theme directory.",
+      "Step 2: Edit your “functions.php” file to include wp_bootstrap_navwalker.php by adding the following lines:",
+      "// Register Custom Navigation Walker require_once('wp_bootstrap_navwalker.php’);",
+      "Step 3: Edit “header.php” to use the new navwalker instead of the default navigation links.",
+      "Delete everything between <!-- Collect the nav links, forms, and other content for toggling --> and <!-- /.navbar-collapse -->.",
+      "In its place, copy-paste the following:",
+      "&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt; 'primary', 'theme_location' =&gt; 'primary', 'depth' =&gt; 2, 'menu_class' =&gt; 'nav navbar-nav', 'fallback_cb' =&gt; 'wp_bootstrap_navwalker::fallback', 'walker' =&gt; new wp_bootstrap_navwalker()) ); ?&gt;&lt;!-- /.navbar-collapse --&gt; &lt;/div&gt;",
+      "What this does is create a new navigation menu using the built-in WordPress function “wp_nav_menu()”, which in turn calls the wp_bootstrap_navwalker function that we just added in the previous step. The options that are being passed to \"wp_nav_menu()” are described in the WordPress codex, so check that out for more information.",
+      "Step 4: Test it out. When you load your WordPress site in a browser, you should see the navbar at the top, with the blog title on the left and either your primary navigation menu or “Add a menu” displayed if you haven’t set the menu yet. In the latter case, set up a menu by clicking the link. Be sure to check the box at the bottom of the menu customization area to display the menu in the Primary menu area.",
+      "If everything went as planned, you should see something like this:",
+      "Navbar with WordPress Menus",
+      "Step 5: You can optionally add a search form to the navigation menu by adding the following code right before the closing </div> tag in the previous step: <form id=\"searchform\" class=\"navbar-form navbar-right\" method=\"get\" action=\"/\" role=\"search\">",
+      "<input type=\"text\" name=\"s\" id=\"s\" class=\"form-control\" placeholder=\"Search\" value=\"\" >",
+      "Submit If everything went as planned, you should see a navbar menu like the one shown at the beginning of this section.",
+      "Note that when you resize the browser window to make it really narrow, the menu, including the search form, should disappear into a little button that you can click to display the menu again. Neat, right? That’s the magic of Bootstrap.",
+      "Next Steps",
+      "This covers the basics of getting Bootstrap integrated into your WordPress theme. There are a ton of things that you can do from here to continue adding Bootstrap components throughout the rest of the theme. For example, you could create a contact form, login dialog, photo galleries, carousels, etc., all using components that are built-in to Bootstrap. Be sure to check out the official Bootstrap documentation for a complete list of components, CSS, and javascript/jQuery that you can use throughout your WordPress theme.",
+      "A good next step is to use Bootstrap to modify your theme’s “footer.php” to make a page footer to match the header navbar we put together in this lesson.",
+      "You also probably want to add some Bootstrap classes to all of the page/content templates, including index.php, page.php, content.php, archive.php, sidebar.php, single.php, and search.php. In order to Bootstrap your page layout, you want to first modify page.php since that is the default base template. You can use various numbers of columns to set the layout of the main content area and sidebars. All of this is beyond the scope of this brief set of lessons, but there are plenty of resources on the web to help you along. Here are a few:",
+      "http://bootstraphero.com/the-big-badass-list-of-twitter-bootstrap-resources",
+      "http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/",
+      "http://bootsnipp.com/resources",
+      "http://wordpress.org/plugins/easy-bootstrap-shortcodes/",
+      "http://wordpress.org/plugins/bootstrap-shortcodes/",
+      "http://www.hongkiat.com/blog/twitter-bootstrap/",
+      "That’s it for now. If you have questions or thoughts on this series of lessons, don’t hesitate to leave a comment.",
+      "Learn Bootstrap and Integrate it into WordPress",
+      "This three-part series covers the basics of working with the Bootstrap web framework and integrating it into a WordPress theme.",
+      "Lesson 1: Getting familiar with Bootstrap",
+      "Lesson 2: Adding Bootstrap to a WordPress theme",
+      "Lesson 3: Customizing Bootstrap and Adding it to the WordPress Header"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.00016937569160620613,
+      0.0001694605574138385,
+      0.017262954100770642,
+      5.7446439526578116e-05,
+      0.00010191308309896545,
+      0.02582503136853843,
+      0.9559010674439956,
+      0.0005127513150497225
+    ],
+    "words": [
+      [
+        "bootstrap",
+        63
+      ],
+      [
+        "navbar",
+        44
+      ],
+      [
+        "class",
+        38
+      ],
+      [
+        "wordpress",
+        29
+      ],
+      [
+        "theme",
+        24
+      ],
+      [
+        "less",
+        23
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20140112044632/http://digitalfellows.commons.gc.cuny.edu:80/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/"
+  },
+  {
+    "id": "19769",
+    "title": "Learn Bootstrap Part 2: Adding Bootstrap to WordPress",
+    "date": "2013-11-18",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Bootstrap",
+      "learn bootstrap",
+      "resources",
+      "Resources",
+      "Tutorial",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This post is the second in a series of lessons on using the Bootstrap web framework to develop a WordPress theme.",
+      "In the previous lesson we started to get a feel for what Bootstrap looks like in a web browser and began to think about using Bootstrap code snippets to lay out a website.",
+      "In this lesson, we will take the first step toward incorporating Bootstrap into WordPress.",
+      "Before Getting Started",
+      "The first thing you need is a working instance of WordPress that you can freely play around on without breaking a live website.",
+      "There are lots of guides on the web that show you how to run a local installation of WordPress to develop your website and themes. I won't cover this in detail. My only suggestion is that you check out AMPPS, made by the people who created Softaculous. AMPPS is a free application that lets you run a local webserver with PHP, Apache, and MySQL, sort of like MAMP/XAMPP/WAMP, but with the added functionality of Softaculous…"
+    ],
+    "fullParagraphs": [
+      "This post is the second in a series of lessons on using the Bootstrap web framework to develop a WordPress theme.",
+      "In the previous lesson we started to get a feel for what Bootstrap looks like in a web browser and began to think about using Bootstrap code snippets to lay out a website.",
+      "In this lesson, we will take the first step toward incorporating Bootstrap into WordPress.",
+      "Before Getting Started",
+      "The first thing you need is a working instance of WordPress that you can freely play around on without breaking a live website.",
+      "There are lots of guides on the web that show you how to run a local installation of WordPress to develop your website and themes. I won't cover this in detail. My only suggestion is that you check out AMPPS, made by the people who created Softaculous. AMPPS is a free application that lets you run a local webserver with PHP, Apache, and MySQL, sort of like MAMP/XAMPP/WAMP, but with the added functionality of Softaculous built in. This means that setting up WordPress is as simple as running an installation script in your browser. Easy peasy.",
+      "The second thing you need is a blank WordPress theme to work with. If you have an existing theme, you can try using that as your base, but I recommend _s (pronounced \"underscores\"), which is made by the people behind wordpress.com. All you have to do to use _s is enter a theme name on the website, click \"Generate,\" and then unzip the downloaded archive to your WordPress wp-content/themes directory.",
+      "The last thing you will do is make sure that your test site is loading your new theme correctly. In the WordPress Dashboard, select your theme in Appearance > Themes. If you visit your site now, it should look totally barren, but this will soon change.",
+      "Bootstrap Your New Theme",
+      "The next step is to add Bootstrap to your new blank WordPress theme. There are several ways to do this, but the easiest is to download the ready-to-use Bootstrap package from getbootstrap.com.",
+      "After you unzip the package, you should have a folder called \"dist\". Move the \"dist\" folder into your new theme's folder, and optionally, rename the folder something like \"bootstrap\" to make it easier to remember what’s in it.",
+      "Move the _s generated folder to your WordPress themes folder and optionally rename it \"bootstrap\"",
+      "Next we need to modify your theme's \"functions.php\" file to get WordPress to load the Bootstrap files when someone views your site. To do this, open the \"functions.php\" file in your favorite text editor. Scroll down to around line 77, where there should be a line something like this (except where your theme name appears instead of \"my_bootstrap_theme\"): function my_bootstrap_theme_scripts() {",
+      "Below this line are a few function calls to include the default CSS and Javascript files that come with the _s template. We are going to add a few more lines of code below these to include Bootstrap’s CSS and Javascript files. So around line 83, add the following: wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '3.0.1', true );",
+      "wp_register_style( 'bootstrap-css', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array(), '3.0.1', 'all' );",
+      "wp_enqueue_script( 'bootstrap-js' );",
+      "wp_enqueue_style( 'bootstrap-css' ); Your functions.php should look something like this:",
+      "The edited functions.php file",
+      "This first line tells WordPress to register a new script, which we are going to call \"bootstrap-js\". It also tells WordPress where to look for the script file (in this case, in the theme folder , and then inside the bootstrap folder's \"js\" folder, there is a file called \"bootstrap.min.js\". The last three parameters tell WordPress that this script depends on the jquery javascript library, that the version of the script that we’re loading is version 3.0.1 (which helps it with caching), and that the script should be added in the footer of the page, which helps to speed up the page loading in a browser.",
+      "The second line is almost the same as the first, except it’s loading the Bootstrap CSS file and telling WordPress that this stylesheet should be used for 'all' media types (print, screen, etc.).",
+      "The last two lines tell WordPress to actually include the scripts on the page (whereas before they were only \"registered\", but not loaded). We could have done this slightly differently by skipping the \"wp_register_script\" calls altogether, but this way is slightly better practice in case we later decide that we only want to load Bootstrap sometimes.",
+      "Before we save and close the functions.php file, we’re going to add one more line of code. Below the \"add_action(…\" which should now be around line 99, add the following: remove_filter('the_content', 'wpautop');",
+      "This line will prevent WordPress from automatically inserting HTML line breaks in your posts. If you don’t do this, some of the Bootstrap snippets that we are going to add will probably not display correctly.",
+      "Finally, save the functions.php file. Your theme is now ready to use Bootstrap*!",
+      "*As a side note, if/when you start adding additional CSS, for example, from one of the startbootstrap.com templates, you can either add it to a new CSS file or append it to the style.css file that comes with the theme template. If you choose the former, simply add an additional set of 'wp_register_style()' and 'wp_enqueue_style()' calls to your new CSS file. In my case, I created a new file, \"mytheme.css\" and included it with the code: wp_register_style( 'mytheme-css', get_template_directory_uri() . '/mytheme.css', array(), '0.0.1','all' );",
+      "wp_enqueue_style( 'mytheme-css' );",
+      "Test Your Bootstrapped Theme",
+      "Now that you have a theme that includes Bootstrap’s base files, you can very easily test it out by creating a page that includes Bootstrap components.",
+      "On your test WordPress site, create a new post or edit the default \"Sample Post\". In the content area, click the \"text\" tab to edit the raw HTML for your page’s content.",
+      "Now go to http://bootsnipp.com/snippets/featured/crowdfunding-grid-bs-3 and click on the \"HTML\" button. Copy the code and paste it into a new WordPress post on your test site.",
+      "Hit \"Publish\" and then view the post.",
+      "If everything went as planned, your post should look something like this:",
+      "Your test post should look something like this!",
+      "Congratulations! You now have a working custom WordPress theme that implements the Bootstrap framework.",
+      "Next Steps",
+      "Now that you've included Bootstrap in your WordPress theme, you can do a number of things.",
+      "As a next step, you can play around with Bootstrap by adding new pages or posts containing snippets from bootsnipp.com or entire templates from startbootstrap.com. If you do the latter, be sure that you add any additional CSS to your custom CSS files or create new CSS files and include them like we did previously. Also, when using templates from startbootstrap.com, you should only include the content between the and tags since the code before that it is already being added by WordPress.",
+      "If you are feeling ambitious, you can start editing the theme's template files such as header.php, footer.php, index.php, and content.php to incorporate Bootstrap components into your theme. One of the subsequent lessons will cover further integration of Bootstrap into your WordPress theme, but it doesn’t hurt to start playing with the theme files now."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0037138004458888148,
+      0.00031931537858407194,
+      0.00027954371346863583,
+      0.00010824661423094266,
+      0.0001920353338207458,
+      0.040175623730980645,
+      0.9542452549074063,
+      0.0009661798756199088
+    ],
+    "words": [
+      [
+        "bootstrap",
+        35
+      ],
+      [
+        "theme",
+        28
+      ],
+      [
+        "wordpress",
+        24
+      ],
+      [
+        "file",
+        20
+      ],
+      [
+        "add",
+        14
+      ],
+      [
+        "new",
+        12
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20131202013405/http://digitalfellows.commons.gc.cuny.edu:80/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/"
+  },
+  {
+    "id": "19768",
+    "title": "Learn Bootstrap Part 1: Getting Acquainted with Bootstrap",
+    "date": "2013-11-05",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Bootstrap",
+      "learn bootstrap",
+      "Resources",
+      "resources",
+      "Tutorial"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This is the first in a series of posts that will serve as a mini-course in using the Bootstrap web framework to eventually build a custom WordPress theme.",
+      "What is Bootstrap?",
+      "Bootstrap is an open-source project to create flexible design and layout components for the web. It is basically a bunch of predefined styles that anyone can slap onto their website to make things look neat and uniform. By including the CSS and Javascript for Bootstrap on a web page, a bunch of components are made available such as buttons, lists, boxes, and menus. Most of these components only require a basic knowledge of HTML to incorporate into a page.",
+      "Example",
+      "This is what the exact same code snippet looks like in a browser with and without the inclusion of Bootstrap's styles.",
+      "Links styled with Bootstrap",
+      "Unstyled links using the same HTML",
+      "Here's the HTML for this example, via bootsnipp.com",
+      "<div class=\"container\"> <div class=\"row\"> <div class=\"col-md-6\"> <div…"
+    ],
+    "fullParagraphs": [
+      "This is the first in a series of posts that will serve as a mini-course in using the Bootstrap web framework to eventually build a custom WordPress theme.",
+      "What is Bootstrap?",
+      "Bootstrap is an open-source project to create flexible design and layout components for the web. It is basically a bunch of predefined styles that anyone can slap onto their website to make things look neat and uniform. By including the CSS and Javascript for Bootstrap on a web page, a bunch of components are made available such as buttons, lists, boxes, and menus. Most of these components only require a basic knowledge of HTML to incorporate into a page.",
+      "Example",
+      "This is what the exact same code snippet looks like in a browser with and without the inclusion of Bootstrap's styles.",
+      "Links styled with Bootstrap",
+      "Unstyled links using the same HTML",
+      "Here's the HTML for this example, via bootsnipp.com",
+      "<div class=\"container\"> <div class=\"row\"> <div class=\"col-md-6\"> <div class=\"panel panel-primary\"> <div class=\"panel-heading\"> <h3 class=\"panel-title\"> <span class=\"glyphicon glyphicon-bookmark\"></span> Quick Shortcuts</h3> </div> <div class=\"panel-body\"> <div class=\"row\"> <div class=\"col-xs-6 col-md-6\"> <a href=\"#\" class=\"btn btn-danger btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-list-alt\"></span> <br/>Apps</a> <a href=\"#\" class=\"btn btn-warning btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-bookmark\"></span> <br/>Bookmarks</a> <a href=\"#\" class=\"btn btn-primary btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-signal\"></span> <br/>Reports</a> <a href=\"#\" class=\"btn btn-primary btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-comment\"></span> <br/>Comments</a> </div> <div class=\"col-xs-6 col-md-6\"> <a href=\"#\" class=\"btn btn-success btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-user\"></span> <br/>Users</a> <a href=\"#\" class=\"btn btn-info btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-file\"></span> <br/>Notes</a> <a href=\"#\" class=\"btn btn-primary btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-picture\"></span> <br/>Photos</a> <a href=\"#\" class=\"btn btn-primary btn-lg\" role=\"button\"><span class=\"glyphicon glyphicon-tag\"></span> <br/>Tags</a> </div> </div> <a href=\"http://www.jquery2dotnet.com/\" class=\"btn btn-success btn-lg btn-block\" role=\"button\"><span class=\"glyphicon glyphicon-globe\"></span> Website</a> </div> </div> </div> </div> </div>",
+      "As you can see, there is a pretty dramatic difference between the list of links without styling and the Bootstrap themed links. The magic of Bootstrap rests in its use of CSS styling to modify the placement and appearance of web elements with minimal additional HTML coding.",
+      "This first lesson will introduce some of the basics of Bootstrap. It starts with browsing through some websites that use Bootstrap to give a sense of what Bootstrap components look like. Then it moves on to cut-and-paste coding to begin laying out a static page using Bootstrap components, with the goal of getting something that vaguely resembles someone else's Bootstrap page layout.",
+      "Step 1: Check out Bootstrap in Action",
+      "A good way to learn how to use a new tool like Bootstrap is by seeing it in action and then trying to imitate what you see.",
+      "Since this course is designed to not do anything for you, but rather to guide you through the learning process, I'm only providing a few links to pages containing galleries of sites that employ Bootstrap. Check out the galleries and find a few examples that you find most attractive.",
+      "Try to focus on layout, colors, typography, and to a lesser degree, site structure. Don't worry about things like graphics or content since those are things you will plug in once you are finished. You probably won't find a site that contains all of the design elements in a single place, so pick a few sites, each with aspects that you find appealing.",
+      "Pintrest posts tagged #Bootstrap",
+      "The official bootstrap “expo”",
+      "LoveBootstrap",
+      "Step 2: Find Some Bootstrap Templates",
+      "Once you have some sense of the design elements you want to include in your end product, the next step is to look for a base template that might serve as a good starting point.",
+      "Head over to StartBootstrap and see if you can find any templates that have a similar overall layout to what you found appealing in the first step. Download the template to your computer and unzip it. There should be one or more HTML files in the base folder, depending on which template you downloaded, and a couple of additional folders containing CSS and javascript (.js) files, as well as any assets the template requires, such as images. Try loading the various HTML files in a browser. The page should just work. If things don't look right, and you tried loading the page in a couple of different browsers, don't worry about it, and just continue to the next step, but keep those HTML and CSS files handy because you'll use them again in the next couple steps.",
+      "Step 3: Play with Bootstrap!",
+      "Now that you have a base template, it's time to get our feet wet with some HTML coding. Don't worry too much if you don't really understand HTML, we're not going to be doing any major editing yet. For now we're just going to use copy-paste-coding, meaning that all you need to do is to copy-paste code snippets from one place to another. But a getting a basic understanding of the structure of an HTML document might be useful if everything just looks Greek to you.",
+      "The goal of this step is to start putting together Bootstrap components to make your template look more like the demo pages you found in the first step. This means taking the different templates you found, cutting-and-pasting chunks of code, and modifying your base template until it is a fairly decent representation of the demo site you found.*",
+      "*Note: the demo site you found might have used a bunch of trickery to do cool things like making tumbl-esque blocks fit together like a mosaic, or to animate things, or make wallpapers do funky scrolling things. Don't worry about those things for now. Just try to get the components to look roughly similar. The trickery will have to wait until later...",
+      "You have three options here, and I suggest trying all three to see which works best for you, but eventually you'll end up using the first option so might as well get comfortable with it sooner than later. The first option is to use a text or HTML editor and edit the raw HTML from your template files and preview your changes in a browser. The second is to use a web-based tool to \"playground\" your code snippets and view them in almost real-time. The third is to use a web-based graphical interface for laying out Bootstrap components.",
+      "For the first option, I recommend using a text editor such as TextMate (OS X), Sublime Text (OS X and Windows), Notepad++ (Windows), or whatever happens to be your personal preference if you're on Linux (since if you're using it I assume you already have an allegiance to either vim or emacs...esc:q!). When you make changes, save the file and reload your browser. Simple as that. When things don't look quite right or as you had hoped, right click on in your browser on the thing that doesn't look quite right, and clink on \"inspect element\" or whatever is your browser's equivalent (try Google if you're not sure). Check out the code snippet for that component and make sure that it's in the right place relative to other the other components on the page (the components should be highlighted on the page as you scroll over the code chunks). This debugging tool is going to be your friend over the next several lessons, so get comfortable using it.",
+      "For the second option, go to The Bootstrap Playground. It's a site that allows you to test out Bootstrap code in your browser and see view the results in almost real-time. Start a new \"playground\" and try loading some of the templates and community-contributed code snippets. See if you can figure out what the code snippets do. Try loading the html from the template you downloaded in the previous step. Can you get it to load properly? You might need to include some additional CSS or javascript to get things to look and function correctly. Bootply is still a little rough around the edges, so it's not a big deal if things don't work out or you are totally confused by it.",
+      "The third option is to use a visual layout editor. I recommend checking out Divshot. They have a free plan (still requires registering) that should be plenty for this mini-course. Try it out and definitely check out their very thorough tutorial. Easel.io is also very slick and works well, and like divshot, they have a free plan, but theirs only lets you save up to 3 pages.",
+      "You might also check out Pingendo, which is a free visual editor that runs on Windows or OS X, but is still very rough around the edges and isn't very drag-and-drop friendly. There is also LayoutIt which seems like it works decently, but I haven't spent enough time playing with it to know how well it works compared to divshot or easel.io.",
+      "Next steps...",
+      "If you've made it this far, you're well on your way to using Bootstrap. You should now have one or more HTML pages (along with CSS and some javascript) that lets you display something roughly resembling the demo page you found in the first step, or at least that contains features of that demo page. Keep a list of those things that you weren't able to reproduce because we'll try to figure out how to make them work in upcoming lessons.",
+      "For now, save your work and take a well deserved break.",
+      "If you got stuck along the way, remember, Google is your friend when you're learning something new. See if you can google your way to the next step, or post a comment here and hopefully I (or some other kind soul) will be able to help you."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.008183464128556691,
+      0.00024879400682765833,
+      0.016087395420416734,
+      8.434015611607445e-05,
+      0.0001496239873118767,
+      0.2336400307654874,
+      0.7395310884248057,
+      0.002075263110477818
+    ],
+    "words": [
+      [
+        "class",
+        29
+      ],
+      [
+        "btn",
+        28
+      ],
+      [
+        "bootstrap",
+        25
+      ],
+      [
+        "glyphicon",
+        20
+      ],
+      [
+        "html",
+        15
+      ],
+      [
+        "page",
+        14
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20140112044629/http://digitalfellows.commons.gc.cuny.edu:80/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/"
+  },
+  {
+    "id": "19766",
+    "title": "Technically Speaking",
+    "date": "2013-10-28",
+    "year": "2013–2014",
+    "authors": [
+      "Andrew G McKinney"
+    ],
+    "originalAuthors": [
+      "Andrew G McKinney"
+    ],
+    "aliases": [
+      "Andrew G McKinney"
+    ],
+    "account": "Andrew G McKinney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Negotiation",
+      "pedagogy",
+      "Reflections",
+      "technology",
+      "Translation"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/28/technically-speaking/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Recently in our Digital Fellows weekly meetings we've been talking about doing skill shares with each other. A great idea, sure, but I was immediately gripped with anxiety at the idea. As the fellow with arguably the least amount of technical skills, sometimes I feel a touch of imposter syndrome. The idea of a skill share made me question if I really had any skills to offer a group who can use digital tools that I've never even heard of. I can use Wordpress pretty well, can teach it to people who have no idea what Wordpress is, have a passable understanding that the Internet is made of a series of tubes, and can even do some basic CSS changes to a style sheet, but so can everybody else in the group.",
+      "After calming down and reassuring myself that I'm not a dolt, what I came to identify as my shareable skill was that of translation. My foreign language skills are laughably poor for an ABD doctoral student (shout out Google Translate!), but…"
+    ],
+    "fullParagraphs": [
+      "Recently in our Digital Fellows weekly meetings we've been talking about doing skill shares with each other. A great idea, sure, but I was immediately gripped with anxiety at the idea. As the fellow with arguably the least amount of technical skills, sometimes I feel a touch of imposter syndrome. The idea of a skill share made me question if I really had any skills to offer a group who can use digital tools that I've never even heard of. I can use Wordpress pretty well, can teach it to people who have no idea what Wordpress is, have a passable understanding that the Internet is made of a series of tubes, and can even do some basic CSS changes to a style sheet, but so can everybody else in the group.",
+      "After calming down and reassuring myself that I'm not a dolt, what I came to identify as my shareable skill was that of translation. My foreign language skills are laughably poor for an ABD doctoral student (shout out Google Translate!), but the language I've been relatively immersed in (both in research and in practice) over the last couple of years is Techspeak. In my capacities as a Digital Fellow and as a Community Facilitator at the City Tech OpenLab, in my dissertation research into the political economy of the Internet, and in my collaborative work with the CUNY Digital Labor Working Group I find myself tasked with attempting to translate technical language into terms that people with little to no technical skill can at least begin to understand.",
+      "In my role specifically as a Digital Fellow assisting faculty with digital projects in the New Media Lab, that translation is of a very specific kind. When writing and researching, one's approach to this labor of translation has time to develop and deepen, maintaining (at least hopefully) the nuance and complexity of the meaning of that technical language. However, when actually interacting with a live human being who has their own language and understanding of what they want to say and whose original meaning you've been tasked with keeping intact, this translation must be done on the fly and without committing the cardinal sin of claiming that the words you are translating mean something that they don't. In the context of advising people which digital tool to use and how to use it, you cannot claim that the technology can accomplish all the things they want it to.",
+      "In research and writing about technology you are speaking for the technology. This is, of course, a one-way relationship unless someone else enters into the conversation to tell you that you've mistranslated a phrase. However, when consulting and producing with technology, you are attempting to make the technology speak, utilizing its language to make a statement that was more often than not formulated in a language more native. This is a two-way negotiation that requires understanding the parameters of the technical language you're working with. In my job, there is the added difficulty that I work with faculty members who teach at the Graduate Center, people so deeply embedded in the languages of their disciplines that the need to learn an entirely new language is often quite overwhelming. But because of this two way relationship, I try to think of this problem as more open, as a dialogue: you don't need to necessarily know what all the words mean, just what they don't. The task of technical translation means being able to negotiate these limits."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007732857682276648,
+      0.0912478787015056,
+      0.013014701614949584,
+      0.00026227207517200986,
+      0.0004652848115883101,
+      0.5497130484967656,
+      0.009072984515599694,
+      0.33545054401619145
+    ],
+    "words": [
+      [
+        "language",
+        10
+      ],
+      [
+        "digital",
+        7
+      ],
+      [
+        "skill",
+        7
+      ],
+      [
+        "technical",
+        6
+      ],
+      [
+        "translation",
+        5
+      ],
+      [
+        "technology",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19767",
+    "title": "All That is Digital Melts into Code",
+    "date": "2013-10-25",
+    "year": "2013–2014",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Coding",
+      "debates",
+      "pedagogy",
+      "philosophy",
+      "programming",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "One of the longstanding debates within the world of Digital Humanities is the question of \"coding.\" I'm going to take a different approach—rather than insert myself into that particular debate, I want to explore the much more basic question, \"What does it mean to 'code'?\" I figure that since so many people entering DH seem to be concerned with the general assertion that one ought to, in some way, learn how to 'code', that it is perhaps even more important that people fully grasp what is meant by the term so that they can figure out what exactly it is that they are trying to learn. My general argument is that this thing called \"code\" is far too obfuscated to be the lynchpin of any debates.",
+      "Borrowing from the recently passed Marshall Berman, I observe that \"all that is digital (humanities) melts into code.\" For those modernists whose will to transform the world and society through massive infrastructural undertakings (think Robert Moses…"
+    ],
+    "fullParagraphs": [
+      "One of the longstanding debates within the world of Digital Humanities is the question of \"coding.\" I'm going to take a different approach—rather than insert myself into that particular debate, I want to explore the much more basic question, \"What does it mean to 'code'?\" I figure that since so many people entering DH seem to be concerned with the general assertion that one ought to, in some way, learn how to 'code', that it is perhaps even more important that people fully grasp what is meant by the term so that they can figure out what exactly it is that they are trying to learn. My general argument is that this thing called \"code\" is far too obfuscated to be the lynchpin of any debates.",
+      "Borrowing from the recently passed Marshall Berman, I observe that \"all that is digital (humanities) melts into code.\" For those modernists whose will to transform the world and society through massive infrastructural undertakings (think Robert Moses and New York) a utopic vision of change is often confronted by \"a terror of disorientation and disintegration, of life falling apart,\" consumed by \"the thrill and the dread of a world in which 'all that is solid melts into air'\"[1]. Similarly, the world of DH is one in which lofty dreams and visions of the digital transforming the social are frequently confronted by the challenges of coding, the limitations of the real (i.e., the social), and the contradictions, perhaps fallacies, of modernity and modernization. This analogy lends caution to DH undertakings ignorant of the realities of implementation. But the second, more literal interpretation, is that all that is within the world of DH is somehow collapsed onto the aether or morass of \"coding\". Meaning that despite the realities of coding and implementation of DH projects, there is an assumed teleological link between project and coding. Without going into counterexamples of where this link breaks down, allow me to instead provide a brief clarification of the concept of 'coding' that I think underlies some of this confusion.",
+      "Abstracting \"Coding\" To Reach A Working Definition",
+      "At its most general level, to \"code\" is to put together abstract informational \"input\" in some form for the computer to decode, act on, and then produce output. To stretch this logic to an extreme level of abstraction, the series of mouse clicks and movements that allow you to open a web browser might be thought of as a very high-level form of coding. The \"coder\" produces inputs (mouse clicks and movements) that the computer decodes (what is the active window? what is the icon under the mouse pointer? how many times and how quickly was the mouse button pushed? etc.) resulting in new output (the web browser opens because the \"coder\" \"double clicked\" on the \"location\" associated with executing the web browser application). The language in this extreme instance is \"Windows 7 Explorer\" or \"Mac OS X Finder\". At the other end of the \"coding\" spectrum might be the task of designing the hardware and low-level software that interpret binary or assembly \"code\" into things like operations (addition, multiplication), conditional statements (if x is true then execute this chunk of code, otherwise go to the next chunk of code), loops (repeat this n times), and storage (save this chunk of information here and then retrieve that other chunk of information over there). Most of the stuff people think of when they hear the term \"code\" is somewhere in between these extremes.",
+      "The reason for casting such a wide net around the concept of \"coding\" is that getting a computer to do what you want is always, to some extent, about coding information into binary logic operations to generate new output from a given input. Obviously there are numerous layers of abstraction between high level coding such as mouse movements or HTML and computer processors. But by understanding all interactions with computers in terms of this process of coding, I want to emphasize that all of the work done with computers can be (overly) reduced to a process of \"coding\", and that there are different \"languages\" associated with every computer program.",
+      "Image via xkcd.org. Thanks, Randall",
+      "Coding Taxonomy",
+      "From this extremely broad understanding of coding, we can think of different categories of coding, from the highest level abstraction to the lowest hardware level bleep-blooping with digital circuits:",
+      "Coding as interacting with computer operating systems and graphical end-user applications. Input from the mouse/trackpad, keypresses, and operating system provided interfaces",
+      "Coding as using or interacting with programs that employ parametric commands. For example, using the terminal/command line/shell; advanced Google searching; command-based applications like Mathematica, Excel formulas, AutoCAD, etc. Input uses specific text- or symbol-based commands and requires some knowledge of the syntax and command structure.",
+      "Coding in a markup language. Examples include HTML, XML, markdown, LaTeX, Postscript, etc. \"Commands\" consist of tags that allow for things like complex formatting and layout of text and graphics.",
+      "Coding as writing interpreted scripts. Examples include shell scripts, Applescript, Automator, .bat executables, etc.; Python, Javascript, BASIC, etc.; Matlab/Octave, ArcGIS scripting, etc. \"Code\" snippets are scripts that consist of a series of commands, often including functions, conditionals, loops, and different data types. The scripts require a separate program (the interpreter) to execute them.",
+      "Coding as programming applications using interpreted or compiled languages. Examples include web applications in Ruby, PHP, perl/cgi, Java, ASP, etc.; interpreted and bytecode-compiled languages like Python, Java, .Net, etc.; and compiled languages like C, Haskell, Lisp, Fortran, etc. Coding requires knowledge of the language syntax and usually more in-depth understandings of things like complex data types and objects, functions, classes, compiling/Make systems, and debugging.",
+      "Coding as writing hardware interfaces in assembly or compiled languages. Hardware-specific coding for developing lower level tools and drivers to interface with input/output devices. Also used for developing firmware, BIOS software, etc.",
+      "Coding as hardware design. \"Coding\" consists of designing electrical components to implement assembly commands (input) and \"executing\" those commands in terms of digital signals, and producing new sets of commands or output to other hardware components.",
+      "This is one possible taxonomy of different types of coding based on my own experience and knowledge of how different types of inputs are encoded, or translated, for a computer to interpret, transform, act upon, and produce outputs. There are plenty of exceptions and absences within this basic taxonomy, but hopefully this schematic demonstrates the really broad range of things that might fall into various categories of coding. Critics will probably take issue with the first couple of items because there is little or no discernible \"code\" being generated. My contention is that at a heuristical level, there are too many continuities in working within these different categories to dismiss some of them, and also too many differences between those things traditionally considered coding (e.g., markup vs. compiled languages) to limit the categories.",
+      "A Semi-Concrete Example",
+      "To take an example from DH, let's say that I want to analyze and visually display information related to NYPD stop-question-and-frisk. Assuming I already have a handful of datasets, my next step might be to figure out what tools will help me to sort through the data, create maps, perform geospatial statistics, etc. If you are familiar with statistical analysis or ethnographic research, you might already be thinking that one of the first steps before doing any of this is \"coding\" the data so that you can meaningfully use the qualitative components of these data with quantitative methods. For those unfamiliar, this might include assigning numerical categories to racial classifications, assigning geographical shapes to precinct numbers, or developing weighted values for increasing degrees of force used during stop-question-and-frisk incidents. This form of coding is essentially the same as other forms of \"digital\" coding. There is the need to translate informational input into some other form of information that is meaningful to the tool used in the next step of analysis, such as statistical algorithm. Once the data is coded, it can be given as input to my statistical program to produce output based on statistical algorithms.",
+      "If the statistical algorithms in the example above produce meaningful output, then that output can be used as the input to the next step, say visualization, and the coding process begins again. If the results from the statistical analysis were not sufficient for some reason, the algorithms or data might need to be adjusted. In this case, the adjusting is another layer of coding, requiring a related but probably more advanced skill set. That is to say, using regression analysis doesn't require a deep understanding of the statistical theory behind it. But to tweak specific variables or to modify the regression algorithm requires a slightly deeper or much deeper understanding of statistical theory, respectively. Similarly, using a statistics program to run the regressions for you only requires knowledge of how to enter data and run commands. But tweaking the data to work better within the program, or getting it to use an alternate algorithm instead of the built in regression options both require a deeper understanding of how the program works and subsequently, how to get it to do something not already available. This deeper understanding doesn't require learning an entirely new skill set, it just requires the application of existing skills (using the program's basic commands and functionality) in more complex ways. In coding terms, this is like moving from an elementary school level of basic language comprehension to being able to converse or write in the new language. Just being able to use the program is like knowing enough key phrases in another language to get around and survive in a foreign country. Learning to converse or compose in that language means you have new possibilities for engaging with people and ideas.",
+      "Taking this analogy with language further, the ways in which we interact with different computer programs or programming languages is a lot like our interactions with languages with similar etymological backgrounds. If one speaks English, they are likely to be able to figure out words or learn more quickly other Latin or Germanic based languages. In coding terms, if one can interact with a program based on Apple's user interface components, they can probably figure out other programs designed with those same interface components. If one knows basic HTML, then understanding any XML or markup-based code is like learning a new dialect or expanding one's vocabulary.",
+      "Returning to the previous example, the next step after statistical analysis might be to produce geospatial visualizations of the data and to use geospatial analysis to better understand the spatial relationships between data variables such as incident counts, racial characteristics, and clustering based on neighborhood income levels. Knowing how to plot data on a map is the most basic level of coding for this phase. It doesn't require deep knowledge of GISc, let alone any spatial statistics or geographical theory. It also doesn't require any \"coding\" knowledge other than how to use a simple mapping tool to convert database records into dots on a map. But if simply mapping points on a map isn't sufficient to the objectives of the research project, then additional knowledge of goegraphical theory and how to use more complex GISc tools and methods opens up a range of different possibilities for analysis and presentation, as well as new sets of questions that can be asked and potentially answered. So it's not just the complexity of the programs or how one interacts/codes within them, but entirely new ways of working with, manipulating, and understanding data that are revealed by diving deeper into the intricacies of using and coding with a set of tools. And if the theory precedes the capabilities of the tools, then developing new tools to accomplish the desired tasks might be that big scary next step that the researcher or developers need to take on next.",
+      "Conclusion",
+      "This lengthy abstraction of the concept of \"coding\" serves multiple functions. First and foremost is to clear up some of the confusion surrounding the mystique of code. Second, I want to provide a framework for thinking about the diverse set of things that might fall under the umbrella of coding. Third, I want to emphasize that most of us are already engaging in various forms of coding without even realizing it, and thus, learning new languages and forms of coding might be approached the same way that we think about learning a new software package, a new version of Word, or even a new genre of reading.",
+      "Moving from one category of \"coding\" to another based on the taxonomy outlined above is almost always an involved learning process. And at some point, gaining an understanding of programming and computer science theory is necessary. But that doesn't mean that the first thing one has to do to learn how to \"code\" is to dive head-first into theory or learning the syntax of a specific language. Rather, thinking about coding as a continuum of skills, techniques, theories, and practices means that challenging oneself to learn a new set of tools specific to the types of research questions, interests, or novelties at hand is always about building a familiarity with new aspects of coding, interacting with data, and experiencing different theoretical approaches to computing. But the most important parts of learning how to code, like any other skill, are patience, practice, and lots of trial and error. So next time the question comes up, \"How do I learn to code?\" or \"Do I need to code to be a Digital Humanist?\" it might be helpful to approach the question not from a position within existing DH debates, but rather from the perspective of what skills does the person possess and what categories of coding do they fall into, and what might be a logical next step for building out that repertoire?",
+      "[1] Berman, Marshall. 1988 (1982). All That Is Solid Melts into Air. New York: Penguin Books. pp 15."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.03516848345613111,
+      0.042853231395093214,
+      0.4159665233352149,
+      5.4454343529590886e-05,
+      0.05132772156595186,
+      0.4044440503723055,
+      0.023230080597849832,
+      0.02695545493392404
+    ],
+    "words": [
+      [
+        "cod",
+        42
+      ],
+      [
+        "language",
+        19
+      ],
+      [
+        "code",
+        18
+      ],
+      [
+        "new",
+        18
+      ],
+      [
+        "program",
+        14
+      ],
+      [
+        "data",
+        14
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20141011154339/http://digitalfellows.commons.gc.cuny.edu:80/2013/10/25/all-that-is-digital-melts-into-code/"
+  }
+]

@@ -1,0 +1,2016 @@
+[
+  {
+    "id": "19838",
+    "title": "Building a New Polytonic Greek Keyboard for iOS and Android",
+    "date": "2017-05-12",
+    "year": "2016–2017",
+    "authors": [
+      "Jeremy March"
+    ],
+    "originalAuthors": [
+      "Jeremy March"
+    ],
+    "aliases": [
+      "Jeremy March"
+    ],
+    "account": "Jeremy March",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/05/12/building-a-new-polytonic-greek-keyboard-for-ios-and-android/",
+    "signals": [],
+    "paragraphs": [
+      "Building a New Polytonic Greek Keyboard for iOS and Android",
+      "Last year, I released an Ancient Greek verb conjugation game for iOS and Android called the Hoplite Challenge. It is based on a game played in the Latin/Greek Institute’s Basic Greek summer intensive course. One of the most popular features of the app is the soft keyboard which allows the input and accentuation of Polytonic Greek characters. Now this keyboard can be installed separately as a keyboard extension on iOS and Android devices for use in other apps.",
+      "Typing Ancient Greek has always been difficult. Some Ancient Greek characters can have up to four diacritical marks which must be added to the base vowel. Making a new keyboard for mobile devices offered a chance to rethink how inputting Ancient Greek characters could be done. Since the keyboard was originally designed to be used in a game, care was given to make it fun and easy to use. In the end, six goals were identified…"
+    ],
+    "fullParagraphs": [
+      "Building a New Polytonic Greek Keyboard for iOS and Android",
+      "Last year, I released an Ancient Greek verb conjugation game for iOS and Android called the Hoplite Challenge. It is based on a game played in the Latin/Greek Institute’s Basic Greek summer intensive course. One of the most popular features of the app is the soft keyboard which allows the input and accentuation of Polytonic Greek characters. Now this keyboard can be installed separately as a keyboard extension on iOS and Android devices for use in other apps.",
+      "Typing Ancient Greek has always been difficult. Some Ancient Greek characters can have up to four diacritical marks which must be added to the base vowel. Making a new keyboard for mobile devices offered a chance to rethink how inputting Ancient Greek characters could be done. Since the keyboard was originally designed to be used in a game, care was given to make it fun and easy to use. In the end, six goals were identified and met in the Hoplite keyboard.",
+      "Type the character first, diacritics second",
+      "Diacritics can be entered in any order",
+      "Diacritics can be individually toggled on or off without having to delete the character and start again",
+      "One key per diacritic",
+      "Only legal diacritics can be added to a character",
+      "Pressing backspace deletes the character including all of its diacritics",
+      "First, the base letter should be typed first. Some Ancient Greek keyboards ask the user to press a dead key first to indicate the diacritic(s) then type the base letter. This makes it easier for the computer because everything is determined about the character before it is displayed on the screen. But the user must remember the dead key combination and, if a mistake is made, the entire character must be deleted before starting again. This leads to a frustrating process of elimination unless you have thoroughly memorized the dead keys. A more user-friendly approach is to allow the user to type the base character and then add diacritics. Second and third, the user should be allowed to add accents in any order and should be able to toggle them on or off individually in case a mistake is made. Fourth, since there is one key per diacritic, only eight dead keys must be memorized. This is easier in the case of soft keyboards because dedicated keys can be assigned and labeled for this function: no memorization is required. Fifth, the keyboard should be smart enough to prevent illegal diacritic/letter combinations. Sixth, the backspace key should work on the letter including its diacritics. If the user intends to only remove one of the diacritics it can be toggled off per goal three.",
+      "The Hoplite Keyboard has met each of these goals. What results is a keyboard which is more efficient and a joy to use. Implementing this new design was easier for mobile soft keyboards because the operating systems are more permissive regarding input methods and drawing keys on a touchscreen is more flexible than having to negotiate with physical keys.",
+      "Some difficulties remain because most system fonts on iOS and Android do not fully support polytonic Greek. Read more about polytonic Greek fonts in an upcoming post."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0007829452706772848,
+      0.0007833375659476265,
+      0.7460121900065328,
+      0.033576226211147656,
+      0.004634931664188011,
+      0.18599849902974694,
+      0.005022484994706714,
+      0.023189385257052924
+    ],
+    "words": [
+      [
+        "keyboard",
+        13
+      ],
+      [
+        "diacritic",
+        12
+      ],
+      [
+        "greek",
+        11
+      ],
+      [
+        "character",
+        10
+      ],
+      [
+        "key",
+        10
+      ],
+      [
+        "user",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "4414",
+    "title": "Multifaceted Access: Modeling Possibility in Maker Spaces with Arduino",
+    "date": "2017-04-19",
+    "year": "2016–2017",
+    "authors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "originalAuthors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "aliases": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "account": "Mary Catherine Kinniburgh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/04/19/multifaceted-access-modeling-possibility-in-maker-spaces-with-arduino/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Our last maker-themed blog post explored how maker spaces and maker culture are increasingly common features of digital centers, libraries, and academic settings. Common, perhaps, but still, perhaps mystifying to those of us who are more comfortable writing essays than wiring circuits?",
+      "As a GC Digital Fellow who has been able to help build out the GC Maker Space, I see the development of maker spaces as a crucial vote for creative, experienced-based, and also critical work in graduate research. I think of extant communities and projects that already do this so well at The Graduate Center, CUNY, like 3Text--a student-run group that meets to create textual and bookish crafts in the spirit of the late Eve Kosofsky Sedgwick, who was an invaluable leader in queer theory, pedagogy, and beyond. Harmonizing conceptually with these crafting and creative spaces, maker spaces readily integrate digital and analog modes of knowledge--such as sewing…"
+    ],
+    "fullParagraphs": [
+      "Our last maker-themed blog post explored how maker spaces and maker culture are increasingly common features of digital centers, libraries, and academic settings. Common, perhaps, but still, perhaps mystifying to those of us who are more comfortable writing essays than wiring circuits?",
+      "As a GC Digital Fellow who has been able to help build out the GC Maker Space, I see the development of maker spaces as a crucial vote for creative, experienced-based, and also critical work in graduate research. I think of extant communities and projects that already do this so well at The Graduate Center, CUNY, like 3Text--a student-run group that meets to create textual and bookish crafts in the spirit of the late Eve Kosofsky Sedgwick, who was an invaluable leader in queer theory, pedagogy, and beyond. Harmonizing conceptually with these crafting and creative spaces, maker spaces readily integrate digital and analog modes of knowledge--such as sewing cloth for wearables, or using clay to sculpt a 3D model for scanning. In this sense, maker spaces are poised to function as highly interdisciplinary communities that hold space for a wide array of critical outcomes, particularly those gained through creative and communal work.",
+      "However, the increased presence of maker spaces and their potentiality does not necessarily make them accessible. As we’ve begun to form the GC Maker Space, we’ve thought primarily of the word access and how a rich understanding of its varied meanings can act as a guide for our work and community. To continue to think through this principle, last semester we invited Dr. Joshua Miele, Associate Director of Technology Research and Development at the Rehabilitation Engineering Research Center on Low Vision and Blindness, to speak on Digital Accessibility and the Making of a Meta Maker Movement. In this talk, Dr. Miele developed a concept of “meta-making,” which builds on the maker sensibility of “hacking” or altering existing technologies to better suit the needs of their users. For Miele (and my summary won’t do his ideas justice), “meta-making” takes advantage of this built-in maker ethos to consider how we might further “hack” not only the technologies themselves, but our conceptions of their uses and their users. Miele emphasized the importance of access at “first principles,” in which accessibility is fundamentally considered in the development of the physical space, resources, and community itself. By exploring his own work in the Blind Arduino Project and sharing his experiences in accessible design and fabrication, Dr. Miele reminded us (with wit, humor, and warmth) how essential accessibility as a multifaceted term should be as we grow and “meta-make.”",
+      "In a complementary sense, we might also consider access in maker spaces as a question of scaffolding not only the experience of learning new technologies, but also their critical payoff. To speak to our precise community at the GC Maker Space: as a student at The Graduate Center, CUNY, I often reflect on the unusual institutional structure of 365 Fifth Avenue. This building houses a vast number of academic programs and disciplines, as well as faculty and staff, which are all geared towards facilitating graduate research. From the cafeteria crew that makes sure there’s a simple way to get a snack, to the Interlibrary Loan team who finds our research materials, to the staff who makes sure we’re in the administrative system, develops programming and events to enrich our thinking, and connects and maintains the audio/visual technology for us to teach and be taught--all professional positions are, in a way designed, to facilitate the development and production of this work. To be sure, the jobs and work we perform at The Graduate Center do not necessarily define us, and this energy can be a great source of community. However, this intense directionality can also cause us to miss hidden possibilities.",
+      "When the ultimate goal is research, across the vast array of academic programs, it can be difficult to make room for other things, even basic ones. Specific to the topic at hand, although it might not be the gravest priority in creating a balanced academic life--it really can be a steep learning curve to know how maker technologies, which value experimentation, play, and interdisciplinary learning, can fit into our busy schedule of teaching, writing, working, thinking, being. In order to provide a truly accessible maker space to The Graduate Center community, in addition to Dr. Miele’s access at first principles and “meta-making” structures, I feel that the space must clearly scaffold what it can offer students, faculty, and staff, and provide a welcoming space for them to engage a type of inquiry that is likely outside their field research, area of expertise, or knowledge base.",
+      "I hope you’ll think of ways to do this with me and the GC Digital Fellows by attending the Monday Maker Hours, getting in touch, and coming to workshops! But in the meantime, I wanted to share one of the technologies that I think crystallizes these principles of accessibility that we’re trying to fully understand and engage with at the GC Maker Space.",
+      "The Arduino is an open-source programmable circuit board (or microcontroller) as well as open-source software that allows you to write code and upload it to the board. Because Arduino is both open-source (which means anyone can build an Arduino board and even sell it according to their Creative Commons license, or alter the code for the software), it has a robust community of users that are invested in making Arduino the best it can be through software updates and robust documentation. Arduino is relatively inexpensive, has widely-available tutorials, and requires very little equipment to get started, which makes it an ideal entry point for those of us beginning to experiment with maker projects. Also, Arduino can be \"meta-made\" for accessible design and education, which Joshua Miele has explored in the Blind Arduino Project (mentioned above).",
+      "I feel that Arduino can, in many ways, allow us to develop the multifaceted type of accessibility that we should create around maker spaces, so I’ve created a tutorial based on Arduino workshops I’ve taught at The Graduate Center, CUNY, that is designed for solo or small group work during our Monday Maker Hours. If you’d like to check out the GC Maker Space, but you’re not quite sure what to do or where to get started, this tutorial will take about half an hour to complete the first activity, or about an hour and a half to complete the tutorial in its entirety.",
+      "Our Arduino equipment is perhaps my favorite thing in the GC Maker Space. I think it’s a great system for practicing coding more generally: by requiring a back-and-forth with the circuit board and software, Arduino vivifies that code always does something. And, like N. Katherine Hayles importantly critiques, Arduino’s hands-on circuiting shows us that information always has an embodied, material component. In my academic work on book history, materiality, and new media, I’ve found that Arduino-based projects give me space to think through concepts of information, digitality, and materiality, and test them in an experiential way. Of course, everyone will use Arduino differently--but that, perhaps, is the best goal of all.",
+      "I hope you’ll join me at Monday Maker Hours in the upcoming weeks, and be sure to be in touch with the GC Maker Space as we continue to develop and grow!",
+      "Link to Arduino Tutorial: https://github.com/mckinniburgh/ArduinoTutorial"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.015946929954383286,
+      0.04198138242225354,
+      0.002021470335482118,
+      0.19623566571967554,
+      0.0001963682367402518,
+      0.29448252076921416,
+      0.00035791283854601046,
+      0.44877774972370504
+    ],
+    "words": [
+      [
+        "maker",
+        25
+      ],
+      [
+        "space",
+        21
+      ],
+      [
+        "arduino",
+        16
+      ],
+      [
+        "work",
+        9
+      ],
+      [
+        "think",
+        8
+      ],
+      [
+        "community",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "4388",
+    "title": "Organize your WordPress blog posts with the List Category Posts plugin!",
+    "date": "2017-04-17",
+    "year": "2016–2017",
+    "authors": [
+      "Ian Phillips"
+    ],
+    "originalAuthors": [
+      "Ian Phillips"
+    ],
+    "aliases": [
+      "Ian Phillips"
+    ],
+    "account": "Ian Phillips",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "CSS",
+      "Featured",
+      "HTML",
+      "plugins",
+      "Resources",
+      "Tutorial",
+      "wordpress"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/04/17/organize-your-wordpress-blog-posts-with-the-list-category-posts-plugin/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "Hey everyone! We're finishing up spring break here at CUNY Graduate Center and in the spirit of spring cleaning (and organizing!) I wrote up this little how-to blog post to showcase a useful plugin for organizing content on your WordPress site: List Category Posts.",
+      "I've been updating a couple websites on the CUNY Academic Commons recently and I stumbled across this plugin as I was looking for a way to improve how information is organized and structured on these sites. List Category Posts is a free WordPress plugin that lets you easily embed a post feed on any page on your WordPress site. (For all you Commons users, this plugin is already installed on the Commons and ready for you to use!)",
+      "Wow, that's great! you say. But, why would I want to have more than one post feed? My response to this excellent question is that if you use posts as the principal means for sharing content on your site (as opposed to static pages), this is a good way…"
+    ],
+    "fullParagraphs": [
+      "Hey everyone! We're finishing up spring break here at CUNY Graduate Center and in the spirit of spring cleaning (and organizing!) I wrote up this little how-to blog post to showcase a useful plugin for organizing content on your WordPress site: List Category Posts.",
+      "I've been updating a couple websites on the CUNY Academic Commons recently and I stumbled across this plugin as I was looking for a way to improve how information is organized and structured on these sites. List Category Posts is a free WordPress plugin that lets you easily embed a post feed on any page on your WordPress site. (For all you Commons users, this plugin is already installed on the Commons and ready for you to use!)",
+      "Wow, that's great! you say. But, why would I want to have more than one post feed? My response to this excellent question is that if you use posts as the principal means for sharing content on your site (as opposed to static pages), this is a good way to organize your posts by theme and to increase visibility for older posts. I'll show what I mean by way of example:",
+      "One of the sites I am working on is for Graduate Center Digital Initiatives. This site is the central online space for all things GCDI, which means that this site brings together content from many different authors and groups that cover a great variety of topics. As you can imagine, this amount of content needs some organization and structure to ensure that visitors can find what they're looking for. We share a lot of information on this site via posts, which are displayed by date on the site's single designated posts page—GCDI News.",
+      "Each time a new post gets published, it appears at the top of the front page of GCDI News and pushes older post down one spot and eventually off of the front page. This is not ideal as visitors to the GCDI site will have to do some digging to find older posts that no longer appear on the front page of GCDI News and if a visitor is just browsing the site without any particular search terms in mind, they may miss some content that they would be interested in. Here's where the List Category Posts plugin can be used to group posts together by category, tag, or even author, and then display only these posts on whatever page you choose!",
+      "Let's say I want to create a page on the GCDI site that shows only content related to specific academic programs at The Graduate Center. I can easily bring together all of this content in three steps:",
+      "Activate the List Category Posts plugin for my website. (If you're not working with a Commons WP site, you will first need to download and install the List Category Posts plugin for your site.)",
+      "Find each post and page that contains content that I want to include in my new academic programs page and make sure the category Degree Programs is checked. (For your site, you can create whatever category label you'd like!)",
+      "Create a new page on my site titled Academic Programs, and add the List Category Posts shortcode, specifying the category label as Degree Programs:",
+      "Here's what this published page looks like:",
+      "The List Category Posts shortcode generates a list of posts and pages that are labeled with the category Degree Programs and displays the titles of these posts/pages. Specifically, this is an unordered HTML list of posts/pages with the Degree Programs category label.",
+      "Wow, that's magical! you say. But this isn't visually appealing. My response to this appropriate observation is that you're in luck...this plugin is highly customizable and let's you decide what content from each post/page gets displayed and how it appears. The documentation for this plugin is excellent (you can find even more documentation here) and I suggest spending 10 minutes reading through it to get a better idea of all the different ways you can customize your post feeds. Here's just an example to give an idea of what you can easily accomplish by specifying a few parameters in the shortcode.",
+      "Limit the number of posts shown on each page to 5 by including these two parameters in the shortcode:",
+      "pagination=yes numberposts=5",
+      "Change the format of each post title to the h3 HTML tag:",
+      "title_tag=h3",
+      "Show the date of each post and format the date to the paragraph HTML tag:",
+      "date=yes date_tag=p",
+      "Show an excerpt for the post and preserve the HTML formatting from the original post:",
+      "excerpt=yes excerpt_strip=no",
+      "Here's what the list looks like after specifying these parameters:",
+      "And here is the shortcode that generates this page:",
+      "Wow, that's looking good! you say. But I would really like to show my featured image for each post. My response to this understandable feeling is that you CAN have it all! That's right, you can even include the featured image from each post by setting this parameter in the shortcode:",
+      "thumbnail=yes",
+      "And if you don't have a featured image but you do have one embedded in the post itself, you can make this image appear by setting the following parameter in the shortcode:",
+      "force_thumbnail=yes",
+      "Now our list is looking much better:",
+      "But, there are still a lot of options for us to continue formatting our post feed to get it looking exactly the way we want. One of my favorite features of List Category Posts is that you can set the CSS class for different elements in the post list. For example, if we want to make the thumbnail image uniform in size for each post and wrap the excerpt text around the image, we can do this in two steps:",
+      "Set a CSS class for the thumbnail image in the shortcode. (I used \"acprog\" for the class, but you can use whatever you'd like!):",
+      "thumbnail_class=\"acprog\"",
+      "Define the attributes of your CSS class in the Custom User CSS interface of your website (located in your WordPress Dashboard under Appearance).:",
+      ".acprog { float: left; width: 200px; margin-right: 15px; margin-bottom: 15px; }",
+      "Here's what our list looks like now with the thumbnail images styled using the acprog CSS class:",
+      "And here is the full shortcode that generates this page (coupled with the bit of custom CSS above):",
+      "You can see that the List Category Posts plugin gives you a lot of control to customize how your post feeds appear and the great part is that you can set these parameters separately for each different feed that you create. This plugin can help with organizing website content by allowing you to create static pages for different topics or authors and then embedding a post feed on each page that contains only those content items that are relevant. This way, you can keep older posts in more accessible areas for your visitors without having to duplicate content. You decide how content gets organized across your pages by specifying the categories, tags, or authors for the content that you want to appear in each list. As the documentation shows, you can even choose multiple categories, tags, and authors for each list! Each new blog post that you publish will still appear at the top of your site's designated post page, and by also selecting specific category labels for each post and using the List Category Posts shortcode you can simultaneously send each new post to other specific areas of your site.",
+      "I've found this plugin to be very helpful in organizing website content. Feel free to add your comments if you find any unique uses for it or have any styling tips you'd like to share!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.005365587276289243,
+      0.0003166282771052739,
+      0.0002771912983448134,
+      0.0001073356977618874,
+      0.030485124718166237,
+      0.1845789082262392,
+      0.7627638225237902,
+      0.016105401982303078
+    ],
+    "words": [
+      [
+        "page",
+        23
+      ],
+      [
+        "category",
+        19
+      ],
+      [
+        "site",
+        18
+      ],
+      [
+        "list",
+        18
+      ],
+      [
+        "content",
+        15
+      ],
+      [
+        "yes",
+        13
+      ]
+    ]
+  },
+  {
+    "id": "4364",
+    "title": "Exploring the local impact of the NEH - NEH Impact Index",
+    "date": "2017-04-10",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Smyth, PhD"
+    ],
+    "originalAuthors": [
+      "Patrick Smyth, PhD"
+    ],
+    "aliases": [
+      "Patrick Smyth, PhD"
+    ],
+    "account": "Patrick Smyth, PhD",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "activist",
+      "apps",
+      "Featured",
+      "flask",
+      "NEH",
+      "Reflections",
+      "Resources",
+      "web development"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/04/10/exploring-the-local-impact-of-the-neh-neh-impact-index/",
+    "signals": [
+      "Web & scholarly identity"
+    ],
+    "paragraphs": [
+      "Graduate Center Digital Initiatives is proud to share the NEH Impact Index.",
+      "Recent budget proposals by the Trump administration have allocated zero funding to a number of independent federal agencies concerned with education, democracy, cultural preservation, and public-facing scholarship. Among them are the National Endowment for the Humanities (NEH), the National Endowment for the Arts (NEA), and the Corporation for Public Broadcasting (CPB), which supports NPR and PBS.",
+      "As a child, I grew up watching shows such as Sesame Street and Shining Time Station on PBS, and as an adult I regularly listen to public radio podcasts such as NPR's Pop Culture Happy Hour and WBEZ Chicago's This American Life. In my career as a graduate student at the GC, I've also had the privilege of working on an NEH-funded project, DH Box, and have consulted on two others, Social Paper and Beyond Citation. These programs and projects were, and are, non-partisan,…"
+    ],
+    "fullParagraphs": [
+      "Graduate Center Digital Initiatives is proud to share the NEH Impact Index.",
+      "Recent budget proposals by the Trump administration have allocated zero funding to a number of independent federal agencies concerned with education, democracy, cultural preservation, and public-facing scholarship. Among them are the National Endowment for the Humanities (NEH), the National Endowment for the Arts (NEA), and the Corporation for Public Broadcasting (CPB), which supports NPR and PBS.",
+      "As a child, I grew up watching shows such as Sesame Street and Shining Time Station on PBS, and as an adult I regularly listen to public radio podcasts such as NPR's Pop Culture Happy Hour and WBEZ Chicago's This American Life. In my career as a graduate student at the GC, I've also had the privilege of working on an NEH-funded project, DH Box, and have consulted on two others, Social Paper and Beyond Citation. These programs and projects were, and are, non-partisan, and collectively their goal has been to make culture and scholarship—and necessarily American culture and American scholarship—more rich, more open, and more accessible to the public.",
+      "I'm convinced that, if Americans were to know more about the humanities programs and projects that are supported by the NEH, they would be more likely to stand up for an institution dedicated to preserving and advancing our culture. In an effort to show the impact the NEH has on local community, I've created a web app, the NEH Impact Index, that shows NEH-funded projects by geographic region and categories such as education, cultural preservation, and public programs. To try it out, enter a zip code and optionally choose a radius in which to search with the Distance button. You'll see a list of projects and programs. The colors denote the type of program and thus the type of impact—use the View Summary button on the results page to see a breakdown of the projects and what the colors mean.",
+      "The web app was built using open data provided by the NEH combined with data adapted from the National Bureau of Economic Research. You can read more about how the project was built on the FAQ, and you can also read the code on GitHub. In addition, I'll be posting tutorials on how to get started creating your own web app in Python using open data—check back here for the first in that series.",
+      "The NEH Impact Index was created as part of a wider effort by Graduate Center Digital Initiatives to show why the NEH is worth standing up for. This effort has included visualizations by Hannah Aizenman and Tahir Butt and writing by Jojo Karlin. We encourage anyone wishing to address similar questions through open data to reach out to us on Twitter at @cunygcdi or @DigitalFellows or by email at gc.digitalfellows@gmail.com. You can also send me a message on Twitter.",
+      "Thanks to Matt Gold, Lisa Rhody, and the Provost's Office at the GC for supporting these efforts by the Digital Fellows. Thanks also to Stephen Zweibel (DH Box), Erin Glass (Social Paper), and Eileen Clancy (Beyond Citation) for being awesome mentors, friends, and NEH project leaders."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.020412215696435587,
+      0.02434706581795541,
+      0.00851695534559822,
+      0.23238520779150243,
+      0.07520025688664121,
+      0.022308499296143976,
+      0.16999396916712164,
+      0.4468358299986015
+    ],
+    "words": [
+      [
+        "neh",
+        11
+      ],
+      [
+        "project",
+        8
+      ],
+      [
+        "impact",
+        5
+      ],
+      [
+        "public",
+        5
+      ],
+      [
+        "program",
+        5
+      ],
+      [
+        "show",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "4259",
+    "title": "Visualizing NEH Open Data",
+    "date": "2017-04-04",
+    "year": "2016–2017",
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "originalAuthors": [
+      "Jojo Karlin"
+    ],
+    "aliases": [
+      "Jojo Karlin"
+    ],
+    "account": "Jojo Karlin",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed cross-reference credit",
+    "creditQuote": "The NEH Impact Index was created as part of a wider effort by Graduate Center Digital Initiatives to show why the NEH is worth standing up for. This effort has included visualizations by Hannah Aizenman and Tahir Butt and writing by Jojo Karlin . We encourage anyone wishing to address similar questions through open data to reach out to us on Twitter at @cunygcdi or @DigitalFellows or by email at gc.digitalfellows@gmail.com. You can also send me a message on Twitter.",
+    "tags": [
+      "#DigitalGC",
+      "collaboration",
+      "community",
+      "Digital Scholarship",
+      "Featured",
+      "funding",
+      "grants",
+      "maps",
+      "NEA",
+      "NEH",
+      "projects",
+      "Resources",
+      "State by State",
+      "Twitter"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/04/04/visualizing-neh-open-data/",
+    "signals": [
+      "Maps & visualization",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "NEH Open Data",
+      "Shortly after the Trump administration announced its budget, the GC Digital Fellows dove into the Open Data from the National Endowment for the Humanities (NEH) to see what we could learn about what has been funded and what sort of projects would no longer receive funding. With a hope to share the rapid forays into the data, Jojo wrote up the team's initial efforts to let people know what were thinking about and how, and to ask people to think with us. We have received enthusiastic response and feedback, which we have been hard at work incorporating into our next steps. This blog post outlines the continuing efforts of the GC Digital Fellows to visualize and disseminate information about NEH funding. As we learn more about the data through our investigations, we continue to refine our work. We hope readers can take away from these intermediary, process posts a sense of how we’re working and our strong encouragement to…"
+    ],
+    "fullParagraphs": [
+      "NEH Open Data",
+      "Shortly after the Trump administration announced its budget, the GC Digital Fellows dove into the Open Data from the National Endowment for the Humanities (NEH) to see what we could learn about what has been funded and what sort of projects would no longer receive funding. With a hope to share the rapid forays into the data, Jojo wrote up the team's initial efforts to let people know what were thinking about and how, and to ask people to think with us. We have received enthusiastic response and feedback, which we have been hard at work incorporating into our next steps. This blog post outlines the continuing efforts of the GC Digital Fellows to visualize and disseminate information about NEH funding. As we learn more about the data through our investigations, we continue to refine our work. We hope readers can take away from these intermediary, process posts a sense of how we’re working and our strong encouragement to undertake their own investigations.",
+      "The Data",
+      "This dataset is a rich exploratory tool because it lends itself to many different forms of analysis. It’s a time series so we can do trend analysis in how awards change over time and it’s geospatial so we can look at differences in funding in different places. The data comes in all types, from quantitative award amounts to categorical program and institution types to free form textual data in the form of project titles and descriptions. And there’s a lot of it spread over six decades, 50 states, a number of foreign countries, and many scholars and institutions-- so we are navigating the balancing act between showing the forest and the trees.",
+      "There is still a lot for us to learn about the NEH’s open datasets, but here is what we know so far:",
+      "In December 2016, the Obama Administration published a fact sheet outlining the effects of the 2010 commitment, The Open Government Partnership, including \"President Obama’s call to develop specific commitments to promote transparency, fight corruption, energize civil society, and leverage new technologies.\" Of particular note are items 21 through 30 regarding the policy move toward Open Data. In addition to allowing people right to access and donate their own health data for research, to opening policing data and giving energy users access to their own data, connecting local and national data, and many others, the OGP proposed making 200,000 datasets available to students, entrepreneurs, and the public on Data.gov. These efforts have included outreach to get people interested in working with the information. Read more and more. The NEH released its first Open Dataset on September 27, 2015. In their press release, the leaders of the NEH explain that the dataset is comprised of around 12,000 grants awarded from 1966 - 1979 and represents their efforts to digitize their records. Links to other projects demonstrate ways people have applied this data.",
+      "The NEH makes data available to the public in two ways:",
+      "Datasets may be downloaded in json (JavaScript Object Notation) files. This data interchange format is easy for machines to parse and legible to programmers familiar with C-family of languages (C, C++, C#, Java, JavaScript, Perl, Python).",
+      "Funded Projects Query Form (https://securegrants.neh.gov/publicquery/main.aspx) offers an interface for calling specific information from the dataset. Searches from this form can be exported to an Excel spreadsheet. You don’t need to fill all the fields to run the search. For instance, you might look for grants awarded in 2016 by only filling in beginning and end dates, or for grants awarded in a specific field.The query form has a FAQ to help you determine how to retrieve data relevant to your question.",
+      "The entire 1966 - 2017 NEH dataset is vast, to say the least. How do we break down the data? What unit of time do we divide by? How do we examine change in a way that responds to the data we have been given and our knowledge of the structures the grants operate within? The NEH Grants Dictionary included with the data expands field headings, but even with the contextual information provided in NEH_Grants Reference, these many grant categories can seem somewhat opaque. As students in different fields (Urban Education, Computer Science, Psychology, English, etc), we come to the data with different perspectives and different personal experience of the grants. With guidance from Lisa Rhody, we waded into the tricky distinctions and overlapping categories. Each year grants are funded in cycles. To visualize the distribution of funds, which may change over the life of even a single grant, we are experimenting with different timeframes.",
+      "The more familiar we become with the dataset, the more we find to learn. At first, we were advised to examine the outright awards as a way to isolate money that went directly to institutions and did not require matching funds from private corporations. As we get to know more about how the different awards work (a complex system of distribution with necessarily strict parameters for fund usage), we must consider other distinctions, for instance whether to omit the funding for the state humanities councils or include them in the sum. Some grants that look like duplicates may include supplemental funding, which we did not account for when we started.",
+      "We were initially working with outright awards, by which we mean funds directly granted to organizations. From the data the NEH makes publicly available, we isolated the Outright Awards from those that required matching funds from other sources (like awards that come with the requirement that the institution acquire equal funds from private corporations or other non-profits). We are still working to determine which parsing of the funds will give us the clearest sense of where the money has direct impact. The fellows working on this data began with values that seemed like the nearest proxy for amounts given. Open Data is extremely valuable, but it requires close examination of the fields. Collection of the data reflects structures that are not always transparent. As graduate students, not grant organizers or legislators, we are working through this information and learning as we go. Our explorations aim to make transparent the recipient side of the data. Once we had the amounts, we broke them down by state.",
+      "What do our initial visualizations reflect?",
+      "The NEH grant amounts recorded in the spreadsheet varies very widely, from the really small to the quite large. The University of California, Riverside received $4,180,768 for “California Newspaper Project: Cataloging,” which is one among many preservation and access projects pre-1996 that received awards in the millions in 1991. In that same year, Harvard Semitic Museum received $0 in outright and matching awards for “Publication of the Wadi Daliyeh Seal Impressions,” which is a Travel to Collections, 11/85 - 2/95 grant. What complicates these allocations further when using the award outright amount is that some projects were awarded negative amounts but received funds as matching awards. In 1984, Princeton University Press was awarded -1041.77 for “Purchase of Penta Tele/Media Interface for Translating Word-processing Codes” (Scholarly Publications), but earned $11,748 in matching funds.",
+      "The collection of all outright award measurements, which are the dollar amounts given to the university, is called the numerical scale of the measurement, and in this dataset the scale for award outright goes from about -1000 to almost $10,000,000, with every number in between. This range is really really difficult to visualize using colors (like the maps we’re making) because it’s hard to figure out what rules we should use to translate the numbers to colors. The first step is choosing which set of colors (called colormaps) we want to use. Tools as varied as Excel and Tableau Public, Python and R, arcGIS and CartoDB, typically provide colormaps with only a few really distinct shades -- usually 7 or 10, recently up to 20.",
+      "If funding were distributed perfectly equitably across all states, each state would get about 2% of overall NEH funding. In the 1960s, states received between 20% and .5% of overall funding. States that received anything less than %2 (even a fairly equitable 1.5% percent) appear to receive no funding because the colormap we used does not distinguish well between 0 and 2.5.",
+      "Colormpas also don’t clearly distinguish between -1000 and 10,000,000. Since we wanted to highlight the differences in the funding, we shortened the gaps between -1000 and 10,000,000 using a logarithmic scale. This scale essentially groups the data by powers of 10 so that amounts $1000-$10,000 are represented by yellow, $10,000-$100,000 by yellow green...",
+      "The spread in the data from 1000 to 100,000,000 is in part because the data spans 6 decades. Inflation alone accounts for amounts getting larger. Good practice states that images in a series, such as maps of the same thing across decades, should have similar scales...but in a previous iteration of the earlier post the maps hadn't been adjusted for inflation and so differences between states in later decades were sometimes indistinguishable since they were subject to a scale that could also handle much smaller numbers. This mix of scale and color difficulties also obscured a coding bug wherein the states were colored using a different state's values.",
+      "While log scales offer helpful ways to demonstrate big leaps in value in a short visual space, they are unintuitive to an audience unfamiliar with logarithms. That realization is important because the audience for these visualizations really should be a much broader public. One of the many things we're discussing is how to work with numbers that span such a large range and how to better visualize the geographic distributions of these numbers for an interdisciplinary, largely humanities-focused, audience.",
+      "What scale gives us a sense of who is benefitting?",
+      "As we explore the data, we are trying to figure out what visualizations will give people the strongest sense of NEH impact on their lives. Does it help to show titles of projects by state? Do people want to click through state by state to see funding amounts?",
+      "We are currently comparing the funding between states. How much money has the NEH awarded institutions in each state between state humanities councils and independent scholars winning on behalf of their institutions?",
+      "Hannah Aizenman created an interactive map on CartoDB, a Software as a Service cloud computing platform, to show the distribution of awarded outright funding. (See digital fellow alum Michelle Johnson-McSweeney's mapping handouts to help you build your own).",
+      "https://story645.carto.com/viz/5a9ec418-0ea6-11e7-94a4-0ef24382571b/public_map",
+      "Each point is a single award, colored by the decade in which it was awarded. The dots are scaled proportionally (which is called a bubble chart) such that the smallest dots are the bottom 10% of awards in that decade, the dots that are just a little bit bigger are the next 10% of awards, and the dots increase in size such that largest dots are the top 10% of awards in that decade.",
+      "Why maps?",
+      "Maps have descriptive power because they give people a frame of reference for how the thing being measured affects them. People see the funding in their city or state and can attach it to institutions they’ve heard of, gone to, maybe even work for. The guiding principal for why we chose to start our spatial analysis by looking at the total amount awarded per state is a classic mantra in data visualization: \"overview, filter, details-on-demand.” It advocates starting with a high level aggregation of the data to get a sense of the patterns in it and then drilling down into the observations that make up the dataset. We started with states because they are the largest geographic division in the dataset that still retain meaning for comparative purposes.",
+      "As we unpacked the data further, we started question whether state lines, and even cities, as the markers of population distribution obscures the reach of certain papers and projects and employment that derives from these funds. Though they give at best a summary visualization of data, maps may provide a useful visual point of entry to disseminate data.",
+      "https://story645.carto.com/viz/5a9ec418-0ea6-11e7-94a4-0ef24382571b/public_map",
+      "So what does state distribution show us? As we parse the amounts state by state, we have to ask what story that would tell. If funds are awarded on a project by project basis, what does locating those funds by state boundaries indicate? If we consider the state lines as markers of population distribution, the visualization might obscure the reach of certain papers and projects and employment that derives from these funds. An issue with assessing these funds this way is that a large number of grants awarded go to large institutions that may not necessarily span the population of the given region.",
+      "What is the most effective representation?",
+      "\"Effective representation\" brings up the question of effect. What effect are we hoping to achieve? We want to allow the data to tell us things we might not know and we also want to find evidence of the strong impact of these awards that we, from personal experience, perceive. Many in our group, and certainly at our institution, have benefitted from the opportunity NEH grants provide. As researchers, we are curious about different things and finding the best way to approach this material takes a lot of consideration.",
+      "What are our next steps?",
+      "In addition to further investigation of the the data, we are thinking about ways people might want to engage with the information about grants and to provide access to this sort of work for other students. A number of Digital Fellows have been hard at work to make the information discoverable, and make the way they work reproducible. Stay tuned for upcoming blog posts! We hope to reach out to groups at CUNY and we encourage interested parties to comment below, tweet @Digital_Fellows, or contact us at gc.digitalfellows@gmail.com (Thank you for the emails so far!)."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.09970023802218202,
+      0.04217465271943715,
+      0.0174993976778663,
+      0.25938030719599575,
+      0.23111910016249176,
+      0.20788681912811371,
+      0.00018829724318650203,
+      0.14205118785072693
+    ],
+    "words": [
+      [
+        "data",
+        37
+      ],
+      [
+        "award",
+        28
+      ],
+      [
+        "state",
+        26
+      ],
+      [
+        "grant",
+        18
+      ],
+      [
+        "neh",
+        16
+      ],
+      [
+        "fund",
+        16
+      ]
+    ]
+  },
+  {
+    "id": "4348",
+    "title": "Learning to program, for everybody",
+    "date": "2017-03-29",
+    "year": "2016–2017",
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "originalAuthors": [
+      "Rachel Rakov"
+    ],
+    "aliases": [
+      "Rachel Rakov"
+    ],
+    "account": "Rachel Rakov",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "programming",
+      "python",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/03/29/learning-to-program-for-everybody/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Every time I teach a Python workshop, I inevitably end up telling the story of my first month of Python programming. I started learning Python when I arrived at the Graduate Center as a Masters student in 2011. Methods in Computational Linguistics 1 was really a Python 101 course - designed to teach students with no prior experience (so, me) to code in Python well enough to do work in Computational Linguistics in a single semester.",
+      "And that first month of the course? I cried every day.",
+      "When I started the course, I had never coded anything in my life, and I was really nervous about learning to code. Everyone I knew who was a coder had been coding since they were 12. I was nervous about breaking into something at what I thought was such a \"late\" stage in my academic career. To me, the barrier of entry to learning how to code had always looked intimidating. Most programmers I knew had been coding so long that they had forgotten what is and…"
+    ],
+    "fullParagraphs": [
+      "Every time I teach a Python workshop, I inevitably end up telling the story of my first month of Python programming. I started learning Python when I arrived at the Graduate Center as a Masters student in 2011. Methods in Computational Linguistics 1 was really a Python 101 course - designed to teach students with no prior experience (so, me) to code in Python well enough to do work in Computational Linguistics in a single semester.",
+      "And that first month of the course? I cried every day.",
+      "When I started the course, I had never coded anything in my life, and I was really nervous about learning to code. Everyone I knew who was a coder had been coding since they were 12. I was nervous about breaking into something at what I thought was such a \"late\" stage in my academic career. To me, the barrier of entry to learning how to code had always looked intimidating. Most programmers I knew had been coding so long that they had forgotten what is and isn't common knowledge to someone who is learning to code for the first time. Coders I knew and who had tried to teach me before would talk though concepts faster than new coders are able to understand, and would try to reassure me that \"it's easy\".",
+      "That first month of my learning to code? It wasn't easy. It wasn't just the frustration of learning the syntax of Python to get my code to run - it was, in many ways, learning entirely new ways to think. And I really did cry every day. I didn't think I would ever get to a point where I would be able to write code that would answer homework problems correctly, let alone have the knowledge to write code for my own research purposes. I couldn't think about anything else other than how to code answers to practice problems, or why my code wasn't working. I had no confidence that I would ever be able to code, no matter how hard I tried.",
+      "Fast forward six years, and here I am; a Python instructor. I teach Python workshops, help run PUG for the Digital Fellows, have presented at Python conferences, and have been the primary instructor of that same course I took in 2011, the one that made me cry every day for a month.",
+      "And now that I'm a Python instructor, I do my best to teach to myself, 6 years ago, when I was just starting out; I teach to my nervous and uncertain self, who had absolutely no experience and was sure that coding wasn't for me. I think, what would I have found useful in my Python instructor when I was first learning to code?",
+      "The result of this perspective is my approach to teaching coding. I go slow, and assume nothing about the computational background of my students, imagining them as myself when I started. I've learned that being empathetic to my students' nerves and struggles is just as important as being and encouraging and enthusiastic about what they're learning. I make it a point to elicit responses from students about what some pieces of code do, right from the beginning, so that they can show themselves that they really are capable of learning how to program. And I try to avoid the phrase \"Oh, it's simple, you just...\", because of how frustrating I always found that sentiment to be.",
+      "My goal is to lower the appearance of a barrier of entry to coding, and to make learning to code as accessible as possible to everyone who wants to learn.",
+      "Last week, at the Introduction to Python Programming workshop, I got to once again experience the fun of introducing 14 new programmers to Python for the first time. And about three quarters of the way through the workshop, while having the students code up an answer to a practice problem, my favorite thing happened; one of the students yelled out loud \"oh my God it worked!\" And the rest of the class laughed, and smiled, understanding what an excellent feeling that is.",
+      "That moment of joy - that moment when you write a piece of code that runs without errors and does what you want it to without assistance - that's my favorite part of programming. That's what I aim to instill in every student who comes in to learn Python. Learning to program can be tricky, and at the beginning it might seem daunting and scary. But that first moment when you think through a problem and get it to run? It's full of ecstatic joy, the feeling of \"Oh hey, I can really DO this\". And it's thrilling, and often makes you hunger to do more programming. Because programming really is for everyone, even those of us who start off nervous about learning how to code. We can do it. You can do it. Because programming really is for everyone."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0005447702671722063,
+      0.0005450432246920207,
+      0.17720513551501413,
+      0.0030819474196309444,
+      0.0003277873996065937,
+      0.6190404478280309,
+      0.0063918054640278174,
+      0.1928630628818254
+    ],
+    "words": [
+      [
+        "code",
+        17
+      ],
+      [
+        "python",
+        14
+      ],
+      [
+        "learn",
+        14
+      ],
+      [
+        "student",
+        8
+      ],
+      [
+        "teach",
+        7
+      ],
+      [
+        "first",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "19840",
+    "title": "Visualizing the Local Impact of the NEH",
+    "date": "2017-03-16",
+    "year": "2016–2017",
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "originalAuthors": [
+      "Jojo Karlin"
+    ],
+    "aliases": [
+      "Jojo Karlin"
+    ],
+    "account": "Jojo Karlin",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "csv",
+      "Featured",
+      "funding",
+      "grants",
+      "json",
+      "maps",
+      "NEH",
+      "python"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/03/16/where-have-all-the-neh-funds-gone/",
+    "signals": [
+      "Code & computational methods",
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "In light of President Trump's recent budget announcement, the humanities is scrambling to defend the value of institutions such as the NEA and NEH against proposed cuts that would see their budgets reduced to zero. With so much on the line, it seems more necessary than ever to highlight the ways these institutions have influenced people's lives on a local level.",
+      "The Digital Fellows, led by GC Digital Initiatives Deputy Director Lisa Rhody, have examined data from the NEH to get a sense of where and how funds have been invested since the endowment's inception.",
+      "Tahir Butt began by parsing the XML data from the NEH, and Hannah Aizenman then converted the JSON files to .csv for easier manipulation.",
+      "Tahir plotted the numbers of awards granted by year:",
+      "Then he started breaking it down.",
+      "Because these initial graphs lump together Outright and Matching funds, they needed to be further disentangled. After Lisa pointed out some quirks of how NEH…"
+    ],
+    "fullParagraphs": [
+      "In light of President Trump's recent budget announcement, the humanities is scrambling to defend the value of institutions such as the NEA and NEH against proposed cuts that would see their budgets reduced to zero. With so much on the line, it seems more necessary than ever to highlight the ways these institutions have influenced people's lives on a local level.",
+      "The Digital Fellows, led by GC Digital Initiatives Deputy Director Lisa Rhody, have examined data from the NEH to get a sense of where and how funds have been invested since the endowment's inception.",
+      "Tahir Butt began by parsing the XML data from the NEH, and Hannah Aizenman then converted the JSON files to .csv for easier manipulation.",
+      "Tahir plotted the numbers of awards granted by year:",
+      "Then he started breaking it down.",
+      "Because these initial graphs lump together Outright and Matching funds, they needed to be further disentangled. After Lisa pointed out some quirks of how NEH funding is allocated, the team separated out Challenge Grants, which are handled differently, from other grants at the NEH.",
+      "Next, Hannah mapped the awards by decade and by state:",
+      ".",
+      "Hannah also gave us a breakdown of NEH funds received at CUNY, including a breakdown by discipline.",
+      "To clarify differences, she made her findings more pronounced using color.",
+      "Addition: While talking through this data, we realized we hadn't adjusted the numbers for inflation:",
+      "These exploratory graphs are not a conclusion, but this preliminary analysis has shown the impact of the NEH not only on our own institution, but also on middle America—states and people that Trump claims he is most concerned with.",
+      "We're currently planning an interactive map showing in greater detail the impact the NEH has had on a state-by-state and institution-by-institution level. We want to make the case that the NEH isn't just an important cultural institution favored by \"elites\"—it also has had a direct impact on local institutions that benefit their communities more broadly.",
+      "These projects take time, energy, and commitment, and we at GCDI want to get people involved. If you want to participate, please contact gc.digitalfellows@gmail.com or come by Python User Group at 12 PM Wednesdays in room 7414.",
+      "Correction: An earlier version of this blog post contained incorrect maps that have now been fixed. The code that generated these maps is available at https://github.com/story645/neh These errors came to light because Hannah was teaching a visualization workshop using this data and the code she used to create these visualizations."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.021134267306541256,
+      0.0009493632097327875,
+      0.07147994562483524,
+      0.3232879028686112,
+      0.21756377428496926,
+      0.15477139875958265,
+      0.006086983036031652,
+      0.2047263649096959
+    ],
+    "words": [
+      [
+        "neh",
+        9
+      ],
+      [
+        "institution",
+        7
+      ],
+      [
+        "data",
+        4
+      ],
+      [
+        "hannah",
+        4
+      ],
+      [
+        "map",
+        4
+      ],
+      [
+        "state",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19839",
+    "title": "What is a Maker Space? An Invitation to Ours",
+    "date": "2017-03-09",
+    "year": "2016–2017",
+    "authors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "originalAuthors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "aliases": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "account": "Mary Catherine Kinniburgh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/03/09/what-is-a-maker-space-an-invitation-to-ours/",
+    "signals": [],
+    "paragraphs": [
+      "As of Fall 2016, we are excited to offer a new resource to students, faculty, and staff: the GC Maker Space. Housed in the GC Digital Scholarship Lab, Room 7414 of The Graduate Center, CUNY and staffed by the GC Digital Fellows, the GC Maker Space expands the many ways that we can critically engage with digital technologies in an interdisciplinary research environment. In the GC Maker Space, we use computing devices like Arduino to begin or refine our understanding of programming and code, expand our understanding of the research design process through prototyping, and experiment collectively with creative digital techniques.",
+      "This post is the first of a short series that will give you a warm welcome to the GC Maker Space by contextualizing the history, research, and praxis that surrounds university maker spaces. We hope that you'll feel encouraged to contact us to learn more about getting involved, and to drop in on our Monday Maker…"
+    ],
+    "fullParagraphs": [
+      "As of Fall 2016, we are excited to offer a new resource to students, faculty, and staff: the GC Maker Space. Housed in the GC Digital Scholarship Lab, Room 7414 of The Graduate Center, CUNY and staffed by the GC Digital Fellows, the GC Maker Space expands the many ways that we can critically engage with digital technologies in an interdisciplinary research environment. In the GC Maker Space, we use computing devices like Arduino to begin or refine our understanding of programming and code, expand our understanding of the research design process through prototyping, and experiment collectively with creative digital techniques.",
+      "This post is the first of a short series that will give you a warm welcome to the GC Maker Space by contextualizing the history, research, and praxis that surrounds university maker spaces. We hope that you'll feel encouraged to contact us to learn more about getting involved, and to drop in on our Monday Maker Hours during the semester.",
+      "What is a maker space?",
+      "Even for those of us who have entered these spaces by their variety of names--maker lab, fab lab (fab = fabrication, perhaps also fabulous), hackspace, and more--the answer is not necessarily straightforward. Broadly speaking, a maker space is any physical space that offers access to hands-on equipment, generally with the intention of producing prototypes of physical objects. In some maker spaces, you can build a kitchen table, for instance! However, what separates a maker space from a production line (although some large-scale maker spaces have this capacity) is that maker spaces are where you go to experiment, prototype, and think with materials. The process, rather than the product, defines the space.",
+      "In this process-oriented model, there are all types of variations. Some spaces, like NYDesigns, are modeled on a business incubator/start-up model for industry research. Others, like our colleagues at the Maker Lab in the Humanities, University of Victoria, have research-focused labs that “prototype the past” in order to historicize technologies and their developmental arcs. Some labs, like the Critical Making Lab, University of Toronto, argue for “critical making” as a way to reflect critically on questions of technology, society, and culture in the process of making. Yet another model is the maker space as an educational outreach tool, as in the Makerspace at U.Va, which offers workshops, drop-in hours, and consultations designed to connect students with resources.",
+      "So what, then, do maker spaces have to do with digital research? Not all maker spaces involve digital technology, but the history of the hackerspace, the maker space’s more programming-focused counterpart (or predecessor, depending on how you view it), is closely tied to programming, coding, and hacker culture. Here, “hacking” implies a goal of altering technologies for creative uses and greater accessibility, which led to early hackerspaces incorporating circuitry, microcomputing platforms, and other hardware. Now, the focus on hardware and physical materials is often de rigueur in maker spaces, especially those in academic environments with a research-based or critical component.",
+      "The use of hardware often relates to physical computing, which takes “the human body and its capabilities as the starting point, and attempt to design interfaces, both software and hardware, that can sense and respond to what humans can physically do” (Tom Igoe, “What is Physical Computing”). That is, physical computing makes visible the ways that humans interact with digital technologies and vice versa, and this process opens up a range of critical possibility. Relatively low-cost, micro-computing platforms like Arduino, support sensors that register light and noise make physical computing projects accessible for a range of skills and experience levels. Wearable technologies, like GPS jackets, are also a part of physical computing, as is making a digital candle (a write-up of an experiment I did with the wonderful folks at The Maker Lab in the Humanities at U.Vic at the Digital Humanities Summer Institute 2016). In maker spaces, “desktop fabrication” and “rapid prototyping” also involve the idea of making a physical object through technological means, such as 3D printers and 3D scanners. Of course, rapid prototyping can also happen using play-dough or paper--these are also technologies, although not digital or cutting edge (although they once were!). Many maker spaces also involve video and audio production equipment, for activities like podcasting.",
+      "In summary: regardless of variations on name, “maker spaces” are physical locations that make available space and equipment for process-oriented learning. University-based maker spaces often have a dedicated technological component, and combine hardware and software applications to ask research questions on materiality, human-computer interactions, and technology. This type of research often extends across disciplinary boundaries, is both creative and critical, and can be either collaborative or individual. And now, GC Digital Initiatives has an in-house space for this work with the GC Maker Space.",
+      "Our next post will share more of the nuts and bolts of what projects you can do in maker spaces, particularly ours! In the meantime, we invite you to contact us to learn more about getting involved, to drop in on our Monday Maker Hours, and to think of ways we can build out this space together. We look forward to seeing you soon!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0004433073205923457,
+      0.1041771794335093,
+      0.026321699048328463,
+      0.22647831829783824,
+      0.00026673730671427726,
+      0.11945872883862695,
+      0.0004861718380580412,
+      0.5223678579163324
+    ],
+    "words": [
+      [
+        "space",
+        29
+      ],
+      [
+        "maker",
+        27
+      ],
+      [
+        "digital",
+        11
+      ],
+      [
+        "physical",
+        10
+      ],
+      [
+        "technology",
+        9
+      ],
+      [
+        "research",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "3351",
+    "title": "The mostly non-STEM guide to data literacy",
+    "date": "2017-02-22",
+    "year": "2016–2017",
+    "authors": [
+      "Hannah Aizenman"
+    ],
+    "originalAuthors": [
+      "Hannah Aizenman"
+    ],
+    "aliases": [
+      "Hannah Aizenman"
+    ],
+    "account": "Hannah Aizenman",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "data",
+      "Events",
+      "resources",
+      "Resources",
+      "viz100"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/02/22/the-mostly-non-stem-guide-to-data-literacy/",
+    "signals": [],
+    "paragraphs": [
+      "I got my hands on this very cool Titanic dataset that provides me with a list of passengers and a bunch of information about them, like their names, ages, ticket fares and classes, where they got on, and how many siblings, parents, and children they came with. I'm really interested in trying to figure out if I can discern patterns in who survived and who didn't-- but first I have to sort out what sort of data I really have. Typically distinguishing data types is covered in a research methods course, but this post aims to introduce some of the standard ways of talking about data.",
+      "What are we actually looking at?",
+      "Dataset: collection of related information (such as records of passengers on the titanic)",
+      "Variable: attribute of the dataset (passenger's name or passenger's sex)",
+      "Observation: entry in the dataset (a single passenger record, including info such as name, sex, and fare)",
+      "Measurement: single data point (eg: one passenger's name)"
+    ],
+    "fullParagraphs": [
+      "I got my hands on this very cool Titanic dataset that provides me with a list of passengers and a bunch of information about them, like their names, ages, ticket fares and classes, where they got on, and how many siblings, parents, and children they came with. I'm really interested in trying to figure out if I can discern patterns in who survived and who didn't-- but first I have to sort out what sort of data I really have. Typically distinguishing data types is covered in a research methods course, but this post aims to introduce some of the standard ways of talking about data.",
+      "What are we actually looking at?",
+      "Dataset: collection of related information (such as records of passengers on the titanic)",
+      "Variable: attribute of the dataset (passenger's name or passenger's sex)",
+      "Observation: entry in the dataset (a single passenger record, including info such as name, sex, and fare)",
+      "Measurement: single data point (eg: one passenger's name)",
+      "Independent & Dependent Variables",
+      "Although being able to categorize data as independent or dependent is often taken for granted, this distinction is crucial for any later analysis. This boils down to: given a set of data, are they related to each other in a way where one value affects the other?",
+      "Independent",
+      "These measurements don't affect each other. For example, the age of one passenger has nothing to do with the age of a different passenger, and neither of those values affect the ages of the other passengers, so age is independent with respect to itself. Age is also independent of ticket number since there's no relationship between a passenger's age and their assigned ticket number.",
+      "Dependent",
+      "These measurements do affect each other. The passenger ids were assigned by whoever was encoding the data, but done so in an ordered fashion such that every passenger id is one more than the previous one. So the first id has a value of 1 and the second has a value of 2 and so every passenger id is one more than the previous; therefore passenger ids are dependent. It is the only dependent variable in the dataset, but there are still dependent relationships between the variables. For example, passenger class is somewhat related to fare.",
+      "A less arbitrary and more common example of dependent datasets are time dependent recordings like temperature; today's temperature is influenced by yesterday's temperature and will influence tomorrow's temperature.",
+      "Types of Measurements",
+      "Data typically falls into one of two categories:",
+      "Quantitative: how much?",
+      "Discrete: countable values (number of siblings, number of children)",
+      "Continuous: any numerical variable with a technically infinite number of increments (age can be 28, 28.1, 28.5...)",
+      "Qualitative: what kind?",
+      "Interviews, Observations, Documents",
+      "Categorical: qualitative data that can be sorted into groups (survived is yes/no, pclass is 1/2/3)",
+      "While usually straightforward, categorical data sometimes can masquerade as a quantitative measurement. For example, survival and passenger class are coded numerically (0/1, and 1/2/3 respectively), but could just as easily be represented using words like yes/no and low/middle/high. If the numbers are just there because there are a set number of types of something, meaning that the order of the numbers is arbitrary -- like survived and not survived or 3 passenger classes -- then it's categorical data. But if the number is intrinsic to the measurement -- describing how many siblings a passenger has or the passenger's age-- then it's a quantitative measurement.",
+      "Measurement Scales",
+      "Categorical and quantitative variables are typically measured in the following ways:",
+      "Quantitative:",
+      "Interval: difference between values means something quantifiable (cost difference, age difference)",
+      "Ratio: interval data with a floor (lowest published ticket price, can't have a negative number of relatives)",
+      "Categorical",
+      "Nominal: names of categories that are mutually exclusive (male/female, survived/not)",
+      "Ordinal: values with a natural ordering like best to worst (pclass-1/2/3)",
+      "Nominal categories being mutually exclusive doesn't mean that categorical data is inherently independent. For example, imagine a map of neighborhoods categorized into safe, so-so, unsafe. It is highly likely that one neighborhood's classification is dependent on its neighboring zipcode's classifications.",
+      "Want to learn more?",
+      "There's a workshop today, 6:30-8:30 PM, where we'll discuss how all this information informs the types of ways in which we can visualize data.",
+      "Sign up here: https://www.eventbrite.com/e/data-visualization-1-tickets-31587287427",
+      "Resources:",
+      "http://regentsprep.org/REgents/math/ALGEBRA/AD1/qualquant.htm",
+      "http://www.usablestats.com/tutorials/basicStats",
+      "http://www.abs.gov.au/websitedbs/a3121120.nsf/home/statistical+language+-+quantitative+and+qualitative+data"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.12594044198118567,
+      0.0006045986858659619,
+      0.09372796687455164,
+      0.2765872273338562,
+      0.3699445474435209,
+      0.10177937884534655,
+      0.003876474153142065,
+      0.027539364682530976
+    ],
+    "words": [
+      [
+        "passenger",
+        19
+      ],
+      [
+        "data",
+        14
+      ],
+      [
+        "age",
+        10
+      ],
+      [
+        "number",
+        10
+      ],
+      [
+        "dependent",
+        9
+      ],
+      [
+        "measurement",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "19837",
+    "title": "Git Ready.",
+    "date": "2017-02-15",
+    "year": "2016–2017",
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "originalAuthors": [
+      "Jojo Karlin"
+    ],
+    "aliases": [
+      "Jojo Karlin"
+    ],
+    "account": "Jojo Karlin",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Coding",
+      "DH Box",
+      "Digital Humanities",
+      "digital poetics",
+      "Events",
+      "Featured",
+      "gcdrb",
+      "GCDRI",
+      "git",
+      "GitHub",
+      "GitLit",
+      "Interdisciplinarity",
+      "Manifold",
+      "research",
+      "School for Poetic Computation",
+      "Text Analysis",
+      "text mining",
+      "websites",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/02/15/git-ready/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "This week, I am teaching git and GitHub. In the workshop, I will cover some basic commands in this incredibly powerful software (git) and its incredibly robust hosting service for repositories (GitHub.com).",
+      "git + GitHub Workshop 2/15",
+      "Like the workshops it was based on led by Digital Fellows Mary Catherine Kinniburgh and Patrick Smyth, and Jen Tang, my workshop is available to follow on or copy from my GitHub repository. It proceeds along this general outline:",
+      "Reviewing the Command Line (the interface we will use to tell git what to do).",
+      "Learning the concepts of Git, GitHub and Markdown (figuring out the differences)",
+      "Configuring Git on your computer",
+      "Initializing Git repositories",
+      "Connecting your repository to your GitHub account",
+      "Using Git Add, Git Commit, Git Push to make local changes, track them, and push them to a remote repo on GitHub.",
+      "I wanted to take a moment (i.e. a brief blog post) to list a few of the reasons git version control is worth…"
+    ],
+    "fullParagraphs": [
+      "This week, I am teaching git and GitHub. In the workshop, I will cover some basic commands in this incredibly powerful software (git) and its incredibly robust hosting service for repositories (GitHub.com).",
+      "git + GitHub Workshop 2/15",
+      "Like the workshops it was based on led by Digital Fellows Mary Catherine Kinniburgh and Patrick Smyth, and Jen Tang, my workshop is available to follow on or copy from my GitHub repository. It proceeds along this general outline:",
+      "Reviewing the Command Line (the interface we will use to tell git what to do).",
+      "Learning the concepts of Git, GitHub and Markdown (figuring out the differences)",
+      "Configuring Git on your computer",
+      "Initializing Git repositories",
+      "Connecting your repository to your GitHub account",
+      "Using Git Add, Git Commit, Git Push to make local changes, track them, and push them to a remote repo on GitHub.",
+      "I wanted to take a moment (i.e. a brief blog post) to list a few of the reasons git version control is worth the effort it takes to learn. The mixed metaphor of git commands can often be confusing (forks? push? commit? branch? origin?), but when the individual parts start to fit the jobs they do, the power of the tool becomes more apparent. When I describe what I'm teaching to friends or my parents or, if I'm feeling ambitious or I succumb to her curiosity, to my 98 year old grandmother, I talk about the uses of a software that tracks your changes. I often spend a lot of time describing the necessity of fine grain version control that doesn't proliferate copies (final.doc, finalfinal.doc, reallytrulyfinal.doc, etc). I talk about how GitHub enables collaboration and a degree of project management. I talk about how you can use GitHub to create a quick-and-dirty website, or, if you're me, a string of messy drafts of websites (using GitHub pages like Digital Fellow alum Keith Miyake, or using GitLab pages like Digital Fellow Tahir Butt). When I want to discuss Open Source software, I mention that GitHub is (according to a 2014 article) the largest code host in the world. I talk about how following projects (DH Box! Manifold Scholarship (which uses GitHub in releases)!) can help you understand the process new projects follow.",
+      "Cool projects using GitHub",
+      "I will explain a lot more about git and GitHub at the workshop (and I'm more than happy to discuss at Digital Fellows Office Hours, Tuesdays 2-4), but this blog post aims to give a couple quick examples that excited my curiosity and convinced me I ought to stick with this git business.",
+      "GitHub Poetry.",
+      "Taeyoon Choi, founder of the School for Poetic Computation (SFPC), presented a version of git poetry last year at an English Department Friday Forum Digital Poetics coordinated by Mary Catherine Kinniburgh. The general idea is demonstrated in GitHub for Poets, which shows how version control might enable a different form of authorship and editing.",
+      "GitLit.",
+      "Jonathan Reeve, English PhD candidate at Columbia University, has gotten access to tens of thousands of texts from the British Library for the purposes of quantitative analysis. Beyond text analysis using computational methods, he has made these resources available via GitHub for open source minimal editions (using Alex Gil's Ed.) or for experimentation in Steve Zweibel's DH Box, a web-app for playing with text analysis in a DH sandbox.",
+      "While these examples represent my personal interest in English applications of git, they also serve as examples of projects that seek to engage the capacity of git and GitHub creatively -- not just as a resource for copying code.",
+      "It is also a great place to find code to copy.",
+      "GitHub Projects enables management within GitHub, beyond issues and issue reports.",
+      "Hope you can make it!",
+      "I hope to see you with your laptops, Wednesday, February 15th, at 6:30 P.M. in room 9204!"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.10498775389599736,
+      0.0005613052479853739,
+      0.0004913930362735492,
+      0.00019028019544157078,
+      0.00033756733280488667,
+      0.20786886530113605,
+      0.41235494830279185,
+      0.27320788668756935
+    ],
+    "words": [
+      [
+        "github",
+        20
+      ],
+      [
+        "git",
+        17
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "workshop",
+        5
+      ],
+      [
+        "digital",
+        5
+      ],
+      [
+        "repository",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "19836",
+    "title": "Spring 2017 Office Hours & Python Users Group",
+    "date": "2017-02-09",
+    "year": "2016–2017",
+    "authors": [
+      "Hannah Aizenman"
+    ],
+    "originalAuthors": [
+      "Hannah Aizenman"
+    ],
+    "aliases": [
+      "Hannah Aizenman"
+    ],
+    "account": "Hannah Aizenman",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "pedagogy",
+      "programming"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/02/09/spring-2017-office-hours-python-users-group/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "With classes in full swing and deadlines due, it's project exploration and crunch time. The GC Digital Fellows wants to help. We host office hours and PUG throughout the semester where you can drop in to consult on developing a project, using a digital tool, or any other digital related thing that's on your mind.",
+      "Office Hours:",
+      "Have questions about developing a digital project or want to find a community of other scholars working on digital projects?",
+      "Tuesdays at 2:00-4:00pm in 7414",
+      "Python Users Group",
+      "Want to brush up on your Python skills, learn how to incorporate it into your research, work with others learning & using Python or have other technical in nature questions?",
+      "Wednesdays at 12:00-2:00PM in 7414",
+      "You can also find us at https://gitter.im/GCDigitalFellows/PUG",
+      "Questions and comments should be directed to gc.digitalfellows@gmail.com and @digital_fellows"
+    ],
+    "fullParagraphs": [
+      "With classes in full swing and deadlines due, it's project exploration and crunch time. The GC Digital Fellows wants to help. We host office hours and PUG throughout the semester where you can drop in to consult on developing a project, using a digital tool, or any other digital related thing that's on your mind.",
+      "Office Hours:",
+      "Have questions about developing a digital project or want to find a community of other scholars working on digital projects?",
+      "Tuesdays at 2:00-4:00pm in 7414",
+      "Python Users Group",
+      "Want to brush up on your Python skills, learn how to incorporate it into your research, work with others learning & using Python or have other technical in nature questions?",
+      "Wednesdays at 12:00-2:00PM in 7414",
+      "You can also find us at https://gitter.im/GCDigitalFellows/PUG",
+      "Questions and comments should be directed to gc.digitalfellows@gmail.com and @digital_fellows"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.003178235300270382,
+      0.003179827757269644,
+      0.0027837709019822962,
+      0.0010779486728397126,
+      0.0019123391036394305,
+      0.06203177637920366,
+      0.0034855469917545083,
+      0.9223505548930403
+    ],
+    "words": [
+      [
+        "digital",
+        6
+      ],
+      [
+        "project",
+        4
+      ],
+      [
+        "want",
+        3
+      ],
+      [
+        "question",
+        3
+      ],
+      [
+        "python",
+        3
+      ],
+      [
+        "office",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19835",
+    "title": "#NYCDHWeek17 Kickoff Event",
+    "date": "2017-02-08",
+    "year": "2016–2017",
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "originalAuthors": [
+      "Jojo Karlin"
+    ],
+    "aliases": [
+      "Jojo Karlin"
+    ],
+    "account": "Jojo Karlin",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "collaboration",
+      "community",
+      "Digital Humanities",
+      "Digital Scholarship",
+      "digital technology",
+      "discussion",
+      "Events",
+      "Events",
+      "Featured",
+      "Interactive Technology and Pedagogy",
+      "Interdisciplinarity",
+      "maker culture",
+      "resources",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2017/02/08/nycdhweek17-kickoff-event/",
+    "signals": [
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "A Full and Friendly Day of DH",
+      "This Monday, February 6, The Graduate Center hosted one of New York City's largest digital humanities events of the year: NYCDH Week! Kicking off a week of 37 workshops across New York City, the day included presentations from graduate student prize winners, a roundtable discussing DH infrastructure, and a keynote address from the Dr. Stephen Brier, who won the inaugural NYCDH Award for his contributions to the digital humanities community.",
+      "From the start of the day, we had a large crowd with lots of faces coming and going, and a core group who stayed the duration. Co-fellow Javier Otero Peña and I were tweeting the proceedings from @cunygcdi and @Digital_Fellows, for folks who couldn't make it to the event, and below I describe the whirlwind of remarkable presentations.",
+      "Welcome to NYCDH Week",
+      "NYCDH members (left to right) Stephen Klein, Jesse Merandy, Alex Gil, Kimon Keramidas photo credit @jojokarlin"
+    ],
+    "fullParagraphs": [
+      "A Full and Friendly Day of DH",
+      "This Monday, February 6, The Graduate Center hosted one of New York City's largest digital humanities events of the year: NYCDH Week! Kicking off a week of 37 workshops across New York City, the day included presentations from graduate student prize winners, a roundtable discussing DH infrastructure, and a keynote address from the Dr. Stephen Brier, who won the inaugural NYCDH Award for his contributions to the digital humanities community.",
+      "From the start of the day, we had a large crowd with lots of faces coming and going, and a core group who stayed the duration. Co-fellow Javier Otero Peña and I were tweeting the proceedings from @cunygcdi and @Digital_Fellows, for folks who couldn't make it to the event, and below I describe the whirlwind of remarkable presentations.",
+      "Welcome to NYCDH Week",
+      "NYCDH members (left to right) Stephen Klein, Jesse Merandy, Alex Gil, Kimon Keramidas photo credit @jojokarlin",
+      "Monica McCormick, NYU Program Officer for Digital Scholarly Publishing, opened the morning introducing NYCDH from its founding myth of scholars at a conference under a tree in California through its fledgling Commons in a Box startup and to its current vibrancy. She lauded the remarkable collaboration represented, the caliber and quantity of projects applying for grants, and the impressive work of prize winners. Monica thanked Lisa Rhody, Deputy Director of CUNY GCDI, for organizing space for the kickoff, as well as NYCDH members Kimon Keramidas, Stephen Klein, Jesse Merandy, Elizabeth Cornell, Alex Gil, Andie Silva, and the NYCDH steering committee. She then turned the stage to Zach Coble to introduce the graduate student prize winners.",
+      "NYCDH Graduate Student Award Winners",
+      "What an astonishing range of projects! After Monica's introduction, the prize winners each presented their work.",
+      "Second place (tie) Lisa Tagliaferri, a PhD candidate in the Graduate Center Comparative Literature program, opened with \"Lyrical Mysticism: The Writing and Reception of Catherine of Siena,\" displaying her network analyses of the correspondence of Catherine of Siena. In addition to her myriad D3 visualizations, Lisa enriched her presentation with biographical details of her research. I was particularly glad to know that, for at least one correspondent, Caterina caught his head at his beheading. She has shared her slides on the HASTAC website.",
+      "Second place (tie) After Lisa, Hannah Aizenman, Graduate Center Computer Science PhD and Digital Fellow, presented Futures Past Archive, the project she works on with Patrick Smyth (GC English PhD) and Jill Belli (Assistant Professor of English at CityTech). With energy and enthusiasm, Hannah described the curious predicament of time in speculative, especially science, fiction. When authors imagined futures, whether utopic or dystopic, how far did they cast their imaginations? How far in advance did they predict technologies? Hannah, Patrick, and Jill have been working with public domain texts to determine the future delta, which is the time between when a book was published and when it is set. Hannah presented the problem of the vague or multiple futures often staged in speculative fictions. \"Think of the last speculative fiction you read -- when was it set?\" Though Kimon Keramidas ruefully answered \"1984,\" the audience contemplated the fuzzy \"not-too-distant\" futures of speculative fiction. Hannah also brought up NY City Tech teammate Jill's outreach and student engagement through course-centered tagging of science fiction.",
+      "Honorable mention Rachel Daniell of the Graduate Center Anthropology program then presented \"Digital Afterlives of Government Documents,\" her project-in-process that looks at War-on-Terror era and the archivists role in registering events for public historical consumption. She compared a series of databases and conducted interviews with archivists and indexers. Her take-away, \"the power of meta-data,\" which she dubbed \"possibly Pollyanna-ish,\" was met with definite agreement from everyone in the room whether librarian or library dependent (isn't every grad student?). Rachel outlined the challenges of working with the ACLU's Torture Database API and gave hearty thanks to the CUNY New Media Lab for helping her develop her Drupal database and feeds.",
+      "Honorable Mention Burçak Özludil Altin, PhD candidate in joint Urban Systems Program at Rutgers and NJIT, presented “Life of an Insane Asylum: A Temporospatial Simulation.” Burçak and her team, Augustus Wendell (NJ Institute of Technology) and Ulysses Thompson (NJ Institute of Technology), have been working to build a historical model of an Ottoman asylum using Unity3D, software typically used in game design. The team is also working on building tools for historical modeling (SpatioScholar). The project presents a novel angle on Ottomon Modernization, as well as history of psychiatry in non-Western context.",
+      "Honorable Mention Mary Catherine Kinniburgh, Graduate Center English PhD and Digital Fellow, presented \"Digital Alchemy,\" her work which explores the rise in makerspaces as a reclamation of process-based crafts culture of medieval alchemy. Mary Catherine narrated the undulations of the occult and mainstream in these movements. She measured the tradition of these practices in relation to rapid technological velocity. She added dashes of wonder and specters from sacred texts of Donna Haraway, N. Katherine Hayles, and Wendy H. K. Chun.",
+      "First Place William Fenton rounded out the morning talks, humbly crediting all the prize winners and honorable mentions, and describing his wide-reaching primary-source archive and critical edition Digital Paxton. William gave background into the Lancaster Massacre of Native Americans and its subsequent pamphlet war for those of us unfamiliar with the crisis and its print proliferation.",
+      "photo credit: @jmerandy",
+      "Lightning Talks",
+      "After some \"Birds-of-a-feather\" lunches led by NYCDH veterans, we returned to a series of lightning talks given by community members. It was definitely electrifying.",
+      "Erin McCabe presented her work on government transparency following the loss of Sunlight Labs.",
+      "Evan Koblentz from The Vintage Computer Federation spoke about the rise of worldwide science illiteracy. STEM is good, but not enough, he said. We need history of scientific thought. His organization seeks to provide resources to those needing access to obsolete systems. Unfortunately, I didn't catch his name. If anyone reading this post has information, I would be grateful for the revision.",
+      "Angus Grieve-Smith, language and technology consultant and NYCDH constant, described his work on the future of distributed annotation, plans to develop version control, and richer work around a system like hypothes.is.",
+      "Fordham librarian Tierney Gleason presented on 19th Century Feminist Data, describing how she has been working through documents of the House of the Good Shepherd in Manhattan to discover the way women's unwanted activities led to institutionalization and incarceration. She seeks collaborators and cited the abundance of open data available in historic registers.",
+      "David Schwittek, professor at Lehman College, presented his project on the myths and realities of Mexican immigrant health. He noted how disciplinary constraints (he's in the art department) shape the concerns of his work.",
+      "Pace University Associate Professor of English Kelley Kreitz introduced babblelab.org which aims to consider the incorporation of digital pedagogy from kindergarten onward.",
+      "Fordham English PhD candidate Alisa K. Beer, whose tweets on #NYCDHWeek17 deserve special mention, presented her work on medieval manuscript encoding. After attending a workshop on TEI at Yale, Alisa has generated her own digital manuscripts workshop which she will lead at Columbia this March 25-27.",
+      "Zach Coble rounded out the talks describing the efforts of Jennifer Vinopal and Monica McCormick on NYU hosting. He mentioned the work and philosophy of Reclaim Hosting, praising their efforts to support scholarship.",
+      "Lisa Rhody presents the GC Digital Research Institute photo credit Javier Otero Peña",
+      "To close the lightning talk, we heard from the #digitalgc. Hannah Aizenman returned to present the many digital efforts built by CUNY GCDI and the Digital Fellows. She did us proud. Lisa M. Rhody followed up with encouragement to follow the GC Digital Research Institute model (fork it! customize it! build your own!) for generating skills across disciplines.",
+      "NYCDH Roundtable",
+      "From left to right: Alex Gil, Claire Potter, Ben Vershbow, Matt Gold, Kimon Keramidas left corner: Lev Manovich",
+      "Led by moderator Alex Gil, discussants Claire Potter, Ben Vershbow, Matthew K. Gold, and Kimon Keramidas, responded to the following questions:",
+      "How do you develop and advocate for change in infrastructure, and how much control do you really have over changes?",
+      "What kinds of projects does your institutional infrastructure enable?",
+      "How are collaborations between library, staff, faculty and students determined and influenced by infrastructure?",
+      "How does your critical work influence the infrastructures you help design and implement?",
+      "What is your ideal infrastructure?",
+      "Claire Potter opened by comparing resources (human and material) she has found as director of a digital humanities center at the New School with those she found at her previous position at Wesleyan College. In her efforts to develop Digital Across the Curriculum (along the lines of Writing Across the Curriculum), she looks at distributed curricula, space constraints, and graduate student labor. Claire also made a great argument for teaching resilience. She described the way she pieced together a center by repurposing what she could find, and advocated gathering resources across departments.",
+      "Ben Vershbow gave insight into the catalytic structures that enabled rapid provisioning at NYPL Labs. He noted that infrastructures of Flickr Commons and Heroku made possible the crowdsourced layers and public scholarship he pursued at the Institute for the Future of the Book and the New York Public Library. Launching core services on a cloud model instigated certain infrastructural shifts that the NYPL continues to negotiate.",
+      "Matt Gold recalled the NYPL Labs inspirational sense of play. For Matt, DH infrastructure depends on communication, as evidenced across his projects. He said that people are central -- a community is necessary to use any resources gathered. To this end, he listed support for students as crucial, which he works for in programs like Provosts' Digital Innovation Grants and GCDI Digital Fellowships. Contrary to some of Ben's tactics, Matt talked about the importance of facing the challenge of collaborating with IT to find mutually beneficial setups for experimentation. Conditions for success, he argued, are local, even as we face common concerns. DH infrastructure should meet the needs and personality of each institution.",
+      "Kimon Keramidas described his participation at nascent DH programs at CUNY (he was in the second ITP certificate cohort), the Bard Graduate Center, and now The Draper Program at NYU. Across all his institutions, he described the significance of finding hard-working, trustworthy collaborators.",
+      "NYCDH Award Keynote",
+      "Inaugural NYCDH Award winner, Steve Brier was introduced warmly by Ellen Noonan, who remembered how her first impression of Steve was that she wanted to be him when she grew up. Equally fond remarks were given by Matt Gold, who has worked with Steve as a co-teacher, co-proposer of projects and programs, and fellow GC traveler. Matt commented on Steve's role as a booster and builder. Kimon Keramidas referred to Steve's irrepressible integrity in midst of bureaucracy. Steve accepted with genuine gratitude for an unexpected honor.",
+      "Steve's keynote \"Confessions of a Premature Digital Humanist\" traced a storied history of a scholar, teacher, and mentor. Coming from his background in labor history, public history, documentary film, CD Rom text books, and through the American Social History Project, the Interactive Technology and Pedagogy Certificate, and the Journal of Interactive Technology and Pedagogy, Steve described the sources of his work and impulses of his unrelenting efforts to develop new work in new forms. His conclusion was met with heartfelt ovation for a career of contribution and commitment.",
+      "I sadly did not make it to the celebrations at Digibar, but I hope to make it before to long! Certainly after the rest of this amazing week. I encourage everyone to register for the free city-wide workshops at the NYCDH Week website."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.16104537749062425,
+      0.09692642132412363,
+      0.00017898658818795284,
+      0.029411928290632827,
+      0.002296484025315984,
+      0.09418981050342301,
+      0.00022410829985279067,
+      0.6157268834778395
+    ],
+    "words": [
+      [
+        "work",
+        21
+      ],
+      [
+        "digital",
+        20
+      ],
+      [
+        "nycdh",
+        14
+      ],
+      [
+        "present",
+        13
+      ],
+      [
+        "describe",
+        10
+      ],
+      [
+        "project",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "3889",
+    "title": "Docker in the classroom: Creating a virtual environment for instruction",
+    "date": "2016-11-15",
+    "year": "2016–2017",
+    "authors": [
+      "Tahir H. Butt"
+    ],
+    "originalAuthors": [
+      "Tahir H. Butt"
+    ],
+    "aliases": [
+      "Tahir H. Butt"
+    ],
+    "account": "Tahir H. Butt",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "aws",
+      "databases",
+      "docker",
+      "resources",
+      "Resources",
+      "wordpress",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/11/15/docker-in-the-classroom-creating-a-virtual-environment-for-instruction/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "On October 13, I led a workshop at the Graduate Center on databases. It was billed as the most fun you will ever have learning about databases. More importantly, it was the second in a series that the Digital Fellows organized this semester. The primary goal of the workshop was to progress from the first database workshop by digging deeper into querying with topics such as joins and aggregations. I was also hoping to demystify databases in general. Databases are used by almost every desktop and mobile application. In order to unmask databases, I am providing here instructions on how to create one and connect it to a commonly used web application, in this case WordPress.",
+      "I could write an entire blog post to introduce the WordPress database and intend to in the near future. For now, I will focus on how to a temporary workshop environment. I used such an environment for workshop participants to interact with a shared WordPress database.…"
+    ],
+    "fullParagraphs": [
+      "On October 13, I led a workshop at the Graduate Center on databases. It was billed as the most fun you will ever have learning about databases. More importantly, it was the second in a series that the Digital Fellows organized this semester. The primary goal of the workshop was to progress from the first database workshop by digging deeper into querying with topics such as joins and aggregations. I was also hoping to demystify databases in general. Databases are used by almost every desktop and mobile application. In order to unmask databases, I am providing here instructions on how to create one and connect it to a commonly used web application, in this case WordPress.",
+      "I could write an entire blog post to introduce the WordPress database and intend to in the near future. For now, I will focus on how to a temporary workshop environment. I used such an environment for workshop participants to interact with a shared WordPress database. This allowed me to avoid having each person configure their computers, which would require far more time and effort than a two-hour workshop reasonably allows. I also wanted to be able to reproduce this environment in the future if I (or anyone else) was to give another workshop on databases (or WordPress). Though I focus on WordPress here, the same approach can be used for conducting other educational workshops and avoiding the headaches that come with replicating effort among educators and learners.",
+      "I decided to create a server in the cloud on Amazon Web Services (AWS). I prepared the server beforehand to test the exercises I intended to give participants. At the workshop, I turned on the temporary environment, worked through exercises, allowed participants to make changes to the database, and then scrapped everything once we were done. To follow the exercises, participants logged onto a website, much like they would on their own WordPress installation, and they did not have to install any special software on their computers.",
+      "I shared a diagram to illustrate where the WordPress database fits into a WordPress server:",
+      "I chose Docker to create this virtual environment with all the components in the \"Server\" box above. Docker is a wonderful software package that simplifies running applications like web servers and databases on your personal computer. It also simplifies creating a server in the cloud configured as you like it. Docker ultimately allowed me to create a safe and contained environment for participants to play in without them breaking their computers. This is very similar to how DH Box, another project at the GC, creates an environment for digital humanities.",
+      "In the Github repository for the database workshop, I included docker-compose.yml, a YAML configuration file used by one of the Docker command line tools, docker-compose, to specify of all the necessary software and data that I needed to install. Before explaining how Docker is executed, I will walk through the parts of my configuration file.",
+      "The first line specifies that we will be using the most recent version of the Docker compose file, which makes our job easier than previous versions:",
+      "version: '2'",
+      "I then specify that first service I want is a database and label it \"db\". I chose to use MariaDB, a fully compatible replacement for MySQL. Docker loads the mariadb image from a centralized repository at Docker Hub. By image I don't mean a picture; a Docker image is an archive of all that is necessary to install some software within the Docker environment. Included in the database service section are variables that are used to create a database for WordPress on the new MariaDB server. I also indicated (through the use of volumes) that I want the new database to be loaded with the sample data stored in the bootstrap/db folder of the Git repository. I created the SQL file used to prepare the new database by dumping an existing MySQL database from a test Wordpress site created for theme and plugin developers.",
+      "db: image: mariadb ports: - 3306:3306 environment: MYSQL_ROOT_PASSWORD: wordpress MYSQL_DATABASE: qitrw MYSQL_USER: qitrw MYSQL_PASSWORD: qitrw volumes: - ./bootstrap/db:/docker-entrypoint-initdb.d",
+      "The ability to prepare a database with data so easily was a welcome surprise for me. I wanted the workshop database to be set up with the WordPress schema, since the exercises were meant to examine how WordPress data is stored and retrieved. But a set of empty tables is useless for doing querying exercises. Nor did I want to create the data by hand. Instead, by including a Docker volume in the configuration for docker-entrypoint-initdb.d, I can use the functionality of the docker-entrypoint.sh script included in the mariadb image. This script detects if a Docker volume named docker-entrypoint-initdb.d exists and executes any SQL files in the directory. Though it took me some time to figure out how all this worked together (not helped by the fact that the volumes functionality was broken on the version of Docker on my Windows laptop), I was able to prepare the database whenever I started my workshop environment.",
+      "The next section of the compose file sets up the wordpress web server:",
+      "web: depends_on: - db image: wordpress links: - db ports: - 80:80 environment: WORDPRESS_DB_HOST: db:3306 WORDPRESS_DB_USER: qitrw WORDPRESS_DB_PASSWORD: qitrw WORDPRESS_DB_NAME: qitrw volumes: - ./build/www:/var/www/html",
+      "The wordpress image installs a web server (Apache), along with the necessary PHP modules for Apache to run WordPress, and then downloads the WordPress web application to /var/www/html. The environment variables tell WordPress how to connect to the database from the previous section.",
+      "The line",
+      "- ./build/www:/var/www/html",
+      "is not necessary but allows me point Docker to a preexisting WordPress web installation in a local directory. Anyone customizing themes or adding plugins can change the contents in the local directory and have those changes immediately reflected in the WordPress server running within Docker.",
+      "In the last section, Docker installs PHPMyAdmin, a commonly used database management tool for MySQL and WordPress installations, so that workshop participants can write and execute queries from a web page:",
+      "phpmyadmin: image: phpmyadmin/phpmyadmin environment: - PMA_ARBITRARY=1 restart: always ports: - 8080:80 volumes: - /sessions",
+      "Having installed Docker for Windows (Docker for Mac also works) and specified how I wanted Docker to set up my Docker machine, I opened a terminal and executed the following from the folder where I had checked out the Git repository:",
+      "docker-compose up -d",
+      "The first time I ran this tool all the necessary Docker images were downloaded from the Docker Hub. Once downloaded, the images are installed and configured according to the Docker compose file.",
+      "If you are following along, you can now test the WordPress server deployed in your local Docker by opening http://localhost/ in a web browser. You should see the WordPress test site. The \"localhost\" here is used because on most computers this domain name resolves to the computer itself, rather than a server somewhere on the internet.",
+      "Once I was done with preparing my exercises and ready to shut down my temporary environment, I executed the following to stop and remove all the services that Docker had started:",
+      "docker-compose down",
+      "Having successfully configured the Docker environment on my laptop, I was ready to deploy it to the cloud. Fortunately for me deploying to the cloud (AWS EC2) was a straightforward process using the docker-machine command line tool:",
+      "docker-machine create -d amazonec2 \\ --amazonec2-access-key ... --amazonec2-secret-key ... --amazonec2-region ... \\ NAME",
+      "I used my AWS credentials when executing docker-machine and had it name the new the machine \"qitrw\". This step took a few minutes, but once complete I was able to use the Docker host on AWS just as I had the Docker host on my laptop. To do so, I first had to set up my shell environments on the Windows command line:",
+      "& docker-machine env qitrw | Invoke-Expression",
+      "If you are on a Mac, you instead execute the following to prepare your shell environment:",
+      "eval $(docker-machine env qitrw)",
+      "Having set up the shell environment, I executed the docker-compose just as I had to set up the Docker environment on my laptop but this time on AWS. Voila!",
+      "Once the workshop was done, and everyone went home, I shut down the Docker host on AWS:",
+      "docker-machine stop qitrw docker-machine rm qitrw",
+      "One caveat for those who want to dive into using AWS with Docker: by default the AWS EC2 host does not allow any inbound connections, so I couldn't actually get to the WordPress website, nor the PHPMyAdmin tool. You can make the necessary changes the security policy for the new EC2 machine from the AWS Management Console. Fortunately the aws-cli command line tool, maintained by Amazon, also allows the same change to be made:",
+      "aws ec2 authorize-security-group-ingress \\ --group-id ... --protocol tcp --port 8080 --cidr 146.96.0.0/16",
+      "The \"group-id\" is the one used by the new Docker environment (which I got from the AWS Management Console). The \"cidr\" argument specifies that only connections originating from the Graduate Center network will be allowed. This is probably an unnecessary precaution for the purposes of an educational workshop but does highlight how Docker and AWS can be used to create a safe and contained environment for learning.",
+      "If you have any questions, come by our office hours on Tuesdays from 2 to 4pm or email us at gc.digitalfellows@gmail.com."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.006148356932354848,
+      0.0017442645581403488,
+      0.2791763979790532,
+      9.36264937129659e-05,
+      0.0001660984512298569,
+      0.10962130218333323,
+      0.5067892704908642,
+      0.0962606829113113
+    ],
+    "words": [
+      [
+        "docker",
+        49
+      ],
+      [
+        "wordpress",
+        29
+      ],
+      [
+        "database",
+        25
+      ],
+      [
+        "environment",
+        21
+      ],
+      [
+        "workshop",
+        15
+      ],
+      [
+        "aws",
+        13
+      ]
+    ]
+  },
+  {
+    "id": "3866",
+    "title": "Upcoming Workshop (10/13): Databases Part II: Querying in the Real World",
+    "date": "2016-10-11",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/10/11/upcoming-workshop-1013-databases-part-ii-querying-in-the-real-world/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Databases Part II: Querying in the Real World Thursday, October 13th, 2016 – 6:30-8:30pm",
+      "Databases are a ubiquitous piece of software on our personal computers and on the internet. They enable the storage of data in such a way that we can access it in a reliable and robust way. One of the most important types of databases are \"relational databases\" that store data in structured tables and provide users access to the data through SQL, a querying language which allows us to filter, sort, and combine our data. This workshop will build on the basics of SQL covered in Databases (Part 1) on Oct. 4th. We will use a sample MySQL database from a Wordpress website to reveal some of the many secrets to the magic of the Internet. We will begin by inspecting the database schema, examining how the \"relationships\" of a \"relational database\" are specified and maintained as we add and remove data. Having better understood the layout of an actually…"
+    ],
+    "fullParagraphs": [
+      "Databases Part II: Querying in the Real World Thursday, October 13th, 2016 – 6:30-8:30pm",
+      "Databases are a ubiquitous piece of software on our personal computers and on the internet. They enable the storage of data in such a way that we can access it in a reliable and robust way. One of the most important types of databases are \"relational databases\" that store data in structured tables and provide users access to the data through SQL, a querying language which allows us to filter, sort, and combine our data. This workshop will build on the basics of SQL covered in Databases (Part 1) on Oct. 4th. We will use a sample MySQL database from a Wordpress website to reveal some of the many secrets to the magic of the Internet. We will begin by inspecting the database schema, examining how the \"relationships\" of a \"relational database\" are specified and maintained as we add and remove data. Having better understood the layout of an actually existing database, we will proceed to query the data, asking questions like \"how many posts has each user created\" and \"which post had the most comments.\" The topics covered in this workshop are applicable across different SQL implementations, including MySQL and PostgreSQL. If you are unable to attend Part 1 of this series, please look through this tutorial: https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Tahir Butt and Ian Phillips.",
+      "Register HERE",
+      "Image Creative Commons via Flickr user Olivier"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.06438995525838605,
+      0.0014794282930130486,
+      0.4338101277246566,
+      0.0005015201723958362,
+      0.008753632326935098,
+      0.18613871558776232,
+      0.11171638421771544,
+      0.19321023641913565
+    ],
+    "words": [
+      [
+        "database",
+        9
+      ],
+      [
+        "data",
+        6
+      ],
+      [
+        "part",
+        3
+      ],
+      [
+        "user",
+        3
+      ],
+      [
+        "sql",
+        3
+      ],
+      [
+        "workshop",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19832",
+    "title": "Upcoming Workshop (10/4): Databases Part I: Introduction to Data Management with Databases and SQL",
+    "date": "2016-10-03",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/10/03/upcoming-workshop-104-databases-part-i-introduction-to-data-management-with-databases-and-sql/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Databases Part I: Introduction to Data Management with Databases and SQL Tuesday, October 4th, 2016 – 6:30-8:30pm",
+      "Databases are invaluable tools for organization and are better than a spreadsheet for working with multiple data sets, asking questions, and adding structure to your data. SQL is a programming language for working with databases. This workshop will introduce you to the basics of SQL, and will include hands-on practice creating databases and tables, importing data, and querying the database. The topics covered in this workshop are applicable across different SQL implementations, including MySQL, SQLite, and PostgreSQL. No previous experience with SQL is necessary. This workshop is the first part of a two-part series—the second part will take place on Oct. 13th.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Ian Phillips and Tahir Butt.",
+      "Register HERE"
+    ],
+    "fullParagraphs": [
+      "Databases Part I: Introduction to Data Management with Databases and SQL Tuesday, October 4th, 2016 – 6:30-8:30pm",
+      "Databases are invaluable tools for organization and are better than a spreadsheet for working with multiple data sets, asking questions, and adding structure to your data. SQL is a programming language for working with databases. This workshop will introduce you to the basics of SQL, and will include hands-on practice creating databases and tables, importing data, and querying the database. The topics covered in this workshop are applicable across different SQL implementations, including MySQL, SQLite, and PostgreSQL. No previous experience with SQL is necessary. This workshop is the first part of a two-part series—the second part will take place on Oct. 13th.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Ian Phillips and Tahir Butt.",
+      "Register HERE",
+      "Image Creative Commons via Flickr user Rob Young"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.002085491675852026,
+      0.002086536612901158,
+      0.4565574797747779,
+      0.0007073274228663027,
+      0.02343682859096729,
+      0.1183409276203302,
+      0.0022871431943621966,
+      0.394498265107943
+    ],
+    "words": [
+      [
+        "database",
+        6
+      ],
+      [
+        "sql",
+        5
+      ],
+      [
+        "part",
+        4
+      ],
+      [
+        "data",
+        4
+      ],
+      [
+        "workshop",
+        4
+      ],
+      [
+        "work",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "3823",
+    "title": "Lexicon of DH 2016",
+    "date": "2016-09-27",
+    "year": "2016–2017",
+    "authors": [
+      "Jojo Karlin"
+    ],
+    "originalAuthors": [
+      "Jojo Karlin"
+    ],
+    "aliases": [
+      "Jojo Karlin"
+    ],
+    "account": "Jojo Karlin",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/27/lexicon-of-dh-2016/",
+    "signals": [],
+    "paragraphs": [
+      "Across universities and conferences, even the LA Review of Books, the question seems to come up again and again: what is/are digital humanities? The understanding of what digital work in the humanities is remains in flux and with good reason -- the tools and terms are in development, and development is part of the project of DH. It can be overwhelming to address the implementation of technical tools as a theoretical practice of scholarship. It can be destabilizing to critically assess the digital tools that undergird even the most seemingly traditional modes of scholarship. There are people here to help.",
+      "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much…"
+    ],
+    "fullParagraphs": [
+      "Across universities and conferences, even the LA Review of Books, the question seems to come up again and again: what is/are digital humanities? The understanding of what digital work in the humanities is remains in flux and with good reason -- the tools and terms are in development, and development is part of the project of DH. It can be overwhelming to address the implementation of technical tools as a theoretical practice of scholarship. It can be destabilizing to critically assess the digital tools that undergird even the most seemingly traditional modes of scholarship. There are people here to help.",
+      "When I first began DH Praxis at the Graduate Center in 2014, I wrote a blog post about what I feared, though, hoped DH might mean. In the past two years, I have learned a dizzying amount about this community and conversation. Last year, Mary Catherine Kinniburgh with Patrick Sweeney introduced a workshop on the Lexicon of DH to much applause (read her recap here, and a review from a participant). I am looking forward to reprising the workshop (Thursday, September 29th at 6:30 in Room 6421) and want to use this blog post to make a few recommendations to people who are excited, annoyed, or overwhelmed by “digital humanities.” In the seemingly nebulous space of digital humanities, some basic terms can ground us tremendously.",
+      "Recommendations:",
+      "Come to this workshop and get your bearings! Don’t wait to learn about digital humanities. It’s a big field with lots of room -- it can seem impenetrable, but there are many points of entry. Much of what digital humanities hopes to be is about inclusion.",
+      "Go to as many workshops as you can! Every little bit helps, and sometimes the bits you take away are not the ones you expect. Introductory workshops can really help you see some clarity in the haze. Some of the projects and tools may seem unrelated to your interests, or you may have no idea what function the tools or topics serve. Attend anyway! Whatever the subject, you’ll find that approaching new technologies in workshops can help you see new things. You won’t be, say, programming in Python by the end of a single evening, but picking up even a half idea about what a string or \"if loop\" might be could be quite powerful. Seeing what tools are out there will help you feel more familiar with the tools you use every day.",
+      "Steep yourself in the language! Digital work can feel very cryptic, but the codes are language based. Once you start finding keys to these codes, things open up. As with any new language, it helps to see it in use and to use it. Don’t wait until you understand everything first. The nature of this is such that you will get farther faster if you work outside your comfort zone.",
+      "Poke around the websites where you spend the most time! You're already there. There's something that brought you there, whether the content, the click-bait, the obligation of class or social expectation. Once you're there, though, pause. Think about what you’re using. Most of the time, we approach these sites for the what that we came looking for. As a graduate student, you probably already analyze the things you use in the course of a day, but sharpen that critique. Look at the site. How is it built? How does it transmit information? Who is it meant for? Who uses it? What bearing does it have on your research? What information does it collect? Take notes and bring your ideas with you!",
+      "As you set about developing a project idea, cut yourself some slack. You are already doing digital humanities work, even if you don't know what it is. Learning what you can learn in digital humanities is often as daunting as the learning itself. As the terms start to make sense, you start to put together what works for your work."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.019418969715521615,
+      0.0044472021148408165,
+      0.06424797642395896,
+      0.0002387114608860438,
+      0.0004234870106910514,
+      0.49284476918169395,
+      0.0007718734995023234,
+      0.41760701059290517
+    ],
+    "words": [
+      [
+        "digital",
+        10
+      ],
+      [
+        "humanity",
+        8
+      ],
+      [
+        "tool",
+        7
+      ],
+      [
+        "work",
+        6
+      ],
+      [
+        "help",
+        6
+      ],
+      [
+        "workshop",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "3788",
+    "title": "GCDI Digital Projects Working Groups: An Introduction",
+    "date": "2016-09-27",
+    "year": "2016–2017",
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "originalAuthors": [
+      "Rachel Rakov"
+    ],
+    "aliases": [
+      "Rachel Rakov"
+    ],
+    "account": "Rachel Rakov",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/27/gcdi-digital-projects-working-groups-an-introduction/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Image by Leon Brooks , via Public-Domain-Image",
+      "Announcing the first meeting of the GCDI Digital Project Working Groups!",
+      "Held this Friday, September 30th, at 2:30pm in room 9205, in this initial meeting we will be the start of a new program run offered by the Digital Fellows that is designed to bring together communities of CUNY students who are interested in working on similar projects.",
+      "The Working Groups designed to provided sustained support for students working on similar projects. We aspire to create space for participants to share skills, learn new skills together, ask questions and collaborate on digital projects with CUNY students who share your interests. This is not a lecture-based group, but rather, a space to create community around similar projects and skills.",
+      "We currently have three planned Working Groups, which include but are not limited to:",
+      "Python Learners Working Group",
+      "Text Analysis Working Group",
+      "GIS Working Group"
+    ],
+    "fullParagraphs": [
+      "Image by Leon Brooks , via Public-Domain-Image",
+      "Announcing the first meeting of the GCDI Digital Project Working Groups!",
+      "Held this Friday, September 30th, at 2:30pm in room 9205, in this initial meeting we will be the start of a new program run offered by the Digital Fellows that is designed to bring together communities of CUNY students who are interested in working on similar projects.",
+      "The Working Groups designed to provided sustained support for students working on similar projects. We aspire to create space for participants to share skills, learn new skills together, ask questions and collaborate on digital projects with CUNY students who share your interests. This is not a lecture-based group, but rather, a space to create community around similar projects and skills.",
+      "We currently have three planned Working Groups, which include but are not limited to:",
+      "Python Learners Working Group",
+      "Text Analysis Working Group",
+      "GIS Working Group",
+      "Got a skill you'd like to learn in one of the above working groups? Come to the meeting and learn it! Got a skill you'd like to teach in one of the above working groups? Come the to meeting and learn it! Have an idea for a working group that you don't see included above! Come to the meeting and suggest it! We want to provide sustained support for as many student digital projects as we can, and we want to help you meet each other so that you can work together to support each other, as well!",
+      "During our first meeting, we will be discussing the style and format of the Working Groups, in addition to creating the Working Groups who will be meeting this semester. If you're unable to attend the first meeting but are interested in joining a Working Group, please email us at gcdigitalfellowsgmail.com",
+      "Everyone is welcome to attend!"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.040139498119266974,
+      0.0012203226423752882,
+      0.001068327885090037,
+      0.00041368441098023454,
+      0.020193791771478783,
+      0.010832675424830568,
+      0.03377080403865709,
+      0.892360895707321
+    ],
+    "words": [
+      [
+        "group",
+        13
+      ],
+      [
+        "working",
+        10
+      ],
+      [
+        "meeting",
+        7
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "skill",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19831",
+    "title": "Upcoming Workshop (9/29): The Lexicon of DH",
+    "date": "2016-09-26",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/26/upcoming-workshop-929-the-lexicon-of-dh/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The Lexicon of DH Thursday, September 29th, 2016 – 6:30-8:30pm",
+      "Room 6421",
+      "Digital humanities scholars have a treasure trove of digital tools at their fingertips, but particularly in the research phase of a project, it can be difficult to determine which ones you’ll really need. This workshop will focus on how to clearly articulate a research question that can be answered through digital humanities methods, and how to find the right tools for the job. We’ll discuss the genres and lexicon of DH, from types of text analysis to geospatial mapping, as well as online resource directories and resources at The Graduate Center. Feel free to come with your project ideas and questions.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Jojo Karlin and Kelsey Chatlosh.",
+      "Register HERE",
+      "Image Creative Commons via Flickr user Stanley Zimny"
+    ],
+    "fullParagraphs": [
+      "The Lexicon of DH Thursday, September 29th, 2016 – 6:30-8:30pm",
+      "Room 6421",
+      "Digital humanities scholars have a treasure trove of digital tools at their fingertips, but particularly in the research phase of a project, it can be difficult to determine which ones you’ll really need. This workshop will focus on how to clearly articulate a research question that can be answered through digital humanities methods, and how to find the right tools for the job. We’ll discuss the genres and lexicon of DH, from types of text analysis to geospatial mapping, as well as online resource directories and resources at The Graduate Center. Feel free to come with your project ideas and questions.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Jojo Karlin and Kelsey Chatlosh.",
+      "Register HERE",
+      "Image Creative Commons via Flickr user Stanley Zimny"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.03209992656559168,
+      0.002759976028103391,
+      0.00241621293469053,
+      0.088959618843304,
+      0.01633050786933861,
+      0.273901344417119,
+      0.04703732841782918,
+      0.5364950849240236
+    ],
+    "words": [
+      [
+        "digital",
+        4
+      ],
+      [
+        "lexicon",
+        2
+      ],
+      [
+        "humanity",
+        2
+      ],
+      [
+        "tool",
+        2
+      ],
+      [
+        "research",
+        2
+      ],
+      [
+        "project",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "3798",
+    "title": "Python resources",
+    "date": "2016-09-23",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Smyth, PhD"
+    ],
+    "originalAuthors": [
+      "Patrick Smyth, PhD"
+    ],
+    "aliases": [
+      "Patrick Smyth, PhD"
+    ],
+    "account": "Patrick Smyth, PhD",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "python",
+      "resources",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/23/python-resources/",
+    "signals": [
+      "Code & computational methods"
+    ],
+    "paragraphs": [
+      "Last week, the Digital Fellows held a workshop on the Python programming language, and the Interactive Technology and Pedagogy (ITP)program will be holding another in October. It seems like a good time to share a list of Python tutorials and resources. Before jumping into the list, remember that the Digital Fellows holds Python User Group every Wednesday from 12:00 to 2:00, and office hours on Tuesdays from 2:00 to 4:00. Also check outDigital Fellow Hannah Aizenman's recommended resources for Python, especially her list of beginner-friendly programming environments. Happy Pythoning!",
+      "Introductory Books and Tutorials",
+      "Learn Python the Hard Way",
+      "The book most frequently recommended by the Digital Fellows for those new to programming. Shaw's teaching philosophy is to make you write code first and then explain it to you, which generally seems to work. The book is available for free online.",
+      "How to Think Like a Computer Scientist"
+    ],
+    "fullParagraphs": [
+      "Last week, the Digital Fellows held a workshop on the Python programming language, and the Interactive Technology and Pedagogy (ITP)program will be holding another in October. It seems like a good time to share a list of Python tutorials and resources. Before jumping into the list, remember that the Digital Fellows holds Python User Group every Wednesday from 12:00 to 2:00, and office hours on Tuesdays from 2:00 to 4:00. Also check outDigital Fellow Hannah Aizenman's recommended resources for Python, especially her list of beginner-friendly programming environments. Happy Pythoning!",
+      "Introductory Books and Tutorials",
+      "Learn Python the Hard Way",
+      "The book most frequently recommended by the Digital Fellows for those new to programming. Shaw's teaching philosophy is to make you write code first and then explain it to you, which generally seems to work. The book is available for free online.",
+      "How to Think Like a Computer Scientist",
+      "An interactive introduction to computer science concepts using the Python programming language. This book uses its own embedded web-based code interpreter, so you won't necessarily have to use the command line from the beginning. A good introduction to Python with an emphasis on working with data.",
+      "Automate the Boring Stuff with Python",
+      "A book on automating common computing tasks with Python. If you're finding yourself using repetitive workflows or collecting, cleaning, or transferring data by hand, this book will prove useful. Available for free online.",
+      "Python for Kids",
+      "A playful introduction to Python that explains concepts in simpler terms than many comparable books. Unless you're interested, you may want to move on to another learning resource once you encounter the chapters on creating a game.",
+      "A Byte of Python",
+      "A fairly accessible general overview of Python programming concepts that is less opinionated than Learn Python the Hard Way. Also free online.",
+      "CodeAcademy: Python",
+      "An interactive tutorial for learning the basics of Python. (I recommend trying the books above first, as learning to use an IDE such as IDLE is an important part of the learning curve.)",
+      "Specialized Tutorials",
+      "Google's Python class",
+      "A non-gentle crash course in Python. Good choice of material but moves very quickly.",
+      "Python Programming for the Humanities",
+      "A serious introduction to topics in Python programming such as natural language processing, writing algorithms, and creating web applications. Not recommended for complete beginners.",
+      "References",
+      "Hitchhiker's Guide to Python",
+      "An opinionated learning resource and reference for Python. Useful for both beginning and experienced programmers.",
+      "Awesome Python",
+      "A curated list of high-quality Python modules.",
+      "Elements of Python Style",
+      "The Strunk and White of ideomatic Python programming.",
+      "Learn Python in 10 Minutes",
+      "Not really a tutorial, but decent general overview of Python for those experienced in multiple programming languages.",
+      "List of blog posts related to Python",
+      "Intermediate to experienced Python programmers might benefit from this list of blog articles covering specialized topics.",
+      "Python Book Lists",
+      "Python section in Free Programming Books",
+      "A fairly comprehensive list of Python books, including books on the Flask and Django web frameworks",
+      "Python Books",
+      "Free Python books in no particular order",
+      "Introductory Python Books",
+      "Books for prior programmers who are new to Python",
+      "Programming Language Beginner's Resources on Vodien",
+      "The Python section of this collection of resources for programming beginners shares a few other strong suggestions for further reading."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.010122140887714183,
+      0.0008703093493404503,
+      0.3523480705578064,
+      0.00029503132864249,
+      0.014401802578327818,
+      0.3778163398918838,
+      0.019458518567890888,
+      0.2246877868383939
+    ],
+    "words": [
+      [
+        "python",
+        20
+      ],
+      [
+        "book",
+        8
+      ],
+      [
+        "learn",
+        5
+      ],
+      [
+        "programming",
+        4
+      ],
+      [
+        "program",
+        4
+      ],
+      [
+        "tutorial",
+        4
+      ]
+    ]
+  },
+  {
+    "id": "3776",
+    "title": "Upcoming Workshop (9/22): Establishing a Digital Academic Identity and Intro to WordPress",
+    "date": "2016-09-20",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Events",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/20/upcoming-workshop-922-establishing-a-digital-academic-identity-and-intro-to-wordpress/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Establishing a Digital Academic Identity and Introduction to WordPress Thursday, September 22nd, 2016 – 6:30-8:30pm",
+      "The purpose of this workshop is to help you establish a digital academic identity while becoming familiar with the WordPress platform. We will focus on utilizing the CUNY Academic Commons, helping you establish your digital CV, a blog, or both. We will focus on organization and design, including theme editing, managing content, custom menus and image use. We recommend that attendees come prepared with their CV (digital format preferred) and / or a blog idea or sample blog post. If you are not already a member of the CUNY Academic Commons, we recommend that you sign up before the workshop.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Patrick Sweeney and Javier Otero Peña.",
+      "Register HERE",
+      "photo creative commons via flickr user a.dombrowski"
+    ],
+    "fullParagraphs": [
+      "Establishing a Digital Academic Identity and Introduction to WordPress Thursday, September 22nd, 2016 – 6:30-8:30pm",
+      "The purpose of this workshop is to help you establish a digital academic identity while becoming familiar with the WordPress platform. We will focus on utilizing the CUNY Academic Commons, helping you establish your digital CV, a blog, or both. We will focus on organization and design, including theme editing, managing content, custom menus and image use. We recommend that attendees come prepared with their CV (digital format preferred) and / or a blog idea or sample blog post. If you are not already a member of the CUNY Academic Commons, we recommend that you sign up before the workshop.",
+      "Participants are encouraged to bring their own laptops.",
+      "This workshop will be hosted by GC Digital Fellows Patrick Sweeney and Javier Otero Peña.",
+      "Register HERE",
+      "photo creative commons via flickr user a.dombrowski"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0027187085664266085,
+      0.002720070777237492,
+      0.00238127799963223,
+      0.0009220929270932843,
+      0.016094392407951318,
+      0.08197998070797011,
+      0.20540128472895394,
+      0.6877821918847351
+    ],
+    "words": [
+      [
+        "digital",
+        5
+      ],
+      [
+        "academic",
+        4
+      ],
+      [
+        "establish",
+        3
+      ],
+      [
+        "workshop",
+        3
+      ],
+      [
+        "common",
+        3
+      ],
+      [
+        "identity",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "19830",
+    "title": "Digital Fellows Fall Workshops Announced",
+    "date": "2016-09-13",
+    "year": "2016–2017",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Events",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2016/09/13/digital-fellows-fall-workshops-announced-2/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Workshops for the Fall 2016 Semester have been announced!",
+      "Come learn about how digital tools can help you answer your research questions. We have a wide variety of topics planned this semester.",
+      "All workshops focus on practical tools for academics with a focus on applications in research and pedagogy and are open to Graduate Center students and faculty. Registration opens a week prior to the workshop and is required for attendance. Visit the link for each workshop to register.",
+      "Introduction to Programming with Python Thursday, September 15th, 6:30-8:30 PM Registration opens September 8th",
+      "Establishing a Digital Academic Identity: Wordpress I Thursday, September 22nd, 6:30-8:30 PM Registration opens September 15th",
+      "Introduction to PressForward Friday, September 23rd, 10:00 AM – 12:00 PM Registration opens September 16th",
+      "PressForward: Train the Trainers Friday, September 23rd, 1:00–5:00 PM Registration opens September 16th"
+    ],
+    "fullParagraphs": [
+      "Workshops for the Fall 2016 Semester have been announced!",
+      "Come learn about how digital tools can help you answer your research questions. We have a wide variety of topics planned this semester.",
+      "All workshops focus on practical tools for academics with a focus on applications in research and pedagogy and are open to Graduate Center students and faculty. Registration opens a week prior to the workshop and is required for attendance. Visit the link for each workshop to register.",
+      "Introduction to Programming with Python Thursday, September 15th, 6:30-8:30 PM Registration opens September 8th",
+      "Establishing a Digital Academic Identity: Wordpress I Thursday, September 22nd, 6:30-8:30 PM Registration opens September 15th",
+      "Introduction to PressForward Friday, September 23rd, 10:00 AM – 12:00 PM Registration opens September 16th",
+      "PressForward: Train the Trainers Friday, September 23rd, 1:00–5:00 PM Registration opens September 16th",
+      "The Lexicon of DH Thursday, September 29th, 6:30-8:30 PM Registration opens September 22nd",
+      "Databases Part I Tuesday, October 4th, 6:30-8:30 PM Registration opens September 27th",
+      "Introduction to iOS Programming Tuesday, October 18th, 6:30-8:30 PM Registration opens October 11th",
+      "Databases Part II Thursday, October 13th, 6:30-8:30 PM Registration opens October 6th",
+      "So You Want to Make a Map: Starting a GIS Project Wednesday, October 26th, 6:30-8:30 PM Registration opens October 19th",
+      "Introduction to Physical Computing with Arduino Wednesday, November 9th, 6:30-8:30 PM Registration opens November 2nd",
+      "Introduction to Tableau Public Wednesday, November 16th, 6:30-8:30 PM Registration opens November 9th",
+      "Introduction to Natural Language Processing with NLTK Thursday, November 17th, 6:30 – 8:30 PM Registration opens November 10th"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.001412061462967408,
+      0.02394151064940486,
+      0.0012368044656998216,
+      0.0004789229355813675,
+      0.0008496351268092548,
+      0.012541001248673767,
+      0.0015485972935986856,
+      0.9579914668172648
+    ],
+    "words": [
+      [
+        "open",
+        14
+      ],
+      [
+        "registration",
+        13
+      ],
+      [
+        "september",
+        11
+      ],
+      [
+        "october",
+        7
+      ],
+      [
+        "introduction",
+        6
+      ],
+      [
+        "november",
+        6
+      ]
+    ]
+  }
+]

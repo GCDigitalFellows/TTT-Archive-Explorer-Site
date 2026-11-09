@@ -1,0 +1,380 @@
+[
+  {
+    "id": "24863",
+    "title": "A few important considerations when making charts and graphs",
+    "date": "2026-10-27",
+    "year": "2026–2027",
+    "authors": [
+      "Sophie Bala"
+    ],
+    "originalAuthors": [
+      "Sophie Bala"
+    ],
+    "aliases": [
+      "Sophie Bala"
+    ],
+    "account": "Sophie Bala",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital Fellows",
+      "Digital GC",
+      "Guides, Tutorials, Reviews"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/10/27/a-few-important-considerations-when-making-charts-and-graphs/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "While there are no hard-and-fast rules for creating perfect charts and graphs, understanding different components to consider is often helpful in fully realizing the potential of a chart or graph to communicate information accurately and appealingly. Not only is selecting a specific type of chart important, but the details, including scale, color, sorting, spacing, and even the words included in the image can be the difference between a helpful or confusing chart. In this post, I will provide a brief breakdown of a couple of these considerations.",
+      "A graph shared by the National Review Twitter account, retrieved from the Introduction to Information Design and Data Visualization course on openvisualacademy.org",
+      "One of the most important considerations when creating a chart is the scale of the axis or bars. The above image on the left shows a tweet from the conservative publication The National Review that includes a line graph of the average…"
+    ],
+    "fullParagraphs": [
+      "While there are no hard-and-fast rules for creating perfect charts and graphs, understanding different components to consider is often helpful in fully realizing the potential of a chart or graph to communicate information accurately and appealingly. Not only is selecting a specific type of chart important, but the details, including scale, color, sorting, spacing, and even the words included in the image can be the difference between a helpful or confusing chart. In this post, I will provide a brief breakdown of a couple of these considerations.",
+      "A graph shared by the National Review Twitter account, retrieved from the Introduction to Information Design and Data Visualization course on openvisualacademy.org",
+      "One of the most important considerations when creating a chart is the scale of the axis or bars. The above image on the left shows a tweet from the conservative publication The National Review that includes a line graph of the average annual global temperature from the year 1880 through 2015. The vertical axis for temperature ranges from 0 through 110 degrees Fahrenheit. The line looks, at first glance, almost completely flat, showing a very slight increase over time in average temperature. In this case, as the above example shows, choosing a scale that is overly large conceals or understates the magnitude of the changes over time. In this case, the tweet was aimed at misleading the public into believing that climate change or global warming is not truly a pressing issue. The choice of scale here was crucial to the misleading nature of the graph.",
+      "An example bar chart with meaningless colors created by Sara Feinstein",
+      "An example bar chart with color used for emphasis created by Sara Feinstein",
+      "Another consideration is color. Color is increasingly a useful component, especially when graphs are displayed digitally. Color can be used for emphasis or be used to convey a particular theme, such as using colors associated with emotions in a graph showing moods or using the colors of a country’s flag when displaying a graph comparing country-level data. The image above shows a comparison between two bar graphs. The graphs are both identical except for the colors of the bars. The top image shows each bar colored differently, whereas the one below shows all the bars colored blue except one that is orange. This example shows how color can be used in this case to emphasize one particular bar, the orange bar, in comparison to the rest. However, color may mean different things to different people or in different cultural contexts. This is why color should always be critically considered when used, so that it provides greater clarity, not less.",
+      "A graph attempting to represent average female height per country, shared by Sabah Ibrahim on Twitter, origin unknown (https://x.com/reina_sabah/status/1291509085855260672)",
+      "A third consideration is size. The size of the bars in a bar chart, for example, or the dots in a scatter plot should be visually inspected to ensure that they do not appear cramped. Like color, size can also be a way to emphasize a specific point (by increasing the size of a dot in a scatter plot or point on a line graph, for example). However, as the above example shows, size can also be misleading. The image above shows a bar chart displaying the average female height in several different countries. To emphasize their chosen theme and provide a more interesting visual display, the bars are displayed as human-shaped figures, and those for the tallest few countries are displayed larger (not merely taller) compared to the shorter average height countries. In this case, the figure uses size increases to attempt to reinforce the findings of average height; however, in fact, the sizing makes it seem as if Latvia is populated by giants in comparison to India. In this case, the size differences don’t make the story conveyed by the chart clearer.",
+      "If you want to learn more about making effective charts and graphs, check out our upcoming events on our calendar page, or read more of our Tagging the Tower blog posts!",
+      "Featured image created by Sara Feinstein"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.01534180599961299,
+      0.0005563256535276306,
+      0.018229944409493472,
+      0.00018859213317947728,
+      0.745536823892959,
+      0.21785337310239952,
+      0.0006098126553100158,
+      0.0016833221535177973
+    ],
+    "words": [
+      [
+        "color",
+        15
+      ],
+      [
+        "bar",
+        13
+      ],
+      [
+        "graph",
+        12
+      ],
+      [
+        "chart",
+        11
+      ],
+      [
+        "show",
+        10
+      ],
+      [
+        "example",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "24843",
+    "title": "CityCamp NYC Part II: Unpacking Civic Tech, Public Interest Tech, and Unconferences",
+    "date": "2026-10-19",
+    "year": "2026–2027",
+    "authors": [
+      "Ian G. Williams"
+    ],
+    "originalAuthors": [
+      "Ian G. Williams"
+    ],
+    "aliases": [
+      "Ian G. Williams",
+      "Ian Williams"
+    ],
+    "account": "Sophie Bala",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "cuny",
+      "Digital Fellows",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/10/19/citycamp-nyc-part-ii-unpacking-civic-tech-public-interest-tech-and-unconferences/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "Author's note: Join the GC Digital Fellows at the NYC PIT Pop Up on Thursday, November 12th, 2026 for an \"opne house on the road\" from 1-5pm. RSVP here. You can learn more about the series our event is part of at https://nycpitpopup.org/the-state-of-the-state-public-interest-technology-ny-regional-hub-pit-ny-activation-at-nyc-pit-pop-up/.",
+      "In Part 1 of this series, I wrote a detailed recap of CityCamp NYC, held September 19, 2026, at Hunter College. Being a recap, it used quite a lot of terminology that may be unfamiliar to readers of Tagging The Tower. Here, I provide some background on key ideas and concepts that fueled and circulated at CityCamp, namely civic technology, public interest technology, and open space technology, and then discuss implications of the unconference format for academic settings.",
+      "Since CityCamp NYC occurred, I attended a civic technology AI hackathon hosted by CUNY PIT Lab, State Capacity Ecosystem, and Civic…"
+    ],
+    "fullParagraphs": [
+      "Author's note: Join the GC Digital Fellows at the NYC PIT Pop Up on Thursday, November 12th, 2026 for an \"opne house on the road\" from 1-5pm. RSVP here. You can learn more about the series our event is part of at https://nycpitpopup.org/the-state-of-the-state-public-interest-technology-ny-regional-hub-pit-ny-activation-at-nyc-pit-pop-up/.",
+      "In Part 1 of this series, I wrote a detailed recap of CityCamp NYC, held September 19, 2026, at Hunter College. Being a recap, it used quite a lot of terminology that may be unfamiliar to readers of Tagging The Tower. Here, I provide some background on key ideas and concepts that fueled and circulated at CityCamp, namely civic technology, public interest technology, and open space technology, and then discuss implications of the unconference format for academic settings.",
+      "Since CityCamp NYC occurred, I attended a civic technology AI hackathon hosted by CUNY PIT Lab, State Capacity Ecosystem, and Civic Roundtable, here at The Graduate Center, which had me thinking about some of these terms and their significance.¹ My intent here is not to be exhaustive, but rather to offer some entry points for readers who are curious about ways that technologies are being designed and deployed with the intent of improving society and institutions.",
+      "Civic Tech and Public Interest Technology",
+      "Civic technology (or “civic tech”) is a polyseme: a term that holds multiple, contested meanings. Broadly speaking, the term emerged from an intersection of government digitalization and reform, civil society activism, and wider experimentation with participatory technologies that promised greater transparency of government decision-making, modernization of government services and operations, and an accompanying expansion of democratic practices and cultural norms.² Many early civic tech communities emerged from hacker, peer production, and online subcultures that highly prized participatory media and technologies, with a commitment to realizing the democratizing promise of freely and openly available information on the Internet.³ These groups often organized as ephemeral and informal organizations and networks, such as meetups, some of which stabilized and formalized over time.⁴ Emerging concurrently with other terms such as e-government, government 2.0, and civics technology, the term “civic tech” was first popularized by a 2013 report published by the Knight Foundation, and it has experienced a resurgence in popularity in Google search history over the last year. Many civic tech initiatives and networks exist around the world, many of which are supported by the Open Government Partnership. One of the most systematically categorized attempts to map civic tech is the crowd-sourced platform Civic Tech Field Guide, which has over 12,700 entries. Globally, there are several conveners of conferences that focus on civic tech, such as The Impacts of Civic Technologies Conference (TICTeC), first organized by the British NGO MySociety in 2015.⁵",
+      "The term “public interest technology” (PIT) emerged in the mid 2010s, and has a decidedly US flavor.⁶ PIT was formalized around a new funding initiative spearheaded by the Ford Foundation; then, with the New America Foundation and the Hewlett Foundation, The Public Interest Technology-University Network (PIT-UN) was organized to advance “the study and application of technology expertise to advance the public interest, generate public benefits, and promote the public good.” Launched in 2019, this initiative sought to create pathways of applied research towards technology for the public interest, which followed public interest law. CUNY was the first public university member of PIT-UN, through PIT@CUNY and the CUNY PIT Lab. CUNY now leads the NY PIT regional hub.",
+      "Today PIT (or “PiTech,” as Cornell University’s program calls it) and civic tech often get used interchangeably, and their boundaries (and meanings) are somewhat fluid. The term is most recently popularized by the creation of the NYC PIT Crew by New York City Mayor Zohran Mamdani’s administration; the first team was hired to create an enforcement mechanism for the Department of Consumer and Worker Protections’ Click to Cancel rule mandating that companies simplify their processes for New Yorkers to cancel subscription services, and the model is expanding to address a range of other issues and projects. Previously, many services, including gyms and subscription apps, made it onerous and sometimes quite costly to terminate recurring monthly service fees. The PIT Crew built a platform for tracking violations and enforcement of this.",
+      "While there is excitement around PIT and the civic tech ecosystem here in NYC, in recent years the civic tech community more broadly faced a reckoning with some of its earlier (techno)optimism. The widespread proliferation of digital technology and government modernization seemed, in recent years, to be unable to staunch a growing tide of democratic decline, authoritarian populism, disinformation, regulatory capture, and oligarchic concentration in and around the technology industry. In the US, the creation of DOGE and the dismantling of the US General Service’s in-house service design studio, 18F, and the US Digital Service Corps, signaled a turn towards a very different idea of digital statecraft at the federal level. The civic tech world grappled with questions of what technologies can expand democracy, and what technologies can defend it, in a time of global democratic decline? They are difficult questions that move beyond the assumption that digital technologies are inherently democratizing, and inherently deliver on improved society and institutions.",
+      "Open Space Technology and Unconferences",
+      "This brings me to the final concept to discuss here: Open Space Technology (OST), and related technologies of organization and knowledge dissemination that incorporate OST. While civic tech and public interest tech by and large firmly tie their imaginaries to digital technologies, Open Space Technology emerged in the 1980s, before the Web 1.0 era.⁷ It is attributed to Harrison Owen, an organizational consultant and former Episcopoal priest. Having organized highly structured conferences and events, Owen came to reject them and saw potential for participant engagement and mutual learning in the unstructured portions, such as during coffee breaks. Like civic tech, OST operates from an assumption that democratizing social structures and interactions can lead to better outcomes. In this case, it is through a technology of deliberate un(der)structuring of time designed to solicit input from participants on the agenda and contents of the day. In its “purest” instantiations, Open Space Technology begins and ends a day with all participants sitting in a circle.",
+      "Open Space Technology has gone through several waves of popularity, and been institutionalized through unconferences and various “camps.” The Web 2.0 era brought about “foocamp” in 2003, which then became BarCamp in 2005.⁸ From there many themed camps emerged, which led to the birth of CityCamp, first hosted in Chicago in 2010, and then revived in 2025 around the world (including NYC).⁹ CityCamp, as an application of Open Space Technology, describes itself as a 'sandbox' to play with and workshop civic ideas. It aims to create \"a marketplace of ideas\" organized by four main principles:",
+      "Whoever comes is the right people",
+      "Whatever happens is the only thing that could have",
+      "Whenever it starts is the right time",
+      "When it’s over, it’s over",
+      "The basic flow of an event that follows OST is that unlike a conference or a more structured program, the entire event is designed to facilitate a spontaneous and fluid discussion–creating a participatory democratic experience where attendees can make proposals on agenda items, vote on which they would like to advance, and then follow “the law of two feet” to decide where they want to go. In OST it is socially permissible to leave one session and join another. When well-run, it's a dynamic experience that leaves room for people who might not have planned ahead and made deadlines - or had the experience and rehearsals of creating proposals and agendas - to meaningfully contribute to cultivating communities of inquiry.¹⁰ It also creates a collective deliberation process where what gets advanced to a session is not the process of a blind peer review or a closed committee, but instead assigned to the entire voting group. Watch a short video here, or read the full guide here.",
+      "The Allure of OST and Unconferences",
+      "I have wondered why Open Space Technology and unconferences are appealing to communities like civic tech. One thing that fits is that they afford open time for emerging technologies and practices, as well as the possibility of spontaneous exchanges and play. The dynamic and flexible approach to an unconference, which still has the goal of idea generation and knowledge exchange, also fits with some of the principles of agile project management that tech companies and cultures often embrace. In principle anyone has expertise and could lead a session, and if everyone is on equal footing, that eliminates speaker fees and other overhead dimensions of conferences. But I believe the appeal extends beyond the tech corner of knowledge workers. As an academic, the unconference format has an allure. Having been to many, many academic conferences that followed a highly and schedule structured format (and more than once having to wrangle scheduling chaos when multiple sessions end up overlapping, or things get moved around by organizers), I will admit that often the most meaningful and impactful conversations and interactions occur in those gaps between or when things deviated from a schedule - that might include skipping part of a conference to chat with an old friend, or visit something in the area such as a museum, or just taking a long walk and rambling around to find a sense of connection between the placelessness of hotel conference rooms and the space in which the conference occurs. Those meandering trips and conversations have often been the genesis point of future projects, papers, and conference presentations. Being in a space with others, with time carved out to be present and some preparation for exchanging ideas seems to be a key part of it.",
+      "Academia seems less inclined to adopt the Unconference format and Open Space Technology, but there are moments where it’s experimented with.¹¹ At CUNY, CityCamp NYC was the most deliberately unconference-y thing I’ve experienced. The 2022 PIT UN Convening at CUNY, organized by PIT @ CUNY, used some aspects of Open Space Technology for discussions. Searching around on the Internet, I learned that CUNY hosted an UnTechnology UnConference in 2016 (but I can’t find much on it). Another unconference that uses Open Space Technology that might speak to Tagging The Tower readers is THATCamp (“The Humanities and Technology Camp”), a digital humanities focused unconference, which ran from 2012-2020 out of the Roy Rosenzweig Center For History and New Media at George Mason University. The Rosenzweig Center stopped organizing THATCamp after 2020, but shared their materials for organizing, and supported other universities hosting their own versions. Three instances of THATCamp were held in 2026: a virtual one organized by Michigan State College, an in-person one held at Tufts University as part of BostonDH, and one hosted by the Institute for Digital Research In The Humanities at the University of Kansas. Perhaps a group within the CUNY ecosystem would take an interest in organizing an iteration of THATCamp, or another form of unconference?",
+      "I learned of this hackathon the day it occurred, and found it fascinating enough to stay until the end. I also thought that it could have been improved through involving Graduate Center students in PhD programs such as Social Welfare, Critical Psychology, and Urban Education in the hackathon process. Read State Capacity Ecosystem’s summary of the event here: https://substack.statecapacityecosystem.com/p/on-building-a-community",
+      "Donald Moynihan just published a paper tracing the genealogy of civic tech in the US Federal government leading up to DOGE, with some brief mentions of NYC’s civic tech history: Moynihan, D. (2026). From Civic Tech to DOGE: The Role of Tech Movements in the American Administrative State. Public Administration. onlinelibrary.wiley.com/doi/10.1111/padm.70094",
+      "Matthew Wisknioski’s recent book on the longer history of innovators in US culture covers many precursors to civic tech’s emergence over the 20th century. Wisnioski, M. (2025). Every American an Innovator: How Innovation Became a Way of Life. MIT Press. https://direct.mit.edu/books/oa-monograph/5968/Every-American-an-InnovatorHow-Innovation-Became-a",
+      "BetaNYC, which organized CityCamp NYC, is an example of this history, having started as a meetup in 2008. See this short piece by Noel Hidalgo, Jazzy Smith, and Katie Cumiskey: https://pit-un.org/growing-nycs-civic-tech-ecosystem/",
+      "I attended TICTeC in 2025 when it was held in Mechelen, Belgium. I wrote a short reflection about it here: https://centerforthehumanities.org/a-summer-forging-connections-between-civic-tech-digital-literacy-and-democracy/",
+      "GCDI Deputy Director Lisa Marie Rhody, PhD, taught a course on public interest technology in Fall 2023, which I was not able to enroll in due to a scheduling conflict, and still feel like I missed out. The class Commons page can be viewed here https://pit2023.commons.gc.cuny.edu/",
+      "BetaNYC made an interesting argument for a longer view of technology for the public good in testimony written by Associate Board Manager Jordan Shapiro for the NYC Committee on Government Efficiency (COGE) hearings in summer 2026, using the example of the Croton aqueduct to argue that NYC should embrace a strategy of digital sovereignty and owning its underlying technology infrastructure. https://www.beta.nyc/2026/06/11/coge-testimony/",
+      "A detailed history of the early emergence of camps can be found here: Eberhardt, T., & Hellmann, K. U. INSIGHTS ON BARCAMPS–EMPIRICAL RE-SEARCH RESULTS ON A STILL YOUNG EVENT FORM. Dialogue, 2, C2C. https://www.barcampus.de/wp-content/uploads/2022/02/Insights-on-Barcamps-1.pdf",
+      "For an analysis of the emergence and politics of BarCamp, read: Sorochan, C. (2012). Bar camps: Reflections on the ideology of participation and the politics of knowledge production. Seachange 1(3): 11-24. https://mcgill.scholaris.ca/items/0858a14e-a23f-4813-b1ae-50da69b6429d",
+      "That said, like many egalitarian and ‘flat’ organizational forms, social hierarchies emerge, often invisibly. For instance as a friend pointed out that those who lined up first at CityCamp NYC to pitch sessions were all observably men. For a scholarly analysis of unconferences and their premises, see King, D., Griffin, M., & Bell, E. (2023). Inclusion and exclusion in management education and learning: a deliberative approach to conferences. Academy of Management Learning & Education, 22(1), 40-62. https://journals.aom.org/doi/abs/10.5465/amle.2020.0089. For a more recent overview of flat, horizontal, and self-organizations, see this syllabus that Seth Frey put together on his course, “Organization Without Domination.” https://ucdavis.app.box.com/s/8rc39cl4dvlmay6v71cpc4i0ys8w52bh",
+      "In doing some reading for this post I came across a very interesting reflection on a social work unconference that raised a number of feminist and anti-oppressive concerns for the format, as well as touching upon the links between unconferences and critical pedagogy. LaPointe, L., Mehrotra, G., & O’Brien, P. (2011). Being unsettled as a space of possibility: Diverse perspectives on the unconference. Affilia, 26(4), 349-356. https://journals.sagepub.com/doi/abs/10.1177/0886109911428205",
+      "Featured Image Credit: NASA/GSFC/Debbie McCallum, “NASA Open Space 2 Innovate”"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.031103692103201564,
+      0.39046805544409247,
+      0.00014983841581218802,
+      0.004606936247905224,
+      0.007381196840422021,
+      0.16709984038920264,
+      0.0010973949860084578,
+      0.39809304557335545
+    ],
+    "words": [
+      [
+        "technology",
+        38
+      ],
+      [
+        "civic",
+        25
+      ],
+      [
+        "tech",
+        23
+      ],
+      [
+        "pit",
+        15
+      ],
+      [
+        "space",
+        15
+      ],
+      [
+        "public",
+        14
+      ]
+    ]
+  },
+  {
+    "id": "24783",
+    "title": "CityCamp NYC: Contained Chaos and Civic Technology",
+    "date": "2026-10-05",
+    "year": "2026–2027",
+    "authors": [
+      "Ian G. Williams"
+    ],
+    "originalAuthors": [
+      "Ian G. Williams"
+    ],
+    "aliases": [
+      "Ian G. Williams",
+      "Ian Williams"
+    ],
+    "account": "Sophie Bala",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "#DigitalGC",
+      "Digital Fellows",
+      "Digital GC"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/10/05/citycamp-nyc-2026-open-space-technology-for-a-day/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "On a Saturday in mid-September, my wife and I got up early, headed into Manhattan, and spent our day at Hunter College, attending CityCamp NYC, a local instance of civic/public interest technology (PIT) unconference hosted by the NYC-based nonprofit BetaNYC. CityCamp describes itself as a space “where civics meet community” to “foster civic collaboration and innovation.” I have attended many conferences and institutes in my academic studies and professional career, and quite a few of BetaNYC’s events. They typically follow structured formats and schedules, often with seemingly every minute planned out (I have learned over time that I can’t take it all in). For this unconference, I wasn’t sure what to expect. What might I learn? Whom might I spend time with? Would it be a day full of self-styled ‘builders’ pitching their vibe-coded urban dashboards? Would it be a day of chaos (and if so, what kind)? Would I feel drawn to pitch my own…"
+    ],
+    "fullParagraphs": [
+      "On a Saturday in mid-September, my wife and I got up early, headed into Manhattan, and spent our day at Hunter College, attending CityCamp NYC, a local instance of civic/public interest technology (PIT) unconference hosted by the NYC-based nonprofit BetaNYC. CityCamp describes itself as a space “where civics meet community” to “foster civic collaboration and innovation.” I have attended many conferences and institutes in my academic studies and professional career, and quite a few of BetaNYC’s events. They typically follow structured formats and schedules, often with seemingly every minute planned out (I have learned over time that I can’t take it all in). For this unconference, I wasn’t sure what to expect. What might I learn? Whom might I spend time with? Would it be a day full of self-styled ‘builders’ pitching their vibe-coded urban dashboards? Would it be a day of chaos (and if so, what kind)? Would I feel drawn to pitch my own session? Would my wife, since she led one last year (on homelessness and the prison-to-shelter pipeline)? What would my experience be like in comparison to my wife’s - her interests decidedly more policy-oriented, her views on emerging technologies such as AI far more skeptical? How different would our days be?",
+      "I was pleasantly surprised by the variety of topics and discussions that occurred throughout the day, and felt content to participate, observe, and not organize a session. Between our different sessions, we participated in discussions on a planned NYC bill of Internet rights, using digital tools to support tenant organizing, accessibility and optical character recognition (OCR) supports for city documents and Mayoral executive orders, “low-tech” approaches to civic tech, and organizing to win community benefits agreements from data center developers.",
+      "CityCamp NYC Recap",
+      "Opening The Day",
+      "Opening remarks in Thomas Hunter Hall set the tone, where BetaNYC leaders - Noel Hidalgo, Jordan Shapiro, and Gabrielle Langston - remarked how the current conditions are opportune at the city level: the Mamdani administration's policy framework is broadly aligned with the values of NYC's civic tech community, and there is opportunity to advance specific, tangible proposals on tech policy, often through the framing of improving public services, as well as experiment with new ideas in tech spaces, where people are vibe-coding and creating new sorts of apps and tools, and there is widespread support by the NYC City Council for public-facing AI literacy programming. After opening remarks, participants were encouraged to write out a brief proposal using a structured, double-sided cardstock paper, and then lined up on stage to give brief pitches of their ideas. No lengthy abstract required, just a quick and concise overview of the topic, with some suggested prompts and formats on the pitch cards handed out to participants. The session pitches were then entered into a live spreadsheet (\"The Board\") which included the day's schedule and notes, as it evolved. After our opening ceremonies, we broke for snack and coffee, and participants used their allotted stickers (four dots each) to vote in favor of session proposals. Those that were clearly ahead were assigned slots in the first scheduled session, unless it was indicated by a facilitator that they needed a later time slot. The day's schedule would repeatedly be built out this way, until it was time to reconvene and then meet for an optional happy hour nearby. Included in the schedule were sessions organized by colleagues from the CUNY PIT Lab, and Metagov.",
+      "The session pitches",
+      "Session One - Internet Rights in NYC",
+      "The first session I attended, “An Internet Bill of Rights” focused on soliciting ideas for an NYC Bill of Internet Rights, something that the Mamdani administration hopes to advance this year. The group had a robust discussion about how \"Internet rights\" are defined and scoped by policy and law: access, literacy, skills, surveillance, and equity all came up. Questions were raised about rights versus responsibilities, and what happens when digital government services are inaccessible to people most in need of them - often, library-based technology supports such as digital navigators end up plugging the gaps. Another dimension that came up was about surveillance - both by law enforcement (such as the NYPD's backdoor camera access through NYCHA's Big Apple Connect program) and corporations (such as through surveillance pricing, the bombardment of ads that is the contemporary Internet browsing experience, and the many things that would be surfaced by \"right to delete\" legislation). To me, this session was particularly interesting as a collective sensemaking process, and it made me think about how NYC would benefit from more open discussions about widely used and important concepts related to digital technologies.",
+      "Former GC Digital Fellow Sam O’Hana at the end of his session",
+      "Session Two - Digital Tenant Activism",
+      "The second session I attended, “A Tenant Activist Litigation Data Dashboard,” organized by former Digital Fellow Sam O'Hana, discussed the possibilities for organizing tenants in legal disputes with their landlords, and how to share data and information. Sam and I have collaborated in various NYC civic tech-related spaces for several years now; he was a panelist for the NYC School of Data 2024 talk on digital humanities and public interest technology, and I joined a panel he organized in 2025 on open data and affordable housing advocacy. At the 2025 CityCamp NYC, Sam organized a discussion on building simple, static websites for nurturing a digital solidarity network for tenant organizing, and this year's discussion continued many of these themes. The room had a rich conversation about the various touchpoints around tenant rights, housing organizing efforts, existing data sets useful to tenants and the organizations supporting them, personal experiences with organizing and housing court, and the challenges of accessing reliable state-level data such as DHCR lists of rent-stabilized units, and the state's stalled and significantly watered-down implementation of the New York State LLC Transparency Act. The discussion drew on my pre-PhD experience as a social worker in supportive housing, and the various forms of technical and bureaucratic knowledge I had to draw on in that job, as well as strong memories of tenants' lived experiences navigating these bureaucratic and legal systems - and a few times I went to housing court.",
+      "Third Session - A Pause",
+      "My wife and I made full use of the open, “law of two feet” unconference format and skipped the third session, wanting to take some time in the afternoon to pause and reflect after a lunch where we ran into friends from various networks and organizations: city government, local nonprofits, the CUNY PIT Lab, Metagov, Data & Society, and Decentral Park to name a few. In that break, we shared our reflections on the sessions we participated in, then took some time to read and write notes. Reflecting on all of the ideas and activities, I felt alive and also a bit exhausted. This is a place where it feels good to be a part of a community of tinkerers, activists, scholars, advocates, bureaucrats, entrepreneurs, hackers, builders, innovators, and concerned citizens.",
+      "Fourth Session - Organizing Around Data Centers",
+      "In the last session I attended, “Big Tech, Local Terms: Data Center Development” was a riveting conversation about organizing to negotiate community benefits agreements in response to the recent boom in data center development and souring public opinion on it. The facilitator walked us through a simulated scenario of a developer coming into a small town to create a data center, and we were all prompted to imagine the various known and unknown costs, risks, and potential benefits. The conversation spanned job creation and training, tax breaks, environmental hazards, community compute, political opportunities, NDAs, competing perspectives on data center development, and the current year-long moratorium on hyperscale data centers signed into law by New York Governor Kathy Hochul. A question of who was “in favor of data centers” was raised, and one brave individual identified themselves as such. The history of other development schemes that faded, such as the dead malls phenomenon, also came up, leaving me wondering what the data center boom looks like from that vantage point.",
+      "Closing out - Celebrating Civic Innovation",
+      "The closing ceremony reflected on the day, featured remarks from City Council Member Gail Brewer (who championed NYC's Open Data legislation), and a Civic Innovators' award ceremony, with two recipients: the multilingual worker justice platform Reclamo AI and The New York City Council’s Legislative Division Web Development Unit, which reflected diverse interventions and organizational locations of civic tech in action. We then split off into a happy hour nearby, and in a rather exhausted state, I made it through the last leg of socializing.",
+      "Overall, CityCampNYC was an exhilarating day with many possibilities and ideas to share - far more than can be encapsulated in this blog post- many of which my wife and I discussed that evening over dinner at a diner in the Upper East Side, before wandering home after with a brief detour to take the Roosevelt Island tram in a rare moment when it was nearly empty.",
+      "A view of The East River from The Roosevelt Island Tram",
+      "In the second post for this series, I will explain three concepts of technology that pinned CityCamp NYC together: civic, public interest, and open space. In the meantime, you can also read BetaNYC’s official recap of the CityCamp NYC here.",
+      "It’s worth commending BetaNYC for their strong commitments to accessibility, including providing childcare at their conferences and unconferences",
+      "I will elaborate on civic tech’s definition in the follow-up post, but put concisely, it is the use and practice of technologies (usually computational and data-based) for “social good,” often through improvement of public and community services and facilitation of civic engagement and civil society. See Civic Tech Field Guide’s expansive definition under “Terminology.”",
+      "It is worth noting that the values and ideologies operating within civic tech spaces are heterogeneous, but it is a very different set of circumstances advocating for policies with a democratic socialist administration than it was with several previous administrations who positioned themselves as “tech mayors,” often embracing deregulation of industry, public-private partnerships, and speculative claims about new technologies’ transformative potential. For a deeper read on this and New York City, see Sharon Zukin’s 2020 book The Innovation Complex: Cities, Tech, and The New Economy: https://academic.oup.com/book/33657",
+      "All photos in this post were taken by Ian Williams"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.021318352729782126,
+      0.4034258825698097,
+      0.00019304263396261413,
+      0.005935294383438933,
+      0.01654213363601948,
+      0.1543315460156943,
+      0.020167554835819616,
+      0.37808619319547315
+    ],
+    "words": [
+      [
+        "session",
+        19
+      ],
+      [
+        "data",
+        18
+      ],
+      [
+        "nyc",
+        15
+      ],
+      [
+        "civic",
+        13
+      ],
+      [
+        "tech",
+        13
+      ],
+      [
+        "organize",
+        12
+      ]
+    ]
+  },
+  {
+    "id": "24691",
+    "title": "Welcome Back Fall '26!",
+    "date": "2026-09-18",
+    "year": "2026–2027",
+    "authors": [
+      "Sophie Bala"
+    ],
+    "originalAuthors": [
+      "Sophie Bala"
+    ],
+    "aliases": [
+      "Sophie Bala"
+    ],
+    "account": "Sophie Bala",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Sophie Bala",
+    "tags": [
+      "Digital GC",
+      "GCDI Updates",
+      "News",
+      "Opportunities",
+      "Resources"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/09/18/welcome-back-fall-26/",
+    "signals": [],
+    "paragraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows are excited to welcome you all back to a new semester! Below you will find resources, workshops, and opportunities we have been developing to help you continue to learn and advance your digital scholarly projects.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual and in-person events this semester!",
+      "Fall 2026 Opportunities",
+      "The variety of our offerings means we have something for everyone. This semester we…"
+    ],
+    "fullParagraphs": [
+      "The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows are excited to welcome you all back to a new semester! Below you will find resources, workshops, and opportunities we have been developing to help you continue to learn and advance your digital scholarly projects.",
+      "As you transition back to the academic year, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual and in-person events this semester!",
+      "Fall 2026 Opportunities",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual and in-person workshops, one-on-one consultations, and support through our working groups. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons for regular updates, to follow us on Bluesky at @digitalfellows.bsky.social and @cunygcdi.bsky.social, and to be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project? Try one of these:",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet remotely – via Zoom, Teams, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice, and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed virtual workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Be sure to also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer remote and in-person workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. In-person workshops will be held in The Digital Scholarship Lab (GC Room 7414) unless otherwise indicated. Registration is required, and information about how to register can be found on our website. Be sure to double-check whether the workshop is in-person or on Zoom when registering!",
+      "Our full workshop schedule is still being finalized, but our current offerings include:",
+      "A Scholar’s Introduction to Git and GitHub: September 16th, 2:00 - 3:30 pm IN PERSON",
+      "Introduction to R: September 24th, 4:00 - 5:30 pm IN PERSON",
+      "Mapping Your Research: An Introduction to GIS: September 29th, 10:00 - 11:30 am ON ZOOM",
+      "Workshop space is limited, so:",
+      "1) Be sure to register for workshops you know you want to attend and;",
+      "2) If you realize you can’t make it, please cancel your RSVP so someone else can attend!",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources including The Open Knowledge Fellowship Reader. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold’s reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, join the Building Manifold Development Blog, join the Manifold Community Slack channel, and visit the Manifold website for current documentation. You can also contact Manifold Co-PI Matthew K. Gold or Manifold Digital Fellow Wendy Barrales.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. Join a vibrant community of over 60,000 members, over 42,000 sites, over 2,200 groups, and over 3,500 courses! Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms, you might see associated with GCDI are some amazing partners — the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, the New Media Lab, and the CUNY AI Lab (CAIL). The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "Beyond workshops, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such including tools, and methods as data and databases, research design, mapping, programming (including Python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Which Digital Tool Should I Use? By Hannah Aizenman",
+      "AI Literacy for Research: Why Operational Fluency Is Not Enough by Parisa Setayesh",
+      "What to Consider When Planning a Digital Project by Kristen Hackett",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "6 Tools for Digital Safety in the Age of Surveillance by Anna Corbett",
+      "The GCDI Guide to Password Management – GC Digital Fellows by Sam O’Hana",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective Wiki, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please don’t hesitate to contact the Digital Fellows at gc.digitalfellows@gmail.com with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "Your Digital Fellows,",
+      "Zhilang, Shokran, Ian, Meha, Sara, Peyton, and Sophie",
+      "Note: This post by GC Digital Fellow Sophie Bala is revised and updated from the post by GC Digital Fellows Tuka Al-Sahlani in 2025, Rebecca Krisel in 2023, Zachary Lloyd in 2022, Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018, Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019.",
+      "Featured Image: Fall Leaves. Credit: Dan Hutchinson. Repository: 500px"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

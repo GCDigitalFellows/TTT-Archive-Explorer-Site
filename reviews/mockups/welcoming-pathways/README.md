@@ -4,6 +4,14 @@ Ian G. Williams approved public promotion on November 4, 2026. This directory re
 
 The sections below record earlier discussion stages. Their prior nonproduction/approval statements are historical and are superseded by the approved public promotion. Scientific uncertainty, source rights and limits on human verification remain in force.
 
+## Modular browser build
+
+The current local implementation writes a small `index.html` with external browser assets and saved-data files under `web/`. Page markup lives in seven editable `views/*.html` files plus the shared `template.html` shell. [Build, loading, editing and verification methods](../../../methods/modular_methods.md) explain source-to-output mapping, complete-search startup, release integrity checks and the optional generated `offline.html` export. Publication remains a separate release step.
+
+## Review the active frontend
+
+Use the [code map and VS Code guide](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/docs/CODE_REVIEW.md) to locate templates, styles, calculation modules and interaction code. For substantial revisions, consult the [code review knowledge base](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/docs/knowledge/code-review-digital-humanities/README.md) and [review worksheet](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/docs/knowledge/code-review-digital-humanities/REVIEW_WORKSHEET.md). A review should explain the data behind a display, verify relevant behavior, and make its edit/rebuild route understandable to a learner. Cite source IDs where literature informs the decision and record untested assumptions.
+
 # Welcoming pathways — interactive discussion prototype
 
 This is an isolated prototype of the direction Ian selected for further exploration. **It does not replace or modify the live website.** November 3, 2026.

@@ -1,0 +1,826 @@
+[
+  {
+    "id": "4920",
+    "title": "Finding Data for Mapping: Tips and Tricks",
+    "date": "2018-11-24",
+    "year": "2018–2019",
+    "authors": [
+      "Javier Otero Peña"
+    ],
+    "originalAuthors": [
+      "Javier Otero Peña"
+    ],
+    "aliases": [
+      "Javier Otero Peña"
+    ],
+    "account": "Javier Otero Peña",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "census",
+      "cleaning",
+      "data",
+      "Featured",
+      "gis",
+      "join",
+      "mapping",
+      "qgis",
+      "Resources",
+      "spatial",
+      "Tutorial"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/11/24/finding-data-for-mapping-tips-and-tricks/",
+    "signals": [
+      "Maps & visualization"
+    ],
+    "paragraphs": [
+      "In the mapping workshops that we offer, a recurrent question refers to where to get the data. Every time students attend one of these workshops, all the datasets are given to them, so it is understandable that many might wonder where the instructors get this information from. This is what inspired us to develop a new workshop this semester, Finding Data for Mapping: Tips and Tricks. But since not everyone could be present for the workshop on October 3, I'm taking the opportunity now to share a few of the tips and tricks we discussed to find data to make maps for your academic or pedagogic work. In a way, this will be a \"prequel\" (since they're so popular nowadays) and a complement to the Intro to Mapping using QGIS post of a few years back.",
+      "First things first: how does mapping work?",
+      "When you create a map you're doing more than just drawing geographic boundaries and putting colors that represent something; you are combining non-spatial…"
+    ],
+    "fullParagraphs": [
+      "In the mapping workshops that we offer, a recurrent question refers to where to get the data. Every time students attend one of these workshops, all the datasets are given to them, so it is understandable that many might wonder where the instructors get this information from. This is what inspired us to develop a new workshop this semester, Finding Data for Mapping: Tips and Tricks. But since not everyone could be present for the workshop on October 3, I'm taking the opportunity now to share a few of the tips and tricks we discussed to find data to make maps for your academic or pedagogic work. In a way, this will be a \"prequel\" (since they're so popular nowadays) and a complement to the Intro to Mapping using QGIS post of a few years back.",
+      "First things first: how does mapping work?",
+      "When you create a map you're doing more than just drawing geographic boundaries and putting colors that represent something; you are combining non-spatial data to spatial features. To do this, we are going to need specialized software, called Geographic Information Systems (GIS). QGIS is just one of the many options available out there, and my personal favorite because it is free (unlike the also popular ArcGIS), it is versatile and it is open-source. So I will use QGIS as the base for the examples given in this post, but bear in mind that this can apply to any GIS software or platform you decide to use (for instance, for the workshop, we used Carto). In the image below you will see what a typical GIS graphical user interface (GUI) looks like.",
+      "You can see there's a map, some purple shapes, a box of \"layers\" to the left and lots of buttons all over. The purple shapes are vectors that serve to represent spatially elements of your data. In that image, the purple shapes could be construction sites that are relevant to a specific study, for example. Each one of these construction sites could have other information that we find relevant, that we could have in a spreadsheet or a text document. Here is an example.",
+      "We can see that the dataset contains data of three construction sites, including area in square feet, number of workers, estimated completion date and whether it is active or not. What we do in GIS is basically join together shapes that have no information, with information that has no shapes, so that we can perform a spatial analysis or create a nice visualization about the construction sites.",
+      "Data Organization",
+      "In GIS, data is organized in layers. Each layer usually has vectors (shapes) that are represented graphically in space, and an attribute table, which shows the \"spreadsheet\" of all the different variables (or attributes) that each element (or feature) in the layer has. Note that you might also have a layer that has an attribute table with no vectors associated to it, or layers of vectors that have no attributes. But neither of those are hardly useful in GIS analysis, and that's why I'm going to teach you how to join these two types of data so that you can explore new analysis methods on GIS.",
+      "The four steps",
+      "Now that you have a better idea of how GIS works, let me introduce you to the four steps we will follow to get your data into QGIS:",
+      "We will practice these four steps by creating a map of the median age per state in the U.S.A.",
+      "Step 1. Find your data",
+      "Something that is very important before you start looking for your data is what I could have called Step 0: Planning. In this stage, before you do anything, ask yourself: What is it that you want to do? What do you already have? What are you missing? Try to visualize the final product: Do you want a map to help you in your analysis? Do you want it just to visualize and make others have a better understanding of your work? Maybe both? Finally, you may want to think of the scale: What is it that you want to represent in a map? Is it countries? Is it cities? Is it trade routes? Or perhaps just individuals, or locations of restaurants? This will help you understand what you have to look for. From here, let's go over the possible scenarios.",
+      "Scenario 1. You already have the data, you're just missing the maps.",
+      "You might already have data from your research or work, likely in a common spreadsheet format such as Excel. Or, you have it in statistical software such as SPSS or SAS. In any of these cases, it is advisable that you convert your data files into comma-separated value text files (CSV files, for short). In Excel it is as simple as changing the \"Save as...\" format in the extension drop-down menu, while in other software you might have to search for an \"Export Data...\" section in the File menu. CSV files are universally readable; most data analysis software is able to read these files.",
+      "Scenario 2. You don't have any data at all.",
+      "You might have an awesome research idea, and a lot of motivation, but you don't know where to begin. As obnoxious as this may sound, I have to say it: Google (or your favorite search provider, for that matter) is your friend. Seriously, there's high chances that some/most/all of the data you're interested in analyzing has already been compiled by someone, so the most practical thing you can do is look up keywords associated to your research interest. This someone can usually be government agencies (municipalities, federal agencies, etc.), who generally provide data for free. This is the case of the Census data, for example, which is one of the most commonly analyzed data. Other typical data providers are universities, research groups, NGOs, and individuals with an interest in open access to information. As a last resort, there are also private sector companies, consulting agencies, who might offer data - for a price. Or you can go out to the field and capture data of interest yourself (and maybe you'll consider sharing it with your peers for free).",
+      "For our exercise, we will need to find median age per state for the year 2010, since that is the last year a Census took place. To find this dataset, navigate your way to the American FactFinder within the Census website, look for the Guided Search, and then you can follow this to get the data of Median Age per state:",
+      "On \"1. Start\", choose \"I'm looking for information about people\".",
+      "On \"2. Topics\", choose \"Age\" under \"Age & Sex\".",
+      "On \"3, select \"State 040\", then choose \"All states within the United States and Puerto Rico\", then click \"Add to your selections\".",
+      "Skip Step \"4. Race/Ethnic Groups\".",
+      "On \"5. Search Results\", click on \"Profile of General Population and Housing Characteristics, 2010\".",
+      "Click on \"Download\" on the top bar above the dataset.",
+      "To get a cleaner dataset, Click on \"Use the data\" and make sure both boxes \"Merge the annotations into a single file\" and \"Include descriptive data element names\" are UNCHECKED. Then proceed to download.",
+      "Metadata",
+      "Once you download and unzip the file, you'll notice that there are several different files in the folder. Among them is a readme file that explains what each of the files are, or you can infer what they are from the names. There will be three csv files: one contains the dataset; the other one is an annotations file and the last one is the metadata file. Go ahead and open your dataset. You will realize that all of the attribute names are coded (HD01_S001, HD01_S002...). So how do we know which one is median age? The answer is in the metadata file. Go ahead and open it and do a search for \"median age\". You should find two values: HD01_S020 and HD02_S020, the former is the actual value and the latter is a percent. We only need the actual value, and we will continue working on this on Step 2, Cleaning the data.",
+      "Finding Shapefiles",
+      "In either scenario, will need to find a map that will help you visualize your data. Let's suppose you're interested in analyzing Census data, but you're still not sure of what scale you're interested in, that is, you don't know what shapes you want your data represented in: maybe State level? Or county-level? Or blocks? Or tracts? The best thing you can do is look up what are your options. So go ahead and use your favorite search provider and type \"census shapes\". The first option will read something like: \"Tiger/LINE Geography - U.S. Census Bureau\", and that is precisely what you're looking for (that's why I said Google was your friend!). If you click there, you will be able to see all the different shapes that the Census Bureau offers for analyzing their data. These shapes are distributed in \"shapefiles\" (.SHP extension), which is one of the most common formats to share vector shapes. If you're looking for something other than Census data, try searching for \"keyword of your research\" + shapefile in Google, and see if anything comes up.",
+      "In our exercise, we'll use States, and since we are using Census 2010 data, let's download the 2010 shapefiles. Although states have not changed their shapes, it is good practice to download shapefiles of the same year than the data you intend to use, and it is especially important if you're looking at data at the census tracts level for example, because census tracts may be redefined for every Census.",
+      "Some of the layer types offered by the Census Bureau include Census Tracts, Counties, School Districts, ZIP Code Areas, but also Roads, Railroads...",
+      "There are two important things worth mentioning of shapefiles. First, is that they might have some data, but they are usually empty; picture them as empty containers in the shape of countries/counties/tracts/etc. where you can pour all your data into (wink to Olivia). Second, they are a common yet ancient file type, which means they have their annoyances/limitations. Worth mentioning: a) they never come alone, but they are (and must always be) accompanied by several other files with the same name but different extensions (.prj, .shx, .dbf, etc.), which is why they're typically shared as zip files (that most GIS software can open directly); and b) the attribute names are limited to 10 characters, so if one of your attributes is \"Estimated Completion Date\", it will be truncated to something like \"Estimat~1\", which is why it is recommended to use codes such as \"EstComplet\" in the example above, or Save into a different format. Now you know why generally datasets use coded attribute names, as we saw earlier in the Census file.",
+      "Step 2. Clean your Data",
+      "Cleaning your data is as important as finding the proper dataset. If you do not have proper \"data hygiene\", you risk getting lost in your own data, or even worse, having spatial operations give wrong results or shift your data. Concerning the attributes on your attribute table, a good rule of thumb you can apply is: if you are sure you don't need it, make sure you delete it! In our example, since we are only interested in Median Age by State (HD01_S020), we can safely delete everything else, with one exception. You will need to keep another attribute that identifies your data, so that you know what value corresponds to which states, and so you have one common element between the dataset and the shapefile in order to make the spatial join. The example dataset has three possible identifiers: GEO.id, GEO.id2, and GEO.display-label. Whichever you choose, the one thing you must make sure is that the shapefile that you intend to use as the \"container\" of your data uses an identifier that is compatible with your dataset. Alternatively, you can opt to keep all three identifiers in case you're intending to join with other datasets that might use one or the other identifier.",
+      "Go ahead and open QGIS (if you haven't installed it, here's the download link. Choose the latest standalone installer. Follow instructions carefully, especially if you're installing on a Mac). Then, we will add data (click on the add data button - see image below), then choose Vector as the type of data and look for either the Tiger/line Zipfile downloaded from the Census website or the .shp file from the uncompressed zip file folder. Either way works.",
+      "Once you click on Accept, you should see a map of the United States of America pop up in your QGIS map window. To the left of the map, you will see a box called \"Layers\", and in there you should see something like \"tl_2010_us_state10\" (the name of the vector shapefile you just added). If you right-click on it, a menu will pop up, and you will be able to open the Attribute Table. When you do, a spreadsheet will pop up. This is the data in the shapefile. Each row is represented by one polygon (or more, in the case of Hawaii for example), and selecting one row will also select its corresponding polygon(s) in the map. We do not have a metadata file available for this, although the metadata is available in the Tiger/Line website, but let's practice what to do when you don't have it. We can recognize at least three identifiers: Statefp10, Geoid10, and Name10. If you compare the dataset and the shapefile, you will notice that Geoid10 seems to correspond to Geo.id2, but we are going to use GEO.display-label and its counterpart Name10, you'll find out why later on. It is unimportant that the feature names are different, but be warned, the names of the states must match or the join will go wrong! A typo will make Massachusetts completely different from Massachusets, recognized as a different state by the software. Even a space after \"Alaska \" will make it totally different from \"Alaska\". I can confirm that in this case the names match so you will not have any join issues, but keep this in mind when verifying future joins.",
+      "Step 3. Join database + shape",
+      "Now that we have QGIS with a shapefile open, and a clean CSV dataset that only contains median age and an identifier, it's time to add the dataset to QGIS to perform the join. To do this, click on the \"Add data\" button (same button we clicked to add the vector shapefile), but this time we will choose \"delimited text\" data. Browse your computer for the clean_data CSV. In the \"geometry definition\" option, click on \"No geometry\", then click on Add. Once you do, you will notice that nothing happens on the map, but a new Layer was added to the layers box. If you right-click on this new layer and open the Attribute Table, you will see your dataset.",
+      "To join this dataset to the shapefile, you will have to select your shapefile on the layers box (not the CSV dataset). Right-click on it and select \"Properties\". There you will see the information of the layer, but what we're looking for is the Joins tab on the right side. When you find it, click on it. An empty box will show up. The \"+\" sign means \"Add join\", so click on it and a new dialog box will pop up.",
+      "In this box, the clean_data layer is selected as default for the join because there's no other layers available in your QGIS project. Here you will have to tell QGIS which feature of the dataset corresponds to what feature of the shapefile. As we had said earlier, we will use Geo.display-label and Name10, so look for them in the appropriate drop-downs. You can optionally choose which fields are joined, I'll just have it join everything. Then, you can choose a custom field name prefix, that will be added to every attribute name joined. To avoid cramming the space of the feature names, I usually choose to have a short prefix, such as \"\" or \"a\", \"x_\" and so on. You could also just put nothing \"\" but I do not recommend this because you might lose track of where an attribute comes from in case you have to trace back your steps. When you're ready, click OK, then you will see the join show up on the box, and now you can click OK to close the properties dialog box.",
+      "You won't be able to see any changes until you open the Attribute Table of the vector layer. Go ahead and do it. You will see that _HD01_020 (along with any other identifiers you joined) now are shown at the right end of the attribute table. Congratulations, you performed a join!",
+      "Step 4. Verify the join",
+      "Just like in programming, it is very common for a tiny typo or error in the procedure to affect the rest of the work, so verifying is an important step in the joining process. A simple verification is to take two to three random values in the post-join layer and make sure they correspond to the values of the original dataset. A common problem is to see a one or several attributes show \"NULL\". This tends to happen when the names of the join attributes did not match. This is exactly what could have happened if you chose to do the join using Geoid10 and Geo.id2, because although they are technically the same, they are formatted differently: QGIS recognizes Geoid10 as a String (text), while Excel identified Geo.id2 as an integer (see image below). The problem comes because when Excel interprets this as an integer, it automatically removes the \"0\" to the left, which is kept in the shapefile, so \"01\" does not correspond to \"1\", and so on. One way to avoid this automatic conversion is to create a .csvt file, which should be in the same folder than the original csv file (more information on how to create a csvt file here).",
+      "Now that you have a valid and verified join, I suggest you save your vector layer so that it will keep the new data joined as part of itself. Right click on the vector layer in the layers panel, then click on \"Save as...\". I suggest saving to a format other than shapefile. For example, Spatialite. This format has worked just fine for me so far.",
+      "Bonus step: visualize your data!",
+      "Tips and Tricks",
+      "Now, I would like to share with you a series of tips and tricks, coming from conversations in the GIS/Mapping Working Group, consultations with students and faculty, issues raised during workshops, and our own work using GIS.",
+      "Think of an effective system to manage your datasets.",
+      "Organize data in thematic folders. Subfolders are also welcome if you have a data that spans along different dates, or other varying characteristics.",
+      "Put dates of data source or describe changes made in the file names (e.g. mappluto 2017 with geoid.gpkg)",
+      "Take into account it is easy to get lost in your own data. Being organized is a must!",
+      "Also take note that datasets might be very, VERY large. Operations such as “join” can take ages. And be sure that your file system tolerates large file sizes. For example, the CUNY SPH Sharepoint doesn’t allow opening files over 100MB. Oops!",
+      "If you can’t find the dataset you’re looking for or if it is outdated, do not hesitate to contact the responsible agency. Call them on the phone or e-mail them!",
+      "Some datasets are not published as open data but they might still be available for whomever asks for them.",
+      "Sometimes the data is out there, but the website is not user-friendly. I’ve been helped over the phone to navigate the website to find the data before.",
+      "Always go to the original data source if you can help it.",
+      "If the software you’re using doesn’t recognize the file you want to open, don’t panic. Software like QGIS can convert file types to virtually any other type that could be read by the software or app you want to use.",
+      "Before running a complex analysis on datasets you have, be sure to do a quick online check. There’s a chance someone has done a similar analysis that you could use. Don’t reinvent the wheel.",
+      "In software like QGIS, layers with different projections can be aligned on the fly. STILL, it might be a good idea to reproject them so they are all on the same projection.",
+      "Some operations such as Clip and Intersect may give strange results otherwise.",
+      "If you’re stuck, seek help.",
+      "Some online forums (such as qgis.stackexchange.com) can help out A LOT.",
+      "Posting questions on the GIS/Mapping Working Group can also be productive.",
+      "Coming to GC Digital Fellow Office Hours! (apologies for self-publicity but it’s true)",
+      "Data source links/examples",
+      "These are places you can visit and explore, to find datasets or shapefiles you need to do some analysis or just for the fun of it.",
+      "New York City Open Data",
+      "The Baruch Geoportal",
+      "CUGIR",
+      "GeoLode",
+      "OpenGeoPortal",
+      "Wikipedia “List of GIS Data Sources”",
+      "Liberating data from NYC property tax bills",
+      "Photo credit: Join by Craig Rodway (2009). Creative Commons License."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.033644450608903906,
+      0.0020553148881179394,
+      0.00010617636745101488,
+      4.111425774989692e-05,
+      0.669892839338219,
+      0.20995211465371413,
+      0.04268165654868684,
+      0.04162633333715726
+    ],
+    "words": [
+      [
+        "data",
+        68
+      ],
+      [
+        "file",
+        31
+      ],
+      [
+        "join",
+        27
+      ],
+      [
+        "layer",
+        21
+      ],
+      [
+        "click",
+        20
+      ],
+      [
+        "dataset",
+        19
+      ]
+    ]
+  },
+  {
+    "id": "4903",
+    "title": "GC Digital Research Institute Applications Open",
+    "date": "2018-11-16",
+    "year": "2018–2019",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/11/16/4903/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Applications open for the January GC Digital Research Institute",
+      "Generously supported by the Provost’s Office, the GC Digital Research Institute guides an interdisciplinary cohort of graduate students, faculty, and instructional staff as they learn foundational technical skills that can aid–and even extend–their scholarship.",
+      "Faculty who have participated in past GCDRIs have told us: “The GC DRI presented hugely valuable tools that I plan to continue to use. I definitely will pass these digital skills to my students.”",
+      "Students have commented: “Not only did we learn great digital research tools, but we gained access to a network of people at the GC who are interested and/or have knowledge about digital methods. I learned about the workshops available, the Digital Fellows, and got to know people in other disciplines who made me think about my work in unique ways.”",
+      "******************",
+      "Join the GC Digital Fellows from January 14-17, 2019 for a…"
+    ],
+    "fullParagraphs": [
+      "Applications open for the January GC Digital Research Institute",
+      "Generously supported by the Provost’s Office, the GC Digital Research Institute guides an interdisciplinary cohort of graduate students, faculty, and instructional staff as they learn foundational technical skills that can aid–and even extend–their scholarship.",
+      "Faculty who have participated in past GCDRIs have told us: “The GC DRI presented hugely valuable tools that I plan to continue to use. I definitely will pass these digital skills to my students.”",
+      "Students have commented: “Not only did we learn great digital research tools, but we gained access to a network of people at the GC who are interested and/or have knowledge about digital methods. I learned about the workshops available, the Digital Fellows, and got to know people in other disciplines who made me think about my work in unique ways.”",
+      "******************",
+      "Join the GC Digital Fellows from January 14-17, 2019 for a four-day intensive course in digital research methods. Covering a wide range of topics, the Digital Research Institute will help you develop the skills you need to analyze your data with a digital or computational approach.",
+      "GC Digital Research Institute",
+      "when: January 14-17, 2019",
+      "what: four-day intensive workshop in digital research methods",
+      "where: The Graduate Center, CUNY",
+      "why: to equip our academic community with digital research skills",
+      "who: for GC graduate students, faculty, and instructional staff of all skill levels and disciplines (no previous digital experience required)",
+      "GC DRI offers CUNY graduate students, faculty, and instructional staff an opportunity to develop digital research skills and to connect with others in an interdisciplinary environment. The week will begin with an introduction to the command line, git, Python, and databases for all students; participants will then have the opportunity to choose from a variety of more specific workshops on topics ranging from digital research ethics to the Natural Language Toolkit to machine learning.",
+      "The application will be open until 11:59pm on November 30th, 2018; however, we recommend that interested participants apply early, as space is limited.",
+      "Selection for the institute often depends upon the applicant’s availability for all sessions of the week-long institute, willingness to work and learn in groups, articulation of their research question to a lay audience, and general interest in learning new research methods.",
+      "If you have questions or comments, please contact us using the form on our website. Stay up-to-date on the GC Digital Research Institute by following us on Twitter at @Digital_Fellows and @CUNYGCDI and checking out the #GCDRI hashtag.",
+      "—",
+      "GC Digital Fellows",
+      "The Graduate Center, CUNY",
+      "https://digitalfellows.commons.gc.cuny.edu",
+      "About the GC Digital Fellows Program:",
+      "Based in the GC Digital Scholarship Lab, the GC Digital Fellows Program operates as an in-house think-and-do tank for digital projects, connecting Fellows to digital initiatives throughout The Graduate Center. GC Digital Fellows use a team-based approach as they explore creative solutions for projects that can be implemented in a collaborative fashion. In the process, the Program helps build out “The Digital GC” — a vision of the Graduate Center that incorporates technology into its core research and teaching missions."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0008030067962719647,
+      0.0008034091433836054,
+      0.013514918129437706,
+      0.0002723524310012524,
+      0.00048316790668974694,
+      0.04983703140933187,
+      0.0008806515750630734,
+      0.9334054626088208
+    ],
+    "words": [
+      [
+        "digital",
+        26
+      ],
+      [
+        "research",
+        14
+      ],
+      [
+        "institute",
+        7
+      ],
+      [
+        "student",
+        6
+      ],
+      [
+        "skill",
+        6
+      ],
+      [
+        "learn",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19848",
+    "title": "Using Voyant-Tools to Formulate Research Questions for Textual Data",
+    "date": "2018-11-01",
+    "year": "2018–2019",
+    "authors": [
+      "Filipa Calado"
+    ],
+    "originalAuthors": [
+      "Filipa Calado"
+    ],
+    "aliases": [
+      "Filipa Calado"
+    ],
+    "account": "Filipa Calado",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "English",
+      "Featured",
+      "inquiry",
+      "linguistics",
+      "pedagogy",
+      "quantitative analysis",
+      "research",
+      "research questions",
+      "Resources",
+      "teaching",
+      "Text Analysis",
+      "text mining",
+      "tools"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/11/01/using-voyant-tools-to-formulate-research-questions-for-textual-data/",
+    "signals": [
+      "Archives, text & media",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "What do you know about text analysis (also known as text mining)? If you’re familiar with data mining, or extracting information or patterns from data sets, you can probably imagine how the same processes may be applied to text. Text analysis uses computational methods to extract or categorize certain words, phrases, and other aspects of texts, so that they can be further analyzed and interpreted by human eyes. A popular example of text analysis is the word cloud, which measures the frequency of often repeated words throughout a text. The bigger the word in the cloud, the more often that word appears in the text.",
+      "What if text analysis could help with teaching the research process? In particular, with guiding students toward asking thoughtful and interesting research questions about the text? As opposed to traditional “close reading”, text analysis facilitates what many scholars call “distant reading”. In “distant reading”, texts can be…"
+    ],
+    "fullParagraphs": [
+      "What do you know about text analysis (also known as text mining)? If you’re familiar with data mining, or extracting information or patterns from data sets, you can probably imagine how the same processes may be applied to text. Text analysis uses computational methods to extract or categorize certain words, phrases, and other aspects of texts, so that they can be further analyzed and interpreted by human eyes. A popular example of text analysis is the word cloud, which measures the frequency of often repeated words throughout a text. The bigger the word in the cloud, the more often that word appears in the text.",
+      "What if text analysis could help with teaching the research process? In particular, with guiding students toward asking thoughtful and interesting research questions about the text? As opposed to traditional “close reading”, text analysis facilitates what many scholars call “distant reading”. In “distant reading”, texts can be analyzed at speeds and magnitudes way beyond human abilities. Because text analysis allows readers to see what may have been familiar in new, unfamiliar ways, it can also help with identifying previously overlooked or obscure aspects about that text.",
+      "I find a tool for text analysis, called Voyant-Tools, particularly conducive to the undergraduate classroom. Voyant Tools is a web application, developed out of earlier iterations by Stéfan Sinclair (McGill University) and Geoffrey Rockwell (University of Alberta). It functions as a one-stop-shop for text analysis, offering an easy to use interface that processes text in seconds, organizing it into a series of interactive lists, charts, graphs, and networks. The application then allows users to play with the resulting visualizations, to further explore the text from different angles, such as term frequencies, contexts, and relations. The result is to leave you with a new vantage over your text, in a position to identify areas of interest and ask more questions. In order to demonstrate what I mean, I’ll walk you through how this tool might be used in the classroom with the example of William Shakespeare’s play, Romeo and Juliet.",
+      "First, you’ll want to put students into small groups (three or four students per group is ideal). Make sure that each group has a laptop with internet connection. Then, you’ll direct them to a plain text version of your reading material, in this case, Romeo and Juliet. You can find this text, and many others in the public domain, on Project Gutenberg. (If you’re not already familiar with this resource, Project Gutenberg is a database of public domain texts in various formats---html, epub, kindle, and plain text.) For our purposes, we will use the plain text version. Tell your students to copy the entire text, leaving out the front and back matter that contains Project Gutenberg’s publication information.",
+      "Once the text is copied, navigate over to the Voyant Tools website (www.voyant-tools.org), and paste the text into the empty textbox at the center of the page. At this point, we can call this text your “corpus”, a fancy word that means a collection of text(s) that functions as data. Then, press the button that says “Reveal”.",
+      "You’ll then be confronted with a whole page of visualizations, which should look similar to the image below. There will be five panes (or little windows) across your screen, each with a different visualization, which represents a different tool. The tools are little text analyses that the application immediately runs on your uploaded text. This initial selection of tools is called the “default skin”. You can actually modify the skin, changing out one tool (such the “Cirrus”, or word cloud) for another one (such as “Correlations”). For now, though, let’s review the different tools across the panes of the default skin.",
+      "The Voyant-Tools interface after uploading Romeo and Juliet",
+      "First, on the lower left pane of the skin, you’ll see “Summary”, which provides a simple quantitative overview of your corpus, including total number of words, vocabulary density, words per sentence, distinctive or unique words, et cetera. Then, on the upper left, you’ll see the “Cirrus” (or word cloud) tool. This tool counts the most used words from your corpus, and displays them in various sizes, relative to their frequencies. Pay attention to the colors of specific words, because these will be re-used for the same terms across other tools. One of the benefits of Voyant is the dynamicity of the various tools---selecting a word in one window will automatically reload the visualizations in the other windows to further analyze your selection. Next, in the upper center pane, we have the “Reader” tool, where the full text is displayed for reading. Here, you can hover over a word to show its frequency, or click on a word to find other instances of it in the corpus. Again, due to the dynamicity of the interface, when you click on a word in the “Reader”, you’ll find that the “Trends” pane reflects that selection. The “Trends” pane, on the upper right, graphs the frequencies of the top five words across the length of the corpus. The x-axis, “Document Segments”, functions like chapters that Voyant Tools uses to divide up the text by equal lengths; the y-axis is the raw frequency for that word. Finally, on the bottom right pane, you’ll see “Contexts”, the occurrence of a selected word with a bit of the immediately surrounding text.",
+      "I suggest giving students an opportunity to play with the text and explore the extensive range of tools on the default skin and beyond. To really understand the power of these tools, and the level of customization built into the interface, dedicate some time to just messing around and being spontaneous. Because the charts and graphs allow users to encounter the familiar text from an unfamiliar angle, some new detail might catch their attention, or spark curiosity about something they hadn’t yet thought about. It may also bring them to ask a question that they never considered before.",
+      "I’ll close this essay by showing one specific way that the tool can be used to help with formulating research questions. First, reload the default skin for “Romeo and Juliet” to its original settings. Then, turn to the “Trends” tool (the word frequency graph at the top right of the page). The graph should now display the top five terms of the corpus. You will get rid of these terms and input custom terms of your choosing. You can input custom terms by navigating to the little bar on the bottom left corner of this panel, and adding words of your choice. Below you’ll see an image with two terms---“Love” and “Death”---selected.",
+      "Graph of the frequencies of “Love” and “Death”",
+      "Compare the frequencies between “Love” and “Death”. Do you notice anything interesting? They show an inverse relationship: where “Love” occurs most often, “Death” has a low frequency; and where death is prominent, love diminishes. This inverse relationship---which might seem unremarkable on the surface---indicates that there is more work to be done on examining the associations between love and death. Most importantly, it points to areas of tension in the text that the reader can re-read more closely. These collisions between “Love” and “Death” present potential sites of further questioning: what is the exact nature of this relationship? How might the two seemingly opposite forces be connected?",
+      "Using text-analysis in this way inspires new readings by bringing to light neglected, miniscule, or concealed aspects about texts. It identifies certain words or patterns of language that escape the notice of even the most diligent and perceptive readers, opening the text to new questions and insights. The defamiliarization of what we think we know and hands-on experimentation with texts encourages readers to speculate about other possibilities, and experience more active and playful approaches to inquiry."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.5220356609215929,
+      0.00029387642246373483,
+      0.01587828917213354,
+      9.962291160250506e-05,
+      0.10639964466476236,
+      0.22286503446422504,
+      0.12372815643563959,
+      0.008699715007580301
+    ],
+    "words": [
+      [
+        "text",
+        40
+      ],
+      [
+        "word",
+        23
+      ],
+      [
+        "tool",
+        22
+      ],
+      [
+        "analysis",
+        10
+      ],
+      [
+        "frequency",
+        10
+      ],
+      [
+        "voyant",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "4825",
+    "title": "Uses of tech while drafting my second exam bibs: taxonomies and track changes",
+    "date": "2018-10-25",
+    "year": "2018–2019",
+    "authors": [
+      "Kelsey Chatlosh"
+    ],
+    "originalAuthors": [
+      "Kelsey Chatlosh"
+    ],
+    "aliases": [
+      "Kelsey Chatlosh"
+    ],
+    "account": "Kelsey Chatlosh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "academic databases",
+      "Anthropology",
+      "bibliographies",
+      "bibliography",
+      "citation",
+      "citation politics",
+      "classification",
+      "classifications",
+      "databases",
+      "DH",
+      "Digital Humanities",
+      "Featured",
+      "git",
+      "GitHub",
+      "library",
+      "library studies",
+      "metadata",
+      "Reflections",
+      "search engine",
+      "search engines",
+      "taxonomies",
+      "taxonomy",
+      "track changes",
+      "tracking changes",
+      "version control",
+      "version control system",
+      "zotero"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/10/25/uses-of-tech-while-drafting-my-second-exam-bibs/",
+    "signals": [
+      "Code & computational methods",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "Kelsey’s image: A photo of the GC anthropology program’s bookshelf in the lounge, while the books were still organized according not to author or topic but color. Impractical, yes, but more poetic.",
+      "Part 1: Taxonomies",
+      "I admittedly have hit my fifth year in the GC’s cultural anthropology PhD program and am nearing overdue on finishing my topic and area bibliographies for my second exam (date still TBD). These are bibliographies (hereafter referred to as “bibs”) meant to situate my proposed dissertation project that I must create, with guidance from my committee, and then defend to them during an oral exam. To create them, I have found myself at times desperately searching for scholarly publications that fit within certain topical, geographical, and disciplinary constraints. Working on these bibs has been my most direct experience so far in really thinking cognizantly about the practical uses of taxonomies for academic publications…"
+    ],
+    "fullParagraphs": [
+      "Kelsey’s image: A photo of the GC anthropology program’s bookshelf in the lounge, while the books were still organized according not to author or topic but color. Impractical, yes, but more poetic.",
+      "Part 1: Taxonomies",
+      "I admittedly have hit my fifth year in the GC’s cultural anthropology PhD program and am nearing overdue on finishing my topic and area bibliographies for my second exam (date still TBD). These are bibliographies (hereafter referred to as “bibs”) meant to situate my proposed dissertation project that I must create, with guidance from my committee, and then defend to them during an oral exam. To create them, I have found myself at times desperately searching for scholarly publications that fit within certain topical, geographical, and disciplinary constraints. Working on these bibs has been my most direct experience so far in really thinking cognizantly about the practical uses of taxonomies for academic publications (something I have thought critically about on a theoretical level) to help in such searches. It has also been a particularly important instance where I need to meticulously track changes from draft to draft of a massive text file--but more on that a bit later in Part 2 of this post…",
+      "Most often I’m asking myself: Okay, where can I find an academic article or book by a PhD-bonafide anthropologist or at least a self-identifying ethnographer, that follows said ethnographic methods, and touches upon x, y, and z topics in a specific country or region? Or, in any country outside of the main region that my area bib already focuses on? And then of course there’s the work of tracking down a virtual or physical copy of the text and skimming it to see if it’s doing the kind of work I was looking for and if I agree with its approach and politics enough to cite it (not to say I don’t cite some things to critique them too)...",
+      "Ironically, by grouping citations together into subsections on my bibs in unique ways, I am attempting to counter some of the dominant categorizations that have defined such topical, geographical, and disciplinary areas of study; and to trace genealogies of how forms of power have shaped their construction and canonization. Yet, I can’t entirely escape the influence of these dominant categorizations, and find myself reproducing only revised versions of them through my groupings of citations. Additionally, I also find myself relying on these dominant categorizations, to a degree, in my library and academic database searches for citations.",
+      "As most librarians, archivists, and data information scientists, among others, have emphasized again and again: metadata is important. Metadata refers to a set of basic information that describes a particular dataset often within a larger dataset--for example, the basic information describing a book within a library, including what it’s about and what discipline(s) it falls into. Metadata is data about data. Hence “meta”. Yes, there great memes about this (e.g. sad metadata kitty).",
+      "But also, as again, many librarians, archivists, and data information scientists have emphasized: metadata is political. Metadata makes sources more or less findable in specific ways, and thus metadata--the included categories, and how those categories are constructed, interpreted, and applied--impacts the circulation of ideas included in those sources and the careers of scholars who published them. And the act of citation of course is political too. It’s a reproductive cycle: that which isn’t cited isn’t canonized and is more difficult to find; and that which is more difficult to find is less often cited when then stints authors’ careers and recognition. So, @CiteBlackWomen (among other people of color, non-binary folks, and women).",
+      "Meta-comment on metadata: I asked GC librarian Roxanne Shirazi for some recommended readings on the politics of metadata, and she suggested works by: Geoffrey Bowker and Susan Leigh Star (Sorting Things Out), Sanford Berman (Prejudices and antipathies: a tract on the LC subject heads concerning people), Amber Billey, Kimberly Christen, Emily Drabinski (“Queering the Catalog”), Hope Olson (The Power to Name), and Bess Sadler and Chris Bourg (“Feminism and the Future of Library Discovery”).",
+      "While there is still more groundwork to be made to critique and change the canon and the dominant classification systems used for organizing academic publications, as well as the methods of search engine algorithms (check out Safiya Umoja Noble’s Algorithms of Oppression and Meredith Broussard’s Artificial Unintelligence), current library and online search engine taxonomies have many helpful uses. They help researchers find things they are looking for! Or possible things that may fit into their current idea of what constitutes the thing that they think they are looking for… #phdstudentdilemma",
+      "But ultimately, still, library classification and search engine taxonomies help researchers find things. As Rafena Mustapha’s article in QC Voices emphasizes, “In today’s world of information overload, the swiftness with which we can find a particular piece of information depends on its position in the wider pool of data” (2018). As Rafena Mustapha reminds us, searching for a book in the library, where a multi-layered system for sorting is quite necessary, is much different than trying to find a book in your personal bookshelf where the books are not organized in any set order--unless your home books are beginning to amount to a small library.",
+      "This said, do scope out the library shelves, while you’re there to pick up a book! I’ve often found other books in the same section when I originally came to find just one, including books that ended up on my bibs. They were intentionally sorted together because of their common themes (with some limitations) after all.",
+      "Kelsey’s image: When you find that sweet spot in the library: HQ1236.5 (all on women’s movements)",
+      "But, returning to the quest to find citations through online methods, I reached out to GC librarian Steve Zweibel for some advice. We tried doing a variation of searches on Academic Search Complete (a database available through the GC Library website here). In relation to a specific sub-topic of my topic bib, Steve recommended me to think about the perfect hypothetical paper that might exist and the hypothetical keywords that it would have to have. Then, we did searches using those hypothetical keywords utilizing best practices for all online searches, which included using: boolean terms (and, or, not), and quotations and parentheses (just like for algebra in math but for combining multiple search terms).",
+      "This ended up being a tricky way to find potential sources on a specific topic--emphasis on potential here (on the contrary, it’s a great way to find a specific source that you already know exists but e.g. can’t remember the full title). I think it is so tricky because most anthropologists--and many other social scientific, humanistic, and other scholars--pride ourselves on coming up with new concepts, or new ways of theorizing concepts, that we don’t often keep using the same words to describe such concepts. Different wordings of concepts are also often used to align with different bodies of theory, although they may be speaking to very similar topics. Search engines, like any computer function, do not understand concepts, but specific combinations of characters (such as words) that a person programs them to respond to in certain ways.",
+      "So Steve recommended another approach: to find an article that really speaks to the particular sub-topic of the bib that I’m searching for more sources on, scan the bibliography of that article for sources, and use the article’s keywords as search terms to find additional sources. Steve also recommended to click “Times Cited in this Database” to see publications where that article was cited, which often will point you to publications on similar topics. This is a method I’ve practiced before and found incredibly useful, although it can lead to many rabbit holes.",
+      "When meeting with Steve, we also discussed the AMAZING resource that is published bibliographies. I’d already come across Oxford Bibliographies (available here on the GC Library website), which is a database of discipline-specific annotated bibliographies by experts on those topics and regions. This is like the fairy godmother of resources to a student working on their bibliographies! I found it especially useful for identifying trends and shifts within the canon on that topic or region, and specific canonical citations. Steve pointed me to a GC Library lib guide on background and reference sources, which includes a subsection specifically on published bibliographies. I highly recommend checking out that lib guide!",
+      "Also, I strongly encourage folks to not be shy to talk through their bibliographies with fellow cohortians and other academic friends, generosity-permitting (in addition to your advisor and committee members, of course). This can be especially useful for those of us looking for recommended citations outside of the geographic area we are most familiar with. And sometimes old-fashioned person-to-person conversations draw us to sources we hadn’t yet encountered through library or online searches.",
+      "Lastly, in relation to the topic of taxonomies and search strategies, there is also some tech that can help with documenting citations when you find them. There are a variety of programs that will grab metadata from a web page about a source and save the metadata necessary to create a citation of that source for you, have an option for you to create groups and sub-groups to organize your citations, and allow you to export group(s) of those citations into a text file. Zotero is a great, free open-source option (and the GC Library hosts workshops on how to use it!). Zotero also provides options for collaborative group work and creating public citation lists, which may come in handy for other sorts of projects.",
+      "Part 2: Track changes",
+      "Another big learning experience for me with tech while working on these bibs has been about the uses of programs for tracking changes in text files. Specifically, I learned that there is a software that will track changes from draft to draft in a text file for you, taking a snapshot of a current draft when you tell it to!",
+      "I’ve been drafting these bibs for several months now (some months more than others :/). As I switch around my theorizing of the main topic and area for each bib, and the sub-topics within each bib, I move, add, and delete various citations, but I do this knowing that these changes are not permanent and may change the next time I meet with my advisor or when I meet with another committee member or I realize or rethink something. I may delete a group of citations I wanted to include, but couldn’t find a theorization to make them fit into, and later find the perfect place for them to be added back in!",
+      "Basically, tracking every insertion, deletion, and move of each citation in these bibs, and being able to easily identify and recover past deletions between specific drafts, has been really important for me in keeping my sanity as I develop and revise these bibs. And I managed to do so without the problem of having a folder of file titles like: bibs.draft1.doc bibs.draft2.doc bibs.draft3.doc bibs.final.doc bibs.finalFINAL.doc etc. AND without the problem of fretting over a Google doc freezing or crashing mid-edit, not to mention getting lost in an overwhelmingly long single stream of tracked changes to one file over the course of several months…",
+      "This is because, thanks to my training and duties as a GC Digital Fellow, I recently built up the practice and confidence to draft my bibs using a programming language called Markdown (and began drafting them in that language very early into my bib-writing process to avoid cross-platform havok) and a version control system called Git, which is both free and open-source. And I drafted the Markdown files--filename extension .md--using a plain-text editor (specifically, a free one called Sublime).",
+      "Now, Git, and its website kin GitHub--where you can share and view a repository made with Git, and is also free and open-source (although it was recently bought by Microsoft)--is great and has been a lifesaver for tracking changes on my bibs, but I wouldn’t recommend doing a major project using Git until you have had some practice and feel real comfortable using it. Git is pretty confusing at first, especially for folks not used to directly communicating with their computer through the command line. To learn more about what Git and GitHub are and how they work, especially for the less tech-literate, check out this awesome blog piece by Nico Castro of Red Badger on “Git and GitHub in Plain English”.",
+      "Another meta-comment: Thankfully, GC Digital Fellow Rafael Davis Portela is leading a workshop on Markdown on November 1st! Save the date: Thursday, November 1st, from 6:30-8:30 p.m. in GC room 9206--and find more information and register here. Also, the GC Digital Fellows teach Git and GitHub, as well as the command line and other useful programs, during our annual GC Digital Research Institute in January--keep an eye out for the call for applications this November! Also, our most recent curriculum on Git and GitHub is posted online, which one could try to follow along and teach themself.",
+      "So why is it worth the hassle to learn how to write in Markdown, install and figure out how to use Git, and set up a GitHub account linked to the computer where you installed Git? First, Markdown is a very simple programming language and isn’t hard to learn, and it allows for some other useful tricks too (such as quickly making a set of slides). Git and GitHub are a lot harder to learn. But, they allow you to do this:",
+      "Kelsey’s image: A screenshot from the history of committed changes to the bibsdraft2.md file in my \"2ndexambibs\" repository on GitHub, with comments reminding me what changes I made (when you do the command: git commit -m “describe the changes here”)",
+      "Kelsey’s image: A screenshot from that same history of committed changes to my file on GitHub, after I clicked to view the specific changes (additions are in green, and deletions are in red) committed on September 4, 2018",
+      "And this is how I’ve kept my sanity. The more specific the descriptions I include when I commit changes (e.g. for the committed changes on September 4, 2018: “merged institutional subsection, renamed subsections, various additions”), the more sanity. This means I label when I take a snapshot of a draft, then find that specific draft, and dig into it and clearly see each and every inserted or deleted piece of text.",
+      "Yes, it took a lot of learning and practice with Git and GitHub, but in hindsight, the track changing capabilities has made that learning and practice very well worth it. And I’m pretty proud at my own advances at learning tech and putting it to work--indeed, as many in tech will tell you, using a digital tool for a specific project is the best way to really learn that tool. Honestly, I am generally not a very tech-savvy person. Just take a gander at the low-level tech I used when preparing for my first exam back after my first year of this PhD program:",
+      "Kelsey’s image: A photo of a door in my first NYC apartment covered in sticky notes with handwritten notes, organized by color, shape, and proximity.",
+      "Together, my growing skills in Markdown, Git, and GitHub; and what I have learned about library and search engine taxonomies and strategies for finding potential sources, have enormously helped me develop my second exam bibliographies. That said, no tech can help with the mental work of narrowing down and defining what works conceptually and politically for your own bibs in relation to your project (onwards to new PhD student dilemmas!) Nonetheless, hopefully, reading this post will help some others working on their bibliographies, or related work, too."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.31919073461111797,
+      0.00015469048490334694,
+      0.004246713558934365,
+      5.243944503637919e-05,
+      9.303040473350086e-05,
+      0.3483660662608501,
+      0.12433052779109428,
+      0.2035657974433302
+    ],
+    "words": [
+      [
+        "find",
+        26
+      ],
+      [
+        "bib",
+        22
+      ],
+      [
+        "search",
+        18
+      ],
+      [
+        "change",
+        17
+      ],
+      [
+        "library",
+        16
+      ],
+      [
+        "draft",
+        15
+      ]
+    ]
+  },
+  {
+    "id": "4819",
+    "title": "A Reflection on the Mediation and Intimacy of Sounds: Searching for Collective Pleasure through Group ASMR",
+    "date": "2018-10-18",
+    "year": "2018–2019",
+    "authors": [
+      "Michelle Yom"
+    ],
+    "originalAuthors": [
+      "Michelle Yom"
+    ],
+    "aliases": [
+      "Michelle Yom"
+    ],
+    "account": "Kelsey Chatlosh",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This is a guest post by Michelle Yom",
+    "tags": [
+      "#gcdisound",
+      "asmr",
+      "Audio",
+      "audio performance",
+      "audio recording",
+      "DH",
+      "Digital Humanities",
+      "Featured",
+      "guest blog",
+      "guest post",
+      "intimacy",
+      "mediation",
+      "music",
+      "musicology",
+      "performance",
+      "Reflections",
+      "sensory",
+      "sexuality",
+      "Sound",
+      "sound art",
+      "sound studies"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/10/18/group-asmr/",
+    "signals": [
+      "Archives, text & media",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "This is a guest post by Michelle Yom, a musicology Ph.D. student at the GC, a participant in the 2017-2018 GCDI Sound Series, and a member of the Sound Studies and Methods working group #GCDISound.",
+      "Since about a year ago, I’ve been intrigued by a YouTube phenomenon called ASMR (Autonomous Sensory Meridian Response). The term was coined in a Facebook group in 2010 and has been used in countless YouTube videos. It refers to pleasurable sensations brought forth by synchronized sounds and images which, in my body, range from a quick rush to delicately sustained tingles in the head and shoulders. It is a historically undocumented sensation but there are traces of it in literature. As a sensorial phenomenon, ASMR could be elicited by any sound depending on the listener, but the term itself is used primarily when sensations are sparked by sounds in the digital realm, especially in YouTube videos. At the same time, as a phenomenon of the body,…"
+    ],
+    "fullParagraphs": [
+      "This is a guest post by Michelle Yom, a musicology Ph.D. student at the GC, a participant in the 2017-2018 GCDI Sound Series, and a member of the Sound Studies and Methods working group #GCDISound.",
+      "Since about a year ago, I’ve been intrigued by a YouTube phenomenon called ASMR (Autonomous Sensory Meridian Response). The term was coined in a Facebook group in 2010 and has been used in countless YouTube videos. It refers to pleasurable sensations brought forth by synchronized sounds and images which, in my body, range from a quick rush to delicately sustained tingles in the head and shoulders. It is a historically undocumented sensation but there are traces of it in literature. As a sensorial phenomenon, ASMR could be elicited by any sound depending on the listener, but the term itself is used primarily when sensations are sparked by sounds in the digital realm, especially in YouTube videos. At the same time, as a phenomenon of the body, ASMR does not necessarily need to rely on online media to be stimulated, and, conceivably, people could create sensual pleasure-seeking ASMR communities offline. Last spring, I was hoping for a chance to facilitate group ASMR at the GC by giving a live ASMR performance. I had been experimenting with very quiet, ASMR-inducing sounds and thought it would be great to share with other GC students. I also wanted to solve a technical problem in the process. Aside from expensive silent disco technology, there seems to be no affordable precedent for realizing a live performance where audiences can listen through headphones. Because ASMR is provoked through very quiet sounds and interspersed with silences, the ambient noise of a room is best avoided by using headphones.",
+      "The only option other than providing expensive silent disco wireless headphones to each person in the audience was to livestream and ask the audience to bring their own cellular phones and headphones. This would have been ideal except for the latency. Although I could have weaved the latency into the narrative of the show—embrace the idea that from constraints comes creativity—I thought that an essential component of ASMR is the synchronicity of visual and sonic events. In the end, the project was not realized, and I am currently stuck with the same problem. However, over the summer I decided to give a concert with very quiet sounds using loud speakers, in contrast to my more common use of amplification for my flute performances. Reflecting on the performance and audience reception of that concert raised the question, are headphones really necessary for eliciting ASMR? If my goal was to facilitate collective sensorial pleasure through very quiet sounds, either the intimacy in a space required for that certain pleasure would need to be achieved through headphones, or the quality of listening had to be heightened in another way, provided that the concert space was not too noisy.",
+      "In this concert last August, I played the sounds of a wooden box scraping, a knife cutting through Styrofoam, a sticky ball of tape, water pumping through a spray bottle, and some pieces of ceramic and stones, and used gaps of silences and my whispering voice. The sounds were captured through a Sony PCM D100 recorder and Yamaha MG 10 XU mixer then amplified through the house’s PA system. All of the sounds I played had previously sparked ASMR for me through headphones but I did not think that the same effect could be achieved through loud speakers in the audience. But what I realized was that a concert space set up for heightened intimacy and focused and attentive listening, along with a variety of quiet sounds, can induce aural pleasure.",
+      "During the show, I heard the audience respond in ways that indicated pleasure and gratification. When I whispered into the microphone that I will be rubbing ceramic against a crystal and then started, someone in the audience exclaimed “Ye---ss.” In another part where I was rubbing a piece of Styrofoam into the microphone, I heard someone let out a distinct exhale of pleasure. I don’t know if anyone got the “brain tingles,” but it was as if the intimacy created by the bodies that were intently listening made up for the lack of headphones.",
+      "You might be wondering, was the concert I described above sexual? Whispering, rubbing, and even “pleasure” are all words that may evoke sex. Actually, my choice of words was unconscious at first, but I don’t think it’s a coincidence. The fact that ASMR by definition refers to bodily pleasure makes the experience of it intersect with other physical pleasures such as sexual pleasure (between consenting bodies). The “brain tingles” caused by a whispering voice or the crackles of a Styrofoam in near direct proximity to the ears via headphones are a result of getting physically intimate with sounds. ASMR can feel like a deep tissue neck massage (without touching). It can feel like foreplay. What I mean is that some pleasurable sensations brought on by ASMR are located in the same places and can be sensed similarly to pleasures felt in a different context.",
+      "How can listening to sounds elicit sensations akin to sexual pleasure? Music has been suspect for centuries precisely because it “touches” the body, at least in Western historical context. The pleasures of listening to music and its power to lure the body (separate from the mind) can be traced to St. Augustine’s Confessions. ASMR is not necessarily music, but as organized sound, particularly sounds focused on inducing pleasure, it can be a subject for analyzing how sounds in relatively new media are created and consumed in new forms of mediations and intimacies. Voyeurism, role-playing, and less obvious gender performativities in ASMR videos may illuminate how gender plays out in an internet-based sound culture. For example, let’s take a passage from Suzanne Cusick’s influential essay, “On a Lesbian Relationship with Music: A Serious Effort Not to Think Straight” (2006):",
+      "“If sex is free of the association with reproduction enforced by the so-called phallic economy (and it is, remember, exactly so for people called homosexuals, as it has become in the last thirty years for people called heterosexual who practice contraception), if it is then only (only!) a means of negotiating power and intimacy through the circulation of pleasure, what’s to prevent music from being sex, and thus an ancient, half-sanctioned form of escape from the constraints of the phallic economy?”",
+      "Can we take Cusick’s concept of sexuality and its equivalency to musicality as a way to begin distinguishing how ASMR is gendered? What if listening to or creating sounds designed to spark ASMR, like sexuality, are practices of circulating pleasure in intimate settings within a dynamic of power relations? Would the pleasures move in one direction? Would it be multi-directional? How does the field of sexuality/power/pleasure change when it resides in a space created through video cameras, microphones, and computer screens, and mediated by YouTube? How does microphone fetish figure into the ASMR economy? How does a live performance of ASMR, as opposed to a digital recording, shift the focus from microphones to speakers and to physical performance space? I hope to answer each of these questions at some point. For now, I am mostly fascinated by the phenomenon, and I will just keep listening.",
+      "For those interested in experiencing ASMR, here are some videos which gave me major tingles:",
+      "ASMR for Relaxation and Sleep 🌙 느린소리",
+      "ASMR Styrofoam models vs thermal knife (oddly satisfying)",
+      "ASMR Ear Cleaning DEEP & Tingly (NO TALKING) Q-Tips, Tweezers, Feather, Metal & Bamboo Pick +",
+      "Unpredictable ASMR",
+      "Words for ASMR 🐝 💤 | Korean Male | veiled"
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.036402738686727006,
+      0.06181787790653724,
+      0.0003488134329746573,
+      0.4660756304735961,
+      0.0002396208564710369,
+      0.38264309649803013,
+      0.00043674772630269835,
+      0.052035474419361086
+    ],
+    "words": [
+      [
+        "asmr",
+        26
+      ],
+      [
+        "sound",
+        18
+      ],
+      [
+        "pleasure",
+        18
+      ],
+      [
+        "headphone",
+        9
+      ],
+      [
+        "audience",
+        7
+      ],
+      [
+        "body",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "4809",
+    "title": "I Forced a Bot to Read 1,000 of My Blog Posts, Then Asked It to Write Its Own.",
+    "date": "2018-09-27",
+    "year": "2018–2019",
+    "authors": [
+      "Rachel Rakov"
+    ],
+    "originalAuthors": [
+      "Rachel Rakov"
+    ],
+    "aliases": [
+      "Rachel Rakov"
+    ],
+    "account": "Rachel Rakov",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "bots",
+      "memes",
+      "neural networks",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/09/27/i-forced-a-bot-to-read-1000-of-my-blog-posts-then-asked-it-to-write-its-own/",
+    "signals": [
+      "AI & machine learning"
+    ],
+    "paragraphs": [
+      "There's this meme that's been going around the internet for a little while now. The format of the meme is \"I forced a bot to watch X amount of Y, and then asked it to write Y - here's what it produced\". There are countless examples of this, but I want to write about one that I came across this summer.",
+      "This past summer, on June 13, 2018, a tweet following the format of the meme started making its way around the internet. Twitter user Keaton Patti @KeatonPatti posted this tweet, which started with \"I forced a bot to watch over 1,000 hours of Olive Garden commercials and then asked it to write an Olive Garden commercial of its own. Here is the first page.\" This “first page” displays a TV script format, listing characters such as WAITRESS and FRIEND 1, with dialogue such as the WAITRESS saying \"Pasta nachos for you\", stage directions like \"Friend 4 smiles wide. Her mouth is full of secret soup\", and, at the end of the \"commercial\", the…"
+    ],
+    "fullParagraphs": [
+      "There's this meme that's been going around the internet for a little while now. The format of the meme is \"I forced a bot to watch X amount of Y, and then asked it to write Y - here's what it produced\". There are countless examples of this, but I want to write about one that I came across this summer.",
+      "This past summer, on June 13, 2018, a tweet following the format of the meme started making its way around the internet. Twitter user Keaton Patti @KeatonPatti posted this tweet, which started with \"I forced a bot to watch over 1,000 hours of Olive Garden commercials and then asked it to write an Olive Garden commercial of its own. Here is the first page.\" This “first page” displays a TV script format, listing characters such as WAITRESS and FRIEND 1, with dialogue such as the WAITRESS saying \"Pasta nachos for you\", stage directions like \"Friend 4 smiles wide. Her mouth is full of secret soup\", and, at the end of the \"commercial\", the announcer saying (in a \"wet voice\") \"Olive Garden. When you're here, you're here.\"",
+      "It's extremely funny. And, of course, it's fake. There's no way a bot wrote that.",
+      "I'm the first to admit I'm cranky when I see things like this. When I see even the beginning of memes like this, and read the words \"I forced a bot to–\", I immediately say to myself, often out loud, \"No you didn't.\" Because the language describing the task that the bot is doing –\"forcing\" the bot to \"watch\" or \"read\" something –is describing a process that isn't possible for current artificial intelligence.",
+      "In her 2018 book Artificial Unintelligence, Meredith Broussard describes a helpful distinction between what she calls general AI and narrow AI. General AI, she writes, is like the AI we see in the movies; it's sentient robots with consciousness, or machines that can \"think\". Narrow AI, on the other hand, is a mathematical model for prediction. It can give you a prediction about how likely an answer to a question is, so long as that question can be represented by a number. Narrow AI is, as I like to say to my students, just really fast statistics.",
+      "And I, knowing that not everyone knows the distinction between what kind of AI is currently possible (narrow AI), and what kind of AI is currently idealized (general AI), become frustrated and grumpy that people without this knowledge are being \"duped\" by this meme instead of recognizing the human behind the humor, and the realities behind AI. Is it that something is perceived as funnier if a bot wrote it instead of a human? And if so, why is that? Neither of which I have answers for.",
+      "So I came across this particular meme and I became cranky and grumpy and frustrated, with a desire to correct the inaccuracies, but unsure of what to say that wouldn't make me sound like the pedant that I turn into when encountering this meme.",
+      "Fortunately, though, the world is full of wonderful and intelligent people like Janelle Shane (@JanelleCShane on Twitter), who, in a series of excellent series of tweets, concisely described why it is extremely likely that the 'I forced a bot to watch X' memes are, in fact, written by humans. Her tone is informative and accurate, and I recommend reading this whole thread. She has the right idea, of course; instead of getting annoyed, educate. So I'll take a moment here to summarize a few of her comments.",
+      "These memes are almost always written by humans. There a few ways that we can tell.",
+      "-- Neural networks (programming paradigms that enable computers to learn from observational data) give out the data that they take in. They learn by what samples they're taking in. A neural network that's given a video input will produce a video output, not a script (and certainly not a perfectly formatted one).",
+      "-- Neural networks need data to learn from. It's unlikely that there are, as Shane calculates, 120,000 unique 30-second Olive Garden commercials in existence, which would be a reasonable estimate of how much data a neural network would need to learn from. (And if there are, then WOW have I underestimated Olive Garden's advertising budget.)",
+      "-- Neural networks aren't good at outputting complex sentence structure. While they might be able to pick up and \"remember\" the vocabulary in the data, neural networks tend to do poorly with complex grammar and syntax. The result is sentences that read like word salad. (See Shane's Harry Potter bot examples.)",
+      "-- Words that don't appear in the data you're training your network on will not appear in any of your output. Therefore the word \"nacho\" would be extremely unlikely to show up in a script, unless Olive Garden has made a massive change to their image.",
+      "Essentially, as Shane writes, actual AI-written text isn't just isn't this coherent. Not that it won't be some day. But we aren't there yet.",
+      "Does this mean that you can't enjoy memes like this? Of course not, and I hope you still do. Things that you find funny are still funny, regardless of how they were produced. A bot failing to reproduce human language and culture is funny. A clever human taking these known failings and turning them into something relatable is also funny. It doesn't have to be one or the other.",
+      "As for me, Our Grumpy Pedant? I'm in solidarity with Shane in wishing that people wouldn't present these memes as bot-written. But I don't disagree that they're funny, and I give a lot of credit to Keaton Patti (who is a professional writer and comedian) for writing this fake bot-written Olive Garden ad. It really is funny. I particularly like \"When You're Here, You're Here\", which is how I've felt in every Olive Garden I've ever been in. And this meme has also given way to this blog post, which hopefully has served as an entry point for readers to learn a little bit about how AI does and doesn’t work.",
+      "And who knows? Maybe I can learn to appreciate this meme after all. At the very least, Twitter user Michael Lynch (@deliberatecoder) had a follow-up tweet that I thought was pretty great."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0004311107678203029,
+      0.2365814490438361,
+      0.03476839826860032,
+      0.00014621802230290195,
+      0.011722996828725997,
+      0.7145719287493733,
+      0.00047279596943662335,
+      0.0013051023499044787
+    ],
+    "words": [
+      [
+        "meme",
+        13
+      ],
+      [
+        "write",
+        13
+      ],
+      [
+        "ai",
+        13
+      ],
+      [
+        "bot",
+        12
+      ],
+      [
+        "like",
+        10
+      ],
+      [
+        "olive",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "19847",
+    "title": "What is GCDI? (Fall 2018 Edition)",
+    "date": "2018-09-20",
+    "year": "2018–2019",
+    "authors": [
+      "Kelsey Chatlosh"
+    ],
+    "originalAuthors": [
+      "Kelsey Chatlosh"
+    ],
+    "aliases": [
+      "Kelsey Chatlosh"
+    ],
+    "account": "Kelsey Chatlosh",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed cross-reference credit",
+    "creditQuote": "Note : This updated post by GC Digital Fellows Stefano Morello and Olivia Ildefonso is based on an earlier post written by Digital Fellow Jojo Karlin for the spring 2018 semester . Subsequently, it was updated by Kelsey Chatlosh in fall 2018 , by Javier Otero Peña in the spring of 2019 , and by Kristen Hackett in fall of 2019 . Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin.",
+    "tags": [
+      "#DigitalGC",
+      "Announcements",
+      "Coding",
+      "collaboration",
+      "commons",
+      "communication",
+      "community",
+      "contact",
+      "CUNY Academic Commons",
+      "DH",
+      "Digital Humanities",
+      "digital humanities initiative",
+      "Digital Research Communities",
+      "Digital Scholarship",
+      "digital technology",
+      "discussion",
+      "Events",
+      "Events",
+      "Featured",
+      "grants",
+      "humanidades digitales",
+      "Interactive Technology and Pedagogy",
+      "Interdisciplinarity",
+      "it",
+      "mapping",
+      "office hours",
+      "Provost's Digital Innovation Grants",
+      "pug",
+      "python",
+      "resources",
+      "Resources",
+      "Sound",
+      "sound studies",
+      "tools",
+      "Twitter",
+      "wordpress",
+      "working group",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2018/09/20/what-is-gcdi-fall-2018-edition/",
+    "signals": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Maps & visualization",
+      "Archives, text & media",
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "**Note that this blog post is revised and updated every semester, typically in early September or February. Links in this post may be outdated. For up to date information, please check the most recent \"Welcome to GCDI\"/\"What is GCDI?\"/\"GCDI is Here For You!\" post.*",
+      "Dear Digital GC,",
+      "This post aims to review information about the GC Digital Initiatives (GCDI), upcoming workshops, and useful online resources. The start of any semester can be a struggle as we try to get our feet back underneath us and our work done efficiently. The fall term kicks off the new academic year and even marks the beginning of a new program for many students--including the very first cohorts of students in the GC’s new MA in Digital Humanities and MS in Data Analysis and Visualization programs! For GC faculty, students, and staff new and old it can be hard to know what resources are available and where. The GC Digital Initiatives are here for you! Join the GCDI…"
+    ],
+    "fullParagraphs": [
+      "**Note that this blog post is revised and updated every semester, typically in early September or February. Links in this post may be outdated. For up to date information, please check the most recent \"Welcome to GCDI\"/\"What is GCDI?\"/\"GCDI is Here For You!\" post.*",
+      "Dear Digital GC,",
+      "This post aims to review information about the GC Digital Initiatives (GCDI), upcoming workshops, and useful online resources. The start of any semester can be a struggle as we try to get our feet back underneath us and our work done efficiently. The fall term kicks off the new academic year and even marks the beginning of a new program for many students--including the very first cohorts of students in the GC’s new MA in Digital Humanities and MS in Data Analysis and Visualization programs! For GC faculty, students, and staff new and old it can be hard to know what resources are available and where. The GC Digital Initiatives are here for you! Join the GCDI Group on the Commons for regular updates, follow us on Twitter (@Digital_Fellows, @cunygcdi), tune in to your department listservs, check our workshop calendar, and visit the GCDI website on the CUNY Academic Commons. It’s always good to know what’s going on with the GCDI, because you, yes you, are the digital GC #digitalGC.",
+      "The GCDI offers different types of support for digital scholarship from the week-long skill introduction at the GC Digital Research Institute, to afternoon and evening Office Hours, to one-on-one consultations for faculty, to ongoing working groups. Whether you have participated in our workshops before or your idea of the perfect software is a paperback edition, there is something for you! Our offerings are open to scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we are prepared to help.",
+      "Assistance with your digital project",
+      "Office Hours",
+      "Have a question about your digital project? Looking for more information on where to get started learning a new technology, skill, or research method? Drop by our Office Hours, no appointment necessary. This Fall 2018 semester, office hours will be held in the Digital Scholarship Lab, GC Room 7414, once per week on alternating Monday afternoons (3:00-5:00 PM) and Wednesday evenings (5:00-7:00 PM), beginning September 12th. Find more information and the full schedule here.",
+      "Open House",
+      "We host an Open House at the GC Digital Scholarship Lab twice per academic year at the beginning of each semester to introduce folks to the various resources of GC Digital Initiatives and assist individuals with digital skills questions. We hosted our last open house on September 4th, and stay posted for our next GC Digital Scholarship Lab Open House in February 2019! We will announce the next open house on the GCDI Group on the Commons, Twitter (@Digital_Fellows, @cunygcdi), and the GCDI website and calendar.",
+      "Special Interest Groups",
+      "We have several groups for people with more specific skills in mind, who seek other scholars working with similar methods and tools. These groups meet in the GC Digital Scholarship Lab (room 7414) and are meant to gather common interest across disciplines.",
+      "Python Users' Group (PUG)",
+      "There are opportunities for beginning to experienced Python users to get together and develop their skills during Python Users Group (or PUG for short). The dates and format for the next meeting are under development, so check back soon for more information about our next meeting. If you’d like to be involved or find out more, let us know! Email the Digital Fellows at gc.digitalfellows@gmail.com.",
+      "GIS Working Group",
+      "The GIS/Mapping working group serves as a community hub for CUNY students and faculty interested in the use of geographic information systems for research and/or teaching. Anyone, regardless of their expertise or knowledge of GIS and mapping tools, is welcome to join and post messages discussing their own projects and ideas, or to request support or opinions from peers. Anyone interested in joining can do so by accessing the GIS/Mapping working group on the CUNY Academic Commons.",
+      "Digitales Humanidades / DH in Spanish",
+      "An open discussion of Humanidades Digitales or Digital Humanities (DH) in Spanish-language contexts, both written in Spanish and/or in Spanish-speaking countries; and the geopolitics and genealogies of DH work. This group is run by GCDI and the GC Library. Interested? Join our GC Humanidades Digitales group on the Commons for updates, sharing resources, and opportunities, and discussion! And check out the library guide to Humanidades Digitales that the Digital Fellows helped create with the GC Library.",
+      "Sound Studies and Methods Working Group",
+      "An offshoot of our GCDI Sound Series #GCDISound during the 2017-2018 academic year, the new Sound Studies and Methods working group is a space for discussing and sharing all things related to sound analysis, comparison, theory, production, and recording. Join the Sound Studies and Methods working group on the Commons for updates, resources, and discussion.",
+      "Primary Source Working Group",
+      "Primary Source provides a space for students, faculty, and staff who are interested in deep engagement with archives and special collections: for interrogating research methods, recovering histories and silences, and developing technical skills for professional experience. This working group, organized by former Digital Fellow Mary Catherine Kinniburgh, offers a space for participants with academic, professional, and creative interests in archives and rare materials to convene and collectively think through ways to enrich their work. Primary Source is also home to the Collaborative Research Seminar on Archives and Special Collections, hosted in conjunction with the Graduate Center Library and the New York Public Library, with support from Lost and Found: The CUNY Poetics Document Initiative, the Center for the Humanities, the Early Research Initiative, and GC Digital Initiatives.",
+      "Workshops",
+      "The GCDI offers hands-on workshops on digital research tools for people of all skill levels. Free and open to all. Bring your own computer, or borrow one.",
+      "Up next this semester, we are offering:",
+      "Introduction to Python Programming, September 25, 2018 From 6:30 PM to 8:30 PM GC Room 9206",
+      "Finding Data for Mapping: Tips and Strategies, October 1, 2018 From 6:30 PM to 8:30 PM GC Room 9205",
+      "Sound: Recording, Sourcing, Editing, Sharing, October 10, 2018 From 6:30 PM to 8:30 PM GC Room 9207",
+      "See our full list of upcoming workshops here. Follow-up support is offered through Office Hours, faculty consultations, and the GC Digital Scholarship Lab Open House.",
+      "Special Events",
+      "GCDI hosts events pertinent to current trends in digital scholarship that we believe will appeal across a number of disciplines. Each year, we host a CUNY Digital Humanities Initiative (DHI) event to spotlight the many projects underway across CUNY, doc-a-thons and editathons, and an always abundant End-of-Year Showcase to present the work of Provost’s Digital Innovation Grant winners and Digital Praxis Seminar final projects. During the winter break, the Digital Fellows host the GC Digital Research Institute, a week-long course in digital research methods at the Graduate Center.",
+      "Dates and Deadlines",
+      "Dates and deadlines on the horizon for this Fall 2018 semester:",
+      "The 17th annual CUNY IT Conference at John Jay will be on November 29th to 30th. Find more information about the conference here.",
+      "In the next few weeks, GC Digital Initiatives will announce a call for applications for the Provost’s Digital Innovation Grants, which include training, start-up, and implementation grants — note that these are only available to GC PhD students.",
+      "This year’s CUNY Digital Humanities Initiative (DHI) lightning talks event is set for November 13th, and there will be a call for lightning talks in October. The event will be a great place to network among other DH-oriented folks who are based at CUNY.",
+      "In November we will be sending out a call for applications for the GC Digital Research Institute (DRI), set to occur in January 2019 (exact dates TBA), which is open to all GC students, faculty, and staff. The institute is a week-long intensive training course where participants learn core digital research skills (including the command line, git, python, databases, and mapping) while connecting with peers in an interdisciplinary environment. View the full set of curricula from our last GC Digital Research Institute here.",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold's reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, join the Building Manifold Development Blog, join the Manifold Community Slack channel, and visit the Manifold website for current documentation. You can also contact Manifold Co-PI Matthew K. Gold or Manifold Digital Fellow Jojo Karlin.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. If you’re new to CUNY, check out the Commons Basics guide. Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms you might see associated with GCDI are some amazing partners -- the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "If you're not physically at the GC, there are still GCDI resources you can use! These tutorials, handouts, and reflections can be extremely helpful as you consider new projects and methods. Please visit the Digital Resource Guide for materials by Digital Fellows old and new, and check out the Digital Fellows' Tagging the Tower blog for additional reflections and ideas.",
+      "Things like:",
+      "Which Digital Tool Should I Use? By Hannah Aizenman",
+      "An Introduction to Programming Paradigms by Patrick Smyth",
+      "Establishing an Academic Digital Identity: WordPress 1 by Patrick Sweeney",
+      "Intro to Mapping with QGIS by Javier Otero Peña",
+      "An Anthropologist’s Visit to DHSI to Learn About Sound by Kelsey Chatlosh",
+      "How do I solve with Python? By Rachel Rakov",
+      "and the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Other resources cover such topics as:",
+      "data and databases",
+      "design",
+      "mapping",
+      "programming (including python)",
+      "project management",
+      "projects",
+      "sound recording, sharing, and analysis",
+      "text analysis",
+      "web development",
+      "Please, don't hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive semester,",
+      "your Digital Fellows,",
+      "Filipa, Javier, Kelsey, Kristen, Olivia, Pablo, Patrick, Rachel, Rafa, and Stefano"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

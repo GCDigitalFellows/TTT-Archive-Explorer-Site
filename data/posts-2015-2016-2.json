@@ -1,0 +1,968 @@
+[
+  {
+    "id": "19809",
+    "title": "An Introduction to Web Servers",
+    "date": "2015-10-20",
+    "year": "2015–2016",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Featured",
+      "resources",
+      "Resources",
+      "web servers",
+      "wordpress",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Introduction: What will I learn and why?",
+      "What are the internet and world wide web (are they the same?) and how do they work?",
+      "Overview of key terms",
+      "IP/DNS and HTTP by example",
+      "Getting started with a web host/server",
+      "Setting up DNS",
+      "A brief interlude",
+      "Getting files onto your web server",
+      "Setting up web applications with cpanel",
+      "Working with different services on a server (the LAMP stack and beyond)",
+      "internet (interconnected network): the physical network connecting billions of computers around the world. connections are made using a combination of copper wire, fiber optic cable, satellite, and cellphone communications (radio waves)",
+      "world wide web: the subset of the internet used for sending html web pages, i.e., everything you view in a web browser, but not things like email or ftp (even though you can view those using web applications)",
+      "server: a computer that stores and serves content, e.g., web pages, videos, databases, applications, etc."
+    ],
+    "fullParagraphs": [
+      "Introduction: What will I learn and why?",
+      "What are the internet and world wide web (are they the same?) and how do they work?",
+      "Overview of key terms",
+      "IP/DNS and HTTP by example",
+      "Getting started with a web host/server",
+      "Setting up DNS",
+      "A brief interlude",
+      "Getting files onto your web server",
+      "Setting up web applications with cpanel",
+      "Working with different services on a server (the LAMP stack and beyond)",
+      "internet (interconnected network): the physical network connecting billions of computers around the world. connections are made using a combination of copper wire, fiber optic cable, satellite, and cellphone communications (radio waves)",
+      "world wide web: the subset of the internet used for sending html web pages, i.e., everything you view in a web browser, but not things like email or ftp (even though you can view those using web applications)",
+      "server: a computer that stores and serves content, e.g., web pages, videos, databases, applications, etc.",
+      "client: the device that requests content from a server, e.g., computer, phone, tablet",
+      "http (hypertext transfer protocol): the language (instructions) used to assemble packets of data for transmission over the internet",
+      "ip address (internet protocol address): the unique address used to locate a server containing the content you want to access (e.g., 255.255.255.255)",
+      "url (uniform resource locator): the unique address used to identify individual resources, e.g., web page, video, picture, etc.",
+      "dns (domain name system): the lookup directory linking domain names (e.g., www.google.com) to ip addresses (74.125.228.208)",
+      "html (hypertext markup language): the code/syntax for laying out text, images, etc. on a web page",
+      "This post (and workshop) will teach you the basics of how the internet and world wide web work, what a web server is and does, how to get started using a web server to build web pages and web applications, and how to configure your own domain name. By the end of this guide, you will have set up your own web hosting, a basic website, and a ready-to-go WordPress site.",
+      "You will be setting up your own (free) web hosting account on http://stateu.org. This is a service offered by the wonderful folks at Reclaim Hosting specifically for educational purposes, like learning how to manage your own website!",
+      "You will also learn how to configure a subdomain, like the one I made for my demo site: http://htmldemo.keithmiyake.stateu.org",
+      "Finally, you will use a script running on the web server to automatically set up and configure your own WordPress site like this: http://wp.keithmiyake.stateu.org",
+      "In the most basic terms, the Internet is an interconnected network that allows billions of computers around the world to communicate with one another. The world wide web is a subset of the Internet that is designated for serving web pages for viewing in a web browser. These two videos do a better job of explaining:",
+      "https://www.youtube.com/watch?v=D8c4JZW73cM",
+      "https://www.youtube.com/watch?v=oj7A2YDgIWEp",
+      "Let's get a more in-depth view of how IP addresses and domain names work.",
+      "First, let's see how a domain name gets converted into an IP address.",
+      "Visit http://tracert.com/resolver in a web browser (link opens in a new window)",
+      "Enter the domain name you'd like to hunt down. I used www.gc.cuny.edu.",
+      "The DNS resolver should return the IP address associated with the domain name you entered in step 2. The IP address I got for the Graduate Center's website was 146.96.128.106.",
+      "Next, let's see if we can trace the path that data takes to get from your computer to Google.",
+      "Visit http://www.monitis.com/traceroute/ in a web browser (link opens in a new window)",
+      "Enter www.google.com and click \"Start Test\" to view a map representing some of the \"hops\" between the web service's servers and one of Google's servers.",
+      "Now try it from your computer.",
+      "If you are on Windows, hit Win-R and type \"cmd\" then click return.",
+      "At the command prompt, type \"tracert www.google.com\" and hit return.",
+      "If you are on a Mac, hit cmd-space then type \"terminal\" and click return.",
+      "At the terminal prompt, type \"traceroute -I www.google.com\" and hit return.",
+      "If you are on Linux, open a terminal window (varies by distribution, ctl-alt-T might work) and type \"traceroute -I www.google.com\" and hit return.",
+      "The list that appears when you run traceroute is the path that data follows to get from your computer to one of Google's servers (they have about a bajillion of them). Each of those items represents a unique router helping data packets find their way around the Internet.",
+      "This next part will demonstrate how HTTP works at the most basic level. When you enter a URL into a web browser's address bar, the browser resolves the domain name, then sends an HTTP request to the server located at the resolved IP address. If there is a server listening at that IP address, it will respond with one or more codes telling the browser the status of the request. Was it a successful request (200)? Was the request for something that doesn't exist on the server (404)?",
+      "If the HTTP request is successful, the server will send the requested content back to the client that made the request. If the requested content is a web page, it transmits the raw HTML code for the browser to decode and convert into the web page you see.",
+      "Let's try a couple of requests to see what's going on behind the scenes.",
+      "Load http://web-sniffer.net in your web browser (launches in a new window)",
+      "Enter \"http://www.gc.cuny.edu\" (don't forget to enter the reCaptcha text) and click Submit",
+      "The \"HTTP request header\" is what is being sent to the GC's web server. Notice the first line shows the resolved IP address of www.gc.cuny.edu (146.96.128.106).",
+      "The \"HTTP response header\" is what the GC's web server sends back. In this case, it's returned the status \"301 Moved Permanently\" meaning that the resource at www.gc.cuny.edu is actually located at a different address, in this case, \"http://www.gc.cuny.edu/Home\" (the \"location\" only shows the part after the domain name since the response indicated \"SAMEORIGIN\")",
+      "Enter the new URL (http://www.gc.cuny.edu/Home) into web-sniffer.net",
+      "This time you should get a \"200 OK\" status. You'll also see the content returned by the server following the response header. This content is a combination of HTML, CSS, and Javascript, which a browser would use to render the page.",
+      "To help you get a better understanding of what's going on behind the scenes of a web server, let's go ahead and set up a web server account so that we can play around and configure the web server ourselves.",
+      "Sign up for an account at http://stateu.org. It's free and pretty awesome. Pick a subdomain that you want people to associate with you. I used keithmiyake since it's my name.",
+      "When your account is set up and you log in to their dashboard, you will see a \"cpanel\" interface. Many web hosts run this software on their servers because it provides an easy way for users to configure their web servers, set up applications, and check out things like how much traffic is going to their websites. Feel free to look around to see all of the services you can configure from the cpanel interface. In the next section, we'll use the DNS tools to configure your domain name.",
+      "Many web hosts will give you a free domain name when you purchase a hosting package. Unfortunately, stateu.org is a free educational service and doesn't provide a free domain name. If you wanted to associate a domain name with your stateu.org account, you would need to register your domain with a service like http://namecheap.com, then configure your domain registration to point to the appropriate IP address for your hosting service.",
+      "We won't go through the process of associating a new domain name with your web server in the workshop, but here are the steps you would follow to do it:",
+      "Register a new domain name using your web host, or purchase one through a domain name service such as namecheap.",
+      "Follow the instructions for setting up the DNS records provided by your provider. Here are Namecheap's instructions for reference.",
+      "This typically involves setting up an \"A\" record that links your new domain name to a specific IP address. You need to know the IP address of your web server.",
+      "If you are using stateu.org, load the dashboard and on the left side, click \"Expand Stats\" then click \"Server Information\" to locate the \"Shared IP address\" of your web server. If your web host uses cpanel, you should be able to find your server's IP address in a similar fashion.",
+      "Select \"A\" as the DNS record type. Enter the IP address for your web server in the \"IP Address\" field and your domain name in the \"name\" or \"domain\" field (varies by interface). Save the record.",
+      "You can additionally set up one or more \"CNAME\" records, which point from one address to another. For example, you can enter \"www\" to have www.yourname.com point to yourname.com (without the leading www).",
+      "On your web host's cpanel, you need to let the server know what to serve when someone visits your domain name. If you registered your domain name through your web host, this information is probably configured automatically. If you registered with another service, you will need to do this manually.",
+      "Assuming you're using stateu.org, click \"Addon Domains\" from the cpanel interface.",
+      "Under \"domain name\" enter the domain name you just registered, without \"www.\"",
+      "You can leave subdomain blank, or if you want, you can add something like \"www\"",
+      "Under \"document root\", you can leave it blank to have it point to the default server directory (usually /public_html/), or you can point it to a specific directory. More on this later, but for now just leave it blank to point to the default directory.",
+      "Click \"Add Domain\" and you're done! Once your domain name registration propagates throughout the Internet, you should be able to load yourdomain.com in a browser and see your stateu.org website!",
+      "If you want to host multiple websites on your server, each with its own domain name, you would repeat these steps, using the same IP address, but change the domain name and directory. Instead of everything pointing to /public_html/, you would point to the different directories containing the files for each website, such as /public_html/wordpress or /public_html/static_html or /my_python_app/.",
+      "Let's assume that you want to host multiple websites on your web server. We are going to set up a WordPress blog as well as a static HTML site in this tutorial. You can use subdomains to automatically load the correct information based on the URL someone enters in their web browser. For example, my stateu.org website URL is http://keithmiyake.stateu.org. I can create a WordPress subdomain at http://wp.keithmiyake.stateu.org that points to one directory on the server, and another subdomain for serving my HTML site at http://htmldemo.keithmiyake.stateu.org. So without registering any additional domain names, I can run multiple websites, each with their unique URL. If you're using your own domain, the URL would be shorter, such as http://wp.keithmiyake.info (doesn't actually exist).",
+      "From your stateu.org cpanel, click on \"subdomains.\"",
+      "Enter the subdomain prefix, such as \"wp\" to make \"wp.keithmiyake.stateu.org\"",
+      "Under \"domain\" you would select the domain you want to associate with this subdomain, if you had multiple domain names registered.",
+      "For document root, enter the directory that this subdomain will point to. By default it will point to your public_html directory. But we want to set up a subdomain for the WordPress site we will configure in the next section of this tutorial. Enter \"wp\" here and click \"Create.\"",
+      "The stateu.org service will allow you to create up to 2 subdomains. You can configure another subdomain later, if you'd like.",
+      "While we allow time for everyone to finish setting up their subdomains, please take a minute to complete this survey, which provides vital feedback to us and is how we justify continuing to offer these workshops!",
+      "Now that we've completed a basic server setup, it's time to start putting content into your websites! We will start with a common web application, a WordPress blog. Then we will upload a static website built with raw HTML, CSS, and Javascript.",
+      "Most web hosts offer scripts to automatically install common web applications such as WordPress, Omeka, and Drupal. These scripts make setting up the server extremely simple and save you from needing to manually configure all of the applications' components, such as databases and configuration files. The other big advantage is many of these scripts will automatically keep your application updated with the latest security fixes.",
+      "Go back to your cpanel dashboard and click on the WordPress button near the top of the page. This will load the WordPress installation script. You can view and install other applications by clicking the \"view more\" link in the featured applications section of cpanel. Other web hosts might use a different interface, such as Softaculous, but the following steps are almost identical.",
+      "When the WordPress page loads, you can read more information about the app, or just go ahead and click \"Install this application.\"",
+      "On the next page, select the domain on which you wish to host your application. Since we configured a subdomain for your WordPress site, click on the dropdown and select \"http://wp.yourname.stateu.org\". You should see the URL and directory base change to something like \"/home/yourname/public_html/wp/\".",
+      "Under \"directory,\" you could specify a subdirectory, but since we already configured your subdomain to use a different directory, you can leave it blank. If you weren't using a subdomain, you could enter something like \"blog\" here to have your WordPress address be \"http://yourname.stateu.org/blog\" but in our case, this is redundant.",
+      "You can leave all of the \"Version\" options at their defaults.",
+      "Under \"Settings,\" create your WordPress username and password. You can use anything you'd like; these DO NOT have to match the login and password for your stateu.org account.",
+      "Give your WordPress blog a title and optionally, a tagline. If you want to setup multiple blogs on your site, you can check the box to enable multi-site, but for simplicity, let's leave it off for now.",
+      "You can leave the \"Advanced\" settings at their defaults for now.",
+      "Click the \"+Install\" button at the bottom of the page and wait for the installation to complete!",
+      "Navigate your browser to your subdomain. Here's mine: http://wp.keithmiyake.stateu.org",
+      "Note the link to the WordPress administration page, something like \"http://wp.yourname.stateu.org/wp-admin\". This is where you can log in to your WordPress site to add pages, change the theme, etc.",
+      "If you want to change WordPress settings, you can return to the \"My Applications\" page from the cpanel dashboard and edit, backup, copy, and delete your installation.",
+      "The next thing we will do is upload files from your computer directly to your server. You could also use these steps to manually install WordPress or other web applications that aren't available as cpanel scripts.",
+      "Transferring files to a web server typically makes use of FTP, or File Transfer Protocol. This is a protocol similar to HTTP, but is used for bi-directional transfers instead of one-way serving. Different web hosts have different security protocols in place to protect your data, so you might not have FTP access, but instead something like SFTP. Since we're using stateu.org, you're in luck since they even provide an interface to configure FTP access.",
+      "Accessing your web server using FTP requires an FTP client program, such as Cyberduck or FireFTP (both free and open source; avoid Filezilla since it now comes with malware via sourceforge).",
+      "Download and install either Cyberduck or FireFTP. If you're using the Firefox browser, FireFTP might be easier, but I prefer Cyberduck.",
+      "Open the FTP program and open a new connection",
+      "Enter the address to your stateu.org account. Mine is keithmiyake.stateu.org",
+      "Enter your stateu username and password. The password field might not be displayed, but it will prompt you when you connect.",
+      "Leave the rest of the settings at their defaults and then connect!",
+      "You should see a directory listing for your stateu.org server. If you poke around, you should be able to find your \"wp\" folder inside of the \"public_html\" directory. Cool.",
+      "Now let's get some content to upload! Go to http://html5up.net/ and find a template that you like. Click on the \"Free Download\" button for that template and it should save a .zip file to the downloads folder on your computer. Double click that .zip file and extract it to the downloads folder or your desktop (any place where it's easy to find).",
+      "In your FTP program, navigate to the \"public_html\" directory. Upload the folder that you just extracted in the previous step to the \"public_html\" directory.",
+      "Once the folder finishes uploading, rename it \"static_html\"",
+      "Open your stateu.org dashboard and click on \"subdomains.\" See if you can create a new subdomain that points to your \"static_html\" site, using the subdomain \"www\" (*Hint: it's almost identical to the steps you followed earlier to setup your \"wp\" subdomain).",
+      "Try navigating to http://www.yourdomain.stateu.org. If you configured your subdomain correctly, it should show your static HTML site based on the template you downloaded from html5up.net.",
+      "Challenge: edit the index.html page to customize your static website!",
+      "You can either edit the page on your computer and then reupload it to your server using FTP, or you can edit the page directly in your browser using the cpanel file manager. I'll get you started using the latter method.",
+      "In the stateu.org dashboard, click on \"File Manager.\" In the popup window, select \"Document root for\" and then select the subdomain for your \"www\" (static_html) subdomain, then click \"Go\"",
+      "Select the index.html file in the file manager, then either click \"Code Editor\" or \"HTML Editor.\" The former lets you manipulate the raw HTML code. The latter will give you a visual editor if code makes you squeamish!",
+      "When you've made some changes to the page, save the page and then reload your site in another browser window to see how it looks."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.008054672771811775,
+      0.0027677971535173926,
+      0.022578328767577958,
+      4.21467582521087e-05,
+      0.0007356378582913415,
+      0.04406001872391625,
+      0.9154374023337266,
+      0.006323995632906613
+    ],
+    "words": [
+      [
+        "web",
+        57
+      ],
+      [
+        "server",
+        43
+      ],
+      [
+        "domain",
+        36
+      ],
+      [
+        "name",
+        30
+      ],
+      [
+        "html",
+        26
+      ],
+      [
+        "address",
+        25
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20151103103438/http://digitalfellows.commons.gc.cuny.edu:80/2015/10/20/an-introduction-to-web-servers/"
+  },
+  {
+    "id": "3130",
+    "title": "How to Get Started with Python",
+    "date": "2015-10-15",
+    "year": "2015–2016",
+    "authors": [
+      "Hannah Aizenman"
+    ],
+    "originalAuthors": [
+      "Hannah Aizenman"
+    ],
+    "aliases": [
+      "Hannah Aizenman"
+    ],
+    "account": "Hannah Aizenman",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Coding",
+      "Featured",
+      "learning",
+      "open source",
+      "python",
+      "resources",
+      "Resources",
+      "software",
+      "technology",
+      "tools",
+      "Tutorial"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/15/how-to-python/",
+    "signals": [
+      "Code & computational methods",
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Hello, so you're interested in Python but a little bit befuddled about where to start. I've been teaching and programming in Python for forever and so I'm going to share all my usual suggestions:",
+      "My 3 most favorite ways to learn Python are:",
+      "How to Think Like A Computer Scientist - this interactive textbook does a great job of explaining concepts and giving instant feedback and it tracks your progress. There's also a non interactive version for subway self study and the like",
+      "Learn Python The Hardway - Examples and more examples and yet still more. This is very much a learning via coding approach. [10/26/2017 update: This is no longer recommended because of the author's attitude towards Python 3]",
+      "Dive Into Python - Already know a language (or 3?), then this is the book for you. Clear, programmer oriented guide to cranking out code in Python",
+      "And yes, I don't ever recommend CodeAcademy but my summer high school students have been huge fans and…"
+    ],
+    "fullParagraphs": [
+      "Hello, so you're interested in Python but a little bit befuddled about where to start. I've been teaching and programming in Python for forever and so I'm going to share all my usual suggestions:",
+      "My 3 most favorite ways to learn Python are:",
+      "How to Think Like A Computer Scientist - this interactive textbook does a great job of explaining concepts and giving instant feedback and it tracks your progress. There's also a non interactive version for subway self study and the like",
+      "Learn Python The Hardway - Examples and more examples and yet still more. This is very much a learning via coding approach. [10/26/2017 update: This is no longer recommended because of the author's attitude towards Python 3]",
+      "Dive Into Python - Already know a language (or 3?), then this is the book for you. Clear, programmer oriented guide to cranking out code in Python",
+      "And yes, I don't ever recommend CodeAcademy but my summer high school students have been huge fans and so it gets an honorable? mention.",
+      "Ok, but you're probably like ok, but how do I get it to run on my computer? Well, purists will point you towards python.org and doing everything in the shell. Now since I don't hate you, I'm gonna point you towards pre-packaged environments that have most of the basics for most tasks.",
+      "Newbie friendly Python development environments:",
+      "Anaconda - this is the darling of the data science community 'cause it has all the most common data science libraries installed and comes with the super fantastic ipython notebook code editing environment",
+      "Canopy - Also geared towards the data science community and comes with most of the same tools as Anaconda.",
+      "IDLE - this is the default that comes with any install of Python from python.org. Not a favorite, but perfectly serviceable for learning python.",
+      "PyCharm - heavy hitter for web development. If you're using Python to power a website, this is the IDE for you.",
+      "Ok, so you go through the tutorials and download the environment and it's all a bit overwhelming and you're thinking now what? Well, we provide the support you need.",
+      "Digital Fellows Python User Group",
+      "The GC Python User Group is a collaborative space for experimentation and exploration with the Python programming language. Whether you’re new to programming or use Python regularly as part of your research practice, the PUG provides an environment to develop your skills alongside like-minded scholars from a variety of disciplines. The Python User Group meets on alternate Mondays from 2:00 to 4:00 in the Digital Scholarship Lab (room 7414). Please bring your own laptop.",
+      "The first PUG meeting is next Monday, October 19 at 2:00-4:00 in room 7414.",
+      "The header image is from the xkcd comic Python."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.000890470680721731,
+      0.0056265898278264085,
+      0.3796337886421205,
+      0.0003020171880933439,
+      0.0005357947862588146,
+      0.2636349156657777,
+      0.010447918518274297,
+      0.33892850469092717
+    ],
+    "words": [
+      [
+        "python",
+        19
+      ],
+      [
+        "environment",
+        5
+      ],
+      [
+        "like",
+        4
+      ],
+      [
+        "towards",
+        4
+      ],
+      [
+        "learn",
+        3
+      ],
+      [
+        "data",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19807",
+    "title": "Digital Tools for Qualitative Data Analysis",
+    "date": "2015-10-14",
+    "year": "2015–2016",
+    "authors": [
+      "Patrick Sweeney"
+    ],
+    "originalAuthors": [
+      "Patrick Sweeney"
+    ],
+    "aliases": [
+      "Patrick Sweeney"
+    ],
+    "account": "Patrick Sweeney",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "caqdas",
+      "computer assisted textual analysis",
+      "data",
+      "Digital Scholarship",
+      "digital sociology",
+      "digital technology",
+      "Featured",
+      "open source",
+      "psychology",
+      "qualitative",
+      "research",
+      "resources",
+      "Resources",
+      "social psychology",
+      "sociology",
+      "software",
+      "technology",
+      "Text Analysis",
+      "text mining"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/14/digital-tools-for-qualitative-data-analysis/",
+    "signals": [
+      "Archives, text & media",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Interest in using digital tools in qualitative social science research is not necessarily new, but appears to be steadily increasing. For example, this year’s International Congress of Qualitative Inquiry has a Digital Tools Special Interest Group, and the journal Qualitative Research has an upcoming Call for Papers for a special issue on the topic of Qualitative Methods and Data in Digital Societies.",
+      "One might say that the term “digital tool” in relation to qualitative research is unnecessarily broad – certainly, conducting an interview over Skype is using a digital tool, and so is recording an interview in person with your phone’s audio recording tool, or even writing up your results in a word processor! For the purpose of this post, I’ll be focusing on several types of tools that are involved in the analysis stage of a research project. Thus, I won’t discuss digital tools that help you gather data or disseminate findings. However,…"
+    ],
+    "fullParagraphs": [
+      "Interest in using digital tools in qualitative social science research is not necessarily new, but appears to be steadily increasing. For example, this year’s International Congress of Qualitative Inquiry has a Digital Tools Special Interest Group, and the journal Qualitative Research has an upcoming Call for Papers for a special issue on the topic of Qualitative Methods and Data in Digital Societies.",
+      "One might say that the term “digital tool” in relation to qualitative research is unnecessarily broad – certainly, conducting an interview over Skype is using a digital tool, and so is recording an interview in person with your phone’s audio recording tool, or even writing up your results in a word processor! For the purpose of this post, I’ll be focusing on several types of tools that are involved in the analysis stage of a research project. Thus, I won’t discuss digital tools that help you gather data or disseminate findings. However, those may be topics for future blog posts and already have been touched on by a few previous posts on Tagging the Tower (e.g. visually representing findings, or presenting them in a digital dissertation)",
+      "Types of Tools",
+      "Some digital tools may be familiar to most qualitative researchers by now, especially programs like Atlas.ti, NVivo, or MAXQDA, which belong to a group of tools that were initially designed to generally recreate the practices of pen and paper qualitative research - but there there are other possibilities as well! Gregor Wiedemann’s typology of 4 ways of classifying computer-assisted analysis of textual data published in Forum: Qualitative Social Research is a great introduction to the many different kinds of digital tools available to qualitative researchers, even if his focus on text does occlude the possibilities of audio, visual, and spatial data analysis.",
+      "While some of the tools Wiedemann discusses (as well as certain functions in the ones mentioned above) go beyond merely managing data, and in their computerized analyses may seem to veer into the territory of quantitative research, I would argue this isn’t a problem for two reasons:",
+      "New Tools, Same Epistemologies/Ontologies: Using tools that engage in computerized analyses of qualitative data does not necessitate a departure from the epistemological and ontological stances of qualitative social scientific research. While social scientists using qualitative approaches draw on a wide array of understandings about what data is useful evidence and how different kinds of data relate to the nature of social reality, coding data in a digital program or even analyzing it using an algorithmically derived model does not inherently violate the assumptions of most qualitative paradigms. Thus, the findings of a computer-assisted analysis of a corpus of qualitative data is not regarded as an observable, universal fact, but rather as a particular way of seeing a particular set of records of human actors engaging in processes of constructing meanings, undertaken with particular motivations and values under particular structures and constraints.",
+      "Flipping the Script: Qualitative methods have often been used in exploratory stages of research to develop hypotheses that will later be tested quantitatively. Computer-assisted analysis of qualitative data can flip the script, or engage us in a polymorphous practice of “going both ways,” and use quantitative analyses (e.g. a word frequency count of the most common words in a corpus of interview transcripts, or a “keyness” analysis which identifies words that are overrepresented in a set of documents compared to a corpus that is thought to be representative of language use in that particular context) to identify relevant topics or themes that can be explored and interpreted in more depth using traditional qualitative approaches. Sometimes quantitative analyses are the beginning, not the end, of social scientific research.",
+      "Perhaps my description has inspired an interest in digital tools you didn’t know you had, assuaged some of your concerns, or you were totally already on board? If so, and you want to use a digital tool in qualitative analysis? Awesome! First, you need to figure out what you want to do – this will determine which tool will be appropriate for you project. Are you interested in coding your data and having a searchable database of codes that you can visualize spatially? Do you want to use audio or visual data? Do want to engage in topic modeling or other text mining approaches?",
+      "Next, you’ll need to determine which tools will be able to fit your needs; and how you’ll be able to access them. The Computer-Assisted Qualitative Data Analysis Software (CAQDAS) Networking Project has a very useful series of reviews that may help with the process. Much of the software they review, however, is proprietary and licensed, meaning that you’ll have to pay for it, and its underlying structure is not open to the kind of scientific review and debate that many of us accept as best practices in research.",
+      "In regard to licensing and costs, the GC has Atlas.ti., one of the most established and widely used CAQDAS programs, installed on most computers and also available to your computer remotely via Citrix. In addition, Linguistic Inquiry and Word Count (LIWC), a program designed by a psychologist to identify psychologically relevant patterns in text, is installed on all computers in the psychology department computer rooms. Furthermore, QDA Miner, a newer program with robust capabilities (especially in conjuction with its WordStat and SimStat add-on modules) is available on 5 of the computers in room 5487. There is another post on Tagging the Tower that discusses QDA Miner’s possible uses here.",
+      "Some tools, however, are free and/or open source. QDA Miner has a free version with limited functionality available. Many other mainstream CAQDAS packages have free trials for limited times and lower rates for students. Weft QDA is a both free and open source tool for the analysis of textual data, but is unfortunately no longer being developed/updated. If you’re interested in particular kinds of analyses, there are several free and/or open sources options available. AntConc is a popular concordance tool that is free, and MALLET is a robust free and open source software for natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.",
+      "Many more resources to help choose which tools are most appropriate for your project are available at the Computer-Assisted Qualitative Data Analysis Software Networking Project and Online QDA sites. And of course, you’re welcome to come to the GC Digital Fellows office hours to discuss your project.",
+      "Regardless of which tool you use or which approach you take, I would love to hear about your experiences with using digital tools in your work. Contact us or drop in!",
+      "Images Creative Commons via David Mulder, Christian Jensen, and Timothy Terway respectively, via Flickr."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.4540847132771163,
+      0.07412551550010425,
+      0.06485998119538679,
+      0.00011763048718845808,
+      0.00020868283073074916,
+      0.1764597726377956,
+      0.002224821144457966,
+      0.22791888292721987
+    ],
+    "words": [
+      [
+        "tool",
+        24
+      ],
+      [
+        "qualitative",
+        20
+      ],
+      [
+        "data",
+        16
+      ],
+      [
+        "analysis",
+        15
+      ],
+      [
+        "digital",
+        14
+      ],
+      [
+        "research",
+        11
+      ]
+    ]
+  },
+  {
+    "id": "19808",
+    "title": "Call for Presentations: Building a Digital Humanities Community at the City University of New York",
+    "date": "2015-10-12",
+    "year": "2015–2016",
+    "authors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "originalAuthors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "aliases": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "account": "Mary Catherine Kinniburgh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Announcements",
+      "Digital Humanities",
+      "Events",
+      "panels"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/12/cfpcunydhi/",
+    "signals": [
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The Digital Fellows are one small part of the entire scope of digital scholars at The City University of New York that constitutes our community. To make visible the range of digital humanities scholarship across our CUNY campuses, we are collaborating with CUNY DHI and GC Digital Initiatives to curate a series of lightning talks as part of an upcoming event:",
+      "CUNY DHI: Building a Digital Humanities Community at the City University of New York",
+      "We would like to share the call for presentations, and encourage you to consider participating!",
+      "Call for Presentations:",
+      "We are now accepting presentation proposals that highlight ongoing, current, and recent digital humanities work across The City University of New York. All disciplines, all research, and all students, faculty, and staff are welcome to attend and present.",
+      "The event is scheduled for Tuesday, November 10th, 6:30-8:30pm at The Graduate Center. Please plan to speak for no more than five…"
+    ],
+    "fullParagraphs": [
+      "The Digital Fellows are one small part of the entire scope of digital scholars at The City University of New York that constitutes our community. To make visible the range of digital humanities scholarship across our CUNY campuses, we are collaborating with CUNY DHI and GC Digital Initiatives to curate a series of lightning talks as part of an upcoming event:",
+      "CUNY DHI: Building a Digital Humanities Community at the City University of New York",
+      "We would like to share the call for presentations, and encourage you to consider participating!",
+      "Call for Presentations:",
+      "We are now accepting presentation proposals that highlight ongoing, current, and recent digital humanities work across The City University of New York. All disciplines, all research, and all students, faculty, and staff are welcome to attend and present.",
+      "The event is scheduled for Tuesday, November 10th, 6:30-8:30pm at The Graduate Center. Please plan to speak for no more than five minutes. Groups may present collaboratively or with a representative. Proposals may be submitted through the following form: http://goo.gl/forms/mF6oPcEqfs. Once you have completed the form, we will contact the email address provided with further details. Thank you for your interest in participating, and we look forward to seeing you there.",
+      "For specific questions, please do not hesitate to contact mgold@gc.cuny.edu or mckinniburgh@gmail.com.",
+      "Sponsored by CUNY DHI and GC Digital Initiatives."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0017880267229865667,
+      0.0017889226150149655,
+      0.0015661070667087856,
+      0.0006064374884016109,
+      0.0010758528232408054,
+      0.08244326711231355,
+      0.001960915595189665,
+      0.9087704705761441
+    ],
+    "words": [
+      [
+        "digital",
+        7
+      ],
+      [
+        "city",
+        3
+      ],
+      [
+        "university",
+        3
+      ],
+      [
+        "new",
+        3
+      ],
+      [
+        "york",
+        3
+      ],
+      [
+        "humanity",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "19806",
+    "title": "Open science and the digital humanities",
+    "date": "2015-10-09",
+    "year": "2015–2016",
+    "authors": [
+      "Erin Glass"
+    ],
+    "originalAuthors": [
+      "Erin Glass"
+    ],
+    "aliases": [
+      "Erin Glass"
+    ],
+    "account": "Erin Glass",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "Reflections"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/09/open-science-and-the-digital-humanities/",
+    "signals": [
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Late last September, I was invited to join Mozilla Science Lab’s three-day Open Science Leadership Summit in Toronto. The purpose of the event was to bring scientists, librarians, programmers and other open science community members to report on projects, discuss shared challenges, and learn new skills. Though I'm an avid supporter of open source software—an overlapping, but not altogether synonymous community—I have no formal involvement in open science. Neither am I a scientist. Instead, I was to join as the group's sole humanist with the purpose of speaking about the collaborative potential between our two, long estranged academic cultures.",
+      "The invitation had come largely by chance. A few weeks prior I had met Mozilla Science Lab's former community manager, Bill Mills, a quantum physicist and software developer, who founded Mozilla Science Study Groups, a network of skill sharing and community building among scientists looking to…"
+    ],
+    "fullParagraphs": [
+      "Late last September, I was invited to join Mozilla Science Lab’s three-day Open Science Leadership Summit in Toronto. The purpose of the event was to bring scientists, librarians, programmers and other open science community members to report on projects, discuss shared challenges, and learn new skills. Though I'm an avid supporter of open source software—an overlapping, but not altogether synonymous community—I have no formal involvement in open science. Neither am I a scientist. Instead, I was to join as the group's sole humanist with the purpose of speaking about the collaborative potential between our two, long estranged academic cultures.",
+      "The invitation had come largely by chance. A few weeks prior I had met Mozilla Science Lab's former community manager, Bill Mills, a quantum physicist and software developer, who founded Mozilla Science Study Groups, a network of skill sharing and community building among scientists looking to improve their technical chops. During our meeting, which was organized by another champion community builder, our former digital fellow Evan Misshula, I discovered that—despite our disciplinary differences—Bill and I were both tremendously excited about the potential of collaboration and spent a good deal of time thinking about ways to foster it in our respective academic communities. I was soon convinced—in no short part due to Bill’s contagiously-welcoming personality—that the digital humanities and open science communities not only had much to learn from each other but might also have a unique collaborative opportunity of their own. Thus, I was thrilled when shortly after our meeting, Mozilla invited me to spend three days with the open science community to explore this possibility further.",
+      "But as the date of the summit neared, I feared Mozilla’s warm invitation had been wasted on the wrong humanist scholar. Yes, I shared their vision of a world bettered by collaborative research that transcended disciplinary and institutional boundaries, but what would words could I offer that might actually be of use? How exactly could our two academic cultures meaningfully converse when our subject matter is so radically diverse? What common language and shared goals might actually provide grounds for listening? The night before my flight to Toronto I dreamed of nervously reciting limericks before a crowd of R2-D2 robots whose blinks and beeps only conveyed deep boredom and hostile disregard.",
+      "Before going any further, I should first clarify some of the main activities and goals of open science movement, though I do so as a novice and welcome amendments from the open science community itself! Michael Nielsen, one of the community's early advocates, as well as a quantum physicist and science writer, describes it as the “idea that scientific knowledge of all kinds should be openly shared as early as is practical in the discovery process.” This permissive attitude flies in the face of traditional practices of scientific research dissemination which rely on subscription-based scholarly journals and prolonged procedures of peer review to circulate findings among the scientific community. As Nielsen explains, the journal system may have been an “excellent example of open science” in the 17th and 18th centuries in which it emerged, but today, it’s unjustifiably slow, elitist and inaccessible when compared to contemporary communication practices. Thus proponents of open science argue that scientists should embrace new web technologies to generate more productive and “frictionless” forms of scientific collaboration. The challenge, however, is not only creating new tools and online portals for sharing research, but also changing the culture which depends on traditional publication as a means of professional evaluation. Not coincidentally, these same issues are at play within humanities academic publishing, as written about by scholars such as Kathleen Fitzpatrick.",
+      "But practicing and promoting new forms of sharing research is not the only activity which occupies the open science movement. Anyone whose science education trailed off in high school may not appreciate the full extent to which scientific research is increasingly reliant on computational methods. Whether you’re researching black holes or the microbiome, chances are your research is based on analyzing vast sets of data. The increasing reliance on computation in science leads to several interesting characteristics. First, scientific research not only requires traditionally trained scientists, but also specialists in informatics or programming languages who do not necessarily possess a large amount of scientific training. As one Summit attendee explained to me, his technical skills enabled him to make sophisticated predictions regarding gene function, but he was not able to physically describe a gene the way one might expect of a traditional scientist. Second, many scientists, in addition to conducting research, are expected or compelled to quickly teach themselves programming languages without any formal support or training, especially when joining a new lab as a graduate student or post doc. Third, both the processes and products of scientific research are in many cases either raw data or code used to analyze data, both of which can be easily shared for reuse, reproducibility, and repurposing in other experiments, which leads to conditions immensely favorable for global and interdisciplinary collaborations previously inconceivable.",
+      "Broadly speaking then, digital humanities and open science share many common challenges. Both communities are struggling to reinvent practices of knowledge circulation while simultaneously facing the daunting task of learning new computational methods. In some cases these computational techniques have become so broadly applicable that scientists have even begun analyzing culture using methods of genomic analysis. In theory, there was a lot that I might talk about. Yet despite these glaring similarities, and both communities' vocal dedication to collaboration and openness, I felt less and less sure about ways to build relevant bridges between the two. As if science wasn’t already intimidating enough, now it was further transformed by computation into some incomprehensible combination of two of society’s most esoteric arts!",
+      "Ironically, however, it was this very struggle which turned out to be one of the key preoccupations of summit. A day before its start, I came across a blog post by Mozilla Science Lab’s new Instructional Designer, Zannah Marsh, which discusses the challenges of joining a new community and immersing oneself in an unfamiliar language. In her post, “Sprints, Selectors, and Pandas: On Learning in the Open,” Zannah argues that instead of concealing our confusion during these learning processes we should practice “open confusion” by becoming more comfortable in articulating our ignorance to ourselves and others. In this way, she writes, “we could use our confusion to open up our learning processes, get help, and create relationships with other learners and teachers along the way, and improve the learning experience for everyone in our community.”",
+      "Far from being a marginal perspective on open science, Zannah’s post expressed one of the summit’s overarching questions: how might open science projects be structured so that “outsiders” can meaningfully participate? Open science, after all, is not meant merely to benefit the careers and intellectual satisfaction of professional scientists, but rather to further unlock the pursuit and fruits of scientific research to the world at large. Furthermore, the increasingly interdisciplinary and technical nature of scientific research makes it so that all experts are most likely also novices in other skills and subjects useful for their work. Thus, one of the most important challenges of the open science movement is neither scientific nor technical, but social. Though technical skills and and scientific expertise are obviously fundamental to scientific research, their effects can only be as strong as the community in which they circulate. Throughout the summit, we discussed ways to incorporate non-expert collaborators into research projects, study groups and other activities that are vital to the cultivation of the open science movement. (One activity I fully recommend replicating is using this web based text editor to explain your project using only the top one thousand most commonly-used words.)",
+      "And so, what I had worried would be an event awash in technical expertise and incomprehensible dialogue turned out to be friendly and engaged conversation around themes I encounter often within the digital humanities. Our tools for producing and communicating research are evolving. How then might we deliberately evolve our culture of research to take the most advantage of these new capabilities? And what if collaboration—across disciplines, perspectives, and global communities—rather than the research itself, turns out to be its biggest gift?"
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0031565936728286613,
+      0.14020958517234325,
+      0.00023760186635524516,
+      9.200563750396732e-05,
+      0.0001632229648658548,
+      0.2779576180612083,
+      0.0031828235006486952,
+      0.575000549124246
+    ],
+    "words": [
+      [
+        "science",
+        24
+      ],
+      [
+        "open",
+        20
+      ],
+      [
+        "community",
+        17
+      ],
+      [
+        "research",
+        17
+      ],
+      [
+        "scientific",
+        13
+      ],
+      [
+        "scientist",
+        9
+      ]
+    ]
+  },
+  {
+    "id": "3028",
+    "title": "Treebanking with Arethusa",
+    "date": "2015-10-08",
+    "year": "2015–2016",
+    "authors": [
+      "Jeremy March"
+    ],
+    "originalAuthors": [
+      "Jeremy March"
+    ],
+    "aliases": [
+      "Jeremy March"
+    ],
+    "account": "Jeremy March",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Featured",
+      "greek",
+      "perseids",
+      "Resources",
+      "resources",
+      "xml"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/08/treebanking-with-arethusa/",
+    "signals": [],
+    "paragraphs": [
+      "Treebanks are text corpuses which have had their syntactic structures annotated in a machine-readable format. They are used by computational linguists and others to conduct syntactic and stylometric studies of texts and corpuses. Syntactic annotation, which can be thought of as a very precise form of sentence diagramming, is normally performed manually by humans--as opposed to machines--to ensure the accuracy of this crucial step. But the process of annotating the syntax of every word in a text can be tedious and time consuming. Arethusa is a new tool on the Perseids platform designed to make this process easier. It is aimed especially for the annotation of Ancient Greek, Latin, and Arabic texts, but many of its core features can be applied to other languages.",
+      "Arethusa has a sleek web interface offering easy access to many useful features. It provides color coding for parts of speech and a graphical representation of the dependency…"
+    ],
+    "fullParagraphs": [
+      "Treebanks are text corpuses which have had their syntactic structures annotated in a machine-readable format. They are used by computational linguists and others to conduct syntactic and stylometric studies of texts and corpuses. Syntactic annotation, which can be thought of as a very precise form of sentence diagramming, is normally performed manually by humans--as opposed to machines--to ensure the accuracy of this crucial step. But the process of annotating the syntax of every word in a text can be tedious and time consuming. Arethusa is a new tool on the Perseids platform designed to make this process easier. It is aimed especially for the annotation of Ancient Greek, Latin, and Arabic texts, but many of its core features can be applied to other languages.",
+      "Arethusa has a sleek web interface offering easy access to many useful features. It provides color coding for parts of speech and a graphical representation of the dependency tree. One can even zoom in and out as one's tree grows. For Latin and Ancient Greek texts Arethusa interfaces with the morphological tools at the Perseus Digital Library to automatically suggest the most likely analyses of words. On the backend, the treebank is encoded as an XML file. Once a text has been fully annotated, the XML can be downloaded and used with many different types of analytical tools.",
+      "Here is the XML which results from the dependency tree of Olympian 1 which is displayed at the top of this post.",
+      "Since the platform is still undergoing rapid development, getting started can be daunting. Here is a guide to upload your first text and begin annotating.",
+      "First, prepare your digitized text, making sure it is free from spelling and punctuation errors.",
+      "Now go to http://sosol.perseids.org/sosol/.",
+      "Click the Sign In link at the top right of the page.",
+      "Rather than making you create yet another user id and password, the Perseids/Arethusa platform make things simple by letting you log in from an account you probably already have, e.g. a Google account.",
+      "After logging in you will arrive at the Perseids dashboard screen. Click New Treebank Annotation to upload your first text for annotation.",
+      "There are several options for uploading your text.",
+      "Cut and paste a text you have prepared into the top text box.",
+      "Select a text from an assortment available texts.",
+      "Enter a URI which points to your text on the web.",
+      "Upload an existing treebank XML file to edit.",
+      "Now select the language and text direction and click Edit to upload your text.",
+      "Your text will now show up in the list of texts on the dashboard. Click the text in the Treebank Annotation column. When the text loads click on the first sentence to being annotating.",
+      "Learning how to annotate a text for a treebank requires a great deal of grammatical precision and also a knowledge of the conventions of the format. Fortunately, there are two video tutorials which will help you get started.",
+      "Part one of the video tutorial details how to add morphological annotations: https://www.youtube.com/watch?t=1&v=FbRRoVnVuDs",
+      "Part two goes through creating the dependency hierarchy and labeling the relations: https://www.youtube.com/watch?v=hp-bhasd96g",
+      "For texts in Ancient Greek even more precise syntactic annotation is possible by turning on the Smyth Grammar Tag Set. Smyth is the standard Grammar of Ancient Greek in English. This option is accessible from the advanced menu when initially uploading your text. This guide is available detailing the three levels of annotation available when the Smyth Grammar Tag Set is enabled. Texts can be annotated on the morphological level, the Prague syntactic level, and an advanced syntax which is specific to Ancient Greek using categories from Smyth's Grammar. This makes it possible to tag words by Greek case uses such as \"locative dative,\" etc.",
+      "In a subsequent post, I will discuss some of the types of studies which can be conducted using treebanks."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.4672574980388642,
+      0.003932076319347288,
+      0.12961437077627075,
+      0.00021106117020732858,
+      0.0003744339032248051,
+      0.1478340044454784,
+      0.2488926806718387,
+      0.001883874674768507
+    ],
+    "words": [
+      [
+        "text",
+        24
+      ],
+      [
+        "annotation",
+        8
+      ],
+      [
+        "annotate",
+        7
+      ],
+      [
+        "greek",
+        6
+      ],
+      [
+        "upload",
+        6
+      ],
+      [
+        "syntactic",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "19805",
+    "title": "Getting the Most out of a Humble Technology: Word Search",
+    "date": "2015-10-01",
+    "year": "2015–2016",
+    "authors": [
+      "Jeffrey Binder"
+    ],
+    "originalAuthors": [
+      "Jeffrey Binder"
+    ],
+    "aliases": [
+      "Jeffrey Binder"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Jeffrey Binder",
+    "tags": [
+      "databases",
+      "digitization",
+      "OCR",
+      "research",
+      "resources",
+      "Resources",
+      "search"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/",
+    "signals": [
+      "Code & computational methods",
+      "Archives, text & media"
+    ],
+    "paragraphs": [
+      "While only some scholars in the humanities identify as digital humanists, the number of humanists who use digital tools in their work is much larger. Through the digitization of journals and archives, the spread of word processers, and the adoption of educational technologies like Blackboard, computers have found their way into our practice in many forms.",
+      "Word search in a Project Gutenberg text",
+      "One technology that could have a major effect on scholarly practice is a relatively inconspicuous one: word search. When you are trying to track down the source of a quotation, word search can be a lifesaver, and it can also provide a way of finding examples of how a particular word was used. Word search is only useful, however, if you can find searchable versions of the texts you are interested in. In this blog post, I will point out some ways you can find texts that you can search, as well as pointing out some pitfalls that you should be aware…"
+    ],
+    "fullParagraphs": [
+      "While only some scholars in the humanities identify as digital humanists, the number of humanists who use digital tools in their work is much larger. Through the digitization of journals and archives, the spread of word processers, and the adoption of educational technologies like Blackboard, computers have found their way into our practice in many forms.",
+      "Word search in a Project Gutenberg text",
+      "One technology that could have a major effect on scholarly practice is a relatively inconspicuous one: word search. When you are trying to track down the source of a quotation, word search can be a lifesaver, and it can also provide a way of finding examples of how a particular word was used. Word search is only useful, however, if you can find searchable versions of the texts you are interested in. In this blog post, I will point out some ways you can find texts that you can search, as well as pointing out some pitfalls that you should be aware of when using automated methods to find things in texts.",
+      "Finding aids of one sort or another have been around for about as long as there have been collections of books. One venerable (and useful) type is the subject index, which has been a common addition to printed books since the early-modern period. But although word search is often used as a substitute for the index, it is in many ways closer to a concordance—in its simplest form, it presents the user with a list of every instance of a given word in a collection, without attempting to account for figurative language or circumlocution. One consequence of this rigid adherence to the words on the page is that search is highly dependent on the quality of the texts that you are using; one typo or transcription error means that a word will not show up. Because of this, it is sometimes useful to look around a little to find a better quality copy of a text.",
+      "Excerpt from an 1869 edition of Alexander Cruden's Biblical concordance, first published in 1737",
+      "Searching individual texts",
+      "One place where you can use word search is right in your Web browser, PDF viewer, or word processor, usually using command-F on Macs or control-F on Windows. To do this, however, you need a copy of the document you want to search in a text format. If you are dealing with a text that was scanned, it might be possible to create a searchable version automatically using Optical Character Recognition (OCR). Some versions of Adobe Reader include an OCR feature, and there are many other programs available, both free (Tesseract) and commercial (Abbyy FineReader). However, OCR does not always do a good job of recognizing words, especially with older material, and it makes assumptions about language that can be problematic when applied to large collections; in particular, it tends to work best with language that follows standard orthography and follows conventional phrasing. If possible, it is better to look for a copy of a text that has been transcribed by a human being.",
+      "If you are working on a fairly well-known text that is out of copyright, a good place to look is Project Gutenberg. For this project, volunteers have transcribed over 50,000 books and made them freely available online. These editions are not always up to the standard of a scholarly edition, and there is sometimes a frustrating lack of information about provenance—the site does not always even state which edition of the book the volunteers transcribed—but if all you are trying to do is find a particular passage, they are usually sufficient.",
+      "Big databases",
+      "Another place where you can use word search is in large databases of scanned books. The most famous of these is Google Books, a project that was much publicized in the last decade and that was the occasion for an important legal ruling. Not only is Google’s collection far larger than Project Gutenberg’s, but it also includes books that are in copyright—although there are limitations on how it will allow you to view them. It doesn’t always live up to the hype with which it was announced, but it can be useful for many things.",
+      "Searching within a book using Google Books",
+      "It is possible to search Google Books in two ways. First, you can use the main search engine to search Google’s entire collection, finding books that match a particular search query. Second, you can search within a particular book using the box that appears at the left of the text. The latter feature is often useful for trying to find passages you remember in books that do not have indexes—it is one reason why it can be useful to have both digital and print editions of a book.",
+      "The somewhat inconspicuous \"Search tools\" feature in Google Books",
+      "Although the main page of Google Books has a similar minimalist interface to the main Google page, it does include a few additional features that can be useful in scholarship. Once you get to the search results page, you will see a somewhat inconspicuous button called “Search tools”; this gives you a few ways of narrowing down your search, including an option to search within a specific range of dates, which is often very useful for historical research. Google Books also gives you some more options at the Advanced Book Search page, which allows you to search by author, title, and language, among other things.",
+      "Another database that has a large number of books is the Internet Archive (also known as Archive.org). This Web site allows you to search many of the books that were digitized by Google, along with some other books that are only available through Archive.org. It also includes huge numbers of images, audio recordings, videos, software packages, and early websites, making it one of the Internet’s most fascinating rabbit holes to get lost in.",
+      "HathiTrust",
+      "Google Books and Archive.org do not, however, provide many options for searching, and it is often difficult to track down a particular edition of a text in these databases, even if it is in there somewhere. For many purposes, a better option—and one that not many scholars know about—is HathiTrust. This project, named after the Hindi/Urdu word for elephant, is based at the University of Indiana-Bloomington and run by a consortium of university libraries. HathiTrust’s database includes almost everything in Google Books, along with a large volume of material that was digitized by libraries specifically for the site. Unlike Google Books, it includes some periodicals and other items that are not books. Some of the texts that HathiTrust offers are only available to people with an institutional subscription, but a large portion of it is open to the public.",
+      "HathiTrust offers an advanced search feature that includes many options that Google Books doesn’t. Its bibliographic information is not always accurate, but if you bear its limitations in mind, it can be a useful go-to option when you want to cast as wide a net as possible.",
+      "The perils of OCR",
+      "While Google Books and HathiTrust can easily impress with their scale, however, in many cases you can get better results by looking at the smaller, more specialized, and—importantly—more carefully edited collections that many scholars have prepared for the Web. One of the problems with the large databases is that they are based on OCR, and the quality of their searchable versions is often quite bad. For example, this is from Archive.org’s copy of an 1820 edition of Sir Walter Scott’s Ivanhoe:",
+      "The copy that the search engine uses, however, actually looks like this: IVAIJHOE.",
+      "CHAPTER I.",
+      "Once man milo the breach, dear friend*, once more, Or cloee the t*11 up with oui Bngliih dead. . I i - And jcii, good jeameD,",
+      "WhoK limba were Dude in England, «bew ui here The mettle of your psiture — let ui swear Ttut jaa tte worth yon breeding.",
+      "King Henry V.",
+      "Cedkic, although not gi^atly confident in UU rica's message, omitted not to communicate her promise to the Black Knight and Locksley. They were well pleased to find they had a Mend with- in the place, who might, in the moment of need, be able to fadlitate their entrance, and readily agreed with the Saxon that a storm, under whaU ever disadvantages, ought to be attempted, as Given the imperfections in automatic transcriptions, you certainly should not assume that, if nothing turns up in your search results, nothing is to be found. There will be some errors in almost any book, and, in many cases, you are more likely to find things in texts that are printed cleanly, formatted in a simple way, and typeset using a standard font. The quality, generally speaking, gets worse the further back you go, and becomes a major problem for texts printed before around 1800.",
+      "For this reason, historical research in earlier time periods is often better done using more specialized websites. Fortunately, there are numerous collections out there that are edited with much more care than large databases like Google Books, Archive.org, and HathiTrust. Next time, I will give some pointers for people looking for high-quality historical texts to use with search.",
+      "Photo by Thomas Payson, found on Wikimedia Commons."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.5715639121612976,
+      0.01597931511772346,
+      0.00023522640161479624,
+      0.0029475625647993075,
+      0.0015898295003286369,
+      0.3180258414230354,
+      0.08170411383814881,
+      0.007954198993051914
+    ],
+    "words": [
+      [
+        "search",
+        30
+      ],
+      [
+        "book",
+        29
+      ],
+      [
+        "text",
+        16
+      ],
+      [
+        "google",
+        16
+      ],
+      [
+        "word",
+        15
+      ],
+      [
+        "find",
+        14
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20160325171959/https://digitalfellows.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/"
+  },
+  {
+    "id": "19803",
+    "title": "Resource Round-Up: Digital Scholarship at The GC",
+    "date": "2015-09-21",
+    "year": "2015–2016",
+    "authors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "originalAuthors": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "aliases": [
+      "Mary Catherine Kinniburgh"
+    ],
+    "account": "Mary Catherine Kinniburgh",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "collaboration",
+      "community",
+      "Digital Humanities",
+      "Digital Scholarship",
+      "Events",
+      "Events",
+      "Featured",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/09/21/resource-round-up-digital-scholarship-at-the-gc/",
+    "signals": [
+      "Teaching & learning",
+      "Community & collaboration"
+    ],
+    "paragraphs": [
+      "The digital humanities. Digital scholarship. Digital research methods. Do these phrases cause you to think of a vibrant community of scholars, critical methods, and projects--perhaps one that is already your home?",
+      "If not, we’re here to help!",
+      "Participating in graduate research in the modern university, with departmental specializations and overwhelming research obligations, often means that we focus narrowly. Those of us who are not yet familiar with the methods and research that constitute digital scholarship might not know the ways that this field can inform our current projects for the better, and even if we are aware, we just might not know where to begin.",
+      "This post will share some of the digital scholarship resources available for you at The Graduate Center and beyond, and encourage you to explore digital methodologies in your research. No need to switch into high gear on a digital humanities track, digitize your dissertation, or even…"
+    ],
+    "fullParagraphs": [
+      "The digital humanities. Digital scholarship. Digital research methods. Do these phrases cause you to think of a vibrant community of scholars, critical methods, and projects--perhaps one that is already your home?",
+      "If not, we’re here to help!",
+      "Participating in graduate research in the modern university, with departmental specializations and overwhelming research obligations, often means that we focus narrowly. Those of us who are not yet familiar with the methods and research that constitute digital scholarship might not know the ways that this field can inform our current projects for the better, and even if we are aware, we just might not know where to begin.",
+      "This post will share some of the digital scholarship resources available for you at The Graduate Center and beyond, and encourage you to explore digital methodologies in your research. No need to switch into high gear on a digital humanities track, digitize your dissertation, or even learn to code. Digital methodologies for your specific needs could mean learning how to efficiently query library databases to find articles, using Python to process your data, or trying a new platform to visualize a research question you’ve been stuck on. Here, we’ll sketch out an overview of the people who are eager to help and the places that can make it happen.",
+      "People",
+      "As Digital Fellows, we are eager to be your resources in navigating digital scholarship. We will have a range of skill-building workshops at The Graduate Center this fall, featuring WordPress tutorials, introductions to text encoding, data visualization, and beyond--all of which will be announced soon here. In the meantime, check out our digital archive of past workshop handouts and resources, or read our year-end report to learn more about the types of expertise we offer and projects that are happening at The Graduate Center.",
+      "We also hold regular office hours on Wednesdays from 2-3pm at the GC Digital Scholarship Lab, Room 7414 of The Graduate Center, so we can consult on best methods for your specific project needs. Please email us at gc.digital.fellows@gmail.com to set up an appointment, or walk right on in.",
+      "Places",
+      "The GC Digital Scholarship Lab isn’t just for Digital Fellows’ office hours: it’s a hub of activity for digital projects. You’ll find all the Graduate Center Digital Fellows here--in Social Media and Videography, too--as well as projects that include the NEH-funded DH Box, Social Paper, Image Plot, Commons in a Box, and more, all of which focus on collaboratively produced open-source software platforms that emphasize community.",
+      "Another site of digital research is the New Media Lab, in Room 7388.01, which encourages interdisciplinary, innovative digital work alongside traditional modes of academic research, and provides space for graduate students to perform digital work. Visit both the GC Digital Scholarship Lab and the New Media Lab websites to learn more about the types of digital projects your colleagues are accomplishing and to see resources and funding opportunities for your own ideas.",
+      "Community",
+      "One of the simplest ways to learn more and get involved with digital humanities is to build out your own online presence and connect with others. Sneak peek: we will be offering a workshop on developing your online academic identity this fall, but in the meantime, a great place to get started is creating an account on the CUNY Academic Commons. On this valuable platform, developed just for CUNY, you’ll find groups, calendars, people, and posts in a dynamic social network. You’ll learn about research groups that you never knew existed--almost seven hundred are registered on the Commons--and find new places to share your research and learn about what others are doing.",
+      "You can also make a personal website hosted on the Commons, make a blog, and share files in a system that’s flexible, open-source, and designed for digital academic communication. For up-to-date digital news, join the Digital Humanities Initiatives group and check out their forum for a catch-all of what’s happening in digital research around The Graduate Center now.",
+      "The Graduate Center Library provides one-on-one research assistance, and also hosts workshops throughout the semester on topics from citation management software to archival research. For a list of workshops and dates, check out their events website and be sure to register/RSVP in advance. The library also hosts Academic Works, CUNY's open access institutional repository, where CUNY community members can post their research for anyone to see. To read more about the types of materials available on Academic Works, the benefits of open access, and how to get started, try this library guide.",
+      "Other community resources include The Futures Initiative, in collaboration with HASTAC and housed in at CUNY, which offers events, workshops, and talks on ways to incorporate data-driven approaches to humanities research with inspired teaching practice. The certificate program in Interactive Technology and Pedagogy also hosts regular workshops during the fall semester and is an excellent resource for learning new techniques, particularly those that can benefit your teaching practice.",
+      "For the New York City metropolitan area, you’ll find forum space, a calendar of events, and area groups on NYCDH.org--an online locus of digital humanities in the city, as well as an organization that offers prizes for scholarship, a detailed calendar for workshops and working groups, and a general space to network with other digital scholars.",
+      "It’s an exciting time to explore digital methodologies at The Graduate Center, given the range of resources we have available. We’re looking forward to working with you in workshops, our labs, digital spaces, and beyond."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.08487255924759404,
+      0.00042935798122237717,
+      0.00494038917640822,
+      0.0001455506088258078,
+      0.00025821463287566685,
+      0.17269819810505085,
+      0.000470637887984365,
+      0.7361850923600386
+    ],
+    "words": [
+      [
+        "digital",
+        30
+      ],
+      [
+        "research",
+        15
+      ],
+      [
+        "workshop",
+        9
+      ],
+      [
+        "scholarship",
+        8
+      ],
+      [
+        "learn",
+        8
+      ],
+      [
+        "project",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "19802",
+    "title": "Beyond the Same Old Static Course Website",
+    "date": "2015-09-15",
+    "year": "2015–2016",
+    "authors": [
+      "Keith Miyake"
+    ],
+    "originalAuthors": [
+      "Keith Miyake"
+    ],
+    "aliases": [
+      "Keith Miyake"
+    ],
+    "account": "Sam O'Hana",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "reviewed archived original byline credit",
+    "creditQuote": "Keith Miyake",
+    "tags": [
+      "Digital Scholarship",
+      "discussion",
+      "Featured",
+      "Interactive Technology and Pedagogy",
+      "pedagogy",
+      "praxis",
+      "Reflections",
+      "Resources",
+      "teaching"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/",
+    "signals": [
+      "Web & scholarly identity",
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "The vast majority of college course websites that I've encountered are essentially web-accessible versions of the course syllabus, perhaps with some additional content that the instructor (thankfully) resisted including in the hardcopy syllabi handed out on the first day of class. Maybe there are hyperlinks to some of the course materials, perhaps even some embedded videos. If students are lucky, the instructor includes links to lecture notes or PDFs of the slides presented each class. And it's not unusual that the course website includes some sort of interactivity feature, such as a bulletin board forum type space for students to post reading responses, although in most cases these are shielded from the public by a system like Blackboard.",
+      "We have all seen, and many of us have made, the same old boring static course website, aka, the digital syllabus.",
+      "There is nothing inherently wrong with this model—most folks who implement course…"
+    ],
+    "fullParagraphs": [
+      "The vast majority of college course websites that I've encountered are essentially web-accessible versions of the course syllabus, perhaps with some additional content that the instructor (thankfully) resisted including in the hardcopy syllabi handed out on the first day of class. Maybe there are hyperlinks to some of the course materials, perhaps even some embedded videos. If students are lucky, the instructor includes links to lecture notes or PDFs of the slides presented each class. And it's not unusual that the course website includes some sort of interactivity feature, such as a bulletin board forum type space for students to post reading responses, although in most cases these are shielded from the public by a system like Blackboard.",
+      "We have all seen, and many of us have made, the same old boring static course website, aka, the digital syllabus.",
+      "There is nothing inherently wrong with this model—most folks who implement course websites have created this type of online syllabus at some point in their teaching. However, it is worth noting that the possibilities for using the web for structuring a course extend well beyond the unidirectional model of the online syllabus or the semi-multidirectional model that includes student interactions in forums or blog posts.",
+      "A growing number of instructors are devising ways to incorporate different modes of interaction and knowledge production in their course websites. One example is interactive blogging models where students are asked to fill different roles that might include things like summaries of assigned readings, analysis of current events (in relation to readings, of course), mini book reviews or film critiques, curating resources related to a class discussion or specific topic, creating annotated bibliographies on a topic, and responding to and fostering further discussion about their peers' posts. The connective thread in all of these cases is that they all: 1) encourages students to engage with the texts and course materials beyond classroom discussions; 2) gets students engaging with each other in a format that allows them to take a moment to craft their responses rather than respond off the cuff like in seminars; and 3) results in original content (or curated resources) that give students' ideas lives that exist beyond the duration of the course, for publics beyond their classmates.",
+      "Interactive multi-role course blogs are one way to give life to a course website.",
+      "I'm obviously not breaking new ground here. But I wanted to soapbox on this topic because starting the discussion, and framing it in terms of transitioning existing classroom pedagogies to digital spaces, might lead to further discussions of how digital platforms can function as more than just digital syllabi. And since the Digital Fellows and other groups within the CUNY digital scholarship ecosystem lead countless workshops on using web publishing platforms and building course websites, I feel it's important to also comment on the possibilities for how those sites get used and the content that goes in them.",
+      "For wholly narcissistic and self-congratulatory reasons, I would also like to highlight one low-stakes example of what this might look like in practice. This past summer, I helped run a seminar for K-12 educators on Asian American film and literature through the lens of New York City. One of the requirements of the National Endowment from the Humanities as a condition of the program's funding was that the seminar needed a website to inform potential participants about the seminar. Another requirement was for participants to complete some sort of final projects based on the seminar theme.",
+      "The other organizers and I decided that rather than simply put together a static web page hosted on a university website, we wanted something that would attract a broad range of applicants, but which would also serve as an enduring public resource for all of the educators who wouldn't themselves be able to attend the seminar. Eventually, we decided that the final projects would be individually curated archives related to a theme of the participant's choosing, which would include teaching resources, classroom activities, assessment guidelines, and anything else that might help other educators teach about topics related to the experiences, struggles, and cultural productions of Asian Americans and other immigrant communities within the U.S. Several participants were also asked to write short reflection pieces as part of a series of blog posts that were cross-published on the Center for Asian American Media website.",
+      "Curated teaching resources created by participants provide original content that endures beyond the course",
+      "Importantly, we wanted the teaching resources created by participants to be semi-autonomous resources that stand on their own outside of the context of the seminar, and which are easily searchable without having to dig through the seminar website to find it. To this end, we strongly encouraged participants to craft their curated teaching resources on external platforms. We recommended a couple of different third-party website hosting platforms, and now those sites are in the wild, but also included as part of the seminar portfolio. And for the few individuals who really weren't interested in trying to build their own sites (many took it on as their first web creation challenge!), I had them assemble rich-text documents containing all of the content for me to publish on their behalf.",
+      "All of the materials produced by the participants are fantastic public resources that cover far more ground than we could have even attempted to cover in the two week seminar. When participants began the seminar, most of them had a strong desire to be able to better teach the types of topics we covered in the seminar, but felt underprepared and lacking in exposure to teaching materials and resources. The hope is that participants helped fill some of this void on the internet, and that they return to their teaching communities and share their newly created resources with their peers, and that other similar projects emerge in kind. You can view the seminar website, hosted on the CUNY Academic Commons, Asian Americans in New York: Film & Literature, or view the curated teaching resources directly."
+    ],
+    "sourceLicense": "No per-post license metadata; rights not determined",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.07332557349186558,
+      0.0003709434531672018,
+      0.004268244917374839,
+      0.00012574832146993486,
+      0.00022308430672351298,
+      0.24779004646396086,
+      0.0851919336711021,
+      0.5887044253743359
+    ],
+    "words": [
+      [
+        "course",
+        15
+      ],
+      [
+        "seminar",
+        13
+      ],
+      [
+        "resource",
+        12
+      ],
+      [
+        "website",
+        11
+      ],
+      [
+        "participant",
+        10
+      ],
+      [
+        "include",
+        7
+      ]
+    ],
+    "archivedBylineUrl": "https://web.archive.org/web/20160325174008/https://digitalfellows.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/"
+  }
+]

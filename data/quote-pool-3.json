@@ -1,0 +1,284 @@
+{
+  "localPosts": 325,
+  "publishedPosts": 421,
+  "note": "Sentence extraction is new; source cleaning, authorship, model weights and publication scope are unchanged.",
+  "poolId": "a31e694d2fb0e7cc",
+  "collection": {
+    "version": "1.0",
+    "entries": [
+      {
+        "id": "19885:5:252",
+        "context": "No additional context is needed to understand the supportive-learning experience.",
+        "reason": "Connects learning to a supportive community, explaining a reason to care without technical detail.",
+        "hooks": [
+          "belonging",
+          "encouragement"
+        ]
+      },
+      {
+        "id": "19797:5:0",
+        "context": "No additional context is needed for this approachable definition.",
+        "reason": "A concrete, short definition makes an unfamiliar technical subject approachable.",
+        "hooks": [
+          "clarity",
+          "curiosity"
+        ]
+      },
+      {
+        "id": "24321:2:318",
+        "context": "The article title supplies the teaching/AI context; the sentence’s emotional center is the students’ own thinking.",
+        "reason": "Makes the human purpose of teaching visible: students’ own ideas matter.",
+        "hooks": [
+          "human purpose",
+          "recognition"
+        ]
+      },
+      {
+        "id": "7099:2:353",
+        "context": "Second points to the previous barrier. The idea remains clear; offer its paragraph without silently removing the word.",
+        "reason": "Names the intimidation of technical vocabulary directly rather than assuming prior confidence.",
+        "hooks": [
+          "recognition",
+          "barriers"
+        ]
+      },
+      {
+        "id": "19820:3:242",
+        "context": "Expand GC to Graduate Center outside the quote. This is the writer’s reflection after agreeing with an earlier Matt Gold quotation.",
+        "reason": "Recognizes emotional as well as technical work and the community behind it.",
+        "hooks": [
+          "belonging",
+          "care"
+        ]
+      },
+      {
+        "id": "6755:5:82",
+        "context": "No additional qualification is needed for this account of attentive support.",
+        "reason": "Makes patient, attentive teaching visible, work that counts and topic charts can obscure.",
+        "hooks": [
+          "care",
+          "recognition"
+        ]
+      },
+      {
+        "id": "19745:2:871",
+        "context": "Destroy refers to experimenting with a copy of software, not harming someone’s work. The playful repetition is part of the voice.",
+        "reason": "Preserves a distinctive personal voice about safe experimentation and learning.",
+        "hooks": [
+          "play",
+          "experimentation"
+        ]
+      },
+      {
+        "id": "21969:6:706",
+        "context": "Retain all article credits and identify this as the Digital Archives roundtable reflection; do not assign a single speaker.",
+        "reason": "Shows skill-sharing as ongoing relationship building rather than a one-off event.",
+        "hooks": [
+          "belonging",
+          "collaboration"
+        ]
+      },
+      {
+        "id": "3206:1:213",
+        "context": "No additional qualification is needed for this description of participants developing their questions.",
+        "reason": "Offers a concrete workshop practice: start from participants’ research questions and combine group and individual work.",
+        "hooks": [
+          "agency",
+          "practice"
+        ]
+      },
+      {
+        "id": "4456:6:171",
+        "context": "Library means software package, not a physical library. Keep the author’s candid highly biased language.",
+        "reason": "Gives a practical criterion for choosing tools: sustainable communities and maintained open source.",
+        "hooks": [
+          "candor",
+          "shared values"
+        ]
+      },
+      {
+        "id": "11248:6:286",
+        "context": "The surrounding article concerns a General Assembly training course, not the GCDI Digital Research Institute.",
+        "reason": "Keeps a constructive criticism about pacing and retention in the collection, resisting promotional-only selection.",
+        "hooks": [
+          "candor",
+          "recognition"
+        ]
+      },
+      {
+        "id": "19793:1:69",
+        "context": "UX is expanded in the sentence; explain hierarchy of information only if a reader needs it.",
+        "reason": "Frames design as consequential work involving access, culture and environmental impact.",
+        "hooks": [
+          "values",
+          "critical reflection"
+        ]
+      },
+      {
+        "id": "7527:4:921",
+        "context": "Expand DRI outside the quote. The specific lemur research gives the account its character.",
+        "reason": "Provides a specific participant account linking digital training to dissertation research about lemurs.",
+        "hooks": [
+          "discovery",
+          "specificity"
+        ]
+      },
+      {
+        "id": "11255:3:213",
+        "context": "A brief gloss of salseras/os can help readers enter the story. The article identifies the training provider as Downtown Community Television Center.",
+        "reason": "Links a named grant, documentary training and community storytelling in one concrete example.",
+        "hooks": [
+          "public purpose",
+          "storytelling"
+        ]
+      },
+      {
+        "id": "21891:10:0",
+        "context": "Expand DRI outside the quote. Keep the HIV-history purpose attached to the author’s sense of possibility.",
+        "reason": "Shows why digital methods can matter to an archive with public and historical significance.",
+        "hooks": [
+          "possibility",
+          "historical connection"
+        ]
+      },
+      {
+        "id": "4647:3:403",
+        "context": "Show the 2018 publication date so the historical invitation is not mistaken for a current service notice.",
+        "reason": "States an inclusive intended audience across skill levels and research stages.",
+        "hooks": [
+          "welcome",
+          "belonging"
+        ]
+      },
+      {
+        "id": "19756:2:198",
+        "context": "No extra context is needed for this statement of scholarly purpose. Preserve source rights when sharing any quotation.",
+        "reason": "Explains the value of scholarship that others can cite and build on without specialist vocabulary.",
+        "hooks": [
+          "shared purpose",
+          "reuse"
+        ]
+      },
+      {
+        "id": "19814:1:944",
+        "context": "Other collections refers to alternatives to large digitized-book platforms discussed in the preceding paragraph.",
+        "reason": "Opens a discussion of source quality and scholarly curation beyond large search platforms.",
+        "hooks": [
+          "curiosity",
+          "trust"
+        ]
+      },
+      {
+        "id": "23481:7:289",
+        "context": "The next sentence connects collective action to a tenants’ website, making this especially useful with its paragraph.",
+        "reason": "Connects collective action and misinformation to an everyday public issue.",
+        "hooks": [
+          "solidarity",
+          "public purpose"
+        ]
+      },
+      {
+        "id": "23845:4:0",
+        "context": "Expand AI to artificial intelligence outside the quote; retain the writer’s critical stance.",
+        "reason": "Makes distribution of technological benefits and harms a public question rather than a purely technical one.",
+        "hooks": [
+          "critical reflection",
+          "relevance"
+        ]
+      },
+      {
+        "id": "7075:6:0",
+        "context": "No additional context is needed to appreciate the enthusiasm.",
+        "reason": "Joy and rediscovery replace the idea of coding as a test of innate talent; the writer’s pleasure can invite a hesitant reader in.",
+        "hooks": [
+          "joy",
+          "rediscovery"
+        ]
+      },
+      {
+        "id": "6755:1:0",
+        "context": "The longer sentence carries the change of perspective; do not shorten it by rewriting the source.",
+        "reason": "A complete emotional turn—from beyond my grasp to fascination—offers recognition to people who assume this work is not for them.",
+        "hooks": [
+          "recognition",
+          "transformation"
+        ]
+      },
+      {
+        "id": "19885:4:196",
+        "context": "Python is the programming language; esoteric may need a short outside gloss for some readers.",
+        "reason": "A surprising comparison makes an intimidating subject feel approachable and invites a reader to ask what changed.",
+        "hooks": [
+          "surprise",
+          "clarity"
+        ]
+      },
+      {
+        "id": "11255:2:545",
+        "context": "Keep the salsa/dance article title visible: the larger story connects embodied experience to documentary scholarship.",
+        "reason": "A concrete bodily moment before a performance invites readers into the writer’s lived world before introducing research methods.",
+        "hooks": [
+          "sensory detail",
+          "anticipation"
+        ]
+      },
+      {
+        "id": "4819:2:475",
+        "context": "Same problem refers to latency and shared listening. The next sentences describe another approach, so do not freeze the author’s story at failure.",
+        "reason": "Candid stuckness can bring relief and recognition to readers whose own projects resist completion; it also opens a story worth following.",
+        "hooks": [
+          "candor",
+          "recognition"
+        ]
+      },
+      {
+        "id": "19745:0:767",
+        "context": "The parts come from a dismantled rotary phone. Robot-building is a remembered possibility, not a completed project.",
+        "reason": "A child’s impossible robot makes experimentation memorable through humor, imagination and a distinctive personal voice.",
+        "hooks": [
+          "humor",
+          "imagination"
+        ]
+      },
+      {
+        "id": "4259:10:0",
+        "context": "The dataset concerns National Endowment for the Humanities funding; the thought is intelligible before that detail is supplied.",
+        "reason": "A compact observation about inquiry rewards rereading: growing familiarity can create more questions rather than close them.",
+        "hooks": [
+          "curiosity",
+          "open-ended inquiry"
+        ]
+      },
+      {
+        "id": "19779:12:0",
+        "context": "The article is about mapping, but the question can open a wider conversation about data and storytelling.",
+        "reason": "Puts the story before the tool, giving readers a useful way to think about their own project.",
+        "hooks": [
+          "agency",
+          "storytelling"
+        ]
+      },
+      {
+        "id": "23199:1:0",
+        "context": "The next sentences connect the observation to data/privacy and platform ownership.",
+        "reason": "An everyday habit—choosing convenience online—can make a specialist discussion about public presence personally relevant.",
+        "hooks": [
+          "recognition",
+          "critical reflection"
+        ]
+      },
+      {
+        "id": "21891:5:417",
+        "context": "Keep the author’s self-description and return-to-study story nearby. Illness is not a proxy for technical ability or a prompt for pity.",
+        "reason": "The sentence holds knowledge gained through illness alongside the time it consumes. It can matter to readers navigating interrupted learning and to those supporting them.",
+        "hooks": [
+          "lived experience",
+          "recognition"
+        ]
+      }
+    ],
+    "assessment_sha256": "39268e0a3ff9308a33b3593888d6f8a0ea478f0db598bc52a3e55030fa91cff5",
+    "selection": "AI-assisted editorial selection directed by Ian G. Williams; not measured audience preferences or independent human review.",
+    "id": "37bebe5f69f720f4"
+  }
+}

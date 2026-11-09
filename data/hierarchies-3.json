@@ -1,0 +1,274 @@
+{
+  "distinct_sensitivity": [
+    {
+      "year": "2012–2013",
+      "default_top_five": [
+        "silo",
+        "wildly",
+        "alice",
+        "lynn",
+        "sophistication"
+      ],
+      "minimum_three_posts_top_five": [
+        "silo",
+        "wildly",
+        "alice",
+        "lynn",
+        "sophistication"
+      ],
+      "shared_words": 5
+    },
+    {
+      "year": "2013–2014",
+      "default_top_five": [
+        "gallery",
+        "bootstrap",
+        "printer",
+        "resize",
+        "attribution"
+      ],
+      "minimum_three_posts_top_five": [
+        "gallery",
+        "bootstrap",
+        "attribution",
+        "repertoire",
+        "lesson"
+      ],
+      "shared_words": 3
+    },
+    {
+      "year": "2014–2015",
+      "default_top_five": [
+        "crime",
+        "profession",
+        "null",
+        "cbox",
+        "matthew"
+      ],
+      "minimum_three_posts_top_five": [
+        "matthew",
+        "author",
+        "trade",
+        "evaluation",
+        "analog"
+      ],
+      "shared_words": 1
+    },
+    {
+      "year": "2015–2016",
+      "default_top_five": [
+        "utility",
+        "carpentry",
+        "misshula",
+        "verb",
+        "dhi"
+      ],
+      "minimum_three_posts_top_five": [
+        "utility",
+        "carpentry",
+        "misshula",
+        "dhi",
+        "mozilla"
+      ],
+      "shared_words": 4
+    },
+    {
+      "year": "2016–2017",
+      "default_top_five": [
+        "arduino",
+        "tahir",
+        "butt",
+        "award",
+        "hannah"
+      ],
+      "minimum_three_posts_top_five": [
+        "arduino",
+        "tahir",
+        "butt",
+        "award",
+        "hannah"
+      ],
+      "shared_words": 5
+    },
+    {
+      "year": "2017–2018",
+      "default_top_five": [
+        "soundcamp",
+        "praat",
+        "gcdisound",
+        "chorus",
+        "preparing"
+      ],
+      "minimum_three_posts_top_five": [
+        "soundcamp",
+        "praat",
+        "gcdisound",
+        "preparing",
+        "london"
+      ],
+      "shared_words": 4
+    },
+    {
+      "year": "2018–2019",
+      "default_top_five": [
+        "influential",
+        "funny",
+        "wireless",
+        "meme",
+        "carto"
+      ],
+      "minimum_three_posts_top_five": [
+        "influential",
+        "wireless",
+        "meme",
+        "spark",
+        "escape"
+      ],
+      "shared_words": 3
+    },
+    {
+      "year": "2019–2020",
+      "default_top_five": [
+        "hathitrust",
+        "distinguished",
+        "inpho",
+        "microphone",
+        "acknowledgement"
+      ],
+      "minimum_three_posts_top_five": [
+        "hathitrust",
+        "distinguished",
+        "inpho",
+        "acknowledgement",
+        "fig"
+      ],
+      "shared_words": 4
+    },
+    {
+      "year": "2020–2021",
+      "default_top_five": [
+        "synchronous",
+        "reduction",
+        "asynchronous",
+        "covid",
+        "listener"
+      ],
+      "minimum_three_posts_top_five": [
+        "synchronous",
+        "asynchronous",
+        "covid",
+        "listener",
+        "pandemic"
+      ],
+      "shared_words": 4
+    },
+    {
+      "year": "2021–2022",
+      "default_top_five": [
+        "rectangle",
+        "declare",
+        "car",
+        "preset",
+        "timeline"
+      ],
+      "minimum_three_posts_top_five": [
+        "graphic",
+        "versatile",
+        "screen",
+        "console",
+        "game"
+      ],
+      "shared_words": 0
+    },
+    {
+      "year": "2022–2023",
+      "default_top_five": [
+        "unsplash",
+        "borough",
+        "overflow",
+        "decimal",
+        "docx"
+      ],
+      "minimum_three_posts_top_five": [
+        "unsplash",
+        "entity",
+        "offering",
+        "spreadsheet",
+        "documentation"
+      ],
+      "shared_words": 1
+    },
+    {
+      "year": "2023–2024",
+      "default_top_five": [
+        "military",
+        "target",
+        "vscode",
+        "ingredient",
+        "marketplace"
+      ],
+      "minimum_three_posts_top_five": [
+        "target",
+        "empower",
+        "wikipedia",
+        "bad",
+        "debug"
+      ],
+      "shared_words": 1
+    },
+    {
+      "year": "2024–2025",
+      "default_top_five": [
+        "academiaos",
+        "taguette",
+        "spanish",
+        "score",
+        "math"
+      ],
+      "minimum_three_posts_top_five": [
+        "academiaos",
+        "taguette",
+        "carbon",
+        "manifold",
+        "racist"
+      ],
+      "shared_words": 2
+    },
+    {
+      "year": "2025–2026",
+      "default_top_five": [
+        "accountability",
+        "wisdom",
+        "audit",
+        "ocean",
+        "fisher"
+      ],
+      "minimum_three_posts_top_five": [
+        "accountability",
+        "wisdom",
+        "audit",
+        "ocean",
+        "fisher"
+      ],
+      "shared_words": 5
+    },
+    {
+      "year": "2026–2027",
+      "default_top_five": [
+        "civic",
+        "unconference",
+        "innovator",
+        "organizational",
+        "law"
+      ],
+      "minimum_three_posts_top_five": [
+        "brief",
+        "public",
+        "interesting",
+        "potential",
+        "several"
+      ],
+      "shared_words": 0
+    }
+  ]
+}

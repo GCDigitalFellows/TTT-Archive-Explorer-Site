@@ -1,0 +1,249 @@
+[
+  {
+    "id": "6431",
+    "title": "Getting the Most Out of GCDI Workshops",
+    "date": "2022-09-28",
+    "year": "2022–2023",
+    "authors": [
+      "Nicole Cote"
+    ],
+    "originalAuthors": [
+      "Nicole Cote"
+    ],
+    "aliases": [
+      "Nicole Cote"
+    ],
+    "account": "Nicole Cote",
+    "kind": "local/unflagged",
+    "tier": "unresolved-account",
+    "creditStatus": "provisional posting-account attribution",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "tips",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/09/28/getting-the-most-out-of-gcdi-workshops/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Each semester, the Digital Fellows offer a series of workshops focused on developing practical digital skills and concepts, freely available to members of the Graduate Center community.",
+      "Because many of these short workshops cover connected topics, and pair well with other GCDI offerings, the below offers a few tips and tricks on how to make the most of these opportunities to ensure you can connect with the widest breadth of available resources.",
+      "Be sure to check out our remaining fall workshops listed at the bottom of this post and on our website!",
+      "Tips",
+      "Before the Workshop",
+      "Register early. Our workshops frequently fill to capacity, so we’d recommend registering early. However, a waitlist is always available—so be sure to sign up if a workshop is already at capacity. When seats become available we contact those on the waitlist ASAP. And, when possible, we try to extend the number of seats to accommodate as many attendees as possible."
+    ],
+    "fullParagraphs": [
+      "Each semester, the Digital Fellows offer a series of workshops focused on developing practical digital skills and concepts, freely available to members of the Graduate Center community.",
+      "Because many of these short workshops cover connected topics, and pair well with other GCDI offerings, the below offers a few tips and tricks on how to make the most of these opportunities to ensure you can connect with the widest breadth of available resources.",
+      "Be sure to check out our remaining fall workshops listed at the bottom of this post and on our website!",
+      "Tips",
+      "Before the Workshop",
+      "Register early. Our workshops frequently fill to capacity, so we’d recommend registering early. However, a waitlist is always available—so be sure to sign up if a workshop is already at capacity. When seats become available we contact those on the waitlist ASAP. And, when possible, we try to extend the number of seats to accommodate as many attendees as possible.",
+      "Cancel if you cannot make it. If you realize you can’t make it, please cancel your registration ASAP so someone else can attend.",
+      "Register with a friend. Learning is better together. Plus, it means you can share resources later on, and have someone to troubleshoot and collaborate with.",
+      "Complete any downloads and check pre-reqs. Some of our workshops require downloading a particular software or signing up for a service. Others have pre-reqs (which are covered in the intro-level courses). Please look into these beforehand so you can follow-along during the presentation.",
+      "During the Workshop",
+      "Be present. Arrive on time, and try to stay for the full workshop! We jump right into things, and so you don’t want to miss any key information.",
+      "Take notes. A friendly reminder. This can be easy to forget!",
+      "Ask questions—lots of them! We not only save ample time for questions at the end, but always have a second support fellow operating the Zoom chat to help as we go along. Also, check out our “How to Ask Coding Questions” resource, if needed!",
+      "Complete the survey. At the end of each workshop we ask attendees to complete a quick survey on their thoughts. These help us collect ideas from the community in order to make more resources for you. Your responses inform our future offerings and approaches!",
+      "After the Workshop",
+      "Build on your skills. Try out some of the concepts/tools learned in a way that suits your needs and interests. The best way to develop tech skills is through application.",
+      "Connect. Try to connect with another workshop participant and share notes/ideas as a team. You should also consider attending a Working Group! In these casual collaborative meetings you will not only find others with similar interests, but will be able to put your skills and ideas to work in a welcoming environment for novices and experts alike.",
+      "Set-up a consultation. Sometimes things don’t stick the first time around. Sometimes you want to expand your ideas in ways we didn’t have time to cover in the workshop. Set up a consultation for one-on-one support with a Digital Fellow after a workshop! And, if you are unsure which follow-up workshops might be best, we’ll help you figure it out.",
+      "Sign up for another workshop. Our workshops are best when paired. For example, the skills you learn in the intros to Python and R will be built on in related data analysis workshops in those languages later on in the semester. Gaining an intro to Git and Github will allow you to work with version control on all your digital projects while you learn, share your work, and collaborate with others. And, our workshops on HTML/CSS and Bootstrap are part of a series that will include building JavaScript skills next semester.",
+      "Fall 2022 Workshop Offerings",
+      "This is a listing of the remaining workshop offerings for this semester. To read the full workshop explanations and register, please see this page on the GCDI site and/or refer to the GCDI calendar.",
+      "Getting Started Programming with Python // September 27 @ 2:00 pm – 4:00 pm",
+      "Put it on the Web: An Intro to HTML and CSS // September 30 @ 1:00 pm – 3:00 pm",
+      "R You Ready? An Absolute Beginner’s Crash Course for R // October 6 @ 12:00 pm – 1:30 pm",
+      "Data Analysis in R // October 11 @ 5:00 pm – 6:30 pm",
+      "What is WordPress? Basics to create, manage or author on a website // October 12 @ 6:00 pm – 8:00 pm",
+      "Git It: Intro to Git and GitHub // October 14 @ 3:00 pm – 4:30 pm",
+      "Spreadsheets aren’t Boring! (Intro to Spreadsheets) // October 20 @ 4:00 pm – 5:30 pm",
+      "Spreadsheets and Pandas and Python! Oh my! (Data analysis in Python) // October 28 @ 2:30 pm – 4:00 pm",
+      "Using Bootstrap to create visually stunning webpages // November 4 @ 1:00 pm – 3:00 pm",
+      "On a closing note: if you have not yet read the GCDI’s welcome letter written by Rebecca Krisel, check it out! It includes information about many other GCDI offerings this semester. And, for a reference of many relevant GCDI-related links all in one place, check out our Linktree.",
+      "Cover image source: photo by Samantha Borges on Unsplash."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.000473444293916594,
+      0.00047368151350808994,
+      0.05077181212639554,
+      0.00016057610594392125,
+      0.00028487067542627773,
+      0.23584761439723717,
+      0.14907275347665666,
+      0.5629152474109158
+    ],
+    "words": [
+      [
+        "workshop",
+        22
+      ],
+      [
+        "intro",
+        6
+      ],
+      [
+        "october",
+        6
+      ],
+      [
+        "semester",
+        5
+      ],
+      [
+        "skill",
+        5
+      ],
+      [
+        "check",
+        5
+      ]
+    ]
+  },
+  {
+    "id": "18870",
+    "title": "Getting the Most Out of GCDI Workshops",
+    "date": "2022-09-28",
+    "year": "2022–2023",
+    "authors": [
+      "Nicole Cote"
+    ],
+    "originalAuthors": [
+      "Nicole Cote"
+    ],
+    "aliases": [
+      "Nicole Cote"
+    ],
+    "account": "Lisa Marie Rhody",
+    "kind": "curated/source-linked",
+    "tier": "declared-credit",
+    "creditStatus": "source metadata",
+    "creditQuote": "",
+    "tags": [
+      "Events",
+      "Featured",
+      "GCDI Updates",
+      "tips",
+      "workshops"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/09/28/getting-the-most-out-of-gcdi-workshops-2/",
+    "signals": [
+      "Teaching & learning"
+    ],
+    "paragraphs": [
+      "Each semester, the Digital Fellows offer a series of workshops focused on developing practical digital skills and concepts, freely available to members of the Graduate Center community.",
+      "Because many of these short workshops cover connected topics, and pair well with other GCDI offerings, the below offers a few tips and tricks on how to make the most of these opportunities to ensure you can connect with the widest breadth of available resources....",
+      "Continue reading on Tagging the Tower: Getting the Most Out of GCDI Workshops."
+    ],
+    "fullParagraphs": [
+      "Each semester, the Digital Fellows offer a series of workshops focused on developing practical digital skills and concepts, freely available to members of the Graduate Center community.",
+      "Because many of these short workshops cover connected topics, and pair well with other GCDI offerings, the below offers a few tips and tricks on how to make the most of these opportunities to ensure you can connect with the widest breadth of available resources....",
+      "Continue reading on Tagging the Tower: Getting the Most Out of GCDI Workshops."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "curated/source-linked",
+    "weights": null,
+    "words": []
+  },
+  {
+    "id": "19875",
+    "title": "GCDI Welcomes You to the Fall Semester!",
+    "date": "2022-09-21",
+    "year": "2022–2023",
+    "authors": [
+      "Rebecca Krisel"
+    ],
+    "originalAuthors": [
+      "Rebecca Krisel"
+    ],
+    "aliases": [
+      "Rebecca Krisel"
+    ],
+    "account": "Rebecca Krisel",
+    "kind": "local/unflagged",
+    "tier": "source-supported",
+    "creditStatus": "explicit body credit",
+    "creditQuote": "This post by GC Digital Fellow Rebecca Krisel",
+    "tags": [
+      "Announcements",
+      "Featured"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2022/09/21/gcdi-welcomes-you-to-the-fall-semester-2/",
+    "signals": [],
+    "paragraphs": [
+      "Welcome back for the fall semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual and in-person events this semester! Don’t miss our Digital Scholarship Lab Hybrid Open House on Thursday, September 22nd. Drop In at the Digital Scholarship Lab (Room 7414) from 2:00 PM –…"
+    ],
+    "fullParagraphs": [
+      "Welcome back for the fall semester! The Graduate Center Digital Initiatives (GCDI) and GC Digital Fellows have been hard at work developing programming, events, workshops, and opportunities to help you continue to learn and to develop your digital scholarly projects.",
+      "This semester, please take a moment to review what has changed, what has stayed the same, and how you can continue to find the same support and encouragement for your work that you’ve come to expect from us! The best way to stay connected is to check the GCDI website regularly. There, you will find all of our workshops, events, and grant opportunities on our calendar, as well as a slew of online resources to support your work this semester.",
+      "You can also join us for a growing list of virtual and in-person events this semester! Don’t miss our Digital Scholarship Lab Hybrid Open House on Thursday, September 22nd. Drop In at the Digital Scholarship Lab (Room 7414) from 2:00 PM – 7:00 PM or watch the Virtual Presentation from 3:00 PM – 4:00 PM.. This event is free and open to the entire Graduate Center community; however, registration is required. When you come, you can expect to hear a short presentation about what GCDI offers, meet and chat with the Fellows, tour the programs we have to offer, and learn about how you can be more involved with the GCDI community.",
+      "The variety of our offerings means we have something for everyone. This semester we will be offering virtual and in-person workshops, as well as one-on-one consultations. We will also still be offering support through our working groups, such as the R User’s Group (RUG), the Python User’s Group (PUG), the Sound Studies and Methods Working Group, the Digital Archives Research Collective (DARC), and the GIS/Mapping Working Group. Our offerings are open to GC scholars at all levels of digital experience, including students at all stages of graduate research, as well as faculty and staff. Whether you are digitally driven, curious, or defiant, we hope you’ll join us!",
+      "Below we’ve highlighted a number of upcoming events and opportunities that may interest you. We also encourage you to join the GCDI Group on the Commons for regular updates, to follow us on Twitter (@Digital_Fellows, @cunygcdi), to be on the lookout for regular updates about our programs shared through your program’s listserv. It’s always good to know what’s going on with the GCDI, because you, yes you, are the #digitalGC.",
+      "Looking for assistance with your digital project?",
+      "One-on-one Consultations",
+      "Have a question about your digital project? GCDI staff are available to meet in-person at the GC and remotely – via Zoom, Teams, or phone – with GC students, faculty, and staff to talk through technical challenges as the university continues to conduct remote teaching, research, and work. Sign up for a 30-minute consultation through this form.",
+      "Open House",
+      "We will host an Open House at the GC Digital Scholarship Lab at the beginning of each year to introduce folks to the various resources GC Digital Initiatives has to offer and to assist individuals with questions related to their digital project. Our Fall 2022 Digital Scholarship Lab Open House will be held both in-person and virtually on Thursday, September 22nd. Drop In at the Digital Scholarship Lab (Room 7414) from 2:00 PM – 7:00 PM or watch the Virtual Presentation from 3:00 PM – 4:00 PM. Check out our event page for more information about registration and what to expect!!",
+      "Looking for a community to learn with?",
+      "We have several working groups that focus on specific interests. Working groups are composed of students, faculty, and staff who are looking for other scholars with similar interests to share resources, advice and opportunities. These interdisciplinary groups connect through the CUNY Academic Commons, and some have developed Slack workspaces to keep in touch. Regular remote meeting dates are forthcoming and can be found on our calendar.",
+      "These groups include the Python User’s Group (PUG), the GIS/Mapping Working Group, the R User’s Group (RUG), the Digital Archives Research Collective (DARC), Humanidades Digitales (DH in Spanish), and Sound Studies and Methods Working Group. No experience is needed to join; only an interest in the central topic and community. Do also check out our blog post on how to get the most out of our working groups.",
+      "Want to get involved beyond the Graduate Center? Visit our Participate page to learn more about each of these groups and groups across CUNY and NYC!",
+      "Workshops",
+      "This year, GCDI will offer hands-on, remote online workshops on digital research tools for people of all skill levels. Workshops are free and open to any member of the Graduate Center community. Registration is required, and information about how to register can be found on our website.",
+      "This semester we are offering a variety of workshops across September to November. These include:",
+      "Tools for DH // September 19 @ 12:00 pm - 1:30 pm",
+      "Getting Started Programming with Python // September 27 @ 2:00 pm - 4:00 pm",
+      "Put it on the Web: An Intro to HTML and CSS // September 30 @ 1:00 pm - 3:00 pm",
+      "R You Ready? An Absolute Beginner’s Crash Course for R // October 6 @ 12:00 pm - 1:30 pm",
+      "Data Analysis in R // October 11 @ 5:00 pm - 6:30 pm",
+      "What is WordPress? Basics to create, manage or author on a website // October 12 @ 6:00 pm - 8:00 pm",
+      "Git It: Intro to Git and GitHub // October 14 @ 3:00 pm - 4:30 pm",
+      "Spreadsheets aren’t Boring! (Intro to Spreadsheets) // October 20 @ 4:00 pm - 5:30 pm",
+      "Spreadsheets and Pandas and Python! Oh my! (Data analysis in Python) // October 28 @ 2:30 pm - 4:00 pm",
+      "Using Bootstrap to create visually stunning webpages // November 4 @ 1:00 pm - 3:00 pm",
+      "In order to be as responsive as possible (workshop space is limited), please:",
+      "1) Be sure to register on Eventbrite when you know you want to attend and;",
+      "2) If you realize you can’t make it, please cancel your RSVP so someone else can attend",
+      "CUNY and GC Resources",
+      "Manifold Scholarship",
+      "As CUNY students, you have the edge on Manifold, the Andrew W. Mellon Foundation-funded collaboration with the GC, University of Minnesota Press, and Cast Iron Coding. CUNY hosts its own instance of the open-source platform with opportunities for publishing teaching editions of public domain texts (like The Narrative of the Life of Frederick Douglass), teaching handbooks (Teach@CUNY Handbook), journal publishing and peer review, and Open Educational Resources. Manifold is a web application that allows administrators to create a library of projects containing texts and resources. Each text in a project can be read and annotated using Manifold’s reader. To read more about the project, its development, and the university presses using it: follow Manifold on GitHub and Twitter, read the Manifold Docusaurus blog, join the Manifold Community Slack channel and Manifold Users group on the CAC, visit the Manifold website, and check out our new documentation and walkthroughs. You can also contact Robin Miller or Manifold Graduate Fellows Wendy Barrales and Miryam Nacimento.",
+      "CUNY Academic Commons",
+      "As a CUNY student, you are eligible for an account on the CUNY Academic Commons. The Commons is a CUNY-generated platform for building websites, connecting with peers, creating and joining groups, collaborating on papers, and learning about various spaces at the GC and beyond. If you’re new to CUNY, check out the Commons Basics guide. Not only are you welcome to create your own sites (for free!) using the WordPress framework, but you are also encouraged to take advantage of group capabilities to share files, host private discussion forums for special interest groups, and link up across groups. With the new invitation system, teaching on the Commons is easier than ever. Check out this blog post by Stephen Real of the Commons team. For updates, follow the CUNY Academic Commons on Twitter.",
+      "GC Resources and Centers",
+      "Among the other acronyms you might see associated with GCDI are some amazing partners — the Teaching and Learning Center (TLC), the Interactive Technology and Pedagogy (ITP) certificate program, the Futures Initiative, the Center for the Humanities, and the New Media Lab. The GC Library also offers great workshops, this nifty digital tools guide, and consultation with Data and Digital Projects Librarian Steve Zweibel. The in-house Journal of Interactive Technology and Pedagogy also provides great articles and tool tips for incorporating digital methods in your teaching.",
+      "We encourage you to consult the Commons events calendar for all workshops.",
+      "GCDI Online Resources",
+      "If you find yourself unable to attend a particular workshop, there are a number of asynchronous GCDI resources you can use! Our resources include tutorials, handouts, and reflections that cover topics such topics, tools, and methods as data and databases, research design, mapping, programming (including python and R), project management, sound recording, sharing, and analysis, text analysis, and web development.",
+      "Please visit the Digital Resource Guide for materials by current and former Digital Fellows.",
+      "Check out the Digital Fellows’ Tagging the Tower blog for posts like:",
+      "Introduction to R Markdown by Yuxioa Luo",
+      "JavaScript or Python: Which is Better for Academics to Learn? by Chelsea Lane",
+      "What to Consider When Planning a Digital Project by Kristen Hackett",
+      "Finding the Right Tools for Mapping by Olivia Ildefonso",
+      "Recap: Beginner’s Guide to Web-Scraping by Di Yoong",
+      "A Conceptual Guide to Digital Academic Identity by Stefano Morello",
+      "How do I solve with Python? by Rachel Rakov",
+      "Additional resources include the Digital Archive Research Collective Wiki, the entire curriculum of the GC Digital Research Institute AND the Digital Humanities Research Institute.",
+      "Please, don’t hesitate to contact the Digital Fellows with questions!",
+      "With best wishes for a productive and smooth semester,",
+      "your Digital Fellows,",
+      "Leanne, Nicole, Rebecca, Rilquer, Sam, Silvia, Yuxiao, and Zach",
+      "Note: This post by GC Digital Fellow Rebecca Krisel is updated from the post by GC Digital Fellows Zachary Lloyd in 2022, Param Ajmera in 2021 and Stefano Morello and Olivia Ildefonso for fall 2020. Previous versions were written or updated by Jojo Karlin for spring 2018 , Kelsey Chatlosh in fall 2018, Javier Otero Peña in the spring of 2019, and Kristen Hackett in fall of 2019. Hand-drawn images or “Jojo Doodles” above and below are by Jojo Karlin."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "welcome/roster boilerplate",
+    "weights": null,
+    "words": []
+  }
+]

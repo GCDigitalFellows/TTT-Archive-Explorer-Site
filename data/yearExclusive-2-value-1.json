@@ -1,0 +1,8899 @@
+[
+  {
+    "year": "2012–2013",
+    "analyzedPosts": 35,
+    "allTypes": 2836,
+    "exclusiveTypes": 580,
+    "singlePostTypes": 549,
+    "multiplePostTypes": 31,
+    "singleOccurrenceTypes": 516,
+    "sharedAcrossYearsTypes": 2256,
+    "exclusiveShare": 0.20451339915373765,
+    "forms": [
+      {
+        "word": "ferpa",
+        "occurrences": 13,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "acting",
+        "occurrences": 8,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "jotleaf",
+        "occurrences": 8,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "tba",
+        "occurrences": 7,
+        "posts": 2,
+        "ids": [
+          "19732",
+          "19727"
+        ]
+      },
+      {
+        "word": "preface",
+        "occurrences": 6,
+        "posts": 2,
+        "ids": [
+          "19750",
+          "19736"
+        ]
+      },
+      {
+        "word": "silo",
+        "occurrences": 4,
+        "posts": 3,
+        "ids": [
+          "19756",
+          "19752",
+          "19734"
+        ]
+      },
+      {
+        "word": "wildly",
+        "occurrences": 4,
+        "posts": 3,
+        "ids": [
+          "19746",
+          "19730",
+          "19725"
+        ]
+      },
+      {
+        "word": "alice",
+        "occurrences": 3,
+        "posts": 3,
+        "ids": [
+          "19748",
+          "19729",
+          "315"
+        ]
+      },
+      {
+        "word": "lynn",
+        "occurrences": 3,
+        "posts": 3,
+        "ids": [
+          "19748",
+          "19729",
+          "315"
+        ]
+      },
+      {
+        "word": "sophistication",
+        "occurrences": 3,
+        "posts": 3,
+        "ids": [
+          "19753",
+          "19745",
+          "19727"
+        ]
+      },
+      {
+        "word": "frazzle",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19754",
+          "19722"
+        ]
+      },
+      {
+        "word": "furniture",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19746",
+          "19730"
+        ]
+      },
+      {
+        "word": "theatre",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19754",
+          "19752"
+        ]
+      },
+      {
+        "word": "triple",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19756",
+          "19739"
+        ]
+      },
+      {
+        "word": "berners",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "imagej",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19751"
+        ]
+      },
+      {
+        "word": "academically",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19738",
+          "19732"
+        ]
+      },
+      {
+        "word": "bless",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19747",
+          "19740"
+        ]
+      },
+      {
+        "word": "cure",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19747",
+          "19744"
+        ]
+      },
+      {
+        "word": "dixon",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19752",
+          "19740"
+        ]
+      },
+      {
+        "word": "emerson",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19746",
+          "19741"
+        ]
+      },
+      {
+        "word": "facet",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19754",
+          "19753"
+        ]
+      },
+      {
+        "word": "grand",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19734",
+          "19726"
+        ]
+      },
+      {
+        "word": "hillary",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19743",
+          "19739"
+        ]
+      },
+      {
+        "word": "interior",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19752",
+          "19730"
+        ]
+      },
+      {
+        "word": "kindly",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19747",
+          "19740"
+        ]
+      },
+      {
+        "word": "knoll",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19756",
+          "19725"
+        ]
+      },
+      {
+        "word": "macintosh",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19745",
+          "19721"
+        ]
+      },
+      {
+        "word": "photopin",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19754",
+          "19737"
+        ]
+      },
+      {
+        "word": "ping",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19730",
+          "19726"
+        ]
+      },
+      {
+        "word": "reign",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19744",
+          "19730"
+        ]
+      },
+      {
+        "word": "tumblr",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19735",
+          "19731"
+        ]
+      },
+      {
+        "word": "tweaking",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19756",
+          "19725"
+        ]
+      },
+      {
+        "word": "understandably",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19754",
+          "19745"
+        ]
+      },
+      {
+        "word": "vigor",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19753",
+          "19745"
+        ]
+      },
+      {
+        "word": "youthful",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19753",
+          "19745"
+        ]
+      },
+      {
+        "word": "actweets",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "anderson",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "aranda",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "asana",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "composer",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "curricular",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "excess",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "glee",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "heath",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "joe",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "kidehen",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "kingsley",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "machina",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "moodle",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "nixon",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "nml",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "placcius",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "postdoc",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "rotary",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "screwdriver",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "sister",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "sociologist",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19723"
+        ]
+      },
+      {
+        "word": "stickies",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "terrible",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "turin",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "undesirable",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "unstoppable",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "vincent",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "academics",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "acceptance",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "accepted",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "acclaim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "achievement",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "advancing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "advisement",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "afterlife",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "agnostic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "ahem",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "ajax",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "ambivalence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "amend",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "amidst",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "andpinterest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "andrewbadr",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "annotating",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19739"
+        ]
+      },
+      {
+        "word": "annoy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "anthologize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "antiquity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "appetite",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "applicability",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "aptly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "archivable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "ascendency",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "ascetic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "ascsa",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "ashamed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "assault",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "astoundingly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "atari",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "athlete",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "audiology",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "austerity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "aviv",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "avoidance",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "backlash",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "badr",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "baker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "barb",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "basecamp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "bean",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "bearer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "becoming",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "bedazzle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "beehive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "beg",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "beveled",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "bffs",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "bipolar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "blame",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "bland",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "blindly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "boden",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "boone",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "breathless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "brian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "brick",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "bright",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "btw",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "bullet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "bunny",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "butler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "buttress",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "byzantine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "cabin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "cabinet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "cackling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "carrier",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "centerpiece",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "certified",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19721"
+        ]
+      },
+      {
+        "word": "chaotic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "characterization",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "charm",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "chide",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "chime",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "chuck",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "cinematography",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "cinque",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "clothes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "cocoon",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "cohesive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "collate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "colleges",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "commute",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "commuter",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "companionship",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "complexion",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "comprehend",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "concepts",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "concourse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19732"
+        ]
+      },
+      {
+        "word": "concretization",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "confound",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "consciously",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "considering",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "constrict",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "contingent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "controllable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "controversial",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "conundrum",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "crib",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "cubby",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "curly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "curse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "cynthia",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "daughter",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "deb",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "decimate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "decontextualizes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "defiance",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "defyinggravitas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "demolish",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "dependence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "descent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "destruct",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "destructive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "detest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "detritus",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "deus",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "diabolus",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "digidiss",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "directive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "disassembly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "discard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "disciplinarity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "disparage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "dissassembled",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "disservice",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "disturb",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "disuse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "divine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "divorce",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "documenting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "donor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "dowd",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "dramaturgy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "dreaming",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "durability",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "dust",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "duties",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "eagerly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "earns",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "educause",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "eero",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "elayne",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "enamor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "encouraging",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "ennui",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "entertainment",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "enthuse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "enviroments",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "erinroseglass",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "ernesto",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "eternal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "europeana",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "evgeny",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "evocative",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "evokes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "evolves",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "exasperate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "exclusionary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "exhaust",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "exigency",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "exploring",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19729"
+        ]
+      },
+      {
+        "word": "extraordinaire",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "extremism",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "fantasy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19723"
+        ]
+      },
+      {
+        "word": "farkas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "fate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "fathom",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "fault",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "fell",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "fervor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "fibrous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "figshare",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "finn",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "firsthand",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "fiscal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "fischer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "flaky",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "flex",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "flock",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "flop",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "flourishing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "fluorescent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "flurry",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "folly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "forgetfulness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "forgottens",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "forking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "fought",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "fracture",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "franco",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "freespace",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "frighten",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "frivolity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "fromthat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "fruitless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "frustrated",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "furnish",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19721"
+        ]
+      },
+      {
+        "word": "gadget",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "garnering",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "gautsch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "germinate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "godfather",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "godin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "golan",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "golas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "golf",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "googledrive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19743"
+        ]
+      },
+      {
+        "word": "grudgingly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "guru",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "gush",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "happening",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "hat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "hcayless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "headline",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "heuser",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "holiday",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19728"
+        ]
+      },
+      {
+        "word": "homeopathic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "hopelessness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "hourly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "hulk",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "humble",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "hut",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "hypnotize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "idehen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "illustrious",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "immunity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "imprecise",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "impressiveness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "inadvertently",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "incidentally",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "incompetence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "incursion",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "indulgence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "inexpensively",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "inexperienced",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "infant",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "inger",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "inherited",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "innate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "insofar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "insulate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "intensification",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "interminable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "interrelated",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "intiatives",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "inundate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "invasive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "inventor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "inventory",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "inviting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "inward",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "iphoto",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19748"
+        ]
+      },
+      {
+        "word": "iron",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "irretrievable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "isolating",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "itper",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "jared",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "joan",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "juggle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "justpublics",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "katz",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "keystroke",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "khac",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "laine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "lawdite",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "lawrence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "laying",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "lectureship",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "legality",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "lego",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "lessig",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "liaison",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19723"
+        ]
+      },
+      {
+        "word": "localized",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "lodge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "lottery",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "loved",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "lurker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "madden",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "madness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "magpie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "mandarin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "manifesto",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "marriage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "martini",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "marymount",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "mature",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "maul",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "maureen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "mediacamp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "medierranean",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "metaphorically",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "mewburn",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "microblogging",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "microscope",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "midtown",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "mighty",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "milieu",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "mingle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "miranda",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "misattributed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "miserably",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "misplace",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "missouri",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "moleskine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "moma",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "monolithic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "moretti",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "morozov",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "morrison",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "motley",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "mount",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "muddle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "musical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "musician",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "mythology",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "nap",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "newar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "nexus",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "nicholson",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "nine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "nineteenth",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "ninety",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "nose",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "notetaking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "novelistic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "oasis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "obscuring",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "officially",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "orchestrate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "origami",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "orwellian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "outage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "outermost",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "outfit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "oversee",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "pale",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "paler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "palpable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "panicked",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "pastime",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "patch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "peace",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "penetrates",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "perceived",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "perish",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "piano",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "pic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "piechart",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "pitiful",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "pizza",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "pleaser",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "plier",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "plunge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "polaroid",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "pong",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "ponging",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "poodle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "postage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19728"
+        ]
+      },
+      {
+        "word": "posture",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "pot",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "preacher",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "precipice",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "predicate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "preferably",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "premier",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "preposition",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "presently",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "prevalent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "priego",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "primordial",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "professorial",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "professoriate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "protagonist",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "prototypes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "puppy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "puritanical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "purview",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "quandary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "queasy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "quizzically",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "ratemydate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "rayelz",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "reassemble",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "rebel",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "referral",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "registrar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "rehearse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "reinhard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "relevancy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "requesting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "respectable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "revelation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "roam",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "romance",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "rossi",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "routinely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "rubber",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "sampler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "sangria",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "scenery",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "scribble",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "sebhth",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "secular",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "seo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "sequencer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "severity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "sexy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "shrivel",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "shuffle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "sigh",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "simard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "skeptic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "slew",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "smale",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "sofas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "softwarestudies",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19751"
+        ]
+      },
+      {
+        "word": "solder",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "solutionism",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "sonnet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "sophie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19729"
+        ]
+      },
+      {
+        "word": "spare",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "sparql",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "spill",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "springboard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "stead",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19727"
+        ]
+      },
+      {
+        "word": "straitjacket",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "strategizing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19732"
+        ]
+      },
+      {
+        "word": "stride",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "stupidcute",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "sturdy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "subfields",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "sufficiently",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "sugar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19739"
+        ]
+      },
+      {
+        "word": "sung",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "sunless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "superfluous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "surf",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "swath",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "sweep",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "swoon",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19737"
+        ]
+      },
+      {
+        "word": "synch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "tangentially",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "tattoo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "tel",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "telephony",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "terra",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "thankful",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19734"
+        ]
+      },
+      {
+        "word": "thrall",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "thrice",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "throw",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "timeless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "toddler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "toolmaker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19740"
+        ]
+      },
+      {
+        "word": "touchstone",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "toy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "transcendent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "transgender",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "transitional",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "trello",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "tribeca",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19753"
+        ]
+      },
+      {
+        "word": "tribute",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "trickiest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "tried",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "triumph",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "triumphant",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "trudge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "twbirthday",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "tweeter",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "tweeting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "unabashed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "unassailable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "unavailable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "underberg",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      },
+      {
+        "word": "underwood",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19750"
+        ]
+      },
+      {
+        "word": "undying",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "unfurl",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "unintended",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "uniquely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "universe",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "315"
+        ]
+      },
+      {
+        "word": "unscrew",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "upkeep",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19733"
+        ]
+      },
+      {
+        "word": "upstate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "urgency",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19747"
+        ]
+      },
+      {
+        "word": "usefulness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "utterly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "uyi",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19756"
+        ]
+      },
+      {
+        "word": "vassar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "veronica",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19741"
+        ]
+      },
+      {
+        "word": "victorian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "voiding",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "walking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19724"
+        ]
+      },
+      {
+        "word": "wallet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "warrantee",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19745"
+        ]
+      },
+      {
+        "word": "wary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "waxier",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "waxy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "weed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19754"
+        ]
+      },
+      {
+        "word": "whet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "whiny",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19746"
+        ]
+      },
+      {
+        "word": "whisperer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "whistle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19736"
+        ]
+      },
+      {
+        "word": "widen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19732"
+        ]
+      },
+      {
+        "word": "wipe",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "wishlist",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "wonderland",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19730"
+        ]
+      },
+      {
+        "word": "workload",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "worldview",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19725"
+        ]
+      },
+      {
+        "word": "wracking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19722"
+        ]
+      },
+      {
+        "word": "wring",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19744"
+        ]
+      },
+      {
+        "word": "writ",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "889"
+        ]
+      },
+      {
+        "word": "yelp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "yuckiest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19726"
+        ]
+      },
+      {
+        "word": "zorn",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19752"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2013–2014",
+    "analyzedPosts": 25,
+    "allTypes": 2891,
+    "exclusiveTypes": 522,
+    "singlePostTypes": 504,
+    "multiplePostTypes": 18,
+    "singleOccurrenceTypes": 447,
+    "sharedAcrossYearsTypes": 2369,
+    "exclusiveShare": 0.18056035973711518,
+    "forms": [
+      {
+        "word": "navbar",
+        "occurrences": 44,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "btn",
+        "occurrences": 30,
+        "posts": 2,
+        "ids": [
+          "19773",
+          "19768"
+        ]
+      },
+      {
+        "word": "glyphicon",
+        "occurrences": 20,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "nav",
+        "occurrences": 14,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "navwalker",
+        "occurrences": 11,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "lane",
+        "occurrences": 9,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "inch",
+        "occurrences": 8,
+        "posts": 2,
+        "ids": [
+          "19782",
+          "2050"
+        ]
+      },
+      {
+        "word": "gallery",
+        "occurrences": 7,
+        "posts": 3,
+        "ids": [
+          "19779",
+          "19773",
+          "19768"
+        ]
+      },
+      {
+        "word": "resampling",
+        "occurrences": 6,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "enqueue",
+        "occurrences": 5,
+        "posts": 2,
+        "ids": [
+          "19773",
+          "19769"
+        ]
+      },
+      {
+        "word": "cube",
+        "occurrences": 5,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "resample",
+        "occurrences": 5,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "customizations",
+        "occurrences": 4,
+        "posts": 2,
+        "ids": [
+          "19779",
+          "19773"
+        ]
+      },
+      {
+        "word": "startbootstrap",
+        "occurrences": 4,
+        "posts": 2,
+        "ids": [
+          "19769",
+          "19768"
+        ]
+      },
+      {
+        "word": "tacit",
+        "occurrences": 4,
+        "posts": 2,
+        "ids": [
+          "19771",
+          "19770"
+        ]
+      },
+      {
+        "word": "boing",
+        "occurrences": 4,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "dpi",
+        "occurrences": 4,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "mytheme",
+        "occurrences": 4,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "slick",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19770",
+          "19768"
+        ]
+      },
+      {
+        "word": "themed",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "19779",
+          "19773"
+        ]
+      },
+      {
+        "word": "bloginfo",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "divider",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "divshot",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "ghostbusters",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "malleable",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "matic",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "offsite",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "playground",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "pleiades",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "serendip",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "bootsnipp",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19769",
+          "19768"
+        ]
+      },
+      {
+        "word": "collaborating",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19782",
+          "19770"
+        ]
+      },
+      {
+        "word": "collector",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19779",
+          "19765"
+        ]
+      },
+      {
+        "word": "coming",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "1911",
+          "19757"
+        ]
+      },
+      {
+        "word": "daunting",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19771",
+          "19763"
+        ]
+      },
+      {
+        "word": "enlighten",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "1911",
+          "19762"
+        ]
+      },
+      {
+        "word": "makerbot",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19771",
+          "19757"
+        ]
+      },
+      {
+        "word": "stoop",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19776",
+          "19757"
+        ]
+      },
+      {
+        "word": "turkel",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19771",
+          "19770"
+        ]
+      },
+      {
+        "word": "alto",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "artichoke",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "backpack",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "caret",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "cheek",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "copenhagen",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "dist",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "downsampling",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "downside",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "easel",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "ego",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "egosurfing",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "fallback",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "fiscally",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "generated",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "gisc",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "grandma",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "imposed",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "irreplaceable",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "loading",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "longevity",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "los",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "mia",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "normann",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "paintstrap",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "pantheon",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "photographs",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "redraw",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "stefan",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "tactile",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "talented",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "thin",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "tout",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "trickery",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "upside",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "variables",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "abd",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "accustomed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "acheson",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "activation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "adamant",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "adjusting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "aether",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "affiliated",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "afloat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19763"
+        ]
+      },
+      {
+        "word": "alderman",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "allegiance",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "allusion",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "alma",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "aloud",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "alternet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "ambiguous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "amble",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "amusement",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "andy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "ann",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "anothers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "anthropological",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "anymore",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "applaud",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "applescript",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "appropriateness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "approximate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "apropos",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "archaeological",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "archaic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "arconis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "aspiration",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "assembled",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "assumed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "athletic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "autocad",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "automator",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "autumn",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "avoidable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "awkward",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "babysit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "balk",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "barren",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "basemaps",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "bass",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "bauer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "bbedit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "beckon",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "bend",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "besotted",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "bestie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "bios",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "bitmap",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "bitmapped",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "bleep",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "blinder",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "blooping",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "blow",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "blown",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "bombard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "bookmarks",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "boost",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "bootable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "bootply",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "bootstrapped",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "bootstrapping",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "bootswatch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "boundless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "bracelet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "bruise",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "bytecode",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "cache",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "cad",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "cardinal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "casually",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "caution",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "celebratory",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "charity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "charlottesville",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "chassis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "cheesy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "clarification",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "clink",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "cloner",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "clunky",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "codespeak",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "codex",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "collapsed",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "colourlovers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "comcast",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "commission",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "communicable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "compiler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "conditionals",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "congenial",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "conroy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "consensus",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "contention",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "continuity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "continuously",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "contradictory",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "conventionalize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "counterexample",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "countryside",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "coverage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "crashplan",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "cripple",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "cropping",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "customizer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "cycling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "dazzlingly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "decease",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "decently",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "decor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "defunded",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "deluge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19763"
+        ]
+      },
+      {
+        "word": "dialect",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "dick",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "discernible",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "disconcert",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "disintegration",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "dismay",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "disorientation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "dispirited",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "dissect",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "distasteful",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "documented",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "dodds",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "doh",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "dolt",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "dopplegangers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "downloaded",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "downthemall",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "drink",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "drone",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "edited",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "egosurfer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "eke",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "elasticity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "elementary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "embarrassment",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "ensue",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "entries",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "entrust",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "espouse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "esque",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "etch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "ether",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "etymological",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "evaluator",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "exif",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "exifdata",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "expo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "exportability",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19763"
+        ]
+      },
+      {
+        "word": "expressly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "extracurricular",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "fallacy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "fearless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "figurine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "firmware",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "flair",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "flooding",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "flowingdata",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "foreseeable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "forgetting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "formulaic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "formulas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "fortran",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "fubar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "funky",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "fuse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "fuss",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "futility",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "gawker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "geekster",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "generalize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "germanic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "getbootstrap",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "getty",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "ghajar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "gimmicky",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "globalization",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "goegraphical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "gorgeous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "gritties",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "guardian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "handmade",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "handwriting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "harold",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "hatch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "hatchet",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "helicopter",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "hermit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "heuristic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "heuristical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "hipster",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "homemade",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "hot",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "huffington",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "hurt",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "imaginable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "imitate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "immanent",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "imposter",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "incongruity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "indefinitely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "indulge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "insistence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "integral",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "intellectually",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "interim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "intriguing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "inversely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "irrespective",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "jackalope",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "jarvis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "jazeera",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "jeremy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "joachim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "judging",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "karma",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "keeper",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "keypresses",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "knowledgable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "koala",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "kuler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "lapse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "laudun",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "laughably",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "layoutit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "lends",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "lifetime",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "lightroom",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "likeliest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "linking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "literal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "lofty",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "logistical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "lovebootstrap",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "lovely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "lynchpin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "lyric",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "machining",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "manufacture",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "manyeyes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "masthead",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "mater",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "mathematica",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "mckinneys",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "measurements",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "mediacommons",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "melanie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "messiness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "michelangelo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "mildly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "minor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "minutia",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "mistranslate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "moby",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "modernist",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "modicum",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "moleskines",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "molly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "monetary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "morass",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "mosaic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "moses",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "moving",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "mullen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "multiplication",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "mundane",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "mystique",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "navwalkers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "negotiation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "ness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "neubert",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "nextflix",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "nitty",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "noobie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "notetakers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19763"
+        ]
+      },
+      {
+        "word": "nugget",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "nurse",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "obfuscate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "occupational",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "octave",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "offisite",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "oklahoma",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "oogling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "openoffice",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "openrefine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "orientational",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "ortahisar",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "outgrowth",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "overcommitted",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "override",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "panoply",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "parametric",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "paratext",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "passable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "patterson",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "peasy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "penguin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "perfection",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "perplex",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "persists",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "pervasive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "phoebe",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "photographer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "pingendo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "pintrest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "pizzaz",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "plainly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "plausibly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "plump",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "poetical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "postcard",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "postscript",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "ppi",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "precinct",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "precludes",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "prep",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "proactive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "propellor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "purchasing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "purposely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "racetrack",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "racket",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "ramis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "randall",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "rapt",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "raring",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "rdfa",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "readers",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "rear",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "recount",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "recruitment",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "reel",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "regret",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "religious",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "removal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "repositories",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "res",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "residence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "resizing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "resultant",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "revelatory",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "revolutionary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "ridge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "rome",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "schematic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "searchform",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "sequential",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "served",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "shroud",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "simplification",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "simultaneous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "sizable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "slam",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "slap",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "slat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "sliver",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "soak",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "sociological",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "solving",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "sore",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19775"
+        ]
+      },
+      {
+        "word": "spec",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "spyglass",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19779"
+        ]
+      },
+      {
+        "word": "staid",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "statistics",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "stifle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "stock",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "stodgy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "stopword",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "subscriber",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "subsequently",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "subtext",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "superduper",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "supplementary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "suppress",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "swamp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "swim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "sympathize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "syndrome",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "techie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "teleological",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "textmate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "textwrangler",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "theft",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "thinkprogress",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "thru",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "thunderstorm",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "tight",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "trackpad",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "troll",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "troublesome",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "tube",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19766"
+        ]
+      },
+      {
+        "word": "tumbl",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "tummy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "tutelage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "twittem",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19773"
+        ]
+      },
+      {
+        "word": "typesetting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "typewriting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "unbelievably",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "uncanny",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "unconcerned",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "uncredited",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "underlies",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "undo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "unexplained",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "uniformity",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "uninitiated",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "unpackable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19771"
+        ]
+      },
+      {
+        "word": "unstyled",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "unsuccessfully",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "unthinkable",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "unwilling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "upsampling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "users",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "vaguely",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "vatman",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "vids",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19777"
+        ]
+      },
+      {
+        "word": "viewpoint",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "vigorous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "vigorously",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19780"
+        ]
+      },
+      {
+        "word": "vim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "virtue",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "visionary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19770"
+        ]
+      },
+      {
+        "word": "volunteerism",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "wade",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19782"
+        ]
+      },
+      {
+        "word": "wallpaper",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19768"
+        ]
+      },
+      {
+        "word": "warner",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "warns",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "weakened",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19783"
+        ]
+      },
+      {
+        "word": "weary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19762"
+        ]
+      },
+      {
+        "word": "webserver",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "weighted",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19767"
+        ]
+      },
+      {
+        "word": "welding",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19759"
+        ]
+      },
+      {
+        "word": "whack",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "2050"
+        ]
+      },
+      {
+        "word": "whine",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      },
+      {
+        "word": "wikipedian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "wood",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19757"
+        ]
+      },
+      {
+        "word": "wordless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19776"
+        ]
+      },
+      {
+        "word": "wordpad",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19778"
+        ]
+      },
+      {
+        "word": "worldcat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19765"
+        ]
+      },
+      {
+        "word": "wpautop",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19769"
+        ]
+      },
+      {
+        "word": "wrestle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "1911"
+        ]
+      },
+      {
+        "word": "zotpress",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19774"
+        ]
+      }
+    ]
+  }
+]

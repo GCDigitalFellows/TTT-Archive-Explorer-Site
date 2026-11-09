@@ -652,5 +652,26 @@ h3 {
 }
 
 /* Whole-application eras retain motion and system-colour accessibility overrides. */
-@media(prefers-reduced-motion:reduce){#tower-explorer *,#tower-explorer *::before,#tower-explorer *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-@media(forced-colors:active){:root{--paper:Canvas!important;--ink:CanvasText!important;--muted:CanvasText!important;--quiet:CanvasText!important;--surface:Canvas!important;--rule:ButtonText!important;--series:LinkText!important}#tower-explorer button{border:1px solid ButtonText}}
+@media (prefers-reduced-motion: reduce) {
+  #tower-explorer *,
+  #tower-explorer *::before,
+  #tower-explorer *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (forced-colors: active) {
+  :root {
+    --paper: Canvas !important;
+    --ink: CanvasText !important;
+    --muted: CanvasText !important;
+    --quiet: CanvasText !important;
+    --surface: Canvas !important;
+    --rule: ButtonText !important;
+    --series: LinkText !important;
+  }
+  #tower-explorer button {
+    border: 1px solid ButtonText;
+  }
+}
