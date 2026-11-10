@@ -507,13 +507,16 @@
             PathwaysCore.creditLabel(post.tier),
           "small",
         ),
-        element("p", source.connection),
       );
-      const passage = element("details");
-      passage.append(
-        element("summary", "Read the source passage"),
-        element("blockquote", source.passage),
-      );
+      // The fragment is our interpretation; its disclosure preserves the exact
+      // saved source passage. Do not substitute a generated paraphrase here.
+      const passage = element("details", undefined, "term-help passage-help");
+      const fragment = element("summary", source.connection);
+      fragment.append(element("span", ": read the source passage", "sr"));
+      const passagePanel = element("div", undefined, "term-help-panel");
+      passagePanel.append(element("blockquote", source.passage));
+      passage.append(fragment, passagePanel);
+      enableReadingHelp(passage);
       card.append(passage);
       const actions = element("div", undefined, "row");
       actions.append(
@@ -867,4 +870,39 @@
       unit: "ch",
     });
   }
+  // Shared enhancement for static MALLET help and freshly rendered passages.
+  // Native disclosure remains usable by touch/keyboard without this enhancement.
+  // Keep the panel open while the pointer OR keyboard focus is within it.
+  function enableReadingHelp(help) {
+    const summary = help.querySelector("summary");
+    let helpDismissed = false;
+    help.addEventListener("pointerenter", (event) => {
+      if (event.pointerType === "mouse") {
+        helpDismissed = false;
+        help.open = true;
+      }
+    });
+    help.addEventListener("pointerleave", () => {
+      if (!help.contains(document.activeElement)) help.open = false;
+      helpDismissed = false;
+    });
+    help.addEventListener("focusin", () => {
+      if (!helpDismissed) help.open = true;
+    });
+    help.addEventListener("focusout", (event) => {
+      if (!help.contains(event.relatedTarget)) {
+        help.open = false;
+        helpDismissed = false;
+      }
+    });
+    help.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        helpDismissed = true;
+        help.open = false;
+        summary.focus();
+      }
+    });
+  }
+  enableReadingHelp(root.querySelector("#wp-mallet-help"));
 })();

@@ -2946,6 +2946,69 @@
         "process/releases/2026-11-09-flyer.json"
       ],
       "limit": "Git author metadata is recorded attribution, not proof of manual authorship. This publication does not establish complete source authorship accuracy, human usability approval or accessibility conformance. Original fonts and article rights remain separate; raw exports, archives and fitted model binaries remain outside the public allowlist."
+    },
+    {
+      "id": "mallet-inline-reading-help",
+      "date": "2026-11-09",
+      "status": "implemented and checked locally; not pushed",
+      "task": "Added MALLET hover/focus help with a short explanation and official further reading on the interpretation page.",
+      "human": "Ian G. Williams identified the MALLET term on the public interpretation page and requested mouseover explanation and further-reading links.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both shared repositories with no incoming commits, consulted official MALLET overview and topic-modeling documentation, added a native disclosure enhanced for mouse hover, keyboard focus, touch activation and Escape dismissal, and documented the difference between saved statistical topics and essay themes. Used contextual-help-design and keyboard-navigation guidance; the linked help expands in flow to avoid narrow-screen clipping. Eight process and four credit tests passed. Two workspace builds stalled reading an existing cleaned-text file and were interrupted; the healthy private checkout completed the same builder, and its generated outputs were carried back without changing source data. That checkout passed 23 frontend and six public-release tests. Browser checks confirmed focus-open, Tab to the official overview link, Escape closure/focus return and Enter reopening; screenshot retained. Mouse pointer-entry behavior was inspected in code but not independently exercised through the available browser controls. Formatting was applied with Prettier.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000030",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/views/wisdom.html",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/ui.js"
+      ],
+      "limit": "No model fit, corpus change or reinterpretation. Official sources checked November 9, 2026: https://mimno.github.io/Mallet/ and https://mimno.github.io/Mallet/topics.html. Automated and browser checks are distinct from participant or screen-reader evaluation; full assistive-technology validation not performed."
+    },
+    {
+      "id": "interpretation-introduction-clarification",
+      "date": "2026-11-09",
+      "status": "implemented; local preview",
+      "task": "Clarified the interpretation-page introduction, expanded MALLET before its acronym and replaced the ambiguous essay reference.",
+      "human": "Ian G. Williams requested the opening “This page consists of an AI-assisted reading,” the toolkit’s full name before its acronym, and an explanation of what the essay meant. These are human wording and clarity directions, not independent approval of the underlying interpretation.",
+      "agent": "OpenAI Codex (exact build not recorded) revised the route source and help text to distinguish the project’s interpretation of 21 selected blog posts from saved statistical topics; preserved source quotations, credits and all existing help interactions. Checked shared repositories before editing; validation results recorded after rebuild. Healthy-checkout build and 23 frontend tests passed; browser confirmed all requested wording changes. Workspace record builds/tests stalled on local files and were interrupted; the healthy checkout is used for the final record build and required checks. Generated web files were copied atomically after a stalled ordinary copy. Final healthy-checkout process (8) and credit (4) tests passed.",
+      "credit_roles": [
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000031",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/views/wisdom.html"
+      ],
+      "limit": "Copy clarification only; no corpus, model or source-author changes. No new participant or screen-reader evaluation. Not pushed or deployed."
+    },
+    {
+      "id": "source-fragment-reading-help-publication",
+      "date": "2026-11-09",
+      "status": "implemented and checked; authorized publication",
+      "task": "Make interpretation fragments reveal their saved source passages and publish this with pending MALLET and introductory wording revisions.",
+      "human": "Ian G. Williams requested mouseover access to full passages from each interpretive fragment, in the MALLET help style, and explicitly requested upload. Original blog authors retain source-text credit; Ian’s request does not imply independent validation of every passage.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both shared repositories and found no incoming commits, reused the native disclosure enhancement for dynamically rendered fragments and MALLET help, preserved exact saved source.passage text and adjacent byline/title links, and added focus/touch and Escape access with wrapped panels. This reveals the complete saved selected passage, not the complete article, which remains available via Read this post and Original source. Validation and publication outcomes recorded below. Passed 23 frontend, six public-release, eight process and four credit Python tests. Browser confirmed exact saved passage rendering, keyboard focus opening, departure closure and Escape dismissal/focus retention. Pointer-entry code was inspected; direct mouse-hover and screen-reader evaluation were not performed through the available controls. Prettier formatted edited sources. The following commit publishes this together with the two prior local copy/help changes.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/ui.js",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/views/wisdom.html"
+      ],
+      "limit": "No new model, excerpt selection, authorship decision or corpus change. Hover/focus disclosures use in-flow panels so long quotations do not cover nearby content or require a fixed-height nested reading area. Automated/browser checks do not establish full screen-reader or participant validation."
     }
   ],
   "remaining": [

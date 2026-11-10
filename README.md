@@ -37,6 +37,9 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-09 — Make interpretation fragments reveal their saved source passages and publish this with pending MALLET and introductory wording revisions.
+- 2026-11-09 — Clarified the interpretation-page introduction, expanded MALLET before its acronym and replaced the ambiguous essay reference.
+- 2026-11-09 — Added MALLET hover/focus help with a short explanation and official further reading on the interpretation page.
 - 2026-11-09 — Publish the approved flyer typography and accumulated current corpus/interface revisions to the private source and public website repositories.
 - 2026-11-09 — Promoted the approved flyer typography to the active default appearance, with preserved historical styles and local font licenses.
 - 2026-11-09 — Built an in-page typography comparison using Pixelify Sans headings, Atkinson Hyperlegible Next reading text and optional flyer heading accents.

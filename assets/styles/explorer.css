@@ -1058,6 +1058,40 @@
   }
 }
 
+/* Inline help is a disclosure, rather than ARIA tooltip: it contains links.
+ * Keep it in normal flow when open so zoom/narrow screens cannot clip it.
+ * Native summary works by keyboard/touch even without the hover enhancement. */
+#welcoming-prototype .term-help {
+  display: inline;
+}
+#welcoming-prototype .term-help > summary {
+  display: inline;
+  cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.2em;
+}
+#welcoming-prototype .term-help-panel {
+  display: block;
+  max-width: 42rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid var(--line);
+  background: var(--wash);
+  color: var(--ink);
+}
+#welcoming-prototype .term-help-panel p {
+  margin: 0 0 0.7rem;
+}
+
+/* Source interpretations are block disclosures; saved quotations wrap naturally. */
+#welcoming-prototype .passage-help {
+  display: block;
+  margin: 1rem 0;
+}
+#welcoming-prototype .passage-help blockquote {
+  margin: 0;
+}
+
 /* Default flyer typography, approved by Ian on November 9, 2026.
  * Edit families, sizes and accents here. This sheet is assembled last so card
  * font shorthands cannot replace the pairing. Other design years retain their
