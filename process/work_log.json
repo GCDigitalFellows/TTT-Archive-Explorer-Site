@@ -3349,6 +3349,60 @@
         "../scripts/prepare_public_site.py"
       ],
       "limit": "Approval concerns implementation of the demonstrated interface, not comprehensive scientific or accessibility validation. Small-chart grid PNG export remains unavailable; the main sunburst retains PNG export. Existing participant/screen-reader and historical archive-verification limitations remain."
+    },
+    {
+      "id": "accessibility-redesign-plan-and-prototype",
+      "date": "2026-11-10",
+      "status": "isolated prototype implemented and checked locally; not published",
+      "task": "Plan and prototype a readable, narrative-led public introduction with separate human-authored archive and AI-process narratives.",
+      "human": "Lisa Marie Rhody supplied supervisor feedback on font readability, contrast, public orientation and an account of the AI-assisted process, attributed explicitly at Ian G. Williams’s request. Ian requested the redesign plan and prototype and intends to write both narratives; their authorship is prospective, not claimed completed.",
+      "agent": "OpenAI Codex (exact model/build not recorded) drafted a staged plan and evidence-linked writing guide, built an isolated six-post prototype with readable local typography, named light/dark color roles, reader size/spacing controls, question-led reading, scoped search/random discovery and reserved human-writing sections; updated project credit for Lisa’s feedback. Selected saved source-supported or declared credits without changing the corpus or fitting models. Four focused checks passed for named contrast pairs, structure/anchors, example scope and tracking exclusions; JavaScript syntax passed. Browser checks confirmed search/reset, random selection, larger/spaced dark reading and no page-wide overflow at 320 CSS pixels or the normal viewport.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/PLAN.md",
+        "reviews/accessibility_redesign_2026-11-10/WRITING_GUIDE.md",
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "reviews/accessibility_redesign_2026-11-10/test_preview.py",
+        "credits/process_profile.json",
+        "../scripts/update_readme_changelog.py"
+      ],
+      "limit": "Six purposively selected examples, not full archive integration or representative evidence. Proposed framing/paths are editorial drafts, not MALLET outputs. Lisa’s prototype review, role confirmation and approval are not established. Full screen-reader, exact spacing-override, zoom, forced-colors and participant testing remain unperformed; these checks do not establish WCAG conformance or learner comprehension. No public deployment or push. Credit structure checks passed (four tests). The full builder succeeded in a fresh checkout, but local regeneration stalled reading a saved text file; the local process suite stalled in its packaging check and was interrupted. Fresh-checkout process checks reported a missing earlier private-history artifact; no complete process-suite pass is claimed.",
+      "human_label": "Lisa Marie Rhody and Ian G. Williams",
+      "summary": "Lisa Marie Rhody supplied accessibility feedback, Ian G. Williams directed a narrative-led redesign, and Codex drafted its plan and isolated prototype"
+    },
+    {
+      "id": "credit-sophie-bala-design-feedback",
+      "date": "2026-11-10",
+      "status": "recorded locally; not published",
+      "task": "Credit Sophie Bala for design feedback on the accessibility redesign.",
+      "summary": "Sophie Bala supplied design feedback, Ian G. Williams requested the credit, and Codex updated the prototype and attribution records",
+      "human_label": "Sophie Bala and Ian G. Williams",
+      "human": "Sophie Bala supplied design feedback, as attributed by Ian G. Williams; Ian requested that Sophie be credited alongside Lisa Marie Rhody.",
+      "agent": "OpenAI Codex (exact model/build not recorded) updated the prototype, supporting notes and attribution records and regenerated the standalone credit and work-log pages and changelogs.",
+      "credit_roles": [
+        "Writing – review & editing",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "credits/process_profile.json"
+      ],
+      "limit": "The specific content of Sophie’s feedback, her confirmation of the role assignment, and review or approval of the resulting prototype are not documented. No deployment or push."
     }
   ],
   "remaining": [

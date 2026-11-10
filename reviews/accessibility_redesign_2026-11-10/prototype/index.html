@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head
+    ><meta charset="utf-8" /><meta
+      name="viewport"
+      content="width=device-width,initial-scale=1" /><title
+      >Tagging The Tower Archive Explorer · Accessibility redesign</title
+    ><link rel="stylesheet" href="styles.css" /><script defer src="data.js"></script
+    ><script defer src="preview.js"></script
+  ></head>
+  <body
+    ><a class="skip" href="#main">Skip to content</a>
+    <div class="prototype-notice"
+      >Accessibility redesign prototype · The published site is unchanged.</div
+    >
+    <header class="site-header"
+      ><a class="brand" href="#main">Tagging The Tower<br />Archive Explorer</a
+      ><nav aria-label="Main navigation"
+        ><a href="#introduction">Start here</a><a href="#read">Read posts</a
+        ><a href="#process">How this was made</a></nav
+      >
+      <details class="reading-options"
+        ><summary>Reading options</summary
+        ><div
+          ><label
+            >Typeface<select id="font"
+              ><option value="atkinson">Atkinson Hyperlegible Next</option
+              ><option value="system">System sans serif</option></select
+            ></label
+          ><label
+            >Text size<select id="size"
+              ><option value="standard">Standard</option
+              ><option value="larger">Larger</option></select
+            ></label
+          ><label
+            >Spacing<select id="spacing"
+              ><option value="standard">Standard</option
+              ><option value="roomy">More space</option></select
+            ></label
+          ><label
+            >Appearance<select id="appearance"
+              ><option value="light">Light</option
+              ><option value="dark">Dark</option></select
+            ></label
+          ></div
+        ></details
+      ></header
+    >
+    <main id="main"
+      ><section id="introduction" class="intro"
+        ><p class="eyebrow">The Graduate Center, City University of New York</p
+        ><h1>Living and learning with digital change</h1
+        ><p class="lead"
+          >Tagging The Tower is a blog about digital scholarship: the tools people use,
+          the questions they ask, and how they learn and work together.</p
+        ><p
+          >The archive brings together writing by GC Digital Fellows and other
+          contributors, including students, institute participants and guests. It offers
+          tutorials, reflections and accounts of scholarly practice across changing
+          technical and institutional conditions.</p
+        ><div class="actions"
+          ><a class="button primary" href="#read">Find a starting point</a
+          ><a href="#process">Read about this website’s making</a></div
+        ><p class="scope"
+          ><strong>423 published records</strong> · 2012–2026 · November 9, 2026
+          snapshot</p
+        >
+        <article class="author-space" aria-labelledby="intro-author"
+          ><h2 id="intro-author">An introduction to the archive</h2
+          ><p class="byline"
+            >Ian G. Williams · Human-authored introduction forthcoming</p
+          ><p
+            >This space is reserved for Ian’s account of the blog’s setting, the
+            provocations behind its writing, and why these voices matter to
+            conversations about living through and with change.</p
+          ><details class="writing-note"
+            ><summary>Draft-writing prompts and supporting evidence</summary
+            ><ul
+              ><li
+                >What changes are the writers responding to: tools, institutions,
+                teaching, access, community or expectations of expertise?</li
+              ><li
+                >What can first-person accounts reveal that a tool manual or
+                institutional report cannot?</li
+              ><li
+                >What connects the archive to your own question about living with
+                change?</li
+              ></ul
+            ><p
+              >The headline and surrounding orientation are AI-drafted discussion copy,
+              not Ian’s completed narrative. The selected examples below support
+              possible connections, not claims about how common a theme is.</p
+            ><a href="../WRITING_GUIDE.md"
+              >Open the writing guide and source notes</a
+            ></details
+          ></article
+        >
+      </section>
+      <section class="context" aria-labelledby="context-heading"
+        ><h2 id="context-heading">Who are the Digital Fellows?</h2
+        ><p
+          >The GC Digital Fellows are one of several doctoral-student fellowship teams
+          within GC Digital Initiatives. Based in the Digital Scholarship Lab, they
+          support digital research and teaching through workshops, consultations and
+          shared resources. A blog credit alone does not establish fellowship
+          membership.</p
+        ><a href="https://gcdi.commons.gc.cuny.edu/people/"
+          >Meet the GCDI teams on the original website ↗</a
+        ></section
+      >
+      <section id="read"
+        ><h2>Three questions to enter the archive</h2
+        ><p
+          >You can begin with a question rather than a chart. These are proposed reading
+          paths through six examples, not categories assigned by the topic model.</p
+        ><div class="question-list" role="group" aria-label="Choose a reading path"
+          ><button type="button" data-path="learn" aria-pressed="false"
+            ><strong>How do people learn amid change?</strong
+            ><span
+              >Read about beginning, barriers and becoming more independent.</span
+            ></button
+          ><button type="button" data-path="together" aria-pressed="false"
+            ><strong>What makes learning collective?</strong
+            ><span>Read about gatherings, exchange and shared practice.</span></button
+          ><button type="button" data-path="judgment" aria-pressed="false"
+            ><strong>How do we decide what is worth doing?</strong
+            ><span
+              >Read about judgment, care and the limits of technical solutions.</span
+            ></button
+          ></div
+        ><div class="sample-controls"
+          ><label
+            >Search these six examples<input
+              id="sample-search"
+              type="search"
+              placeholder="A title, writer or word" /></label
+          ><button type="button" id="reset">Show all examples</button
+          ><button type="button" id="random">Choose an example for me</button></div
+        ><p id="results-status" role="status" aria-live="polite"></p
+        ><div id="examples"></div
+        ><p class="scope"
+          >This prototype searches six curated examples only.
+          <a
+            href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/#view=browse"
+            >Search all 423 records in the published explorer ↗</a
+          ></p
+        ></section
+      >
+      <section id="process"
+        ><h2>How this website was made</h2
+        ><p class="lead"
+          >The website combines an archive, computational analysis and human decisions
+          about how to read and present the results.</p
+        ><article class="author-space" aria-labelledby="process-author"
+          ><h3 id="process-author">My experience of building with an AI tool</h3
+          ><p class="byline">Ian G. Williams · Human-authored narrative forthcoming</p
+          ><p
+            >This space is reserved for Ian’s first-person account: what he wanted to
+            understand, how he worked with the AI tool, where the process helped or
+            failed, and what responsibility remains with the people making the
+            website.</p
+          ><details class="writing-note"
+            ><summary>Prompts for the process narrative</summary
+            ><ol
+              ><li>Begin with a question or encounter with the archive.</li
+              ><li>Describe one concrete interaction that changed your approach.</li
+              ><li
+                >Discuss an error, correction or disagreement and how you handled
+                it.</li
+              ><li
+                >Explain what computational analysis made visible—and what it could not
+                establish.</li
+              ><li
+                >Say what you want readers to examine, challenge or carry forward.</li
+              ></ol
+            ><p
+              >Do not substitute an AI-written first-person story for your experience.
+              Exact chat logs and behavioral traces are not needed to explain this
+              process.</p
+            ></details
+          ></article
+        >
+        <div class="process-steps"
+          ><article
+            ><h3>1. Read the sources</h3
+            ><p
+              >Published posts supply the writing. Posting accounts, article bylines and
+              fellowship records are different kinds of evidence.</p
+            ></article
+          ><article
+            ><h3>2. Compare patterns</h3
+            ><p
+              >Saved word counts and MALLET topic models offer ways to compare texts.
+              Cleaning choices and corpus boundaries shape those patterns.</p
+            ></article
+          ><article
+            ><h3>3. Return to people and passages</h3
+            ><p
+              >Read the original posts, inspect attribution and question the
+              interpretation. A model result is not the authors’ collective
+              agreement.</p
+            ></article
+          ></div
+        >
+        <details class="methods"
+          ><summary>What the analysis includes—and its limits</summary
+          ><dl
+            ><div
+              ><dt>423 published records</dt
+              ><dd
+                >The complete published archive population in the supplied snapshot;
+                nine drafts are excluded from the public corpus.</dd
+              ></div
+            ><div
+              ><dt>327 local posts; 96 curated/source-linked records</dt
+              ><dd>Different kinds of records are kept distinct.</dd></div
+            ><div
+              ><dt>301 modeled posts</dt
+              ><dd
+                >A subset of the local posts, not all 423 records. Browser charts
+                display saved results rather than fitting new models.</dd
+              ></div
+            ><div
+              ><dt>21 selected interpretive examples</dt
+              ><dd
+                >A situated reading, not a representative survey or an estimate of theme
+                prevalence.</dd
+              ></div
+            ></dl
+          ><p
+            >Readability and contrast checks do not establish a complete accessibility
+            assessment or human approval of the analysis.</p
+          ><a href="../PLAN.md">Read the prototype plan and testing limits</a></details
+        ></section
+      > </main
+    ><footer
+      ><p
+        ><strong>Design feedback:</strong> Lisa Marie Rhody and Sophie Bala.<br /><strong
+          >Project direction and forthcoming narratives:</strong
+        >
+        Ian G. Williams.<br /><strong>Prototype drafting and implementation:</strong>
+        OpenAI Codex, with AI assistance; exact model/build not recorded.</p
+      ><p
+        >Both contributors are credited at Ian’s request. Their review or approval of this
+        prototype is not established. Source authors retain credit for their
+        posts.</p
+      ><p
+        ><a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/"
+          >Return to the published explorer ↗</a
+        >
+        · <a href="../PLAN.md">Redesign plan</a> ·
+        <a href="fonts/OFL.txt">Typeface license</a></p
+      ></footer
+    >
+  </body></html
+>

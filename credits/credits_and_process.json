@@ -1,6 +1,6 @@
 {
   "profile": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-11-10",
     "human_project_contributor": "Ian G. Williams",
     "archived_migration_credit_review": {
       "date": "2026-11-05",
@@ -93,7 +93,7 @@
       {
         "role": "Writing – review & editing",
         "meaning": "Critique and revise the work.",
-        "human": "Ian G. Williams requested clearer explanations, human-readable annotations, and attribution corrections. Human rewriting of every passage is not claimed. Ian authorized implementation of the review recommendations; this is not confirmation of every resulting claim.",
+        "human": "Ian G. Williams requested clearer explanations, human-readable annotations, and attribution corrections. Human rewriting of every passage is not claimed. Ian authorized implementation of the review recommendations; this is not confirmation of every resulting claim. Lisa Marie Rhody supplied supervisor feedback on readability, contrast, public orientation and the need for a human-authored account of the AI-assisted process; Ian explicitly requested this attribution. Her review or approval of the resulting prototype is not established. Sophie Bala supplied design feedback, credited at Ian’s explicit request; the specific recommendations and any prototype approval are not documented.",
         "status": "Documented critical feedback"
       }
     ],
@@ -290,7 +290,7 @@
       }
     ],
     "activity_log": "process/work_log.json",
-    "review_status": "Simulated AI reviews, automated preservation tests and agent-run browser checks are distinct from actual participant review. Complete human approval remains undocumented.",
+    "review_status": "Simulated AI reviews, automated preservation tests and agent-run browser checks are distinct from actual participant review. Complete human approval remains undocumented. Supervisor feedback is credited to Lisa Marie Rhody at Ian’s request; this does not establish her review or approval of the redesign prototype.",
     "external_review_tool": {
       "reported_by": "Ian G. Williams",
       "reported_on": "2026-11-02",
@@ -589,6 +589,21 @@
       "ai": "OpenAI Codex, exact build not recorded, preserved the pre-refresh evidence, integrated two posts, reran NLTK and 35 MALLET fits, updated labels with explicit topic alignment, checked attribution/rights and rebuilt local views.",
       "oversight": "User direction and source provision; no independent human recomputation, byline confirmation or final scholarly approval recorded.",
       "source_authors": "Meha Gupta and the declared Shokran Rahiminezhad taxonomy credit are source contributors. Grouped views reuse the documented Shokran/Shokraan spelling resolution. Neither source authorship nor the separate photography credits imply contribution to this new code/analysis or endorsement."
+    },
+    "accessibility_redesign_feedback": {
+      "date": "2026-11-10",
+      "feedback_contributor": "Lisa Marie Rhody",
+      "credit_role": "Writing – review & editing",
+      "basis": "Feedback attributed by Ian G. Williams; credited at his explicit request. Contributor confirmation of this role assignment is not recorded.",
+      "scope": "Accessibility and narrative-orientation feedback; not implementation or approval of the prototype.",
+      "project_direction": "Ian G. Williams requested the redesign plan and prototype and reserved the two narratives for his own writing.",
+      "ai_execution": "OpenAI Codex drafted the plan and isolated prototype; exact model/build not recorded.",
+      "limitations": "Automated and agent browser checks are separate from participant testing and human approval.",
+      "additional_design_feedback": {
+        "feedback_contributor": "Sophie Bala",
+        "credit_role": "Writing – review & editing",
+        "basis": "Design feedback attributed by Ian G. Williams at his explicit request. Specific recommendations, role confirmation and approval of the prototype are not documented."
+      }
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",

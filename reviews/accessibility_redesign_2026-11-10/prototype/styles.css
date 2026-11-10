@@ -1,0 +1,384 @@
+/* Reading-first design tokens. Change colors here; recompute the measured
+   foreground/background pairs in test_preview.py after editing them.
+   Typography uses relative units and never constrains text to fixed heights. */
+@font-face {
+  font-family: Atkinson;
+  src: url("fonts/atkinson.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --paper: #faf8f2;
+  --panel: #ffffff;
+  --ink: #1b2923;
+  --secondary: #364941;
+  --heading: #4d2865;
+  --link: #00565a;
+  --line: #65786d;
+  --note: #fff3d6;
+  --note-ink: #664000;
+  --focus: #74228a;
+  --font: Atkinson, Arial, sans-serif;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #14211b;
+  --panel: #1d3026;
+  --ink: #f2f7f3;
+  --secondary: #d0e0d5;
+  --heading: #e4c1f0;
+  --link: #a0e4e2;
+  --line: #a1b6aa;
+  --note: #342a13;
+  --note-ink: #ffe5ab;
+  --focus: #f4c3ff;
+}
+:root[data-font="system"] {
+  --font: system-ui, Arial, sans-serif;
+}
+:root[data-size="larger"] {
+  font-size: 125%;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-padding-top: 1rem;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+a {
+  color: var(--link);
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+input,
+select,
+.button {
+  border: 2px solid var(--line);
+  border-radius: 0.25rem;
+  padding: 0.65em 0.85em;
+  color: var(--ink);
+  background: var(--panel);
+  min-height: 2.75rem;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  border-color: var(--link);
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+}
+p {
+  margin: 0 0 1.15em;
+}
+h1,
+h2,
+h3 {
+  color: var(--heading);
+  line-height: 1.25;
+  margin: 0 0 0.7em;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  max-width: 24ch;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+.prototype-notice {
+  padding: 0.65rem 1.5rem;
+  background: var(--note);
+  color: var(--note-ink);
+  font-size: 1rem;
+}
+.site-header,
+main,
+footer {
+  max-width: 74rem;
+  margin: auto;
+  padding: 1.5rem 2rem;
+}
+.site-header {
+  display: flex;
+  gap: 1.5rem;
+  align-items: start;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+  color: var(--heading);
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  flex: 1;
+  padding-top: 0.3rem;
+}
+nav a {
+  font-weight: 600;
+}
+.reading-options {
+  font-size: 1rem;
+  max-width: 100%;
+}
+summary {
+  cursor: pointer;
+  color: var(--link);
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+.reading-options > div {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+.reading-options label {
+  display: grid;
+  gap: 0.25rem;
+}
+select {
+  max-width: 100%;
+}
+main > section {
+  padding-block: 2.5rem;
+  border-bottom: 1px solid var(--line);
+}
+main > section > p,
+.intro > p,
+.author-space > p,
+.methods p {
+  max-width: 66ch;
+}
+.lead {
+  font-size: 1.35rem;
+}
+.eyebrow,
+.scope,
+.byline {
+  color: var(--secondary);
+  font-size: 1rem;
+}
+.eyebrow {
+  margin-bottom: 1rem;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin-block: 1.5rem;
+}
+.button {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+}
+.primary {
+  background: var(--link);
+  color: var(--paper);
+  border-color: var(--link);
+}
+.author-space {
+  border-left: 5px solid var(--line);
+  padding: 1.4rem;
+  margin-top: 2rem;
+  background: var(--panel);
+}
+.writing-note {
+  background: var(--note);
+  color: var(--note-ink);
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+}
+.writing-note summary {
+  color: var(--note-ink);
+}
+.writing-note a {
+  color: var(--note-ink);
+}
+.context {
+  max-width: 66ch;
+}
+.question-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+.question-list button {
+  text-align: left;
+  display: block;
+  padding: 1rem;
+}
+.question-list strong {
+  display: block;
+  color: var(--heading);
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+.question-list span {
+  display: block;
+  color: var(--secondary);
+}
+.question-list button[aria-pressed="true"] {
+  outline: 3px solid var(--link);
+  outline-offset: 3px;
+}
+.sample-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+  flex-wrap: wrap;
+}
+.sample-controls label {
+  display: grid;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: min(100%, 18rem);
+}
+input {
+  width: 100%;
+}
+#results-status {
+  margin-top: 1rem;
+  color: var(--secondary);
+}
+.post {
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--line);
+  max-width: 70ch;
+}
+.post h3 {
+  margin-bottom: 0.5rem;
+}
+.post .connection {
+  font-weight: 600;
+}
+.post blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid var(--line);
+}
+.post details {
+  margin-block: 0.75rem;
+}
+.post .credits {
+  color: var(--secondary);
+  font-size: 1rem;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.methods {
+  margin-block: 1.5rem;
+}
+.methods dl > div {
+  margin-block: 1rem;
+}
+.methods dt {
+  font-weight: 700;
+}
+.methods dd {
+  margin-left: 0;
+  max-width: 64ch;
+}
+footer {
+  font-size: 1rem;
+  color: var(--secondary);
+}
+.skip {
+  position: absolute;
+  top: -6rem;
+  background: var(--paper);
+  padding: 1rem;
+  z-index: 2;
+}
+.skip:focus {
+  top: 0;
+}
+:root[data-spacing="roomy"] body {
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+  word-spacing: 0.08em;
+}
+:root[data-spacing="roomy"] p {
+  margin-bottom: 1.6em;
+}
+@media (max-width: 50rem) {
+  .question-list,
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+  .site-header,
+  main,
+  footer {
+    padding: 1.2rem;
+  }
+  .site-header {
+    gap: 1rem;
+  }
+  nav {
+    flex-basis: 100%;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+  .author-space {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (forced-colors: active) {
+  .primary {
+    background: ButtonFace;
+    color: ButtonText;
+    border-color: ButtonText;
+  }
+  .question-list button[aria-pressed="true"] {
+    outline-color: Highlight;
+  }
+  .author-space {
+    border-color: CanvasText;
+  }
+}

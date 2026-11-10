@@ -18,6 +18,8 @@ The project source and research work history are maintained separately in the pr
 
 ## Inclusive-design guidance
 
+[Open the accessibility redesign prototype](reviews/accessibility_redesign_2026-11-10/prototype/index.html).
+
 The repository includes 39 unique, pinned project-local skills from Owl-Listener/inclusive-design-skills. See the [application guide and limitations](accessibility/README.md), [source manifest](accessibility/skills_manifest.json) and [upstream MIT notice](accessibility/INCLUSIVE_DESIGN_LICENSE.txt). Installation does not establish website accessibility or human participant validation.
 
 ## AI-use disclosure
@@ -37,6 +39,8 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-10 — Sophie Bala supplied design feedback, Ian G. Williams requested the credit, and Codex updated the prototype and attribution records.
+- 2026-11-10 — Lisa Marie Rhody supplied accessibility feedback, Ian G. Williams directed a narrative-led redesign, and Codex drafted its plan and isolated prototype.
 - 2026-11-10 — Promote the annual small-multiple comparison to the public website.
 - 2026-11-10 — Continue sunburst improvements with optional annual small multiples and perimeter label connectors.
 - 2026-11-10 — Release the current reviewed interface revision to the source and public website repositories.
