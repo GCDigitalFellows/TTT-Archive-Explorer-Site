@@ -8,7 +8,7 @@ All modes use the same **301 saved analyzed post IDs**, out of the 423 published
 
 The 137,807 saved cleaned tokens contain 10,988 forms. The [NLP guide](../nlp/README.md) and [annotated pipeline](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/nlp_pipeline.py) explain inherited boilerplate/credit-line removal, alphabetic tokenization, lowercase and possessive normalization, part-of-speech-aware WordNet lemmatization, [English](../nlp/stopwords_english.txt) and [custom](../nlp/stopwords_custom.txt) stopword removal, and the short-form rule (three characters except `ai` and `r`). These English-language guesses can misread names, code or multilingual writing; stopword removal can erase negation. The saved readable text retains more context.
 
-Counts are taken before MALLET’s additional document-frequency vocabulary pruning. Join files to **current post metadata by ID**, not old manifest byline strings. Academic years use saved August–July assignments. The November 9, 2026 (composite snapshot) export provides only a partial **2026–2027**, with three modeled posts. The controls do not apply author/evidence filters from other displays.
+Counts are taken before MALLET’s additional document-frequency vocabulary pruning. Join files to **current post metadata by ID**, not old manifest byline strings. Academic years use saved August–July assignments. The November 9, 2026 (composite snapshot) export provides only a partial **2026–2027**, with five modeled posts. The controls do not apply author/evidence filters from other displays.
 
 Python creates these versioned descriptive aggregates at build time. The browser selects them; it does not run NLTK, infer new topics or refit MALLET. Phrase extraction and distinctive-word scoring are new calculations on preserved inputs. The underlying NLTK corpus, five MALLET fits and saved weights remain unchanged.
 
@@ -127,3 +127,56 @@ The word cloud and sunburst each offer a PNG download at twice the rendered dime
 The cloud starts with 20 words and can show 40 or 60. **Common** sizes words by occurrences or by the number of posts containing them. **Distinctive** compares the share of posts containing the word in one selected year with the share in all other years combined. It ranks positive percentage-point gaps and requires at least two matching posts in the selected year. The minimum-post control can raise that threshold. This is a descriptive post-share comparison. The sunburst uses the separate smoothed token-rate score described above.
 
 The live page includes unordered counts from the saved 301-post analysis corpus. Hiding terms, changing the minimum, or choosing a different word limit re-ranks the complete vocabulary. Alphabetical order rearranges the current set. The timeline uses the full analyzed denominator in each year, independent of display filters. Context shows up to five short sentences from different saved reading copies, with exact written-form matching, case ignored. Random related posts use the cleaned word counts and can include normalized variants. The filters, excerpts, and chart use saved evidence without new NLTK cleaning or a MALLET fit. The cloud PNG exports the displayed words.
+
+## Sunburst clarity and evidence revision · November 10, 2026
+
+Ian approved the prior options review's sunburst recommendations. The active
+renderer remains custom SVG, using unchanged saved hierarchies and model values.
+`analysis_core.js:sunburstFocus` keeps the complete parent denominator separate
+from the displayed top-five sum; distinctiveness never receives a corpus-coverage
+percentage. The year/topic palette uses stable identities instead of visible row
+positions. Topic colors remain the same after changing hierarchy order.
+
+`word_ui.js` now renders a persistent measurement/scope legend, a rescaling badge,
+per-parent top-five coverage and richer full-name keys. Key branch lists are native
+disclosures (expanded for a single parent). The label floor is 0.875rem at rendered
+scale, typically 14px; fitting/abbreviation and collision checks remain in force.
+Every year/topic selector and the existing heatmap/table remain available.
+Hover/focus previews are separate from the pinned selection. Selecting a branch
+updates both the key and SVG selection state, source-post list and up to three
+credited opening paragraphs. These are literal source examples, not generated
+summaries or necessarily occurrences of the cleaned form. Opening the original post
+remains the route to full context. Rescaling refreshes a pinned measurement.
+
+A separate ranked comparison uses the existing common-word matrix for two explicitly
+chosen years. It displays full-denominator normalized values and exact source-post
+controls, not rescaled arc shares. It starts with the two latest complete years;
+partial 2026–2027 remains selectable and labeled. Distinctiveness opens this
+companion when first chosen, with no significance/precision claim. Null values
+remain unavailable/ineligible, not zero. Year-exclusive forms retain their separate
+companion; they are not made children of topic weights or word-token counts.
+
+PNG export now includes wrapped explanatory captions, units, scope/sample counts,
+snapshot, rescaling/partial-year status and a full-name/count legend. It paints the
+same rendered chart; the legend makes abbreviated SVG labels readable in the
+standalone artifact. The companion UTF-8 CSV contains every scoped saved branch,
+including Other even when omitted from the plot, both denominators, shown/not-shown
+flag, source-post IDs and snapshot. The exports do not fit or rerun NLP models.
+Edit presentation in `styles.css`; the current view's DOM is in `views/analysis.html`.
+Run analysis JS tests, modular Python tests and public-release checks after editing.
+
+## Full sunburst labels · November 10, 2026
+
+Edit `word_ui.js` for label placement and `styles.css` for presentation. Single-year, year-first views use wrapped, selectable outside labels and leader lines when the chart container is at least 680 CSS pixels wide. At narrower widths, the expanded HTML key preserves full names without shrinking text to fit a slice. Every year's key opens by default, including the all-years view. Hover/focus synchronizes branch highlighting; selection pins the same evidence as the slice. This is presentation of saved values, not a new model or change to the corpus. The 680-pixel threshold is a layout choice, not an accessibility standard. Exceptionally long unsplit forms remain available in the wrapping HTML key.
+
+Rebuild with `python3 analysis/reviews/mockups/welcoming-pathways/build_prototype.py`. Check a phrase lens and the eight-topic lens, all-years keys, keyboard activation, responsive widths and PNG output. These checks do not substitute for participant or screen-reader evaluation.
+
+## All-years exploration experiment · November 10, 2026
+
+The all-years, year-first sunburst now separates selection from filtering: selecting an inner year sector or directory button highlights that year and fills a full-name panel; only Expand changes the year filter. Show all academic years returns to the overview and retains the last overview selection. Hover/focus on an inner sector also previews its year panel. Other years remain in the population and are visually dimmed, not removed. Compact inner labels retain full years in controls. Topic-first nesting keeps its existing topic behavior. Source branch selection remains separate from year selection and pins its own evidence.
+
+`renderOverviewDirectory` and `showOverviewYear` in `word_ui.js` control this experiment; `views/analysis.html` provides the panel, and the final rules in `styles.css` control directory wrapping, highlighting and forced-colour treatment. On narrow screens the existing layout stacks the panel below the chart. PNG copying preserves branch opacity. Small multiples remain a possible separate experiment, not implemented here. No saved corpus values, model fits, denominators or year-sizing rules change.
+
+### No truncated word labels
+
+Word, phrase and topic labels no longer use ellipsis variants inside slices. A complete label must pass the existing geometric and collision checks or it is omitted from the ring. The selected-year panel and expanded key retain the complete name; hover/focus exposes full measurements. Compact academic-year dates remain permitted. This deliberately trades some in-ring labels for full readable evidence rather than presenting clipped fragments.

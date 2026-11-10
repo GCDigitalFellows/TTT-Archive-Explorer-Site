@@ -29,7 +29,100 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
   };
   const number = (n) => (Number.isInteger(n) ? n.toLocaleString() : n.toFixed(3));
   const view = () => data.hierarchies.modes[lens];
+  const focus = (group) => PathwaysAnalysis.sunburstFocus(group, lens, leading);
+  const percent = (n) => (100 * n).toFixed(2) + "%";
+  let pinned = null,
+    pinnedRecord = null,
+    lastComparisonLens = null,
+    overviewYear = null;
+  const branchControls = [];
+  const branchId = (group, row) => JSON.stringify([group.label, row.key ?? row.word]);
+  function measurement(group, row) {
+    const scope = focus(group);
+    const parentShare = scope.denominator ? row.count / scope.denominator : null;
+    return (
+      `${group.label} · ${row.word}: ${number(row.count)} ${view().unit}; ${row.ids.length} of ${group.posts} contributing posts. Parent denominator: ${number(scope.denominator)} ${view().unit}. ` +
+      (lens === "distinct"
+        ? "This is a positive score, not writing prevalence or statistical significance."
+        : `Full-parent share: ${parentShare === null ? "unavailable" : percent(parentShare)}.`) +
+      (scope.focused && scope.shown
+        ? scope.rows.some((item) => item.key === row.key)
+          ? ` Share among the five displayed branches: ${percent(row.count / scope.shown)}; the five cover ${percent(scope.coverage)} of the full parent count.`
+          : " This branch is outside the displayed top five; no rescaled share is assigned to it."
+        : "")
+    );
+  }
+  function bindBranch(control, group, row) {
+    const id = branchId(group, row);
+    control.setAttribute("aria-pressed", String(id === pinned));
+    control.setAttribute(
+      "aria-label",
+      measurement(group, row) + " Select to pin source evidence.",
+    );
+    branchControls.push({ control, id });
+    const preview = () => {
+      for (const entry of branchControls)
+        entry.control.classList.toggle("sunburst-highlight", entry.id === id);
+      get("wp-sun-preview").textContent =
+        "Preview · " +
+        measurement(group, row) +
+        " Select to pin evidence; previews do not replace a pinned selection.";
+    };
+    control.addEventListener("pointerenter", preview);
+    control.addEventListener("focus", preview);
+    const clearPreview = () => {
+      for (const entry of branchControls)
+        entry.control.classList.remove("sunburst-highlight");
+    };
+    control.addEventListener("pointerleave", clearPreview);
+    control.addEventListener("blur", clearPreview);
+  }
+  function pinEvidence(group, row) {
+    pinned = branchId(group, row);
+    pinnedRecord = { group, row };
+    for (const entry of branchControls)
+      entry.control.setAttribute("aria-pressed", String(entry.id === pinned));
+    const panel = get("wp-sun-pinned");
+    panel.replaceChildren(
+      make("h4", "Pinned branch"),
+      make("p", measurement(group, row)),
+    );
+    // Literal saved paragraphs, with title/credit context. They illustrate the
+    // selected branch; they are not generated summaries or new model judgments.
+    for (const id of row.ids.slice(0, 3)) {
+      const post = data.posts.find((item) => item.id === id);
+      if (!post) continue;
+      const paragraph = (post.fullParagraphs || post.paragraphs || []).find((text) =>
+        text.trim(),
+      );
+      const detail = make("details");
+      detail.append(
+        make(
+          "summary",
+          post.title +
+            " · " +
+            post.authors.join("; ") +
+            " · " +
+            post.year +
+            " · " +
+            PathwaysCore.creditLabel(post.tier),
+        ),
+      );
+      detail.append(
+        make(
+          "p",
+          "Opening paragraph from a contributing post; it may not contain the displayed cleaned form. Expand the original post for full context.",
+        ),
+      );
+      if (paragraph) detail.append(make("blockquote", paragraph));
+      const original = make("a", "Read original post ↗");
+      original.href = post.url;
+      detail.append(original);
+      panel.append(detail);
+    }
+  }
   function inspect(group, row) {
+    if (mode === "sun") pinEvidence(group, row);
     const unit = view().unit;
     const label = `${group.label} · ${row.word} · ${number(row.count)} ${unit} · ${row.ids.length} containing/contributing posts`;
     get("wp-word-detail").textContent = label + ". Source posts appear below.";
@@ -49,6 +142,11 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     return b;
   }
   function resetDetail() {
+    pinned = null;
+    pinnedRecord = null;
+    get("wp-sun-pinned").replaceChildren();
+    get("wp-sun-preview").textContent =
+      "Focus or hover over a branch for its full measurement. Select it to pin source evidence.";
     clearDetails();
     get("wp-word-detail").textContent =
       "Select a branch or table value to inspect source posts.";
@@ -83,6 +181,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
           label: topic.label,
           topicIndex: index,
           mass,
+          denominator: mass,
           posts: new Set(rows.flatMap((r) => r.ids)).size,
           rows: rows.map((r) => ({ ...r, value: mass ? r.count / mass : 0 })),
         };
@@ -156,7 +255,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     layer.replaceChildren();
     const scale = width / 760;
     const minimum =
-      0.75 * Number.parseFloat(getComputedStyle(document.documentElement).fontSize);
+      0.875 * Number.parseFloat(getComputedStyle(document.documentElement).fontSize);
     const fontSize = Math.max(15, minimum / scale);
     const occupied = [];
     let omitted = 0;
@@ -189,7 +288,9 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
       });
       text.style.fontSize = fontSize + "px";
       layer.append(text);
-      // Try the full year first. Compact charts can use its starting year.
+      // Only academic years may use a compact date. Never truncate a word,
+      // phrase or topic: if its complete text cannot fit, the full-label
+      // panel/key and hover/focus evidence carry it instead.
       const shortYear = /^20(\d{2})–20(\d{2})$/.exec(candidate.label);
       const variants = shortYear
         ? [
@@ -198,12 +299,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
             "20" + shortYear[1],
             "’" + shortYear[1],
           ]
-        : [
-            candidate.label,
-            ...[18, 13, 9, 6]
-              .filter((length) => candidate.label.length > length)
-              .map((length) => candidate.label.slice(0, length - 1).trimEnd() + "…"),
-          ];
+        : [candidate.label];
       const placed = variants.some((label) => {
         text.textContent = label;
         if (!fitsSector(text, candidate)) return false;
@@ -229,7 +325,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     }
     get("wp-sunburst-label-note").textContent =
       omitted || abbreviated
-        ? "Some slices use compact labels. The chart key lists every branch by its full name."
+        ? "Some labels do not fit inside their slices and are omitted there. Complete names remain in the selected-year panel and chart key; words are never abbreviated."
         : "Select a slice or a name in the chart key to inspect its sources.";
   }
 
@@ -261,6 +357,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     key.replaceChildren();
     fitCurrentSunburst = () => {};
     get("wp-sunburst-label-note").textContent = "";
+    branchControls.length = 0;
     const groups = chartGroups().filter((g) => g.mass > 0),
       total = groups.reduce((n, g) => n + g.mass, 0);
     if (!total) {
@@ -283,17 +380,22 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
         " Exact values follow in the table.",
     });
     const groupLabels = [],
-      leafLabels = [];
+      leafLabels = [],
+      outsideBranches = [];
     key.append(make("h4", "Sunburst chart key"));
     const keyRows = make("div");
     keyRows.className = "sunburst-key-rows";
     key.append(keyRows);
-    const colors = ["#88a9ca", "#d4b380", "#b5a0cc", "#91b8ac", "#d9a4ae"];
+
     let start = -Math.PI / 2;
     groups.forEach((g, index) => {
       const end = start + (2 * Math.PI * g.mass) / total,
         mid = (start + end) / 2;
       const selectGroup = () => {
+        if (year === "all" && !(lens === "topics" && order === "topics")) {
+          showOverviewYear(g);
+          return;
+        }
         if (lens === "topics" && order === "topics") {
           topicFocus = String(g.topicIndex);
           get("wp-topic-focus").value = topicFocus;
@@ -319,31 +421,55 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
           " analyzed posts; " +
           (lens === "topics" && order === "topics"
             ? "show topic sources"
-            : "expand year"),
+            : year === "all"
+              ? "select year in the overview"
+              : "expand year"),
         svgTag("path", {
           d: sector(start, end, rings.center, rings.group),
-          fill: colors[index % colors.length],
+          fill: PathwaysAnalysis.sunburstColor(
+            lens === "topics" && order === "topics" ? "topic" : "year",
+            g.topicIndex ?? g.label,
+          ),
         }),
         selectGroup,
       );
+      groupAction.dataset.sunYear = g.label;
+      if (year === "all" && !(lens === "topics" && order === "topics")) {
+        groupAction.addEventListener("pointerenter", () => showOverviewYear(g));
+        groupAction.addEventListener("focus", () => showOverviewYear(g));
+      }
       const keyGroup = make("section");
       const heading = make("h5");
-      heading.append(keyButton(g.label, groupAction, selectGroup));
+      const scope = focus(g);
+      const coverage =
+        scope.coverage === null
+          ? "positive score total; not corpus coverage"
+          : `${percent(scope.coverage)} of full parent count displayed`;
+      heading.append(
+        keyButton(
+          `${g.label} · n=${g.posts} · ${number(scope.denominator)} ${view().unit} · ${coverage}`,
+          groupAction,
+          selectGroup,
+        ),
+      );
       const terms = make("ul");
-      keyGroup.append(heading, terms);
+      const branchList = make("details");
+      branchList.open = true;
+      branchList.append(make("summary", "Full branch names and counts"), terms);
+      keyGroup.append(heading, branchList);
       keyRows.append(keyGroup);
       groupLabels.push({
-        label: g.label,
+        label:
+          year === "all" && /^(\d{4})–(\d{4})$/.test(g.label)
+            ? g.label.slice(0, 5) + g.label.slice(-2)
+            : g.label,
         angle: mid,
         span: end - start,
         inner: rings.center,
         outer: rings.group,
       });
       let next = start;
-      const rows =
-        leading && ["shared", "raw", "phrases"].includes(lens)
-          ? g.rows.filter((r) => r.key !== "__other__")
-          : g.rows;
+      const rows = scope.rows;
       const shown = rows.reduce((n, r) => n + r.value, 0);
       for (const row of rows) {
         const stop = next + ((end - start) * row.value) / shown;
@@ -354,13 +480,37 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
           `${g.label}, ${row.word}: ${number(row.count)} ${view().unit}; inspect sources`,
           svgTag("path", {
             d: sector(next, stop, rings.leafStart, rings.leafEnd),
-            fill: row.key === "__other__" ? "#d1d4d5" : colors[index % colors.length],
+            fill:
+              row.key === "__other__"
+                ? "#d1d4d5"
+                : PathwaysAnalysis.sunburstColor(
+                    lens === "topics" ? "topic" : "year",
+                    lens === "topics"
+                      ? order === "topics"
+                        ? g.topicIndex
+                        : row.key
+                      : g.label,
+                  ),
           }),
           selectLeaf,
         );
+        leafAction.dataset.sunYear = g.label;
         const item = make("li");
-        item.append(keyButton(row.word, leafAction, selectLeaf));
+        const keyControl = keyButton(
+          `${row.word} · ${number(row.count)} ${view().unit} · ${row.ids.length} posts`,
+          leafAction,
+          selectLeaf,
+        );
+        bindBranch(keyControl, g, row);
+        bindBranch(leafAction, g, row);
+        item.append(keyControl);
         terms.append(item);
+        outsideBranches.push({
+          group: g,
+          row,
+          angle: (next + stop) / 2,
+          action: leafAction,
+        });
         leafLabels.push({
           label: row.word,
           angle: (next + stop) / 2,
@@ -377,9 +527,279 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     target.append(svg);
     const unit = lens === "topics" && order === "topics" ? "topic" : "year";
     const center = groups.length + " " + unit + (groups.length === 1 ? "" : "s");
-    fitCurrentSunburst = () =>
-      fitSunburstLabels(svg, labelLayer, [...groupLabels, ...leafLabels], center);
+    // A focused year has few enough branches for full outside labels. At narrow
+    // widths the unabridged HTML key takes over, rather than shrinking phrases.
+    const outsideLayer = svgTag("g", { class: "sunburst-outside" });
+    svg.append(outsideLayer);
+    fitCurrentSunburst = () => {
+      const wide = year !== "all" && order === "years" && target.clientWidth >= 680;
+      svg.classList.toggle("sunburst-has-outside", wide);
+      svg.setAttribute("viewBox", wide ? "-220 0 1200 760" : "0 0 760 760");
+      for (let i = branchControls.length - 1; i >= 0; i--) {
+        if (outsideLayer.contains(branchControls[i].control))
+          branchControls.splice(i, 1);
+      }
+      outsideLayer.replaceChildren();
+      fitSunburstLabels(
+        svg,
+        labelLayer,
+        wide ? groupLabels : [...groupLabels, ...leafLabels],
+        center,
+      );
+      if (wide) drawOutsideLabels(outsideLayer, outsideBranches, target.clientWidth);
+      get("wp-sunburst-label-note").textContent = wide
+        ? "Complete branch labels appear outside the circle with connecting lines. The full-label list below is also selectable."
+        : "Full words and phrases appear in the expanded list below. Hover or focus a slice or list entry to highlight its matching branch; select it to pin evidence. Select a year for a larger chart.";
+    };
     fitCurrentSunburst();
+    renderOverviewDirectory(groups);
+    renderSunburstExplanation();
+    renderComparison();
+    if (pinnedRecord) pinEvidence(pinnedRecord.group, pinnedRecord.row);
+  }
+  // Sort each side vertically before assigning label rows. Leader lines attach
+  // to the actual slice midpoint; no label is shortened to fit its sector.
+  function drawOutsideLabels(layer, branches, width) {
+    const fontSize = Math.max(18, (16 * 1200) / width);
+    for (const side of [-1, 1]) {
+      const rows = branches
+        .filter((b) => (Math.cos(b.angle) < 0 ? -1 : 1) === side)
+        .sort((a, b) => Math.sin(a.angle) - Math.sin(b.angle));
+      rows.forEach((branch, index) => {
+        const y = 70 + ((index + 0.5) * 620) / rows.length;
+        const x = side < 0 ? -210 : 770;
+        const line = svgTag("path", {
+          d: `M${380 + 350 * Math.cos(branch.angle)},${380 + 350 * Math.sin(branch.angle)} L${side < 0 ? 15 : 745},${y} L${side < 0 ? -10 : 765},${y}`,
+          fill: "none",
+          stroke: "currentColor",
+          "stroke-width": 1.5,
+          "pointer-events": "none",
+        });
+        layer.append(line);
+        const control = svgTag("a", { href: "#wp-word-detail", role: "button" });
+        const text = svgTag("text", {
+          x,
+          y,
+          fill: "currentColor",
+          "font-size": fontSize,
+        });
+        text.style.fontSize = fontSize + "px";
+        text.style.fontFamily = "system-ui, sans-serif";
+        control.append(text);
+        layer.append(control);
+        // Measure actual glyphs and wrap at spaces; the full HTML key also
+        // retains every word, including unusually long unsplit forms.
+        let span = svgTag("tspan", { x, dy: 0 });
+        text.append(span);
+        for (const word of branch.row.word.split(/\s+/)) {
+          const previous = span.textContent;
+          span.textContent = previous ? previous + " " + word : word;
+          if (span.getComputedTextLength() > 200 && previous) {
+            span.textContent = previous;
+            span = svgTag("tspan", { x, dy: fontSize * 1.2 });
+            text.append(span);
+            span.textContent = word;
+          }
+        }
+        const box = text.getBBox();
+        text.setAttribute(
+          "transform",
+          `translate(0,${-box.height / 2 + fontSize / 2})`,
+        );
+        bindBranch(control, branch.group, branch.row);
+        control.addEventListener("click", (event) => {
+          event.preventDefault();
+          inspect(branch.group, branch.row);
+        });
+        control.addEventListener("keydown", (event) => {
+          if (event.key === " ") {
+            event.preventDefault();
+            inspect(branch.group, branch.row);
+          }
+        });
+      });
+    }
+  }
+  // The overview selects a year without changing the chart population. Only
+  // the explicit Expand button changes the year filter; Show all years returns.
+  function renderOverviewDirectory(groups) {
+    const overview = get("wp-sun-overview");
+    overview.hidden = year !== "all" || (lens === "topics" && order === "topics");
+    if (overview.hidden) return;
+    const directory = get("wp-sun-year-directory");
+    directory.replaceChildren();
+    for (const group of groups) {
+      const button = make(
+        "button",
+        group.label + (group.label === "2026–2027" ? " · partial" : ""),
+      );
+      button.type = "button";
+      button.dataset.overviewYear = group.label;
+      button.addEventListener("click", () => showOverviewYear(group));
+      directory.append(button);
+    }
+    showOverviewYear(groups.find((group) => group.label === overviewYear) || groups[0]);
+  }
+  function showOverviewYear(group) {
+    if (!group) return;
+    overviewYear = group.label;
+    for (const branch of sunTarget.querySelectorAll(".sunburst-highlight"))
+      branch.classList.remove("sunburst-highlight");
+    get("wp-sun-preview").textContent =
+      "Selected year · " +
+      group.label +
+      ". Complete branch names and counts appear in Explore a year; select a branch to pin its sources.";
+    get("wp-sunburst-label-note").textContent =
+      "Overview · " +
+      group.label +
+      " highlighted. Only complete word labels are drawn; labels that do not fit are omitted from slices. Read every full name in Explore a year below/beside the chart, or use Expand. Other years remain in the chart.";
+    for (const button of get("wp-sun-year-directory").querySelectorAll("button"))
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.overviewYear === group.label),
+      );
+    for (const branch of sunTarget.querySelectorAll("a[data-sun-year]")) {
+      const selected = branch.dataset.sunYear === group.label;
+      branch.classList.toggle("sun-year-muted", !selected);
+      branch.classList.toggle("sun-year-active", selected);
+    }
+    const panel = get("wp-sun-year-panel");
+    for (let i = branchControls.length - 1; i >= 0; i--)
+      if (panel.contains(branchControls[i].control)) branchControls.splice(i, 1);
+    panel.replaceChildren(
+      make("h4", group.label + (group.label === "2026–2027" ? " · partial year" : "")),
+    );
+    const scope = focus(group);
+    panel.append(
+      make(
+        "p",
+        `${group.posts} analyzed posts · ${number(scope.denominator)} ${view().unit}. ` +
+          (scope.coverage === null
+            ? "Scores are not writing prevalence."
+            : `${percent(scope.coverage)} of full parent count displayed.`),
+      ),
+    );
+    const expand = make("button", "Expand " + group.label + " →");
+    expand.type = "button";
+    expand.addEventListener("click", () => chooseYear(group.label));
+    panel.append(expand);
+    const list = make("ul");
+    for (const row of scope.rows) {
+      const item = make("li"),
+        button = sourceButton(group, row);
+      button.textContent = `${row.word} · ${number(row.count)} ${view().unit}`;
+      bindBranch(button, group, row);
+      item.append(button);
+      list.append(item);
+    }
+    panel.append(list);
+  }
+  function renderSunburstExplanation() {
+    const scope =
+      year === "all"
+        ? evidence.all
+        : evidence.years.find((group) => group.label === year);
+    const published = data.posts.filter(
+      (post) => year === "all" || post.year === year,
+    ).length;
+    const rings =
+      lens === "topics" && order === "topics"
+        ? "Inner ring: saved topics. Outer ring: academic years."
+        : `Inner ring: academic years. Outer ring: ${lens === "topics" ? "saved topics" : "words or phrases"}.`;
+    get("wp-sun-measure").textContent =
+      `${year === "all" ? "Overview: select a year without filtering; use Expand for a larger chart. " : ""}${rings} ${view().explanation} Scope: ${scope.posts} analyzed posts out of ${published} published records; ${scope.tokens.toLocaleString()} retained tokens. 2026–2027 is partial. Snapshot: ${data.snapshot}. ` +
+      (lens === "topics"
+        ? "Topic colors remain fixed across filters and hierarchy order. Weights are not confidence or verified subject assignments."
+        : "Year colors remain fixed across filters; colors repeat, so year labels identify the groups.");
+    const focused = leading && ["shared", "raw", "phrases"].includes(lens);
+    const selected =
+      year === "all" ? null : view().groups.find((group) => group.label === year);
+    get("wp-sun-focus-status").textContent =
+      lens === "distinct"
+        ? "Research score view · five positive scores partition each year; these are not percentages of writing. Use ranked bars for a direct score comparison."
+        : focused
+          ? "TOP-FIVE FOCUS · RESCALED. Other is omitted from the chart, retained in the evidence table/CSV. " +
+            (selected
+              ? `The five cover ${percent(focus(selected).coverage)} of this year’s full count.`
+              : "Each year’s full-count coverage is shown in its key heading.")
+          : "COMPLETE DISTRIBUTION · all saved branches, including Other where applicable. Parent and child units agree.";
+  }
+  function renderComparison() {
+    if (lens === "distinct" && lastComparisonLens !== lens)
+      get("wp-sun-compare").open = true;
+    lastComparisonLens = lens;
+    const first = get("wp-sun-compare-a").value,
+      second = get("wp-sun-compare-b").value;
+    get("wp-sun-compare-unit").textContent =
+      view().heatUnit +
+      ". Values use the complete saved yearly denominator, not the rescaled top-five areas. " +
+      (lens === "distinct"
+        ? "Scores have no significance test; unavailable means the eligibility rules were not met."
+        : "Repetition/length and sample coverage differ by lens; inspect the source posts.");
+    const groups = view().groups.filter((group) =>
+      [first, second].includes(group.label),
+    );
+    const keys = new Set(
+      groups.flatMap((group) =>
+        group.rows.filter((row) => row.key !== "__other__").map((row) => row.key),
+      ),
+    );
+    let rows = view().matrix.filter((row) => keys.has(row.key));
+    if (lens === "topics" && topicFocus !== "all")
+      rows = rows.filter((row) => row.key === topicFocus);
+    const cells = (row) =>
+      [first, second].map((value) => row.cells.find((cell) => cell.year === value));
+    rows = rows.sort(
+      (a, b) =>
+        Math.max(...cells(b).map((cell) => cell.value ?? -Infinity)) -
+          Math.max(...cells(a).map((cell) => cell.value ?? -Infinity)) ||
+        a.label.localeCompare(b.label),
+    );
+    const max = Math.max(
+      1e-12,
+      ...rows.flatMap((row) => cells(row).map((cell) => cell.value ?? 0)),
+    );
+    const { table, body } = makeTable(
+      [
+        "Word, phrase or topic",
+        ...[first, second].map(
+          (value) =>
+            `${value}${value === "2026–2027" ? " · partial" : ""} · n=${view().groups.find((group) => group.label === value).posts}`,
+        ),
+      ],
+      view().label + " · ranked comparison using " + view().heatUnit,
+    );
+    for (const row of rows) {
+      const tr = make("tr"),
+        th = make("th", row.label);
+      th.scope = "row";
+      tr.append(th);
+      for (const cell of cells(row)) {
+        const td = make("td");
+        if (cell.value === null) td.textContent = "— · unavailable / ineligible";
+        else {
+          const group = view().groups.find((item) => item.label === cell.year);
+          const control = make("button", number(cell.value) + " · inspect posts");
+          control.type = "button";
+          control.addEventListener("click", () =>
+            inspect(group, {
+              key: row.key,
+              word: row.label,
+              count: cell.count,
+              ids: cell.ids,
+            }),
+          );
+          const bar = make("span");
+          bar.className = "sun-comparison-bar";
+          bar.style.width = (100 * cell.value) / max + "%";
+          bar.setAttribute("aria-hidden", "true");
+          td.append(control, bar);
+        }
+        tr.append(td);
+      }
+      body.append(tr);
+    }
+    get("wp-sun-compare-bars").replaceChildren(table);
   }
   function makeTable(headers, caption) {
     const table = make("table");
@@ -540,6 +960,12 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     copy.setAttribute("width", bounds.width);
     copy.setAttribute("height", bounds.height);
     // The copied SVG has no page stylesheet. Preserve computed presentation.
+    // Selection dims whole branch links, so copy their opacity as well as
+    // individual glyph/path styles into the standalone PNG snapshot.
+    const links = [...chart.querySelectorAll("a")];
+    copy.querySelectorAll("a").forEach((link, index) => {
+      link.style.opacity = getComputedStyle(links[index]).opacity;
+    });
     const rendered = [...chart.querySelectorAll("path, text")];
     copy.querySelectorAll("path, text").forEach((element, index) => {
       const style = getComputedStyle(rendered[index]);
@@ -570,11 +996,99 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     }
   }
 
+  // PNGs carry the chart's interpretive context and full names, not just the
+  // SVG. Canvas text wraps before allocation so long labels are never clipped.
+  // CSV separately retains complete values, including Other in focused mode.
+  function captionedSunburst(base, bounds) {
+    const width = Math.max(680, bounds.width),
+      padding = 24,
+      lineHeight = 21;
+    const scratch = document.createElement("canvas").getContext("2d");
+    scratch.font = "14px system-ui";
+    function wrap(text, maxWidth) {
+      const lines = [];
+      let line = "";
+      for (const word of text.split(/\s+/)) {
+        const next = line ? line + " " + word : word;
+        if (line && scratch.measureText(next).width > maxWidth) {
+          lines.push(line);
+          line = word;
+        } else line = next;
+      }
+      if (line) lines.push(line);
+      return lines;
+    }
+    const scope =
+      year === "all"
+        ? evidence.all
+        : evidence.years.find((group) => group.label === year);
+    const heading = [
+      "Tagging The Tower · " + view().label,
+      `Scope: ${year === "all" ? "all academic years" : year} · ${scope.posts} analyzed posts · ${scope.tokens} retained tokens`,
+      "Measure: " + view().unit + ". " + view().explanation,
+      get("wp-sun-focus-status").textContent,
+      "Snapshot: " + data.snapshot + ". 2026–2027 is partial.",
+    ];
+    const headerLines = heading.flatMap((text) => wrap(text, width - 2 * padding));
+    const headerHeight = padding * 2 + headerLines.length * lineHeight;
+    const chartHeight = (bounds.height * width) / bounds.width;
+    const columnWidth = (width - 3 * padding) / 2,
+      columnY = [
+        headerHeight + chartHeight + padding,
+        headerHeight + chartHeight + padding,
+      ];
+    const blocks = [];
+    chartGroups()
+      .filter((group) => group.mass > 0)
+      .forEach((group, index) => {
+        const summary = focus(group),
+          column = index % 2;
+        const lines = [
+          group.label +
+            ` · n=${group.posts} · parent=${number(summary.denominator)} ${view().unit}`,
+          summary.coverage === null
+            ? "Score shares, not writing prevalence"
+            : percent(summary.coverage) + " of parent count displayed",
+          ...summary.rows.map(
+            (row) =>
+              row.word + " — " + number(row.count) + "; " + row.ids.length + " posts",
+          ),
+        ].flatMap((text) => wrap(text, columnWidth));
+        blocks.push({
+          x: padding + column * (columnWidth + padding),
+          y: columnY[column],
+          lines,
+        });
+        columnY[column] += (lines.length + 1) * lineHeight;
+      });
+    const canvas = document.createElement("canvas");
+    const height = Math.ceil(Math.max(...columnY) + padding);
+    canvas.width = Math.ceil(width * 2);
+    canvas.height = height * 2;
+    const context = canvas.getContext("2d");
+    context.scale(2, 2);
+    context.fillStyle = getComputedStyle(root).backgroundColor;
+    context.fillRect(0, 0, width, height);
+    context.fillStyle = getComputedStyle(root).color;
+    context.font = "14px system-ui";
+    context.textBaseline = "top";
+    headerLines.forEach((line, index) =>
+      context.fillText(line, padding, padding + index * lineHeight),
+    );
+    context.drawImage(base, 0, headerHeight, width, chartHeight);
+    for (const block of blocks)
+      block.lines.forEach((line, index) =>
+        context.fillText(line, block.x, block.y + index * lineHeight),
+      );
+    return canvas;
+  }
+
   let exporting = false;
   function updateDownloadButtons() {
     get("wp-word-downloads").hidden = mode === "heat";
     get("wp-word-cloud-png").hidden = mode !== "cloud";
     get("wp-word-sun-png").hidden = mode !== "sun";
+    get("wp-word-sun-csv").hidden = mode !== "sun";
     get("wp-word-cloud-png").disabled =
       exporting || !cloudChart.querySelector("button");
     get("wp-word-sun-png").disabled =
@@ -603,9 +1117,13 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     updateDownloadButtons();
     status.textContent = "Preparing PNG…";
     try {
-      const { canvas, context, bounds } = chartCanvas(chart);
-      if (cloud) paintCloud(chart, context, bounds);
-      else await paintSunburst(chart, context, bounds);
+      const base = chartCanvas(chart);
+      let canvas = base.canvas;
+      if (cloud) paintCloud(chart, base.context, base.bounds);
+      else {
+        await paintSunburst(chart, base.context, base.bounds);
+        canvas = captionedSunburst(base.canvas, base.bounds);
+      }
       const png = await new Promise((resolve, reject) => {
         canvas.toBlob(
           (blob) => (blob ? resolve(blob) : reject(new Error("PNG encoding failed"))),
@@ -669,6 +1187,9 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     const group =
         year === "all" ? evidence.all : evidence.years.find((g) => g.label === year),
       cloud = mode === "cloud";
+    get("wp-sun-measure-panel").hidden = mode !== "sun";
+    get("wp-sun-compare").hidden = mode !== "sun";
+    get("wp-sun-pinned").hidden = mode !== "sun";
     get("wp-sunburst-label-note").hidden = mode !== "sun";
     get("wp-sunburst-key").hidden = mode !== "sun";
     cloudRoot.hidden = !cloud;
@@ -729,6 +1250,70 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     if (!cloud) countTable();
     exclusiveView.render(year, mode === "sun");
   }
+  const completeYears = evidence.years.filter((group) => group.label !== "2026–2027");
+  for (const [id, offset] of [
+    ["wp-sun-compare-a", 2],
+    ["wp-sun-compare-b", 1],
+  ]) {
+    const control = get(id);
+    for (const group of evidence.years) {
+      const option = make(
+        "option",
+        group.label + (group.label === "2026–2027" ? " · partial" : ""),
+      );
+      option.value = group.label;
+      control.append(option);
+    }
+    control.value = completeYears[Math.max(0, completeYears.length - offset)].label;
+    control.addEventListener("change", renderComparison);
+  }
+  get("wp-word-sun-csv").addEventListener("click", () => {
+    const rows = [
+      [
+        "lens",
+        "parent",
+        "branch",
+        "count",
+        "unit",
+        "full_parent_denominator",
+        "displayed_branch_denominator",
+        "shown_in_chart",
+        "contributing_posts",
+        "post_ids",
+        "snapshot",
+      ],
+    ];
+    for (const group of chartGroups()) {
+      const scope = focus(group);
+      for (const row of group.rows)
+        rows.push([
+          lens,
+          group.label,
+          row.word,
+          row.count,
+          view().unit,
+          scope.denominator,
+          scope.shown,
+          scope.rows.includes(row),
+          row.ids.length,
+          row.ids.join(";"),
+          data.snapshot,
+        ]);
+    }
+    const csv = rows
+      .map((row) =>
+        row.map((value) => '"' + String(value).replaceAll('"', '""') + '"').join(","),
+      )
+      .join("\r\n");
+    const url = URL.createObjectURL(
+      new Blob([csv], { type: "text/csv;charset=utf-8" }),
+    );
+    const link = make("a");
+    link.href = url;
+    link.download = `sunburst-${lens}-${year}-evidence.csv`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1500);
+  });
   const select = get("wp-word-year");
   for (const [value, label] of [
     ["all", "Entire analyzed corpus · all years"],

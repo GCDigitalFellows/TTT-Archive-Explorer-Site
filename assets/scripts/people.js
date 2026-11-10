@@ -7,6 +7,16 @@
 function createPathwaysPeople({ root, data, openPost, announce }) {
   const get = (n) => root.querySelector("#" + n),
     saved = data.peopleHistory;
+  const fellowFamilies = new Set([
+    "digital",
+    "social-media",
+    "manifold",
+    "advising",
+    "scholarship-center",
+    "videography",
+  ]);
+  const includeStaff = () => get("wp-cohort-staff").checked;
+  const reportView = () => get("wp-cohort-source").value === "reports";
   const byName = new Map([...saved.roster, ...saved.people].map((p) => [p.name, p]));
   const byPost = new Map(data.posts.map((p) => [p.id, p]));
   let scope = "local",
@@ -15,9 +25,10 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
     role = get("wp-cohort-role").value,
     dimension = get("wp-cohort-dimension").value;
   const current = () => saved.scopes[scope + "-" + tier];
-  const make = (tag, text) => {
+  const make = (tag, text, className) => {
     const n = document.createElement(tag);
     if (text !== undefined) n.textContent = text;
+    if (className) n.className = className;
     return n;
   };
   const button = (text, fn) => {
@@ -183,6 +194,7 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
     const names = new Set(current().people);
     return saved.annual.filter(
       (a) =>
+        (includeStaff() || fellowFamilies.has(a.role_family)) &&
         (role === "all" || a.role_family === role) &&
         (population === "all" || names.has(a.name)),
     );
@@ -225,12 +237,225 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
           row.role_family === family),
     );
   }
+  // Report names remain verbatim. The confirmed current snapshot is a separate
+  // source kind, never an invented annual report or a historical backfill.
+  function staffingGroup(year) {
+    const report = saved.staffingReports.find((group) => group.year === year);
+    if (report) return report;
+    const cells = saved.annual.filter(
+      (cell) =>
+        cell.academic_year === year && cell.basis === "human-confirmed annual roster",
+    );
+    if (!cells.length) return null;
+    return {
+      period: year,
+      year,
+      kind: "confirmed-snapshot",
+      sourceUrl: saved.sourceUrl,
+      rows: cells.map((cell) => ({
+        name: cell.name,
+        role: saved.roles[cell.role_family],
+        fellow: fellowFamilies.has(cell.role_family),
+        digital: cell.role_family === "digital",
+        page: "",
+        evidence: cell.evidence,
+      })),
+    };
+  }
+  function staffingCounts(rows) {
+    const names = new Set(rows.map((row) => row.name));
+    const digital = new Set(rows.filter((row) => row.digital).map((row) => row.name));
+    return {
+      total: names.size,
+      digital: digital.size,
+      other: names.size - digital.size,
+    };
+  }
+  function reportRows(group, staff = includeStaff()) {
+    return group.rows.filter((row) => staff || row.fellow);
+  }
+  function reportPageLink(group, row) {
+    if (!group.sourceUrl)
+      return "https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/annual_reports/staffing.csv";
+    const firstPage = row.page.match(/\d+/)?.[0];
+    return group.sourceUrl + (firstPage ? "#page=" + firstPage : "");
+  }
+  function inspectReport(group, rows, origin) {
+    const target = get("wp-people-detail");
+    target.replaceChildren(make("h4", group.period + " · " + group.kind));
+    target.append(
+      make(
+        "p",
+        "Names and roles as transcribed in this source; no new identity matches or appointment dates are inferred. " +
+          staffingCounts(rows).total +
+          " distinct listed names under the selected inclusion rule.",
+      ),
+    );
+    if (group.kind === "pooled")
+      target.append(
+        make(
+          "p",
+          "One roster covering 2012–2014; these names cannot be allocated to separate years from this evidence.",
+        ),
+      );
+    if (group.kind === "snapshot")
+      target.append(
+        make(
+          "p",
+          "The 2015 snapshot lists Digital Fellows, not a complete all-program staffing census.",
+        ),
+      );
+    target.append(
+      table(
+        ["Recorded name", "Recorded role", "Source"],
+        "Roster evidence · report page numbers count from the PDF cover",
+        rows.map((row) => [
+          row.name,
+          row.role,
+          source(
+            row.page
+              ? (group.sourceUrl ? "PDF p. " : "Roster transcription · report p. ") +
+                  row.page
+              : group.kind === "confirmed-snapshot"
+                ? "Confirmed directory snapshot"
+                : "Saved transcription / source register",
+            reportPageLink(group, row),
+          ),
+        ]),
+      ),
+    );
+    if (group.kind === "confirmed-snapshot")
+      target.append(
+        make(
+          "p",
+          "The saved November 2026 snapshot was assigned to 2026–2027 by Ian G. Williams. This is not an annual report.",
+        ),
+      );
+    focusEvidence(
+      "Roster evidence · " + group.period,
+      "wp-cohort-evidence-slot",
+      origin,
+    );
+  }
+  function renderReportCohorts() {
+    get("wp-cohort-source-note").textContent =
+      "Annual-report rosters are shown without directory backfill. A missing annual roster stays unknown. Fellowship titles are a proxy for student fellowship roles, not verified enrollment, funded lines or full-time equivalents. The confirmed 2026–2027 current roster uses its own source label.";
+    get("wp-cohort-summary").textContent = includeStaff()
+      ? "Report-listed people, including staff and postdoctoral roles. Each recorded name counts once within a roster."
+      : "Report-listed fellowship-role holders; staff-only and explicitly postdoctoral titles excluded. Explicit Fellow-and-Coordinator titles remain included.";
+    const rows = saved.years.map((year) => {
+      const group = staffingGroup(year);
+      const cells = group ? reportRows(group) : [];
+      return { year, group, cells, counts: staffingCounts(cells) };
+    });
+    const max = Math.max(1, ...rows.map((row) => row.counts.total));
+    get("wp-cohort-bars").replaceChildren();
+    for (const row of rows) {
+      const label = row.group
+        ? `${row.counts.total} total · ${row.counts.digital} Digital Fellows · ${row.counts.other} other listed people${row.group.kind === "confirmed-snapshot" ? " · confirmed current roster" : ""}`
+        : "No annual roster available";
+      const bar = button("", (event) =>
+        inspectReport(row.group, row.cells, event.currentTarget),
+      );
+      bar.className = "annual-row";
+      bar.disabled = !row.group;
+      const track = make("span", undefined, "annual-track");
+      track.setAttribute("aria-hidden", "true");
+      if (row.group)
+        for (const kind of ["digital", "other"]) {
+          const segment = make("span", undefined, "annual-fill annual-" + kind);
+          segment.style.width = (100 * row.counts[kind]) / max + "%";
+          track.append(segment);
+        }
+      bar.append(make("span", row.year), track, make("span", label, "annual-counts"));
+      bar.setAttribute(
+        "aria-label",
+        row.year +
+          ": " +
+          label +
+          (row.group ? "; inspect named roster and sources" : ""),
+      );
+      get("wp-cohort-bars").append(bar);
+    }
+    const nonannual = get("wp-nonannual-rosters");
+    nonannual.replaceChildren(
+      make("h3", "Pooled and snapshot rosters"),
+      make(
+        "p",
+        "These sources are not assigned to separate annual bars. The 2012–2014 roster covers two years; the 2015 Digital Fellows snapshot is not a complete GCDI census.",
+        "small",
+      ),
+    );
+    for (const group of saved.staffingReports.filter((group) => !group.year)) {
+      const cells = reportRows(group);
+      nonannual.append(
+        button(
+          group.period +
+            ": " +
+            staffingCounts(cells).total +
+            " listed people · inspect roster",
+          (event) => inspectReport(group, cells, event.currentTarget),
+        ),
+      );
+    }
+  }
+  function renderStaffingComparison() {
+    const rows = saved.years.map((year) => {
+      const group = staffingGroup(year);
+      const reportCells = group ? reportRows(group, false) : [];
+      const counts = staffingCounts(reportCells);
+      const directoryCells = saved.annual.filter(
+        (cell) => cell.academic_year === year && fellowFamilies.has(cell.role_family),
+      );
+      const directory = PathwaysAnalysis.cohortComposition(
+        directoryCells,
+        saved.annual,
+        year,
+      );
+      const reportCell = group
+        ? button(
+            `${counts.total} (${counts.digital} Digital Fellows)${group.kind === "confirmed-snapshot" ? " · confirmed snapshot" : ""}`,
+            (event) => inspectReport(group, reportCells, event.currentTarget),
+          )
+        : "No separate annual roster";
+      const directoryCell = button(
+        `${directory.total} (${directory.digital} Digital Fellows)`,
+        (event) =>
+          inspectCells(
+            directoryCells,
+            "Directory evidence · " + year,
+            event.currentTarget,
+          ),
+      );
+      return [year, reportCell, directoryCell];
+    });
+    get("wp-staffing-comparison").replaceChildren(
+      table(
+        [
+          "Academic year",
+          "Annual report / confirmed current roster",
+          "Directory-derived fellowship roles",
+        ],
+        "Source comparison · unfiltered fellowship-role headcounts, staff excluded",
+        rows,
+      ),
+    );
+  }
   function renderCohorts() {
+    renderStaffingComparison();
+    get("wp-directory-controls").hidden = reportView();
+    get("wp-nonannual-rosters").hidden = !reportView();
+    if (reportView()) {
+      renderReportCohorts();
+      return;
+    }
+    get("wp-cohort-source-note").textContent =
+      "Directory-derived affiliations, not annual-report staffing totals. Alumni date ranges do not establish exact appointment dates or simultaneous service. The confirmed 2026–2027 roster is marked separately.";
     const annual = selectedAnnual(),
       names = new Set(annual.map((a) => a.name)),
       years = saved.years;
     get("wp-cohort-summary").textContent =
-      `${names.size} distinct people in this recorded annual team view · ${population === "all" ? "all documented team members" : "selected credited writers"} · ${role === "all" ? "GCDI roles kept separate" : saved.roles[role]}. Source snapshot: ${saved.sourceDate}. The 2026–2027 roster uses the role assignments from the November 2026 snapshot and the academic year confirmed by Ian G. Williams.`;
+      `${names.size} distinct ${includeStaff() ? "people including staff" : "fellowship-role holders"} in this directory-derived view · ${population === "all" ? "all eligible directory names" : "selected credited writers"} · ${role === "all" ? "GCDI roles kept separate" : saved.roles[role]}. Source snapshot: ${saved.sourceDate}. The 2026–2027 roster uses the role assignments from the November 2026 snapshot and the academic year confirmed by Ian G. Williams.`;
     const rows = years.map((year) => ({
       year,
       cells: annual.filter((a) => a.academic_year === year),
@@ -242,7 +467,12 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
     );
     get("wp-cohort-bars").replaceChildren();
     for (const r of rows) {
-      const n = new Set(r.cells.map((a) => a.name)).size;
+      const composition = PathwaysAnalysis.cohortComposition(
+        r.cells,
+        saved.annual,
+        r.year,
+      );
+      const n = composition.total;
       const b = button("", (event) =>
         inspectCells(r.cells, "Recorded team · " + r.year, event.currentTarget),
       );
@@ -251,21 +481,28 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
       const track = make("span");
       track.className = "annual-track";
       track.setAttribute("aria-hidden", "true");
-      const fill = make("span");
-      fill.className = "annual-fill";
-      fill.style.width = (100 * n) / max + "%";
-      track.append(fill);
+      for (const [kind, count] of [
+        ["digital", composition.digital],
+        ["other", composition.other],
+      ]) {
+        const fill = make("span");
+        fill.className = "annual-fill annual-" + kind;
+        fill.style.width = (100 * count) / max + "%";
+        track.append(fill);
+      }
+      const breakdown = `${n} total · ${composition.digital} Digital Fellows · ${composition.other} other recorded members`;
+      b.title = r.available ? breakdown : "No annual roster evidence";
       b.append(
         make("span", r.year),
         track,
-        make("span", r.available ? n + " people" : "— · no dated data"),
+        make("span", r.available ? breakdown : "— · no dated data", "annual-counts"),
       );
       b.setAttribute(
         "aria-label",
         r.year +
           ": " +
           (r.available
-            ? n + " recorded people; inspect evidence"
+            ? breakdown + "; inspect evidence"
             : "no annual roster evidence"),
       );
       get("wp-cohort-bars").append(b);
@@ -380,13 +617,15 @@ function createPathwaysPeople({ root, data, openPost, announce }) {
     ["wp-cohort-population", "population"],
     ["wp-cohort-role", "role"],
     ["wp-cohort-dimension", "dimension"],
+    ["wp-cohort-source", "source"],
+    ["wp-cohort-staff", "staff"],
   ])
     get(id).addEventListener("change", (e) => {
       if (key === "scope") scope = e.target.value;
       else if (key === "tier") tier = e.target.value;
       else if (key === "population") population = e.target.value;
       else if (key === "role") role = e.target.value;
-      else dimension = e.target.value;
+      else if (key === "dimension") dimension = e.target.value;
       evidencePanel.hidden = true;
       evidenceOrigin = undefined;
       render();

@@ -1092,6 +1092,209 @@
   margin: 0;
 }
 
+/* Disjoint yearly person counts; preserve meaning without color via labels,
+ * fixed segment order and the striped complement. Empty track is unused scale. */
+#welcoming-prototype .annual-row {
+  grid-template-columns: 7rem minmax(0, 1fr);
+}
+#welcoming-prototype .annual-track {
+  display: flex;
+}
+#welcoming-prototype .annual-fill {
+  flex: 0 0 auto;
+}
+#welcoming-prototype .annual-digital {
+  background: #88a9ca;
+}
+#welcoming-prototype .annual-other {
+  background: repeating-linear-gradient(135deg, #d4b380 0 5px, #1b2420 5px 6px);
+}
+#welcoming-prototype .annual-counts {
+  grid-column: 2;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+@media (max-width: 650px) {
+  #welcoming-prototype .annual-row {
+    grid-template-columns: 6rem minmax(0, 1fr);
+  }
+}
+@media (forced-colors: active) {
+  #welcoming-prototype .annual-digital {
+    background: Highlight;
+    forced-color-adjust: none;
+  }
+  #welcoming-prototype .annual-other {
+    background: Canvas;
+    border: 1px dashed CanvasText;
+  }
+}
+
+/* Checkbox and label stay together; the generic full-width input rules are
+ * for text/search fields, not this optional staffing inclusion control. */
+#welcoming-prototype .analysis-controls .staff-toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+#welcoming-prototype #wp-cohort-staff {
+  width: auto;
+  min-height: auto;
+  flex: 0 0 auto;
+}
+
+/* Sunburst readings keep the measurement and rescaling visible independently
+ * of labels inside narrow sectors. Full names remain in native disclosures. */
+#welcoming-prototype .sun-measure-panel {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--wash);
+}
+#welcoming-prototype .sun-focus-status {
+  border-left: 4px solid var(--action);
+  padding-left: 0.75rem;
+  font-weight: 600;
+}
+#welcoming-prototype .sunburst-key-rows h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#welcoming-prototype .sunburst-key-rows button {
+  text-align: left;
+  white-space: normal;
+}
+#welcoming-prototype .sunburst-key-rows button[aria-pressed="true"] {
+  outline: 3px solid var(--action);
+  outline-offset: 2px;
+}
+#welcoming-prototype .word-sunburst a[aria-pressed="true"] path {
+  stroke: #1b2420;
+  stroke-width: 5;
+}
+#welcoming-prototype #wp-sun-pinned blockquote {
+  margin: 0.75rem 0;
+  font: inherit;
+}
+#welcoming-prototype #wp-sun-pinned details {
+  padding-block: 0.5rem;
+}
+#welcoming-prototype #wp-sun-compare-bars {
+  overflow-x: auto;
+}
+#welcoming-prototype #wp-sun-compare-bars table {
+  min-width: 34rem;
+}
+#welcoming-prototype .sun-comparison-bar {
+  display: block;
+  min-height: 0.5rem;
+  background: var(--action);
+  margin-block: 0.4rem;
+}
+@media (forced-colors: active) {
+  #welcoming-prototype .word-sunburst a[aria-pressed="true"] path {
+    stroke: Highlight;
+  }
+  #welcoming-prototype .sun-comparison-bar {
+    border: 2px solid CanvasText;
+  }
+}
+
+/* Full-label key is an evidence route, not a compact decorative legend. */
+#welcoming-prototype .sunburst-key-rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 1rem;
+}
+#welcoming-prototype .sunburst-key-rows section {
+  min-width: 0;
+}
+#welcoming-prototype .sunburst-key-rows button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+#welcoming-prototype .word-sunburst .sunburst-outside text {
+  fill: var(--ink);
+  stroke: none;
+}
+#welcoming-prototype .word-sunburst .sunburst-outside a:hover text,
+#welcoming-prototype .word-sunburst .sunburst-outside a:focus text {
+  text-decoration: underline;
+}
+#welcoming-prototype .word-sunburst .sunburst-highlight path {
+  stroke: var(--ink);
+  stroke-width: 4;
+}
+#welcoming-prototype .sunburst-key-rows .sunburst-highlight {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+#welcoming-prototype .word-sunburst.sunburst-has-outside {
+  max-width: none;
+}
+#welcoming-prototype .word-sunburst .sunburst-outside > path {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+@media (forced-colors: active) {
+  #welcoming-prototype .word-sunburst .sunburst-outside > path {
+    stroke: CanvasText;
+  }
+  #welcoming-prototype .word-sunburst .sunburst-outside text {
+    fill: CanvasText;
+  }
+}
+
+/* Overview experiment: selection does not filter saved evidence. Text and
+   pressed states identify the chosen year independently of repeating colors. */
+#welcoming-prototype .sun-year-directory {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+#welcoming-prototype .sun-year-directory button {
+  font-size: 0.875rem;
+  padding: 0.4rem;
+}
+#welcoming-prototype .sun-year-directory button[aria-pressed="true"] {
+  outline: 2px solid currentColor;
+  font-weight: bold;
+}
+#welcoming-prototype #wp-sun-year-panel {
+  border-block: 1px solid var(--line);
+  margin-block: 1rem;
+  padding-block: 0.75rem;
+}
+#welcoming-prototype #wp-sun-year-panel button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+#welcoming-prototype #wp-sun-year-panel li {
+  margin-block: 0.5rem;
+}
+#welcoming-prototype .word-sunburst a.sun-year-muted {
+  opacity: 0.35;
+}
+#welcoming-prototype .word-sunburst a.sun-year-active path {
+  stroke: var(--ink);
+  stroke-width: 2.5;
+}
+#welcoming-prototype .word-sunburst a.sun-year-muted:focus {
+  opacity: 1;
+}
+@media (forced-colors: active) {
+  #welcoming-prototype .word-sunburst a.sun-year-muted {
+    opacity: 1;
+  }
+  #welcoming-prototype .word-sunburst a.sun-year-active path {
+    stroke-width: 5;
+  }
+}
+
 /* Default flyer typography, approved by Ian on November 9, 2026.
  * Edit families, sizes and accents here. This sheet is assembled last so card
  * font shorthands cannot replace the pairing. Other design years retain their

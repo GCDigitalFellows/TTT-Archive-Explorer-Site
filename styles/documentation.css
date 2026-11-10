@@ -1,0 +1,92 @@
+/* Shared support-page presentation. Edit here, then rebuild the relevant
+ * Python page builder. Scope modifiers preserve the distinct coverage table
+ * and public guide layouts without changing the explorer stylesheet. */
+body.research-document {
+  max-width: 950px;
+  margin: auto;
+  padding: 28px;
+  font: 17px/1.6 system-ui;
+  color: #253d35;
+  background: #faf9f6;
+}
+.research-document h1,
+.research-document h2 {
+  line-height: 1.2;
+}
+.research-document a {
+  color: #176575;
+}
+.research-document table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.research-document td,
+.research-document th {
+  padding: 10px;
+  border: 1px solid #a4b2aa;
+  text-align: left;
+  vertical-align: top;
+}
+.research-document article,
+.research-document section {
+  padding-block: 14px;
+}
+.research-document pre {
+  white-space: pre-wrap;
+}
+.research-document summary {
+  cursor: pointer;
+}
+.research-document blockquote {
+  border-left: 3px solid #526f61;
+  padding-left: 18px;
+}
+@media print {
+  body.research-document {
+    font-size: 11pt;
+    padding: 0;
+  }
+  .research-document button,
+  .research-document .no-print {
+    display: none;
+  }
+  .research-document a {
+    color: inherit;
+  }
+}
+body.coverage-document {
+  margin: 30px auto;
+  padding: 0 20px;
+  max-width: 1150px;
+  font: 17px/1.6 system-ui;
+  color: #253d35;
+  background: #faf9f6;
+}
+.coverage-document a {
+  color: #176575;
+}
+.coverage-document table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+.coverage-document td,
+.coverage-document th {
+  border: 1px solid #bdc9c1;
+  padding: 9px;
+  text-align: left;
+}
+.coverage-document .table {
+  overflow: auto;
+}
+.coverage-document .note {
+  border-left: 4px solid #176575;
+  padding: 16px;
+  background: #edf2ed;
+}
+.public-guide main {
+  max-width: 75ch;
+  margin: 2rem auto;
+  padding: 1rem;
+  font: 18px/1.6 system-ui;
+}

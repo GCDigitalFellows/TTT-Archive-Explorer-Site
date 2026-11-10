@@ -139,7 +139,58 @@ const PathwaysAnalysis = (() => {
         a.second.localeCompare(b.second),
     );
   }
+  // Count each selected person once. A person with multiple roles belongs to
+  // the Digital Fellow segment if that year's unfiltered saved roster records it.
+  // The complement means no recorded DF role, not proven nonmembership.
+  function cohortComposition(cells, roster, year) {
+    const names = new Set(cells.map((cell) => cell.name));
+    const digitalNames = new Set(
+      roster
+        .filter((cell) => cell.academic_year === year && cell.role_family === "digital")
+        .map((cell) => cell.name),
+    );
+    const digital = [...names].filter((name) => digitalNames.has(name)).length;
+    return { total: names.size, digital, other: names.size - digital };
+  }
+  // Slice geometry may rescale a leading-five selection. Always keep its
+  // displayed denominator separate from the complete saved parent measurement.
+  // Distinctiveness is a score partition, never corpus coverage.
+  function sunburstFocus(group, lens, leading) {
+    const focused = leading && ["shared", "raw", "phrases"].includes(lens);
+    const rows = focused
+      ? group.rows.filter((row) => row.key !== "__other__")
+      : group.rows;
+    const shown = rows.reduce((sum, row) => sum + row.count, 0);
+    const denominator = group.denominator ?? group.mass;
+    return {
+      rows,
+      shown,
+      denominator,
+      focused,
+      coverage: lens === "distinct" || !denominator ? null : shown / denominator,
+    };
+  }
+  function sunburstColor(kind, key) {
+    const colors = [
+      "#88a9ca",
+      "#d4b380",
+      "#b5a0cc",
+      "#91b8ac",
+      "#d9a4ae",
+      "#c67de0",
+      "#7edaf2",
+      "#9ca1c6",
+    ];
+    const index =
+      kind === "topic" ? Number(key) : Number(String(key).slice(0, 4)) - 2012;
+    return colors[
+      ((index % (kind === "topic" ? 8 : 5)) + 8 * 5) % (kind === "topic" ? 8 : 5)
+    ];
+  }
   return {
+    sunburstFocus,
+    sunburstColor,
+    cohortComposition,
     population,
     topicYears,
     coverageYears,

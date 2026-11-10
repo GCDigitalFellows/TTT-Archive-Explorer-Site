@@ -1,0 +1,1349 @@
+{
+  "staffingReports": [
+    {
+      "period": "2012-2014",
+      "year": null,
+      "kind": "pooled",
+      "reportId": "2012-2014",
+      "sourceUrl": "",
+      "rows": [
+        {
+          "name": "Erin Glass",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Laura Kane",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Micki Kaufman",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Andrew G. McKinney",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Alice Lynn McMichael",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Hillary Miller",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Keith Miyake",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Matthew Slaats",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        }
+      ]
+    },
+    {
+      "period": "2015 report snapshot",
+      "year": null,
+      "kind": "snapshot",
+      "reportId": "2015",
+      "sourceUrl": "",
+      "rows": [
+        {
+          "name": "Kenneth U. Ezirim",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Erin Glass",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Michelle Johnson",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Laura Wildemann Kane",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Micki Kaufman",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Andrew G. McKinney",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Alice Lynn McMichael",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Evan Misshula",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Keith Miyake",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Patrick Smyth",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "2"
+        },
+        {
+          "name": "Matthew Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "2"
+        }
+      ]
+    },
+    {
+      "period": "2015-2016",
+      "year": "2015–2016",
+      "kind": "annual-report",
+      "reportId": "2015-2017",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2018/01/GDCI-Annual-Report-2015-17.pdf",
+      "rows": [
+        {
+          "name": "Hannah Aizenman",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Jeffrey Binder",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Erin Glass",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Michelle Johnson-McSweeney",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Mary Catherine Kinniburgh",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Jeremy March",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Keith Miyake",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Ian Phillips",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Patrick Smyth",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Patrick Sweeney",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Jennifer Tang",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Naomi Barrettara",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Courtney Drayer",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Paul Hebert",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Marilynn Johnson",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Jennifer Prince",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Jennifer Stoops",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Mark Webb",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Chris Caruso",
+          "role": "Social Media Fellowship Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Meng (Zoe) Jiang",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "Diego Medina",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "Stephen Ogumah",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "David Viola",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "Chris Caruso",
+          "role": "Videography Fellowship Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "19"
+        }
+      ]
+    },
+    {
+      "period": "2016-2017",
+      "year": "2016–2017",
+      "kind": "annual-report",
+      "reportId": "2015-2017",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2018/01/GDCI-Annual-Report-2015-17.pdf",
+      "rows": [
+        {
+          "name": "Hannah Aizenman",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Tahir Butt",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Mary Catherine Kinniburgh",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Kelsey Chatlosh",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Jojo Karlin",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Jeremy March",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Javier Otero Peña",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Ian Phillips",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Rachel Rakov",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Patrick Smyth",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Patrick Sweeney",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "17"
+        },
+        {
+          "name": "Naomi Barrettara",
+          "role": "Social Media Fellow and Coordinator",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Courtney Drayer",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Paul Hebert",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Marilynn Johnson",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Jennifer Prince",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Jennifer Stoops",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Mark Webb",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "18"
+        },
+        {
+          "name": "Diego Medina",
+          "role": "Videography Fellow and Coordinator",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "Stephen Ogumah",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        },
+        {
+          "name": "David Viola",
+          "role": "Videography Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "19"
+        }
+      ]
+    },
+    {
+      "period": "2020-2021",
+      "year": "2020–2021",
+      "kind": "annual-report",
+      "reportId": "2020-2021",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2026/02/2020-2021-GCDI-Annual-Report.pdf",
+      "rows": [
+        {
+          "name": "Param Ajmera",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Di Yoong",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Olivia Ildefonso",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Connor French",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Yuxiao Luo",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Rafael Davis Portela",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Stefano Morello",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Filipa Calado",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Matthew K. Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Lisa Marie Rhody",
+          "role": "Deputy Director",
+          "fellow": false,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Jessie McCormack",
+          "role": "Program Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Robin Miller",
+          "role": "Instructional Technology Specialist",
+          "fellow": false,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Wendy Barrales",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Beth Fera",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Maya Rose",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Parisa Setayesh",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "B. Stone",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        },
+        {
+          "name": "Sejung Sage Yim",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "6"
+        }
+      ]
+    },
+    {
+      "period": "2021-2022",
+      "year": "2021–2022",
+      "kind": "annual-report",
+      "reportId": "2021-2022",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2026/02/2021-2022-Annual-Report-1.pdf",
+      "rows": [
+        {
+          "name": "Param Ajmera",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Leanne Fan",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Rebecca Krisel",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Chelsea Lane",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Zach Lloyd",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Yuxiao Luo",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Rilquer Mascarenhas",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Di Yoong",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "4–5"
+        },
+        {
+          "name": "Matthew K. Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Lisa Rhody",
+          "role": "Deputy Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Jessie McCormack",
+          "role": "Program Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Robin Miller",
+          "role": "Educational Technologist",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Wendy Barrales",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Miryam Nacimento",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Filipa Calado",
+          "role": "DH Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Rafael Davis Portela",
+          "role": "Data Visualization Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Beth Fera",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Maya Rose",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Be Stone",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Parisa Setayesh",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        }
+      ]
+    },
+    {
+      "period": "2022-2023",
+      "year": "2022–2023",
+      "kind": "annual-report",
+      "reportId": "2022-2023",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2026/02/2022-2023-Annual-Report-3.pdf",
+      "rows": [
+        {
+          "name": "Nicole Cote",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Leanne Fan",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Rebecca Krisel",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Zach Lloyd",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Yuxiao Luo",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Rilquer Mascarenhas",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Sam O'Hana",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Silvia Rivera Alfaro",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "3–5"
+        },
+        {
+          "name": "Matthew K. Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Lisa Rhody",
+          "role": "Deputy Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Robin Miller",
+          "role": "Educational Technologist",
+          "fellow": false,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Chelsea Lane",
+          "role": "GCDI Postdoctoral Fellow",
+          "fellow": false,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Param Ajmera",
+          "role": "Digital Scholarship Center Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Di Yoong",
+          "role": "Digital Scholarship Center Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Wendy Barrales",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Miryam Nacimento",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Filipa Calado",
+          "role": "DH Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Rafael Davis Portela",
+          "role": "Data Visualization Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Ghina Abi-Ghannam",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Patricia Hatcher",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "3"
+        },
+        {
+          "name": "Natasha Ochshorn",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "4"
+        },
+        {
+          "name": "Mark Sheppard",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Ian Williams",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        }
+      ]
+    },
+    {
+      "period": "2023-2024",
+      "year": "2023–2024",
+      "kind": "annual-report",
+      "reportId": "2023-2024",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2026/02/2023-2024-Annual-Report-1.pdf",
+      "rows": [
+        {
+          "name": "Anna Schlenz",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Leanne Fan",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Silvia Rivera Alfaro",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Sam O'Hana",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Tuka Al-Sahlani",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Zach Lloyd",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Matthew K. Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Lisa Rhody",
+          "role": "Deputy Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Robin Miller",
+          "role": "Educational Technologist",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Stefanos Milikidis",
+          "role": "Program Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Nicole Cote",
+          "role": "DH Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Rafael Davis Portela",
+          "role": "Data Visualization Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Maura McCreight",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Ghina Abi-Ghannnam",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Hagay Schurr",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Ian Williams",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Natasha Ochshorn",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Patricia Hatcher",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        }
+      ]
+    },
+    {
+      "period": "2024-2025",
+      "year": "2024–2025",
+      "kind": "annual-report",
+      "reportId": "2024-2025",
+      "sourceUrl": "https://s3.amazonaws.com/files.commons.gc.cuny.edu/wp-content/blogs.dir/885/files/2026/02/2024-2025-Annual-Report.pdf",
+      "rows": [
+        {
+          "name": "Anna Schlenz",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Chen Zhou",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Maggie Schreiner",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Parisa Setayesh",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Peyton Cordero",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Silvia Rivera Alfaro",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Tuka Al-Sahlani",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Zach Lloyd",
+          "role": "GC Digital Fellow",
+          "fellow": true,
+          "digital": true,
+          "page": "6"
+        },
+        {
+          "name": "Matthew K. Gold",
+          "role": "Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Lisa Rhody",
+          "role": "Deputy Director",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Robin Miller",
+          "role": "Educational Technologist",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Stefanos Milikidis",
+          "role": "Program Coordinator",
+          "fellow": false,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Nicole Cote",
+          "role": "DH Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "Sam O’Hana",
+          "role": "Data Visualization Advising Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "5"
+        },
+        {
+          "name": "August Smith",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Herline Honorat",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Courtney Belser",
+          "role": "Manifold Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Ian Williams",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Ilaria Porru",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Natasha Ochshorn",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Patricia Hatcher",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        },
+        {
+          "name": "Shanique Meyler",
+          "role": "Social Media Fellow",
+          "fellow": true,
+          "digital": false,
+          "page": "7"
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "digital": "GC Digital Fellows",
+    "social-media": "Social Media Fellows",
+    "manifold": "Manifold Fellows",
+    "advising": "Advising Fellows",
+    "scholarship-center": "Digital Scholarship Center Fellows",
+    "postdoctoral": "Postdoctoral Fellows",
+    "coordinator": "Coordinators",
+    "videography": "Videography Fellows",
+    "assistant": "Other support roles"
+  },
+  "years": [
+    "2012–2013",
+    "2013–2014",
+    "2014–2015",
+    "2015–2016",
+    "2016–2017",
+    "2017–2018",
+    "2018–2019",
+    "2019–2020",
+    "2020–2021",
+    "2021–2022",
+    "2022–2023",
+    "2023–2024",
+    "2024–2025",
+    "2025–2026",
+    "2026–2027"
+  ],
+  "datedDigitalPeople": [
+    "A. L. McMichael",
+    "Andrew G McKinney",
+    "Anna Corbett",
+    "Chelsea Lane",
+    "Chen Zhou",
+    "Christopher Colon",
+    "Connor M French",
+    "Di Yoong",
+    "Erin Glass",
+    "Eunah Cho",
+    "Evan Misshula",
+    "Filipa Calado",
+    "Gregory Hartmann",
+    "Hannah Aizenman",
+    "Hillary Miller",
+    "Ian Phillips",
+    "Javier Otero Peña",
+    "Jeff Binder",
+    "Jennifer Tang",
+    "Jeremy March",
+    "Jojo Karlin",
+    "Keith Miyake",
+    "Kelsey Chatlosh",
+    "Kenneth U. Ezrim",
+    "Kristen Hackett",
+    "Laura Kane",
+    "Leanne Fan",
+    "Maggie Schreiner",
+    "Mary Catherine Kinniburgh",
+    "Matthew Slaats",
+    "Michelle Johnson-McSweeney",
+    "Micki Kaufman",
+    "Natalie O'Shea",
+    "Nicole Cote",
+    "Olivia Ildefonso",
+    "Pablo Gonzalez",
+    "Param Ajmera",
+    "Parisa Setayesh",
+    "Patrick Smyth, PhD",
+    "Patrick Sweeney",
+    "Peyton Cordero",
+    "Pranav Chinmay",
+    "Rachel Rakov",
+    "Rafael Davis Portela",
+    "Rebecca Krisel",
+    "Rilquer Mascarenhas",
+    "Silvia Rivera Alfaro",
+    "Stefano Morello",
+    "Tahir H. Butt",
+    "Tuka Al-Sahlani",
+    "Yuxiao Luo",
+    "Zachary Lloyd"
+  ],
+  "accountOnlyNames": [
+    "Di Yoong",
+    "Gregory Hartmann",
+    "Hannah Aizenman",
+    "Ian Phillips",
+    "Javier Otero Peña",
+    "Jeremy March",
+    "Natalie O'Shea",
+    "Patrick Smyth, PhD",
+    "Patrick Sweeney",
+    "Rafael Davis Portela",
+    "Rilquer Mascarenhas",
+    "Tahir H. Butt",
+    "Tom Ribitzky"
+  ],
+  "affiliationDisplayMap": {
+    "Earth & Environmental Science": "Earth and Environmental Sciences",
+    "Earth & Environmental Sciences": "Earth and Environmental Sciences",
+    "Earth and Environmental Sciences": "Earth and Environmental Sciences",
+    "Theater": "Theatre and Performance",
+    "Theatre": "Theatre and Performance",
+    "Theatre & Performance": "Theatre and Performance",
+    "Theatre and Performance": "Theatre and Performance",
+    "Criminal Justive": "Criminal Justice",
+    "LAILAC": "Latin American, Iberian, and Latino Cultures"
+  },
+  "limits": "Counts are reviewed name labels, not a complete independently verified census. Source authors are distinct from project contributors. Affiliation labels mix programs, disciplines and joint affiliations; unknowns remain unknown. The confirmed 2026–2027 roster incorporates every role from the saved snapshot. Historical directory cells and post/model membership bases remain separate."
+}

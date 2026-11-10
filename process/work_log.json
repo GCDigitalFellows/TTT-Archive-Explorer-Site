@@ -3009,6 +3009,301 @@
         "reviews/mockups/welcoming-pathways/views/wisdom.html"
       ],
       "limit": "No new model, excerpt selection, authorship decision or corpus change. Hover/focus disclosures use in-flow panels so long quotations do not cover nearby content or require a fixed-height nested reading area. Automated/browser checks do not establish full screen-reader or participant validation."
+    },
+    {
+      "id": "quote-typing-and-maintainer-link",
+      "date": "2026-11-09",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Add a brief typing reveal to Another voice and link Ian’s footer credit to his supplied website.",
+      "human": "Ian G. Williams requested an animated fragment reveal on Another voice and supplied https://iangwilliams.commons.gc.cuny.edu/ for his existing footer credit. No broader animation or publication approval is inferred from this request.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories before editing, added a bounded visual typing reveal only for explicit Another voice clicks, retained immediate complete screen-reader text and source strings, reserved line space, canceled earlier reveals on replacement, provided Show full sentence, honored reduced-motion changes and linked the footer name. Applied motion-sensitivity guidance without treating its uncited heuristics as conformance findings. No initial-load or collection-change animation, blinking cursor or new preference storage was added. Eight quote-selection JavaScript tests, 23 frontend Python tests, eight process tests and four credit tests passed. Browser observed a partial typed sentence plus its hidden remainder, immediate complete accessible text, Show full sentence completion/focus return, and the exact footer URL. Real reduced-motion system changes and screen-reader sessions were not browser-tested; that branch was inspected in source.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/quote_ui.js",
+        "reviews/mockups/welcoming-pathways/views/home.html",
+        "reviews/mockups/welcoming-pathways/template.html"
+      ],
+      "limit": "Presentation and hyperlink changes only; quote selection probabilities, saved excerpts, rights and post-author attributions are unchanged. Complete source text remains available through existing reading controls. No participant or screen-reader evaluation; publication not requested for this change."
+    },
+    {
+      "id": "cohort-digital-fellow-composition",
+      "date": "2026-11-09",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Explain Digital Fellows within GCDI and split annual team bars into Digital Fellows and other recorded people.",
+      "human": "Ian G. Williams supplied the sentence identifying Digital Fellows as one of multiple GCDI doctoral-student fellowship teams and requested a color breakdown showing Digital Fellows within each annual total.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned shared repositories with no incoming commits, added the supplied contextual sentence, calculated a disjoint split of distinct selected person names using same-year Digital Fellow evidence, and added blue/solid versus sand/striped segments, explicit counts, explanatory legend and equivalent button labels. Preserved the existing role/population filters, missing-evidence handling and evidence drilldown. Applied colour-independence guidance; color is supplemented by pattern, order and visible text. Passed 12 analysis JavaScript tests (including new duplicate/multiple-role/same-year/empty-selection cases), 23 frontend Python tests, eight process and four credit tests. Independently counted all 15 annual totals and Digital Fellow complements from saved JSON. Browser verified new contextual copy, stacked/patterned segments and visible labels, including 13=6+7 for 2012–2013 and 20=7+13 for 2026–2027. Selecting Digital Fellows produced matching total/digital and zero complement for every year; reset to all roles. Screenshot retained. No narrow-screen or actual forced-color browser test in this change.",
+      "credit_roles": [
+        "Conceptualization",
+        "Writing – original draft"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/people_ui.js",
+        "reviews/mockups/welcoming-pathways/views/about.html",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/test_analysis.js"
+      ],
+      "limit": "Human original-draft credit applies only to the supplied GCDI sentence. Counts describe saved evidence, not a complete appointment census. Other recorded members means no saved Digital Fellow role for that year; multiple role holders are not counted twice. No authorship/cohort evidence decisions or model fits changed. Not pushed; no participant, screen-reader or color-vision simulation claimed."
+    },
+    {
+      "id": "student-fellow-staffing-evidence-audit",
+      "date": "2026-11-09",
+      "status": "audit completed; chart/data changes proposed only",
+      "task": "Recheck annual student fellowship staffing totals against saved directory evidence, annual reports and confirmed current rosters.",
+      "human": "Ian G. Williams requested a further check of total student fellow staffing levels for every year after reviewing the stacked chart. No new population definition or source-conflict resolution was approved.",
+      "agent": "OpenAI Codex (exact build not recorded) compared all 15 directory-year totals against saved report staffing rows and prior name-level reconciliations, separated fellowship roles from explicit postdoctoral and coordinator/staff-only roles, preserved pooled-year and missing-report evidence, and wrote a reproducible comparison and recommendations. Fresh People-page retrieval returned 403; PDF web fetches failed or exceeded size limits, so saved evidence was used. No roster, identity, model or chart was changed by this audit.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "reviews/staffing_audit_2026-11-09/README.md",
+        "reviews/staffing_audit_2026-11-09/build_audit.py",
+        "reviews/staffing_audit_2026-11-09/comparison.csv",
+        "reviews/staffing_audit_2026-11-09/audit.json",
+        "annual_reports/staffing.csv",
+        "annual_reports/roster_source_comparison.csv",
+        "membership/directory_data.json"
+      ],
+      "limit": "Role-based fellowship headcounts are not independently verified doctoral/student enrollment, simultaneous staffing, FTE or funded positions. No fresh PDF-page verification or participant validation. Annual-report/directory conflicts remain explicit and unapplied. Report coverage incomplete; 2025–2026 extraction pending."
+    },
+    {
+      "id": "separate-report-directory-staffing-views",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Separate report-listed fellowship headcounts from directory-derived affiliations, with a source comparison and explicit evidence gaps.",
+      "human": "Ian G. Williams approved the proposed two-source design, report default, staff separation, explicit missing/pooled-year evidence and linked roster comparison. Approval of this design is not confirmation of every appointment or staffing count.",
+      "agent": "OpenAI Codex (exact build not recorded) added a saved report-roster packager preserving verbatim names, roles, periods and pages; default report view, directory view, staff toggle, fixed-scope comparison, separate pooled/snapshot roster evidence and a distinct 2026–2027 confirmation label. No directory backfill, new identity merges, appointment revisions or model fits. Added one explicit people-data shard to the public allowlist after the builder stopped for review. Used colour-independence and table-accessibility guidance, preserved native controls, source labels and evidence return routes. Added source-preservation and report-inclusion tests. Final checks passed: 24 frontend Python tests, 12 analysis JavaScript tests, seven public-release tests, eight process and four credit tests. Browser verified report default, missing annual labels, separate pooled roster (eight names), public PDF page links for the 2024–2025 18-name roster, transcription fallback for supplied reports lacking public URLs, directory source switch, 19-to-20 current-roster staff toggle and fixed-scope comparison values (2022–2023 report 19/8 Digital Fellows versus directory 14/7). Corrected checkbox alignment and retained final screenshot. No new staffing source records were substituted into the appointment ledger.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/build_staffing.py",
+        "reviews/mockups/welcoming-pathways/build_people.py",
+        "reviews/mockups/welcoming-pathways/people_ui.js",
+        "reviews/mockups/welcoming-pathways/views/about.html",
+        "reviews/mockups/welcoming-pathways/test_people.py",
+        "reviews/mockups/welcoming-pathways/modular_methods.md",
+        "../scripts/public_release_manifest.json"
+      ],
+      "limit": "Source names deduplicated within each roster without cross-source identity inference. Fellowship titles are a proxy, not verified student enrollment, funded positions, FTE or simultaneous staffing. Missing annual reports remain unknown; 2025–2026 extraction still pending. Reports use saved transcriptions, not a fresh PDF audit. Limited human/assistive-technology evaluation remains unperformed. Local implementation only; not pushed."
+    },
+    {
+      "id": "shared-documentation-css-and-remote-formatting",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Consolidate seven maintained support pages into shared external CSS and preserve compatible public readability edits in their source workflow.",
+      "human": "Ian G. Williams observed repeated per-page CSS and requested shared external styling. Public commit f544337e00dee6275143fe79abf4684b4baea4b1 records perlsdiver as author of readability formatting in four support pages; production method and independent human approval are unknown. Metadata is recorded attribution, not proof of manual execution.",
+      "agent": "OpenAI Codex (exact build not recorded) fetched/inspected the public commit, compared meaningful HTML tokens and found formatting-only changes plus explicit guide head/body wrappers, then fast-forwarded the public checkout without rewriting history. Preserved the four original files as private evidence, moved documentation styles into scoped external CSS, added a readable wrapper used by maintained builders, moved the public guide into an editable template, and retained its layout intent. Guide counts now use saved current corpus/quote/interpretation totals; the coverage interpretation count now follows saved source evidence. Original wordings and source data otherwise preserved. Code guidance applies knowledge-base S06/S17 to maintainable sources and bounded checks; no learner-comprehension claim. Browser verified METHODS_AND_DATA uses the shared stylesheet with original 17px body and background, PUBLIC_GUIDE uses that stylesheet with preserved 18px main text and current 423 count, and no embedded style blocks remain in the maintained pages. Seven public-release tests passed, including all seven external stylesheet references and saved-data guide counts. Remaining process/credit tests also passed. Original public commit remains in public history; canonical builders preserve readable formatting and source templates for future rebuilds.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000023",
+        "0000031",
+        "0000030"
+      ],
+      "evidence": [
+        "styles/documentation.css",
+        "document_pages.py",
+        "build_support_pages.py",
+        "build_coverage.py",
+        "reviews/shared_updates_20261110/README.md",
+        "../scripts/templates/public_guide.html",
+        "../scripts/prepare_public_site.py",
+        "../scripts/test_public_release.py",
+        "../docs/CODE_REVIEW.md"
+      ],
+      "limit": "Consolidation covers seven maintained supporting pages. The active explorer already has external CSS; other standalone tools and frozen archives retain separate styles. Scoped styles preserve old presentation; this is not a site-wide accessibility audit. Remote source content was unchanged apart from already-approved corpus count propagation. No new license, visibility or deployment policy. Local integration only; no push."
+    },
+    {
+      "id": "directory-default-staffing-display",
+      "date": "2026-11-10",
+      "status": "implemented and browser-checked locally; not pushed",
+      "task": "Make the directory the initial staffing graph source while retaining reports and comparison.",
+      "human": "Ian G. Williams requested the directory listing as the graph’s default. This supersedes the earlier report-default choice only; staff inclusion and source-evidence separation remain unchanged.",
+      "agent": "OpenAI Codex (exact build not recorded) checked shared repositories, reordered the native source selector to directory first and updated the page introduction and modular-methods explanation. No source data, counts, model or default staff inclusion rule changed. Browser confirmed People recorded in the directory selected on a fresh load, directory counts displayed, staff checkbox unchanged and report option retained. Eight process and four credit tests passed.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000031",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/views/about.html",
+        "reviews/mockups/welcoming-pathways/modular_methods.md"
+      ],
+      "limit": "Display default only; not a claim that directory dates are annual staffing totals. Report gaps, pooled evidence and confirmed current-roster basis remain explicit. Local only; not pushed."
+    },
+    {
+      "id": "text-visualization-options-and-sunburst-review",
+      "date": "2026-11-10",
+      "status": "recommendations completed; no new visualization implemented",
+      "task": "Recommend additional text-analysis views and improvements to the existing sunburst, grounded in saved inputs and primary documentation.",
+      "human": "Ian G. Williams requested exploration, chose recommendations before a prototype, and explicitly added a sunburst review. No new chart, statistical method or model fit was approved by this request.",
+      "agent": "OpenAI Codex (exact build not recorded) inspected active analysis routes, saved per-post weights, current sensitivity outputs and the custom SVG sunburst hierarchy/label/key/export code; consulted NLTK concordance/dispersion guidance, the Sievert–Shirley LDAvis paper and Plotly hierarchical-chart documentation. Prioritized words in context and article topic mixtures, with optional dispersion, model-stability and 2D topic views. Proposed sunburst measurement/coverage legends, explicit top-five renormalization, richer full-name key and source panel, comparison bars, stable colors and self-explanatory exports. Identified stale methods wording of three current-year modeled posts versus five in saved data; proposed correction without altering the corpus.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/text_visualization_options_2026-11-10.md",
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/word_methods.md",
+        "reviews/mockups/welcoming-pathways/build_word_hierarchies.py",
+        "nlp_experiments/lda_v3_20261109/seed_stability.csv"
+      ],
+      "limit": "Source/code review and recommendations only, not an implemented sunburst revision or a user study. No new topic fits, projections, corpus statistics or independent human evaluation. NLTK book sections 1.3–1.4 and LDAvis paper were inspected; Voyant documentation index only. Plotly examples are reference designs, not APIs used by the current custom SVG chart."
+    },
+    {
+      "id": "sunburst-clarity-evidence-comparison-exports",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Implement the approved sunburst clarity, source-evidence, comparison, stable-color and export improvements.",
+      "human": "Ian G. Williams explicitly requested implementation of the recommended sunburst improvements after reviewing the recommendations. This authorizes the interface revisions, not new model fits, source identity decisions or claims of human validation.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned shared repositories, added full-parent versus displayed-branch accounting helpers and tests, persistent measurement/sample/partial-year explanations, leading-five coverage badges, stable year/topic palettes, full-name/count keys and larger rendered label floor. Added hover/focus previews with separate pinned source evidence, literal credited opening paragraphs, a full-denominator two-year ranked comparison, captioned PNGs with complete legends and full-value CSV exports. Updated the stale methods note to five current-year modeled posts. Browser JavaScript calculates descriptive ratios/formatting from saved evidence; no NLTK or MALLET fit runs in the browser. Source/model data and year selectors were preserved. Validation: 15 JavaScript analysis tests, 24 frontend Python tests, seven public-release tests, eight process tests and four credit tests passed. Browser checks covered all five lenses, retained year/topic options, pinning and full/top-five refresh. PNG and CSV downloads completed; the 2012–2013 PNG was visually inspected and CSV retained Other, full denominator 6,596 and displayed denominator 130.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/views/analysis.html",
+        "reviews/mockups/welcoming-pathways/test_analysis.js",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Counts, scores and topic weights retain different meanings. Distinctiveness is descriptive, not significance; topic weights are not confidence or verified thematic assignments. Literal opening paragraphs may not contain a cleaned form and are labeled accordingly. No full screen-reader, participant or learner validation. Source inspection and automated/browser checks are separate evidence. Local revision only; not pushed."
+    },
+    {
+      "id": "sunburst-full-labels-responsive-key",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Display full sunburst words, phrases and topic names through outside labels and a synchronized expanded key.",
+      "human": "Ian G. Williams identified cutoff labels and explicitly approved implementing outside labels for focused years, a full-label list for all years, synchronized highlighting and responsive presentation.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both shared repositories, implemented wrapped outside labels with leader lines for wide single-year views, expanded every full-name key by default, synchronized hover/focus highlighting and preserved pinned source evidence and existing data. Consulted colour-independence, responsive-accessibility and keyboard-navigation guidance; no new model fit or source-data change. Validation: 24 frontend Python tests, 15 JavaScript analysis tests and seven public-release tests passed. Browser verification confirmed eight full topic labels with visible connectors, phrase labels, keyboard Enter activation and pinned evidence, and all 15 year keys expanded. Narrow-screen fallback is implemented but not browser-verified in this session; no new PNG download was checked for this label revision.",
+      "credit_roles": [
+        "Conceptualization",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Human Validation credit concerns the reported cutoff problem, not comprehensive verification. Browser and automated checks are AI-executed. No participant, learner or full screen-reader testing; extraordinarily long unsplit forms retain the HTML key fallback. Local implementation only, not pushed."
+    },
+    {
+      "id": "sunburst-all-years-exploration-experiment",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Experiment with selected-year highlighting and a full-label evidence panel in the all-years sunburst.",
+      "human": "Ian G. Williams requested an experiment after recommendations for year highlighting, a synchronized side panel and explicit expand/return navigation.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both shared repositories, added a 15-year directory and full-label selected-year panel, synchronized inner-sector hover/focus/selection with highlighting, shortened drawn overview year labels while retaining full accessible names, preserved explicit expansion/return and separate pinned source evidence, and copied rendered branch opacity into PNG export. Existing chart data and sizing rules were preserved. Small multiples were not implemented. Consulted the previously selected keyboard, responsive and colour-independent guidance. Checks: 24 frontend Python tests, 15 JavaScript analysis tests and seven release tests passed. Browser checks confirmed all-years population remains selected while choosing 2026–2027 (six active branch links, 84 dimmed), explicit expansion and return, keyboard source pinning, retained selected-year state, cleared stale highlights, and no horizontal page overflow at the current 648-pixel viewport. Screenshot saved; no participant, wide-screen or new PNG visual test in this session.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/views/analysis.html",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Local experiment only, not pushed. No participant or full screen-reader evaluation; no new model fit. Browser preview is not human approval of research interpretation. Final export visual verification remains separate."
+    },
+    {
+      "id": "sunburst-no-truncated-word-labels",
+      "date": "2026-11-10",
+      "status": "implemented and locally checked; not pushed",
+      "task": "Remove abbreviated outer-ring words, phrases and topic names.",
+      "human": "Ian G. Williams reported that outer-ring text still cut off in the all-years experiment.",
+      "agent": "OpenAI Codex (exact build not recorded) checked shared repositories and removed ellipsis fallback variants for non-date labels. A complete label must fit its sector and avoid collisions; otherwise the full-name panel/key and hover/focus evidence provide it. Clarified the tradeoff in chart instructions and methods. Academic-year date shortening remains separate. No analysis or source data changed. Checks: 24 frontend Python tests and 15 JavaScript analysis tests passed. Browser phrase-view check found zero ellipsis labels, retained complete phrase names/counts in the selected-year panel, and drew only complete in-ring words where they fit. Screenshot saved. Full screen-reader and participant checks were not performed.",
+      "credit_roles": [
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/word_ui.js",
+        "reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "Human Validation applies to the reported interface defect, not all data. Omitted in-ring labels remain available in full-name controls. No participant or full screen-reader testing; local only, not pushed."
+    },
+    {
+      "id": "release-reviewed-interface-sunburst-20261110",
+      "date": "2026-11-10",
+      "status": "authorized release; publication outcome recorded by GitHub commits and deployment",
+      "task": "Release the current reviewed interface revision to the source and public website repositories.",
+      "human": "Ian G. Williams requested pushing the current revision, while noting that the sunburst still needs further design improvement. This is publication authorization, not comprehensive data, interpretation or accessibility approval.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both repositories against GitHub main, preserved the compatible public documentation edits already incorporated in the maintained sources, prepared the pending interface/staffing/documentation/sunburst changes and synchronized attributed changelogs for release. Existing source and model populations remain separately documented in their prior task records. Release validation and commit/deployment outcomes are retained in the GitHub history and local release receipts. Release checks: eight process, four credit and seven public-release tests passed; coverage verification completed. The historical revision verifier could not complete because archives/research/2026-11-09-before-corpus-refresh/analysis/demos/cleaning_comparison/offline.html is absent from this checkout.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000025"
+      ],
+      "evidence": [
+        "process/work_log.json",
+        "../CHANGELOG.md",
+        "../scripts/prepare_public_site.py",
+        "../scripts/public_release_manifest.json"
+      ],
+      "limit": "Sunburst design remains iterative; full screen-reader, participant and learner validation remains outstanding. No claim that all design issues are resolved. Publication preserves existing private-source/public-site scope and separate source-text rights. Historical archive integrity was not reverified in this release because that preserved offline artifact is unavailable locally."
     }
   ],
   "remaining": [

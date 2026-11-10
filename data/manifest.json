@@ -291,7 +291,11 @@
             },
             {
               "file": "data/peopleHistory-5.json",
-              "sha256": "3fdee01f55cfa0d413c79662728ea4fd79fe176a88e3b27d0445ac9ab492f8e1"
+              "sha256": "e444a65c0dfc267c0e195c4d9e504c94f8ca96a128244fd9bed9a027cc2207d7"
+            },
+            {
+              "file": "data/peopleHistory-6.json",
+              "sha256": "927d799069ac2d23757b67c43c45f10470134fca1491419da9dac5c15e67f931"
             }
           ]
         },
@@ -917,7 +921,7 @@
     },
     {
       "file": "assets/scripts/analysis-core.js",
-      "integrity": "sha256-4dPP20ySx1WNemDbDK7KiNgX/oe4bujIyortx9pTL5U="
+      "integrity": "sha256-G4F4gbEmFDTRhE4xiuLmqQRaOoEQgzFRFalsnY9hUto="
     },
     {
       "file": "assets/scripts/exclusive.js",
@@ -929,7 +933,7 @@
     },
     {
       "file": "assets/scripts/words.js",
-      "integrity": "sha256-9NkoGf8pTCsi4uskVsed0ZMWLKPrZioH+hIPfvqjoOg="
+      "integrity": "sha256-WMnqvlCionZNiiIAU9JhjJVr6eFumhmpRyDPJTA2kXE="
     },
     {
       "file": "assets/scripts/analysis.js",
@@ -937,7 +941,7 @@
     },
     {
       "file": "assets/scripts/people.js",
-      "integrity": "sha256-ccXeFPZyblimZXrNl7YSQHC+KjAuwwUjMzmdvSI9YSE="
+      "integrity": "sha256-ZstMy5U7RqGKuGmdncK4IfQwzwmpRBljSRrz+Je9COw="
     },
     {
       "file": "assets/scripts/interface.js",
@@ -949,7 +953,7 @@
     },
     {
       "file": "assets/scripts/quotes.js",
-      "integrity": "sha256-TrD62HSn1qefvbjCl3c2Vfq6Y7z5aecobQA9htilL2o="
+      "integrity": "sha256-8+s0G+/7SmCGogMQHD4W/+MuLyPn55tb4DF9GabMcpg="
     }
   ]
 }

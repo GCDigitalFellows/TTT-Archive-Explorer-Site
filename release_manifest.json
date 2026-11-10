@@ -1538,6 +1538,16 @@
       "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/pixelify.ttf",
       "destination": "assets/fonts/pixelify.ttf",
       "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/peopleHistory-6.json",
+      "destination": "data/peopleHistory-6.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/styles/documentation.css",
+      "destination": "styles/documentation.css",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {

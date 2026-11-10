@@ -37,6 +37,18 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-10 — Release the current reviewed interface revision to the source and public website repositories.
+- 2026-11-10 — Remove abbreviated outer-ring words, phrases and topic names.
+- 2026-11-10 — Experiment with selected-year highlighting and a full-label evidence panel in the all-years sunburst.
+- 2026-11-10 — Display full sunburst words, phrases and topic names through outside labels and a synchronized expanded key.
+- 2026-11-10 — Implement the approved sunburst clarity, source-evidence, comparison, stable-color and export improvements.
+- 2026-11-10 — Recommend additional text-analysis views and improvements to the existing sunburst, grounded in saved inputs and primary documentation.
+- 2026-11-10 — Make the directory the initial staffing graph source while retaining reports and comparison.
+- 2026-11-10 — Consolidate seven maintained support pages into shared external CSS and preserve compatible public readability edits in their source workflow.
+- 2026-11-10 — Separate report-listed fellowship headcounts from directory-derived affiliations, with a source comparison and explicit evidence gaps.
+- 2026-11-09 — Recheck annual student fellowship staffing totals against saved directory evidence, annual reports and confirmed current rosters.
+- 2026-11-09 — Explain Digital Fellows within GCDI and split annual team bars into Digital Fellows and other recorded people.
+- 2026-11-09 — Add a brief typing reveal to Another voice and link Ian’s footer credit to his supplied website.
 - 2026-11-09 — Make interpretation fragments reveal their saved source passages and publish this with pending MALLET and introductory wording revisions.
 - 2026-11-09 — Clarified the interpretation-page introduction, expanded MALLET before its acronym and replaced the ambiguous essay reference.
 - 2026-11-09 — Added MALLET hover/focus help with a short explanation and official further reading on the interpretation page.

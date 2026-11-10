@@ -48,7 +48,66 @@
     n.textContent = text;
     return n;
   };
-  function draw() {
+  // Animate only the visual copy after an explicit Another voice action.
+  // The full literal sentence is immediately available to assistive technology.
+  // An invisible remainder reserves all lines, avoiding layout jumps while typing.
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let animationFrame = null;
+  let finishReveal = () => {};
+  function renderSentence(text, animate) {
+    finishReveal();
+    const fullText = node("span", text);
+    fullText.className = "sr";
+    const visual = node("span", "");
+    visual.setAttribute("aria-hidden", "true");
+    const typed = node("span", "");
+    const remaining = node("span", text);
+    remaining.style.visibility = "hidden";
+    visual.append(typed, remaining);
+    get("quote-text").replaceChildren(fullText, visual);
+    const finish = () => {
+      if (animationFrame !== null) cancelAnimationFrame(animationFrame);
+      animationFrame = null;
+      typed.textContent = text;
+      remaining.textContent = "";
+      const skip = get("quote-finish");
+      const hadFocus = document.activeElement === skip;
+      skip.hidden = true;
+      if (hadFocus) get("quote-next").focus();
+    };
+    finishReveal = finish;
+    if (!animate || reducedMotion.matches) {
+      finish();
+      return;
+    }
+    // Segment complete characters, including combining marks where supported.
+    const characters =
+      typeof Intl.Segmenter === "function"
+        ? Array.from(
+            new Intl.Segmenter(undefined, { granularity: "grapheme" }).segment(text),
+            (part) => part.segment,
+          )
+        : Array.from(text);
+    const duration = Math.min(1400, Math.max(450, characters.length * 9));
+    const started = performance.now();
+    get("quote-finish").hidden = false;
+    function frame(now) {
+      const count = Math.min(
+        characters.length,
+        Math.floor((characters.length * (now - started)) / duration),
+      );
+      typed.textContent = characters.slice(0, count).join("");
+      remaining.textContent = characters.slice(count).join("");
+      if (count === characters.length) finish();
+      else animationFrame = requestAnimationFrame(frame);
+    }
+    animationFrame = requestAnimationFrame(frame);
+  }
+  reducedMotion.addEventListener("change", () => {
+    if (reducedMotion.matches) finishReveal();
+  });
+  get("quote-finish").addEventListener("click", () => finishReveal());
+  function draw({ animate = false } = {}) {
     const result = QuoteLab.draw(pool, posts, history, "article");
     if (!result) {
       get("quote-text").textContent = "No source sentence is available.";
@@ -63,7 +122,7 @@
       storage = false;
     }
     const post = posts.get(current.post);
-    get("quote-text").textContent = current.text;
+    renderSentence(current.text, animate);
     get("quote-caption").textContent =
       post.title +
       " · article credited to " +
@@ -95,13 +154,14 @@
         ? "Article-ID history stays in this tab’s session."
         : "Storage is unavailable; repeats are avoided only until this page reloads.");
   }
-  get("quote-next").addEventListener("click", draw);
+  get("quote-next").addEventListener("click", () => draw({ animate: true }));
   get("quote-collection").addEventListener("change", () => {
     chooseCollection();
     draw();
   });
   get("quote-context").addEventListener("click", () => {
     if (!current) return;
+    finishReveal();
     const sentence = current;
     const full = [...root.querySelectorAll("#wp-read details")].find(
       (n) => n.querySelector("summary")?.textContent === "Read the full saved text",

@@ -108,7 +108,8 @@
     <div class="row"
       ><button type="button" id="quote-context" data-post="6755"
         >Read this sentence in context →</button
-      ><button type="button" id="quote-next">Another voice</button></div
+      ><button type="button" id="quote-next">Another voice</button
+      ><button type="button" id="quote-finish" hidden>Show full sentence</button></div
     >
     <p
       id="quote-announcement"
@@ -477,6 +478,9 @@
       <div class="analysis-tabs" id="wp-word-downloads" hidden>
         <button type="button" id="wp-word-cloud-png">Download word cloud PNG</button>
         <button type="button" id="wp-word-sun-png" hidden>Download sunburst PNG</button>
+        <button type="button" id="wp-word-sun-csv" hidden
+          >Download sunburst evidence CSV</button
+        >
         <span id="wp-word-export-status" role="status"></span>
       </div>
       <div id="wp-word-cloud-view" class="archive-word-cloud">
@@ -612,6 +616,19 @@
   >
 </div>
 
+      <section
+        id="wp-sun-measure-panel"
+        class="sun-measure-panel"
+        hidden
+        aria-label="How to read this sunburst"
+      >
+        <h3>What do the slices measure?</h3><p id="wp-sun-measure"></p
+        ><p id="wp-sun-focus-status" class="sun-focus-status"></p>
+        <p id="wp-sun-preview" class="small"
+          >Focus or hover over a branch for its full measurement. Select it to pin its
+          source evidence.</p
+        >
+      </section>
       <p class="small" id="wp-sunburst-label-note" hidden></p>
       <div class="word-exploration"
         ><div id="wp-word-sun" hidden></div
@@ -619,7 +636,21 @@
           id="wp-word-selection"
           class="word-selection"
           aria-label="Selected year or subject details"
-          ><h3>Posts behind a branch</h3
+          ><section
+            id="wp-sun-overview"
+            hidden
+            aria-label="Explore one year in the overview"
+            ><h3>Explore a year</h3
+            ><p class="small"
+              >Select a year to see complete branch names here. Expand it for a larger
+              chart.</p
+            ><div
+              id="wp-sun-year-directory"
+              class="sun-year-directory"
+              aria-label="Overview academic years"
+            ></div
+            ><div id="wp-sun-year-panel"></div></section
+          ><h3>Posts behind a branch</h3><div id="wp-sun-pinned"></div
           ><p id="wp-word-selection-text"
             >Select a year to expand it, or a word/topic to inspect its evidence.</p
           ><details
@@ -635,7 +666,22 @@
             >Show all academic years</button
           ></aside
         ></div
-      ><section id="wp-sunburst-key" aria-label="Sunburst chart key" hidden></section>
+      ><details id="wp-sun-compare" hidden
+        ><summary>Compare two years with ranked bars</summary>
+        <p class="small"
+          >These controls compare full-year saved measurements, independently of
+          sunburst zoom and top-five focus. Terms are the union of each selected year’s
+          leading branches. A dash means unavailable or below the research eligibility
+          rules, not zero.</p
+        >
+        <div class="analysis-controls"
+          ><label>First comparison year<select id="wp-sun-compare-a"></select></label
+          ><label>Second comparison year<select id="wp-sun-compare-b"></select></label
+        ></div>
+        <p id="wp-sun-compare-unit" class="small"></p
+        ><div id="wp-sun-compare-bars"></div>
+      </details>
+      <section id="wp-sunburst-key" aria-label="Sunburst chart key" hidden></section>
       <div
         id="wp-word-heat"
         class="word-heat-scroll"
@@ -1020,15 +1066,49 @@
     <section class="analysis-section" aria-labelledby="wp-cohorts-heading">
       <h2 id="wp-cohorts-heading" tabindex="-1">Who served and when?</h2>
       <p
-        >The GC Digital Fellows help students and faculty at the CUNY Graduate Center
-        use digital methods in research and teaching through workshops, consultations,
-        and shared resources. The chart starts with all documented GCDI team members,
-        including people with no credited posts. Choose a year to see the people and
-        records behind its count.</p
+        >Digital Fellows are one of multiple teams of doctoral student fellows at GC
+        Digital Initiatives (GCDI). The GC Digital Fellows help students and faculty at
+        the CUNY Graduate Center use digital methods in research and teaching through
+        workshops, consultations, and shared resources. The default chart shows people
+        with directory-recorded fellowship roles, including people with no credited
+        posts. Choose a year to inspect its named roster and source pages. These are
+        recorded headcounts, not funded positions, full-time equivalents or verified
+        simultaneous staffing.</p
       >
+      <div class="analysis-controls"
+        ><label
+          >Roster source<select id="wp-cohort-source"
+            ><option value="directory">People recorded in the directory</option
+            ><option value="reports">Fellows listed in annual reports</option></select
+          ></label
+        ><label class="staff-toggle"
+          ><input type="checkbox" id="wp-cohort-staff" /> Include coordinators,
+          postdoctoral roles and other staff</label
+        ></div
+      >
+      <p class="small" id="wp-cohort-source-note"></p>
       <p id="wp-cohort-summary" class="small" role="status" aria-live="polite"></p
+      ><p class="small"
+        >Blue, solid: Digital Fellows. Sand, striped: other listed people. Each recorded
+        name counts once per source roster; people holding multiple roles count in the
+        Digital Fellows segment if that roster lists the role. “Other” means no Digital
+        Fellow role in that source’s roster, not proof of nonmembership. Directory team
+        and role filters apply only to the directory view.</p
       ><div id="wp-cohort-bars" class="annual-bars"></div>
+      <section
+        id="wp-nonannual-rosters"
+        aria-label="Pooled and snapshot rosters"
+      ></section>
       <details
+        ><summary>Compare roster sources</summary
+        ><p class="small"
+          >Unfiltered fellowship-role headcounts from each source. This table excludes
+          staff-only and explicitly postdoctoral titles, regardless of chart controls.
+          Missing reports are unknown, not zero. Different sources and dates can
+          disagree; these records have not been merged.</p
+        ><div id="wp-staffing-comparison" class="coverage-scroll"></div
+      ></details>
+      <details id="wp-directory-controls"
         ><summary>Compare roles and affiliations</summary>
         <p class="small"
           >Team scope and role also change the chart above. Scroll sideways in the table
@@ -1349,8 +1429,9 @@
       href="PUBLIC_GUIDE.html"
       >How to use the explorer</a
     ><span class="small"
-      >Working research release · source export November 9, 2026<br />Directed by Ian
-      G. Williams · developed with AI assistance<br /><a
+      >Working research release · source export November 9, 2026<br />Directed by
+      <a href="https://iangwilliams.commons.gc.cuny.edu/">Ian G. Williams</a> ·
+      developed with AI assistance<br /><a
         href="REUSE_AND_CITATION.html"
         >MIT for original project work; source posts retain separate rights</a
       ></span
@@ -1376,4 +1457,4 @@
   
   
 </div>
-<script defer src="assets/scripts/loader.js" data-manifest-sha256="95e9cd7d52e00be9469419ee3019835caccbfbc45ee4f22b657759a2ff054b01"></script></body></html>
+<script defer src="assets/scripts/loader.js" data-manifest-sha256="4f319e9bcaec0a0bac9c246e853f84b2b8c96335903aa29543ac40788d06a2ac"></script></body></html>

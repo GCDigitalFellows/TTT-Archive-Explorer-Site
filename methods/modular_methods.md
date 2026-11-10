@@ -215,3 +215,36 @@ The optional offline export embeds font bytes separately so it remains a
 single file. No font download or system installation occurs during build/use.
 SIL OFL remains separate from project MIT. The earlier isolated demo and its
 controls remain a historical comparison, not a second production settings panel.
+
+## Annual Digital Fellow composition
+
+`analysis_core.js:cohortComposition` deduplicates the selected year’s people and intersects them with Digital Fellow names in the same year’s full saved roster. A selected person with several roles belongs to the Digital Fellow segment once; its complement is other recorded people, not proof of nonmembership. Filtering another role retains this same-year evidence test. `people_ui.js` renders both counts against the largest selected annual total and preserves the year evidence button. Edit `styles.css` for the solid/striped fills; preserve the text counts and missing-data state.
+
+## Separate staffing sources · November 10, 2026
+
+`build_staffing.py` reads saved report transcriptions and the report source
+register into `peopleHistory.staffingReports`. It preserves each name, role,
+period and physical PDF page. The report data does not enter the directory
+appointment ledger, writing credits or NLP models. A whole-word Fellow title
+is included unless explicitly postdoctoral; Fellowship Coordinator alone is
+excluded. This is a role-based proxy, not verified student enrollment or FTE.
+
+`people_ui.js` starts with the directory view (Ian’s revised default, November 10), with staff excluded. The report option labels missing annual rosters rather than backfilling directory counts. Pooled 2012–2014
+and the 2015 Digital Fellows snapshot have separate evidence buttons. The current
+2026–2027 human-confirmed roster has its own source label. Switching to directory
+restores the directory scope/role controls. The staff checkbox applies to either
+source; the comparison table always uses unfiltered fellowship-only counts.
+
+Report evidence displays raw source names and links to physical PDF pages when
+public URLs exist. Where no public PDF URL is recorded, it links to the saved
+transcription with the report page stated explicitly. No new identity matching
+is performed. Year and comparison buttons retain evidence/return focus behavior.
+
+The new `peopleHistory-6.json` shard is explicitly allowlisted. The existing
+180,000-byte budget, deferred people-data group, integrity checks and complete
+search readiness are unchanged. Run the frontend Python tests, analysis JS tests
+and release checks after editing this path. Predict how the current roster changes
+from 19 fellowship-role holders to 20 people when staff are included, then compare
+the two named rosters. This is a proposed review activity, not learner validation.
+The evidence boundary and targeted checks apply knowledge-base S06/S17; they do
+not establish the completeness or correctness of the historical staffing sources.
