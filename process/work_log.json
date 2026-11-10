@@ -2926,9 +2926,9 @@
       "id": "publish-flyer-and-current-corpus-20261109",
       "date": "2026-11-09",
       "task": "Publish the approved flyer typography and accumulated current corpus/interface revisions to the private source and public website repositories.",
-      "status": "release prepared; publication verification pending",
+      "status": "published to both repositories; public Pages deployment verified",
       "human": "Ian G. Williams approved the integrated appearance and explicitly requested the push; earlier requests authorized the corpus refresh and interface/analysis revisions preserved in the preceding task records.",
-      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, found no incoming commits, used the existing healthy private checkout because the workspace Git index remained unreadable, preserved Git history and synchronized current project files without deleting or resetting shared files. Prepared an explicit-allowlist public release; publication outcomes and checks will be recorded after execution.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, found no incoming commits, used the existing healthy private checkout because the workspace Git index remained unreadable, preserved Git history and synchronized current project files without deleting or resetting shared files. Prepared an explicit-allowlist public release; publication outcomes and checks will be recorded after execution. Public commit 883417842f52ae9e070364eee59ade3c4d05c2ed pushed successfully; GitHub Pages run 42727977047 completed successfully and the live CSS contains both approved families and orchid accents. Coverage verification and revision verification passed, including the 423-record refresh and 35 model fits; eight process and four credit tests passed. Private source commit 1e20eedafd6174f953e9dce5f832bfe0d7f09ba8 initially failed with HTTP 400; fetch confirmed no incoming commit and an ordinary retry used a larger HTTP upload buffer. Generated CSV/SVG whitespace diagnostics were retained without changing frozen evidence bytes. The buffered private push succeeded, advancing GitHub main from 0cfae338 to 1e20eed; no force push, reset or history rewrite was used. This outcome entry and synchronized changelogs accompany a documentation-only follow-up.",
       "credit_roles": [
         "Conceptualization",
         "Supervision"
@@ -2942,7 +2942,8 @@
         "../scripts/public_release_manifest.json",
         "../scripts/check_shared_updates.py",
         "../scripts/prepare_public_site.py",
-        "reviews/mockups/welcoming-pathways/build_audit.json"
+        "reviews/mockups/welcoming-pathways/build_audit.json",
+        "process/releases/2026-11-09-flyer.json"
       ],
       "limit": "Git author metadata is recorded attribution, not proof of manual authorship. This publication does not establish complete source authorship accuracy, human usability approval or accessibility conformance. Original fonts and article rights remain separate; raw exports, archives and fitted model binaries remain outside the public allowlist."
     }

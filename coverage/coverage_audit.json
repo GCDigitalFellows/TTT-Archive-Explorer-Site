@@ -15,14 +15,14 @@
   "body_signal_rows": 327,
   "earlier_motif_population": 309,
   "published_credit_dispositions": {
-    "declared-credit": 122,
     "unresolved-account": 206,
+    "declared-credit": 122,
     "source-supported": 95
   },
   "local_credit_dispositions": {
     "unresolved-account": 206,
-    "source-supported": 93,
-    "declared-credit": 28
+    "declared-credit": 28,
+    "source-supported": 93
   },
   "all_credit_dispositions": {
     "unresolved-account": 206,
