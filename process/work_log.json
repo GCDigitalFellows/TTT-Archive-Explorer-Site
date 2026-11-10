@@ -3421,6 +3421,25 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "The revision applies to the prototype heading."
+    },
+    {
+      "id": "prototype-analysis-and-networks",
+      "date": "2026-11-10",
+      "status": "implemented",
+      "task": "Add the interactive Analysis & networks explorer to the revised prototype.",
+      "human": "Ian G. Williams requested Analysis & networks in the revised prototype.",
+      "agent": "OpenAI Codex added a navigation link, an embedded analysis view and a full-page link, and checked prototype structure.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "The embedded explorer uses the existing charts, data and interface styles."
     }
   ],
   "remaining": [

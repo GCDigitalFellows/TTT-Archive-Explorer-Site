@@ -382,3 +382,11 @@ footer {
     border-color: CanvasText;
   }
 }
+
+/* Give the interactive explorer room while keeping it within the reading column. */
+.analysis-frame {
+  display: block;
+  width: 100%;
+  min-height: 44rem;
+  border: 1px solid currentColor;
+}

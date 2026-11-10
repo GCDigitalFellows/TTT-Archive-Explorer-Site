@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Add the interactive Analysis & networks explorer to the revised prototype.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested Analysis & networks in the revised prototype.
+- **AI:** OpenAI Codex added a navigation link, an embedded analysis view and a full-page link, and checked prototype structure.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-prototype-analysis-and-networks). The embedded explorer uses the existing charts, data and interface styles.
+
 ### 2026-11-10 — Update the prototype heading to “Living and learning with digital transformation.”
 
 - **Human — Ian G. Williams:** Ian G. Williams requested “digital transformation” in the prototype heading.
