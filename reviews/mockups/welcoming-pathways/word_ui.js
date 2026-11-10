@@ -552,6 +552,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
         : "Full words and phrases appear in the expanded list below. Hover or focus a slice or list entry to highlight its matching branch; select it to pin evidence. Select a year for a larger chart.";
     };
     fitCurrentSunburst();
+    renderSmallYears();
     renderOverviewDirectory(groups);
     renderSunburstExplanation();
     renderComparison();
@@ -569,7 +570,7 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
         const y = 70 + ((index + 0.5) * 620) / rows.length;
         const x = side < 0 ? -210 : 770;
         const line = svgTag("path", {
-          d: `M${380 + 350 * Math.cos(branch.angle)},${380 + 350 * Math.sin(branch.angle)} L${side < 0 ? 15 : 745},${y} L${side < 0 ? -10 : 765},${y}`,
+          d: `M${380 + 350 * Math.cos(branch.angle)},${380 + 350 * Math.sin(branch.angle)} L${380 + 365 * Math.cos(branch.angle)},${380 + 365 * Math.sin(branch.angle)} H${side < 0 ? 10 : 750} V${y} H${side < 0 ? -10 : 765}`,
           fill: "none",
           stroke: "currentColor",
           "stroke-width": 1.5,
@@ -693,6 +694,106 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
       list.append(item);
     }
     panel.append(list);
+  }
+  // Small multiples unfold the same saved year branches into equal-size
+  // donuts. They are a second reading route, not a new fit or population.
+  // Full-size HTML buttons carry names and evidence; the small SVG is only
+  // a visual summary so it never needs abbreviated text inside a sector.
+  function renderSmallYears() {
+    const grid = get("wp-sun-small-grid");
+    for (let i = branchControls.length - 1; i >= 0; i--)
+      if (grid.contains(branchControls[i].control)) branchControls.splice(i, 1);
+    grid.replaceChildren();
+    get("wp-sun-small-note").textContent =
+      view().unit +
+      ". " +
+      (leading && ["shared", "raw", "phrases"].includes(lens)
+        ? "Top-five focus: each circle rescales its five branches. Full-count coverage is stated on each card; Other remains in the evidence table/CSV."
+        : lens === "distinct"
+          ? "Positive scores are not writing prevalence or statistical significance."
+          : "Each circle uses its full saved yearly denominator, including Other where present.");
+    for (const group of view().groups) {
+      const card = make("section"),
+        scope = focus(group);
+      card.className = "sun-small-year";
+      card.append(
+        make("h4", group.label + (group.label === "2026–2027" ? " · partial" : "")),
+      );
+      card.append(
+        make(
+          "p",
+          `${group.posts} analyzed posts · ${number(scope.denominator)} ${view().unit}.`,
+        ),
+      );
+      card.append(
+        make(
+          "p",
+          scope.coverage === null
+            ? "Positive score distribution; no corpus-coverage percentage."
+            : `${percent(scope.coverage)} of full parent count displayed.`,
+        ),
+      );
+      const total = scope.rows.reduce((sum, row) => sum + row.count, 0);
+      if (!total) {
+        card.append(make("p", "No eligible values for this lens."));
+        grid.append(card);
+        continue;
+      }
+      const svg = svgTag("svg", {
+        viewBox: "0 0 760 760",
+        role: "img",
+        "aria-label":
+          group.label +
+          ": distribution of " +
+          view().unit +
+          ". Full branch values follow.",
+      });
+      let angle = -Math.PI / 2;
+      const list = make("ol");
+      scope.rows.forEach((row, index) => {
+        const end = angle + (2 * Math.PI * row.count) / total;
+        const fill =
+          row.key === "__other__"
+            ? "#d1d4d5"
+            : lens === "topics"
+              ? PathwaysAnalysis.sunburstColor("topic", row.key)
+              : PathwaysAnalysis.sunburstColor("year", group.label);
+        svg.append(
+          svgTag("path", {
+            d: sector(angle, end, 170, 350),
+            fill,
+            stroke: "currentColor",
+            "stroke-width": 3,
+          }),
+        );
+        // Numbers link positions to the full list without relying on colors.
+        if (end - angle > 0.15) {
+          const mid = (angle + end) / 2;
+          const label = svgTag("text", {
+            x: 380 + 260 * Math.cos(mid),
+            y: 380 + 260 * Math.sin(mid),
+            "text-anchor": "middle",
+            "dominant-baseline": "middle",
+            fill: "#17211c",
+            "font-size": 50,
+          });
+          label.textContent = String(index + 1);
+          svg.append(label);
+        }
+        const item = make("li"),
+          button = sourceButton(group, row);
+        button.textContent = `${row.word} · ${number(row.count)} ${view().unit} · ${row.ids.length} contributing posts`;
+        bindBranch(button, group, row);
+        item.append(button);
+        list.append(item);
+        angle = end;
+      });
+      const expand = make("button", "Expand " + group.label + " →");
+      expand.type = "button";
+      expand.addEventListener("click", () => chooseYear(group.label));
+      card.append(svg, list, expand);
+      grid.append(card);
+    }
   }
   function renderSunburstExplanation() {
     const scope =
@@ -1191,6 +1292,8 @@ function createPathwaysWords({ root, data, showPosts, clearDetails, announce }) 
     get("wp-sun-compare").hidden = mode !== "sun";
     get("wp-sun-pinned").hidden = mode !== "sun";
     get("wp-sunburst-label-note").hidden = mode !== "sun";
+    get("wp-sun-small-years").hidden =
+      mode !== "sun" || year !== "all" || (lens === "topics" && order === "topics");
     get("wp-sunburst-key").hidden = mode !== "sun";
     cloudRoot.hidden = !cloud;
     get("wp-word-year-label").hidden = cloud;

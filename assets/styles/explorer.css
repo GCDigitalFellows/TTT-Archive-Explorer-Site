@@ -1295,6 +1295,50 @@
   }
 }
 
+/* Optional small multiples keep complete labels in ordinary wrapping text.
+   Equal card/circle size supports scanning, not sample-size comparison. */
+#welcoming-prototype .sun-small-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 1.25rem;
+  margin-block: 1rem;
+}
+#welcoming-prototype .sun-small-year {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+}
+#welcoming-prototype .sun-small-year h4 {
+  margin-top: 0;
+}
+#welcoming-prototype .sun-small-year svg {
+  width: 12rem;
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+  color: var(--paper);
+}
+#welcoming-prototype .sun-small-year button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+#welcoming-prototype .sun-small-year li {
+  margin-block: 0.5rem;
+}
+#welcoming-prototype .sun-small-year ol {
+  padding-left: 1.5rem;
+}
+@media (forced-colors: active) {
+  #welcoming-prototype .sun-small-year svg path {
+    fill: Canvas;
+    stroke: CanvasText;
+  }
+  #welcoming-prototype .sun-small-year svg text {
+    fill: CanvasText;
+  }
+}
+
 /* Default flyer typography, approved by Ian on November 9, 2026.
  * Edit families, sizes and accents here. This sheet is assembled last so card
  * font shorthands cannot replace the pairing. Other design years retain their

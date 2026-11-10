@@ -37,6 +37,8 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-10 — Promote the annual small-multiple comparison to the public website.
+- 2026-11-10 — Continue sunburst improvements with optional annual small multiples and perimeter label connectors.
 - 2026-11-10 — Release the current reviewed interface revision to the source and public website repositories.
 - 2026-11-10 — Remove abbreviated outer-ring words, phrases and topic names.
 - 2026-11-10 — Experiment with selected-year highlighting and a full-label evidence panel in the all-years sunburst.

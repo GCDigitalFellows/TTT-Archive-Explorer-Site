@@ -4,6 +4,18 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Promote the annual small-multiple comparison to the public website.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved the demonstrated annual comparison and requested implementation.
+- **AI:** OpenAI Codex (exact build not recorded) checked both shared repositories, prepared the approved small-multiple interface and perimeter connector changes for publication, synchronized README/CHANGELOG attribution and retained existing data, scope, analysis options and rights. The preceding implementation event records actual browser and automated checks; release checks and commit/deployment outcomes are inspectable in GitHub history.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-release-annual-sunburst-comparison). Approval concerns implementation of the demonstrated interface, not comprehensive scientific or accessibility validation. Small-chart grid PNG export remains unavailable; the main sunburst retains PNG export. Existing participant/screen-reader and historical archive-verification limitations remain.
+
+### 2026-11-10 — Continue sunburst improvements with optional annual small multiples and perimeter label connectors.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested continued sunburst improvements following the published overview and full-label revisions.
+- **AI:** OpenAI Codex (exact build not recorded) scanned both shared repositories, added a collapsed annual small-multiple comparison using the same saved lens/top-five values, equal-size numbered donut charts, full-name ordered source controls, per-year sample/denominator/coverage and partial-year labels, and explicit expansion. Changed focused-chart leader paths to route around the circle perimeter. Applied information-density, table-accessibility, keyboard, responsive and colour-independent principles without claiming conformance. Browser checks found 15 cards across all five lenses, complete wrapping phrase labels, keyboard pinning, expansion/return, no horizontal overflow at the current narrow viewport, and Other/100% coverage when top-five focus was disabled. 24 frontend Python, 15 JavaScript analysis and seven release tests passed.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-sunburst-annual-small-multiples). Local change only; not pushed. Small-chart PNG grid export is not implemented; the existing PNG remains the main chart. No participant/full screen-reader evaluation; wide-screen perimeter connector layout was not visually verified this session. Equal-size circles do not compare sample sizes. Existing score/interpretation limitations remain.
+
 ### 2026-11-10 — Release the current reviewed interface revision to the source and public website repositories.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested pushing the current revision, while noting that the sunburst still needs further design improvement. This is publication authorization, not comprehensive data, interpretation or accessibility approval.
