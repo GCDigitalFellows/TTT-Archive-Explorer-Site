@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Update the prototype heading to “Living and learning with digital transformation.”
+
+- **Human — Ian G. Williams:** Ian G. Williams requested “digital transformation” in the prototype heading.
+- **AI:** OpenAI Codex updated the heading in the source and public prototype and checked the prototype structure.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-prototype-digital-transformation-heading). The revision applies to the prototype heading.
+
 ### 2026-11-10 — Credit Sophie Bala for design feedback on the accessibility redesign.
 
 - **Human — Sophie Bala and Ian G. Williams:** Sophie Bala supplied design feedback, as attributed by Ian G. Williams; Ian requested that Sophie be credited alongside Lisa Marie Rhody.

@@ -39,6 +39,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-10 — Update the prototype heading to “Living and learning with digital transformation.”.
 - 2026-11-10 — Sophie Bala supplied design feedback, Ian G. Williams requested the credit, and Codex updated the prototype and attribution records.
 - 2026-11-10 — Lisa Marie Rhody supplied accessibility feedback, Ian G. Williams directed a narrative-led redesign, and Codex drafted its plan and isolated prototype.
 - 2026-11-10 — Promote the annual small-multiple comparison to the public website.
