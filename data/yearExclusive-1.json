@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "population": 299,
-  "wholeVocabulary": 10988,
-  "exclusiveTypes": 5731,
-  "definition": "Present in exactly one of the saved academic years in the 299-post analyzed corpus"
+  "population": 301,
+  "wholeVocabulary": 11029,
+  "exclusiveTypes": 5757,
+  "definition": "Present in exactly one of the saved academic years in the current analyzed corpus"
 }

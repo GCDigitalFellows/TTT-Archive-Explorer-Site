@@ -43,7 +43,7 @@
         "profession",
         "null",
         "cbox",
-        "matthew"
+        "weapon"
       ],
       "minimum_three_posts_top_five": [
         "matthew",
@@ -52,25 +52,25 @@
         "evaluation",
         "analog"
       ],
-      "shared_words": 1
+      "shared_words": 0
     },
     {
       "year": "2015–2016",
       "default_top_five": [
         "utility",
         "carpentry",
-        "misshula",
         "verb",
-        "dhi"
+        "txt",
+        "mozilla"
       ],
       "minimum_three_posts_top_five": [
         "utility",
         "carpentry",
+        "mozilla",
         "misshula",
-        "dhi",
-        "mozilla"
+        "rss"
       ],
-      "shared_words": 4
+      "shared_words": 3
     },
     {
       "year": "2016–2017",
@@ -259,16 +259,16 @@
         "unconference",
         "innovator",
         "organizational",
-        "law"
+        "hunter"
       ],
       "minimum_three_posts_top_five": [
-        "brief",
-        "public",
-        "interesting",
-        "potential",
-        "several"
+        "hunter",
+        "partnership",
+        "session",
+        "transparency",
+        "dimension"
       ],
-      "shared_words": 0
+      "shared_words": 1
     }
   ]
 }

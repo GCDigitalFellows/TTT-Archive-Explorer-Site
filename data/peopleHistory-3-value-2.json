@@ -954,7 +954,21 @@
   },
   {
     "name": "Shokraan Rahiminezhad",
-    "entries": [],
+    "entries": [
+      {
+        "postId": "25049",
+        "title": "GeoLibre: Open-Source GIS in Your Browser",
+        "year": "2026–2027",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Shokran Rahiminezhad",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+        "sourceUrl": ""
+      }
+    ],
     "affiliations": [
       {
         "raw": "Earth & Environmental Sciences",

@@ -111,14 +111,14 @@ headline,2025–2026,Teaching & learning,3,24
 headline,2025–2026,Community & collaboration,0,24
 headline,2025–2026,"Ethics, access & power",0,24
 headline,2025–2026,AI & machine learning,9,24
-headline,2026–2027,Web & scholarly identity,0,4
-headline,2026–2027,Code & computational methods,0,4
-headline,2026–2027,Maps & visualization,1,4
-headline,2026–2027,"Archives, text & media",0,4
-headline,2026–2027,Teaching & learning,0,4
-headline,2026–2027,Community & collaboration,2,4
-headline,2026–2027,"Ethics, access & power",0,4
-headline,2026–2027,AI & machine learning,0,4
+headline,2026–2027,Web & scholarly identity,0,6
+headline,2026–2027,Code & computational methods,0,6
+headline,2026–2027,Maps & visualization,2,6
+headline,2026–2027,"Archives, text & media",0,6
+headline,2026–2027,Teaching & learning,0,6
+headline,2026–2027,Community & collaboration,2,6
+headline,2026–2027,"Ethics, access & power",1,6
+headline,2026–2027,AI & machine learning,0,6
 fulltext,2012–2013,Web & scholarly identity,24,38
 fulltext,2012–2013,Code & computational methods,15,38
 fulltext,2012–2013,Maps & visualization,12,38
@@ -231,14 +231,14 @@ fulltext,2025–2026,Teaching & learning,20,24
 fulltext,2025–2026,Community & collaboration,17,24
 fulltext,2025–2026,"Ethics, access & power",17,24
 fulltext,2025–2026,AI & machine learning,14,24
-fulltext,2026–2027,Web & scholarly identity,3,4
-fulltext,2026–2027,Code & computational methods,2,4
-fulltext,2026–2027,Maps & visualization,3,4
-fulltext,2026–2027,"Archives, text & media",4,4
-fulltext,2026–2027,Teaching & learning,4,4
-fulltext,2026–2027,Community & collaboration,3,4
-fulltext,2026–2027,"Ethics, access & power",3,4
-fulltext,2026–2027,AI & machine learning,3,4
+fulltext,2026–2027,Web & scholarly identity,4,6
+fulltext,2026–2027,Code & computational methods,3,6
+fulltext,2026–2027,Maps & visualization,5,6
+fulltext,2026–2027,"Archives, text & media",5,6
+fulltext,2026–2027,Teaching & learning,6,6
+fulltext,2026–2027,Community & collaboration,4,6
+fulltext,2026–2027,"Ethics, access & power",5,6
+fulltext,2026–2027,AI & machine learning,3,6
 essay,2012–2013,Scholarly purpose and technical choices shape each other,1,1
 essay,2012–2013,Learning is supported through relationships and independence,0,1
 essay,2012–2013,"Repair, care and limits appear as scholarly work",0,1
@@ -323,9 +323,9 @@ essay,2025–2026,"Repair, care and limits appear as scholarly work",0,4
 essay,2025–2026,Ethics operates inside the method,1,4
 essay,2025–2026,AI prompts different judgments across the archive,3,4
 essay,2025–2026,Convening appears as an intellectual contribution,0,4
-essay,2026–2027,Scholarly purpose and technical choices shape each other,0,0
-essay,2026–2027,Learning is supported through relationships and independence,0,0
-essay,2026–2027,"Repair, care and limits appear as scholarly work",0,0
-essay,2026–2027,Ethics operates inside the method,0,0
-essay,2026–2027,AI prompts different judgments across the archive,0,0
-essay,2026–2027,Convening appears as an intellectual contribution,0,0
+essay,2026–2027,Scholarly purpose and technical choices shape each other,1,2
+essay,2026–2027,Learning is supported through relationships and independence,0,2
+essay,2026–2027,"Repair, care and limits appear as scholarly work",0,2
+essay,2026–2027,Ethics operates inside the method,0,2
+essay,2026–2027,AI prompts different judgments across the archive,0,2
+essay,2026–2027,Convening appears as an intellectual contribution,1,2

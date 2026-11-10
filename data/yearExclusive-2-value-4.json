@@ -3,12 +3,12 @@
     "year": "2020–2021",
     "analyzedPosts": 19,
     "allTypes": 2381,
-    "exclusiveTypes": 326,
-    "singlePostTypes": 316,
+    "exclusiveTypes": 325,
+    "singlePostTypes": 315,
     "multiplePostTypes": 10,
     "singleOccurrenceTypes": 261,
-    "sharedAcrossYearsTypes": 2055,
-    "exclusiveShare": 0.1369172616547669,
+    "sharedAcrossYearsTypes": 2056,
+    "exclusiveShare": 0.1364972700545989,
     "forms": [
       {
         "word": "rqda",
@@ -516,14 +516,6 @@
         "posts": 1,
         "ids": [
           "19868"
-        ]
-      },
-      {
-        "word": "uncover",
-        "occurrences": 2,
-        "posts": 1,
-        "ids": [
-          "6005"
         ]
       },
       {
@@ -4223,12 +4215,12 @@
     "year": "2022–2023",
     "analyzedPosts": 18,
     "allTypes": 2321,
-    "exclusiveTypes": 357,
-    "singlePostTypes": 350,
+    "exclusiveTypes": 356,
+    "singlePostTypes": 349,
     "multiplePostTypes": 7,
-    "singleOccurrenceTypes": 300,
-    "sharedAcrossYearsTypes": 1964,
-    "exclusiveShare": 0.15381301163291686,
+    "singleOccurrenceTypes": 302,
+    "sharedAcrossYearsTypes": 1965,
+    "exclusiveShare": 0.15338216286083584,
     "forms": [
       {
         "word": "caucus",
@@ -4370,15 +4362,6 @@
         ]
       },
       {
-        "word": "marisa",
-        "occurrences": 3,
-        "posts": 2,
-        "ids": [
-          "19886",
-          "19885"
-        ]
-      },
-      {
         "word": "burnout",
         "occurrences": 3,
         "posts": 1,
@@ -4463,6 +4446,15 @@
         ]
       },
       {
+        "word": "marisa",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "19886",
+          "19885"
+        ]
+      },
+      {
         "word": "acidic",
         "occurrences": 2,
         "posts": 1,
@@ -4519,14 +4511,6 @@
         ]
       },
       {
-        "word": "iovino",
-        "occurrences": 2,
-        "posts": 1,
-        "ids": [
-          "19885"
-        ]
-      },
-      {
         "word": "justin",
         "occurrences": 2,
         "posts": 1,
@@ -4548,14 +4532,6 @@
         "posts": 1,
         "ids": [
           "6446"
-        ]
-      },
-      {
-        "word": "maren",
-        "occurrences": 2,
-        "posts": 1,
-        "ids": [
-          "6755"
         ]
       },
       {
@@ -4620,14 +4596,6 @@
         "posts": 1,
         "ids": [
           "6431"
-        ]
-      },
-      {
-        "word": "rothfritz",
-        "occurrences": 2,
-        "posts": 1,
-        "ids": [
-          "6755"
         ]
       },
       {
@@ -5751,6 +5719,14 @@
         ]
       },
       {
+        "word": "iovino",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "19885"
+        ]
+      },
+      {
         "word": "iraq",
         "occurrences": 1,
         "posts": 1,
@@ -5908,6 +5884,14 @@
         "posts": 1,
         "ids": [
           "19882"
+        ]
+      },
+      {
+        "word": "maren",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "6755"
         ]
       },
       {
@@ -6471,6 +6455,14 @@
         ]
       },
       {
+        "word": "rothfritz",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "6755"
+        ]
+      },
+      {
         "word": "routines",
         "occurrences": 1,
         "posts": 1,
@@ -6772,14 +6764,6 @@
         "posts": 1,
         "ids": [
           "6446"
-        ]
-      },
-      {
-        "word": "surprisingly",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19878"
         ]
       },
       {

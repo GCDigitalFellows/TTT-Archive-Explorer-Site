@@ -1,4 +1,4 @@
-/* Five analytic lenses on one preserved 299-post corpus.
+/* Five analytic lenses on one preserved current modeled-post corpus.
  * Python supplies the versioned aggregates; JavaScript selects and partitions
  * them. No browser NLP/model fit, source edit or authorship inference occurs.
  * Keep raw counts, incidence shares, distinctiveness scores and topic weights

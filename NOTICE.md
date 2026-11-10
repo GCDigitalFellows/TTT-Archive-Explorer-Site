@@ -41,3 +41,13 @@ This project incorporates unchanged skill texts from [Owl-Listener/inclusive-des
 **Archify:** the unchanged project-local `archify/` skill package from [tt-a1i/archify](https://github.com/tt-a1i/archify/tree/a4065941f12be7967436261d9934784e381d423c/archify), pinned `a4065941f12be7967436261d9934784e381d423c`, defaults to Apache-2.0. Its LICENSE, LICENSE-MIT, NOTICE and THIRD_PARTY_NOTICES.md preserve historical MIT grants, third-party terms and recorded copyrights for tt-a1i (Archify) and Cocoon AI. These terms cover its runtime/templates, not ownership of authored project content. See `analysis/skills/archify/README.md` in the private source repository for integration scope. The authoring skill package remains private. Four standalone workflow diagrams embed its runtime and retain their embedded notices; LICENSE, LICENSE-MIT, NOTICE and THIRD_PARTY_NOTICES.md are published beside them under diagrams/workflow/.
 
 **Design Slop:** the unchanged project-local skill is pinned to wpgaurav/design-slop revision `762729ec0031c50260992cef8e7ed2562bb66f31`, under MIT, Copyright (c) 2026 Gaurav Tiwari. Its LICENSE and source references are preserved with separate provenance. These upstream credits do not establish contribution, endorsement or human review of this project. Original project MIT and source-post rights remain unchanged.
+
+## November 9, 2026 additive source refresh
+
+The active composite adds two published posts from Ian G. Williams’s supplied November 9 export to the preserved November 1 snapshot. It contains 423 published category records: 277 carry `cac_cc_license = by-nc-sa` without a version, and 146 lack per-post license metadata. Original metadata and separate photography credits remain preserved. This update does not assign a version, remove restrictions, or apply project MIT to source works. See `analysis/refresh/2026-11-09/receipt.json` and the regenerated rights ledger for fingerprints.
+
+## Fonts in the isolated typography demo
+
+The local demo under `analysis/demos/flyer_typography/` bundles unmodified Pixelify Sans and Atkinson Hyperlegible Next font files under SIL Open Font License 1.1, with upstream copyright and license notices beside the files. Font authors and pinned sources are recorded in that demo’s README and manifest. These fonts are not covered by project MIT and are not added to the public release by this reference/demo task. The source artwork retains its separate rights.
+
+The previously isolated flyer typefaces are also bundled in the active explorer under `assets/fonts/`: Pixelify Sans and Atkinson Hyperlegible Next, unmodified and governed by their accompanying SIL OFL 1.1 notices. The project MIT license does not replace these font licenses.

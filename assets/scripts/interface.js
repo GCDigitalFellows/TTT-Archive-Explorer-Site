@@ -39,7 +39,35 @@
     "The essay treats maintenance and repair as part of scholarly work. It also asks what institutional support makes that work possible.",
     "These posts raise ethical questions about how researchers collect, represent, own, and share data.",
     "The selected posts approach AI in different ways. Some criticize its use, while others describe experiments in specific settings.",
-    "The essay uses one selected post to examine what people learn by organizing a discussion.",
+    "The essay uses selected accounts to examine what people learn by organizing a discussion.",
+  ];
+  // These are editorial reading prompts, not new findings about the authors.
+  // Edit them beside the summaries; keep source passages unchanged below.
+  const readingNotes = [
+    [
+      "These examples connect a scholarly question, a tool choice and communication.",
+      "When does access to a tool constrain the question a researcher can ask? These passages do not show that every tool choice is deliberate.",
+    ],
+    [
+      "These examples describe learning through relationships as well as independent practice.",
+      "Who has time or access to join? Personal confidence does not establish that institutional barriers have disappeared.",
+    ],
+    [
+      "These examples bring repair, maintenance and ending a project into the account of scholarship.",
+      "Care can sustain a project, but it can also require saying no. These examples cannot measure whose maintenance work remains uncredited.",
+    ],
+    [
+      "These examples connect ethical choices to access, language, metadata and AI.",
+      "Ethical aims may conflict. Read the differences between these cases rather than treating them as one agreed framework.",
+    ],
+    [
+      "These examples deliberately put criticism of AI beside accounts of situated experimentation.",
+      "Publication dates, tasks and judgments differ. The examples do not establish a consensus or a change in the whole community's opinion.",
+    ],
+    [
+      "These accounts make organizing and reporting discussion visible as intellectual work.",
+      "These accounts cannot establish the outcomes of every gathering or identify everyone who supported it.",
+    ],
   ];
   function element(tag, text, className) {
     const node = document.createElement(tag);
@@ -209,7 +237,9 @@
     if (state.supported) filtered.push("source-supported only");
     byId("wp-result-scope").textContent =
       selected.length +
-      " of 421 published records" +
+      " of " +
+      posts.length +
+      " published records" +
       (filtered.length
         ? " · " + filtered.join(" · ")
         : " · all publication years and credits") +
@@ -372,7 +402,7 @@
         element(
           "p",
           "No saved model profile is available for this post. " +
-            (post.exclusion || "It is outside the 299-post fitted corpus.") +
+            (post.exclusion || "It is outside the current fitted corpus.") +
             " This explorer does not infer a new profile.",
         ),
       );
@@ -451,6 +481,18 @@
         "small",
       ),
     );
+    const rationale = element("details");
+    rationale.append(
+      element("summary", "Why these passages? What complicates this reading?"),
+      element("p", readingNotes[state.theme][0]),
+      element("p", readingNotes[state.theme][1]),
+      element(
+        "p",
+        "Selection and these reading prompts are AI-assisted editorial judgments. Illustrative accounts can matter without being statistically representative. Use People & methods to suggest another reading.",
+        "small",
+      ),
+    );
+    content.append(rationale);
     for (const source of group.sources) {
       const post = byPost.get(source.id);
       const card = element("article", undefined, "source");

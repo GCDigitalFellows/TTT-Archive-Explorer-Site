@@ -1,10 +1,10 @@
-academic_year,scope,posts,topic_1_mean
-2023–2024,all included posts,14,0.11955047629757345
-2023–2024,excluding posts crediting Parisa Setayesh,14,0.11955047629757345
-2023–2024,same-semester roster matched,12,0.13103694401305407
-2024–2025,all included posts,22,0.2916721165882074
-2024–2025,excluding posts crediting Parisa Setayesh,17,0.22478070135791467
-2024–2025,same-semester roster matched,19,0.3152889267033959
-2025–2026,all included posts,22,0.2982225723514459
-2025–2026,excluding posts crediting Parisa Setayesh,19,0.23655102914909906
-2025–2026,same-semester roster matched,17,0.2807179103270882
+academic_year,scope,posts,topic_id,topic_mean
+2023–2024,all included posts,14,3,0.12506152830531214
+2023–2024,excluding posts crediting Parisa Setayesh,14,3,0.12506152830531214
+2023–2024,same-semester roster matched,12,3,0.13883381040752657
+2024–2025,all included posts,22,3,0.27968654722118763
+2024–2025,excluding posts crediting Parisa Setayesh,17,3,0.21704176533075142
+2024–2025,same-semester roster matched,19,3,0.30474649663102804
+2025–2026,all included posts,22,3,0.2862856246171131
+2025–2026,excluding posts crediting Parisa Setayesh,19,3,0.22750956768001734
+2025–2026,same-semester roster matched,17,3,0.2652489125089054

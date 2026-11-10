@@ -22395,5 +22395,117 @@
     "original_credited_authors": [
       "Sophie Bala"
     ]
+  },
+  {
+    "id": "24957",
+    "title": "2026 CUNY DHI Lightning Talks In Review",
+    "date": "2026-11-02 12:28:34",
+    "academic_year": "2026–2027",
+    "semester": "fall",
+    "status": "publish",
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+    "creator_login": "mehagupta8",
+    "creator_name": "Meha Gupta",
+    "credited_authors": [
+      "Meha Gupta"
+    ],
+    "author_evidence": "author taxonomy",
+    "author_credit_status": "author taxonomy",
+    "author_credit_quote": "",
+    "author_terms": [
+      "mehagupta8"
+    ],
+    "kind": "local/unflagged",
+    "source_url": "",
+    "source_author": "",
+    "tags": [
+      "Digital GC",
+      "Digital Humanities",
+      "Events"
+    ],
+    "themes": [],
+    "theme_hits": {
+      "Web & scholarly identity": [],
+      "Code & computational methods": [],
+      "Maps & visualization": [],
+      "Archives, text & media": [],
+      "Teaching & learning": [],
+      "Community & collaboration": [],
+      "Ethics, access & power": [],
+      "AI & machine learning": []
+    },
+    "fulltext_themes": [
+      "Maps & visualization",
+      "Archives, text & media",
+      "Teaching & learning",
+      "Community & collaboration",
+      "Ethics, access & power"
+    ],
+    "cohort_link": "Meha Gupta",
+    "cohort_link_status": "same-semester roster match",
+    "original_credited_authors": [
+      "Meha Gupta"
+    ]
+  },
+  {
+    "id": "25049",
+    "title": "GeoLibre: Open-Source GIS in Your Browser",
+    "date": "2026-11-09 11:08:17",
+    "academic_year": "2026–2027",
+    "semester": "fall",
+    "status": "publish",
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+    "creator_login": "sbala1",
+    "creator_name": "Sophie Bala",
+    "credited_authors": [
+      "Shokraan Rahiminezhad"
+    ],
+    "author_evidence": "author taxonomy",
+    "author_credit_status": "author taxonomy",
+    "author_credit_quote": "",
+    "author_terms": [
+      "shokran-rahiminezhad"
+    ],
+    "kind": "local/unflagged",
+    "source_url": "",
+    "source_author": "",
+    "tags": [
+      "Digital GC",
+      "gis",
+      "Guides, Tutorials, Reviews",
+      "mapping",
+      "open source"
+    ],
+    "themes": [
+      "Maps & visualization",
+      "Ethics, access & power"
+    ],
+    "theme_hits": {
+      "Web & scholarly identity": [],
+      "Code & computational methods": [],
+      "Maps & visualization": [
+        "gis",
+        "mapping"
+      ],
+      "Archives, text & media": [],
+      "Teaching & learning": [],
+      "Community & collaboration": [],
+      "Ethics, access & power": [
+        "open source"
+      ],
+      "AI & machine learning": []
+    },
+    "fulltext_themes": [
+      "Web & scholarly identity",
+      "Code & computational methods",
+      "Maps & visualization",
+      "Teaching & learning",
+      "Ethics, access & power"
+    ],
+    "cohort_link": "",
+    "cohort_link_status": "unconfirmed; no matching signed roster evidence",
+    "original_credited_authors": [
+      "Shokran Rahiminezhad"
+    ]
   }
 ]

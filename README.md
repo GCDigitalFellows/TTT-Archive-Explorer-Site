@@ -37,6 +37,23 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-09 — Publish the approved flyer typography and accumulated current corpus/interface revisions to the private source and public website repositories.
+- 2026-11-09 — Promoted the approved flyer typography to the active default appearance, with preserved historical styles and local font licenses.
+- 2026-11-09 — Built an in-page typography comparison using Pixelify Sans headings, Atkinson Hyperlegible Next reading text and optional flyer heading accents.
+- 2026-11-09 — Extracted an exact-color reference palette from the supplied NYC PIT Pop Up flyer, with swatches, reusable CSS tokens and contrast guidance.
+- 2026-11-09 — Replaced the homepage lead with Ian’s supplied sentence about doctoral student contributions.
+- 2026-11-09 — Integrated two newly supplied published posts, preserved the earlier snapshot, reran cleaning and models, and rebuilt article accounting, analyses and visualization populations.
+- 2026-11-09 — Added the approved question-led network entry and article-centered shared-writing paths while preserving existing network modes.
+- 2026-11-09 — Reviewed authorship network definitions, projections, uncertainty, controls and source-reading routes through the critical-methods knowledge base.
+- 2026-11-09 — Implemented clearer corpus coverage, situated interpretation, quote eligibility, chart guidance and feedback explanations, with a six-case saved-text cleaning audit.
+- 2026-11-09 — Reassessed website narrative, analysis and interface through the critical-methods knowledge base and raised decisions for Ian.
+- 2026-11-09 — Developed a code-linked methods knowledge base on data cleaning, digital humanities, critical data studies and design justice.
+- 2026-11-09 — Built an isolated main-site cleaning comparison with shared topic selection, explicit corpus scope and reader return.
+- 2026-11-09 — Reviewed placement, scope, evidence and accessibility requirements for integrating the cleaning comparison into Text patterns.
+- 2026-11-09 — Added an educational explanation of LDA, cleaning steps and comparison interpretation to the local demo.
+- 2026-11-09 — Built a local interactive comparison of saved LDA cleaning recipes with matched words and credited article evidence.
+- 2026-11-09 — Ran an isolated 30-fit LDA pilot with seed, cleaning and iteration comparisons, attributed evidence cards and readable figures.
+- 2026-11-09 — Researched LDA and drafted a source-linked implementation plan extending the existing MALLET analysis.
 - 2026-11-09 — Prepared the reviewer file organization and approved GitHub README integration for publication.
 - 2026-11-09 — Organized historical ZIP exports under private archives and added a task-based project map with grouped VS Code configuration.
 - 2026-11-08 — Published the approved modular explorer, review guidance, People & methods reorganization and institutional wording revisions.

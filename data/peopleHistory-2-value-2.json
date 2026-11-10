@@ -241,6 +241,19 @@
         "evidence": "",
         "url": "https://gcdi.commons.gc.cuny.edu/2026/03/27/there-is-a-question-more-important-than-does-ai-have-consciousness/",
         "sourceUrl": ""
+      },
+      {
+        "postId": "24957",
+        "title": "2026 CUNY DHI Lightning Talks In Review",
+        "year": "2026–2027",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Meha Gupta",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+        "sourceUrl": ""
       }
     ],
     "affiliations": [
@@ -2322,6 +2335,40 @@
     "datedDigitalFellow": false,
     "currentDigitalFellow": false,
     "currentRoles": [],
+    "roles": []
+  },
+  {
+    "name": "Shokraan Rahiminezhad",
+    "entries": [
+      {
+        "postId": "25049",
+        "title": "GeoLibre: Open-Source GIS in Your Browser",
+        "year": "2026–2027",
+        "status": "publish",
+        "kind": "local/unflagged",
+        "rawCredit": "Shokran Rahiminezhad",
+        "creditStatus": "author taxonomy",
+        "authorshipTier": "declared-credit",
+        "evidence": "",
+        "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+        "sourceUrl": ""
+      }
+    ],
+    "affiliations": [
+      {
+        "raw": "Earth & Environmental Sciences",
+        "label": "Earth and Environmental Sciences",
+        "basis": "2026–2027 roster affiliation",
+        "claimId": "current:Shokraan Rahiminezhad",
+        "source": "https://gcdi.commons.gc.cuny.edu/people/",
+        "passage": "Shokraan Rahiminezhad | Earth & Environmental Sciences"
+      }
+    ],
+    "datedDigitalFellow": false,
+    "currentDigitalFellow": true,
+    "currentRoles": [
+      "digital"
+    ],
     "roles": []
   },
   {

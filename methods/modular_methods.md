@@ -70,7 +70,7 @@ multi-file migrations can still exceed GitHub's aggregate diff limits.
 ## Readiness, consistency and recovery
 
 The current implementation loads complete reading text, credit metadata, topic profiles and quotations before enabling the interface. Full-text
-search therefore covers all 421 published records when available. The larger
+search therefore covers all 423 published records when available. The larger
 word-cloud counts, word-view summaries, sunburst hierarchies and year-exclusive
 vocabulary are loaded only when the word-analysis tab is opened. Writer/cohort records load as
 a separate group when People & methods opens.
@@ -141,3 +141,77 @@ source/output mapping and documentation, and performed the recorded tests.
 CRediT describes Ian's documented direction. GAIDeT discloses AI code generation,
 writing and checking in the project work log. Original article writers retain
 source-text credit and their separate rights.
+
+## Isolated component previews
+
+`build_modular()` now accepts optional `output_directory`, `script_names` and `deferred_groups` arguments. The normal builder leaves them unset and retains identical output bytes. The [cleaning integration preview](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/demos/cleaning_comparison/integration_methods.md) uses them to build into a fresh directory with one extra deferred group, without modifying the active assets or public allowlist. This is preview support, not permission to publish new groups.
+
+## Coverage and situated interpretation · November 9
+
+Edit public scope/feedback copy in `views/analysis.html`, `views/home.html` and
+`views/about.html`. Theme-specific selection notes and counterquestions live
+beside `summaries` in `ui.js`; they are editorial prompts, not source quotations.
+`analysis_core.js:coverageYears` compares the full saved published population
+with the selected modeled population; `analysis_ui.js` renders both without
+changing topic means. The full-year counts never inherit name/evidence filters.
+Run `node --test analysis/reviews/mockups/welcoming-pathways/test_analysis.js`
+after changing this calculation. The saved six-case cleaning inspection is in
+`analysis/reviews/critical_methods_reassessment_2026-11-09/`; its literal counts
+do not reproduce NLTK or license changes to the corpus. Rebuild with the usual
+builder and use the separate integration builder for the cleaning-demo preview.
+
+## Question-led network entry and shared writing · November 9
+
+The network starts with three explicit visitor questions in `views/analysis.html`.
+`analysis_ui.js` keeps the workspace hidden until a question is chosen; the
+`networkStarted` state survives in-app navigation. Question buttons preserve the
+existing year/name/evidence selection and explain the reset. Their actions select
+the name/year graph, matrix or new article-centered shared-writing view. Existing
+network/evidence controls remain available; the duplicate text-analysis controls
+are hidden on this tab.
+
+`analysis_core.js:sharedWriting` takes the already filtered local posts and returns
+one entry per article with more than one distinct credited name. It does not infer
+relationships or apply the graph's twelve-name drawing cap. `renderSharedWriting`
+in `analysis_ui.js` creates native HTML paths with full names and credit evidence;
+`styles.css` stacks their columns below 750px. Opening evidence saves the article
+button ID so Return to selected connection can restore focus. The existing return
+control ID remains stable for compatibility with matrix navigation.
+
+Try: choose See who shares a post, select Anna Corbett in its byline, and inspect
+the collective article. Predict how many articles and other names will remain;
+then compare the optional person-to-person view. The article stays one item even
+when its eleven names generate 55 pairs. This is a proposed learning activity,
+not a tested measure of learner understanding. Run `node --test` on
+`test_analysis.js` and the modular Python checks after changing these functions.
+Other review recommendations (for example tier-specific SVG line patterns) remain
+proposals, outside the two approved changes.
+
+## November 9 corpus refresh
+
+The active composite, counts and hash are in `analysis/source_snapshot.json`;
+`source_snapshot.py` locates it for recipes. Route markup uses
+`__PUBLISHED_COUNT__` and `__MODELED_COUNT__` tokens so count labels follow saved
+data. The public allowlist adds only three explicit generated data shards; raw
+exports, archives and model binaries remain excluded. The assessed quote shortlist
+stays historical while the expanded eligible pool has a checked lineage receipt.
+Do not rewrite its original assessment hash. Read the refresh report and run the
+preservation checks before repeating a corpus update.
+
+## Flyer typography · November 9, 2026
+
+Ian approved the local font demonstration for the active site. Edit
+`typography.css` for the default (2026) title/headings, body text, sizes and
+orchid/ice-blue accents. Earlier design years retain their existing treatments;
+selecting 2026 or resetting restores this default. The stylesheet is assembled
+after `styles.css`, not after user/system preference overrides. Its own final
+contrast rules restore system/foreground colors. Dark accents are sampled flyer
+colors; light accents are darker adaptations, not extracted colors.
+
+`fonts/manifest.json` pins each unmodified local font and notice by hash and
+upstream revision. `build_modular.py` verifies/copies these into
+`web/assets/fonts/`; the public allowlist maps that exact set to `assets/fonts/`.
+The optional offline export embeds font bytes separately so it remains a
+single file. No font download or system installation occurs during build/use.
+SIL OFL remains separate from project MIT. The earlier isolated demo and its
+controls remain a historical comparison, not a second production settings panel.

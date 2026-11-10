@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "files": [
+    {
+      "file": "pixelify.ttf",
+      "source": "https://raw.githubusercontent.com/eifetx/Pixelify-Sans/39df74aba80df8157546034b878e8be1eb565ced/fonts/variable/PixelifySans%5Bwght%5D.ttf",
+      "upstream_revision": "39df74aba80df8157546034b878e8be1eb565ced",
+      "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5",
+      "bytes": 79160
+    },
+    {
+      "file": "pixelify-OFL.txt",
+      "source": "https://raw.githubusercontent.com/eifetx/Pixelify-Sans/39df74aba80df8157546034b878e8be1eb565ced/OFL.txt",
+      "upstream_revision": "39df74aba80df8157546034b878e8be1eb565ced",
+      "sha256": "b66ba46f511a851ab09998b5a5a9fdbb102545a3864cb993095e1745996873a7",
+      "bytes": 4488
+    },
+    {
+      "file": "atkinson.ttf",
+      "source": "https://raw.githubusercontent.com/googlefonts/atkinson-hyperlegible-next/7925f50f649b3813257faf2f4c0b381011f434f1/fonts/variable/AtkinsonHyperlegibleNext%5Bwght%5D.ttf",
+      "upstream_revision": "7925f50f649b3813257faf2f4c0b381011f434f1",
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "bytes": 114552
+    },
+    {
+      "file": "atkinson-OFL.txt",
+      "source": "https://raw.githubusercontent.com/googlefonts/atkinson-hyperlegible-next/7925f50f649b3813257faf2f4c0b381011f434f1/OFL.txt",
+      "upstream_revision": "7925f50f649b3813257faf2f4c0b381011f434f1",
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "bytes": 4431
+    },
+    {
+      "file": "atkinson-italic.ttf",
+      "source": "https://raw.githubusercontent.com/googlefonts/atkinson-hyperlegible-next/7925f50f649b3813257faf2f4c0b381011f434f1/fonts/variable/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf",
+      "upstream_revision": "7925f50f649b3813257faf2f4c0b381011f434f1",
+      "sha256": "ce9cffed32742ad2d9238c561a93220385e5934cdc02b8eb4097a50efa957dc6",
+      "bytes": 123916
+    },
+    {
+      "file": "atkinson-italic-OFL.txt",
+      "source": "https://raw.githubusercontent.com/googlefonts/atkinson-hyperlegible-next/7925f50f649b3813257faf2f4c0b381011f434f1/OFL.txt",
+      "upstream_revision": "7925f50f649b3813257faf2f4c0b381011f434f1",
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "bytes": 4431
+    }
+  ],
+  "system_installed": false
+}

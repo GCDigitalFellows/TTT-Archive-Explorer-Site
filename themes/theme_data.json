@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-09",
   "membershipBasisLabels": {
     "signed": "Original signed-team snapshots",
     "resolved-signed": "Signed-team snapshots with reviewed name resolutions",
@@ -40,7 +40,7 @@
     },
     "essay": {
       "label": "Six interpretive themes · selected examples only",
-      "population": "19 purposively selected published posts",
+      "population": "21 purposively selected published posts",
       "basis": "Agent-developed groupings used in the source-linked essay. Counts show selected examples, not archive-wide prevalence. No unselected post is assigned these themes.",
       "themes": [
         "Scholarly purpose and technical choices shape each other",
@@ -18792,6 +18792,118 @@
         "Teaching & learning": [],
         "Community & collaboration": [],
         "Ethics, access & power": [],
+        "AI & machine learning": []
+      }
+    },
+    {
+      "id": "24957",
+      "title": "2026 CUNY DHI Lightning Talks In Review",
+      "year": "2026–2027",
+      "authors": [
+        "Meha Gupta"
+      ],
+      "originalAuthors": [
+        "Meha Gupta"
+      ],
+      "creditStatus": "author taxonomy",
+      "authorshipTier": "declared-credit",
+      "membershipByBasis": {
+        "signed": [
+          "Meha Gupta"
+        ],
+        "resolved-signed": [
+          "Meha Gupta"
+        ],
+        "directory-digital": [],
+        "directory-any": [],
+        "combined": [
+          "Meha Gupta"
+        ]
+      },
+      "historicalRoles": [],
+      "creditQuote": "",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+      "sample": true,
+      "signals": {
+        "headline": [],
+        "fulltext": [
+          "Maps & visualization",
+          "Archives, text & media",
+          "Teaching & learning",
+          "Community & collaboration",
+          "Ethics, access & power"
+        ],
+        "essay": [
+          "Convening appears as an intellectual contribution"
+        ]
+      },
+      "titleTagTerms": {
+        "Web & scholarly identity": [],
+        "Code & computational methods": [],
+        "Maps & visualization": [],
+        "Archives, text & media": [],
+        "Teaching & learning": [],
+        "Community & collaboration": [],
+        "Ethics, access & power": [],
+        "AI & machine learning": []
+      }
+    },
+    {
+      "id": "25049",
+      "title": "GeoLibre: Open-Source GIS in Your Browser",
+      "year": "2026–2027",
+      "authors": [
+        "Shokraan Rahiminezhad"
+      ],
+      "originalAuthors": [
+        "Shokran Rahiminezhad"
+      ],
+      "creditStatus": "author taxonomy",
+      "authorshipTier": "declared-credit",
+      "membershipByBasis": {
+        "signed": [],
+        "resolved-signed": [
+          "Shokraan Rahiminezhad"
+        ],
+        "directory-digital": [],
+        "directory-any": [],
+        "combined": [
+          "Shokraan Rahiminezhad"
+        ]
+      },
+      "historicalRoles": [],
+      "creditQuote": "",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+      "sample": true,
+      "signals": {
+        "headline": [
+          "Maps & visualization",
+          "Ethics, access & power"
+        ],
+        "fulltext": [
+          "Web & scholarly identity",
+          "Code & computational methods",
+          "Maps & visualization",
+          "Teaching & learning",
+          "Ethics, access & power"
+        ],
+        "essay": [
+          "Scholarly purpose and technical choices shape each other"
+        ]
+      },
+      "titleTagTerms": {
+        "Web & scholarly identity": [],
+        "Code & computational methods": [],
+        "Maps & visualization": [
+          "gis",
+          "mapping"
+        ],
+        "Archives, text & media": [],
+        "Teaching & learning": [],
+        "Community & collaboration": [],
+        "Ethics, access & power": [
+          "open source"
+        ],
         "AI & machine learning": []
       }
     }

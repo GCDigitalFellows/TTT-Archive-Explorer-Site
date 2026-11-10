@@ -32,6 +32,6 @@ records.json and post_inventory.csv preserve the current audited source credits.
 
 ## Limits and reuse
 
-Local/unflagged is a detection category, not proof of authorship; many account-based credits are provisional. Signed lists are incomplete active-team snapshots, not full appointment histories. Nineteen purposive reading examples are not representative or causal evidence. Images and embeds are not analyzed as prose. Simulated AI reviews are not human user testing. Complete independent human validation is not documented.
+Local/unflagged is a detection category, not proof of authorship; many account-based credits are provisional. Signed lists are incomplete active-team snapshots, not full appointment histories. Twenty-one purposive reading examples are not representative or causal evidence. Images and embeds are not analyzed as prose. Simulated AI reviews are not human user testing. Complete independent human validation is not documented.
 
 See METHODS_AND_DATA.html, DATA_GUIDE.html, ACCESSIBILITY.html, CORRECTIONS.md and REUSE_AND_CITATION.html. Original project code, documentation and analysis are MIT-licensed to the extent project rights permit; source works retain separate rights. See LICENSE, NOTICE.md and SOURCE_RIGHTS.html.

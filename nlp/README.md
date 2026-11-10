@@ -33,7 +33,7 @@ The main pipeline trains five models: k=6/8/10 at seed 42, plus k=8 at seeds 172
 
 The official Java classes are invoked directly because the distributed shell launcher's unquoted paths fail when the project path contains spaces. The model implementation remains MALLET. The scripts do not call an external inference service or substitute another LDA implementation.
 
-`cleaned_text` contains stopword-filtered lemmas before document-frequency pruning. `mallet_input.tsv` additionally restricts vocabulary to terms in at least three and fewer than 80% of included posts. `readable_text` preserves contextual words, including negation. `corpus_manifest.csv` is authoritative for inclusion; 299 of 421 published posts enter the main model. Curated posts, welcome messages, and very short items remain accounted for separately.
+`cleaned_text` contains stopword-filtered lemmas before document-frequency pruning. `mallet_input.tsv` additionally restricts vocabulary to terms in at least three and fewer than 80% of included posts. `readable_text` preserves contextual words, including negation. `corpus_manifest.csv` is authoritative for inclusion; 301 of 423 published posts enter the main model. Curated posts, welcome messages, and very short items remain accounted for separately.
 
 Phrase frequencies and concordances are generated with NLTK. Some normalized phrases look unnatural because plural nouns are lemmatized. Model topic IDs have meaning only within their own run. Interpretive labels apply to the primary run and should be reviewed if preprocessing, corpus membership, or model settings change.
 
@@ -50,3 +50,11 @@ This records a new evidence fingerprint; it is not a model-quality test. The ind
 ## Review-status clarification, November 2, 2026
 
 Saved topic labels and narrative were agent-developed. A review fingerprint or file named theme_coding.csv does not establish independent human coding or human approval. See ../WORK_LOG.html for the distinction between automated numerical checks, agent source review, simulated audience critique and actual human participation. The current interface can be rebuilt without retraining the historical model.
+
+## Proposed next analysis
+
+See the [additional LDA plan](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/docs/research/lda/PLAN.md) and its primary-source bibliography. It preserves these fitted outputs and proposes isolated, versioned experiments; it does not authorize running this pipeline to overwrite them.
+
+## Active November 9 refresh
+
+The active source is a hash-recorded composite, located through `analysis/source_snapshot.json`. The earlier 299-post models remain privately preserved under `archives/research/2026-11-09-before-corpus-refresh/analysis/nlp/`; active `analysis/nlp/` holds five new fits on 301 posts. Three historical cleaned files lose ten residual byline/bio tokens under the existing rule, documented separately from the two new posts. Topic numbers changed; provisional labels were matched and checked against leading words. This is Codex review, not independent human coding. See the refresh report for fingerprints and checks.

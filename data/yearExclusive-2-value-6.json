@@ -1,0 +1,1702 @@
+[
+  {
+    "year": "2026–2027",
+    "analyzedPosts": 5,
+    "allTypes": 1445,
+    "exclusiveTypes": 209,
+    "singlePostTypes": 194,
+    "multiplePostTypes": 15,
+    "singleOccurrenceTypes": 169,
+    "sharedAcrossYearsTypes": 1236,
+    "exclusiveShare": 0.14463667820069204,
+    "forms": [
+      {
+        "word": "pit",
+        "occurrences": 18,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "geolibre",
+        "occurrences": 16,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "citycamp",
+        "occurrences": 14,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "betanyc",
+        "occurrences": 7,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "unconferences",
+        "occurrences": 7,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "ost",
+        "occurrences": 6,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "enforcement",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "mamdani",
+        "occurrences": 3,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "ceremony",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "doge",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "feinstein",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "hackathon",
+        "occurrences": 3,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "civics",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "hidalgo",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "ideology",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "jordan",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "mayor",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "noel",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "rahiminezhad",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "25049",
+          "24957"
+        ]
+      },
+      {
+        "word": "shapiro",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "24843",
+          "24783"
+        ]
+      },
+      {
+        "word": "shokran",
+        "occurrences": 2,
+        "posts": 2,
+        "ids": [
+          "25049",
+          "24957"
+        ]
+      },
+      {
+        "word": "allure",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "barcamp",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "exhausted",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "figueroa",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "geopackage",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "geoparquet",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "intent",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "kml",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "legislation",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "metagov",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "moynihan",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "nasa",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "owen",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "roosevelt",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "slot",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "tall",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "tictec",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "tram",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "vásquez",
+        "occurrences": 2,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "affilia",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "agile",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "alec",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "annastecia",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "appealingly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "aqueduct",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "backdoor",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "barcamps",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "belser",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "bombardment",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "bostondh",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "brewer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "brucker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "brundage",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "bureaucrat",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "cardstock",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "carve",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "centro",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "childcare",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "citycampnyc",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "coge",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "cohen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "commend",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "conceals",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "contested",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "convener",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "convening",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "corp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "cortnie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "cousin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "cramped",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "croton",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "cumiskey",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "debbie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "decentral",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "deliberation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "deliberative",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "digitalization",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "diner",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "disinformation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "dismantling",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "dispute",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "doi",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "donald",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "eberhardt",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "ebisike",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "egalitarian",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "entrepreneurs",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "episcopoal",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "exhilarating",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "facilitation",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "fahrenheit",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "firmly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "foocamp",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "footing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "frey",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "gabrielle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "gail",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "genesis",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "geotiffs",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "griffin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "gsfc",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "gupta",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "happens",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "held",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "hellmann",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "heterogeneous",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "hewlett",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "hotel",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "hydrology",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "hyperscale",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "ibrahim",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "incisive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "inclined",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "institutionalize",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "jazzy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "jonah",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "joseph",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "kansa",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "karst",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "katie",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "kelly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "langston",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "latvia",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "lichtenberg",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "llc",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "mall",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "mayoral",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "mccallum",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "meaningless",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "mechelen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "meetup",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "meetups",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "meha",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "mehrotra",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "moratorium",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "muhlbauer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "multilingual",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "mysociety",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "navigator",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "ndas",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "noah",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "nonprofits",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "nycha",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "o'brien",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "observably",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "occurs",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "oligarchic",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "onlinelibrary",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "openvisualacademy",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "opne",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "padm",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "palmer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "pentangelo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "permissible",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "perspectives",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "photos",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "pitech",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "placelessness",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "pleasantly",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "polyseme",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "populism",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "priest",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "qiusheng",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "ramble",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "reckoning",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "reclamo",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "reconvene",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "reopen",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "resurgence",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "revive",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "riveting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "sabah",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "seachange",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "sensemaking",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "sensing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "sharon",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "showcased",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "singh",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "sizing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "socialist",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "sorochan",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "sought",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "sour",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "spacing",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "stall",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "statecraft",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "staunch",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "sticker",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "subculture",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "terminate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "tinkerer",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "tobias",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "toolbox",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "25049"
+        ]
+      },
+      {
+        "word": "touchpoints",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      },
+      {
+        "word": "twelfth",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "understate",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "unsettle",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "untechnology",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "vertical",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24863"
+        ]
+      },
+      {
+        "word": "voting",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "wiley",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "winstead",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "wisknioski",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "wisnioski",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "wistman",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "yomaira",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24957"
+        ]
+      },
+      {
+        "word": "zohran",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24843"
+        ]
+      },
+      {
+        "word": "zukin",
+        "occurrences": 1,
+        "posts": 1,
+        "ids": [
+          "24783"
+        ]
+      }
+    ]
+  }
+]

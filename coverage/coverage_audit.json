@@ -1,38 +1,38 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-09",
   "scope": "Published category coverage and export accounting after excluding draft rows.",
-  "export_sha256": "ba4bb721c4f32b3340126f78e93f8b812e0ef79cd31810a9bc1c6f6dccb49ee7",
-  "export_items": 857,
-  "ordinary_posts": 425,
-  "in_archive": 421,
-  "published": 421,
+  "export_sha256": "5d5608fe030aee200efe6e9b1849bfe5691cb0c734fcfbf20c6507146ff87ad7",
+  "export_items": 894,
+  "ordinary_posts": 427,
+  "in_archive": 423,
+  "published": 423,
   "excluded_category_drafts": 9,
-  "local_published": 325,
+  "local_published": 327,
   "curated_published": 96,
   "ordinary_posts_outside_category": 4,
-  "modeled": 299,
+  "modeled": 301,
   "model_excluded_published": 122,
-  "body_signal_rows": 325,
-  "earlier_motif_population": 307,
+  "body_signal_rows": 327,
+  "earlier_motif_population": 309,
   "published_credit_dispositions": {
-    "source-supported": 95,
+    "declared-credit": 122,
     "unresolved-account": 206,
-    "declared-credit": 120
+    "source-supported": 95
   },
   "local_credit_dispositions": {
-    "source-supported": 93,
     "unresolved-account": 206,
-    "declared-credit": 26
+    "source-supported": 93,
+    "declared-credit": 28
   },
   "all_credit_dispositions": {
     "unresolved-account": 206,
     "source-supported": 95,
-    "declared-credit": 120
+    "declared-credit": 122
   },
   "item_types": {
-    "post": 425,
+    "post": 427,
     "revision": 94,
-    "attachment": 300,
+    "attachment": 335,
     "tribe_organizer": 1,
     "slide": 4,
     "tribe_events": 11,

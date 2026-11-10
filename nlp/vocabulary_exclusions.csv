@@ -12,7 +12,7 @@ abolish,1,document frequency below 3
 aboriginal,1,document frequency below 3
 abou,1,document frequency below 3
 abrahamson,1,document frequency below 3
-abreast,1,document frequency below 3
+abreast,2,document frequency below 3
 abridged,1,document frequency below 3
 abroad,1,document frequency below 3
 abrupt,2,document frequency below 3
@@ -108,7 +108,6 @@ advocacy,2,document frequency below 3
 aes,1,document frequency below 3
 aesthetically,2,document frequency below 3
 aether,1,document frequency below 3
-affective,2,document frequency below 3
 affilia,1,document frequency below 3
 affiliate,1,document frequency below 3
 affiliated,1,document frequency below 3
@@ -155,6 +154,7 @@ albion,1,document frequency below 3
 album,2,document frequency below 3
 alchemy,1,document frequency below 3
 alderman,1,document frequency below 3
+alec,1,document frequency below 3
 alexander,2,document frequency below 3
 alexandra,1,document frequency below 3
 alexandria,1,document frequency below 3
@@ -252,6 +252,7 @@ animation,2,document frequency below 3
 ann,1,document frequency below 3
 anna,2,document frequency below 3
 annapia,1,document frequency below 3
+annastecia,1,document frequency below 3
 annihilate,1,document frequency below 3
 anniversary,1,document frequency below 3
 annotatable,1,document frequency below 3
@@ -509,7 +510,6 @@ basement,1,document frequency below 3
 baseurl,2,document frequency below 3
 basketball,1,document frequency below 3
 bass,1,document frequency below 3
-batist,1,document frequency below 3
 baton,1,document frequency below 3
 battle,1,document frequency below 3
 baudrillard,1,document frequency below 3
@@ -555,6 +555,7 @@ bellacasa,1,document frequency below 3
 belli,2,document frequency below 3
 belonging,2,document frequency below 3
 belongs,1,document frequency below 3
+belser,1,document frequency below 3
 ben,2,document frequency below 3
 benchwork,1,document frequency below 3
 bend,1,document frequency below 3
@@ -566,7 +567,7 @@ berman,2,document frequency below 3
 berners,1,document frequency below 3
 bernie,1,document frequency below 3
 besar,1,document frequency below 3
-beside,1,document frequency below 3
+beside,2,document frequency below 3
 besotted,1,document frequency below 3
 bespectacled,1,document frequency below 3
 bess,1,document frequency below 3
@@ -757,8 +758,10 @@ brook,1,document frequency below 3
 brother,1,document frequency below 3
 broussard,2,document frequency below 3
 bruce,1,document frequency below 3
+brucker,1,document frequency below 3
 brugh,1,document frequency below 3
 bruise,1,document frequency below 3
+brundage,1,document frequency below 3
 brunt,1,document frequency below 3
 brush,2,document frequency below 3
 btn,2,document frequency below 3
@@ -867,7 +870,6 @@ cardstock,1,document frequency below 3
 caret,1,document frequency below 3
 caribbean,1,document frequency below 3
 caring,1,document frequency below 3
-carly,1,document frequency below 3
 carmela,1,document frequency below 3
 carol,2,document frequency below 3
 carolina,2,document frequency below 3
@@ -926,6 +928,7 @@ centrality,1,document frequency below 3
 centralize,2,document frequency below 3
 centralized,2,document frequency below 3
 centric,2,document frequency below 3
+centro,1,document frequency below 3
 ceo,2,document frequency below 3
 ceramic,1,document frequency below 3
 ceremony,1,document frequency below 3
@@ -990,7 +993,6 @@ choosing,2,document frequency below 3
 chop,1,document frequency below 3
 chord,1,document frequency below 3
 chore,1,document frequency below 3
-choropleth,2,document frequency below 3
 christaller,1,document frequency below 3
 christen,1,document frequency below 3
 christian,2,document frequency below 3
@@ -1087,6 +1089,7 @@ codex,1,document frequency below 3
 coexistence,1,document frequency below 3
 coge,1,document frequency below 3
 cognizantly,1,document frequency below 3
+cohen,1,document frequency below 3
 coherence,2,document frequency below 3
 cohesive,1,document frequency below 3
 cohortian,1,document frequency below 3
@@ -1308,6 +1311,7 @@ correlation,1,document frequency below 3
 correspondent,1,document frequency below 3
 correspondingly,2,document frequency below 3
 corrupt,2,document frequency below 3
+cortnie,1,document frequency below 3
 cosine,1,document frequency below 3
 cosmetic,1,document frequency below 3
 costanza,1,document frequency below 3
@@ -1323,6 +1327,7 @@ counternarratives,1,document frequency below 3
 counting,2,document frequency below 3
 countryside,1,document frequency below 3
 courage,1,document frequency below 3
+cousin,1,document frequency below 3
 cove,1,document frequency below 3
 coverage,1,document frequency below 3
 cower,1,document frequency below 3
@@ -1616,7 +1621,6 @@ dhtandem,1,document frequency below 3
 diabolus,1,document frequency below 3
 diacritic,2,document frequency below 3
 diacritical,1,document frequency below 3
-diagram,2,document frequency below 3
 diagramming,1,document frequency below 3
 dialect,1,document frequency below 3
 dialectical,1,document frequency below 3
@@ -1638,7 +1642,7 @@ digestible,1,document frequency below 3
 digging,1,document frequency below 3
 digibar,1,document frequency below 3
 digidiss,1,document frequency below 3
-digital,240,document frequency at least 80%
+digital,241,document frequency at least 80%
 digitales,1,document frequency below 3
 digitalhuac,1,document frequency below 3
 digitality,1,document frequency below 3
@@ -1869,6 +1873,7 @@ eastern,1,document frequency below 3
 eavesdropper,1,document frequency below 3
 ebb,2,document frequency below 3
 eberhardt,1,document frequency below 3
+ebisike,1,document frequency below 3
 ecco,1,document frequency below 3
 eclipse,2,document frequency below 3
 econometric,1,document frequency below 3
@@ -1940,7 +1945,7 @@ embargo,1,document frequency below 3
 embark,2,document frequency below 3
 embarrassment,1,document frequency below 3
 embedded,2,document frequency below 3
-embedder,1,document frequency below 3
+embedder,2,document frequency below 3
 embedding,2,document frequency below 3
 embeddings,1,document frequency below 3
 embedly,1,document frequency below 3
@@ -2261,6 +2266,7 @@ fighter,1,document frequency below 3
 figma,1,document frequency below 3
 figshare,1,document frequency below 3
 figsize,2,document frequency below 3
+figueroa,1,document frequency below 3
 figurative,1,document frequency below 3
 figurine,1,document frequency below 3
 filename,2,document frequency below 3
@@ -2532,17 +2538,20 @@ geodata,1,document frequency below 3
 geoffrey,2,document frequency below 3
 geographical,2,document frequency below 3
 geoid,1,document frequency below 3
-geojson,1,document frequency below 3
+geojson,2,document frequency below 3
+geolibre,1,document frequency below 3
 geolode,1,document frequency below 3
 geological,1,document frequency below 3
 geom,2,document frequency below 3
+geopackage,1,document frequency below 3
 geopandas,1,document frequency below 3
+geoparquet,1,document frequency below 3
 geoportal,1,document frequency below 3
-geoprocessing,2,document frequency below 3
 georeferenced,1,document frequency below 3
 georeferenciation,1,document frequency below 3
 georeferencing,1,document frequency below 3
 georg,1,document frequency below 3
+geotiffs,1,document frequency below 3
 german,2,document frequency below 3
 germanic,1,document frequency below 3
 germany,1,document frequency below 3
@@ -2682,7 +2691,7 @@ gtf,1,document frequency below 3
 gtk,1,document frequency below 3
 guard,2,document frequency below 3
 guardian,1,document frequency below 3
-guided,1,document frequency below 3
+guided,2,document frequency below 3
 guifi,1,document frequency below 3
 guilty,1,document frequency below 3
 guin,1,document frequency below 3
@@ -2690,6 +2699,7 @@ guise,2,document frequency below 3
 guitar,2,document frequency below 3
 gulag,1,document frequency below 3
 gulp,1,document frequency below 3
+gupta,1,document frequency below 3
 guru,1,document frequency below 3
 gush,1,document frequency below 3
 gut,2,document frequency below 3
@@ -2722,7 +2732,7 @@ handling,1,document frequency below 3
 handmade,1,document frequency below 3
 handwriting,1,document frequency below 3
 haphazard,1,document frequency below 3
-happening,1,document frequency below 3
+happening,2,document frequency below 3
 happens,1,document frequency below 3
 harangue,1,document frequency below 3
 harass,1,document frequency below 3
@@ -2914,6 +2924,7 @@ hyd,1,document frequency below 3
 hyde,2,document frequency below 3
 hydro,1,document frequency below 3
 hydrography,1,document frequency below 3
+hydrology,1,document frequency below 3
 hygiene,1,document frequency below 3
 hype,1,document frequency below 3
 hyper,2,document frequency below 3
@@ -3019,6 +3030,7 @@ inception,1,document frequency below 3
 inch,2,document frequency below 3
 incident,2,document frequency below 3
 incidentally,1,document frequency below 3
+incisive,1,document frequency below 3
 incline,1,document frequency below 3
 inclined,1,document frequency below 3
 included,2,document frequency below 3
@@ -3310,7 +3322,7 @@ jazzy,1,document frequency below 3
 jcii,1,document frequency below 3
 jeamed,1,document frequency below 3
 jean,2,document frequency below 3
-jeff,1,document frequency below 3
+jeff,2,document frequency below 3
 jeffrey,2,document frequency below 3
 jekyllized,1,document frequency below 3
 jenna,2,document frequency below 3
@@ -3336,8 +3348,10 @@ johanna,2,document frequency below 3
 johnstone,1,document frequency below 3
 joined,1,document frequency below 3
 jojokarlin,1,document frequency below 3
+jonah,1,document frequency below 3
 jordan,2,document frequency below 3
 josefina,1,document frequency below 3
+joseph,1,document frequency below 3
 josh,1,document frequency below 3
 joshua,2,document frequency below 3
 jotleaf,1,document frequency below 3
@@ -3373,6 +3387,7 @@ kaplan,1,document frequency below 3
 karen,1,document frequency below 3
 karma,1,document frequency below 3
 karpukhin,1,document frequency below 3
+karst,1,document frequency below 3
 kashmir,1,document frequency below 3
 katherine,2,document frequency below 3
 kathy,2,document frequency below 3
@@ -3390,6 +3405,7 @@ kehoe,1,document frequency below 3
 keithmiyake,1,document frequency below 3
 kelley,2,document frequency below 3
 kells,1,document frequency below 3
+kelly,1,document frequency below 3
 kenneth,1,document frequency below 3
 kentucky,1,document frequency below 3
 kenya,1,document frequency below 3
@@ -3434,6 +3450,7 @@ kitten,1,document frequency below 3
 kitty,1,document frequency below 3
 kiyoshi,1,document frequency below 3
 kmiyake,1,document frequency below 3
+kml,1,document frequency below 3
 knack,2,document frequency below 3
 knee,1,document frequency below 3
 kneel,1,document frequency below 3
@@ -3569,6 +3586,7 @@ libros,1,document frequency below 3
 librosa,1,document frequency below 3
 licensed,1,document frequency below 3
 licensing,2,document frequency below 3
+lichtenberg,1,document frequency below 3
 lieu,1,document frequency below 3
 lifecycle,1,document frequency below 3
 lifeline,1,document frequency below 3
@@ -3853,6 +3871,7 @@ meds,1,document frequency below 3
 meetup,1,document frequency below 3
 meetups,1,document frequency below 3
 megawatt,1,document frequency below 3
+meha,1,document frequency below 3
 mehrotra,1,document frequency below 3
 melanie,1,document frequency below 3
 mem,1,document frequency below 3
@@ -3898,7 +3917,6 @@ mia,1,document frequency below 3
 miami,1,document frequency below 3
 mic,1,document frequency below 3
 michelangelo,1,document frequency below 3
-michigan,2,document frequency below 3
 microbiome,1,document frequency below 3
 microblogging,1,document frequency below 3
 microcomputing,1,document frequency below 3
@@ -4028,6 +4046,7 @@ mtjoasx,1,document frequency below 3
 muddle,1,document frequency below 3
 muffler,1,document frequency below 3
 muh,1,document frequency below 3
+muhlbauer,1,document frequency below 3
 mujeres,1,document frequency below 3
 mukurtu,1,document frequency below 3
 mulder,1,document frequency below 3
@@ -4171,6 +4190,7 @@ nixon,1,document frequency below 3
 njit,1,document frequency below 3
 nlp,1,document frequency below 3
 nml,1,document frequency below 3
+noah,1,document frequency below 3
 noble,1,document frequency below 3
 nod,1,document frequency below 3
 nodebox,1,document frequency below 3
@@ -4435,6 +4455,7 @@ paler,1,document frequency below 3
 palestine,2,document frequency below 3
 palestinian,1,document frequency below 3
 palettes,1,document frequency below 3
+palmer,1,document frequency below 3
 palpable,1,document frequency below 3
 pamphlet,2,document frequency below 3
 pandas,2,document frequency below 3
@@ -4460,7 +4481,6 @@ paraula,1,document frequency below 3
 parchment,1,document frequency below 3
 parentheses,2,document frequency below 3
 parham,1,document frequency below 3
-parisa,2,document frequency below 3
 parity,1,document frequency below 3
 parking,1,document frequency below 3
 parlee,1,document frequency below 3
@@ -4524,6 +4544,7 @@ penguin,1,document frequency below 3
 penn,2,document frequency below 3
 pennsylvania,2,document frequency below 3
 penta,1,document frequency below 3
+pentangelo,1,document frequency below 3
 peoplesopen,2,document frequency below 3
 pepsp,1,document frequency below 3
 perceived,1,document frequency below 3
@@ -4947,6 +4968,7 @@ pythonic,1,document frequency below 3
 pythoning,1,document frequency below 3
 pytorch,1,document frequency below 3
 qitrw,1,document frequency below 3
+qiusheng,1,document frequency below 3
 qnns,1,document frequency below 3
 qpj,1,document frequency below 3
 qrprq,1,document frequency below 3
@@ -4987,6 +5009,7 @@ rafael,1,document frequency below 3
 rafena,1,document frequency below 3
 rafico,1,document frequency below 3
 rag,1,document frequency below 3
+rahiminezhad,2,document frequency below 3
 rahtz,1,document frequency below 3
 raices,1,document frequency below 3
 rail,2,document frequency below 3
@@ -5114,7 +5137,6 @@ regenerate,1,document frequency below 3
 regeneration,1,document frequency below 3
 regime,2,document frequency below 3
 regina,2,document frequency below 3
-regional,2,document frequency below 3
 registrant,1,document frequency below 3
 registrar,1,document frequency below 3
 regret,1,document frequency below 3
@@ -5176,6 +5198,7 @@ renovation,1,document frequency below 3
 renpy,1,document frequency below 3
 renter,1,document frequency below 3
 renviron,1,document frequency below 3
+reopen,1,document frequency below 3
 reorder,1,document frequency below 3
 reorganization,1,document frequency below 3
 repackaged,1,document frequency below 3
@@ -5449,7 +5472,7 @@ saul,1,document frequency below 3
 sausage,1,document frequency below 3
 saved,1,document frequency below 3
 saver,1,document frequency below 3
-saving,1,document frequency below 3
+saving,2,document frequency below 3
 savonick,2,document frequency below 3
 savvy,2,document frequency below 3
 saxon,1,document frequency below 3
@@ -5504,7 +5527,7 @@ sculpture,2,document frequency below 3
 sdk,1,document frequency below 3
 seachange,1,document frequency below 3
 seal,2,document frequency below 3
-sean,1,document frequency below 3
+sean,2,document frequency below 3
 searchform,1,document frequency below 3
 seasonal,1,document frequency below 3
 seasoned,1,document frequency below 3
@@ -5531,11 +5554,11 @@ semicolon,1,document frequency below 3
 semiotics,1,document frequency below 3
 semitic,1,document frequency below 3
 senator,1,document frequency below 3
-senior,2,document frequency below 3
 sens,2,document frequency below 3
 sensation,2,document frequency below 3
 sensemaking,1,document frequency below 3
 sensibility,2,document frequency below 3
+sensing,1,document frequency below 3
 sensitivity,2,document frequency below 3
 sensorial,1,document frequency below 3
 sensory,2,document frequency below 3
@@ -5558,7 +5581,7 @@ served,1,document frequency below 3
 serviceable,1,document frequency below 3
 serving,2,document frequency below 3
 sesame,1,document frequency below 3
-setayesh,1,document frequency below 3
+setayesh,2,document frequency below 3
 setback,1,document frequency below 3
 setinternet,1,document frequency below 3
 settle,2,document frequency below 3
@@ -5610,6 +5633,7 @@ shipment,1,document frequency below 3
 shirt,1,document frequency below 3
 shock,2,document frequency below 3
 shoe,2,document frequency below 3
+shokran,2,document frequency below 3
 shopper,1,document frequency below 3
 shore,1,document frequency below 3
 shoreline,1,document frequency below 3
@@ -5624,8 +5648,8 @@ shorthand,1,document frequency below 3
 shoulder,2,document frequency below 3
 shout,2,document frequency below 3
 shove,1,document frequency below 3
+showcased,1,document frequency below 3
 showcases,1,document frequency below 3
-showcasing,2,document frequency below 3
 showing,1,document frequency below 3
 shrink,2,document frequency below 3
 shrivel,1,document frequency below 3
@@ -5672,6 +5696,7 @@ sinclair,2,document frequency below 3
 sine,1,document frequency below 3
 sing,1,document frequency below 3
 singapore,1,document frequency below 3
+singh,1,document frequency below 3
 sinister,1,document frequency below 3
 sir,1,document frequency below 3
 sister,1,document frequency below 3
@@ -5694,7 +5719,7 @@ skipping,1,document frequency below 3
 skirt,1,document frequency below 3
 sklearn,1,document frequency below 3
 sky,1,document frequency below 3
-skylight,1,document frequency below 3
+skylight,2,document frequency below 3
 skype,1,document frequency below 3
 skyrocket,1,document frequency below 3
 slam,1,document frequency below 3
@@ -5712,7 +5737,6 @@ sleepy,1,document frequency below 3
 sleeve,1,document frequency below 3
 slew,1,document frequency below 3
 slick,2,document frequency below 3
-slideshow,2,document frequency below 3
 slideshows,1,document frequency below 3
 sliding,1,document frequency below 3
 sliver,1,document frequency below 3
@@ -6053,7 +6077,7 @@ surgeon,1,document frequency below 3
 surmise,1,document frequency below 3
 surpass,1,document frequency below 3
 surprised,1,document frequency below 3
-surprisingly,1,document frequency below 3
+surprisingly,2,document frequency below 3
 surrender,1,document frequency below 3
 surroundings,1,document frequency below 3
 surveyor,1,document frequency below 3
@@ -6181,7 +6205,6 @@ tepid,1,document frequency below 3
 terabyte,1,document frequency below 3
 terminate,1,document frequency below 3
 terra,1,document frequency below 3
-terrain,2,document frequency below 3
 terrible,1,document frequency below 3
 terrify,1,document frequency below 3
 terway,1,document frequency below 3
@@ -6292,6 +6315,7 @@ tissue,2,document frequency below 3
 titanic,1,document frequency below 3
 tmp,1,document frequency below 3
 tobe,1,document frequency below 3
+tobias,1,document frequency below 3
 toddler,1,document frequency below 3
 todo,1,document frequency below 3
 toe,2,document frequency below 3
@@ -6308,6 +6332,7 @@ tollboden,1,document frequency below 3
 tom,2,document frequency below 3
 tomato,1,document frequency below 3
 toml,1,document frequency below 3
+toolbox,1,document frequency below 3
 toolkits,2,document frequency below 3
 toolmaker,1,document frequency below 3
 tools,2,document frequency below 3
@@ -6431,6 +6456,7 @@ tweepy,1,document frequency below 3
 tweeter,1,document frequency below 3
 tweeting,1,document frequency below 3
 tweezer,1,document frequency below 3
+twelfth,1,document frequency below 3
 twelve,1,document frequency below 3
 twin,2,document frequency below 3
 twisting,1,document frequency below 3
@@ -6473,7 +6499,7 @@ unconferences,2,document frequency below 3
 unconnected,1,document frequency below 3
 unconscious,2,document frequency below 3
 uncontainable,1,document frequency below 3
-uncover,1,document frequency below 3
+uncover,2,document frequency below 3
 uncovered,1,document frequency below 3
 uncredited,1,document frequency below 3
 uncritical,1,document frequency below 3
@@ -6783,6 +6809,7 @@ voyeurism,1,document frequency below 3
 vpn,1,document frequency below 3
 vpns,1,document frequency below 3
 vulnerability,2,document frequency below 3
+vásquez,1,document frequency below 3
 wach,1,document frequency below 3
 wacky,2,document frequency below 3
 wad,1,document frequency below 3
@@ -6902,6 +6929,7 @@ wing,1,document frequency below 3
 wink,1,document frequency below 3
 winner,2,document frequency below 3
 winnerslay,1,document frequency below 3
+winstead,1,document frequency below 3
 winston,1,document frequency below 3
 wipe,1,document frequency below 3
 wired,2,document frequency below 3
@@ -6914,6 +6942,7 @@ wisely,1,document frequency below 3
 wishlist,1,document frequency below 3
 wisknioski,1,document frequency below 3
 wisnioski,1,document frequency below 3
+wistman,1,document frequency below 3
 wit,2,document frequency below 3
 withdjango,1,document frequency below 3
 withdrawal,1,document frequency below 3
@@ -7010,6 +7039,7 @@ ylim,1,document frequency below 3
 ymax,1,document frequency below 3
 ymin,1,document frequency below 3
 yoknapedia,1,document frequency below 3
+yomaira,1,document frequency below 3
 yon,1,document frequency below 3
 yoong,1,document frequency below 3
 yorker,1,document frequency below 3

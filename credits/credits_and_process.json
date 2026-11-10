@@ -57,7 +57,7 @@
       {
         "role": "Resources",
         "meaning": "Supply materials or tools.",
-        "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details.",
+        "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details. On November 9, 2026, Ian supplied a second WordPress XML export containing two new published posts and requested integration and recomputation; Codex performed the processing and checks.",
         "status": "Documented provision"
       },
       {
@@ -87,8 +87,8 @@
       {
         "role": "Writing – original draft",
         "meaning": "Produce initial prose.",
-        "human": "The analysis notes, documentation and this page were agent-drafted. Original post writers are credited for their source texts, not automatically as authors of this analysis.",
-        "status": "Project human drafting not established"
+        "human": "The analysis notes, documentation and this page were agent-drafted. Original post writers are credited for their source texts, not automatically as authors of this analysis. On November 9, 2026, Ian supplied the homepage lead sentence “Learn from over 14 years of doctoral student contributions.” This documents authorship of that sentence, not the wider AI-drafted analysis.",
+        "status": "Documented original homepage sentence; wider project drafting remains as described"
       },
       {
         "role": "Writing – review & editing",
@@ -553,6 +553,42 @@
       "agent_scope": "OpenAI Codex (exact build not recorded) packaged, checked, committed and pushed the source/public repositories, monitored successful GitHub Pages deployment, and verified the public interface.",
       "evidence": "process/publication_2026-11-08.json",
       "oversight": "Publication authorization and supplied wording are documented. Automated and agent-browser checks do not establish independent human scientific, accessibility or learner validation."
+    },
+    "additional_lda_plan_2026_11_09": {
+      "human": "Ian G. Williams requested methodological research and planning; specific experiment execution is not yet authorized.",
+      "agent": "OpenAI Codex researched primary publications and official documentation, inspected saved local recipe/results and drafted the proposal; exact model/build not recorded.",
+      "evidence": "docs/research/lda/PLAN.md; docs/research/lda/SOURCES.md; work-log task additional-lda-method-research-plan",
+      "boundary": "No new MALLET fit, NLTK corpus cleaning, human methodological verification, interpretation replacement or release."
+    },
+    "additional_lda_execution_2026_11_09": {
+      "human": "Ian G. Williams authorized the bounded pilot; model interpretation/replacement has not been human approved.",
+      "agent": "OpenAI Codex implemented/executed/reviewed experimental code and wrote findings; exact build not recorded. NLTK/MALLET/numeric scripts performed computational operations.",
+      "evidence": "analysis/nlp_experiments/lda_v2/provenance.json; analysis/nlp_experiments/lda_v2/validation.json; work-log additional-lda-isolated-pilot",
+      "boundary": "Current 299-post model population and old fitted outputs preserved. No new identity/appointment claims, independent human validation or public release."
+    },
+    "cleaning_demo_2026_11_09": {
+      "human": "Ian G. Williams authorized the local cleaning-comparison demo after explanation.",
+      "agent": "OpenAI Codex wrote the builder/interface/documentation and performed automated and browser checks; exact build not recorded.",
+      "evidence": "analysis/demos/cleaning_comparison/README.md; work-log local-cleaning-comparison-demo",
+      "boundary": "Reuses saved NLTK/MALLET results. Source-author credit/evidence remains separate. No model fit, human validation, public promotion or contributor confirmation."
+    },
+    "cleaning_integrated_preview_2026_11_09": {
+      "human": "Ian G. Williams authorized the reviewed local integration preview; public promotion has not been approved in this task.",
+      "agent": "OpenAI Codex implemented the component/preview builder, automated checks and browser review; exact build not recorded.",
+      "evidence": "analysis/demos/cleaning_comparison/integration_methods.md; work-log cleaning-integrated-local-preview",
+      "boundary": "Saved MALLET results only; no new fit, identity decision, primary-model selection, human validation or public deployment. Current reader credit and rights remain canonical."
+    },
+    "critical_methods_knowledge_base_2026_11_09": {
+      "human": "Ian G. Williams defined the methods-research scope and requested attention to DH, critical data studies and design justice.",
+      "agent": "OpenAI Codex researched, inspected selected primary sources/local code and wrote the working reference and metadata checks; exact build not recorded.",
+      "evidence": "docs/knowledge/critical-methods/README.md; work-log critical-methods-working-knowledge-base",
+      "boundary": "No independent human scholarly validation or community consultation. Source publication authorship is separate from project credit. No new fit, data/identity/appointment decision, public change or automatic governance mandate."
+    },
+    "corpus_refresh_2026_11_09": {
+      "human": "Ian G. Williams supplied the November 9 export and requested cleaning, corpus integration, updated analyses and counts.",
+      "ai": "OpenAI Codex, exact build not recorded, preserved the pre-refresh evidence, integrated two posts, reran NLTK and 35 MALLET fits, updated labels with explicit topic alignment, checked attribution/rights and rebuilt local views.",
+      "oversight": "User direction and source provision; no independent human recomputation, byline confirmation or final scholarly approval recorded.",
+      "source_authors": "Meha Gupta and the declared Shokran Rahiminezhad taxonomy credit are source contributors. Grouped views reuse the documented Shokran/Shokraan spelling resolution. Neither source authorship nor the separate photography credits imply contribution to this new code/analysis or endorsement."
     }
   },
   "identityPolicy": "Reviewed joint credits are expanded and documented aliases are grouped using identity/review.json. Ian Williams → Ian G. Williams; Laura Wildemann Kane → Laura Kane. Original credits and provisional attribution status remain inspectable. Other names are not automatically merged.",
@@ -4946,6 +4982,19 @@
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2026/03/27/there-is-a-question-more-important-than-does-ai-have-consciousness/",
           "sourceUrl": ""
+        },
+        {
+          "postId": "24957",
+          "title": "2026 CUNY DHI Lightning Talks In Review",
+          "year": "2026–2027",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Meha Gupta",
+          "creditStatus": "author taxonomy",
+          "authorshipTier": "declared-credit",
+          "evidence": "",
+          "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+          "sourceUrl": ""
         }
       ]
     },
@@ -6693,6 +6742,28 @@
           "evidence": "",
           "url": "https://gcdi.commons.gc.cuny.edu/2020/09/14/new-york-city-wanted-to-make-sure-the-algorithms-are-fair-vox/",
           "sourceUrl": "https://www.vox.com/2019/4/11/18300541/new-york-city-algorithms-ai-automated-decision-making-sytems-accountable-predictive-policing"
+        }
+      ]
+    },
+    {
+      "name": "Shokraan Rahiminezhad",
+      "variants": [
+        "Shokraan Rahiminezhad",
+        "Shokran Rahiminezhad"
+      ],
+      "entries": [
+        {
+          "postId": "25049",
+          "title": "GeoLibre: Open-Source GIS in Your Browser",
+          "year": "2026–2027",
+          "status": "publish",
+          "kind": "local/unflagged",
+          "rawCredit": "Shokran Rahiminezhad",
+          "creditStatus": "author taxonomy",
+          "authorshipTier": "declared-credit",
+          "evidence": "",
+          "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+          "sourceUrl": ""
         }
       ]
     },

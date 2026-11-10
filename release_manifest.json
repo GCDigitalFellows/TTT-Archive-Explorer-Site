@@ -1488,6 +1488,56 @@
       "source": "analysis/process/publication_2026-11-08.json",
       "destination": "process/publication_2026-11-08.json",
       "treatment": "copy"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-2-value-3.json",
+      "destination": "data/quote-pool-2-value-3.json",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/quote-pool-2-value-4.json",
+      "destination": "data/quote-pool-2-value-4.json",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/data/yearExclusive-2-value-6.json",
+      "destination": "data/yearExclusive-2-value-6.json",
+      "treatment": "copy"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/atkinson-OFL.txt",
+      "destination": "assets/fonts/atkinson-OFL.txt",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/atkinson-italic-OFL.txt",
+      "destination": "assets/fonts/atkinson-italic-OFL.txt",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/atkinson-italic.ttf",
+      "destination": "assets/fonts/atkinson-italic.ttf",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/atkinson.ttf",
+      "destination": "assets/fonts/atkinson.ttf",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/manifest.json",
+      "destination": "assets/fonts/manifest.json",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/pixelify-OFL.txt",
+      "destination": "assets/fonts/pixelify-OFL.txt",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/mockups/welcoming-pathways/web/assets/fonts/pixelify.ttf",
+      "destination": "assets/fonts/pixelify.ttf",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {
@@ -1500,5 +1550,6 @@
     ".nojekyll",
     "release_manifest.json",
     "PUBLIC_GUIDE.html"
-  ]
+  ],
+  "corpus_refresh_2026_11_09": "Three explicit generated public-data shards added for the authorized corpus refresh; no raw exports, archives, model binaries or broader copy policy added."
 }

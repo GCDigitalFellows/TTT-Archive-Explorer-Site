@@ -1,10 +1,10 @@
 {
-  "export_sha256": "ba4bb721c4f32b3340126f78e93f8b812e0ef79cd31810a9bc1c6f6dccb49ee7",
-  "date": "2026-11-03",
+  "export_sha256": "5d5608fe030aee200efe6e9b1849bfe5691cb0c734fcfbf20c6507146ff87ad7",
+  "date": "2026-11-09",
   "method": "Inventory source license evidence without assigning licenses to source works.\n\nInput: the original private WordPress XML and the reviewed article register.\nOutput: a public metadata-only ledger and a readable rights page. Missing license\nmetadata stays missing; a caption licenses its referenced work, not the article.\nRun from the repository root; pass a different export path as the first argument.\n",
   "counts": {
     "publish_without_metadata": 146,
-    "publish_with_metadata": 275
+    "publish_with_metadata": 277
   },
   "posts": [
     {
@@ -51,9 +51,9 @@
       "title": "Taking a Personal Approach",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2012/11/14/160/",
       "metadata_key": null,
       "raw_values": [],
@@ -64,9 +64,9 @@
       "title": "Language Acquisition",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2012/11/15/language-acquisition/",
       "metadata_key": null,
       "raw_values": [],
@@ -77,9 +77,9 @@
       "title": "Enter Here",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Matthew Slaats"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2012/11/16/enter-here/",
       "metadata_key": null,
       "raw_values": [],
@@ -103,9 +103,9 @@
       "title": "JustPublics@365 Announces MediaCamp",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2012/12/10/justpublics365-announces-mediacamp/",
       "metadata_key": null,
       "raw_values": [],
@@ -116,9 +116,9 @@
       "title": "Expertise",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2012/12/12/expertise/",
       "metadata_key": null,
       "raw_values": [],
@@ -194,9 +194,9 @@
       "title": "Digital Dissertations: 3 issues",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/02/06/digital-dissertations-3-issues/",
       "metadata_key": null,
       "raw_values": [],
@@ -233,9 +233,9 @@
       "title": "Microblogging the Drama",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/02/13/microblogging-the-drama/",
       "metadata_key": null,
       "raw_values": [],
@@ -285,9 +285,9 @@
       "title": "March 12 Workshop: Research Management: How to Keep Your Sources and Your Sanity",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/03/06/march-12-workshop-research-management-how-to-keep-your-sources-and-your-sanity/",
       "metadata_key": null,
       "raw_values": [],
@@ -337,9 +337,9 @@
       "title": "Digital Clutter (or why Inbox Zero is not a goal)",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/03/21/digital-clutter-or-why-inbox-zero-is-not-a-goal/",
       "metadata_key": null,
       "raw_values": [],
@@ -376,9 +376,9 @@
       "title": "Downtime is the Best Cure for Downtime",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Micki Kaufman"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/04/02/downtime-is-the-best-cure-for-downtime/",
       "metadata_key": null,
       "raw_values": [],
@@ -441,9 +441,9 @@
       "title": "Curating the Non-Digital Digital Bookshelf",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/04/25/curating-the-non-digital-digital-bookshelf/",
       "metadata_key": null,
       "raw_values": [],
@@ -454,9 +454,9 @@
       "title": "Interface to Face: Touching with Technology",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Micki Kaufman"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/04/26/interface-to-face-touching-with-technology/",
       "metadata_key": null,
       "raw_values": [],
@@ -467,9 +467,9 @@
       "title": "\"Doing\" the Digital: Panic and Persistence",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Hillary Miller"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/05/15/doing-the-digital-panic-and-persistence/",
       "metadata_key": null,
       "raw_values": [],
@@ -526,9 +526,9 @@
       "title": "Upcoming Workshop: Social Media and Academia: Creating Digital Research Communities",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/09/30/1452/",
       "metadata_key": null,
       "raw_values": [],
@@ -539,9 +539,9 @@
       "title": "3D Printing and Maker Culture",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/10/01/3d-printing-and-maker-culture/",
       "metadata_key": null,
       "raw_values": [],
@@ -552,9 +552,9 @@
       "title": "Upcoming Workshop: Cloud Storage: How to Keep Your Citations and Sources in the Same Place (While Not Losing Your Dissertation)”",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/10/03/upcoming-workshop-cloud-storage-fall-2013/",
       "metadata_key": null,
       "raw_values": [],
@@ -565,9 +565,9 @@
       "title": "3D Printing in the Lab",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/10/08/3d-printing-in-the-lab/",
       "metadata_key": null,
       "raw_values": [],
@@ -619,9 +619,9 @@
       "title": "All That is Digital Melts into Code",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/10/25/all-that-is-digital-melts-into-code/",
       "metadata_key": null,
       "raw_values": [],
@@ -645,9 +645,9 @@
       "title": "Learn Bootstrap Part 1: Getting Acquainted with Bootstrap",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/11/05/learn-bootstrap-part-1-getting-acquainted-with-bootstrap/",
       "metadata_key": null,
       "raw_values": [],
@@ -658,9 +658,9 @@
       "title": "Learn Bootstrap Part 2: Adding Bootstrap to WordPress",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/11/18/learn-bootstrap-part-2-adding-bootstrap-to-wordpress/",
       "metadata_key": null,
       "raw_values": [],
@@ -671,9 +671,9 @@
       "title": "Learn Bootstrap Part 3: Customize Bootstrap and Add a Header",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/12/02/learn-bootstrap-part-3-customize-bootstrap-and-add-a-header/",
       "metadata_key": null,
       "raw_values": [],
@@ -684,9 +684,9 @@
       "title": "Speaking of 'Speaking in Code' (Part 1)",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Micki Kaufman"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/12/05/speaking-of-speaking-in-code-part-1/",
       "metadata_key": null,
       "raw_values": [],
@@ -697,9 +697,9 @@
       "title": "On Being Stuck",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/12/16/on-being-stuck/",
       "metadata_key": null,
       "raw_values": [],
@@ -710,9 +710,9 @@
       "title": "Speaking of 'Speaking in Code' (Part 2)",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Micki Kaufman"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2013/12/28/speaking-of-speaking-in-code-part-2/",
       "metadata_key": null,
       "raw_values": [],
@@ -749,9 +749,9 @@
       "title": "What's in a Wiki?",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/02/17/whats-in-a-wiki/",
       "metadata_key": null,
       "raw_values": [],
@@ -762,9 +762,9 @@
       "title": "PSA: Backup Your Data Now",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/03/04/psa-backup-your-data-now/",
       "metadata_key": null,
       "raw_values": [],
@@ -814,9 +814,9 @@
       "title": "Introduction to Image Editing Handout",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/04/27/introduction-to-image-editing-handout/",
       "metadata_key": null,
       "raw_values": [],
@@ -827,9 +827,9 @@
       "title": "A Crash Course in Digital Photo Editing",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/04/28/a-crash-course-in-digital-photo-editing/",
       "metadata_key": null,
       "raw_values": [],
@@ -866,9 +866,9 @@
       "title": "DH Strangelove or: How I Learned to Stop Worrying and Love the Digital Humanities",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/09/25/dh-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-digital-humanities/",
       "metadata_key": null,
       "raw_values": [],
@@ -879,9 +879,9 @@
       "title": "Announcing \"Digital Dissertations Resources\"",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/10/07/announcing-digital-dissertations-resources/",
       "metadata_key": null,
       "raw_values": [],
@@ -905,9 +905,9 @@
       "title": "Making It Visual",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Michelle Johnson"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/10/14/making-it-visual/",
       "metadata_key": null,
       "raw_values": [],
@@ -944,9 +944,9 @@
       "title": "Wordpress 2: Categories, Menus, and Widgets",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Michelle Johnson-McSweeney"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/10/21/wordpress-2-categories-menus-and-widgets/",
       "metadata_key": null,
       "raw_values": [],
@@ -957,9 +957,9 @@
       "title": "Tabless Thursday",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Jessica Murray"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/10/30/tabless-thursday/",
       "metadata_key": null,
       "raw_values": [],
@@ -970,9 +970,9 @@
       "title": "Digital Dissertations and Ticking Clocks",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2014/11/04/digital-dissertations-and-ticking-clocks/",
       "metadata_key": null,
       "raw_values": [],
@@ -1009,9 +1009,9 @@
       "title": "Django Hack Night",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Evan Misshula"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/02/25/set-up-a-development-environment-2/",
       "metadata_key": null,
       "raw_values": [],
@@ -1061,9 +1061,9 @@
       "title": "Evaluating, Valuing, and Promoting Digital Scholarship Event",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "A.L. McMichael"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/04/14/evaluating-valuing-and-promoting-digital-scholarship-event/",
       "metadata_key": null,
       "raw_values": [],
@@ -1100,9 +1100,9 @@
       "title": "Beyond the Same Old Static Course Website",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/09/15/beyond-the-same-old-static-course-website/",
       "metadata_key": null,
       "raw_values": [],
@@ -1126,9 +1126,9 @@
       "title": "Getting the Most out of a Humble Technology: Word Search",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Jeffrey Binder"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/10/01/getting-the-most-out-of-a-humble-technology-word-search/",
       "metadata_key": null,
       "raw_values": [],
@@ -1208,9 +1208,9 @@
       "title": "An Introduction to Web Servers",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/10/20/an-introduction-to-web-servers/",
       "metadata_key": null,
       "raw_values": [],
@@ -1221,9 +1221,9 @@
       "title": "Introduction to Web Scraping for Researchers",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Michelle Johnson-McSweeney"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/",
       "metadata_key": null,
       "raw_values": [],
@@ -1260,9 +1260,9 @@
       "title": "Python Users' Group Recap",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Michelle Johnson-McSweeney"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/11/03/python-users-group-recap/",
       "metadata_key": null,
       "raw_values": [],
@@ -1338,9 +1338,9 @@
       "title": "The Complexity of Machine Writing",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Jeffrey Binder"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/11/30/nanogenmo/",
       "metadata_key": null,
       "raw_values": [],
@@ -1351,9 +1351,9 @@
       "title": "Introduction to Web Frameworks",
       "status": "publish",
       "credited_authors": [
-        "Sam O'Hana"
+        "Keith Miyake"
       ],
-      "author_credit_status": "provisional posting-account attribution",
+      "author_credit_status": "reviewed archived original byline credit",
       "url": "https://gcdi.commons.gc.cuny.edu/2015/12/08/introduction-to-web-frameworks/",
       "metadata_key": null,
       "raw_values": [],
@@ -6041,6 +6041,36 @@
       ],
       "author_credit_status": "author taxonomy",
       "url": "https://gcdi.commons.gc.cuny.edu/2026/10/27/a-few-important-considerations-when-making-charts-and-graphs/",
+      "metadata_key": "cac_cc_license",
+      "raw_values": [
+        "by-nc-sa"
+      ],
+      "license_evidence": "CC BY-NC-SA; version unspecified in export"
+    },
+    {
+      "id": "24957",
+      "title": "2026 CUNY DHI Lightning Talks In Review",
+      "status": "publish",
+      "credited_authors": [
+        "Meha Gupta"
+      ],
+      "author_credit_status": "author taxonomy",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+      "metadata_key": "cac_cc_license",
+      "raw_values": [
+        "by-nc-sa"
+      ],
+      "license_evidence": "CC BY-NC-SA; version unspecified in export"
+    },
+    {
+      "id": "25049",
+      "title": "GeoLibre: Open-Source GIS in Your Browser",
+      "status": "publish",
+      "credited_authors": [
+        "Shokran Rahiminezhad"
+      ],
+      "author_credit_status": "author taxonomy",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
       "metadata_key": "cac_cc_license",
       "raw_values": [
         "by-nc-sa"

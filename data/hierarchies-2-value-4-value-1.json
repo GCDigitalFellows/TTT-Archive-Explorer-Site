@@ -914,16 +914,16 @@
     {
       "label": "2018–2019",
       "posts": 14,
-      "tokens": 10299,
-      "denominator": 3461.0,
+      "tokens": 10293,
+      "denominator": 3458.0,
       "mass": 1.0,
       "rows": [
         {
           "key": "arcgis online",
           "word": "arcgis online",
           "count": 15,
-          "value": 0.004334007512279688,
-          "heat": 4.334007512279688,
+          "value": 0.004337767495662233,
+          "heat": 4.3377674956622325,
           "ids": [
             "5184"
           ],
@@ -935,8 +935,8 @@
           "key": "digital research",
           "word": "digital research",
           "count": 14,
-          "value": 0.004045073678127709,
-          "heat": 4.045073678127709,
+          "value": 0.004048582995951417,
+          "heat": 4.048582995951417,
           "ids": [
             "7527",
             "4903",
@@ -950,8 +950,8 @@
           "key": "open source",
           "word": "open source",
           "count": 12,
-          "value": 0.0034672060098237503,
-          "heat": 3.4672060098237503,
+          "value": 0.003470213996529786,
+          "heat": 3.470213996529786,
           "ids": [
             "5184"
           ],
@@ -963,8 +963,8 @@
           "key": "tei boilerplate",
           "word": "tei boilerplate",
           "count": 11,
-          "value": 0.003178272175671771,
-          "heat": 3.178272175671771,
+          "value": 0.0031810294968189707,
+          "heat": 3.1810294968189705,
           "ids": [
             "5140"
           ],
@@ -976,8 +976,8 @@
           "key": "internet access",
           "word": "internet access",
           "count": 10,
-          "value": 0.002889338341519792,
-          "heat": 2.889338341519792,
+          "value": 0.002891844997108155,
+          "heat": 2.891844997108155,
           "ids": [
             "19849",
             "5111"
@@ -989,9 +989,9 @@
         {
           "key": "__other__",
           "word": "Other phrases",
-          "count": 3399.0,
-          "value": 0.9820861022825773,
-          "heat": 982.0861022825773,
+          "count": 3396.0,
+          "value": 0.9820705610179294,
+          "heat": 982.0705610179294,
           "ids": [
             "5184",
             "5162",
@@ -1434,16 +1434,16 @@
     {
       "label": "2022–2023",
       "posts": 18,
-      "tokens": 8813,
-      "denominator": 2824.0,
+      "tokens": 8809,
+      "denominator": 2822.0,
       "mass": 1.0,
       "rows": [
         {
           "key": "digital dissertation",
           "word": "digital dissertation",
           "count": 12,
-          "value": 0.00424929178470255,
-          "heat": 4.2492917847025495,
+          "value": 0.004252303330970942,
+          "heat": 4.252303330970943,
           "ids": [
             "19886"
           ],
@@ -1455,8 +1455,8 @@
           "key": "raster file",
           "word": "raster file",
           "count": 12,
-          "value": 0.00424929178470255,
-          "heat": 4.2492917847025495,
+          "value": 0.004252303330970942,
+          "heat": 4.252303330970943,
           "ids": [
             "19883"
           ],
@@ -1468,8 +1468,8 @@
           "key": "digital dissertations",
           "word": "digital dissertations",
           "count": 11,
-          "value": 0.003895184135977337,
-          "heat": 3.895184135977337,
+          "value": 0.0038979447200566974,
+          "heat": 3.8979447200566972,
           "ids": [
             "19886"
           ],
@@ -1481,8 +1481,8 @@
           "key": "digital research",
           "word": "digital research",
           "count": 9,
-          "value": 0.003186968838526912,
-          "heat": 3.186968838526912,
+          "value": 0.0031892274982282067,
+          "heat": 3.189227498228207,
           "ids": [
             "6755",
             "19885",
@@ -1497,8 +1497,8 @@
           "key": "raster files",
           "word": "raster files",
           "count": 8,
-          "value": 0.0028328611898017,
-          "heat": 2.8328611898016995,
+          "value": 0.002834868887313962,
+          "heat": 2.8348688873139616,
           "ids": [
             "19883"
           ],
@@ -1509,9 +1509,9 @@
         {
           "key": "__other__",
           "word": "Other phrases",
-          "count": 2772.0,
-          "value": 0.9815864022662889,
-          "heat": 981.5864022662889,
+          "count": 2770.0,
+          "value": 0.9815733522324592,
+          "heat": 981.5733522324592,
           "ids": [
             "19886",
             "6755",
@@ -1963,97 +1963,101 @@
     },
     {
       "label": "2026–2027",
-      "posts": 3,
-      "tokens": 2638,
-      "denominator": 1064.0,
+      "posts": 5,
+      "tokens": 3361,
+      "denominator": 1359.0,
       "mass": 1.0,
       "rows": [
         {
           "key": "civic tech",
           "word": "civic tech",
           "count": 25,
-          "value": 0.023496240601503758,
-          "heat": 23.49624060150376,
+          "value": 0.01839587932303164,
+          "heat": 18.39587932303164,
           "ids": [
             "24843",
             "24783"
           ],
           "posts": 2,
           "occurrences": 25,
-          "all_post_share": 0.6666666666666666
+          "all_post_share": 0.4
         },
         {
           "key": "open space",
           "word": "open space",
           "count": 13,
-          "value": 0.012218045112781954,
-          "heat": 12.218045112781954,
+          "value": 0.009565857247976454,
+          "heat": 9.565857247976453,
           "ids": [
             "24843",
             "24783"
           ],
           "posts": 2,
           "occurrences": 13,
-          "all_post_share": 0.6666666666666666
+          "all_post_share": 0.4
         },
         {
           "key": "public interest",
           "word": "public interest",
           "count": 13,
-          "value": 0.012218045112781954,
-          "heat": 12.218045112781954,
+          "value": 0.009565857247976454,
+          "heat": 9.565857247976453,
           "ids": [
             "24843",
             "24783"
           ],
           "posts": 2,
           "occurrences": 13,
-          "all_post_share": 0.6666666666666666
+          "all_post_share": 0.4
         },
         {
           "key": "citycamp nyc",
           "word": "citycamp nyc",
           "count": 12,
-          "value": 0.011278195488721804,
-          "heat": 11.278195488721805,
+          "value": 0.008830022075055188,
+          "heat": 8.830022075055188,
           "ids": [
             "24843",
             "24783"
           ],
           "posts": 2,
           "occurrences": 12,
-          "all_post_share": 0.6666666666666666
+          "all_post_share": 0.4
         },
         {
           "key": "space technology",
           "word": "space technology",
           "count": 11,
-          "value": 0.010338345864661654,
-          "heat": 10.338345864661655,
+          "value": 0.008094186902133923,
+          "heat": 8.094186902133922,
           "ids": [
             "24843"
           ],
           "posts": 1,
           "occurrences": 11,
-          "all_post_share": 0.3333333333333333
+          "all_post_share": 0.2
         },
         {
           "key": "__other__",
           "word": "Other phrases",
-          "count": 990.0,
-          "value": 0.9304511278195489,
-          "heat": 930.4511278195489,
+          "count": 1285.0,
+          "value": 0.9455481972038263,
+          "heat": 945.5481972038264,
           "ids": [
+            "25049",
+            "24957",
             "24863",
             "24843",
             "24783"
           ],
-          "posts": 3,
+          "posts": 5,
           "occurrences": null,
           "all_post_share": null
         }
       ],
       "ids": [
+        "25049",
+        "24957",
         "24863",
         "24843",
         "24783"

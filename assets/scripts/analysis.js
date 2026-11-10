@@ -1,4 +1,4 @@
-/* One additional prototype tab, with two views of saved evidence.
+/* Analysis views of saved evidence: texts, words and recorded credit connections.
  * Dependencies are passed in by the existing interface. No production state,
  * source credits, saved weights or model inputs are changed by these controls.
  */
@@ -8,7 +8,7 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
   const math = PathwaysAnalysis;
   let selectionOpen = false;
   let redrawGraph = () => {};
-  let matrixReturnId = "";
+  let sourceReturnId = "";
   const byPost = new Map(posts.map((p) => [p.id, p]));
   const years = [
     ...new Set(posts.filter((p) => p.kind === "local/unflagged").map((p) => p.year)),
@@ -23,6 +23,7 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     topic: 1,
     signal: data.keywordNames[0],
     mode: "years",
+    networkStarted: false,
     limit: "12",
     detailIds: [],
     detailLabel: "",
@@ -53,14 +54,14 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     return math.population(posts, state);
   }
   function clearDetails() {
-    matrixReturnId = "";
+    sourceReturnId = "";
     state.detailIds = [];
     state.detailLabel = "";
     state.postLimit = 6;
     renderDetails();
   }
   function showPosts(ids, label, cellId = "") {
-    matrixReturnId = cellId;
+    sourceReturnId = cellId;
     state.detailIds = [...new Set(ids)];
     state.detailLabel = label;
     state.postLimit = 6;
@@ -84,7 +85,7 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
       : "Select a year, name or connection to inspect its source posts.";
     const evidence = id("wp-network-detail-tiers");
     evidence.hidden = state.tab !== "networks" || !state.detailLabel;
-    id("wp-network-return-cell").hidden = !matrixReturnId;
+    id("wp-network-return-cell").hidden = !sourceReturnId;
     if (!evidence.hidden) {
       const tiers = state.detailIds.map((postId) => byPost.get(postId).tier);
       evidence.textContent = [
@@ -143,10 +144,21 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
       track.append(fill);
       const value =
         row.value === null
-          ? "— · n=0"
+          ? "— · n=0" +
+            (kind === "topic"
+              ? " selected / " +
+                posts.filter((p) => p.year === row.year).length +
+                " published"
+              : "")
           : (100 * row.value).toFixed(1) +
             "% · " +
-            (kind === "topic" ? "n=" + row.n : row.hits + "/" + row.n);
+            (kind === "topic"
+              ? "n=" +
+                row.n +
+                " selected / " +
+                posts.filter((p) => p.year === row.year).length +
+                " published"
+              : row.hits + "/" + row.n);
       n.append(node("span", row.year), track, node("span", value));
       n.setAttribute(
         "aria-label",
@@ -165,6 +177,28 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
       "Leading model words: " +
       data.topics[state.topic].words.join(", ") +
       ". Equal-post averages; the fitted model remains unchanged. 2026–27 is partial.";
+    const coverage = math.coverageYears(posts, pool, displayYears);
+    id("wp-a-coverage").replaceChildren(
+      table(
+        [
+          "Academic year",
+          "Published",
+          "Local",
+          "Modeled",
+          "Selected modeled",
+          "Exclusions from full snapshot model",
+        ],
+        coverage.map((r) => [
+          r.year,
+          r.published,
+          r.local,
+          r.modeled,
+          r.selected,
+          r.exclusions,
+        ]),
+        "Full snapshot coverage and current filtered model selection; 2026–2027 is partial",
+      ),
+    );
     bars(
       id("wp-a-topic-bars"),
       math.topicYears(pool, displayYears, state.topic),
@@ -366,15 +400,118 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
       ),
     );
   }
+  function renderSharedWriting(pool) {
+    const target = id("wp-network-post-paths");
+    const shared = math.sharedWriting(pool);
+    target.replaceChildren();
+    id("wp-a-network-scope").textContent =
+      shared.length +
+      (shared.length === 1
+        ? " shared recorded post within "
+        : " shared recorded posts within ") +
+      pool.length +
+      " eligible local posts. Each article appears once; all its credited names are retained. No drawing limit applies.";
+    target.append(
+      node(
+        "p",
+        "Read left to right: a selected name → the article carrying the credit → its other credited names. With all names selected, each card lists the complete recorded byline. These are publication links, not inferred collaboration.",
+        "small",
+      ),
+    );
+    if (!shared.length) {
+      target.append(
+        node(
+          "p",
+          "No multi-name bylines occur in this selection. This does not establish that the writers worked alone. Use Find a writer's posts to include single-credit articles.",
+        ),
+      );
+      return;
+    }
+    for (const post of shared) {
+      const card = node("article", undefined, "shared-post-path");
+      const from = node("div");
+      from.append(
+        node("p", "Credited name", "small"),
+        node("p", state.author === "all" ? "All names in this byline" : state.author),
+      );
+      const article = node("div");
+      article.append(
+        node("p", "Article · " + post.year, "small"),
+        node("h3", post.title),
+        node("p", PathwaysCore.creditLabel(post.tier), "small"),
+      );
+      const inspect = button("Inspect this article's credit and text", () => {
+        showPosts([post.id], post.title, inspect.id);
+        const heading = id("wp-analysis-posts").querySelector("h2");
+        heading.tabIndex = -1;
+        heading.focus();
+      });
+      inspect.id = "wp-shared-post-" + post.id;
+      article.append(inspect);
+      const to = node("div");
+      to.append(
+        node(
+          "p",
+          state.author === "all" ? "Recorded writers" : "Other recorded writers",
+          "small",
+        ),
+      );
+      const names = node("ul");
+      for (const name of post.names.filter(
+        (name) => state.author === "all" || name !== state.author,
+      )) {
+        const item = node("li");
+        item.append(
+          button(
+            name,
+            () => {
+              state.author = name;
+              selectionOpen = true;
+              clearDetails();
+              render();
+              id("wp-net-author").focus();
+            },
+            "link",
+          ),
+        );
+        names.append(item);
+      }
+      to.append(names);
+      card.append(from, article, to);
+      target.append(card);
+    }
+    const method = node("details");
+    method.append(
+      node("summary", "How does this differ from person-to-person pairs?"),
+      node(
+        "p",
+        "An article with 11 credited names appears once here. Connecting every pair of those names creates 11 × 10 ÷ 2 = 55 pairs, all supported by that same article. The optional pair view shows that transformation; it is not 55 independent relationships.",
+      ),
+    );
+    target.append(method);
+  }
   function renderNetwork(pool) {
     const totals = math.authorTotals(pool),
       pairs = math.sharedBylines(pool),
       edgeRows = math.authorYears(pool);
     const count = state.limit === "all" ? Infinity : Number(state.limit);
     const matrix = state.mode === "matrix";
+    const postPaths = state.mode === "posts";
+    id("wp-network-view-heading").textContent = postPaths
+      ? "Shared writing through posts"
+      : matrix
+        ? "Writing credits across academic years"
+        : state.mode === "bylines"
+          ? "Person-to-person pairs from shared posts"
+          : "Recorded names and publication years";
+    id("wp-network-post-paths").hidden = !postPaths;
+    id("wp-network-mark-explanation").textContent = postPaths
+      ? "Each card is one published local article, with its recorded credit evidence. Names can appear on several articles. Curated/source-linked records and drafts are excluded. These credits do not measure mentoring, importance or uncredited support."
+      : "Lines count published local posts carrying recorded credits; thicker lines mean more such posts. Name ordering reflects counts, not importance. Curated/source-linked records and drafts are excluded. These links do not establish fellowship, collaboration or productivity. Select a name, year or line to inspect sources.";
+    id("wp-network-pairs-section").hidden = state.mode !== "bylines";
     id("wp-network-matrix-controls").hidden = !matrix;
-    id("wp-network-graph").hidden = matrix;
-    id("wp-network-limit-label").hidden = matrix;
+    id("wp-network-graph").hidden = matrix || postPaths;
+    id("wp-network-limit-label").hidden = matrix || postPaths;
     id("wp-network-preview").textContent =
       "Hover over or focus a name, year, or line for a preview.";
     id("wp-a-author-table").replaceChildren(
@@ -427,7 +564,9 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     const sharedSummary = id("wp-network-shared-summary");
     sharedSummary.replaceChildren();
     sharedSummary.hidden = state.mode !== "bylines";
-    if (matrix) {
+    if (postPaths) {
+      renderSharedWriting(pool);
+    } else if (matrix) {
       id("wp-a-network-scope").textContent =
         totals.length +
         " eligible credited names · " +
@@ -633,8 +772,9 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     id("wp-a-author").value = state.author;
     id("wp-a-evidence").value = state.supported ? "supported" : "all";
     id("wp-a-words").hidden = state.tab !== "words";
-    id("wp-standard-analysis-filters").hidden = state.tab === "words";
-    id("wp-a-scope").hidden = state.tab === "words";
+    id("wp-standard-analysis-filters").hidden = state.tab !== "texts";
+    id("wp-a-scope").hidden = state.tab !== "texts";
+    id("wp-network-workspace").hidden = !state.networkStarted;
     id("wp-a-texts").hidden = state.tab !== "texts";
     id("wp-a-networks").hidden = state.tab !== "networks";
     for (const b of root.querySelectorAll("[data-analysis-view]"))
@@ -677,7 +817,7 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     }
     if (state.tab === "words") renderWords();
     else if (state.tab === "texts") renderText(pool);
-    else renderNetwork(pool);
+    else if (state.networkStarted) renderNetwork(pool);
   }
   options(id("wp-a-year"), [
     ["all", "All academic years"],
@@ -738,6 +878,30 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     clearDetails();
     render();
   });
+  for (const entry of root.querySelectorAll("[data-network-question]")) {
+    entry.addEventListener("click", () => {
+      const question = entry.dataset.networkQuestion;
+      state.networkStarted = true;
+      state.mode =
+        question === "shared" ? "posts" : question === "years" ? "matrix" : "years";
+      id("wp-a-network-mode").value = state.mode;
+      selectionOpen = question !== "shared";
+      id("wp-network-question-status").textContent =
+        question === "shared"
+          ? "Shared writing: articles remain visible between credited names. Existing filters are retained; use All years and names to reset them."
+          : question === "years"
+            ? "Compare writing: existing filters are retained. Choose a year or use All years and names to reset. Zero means no matching recorded credit, not no fellowship or scholarly work."
+            : "Find a writer: choose a credited name. Existing filters are retained; use All years and names to reset. Single-credit and shared posts are included.";
+      clearDetails();
+      render();
+      (question === "shared"
+        ? id("wp-a-network-mode")
+        : question === "years"
+          ? id("wp-net-year")
+          : id("wp-net-author")
+      ).focus();
+    });
+  }
   id("wp-a-network-mode").addEventListener("change", (event) => {
     state.mode = event.target.value;
     clearDetails();
@@ -753,7 +917,7 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
     renderNetwork(selected()),
   );
   id("wp-network-return-cell").addEventListener("click", () => {
-    const cell = document.getElementById(matrixReturnId);
+    const cell = document.getElementById(sourceReturnId);
     if (cell) cell.focus();
   });
   id("wp-a-network-limit").addEventListener("change", (event) => {
@@ -817,7 +981,8 @@ function createPathwaysAnalysis({ root, data, posts, openPost, announce }) {
       if (
         width !== previousWidth &&
         state.tab === "networks" &&
-        state.mode !== "matrix" &&
+        ["years", "bylines"].includes(state.mode) &&
+        state.networkStarted &&
         !root.querySelector('[data-view="analysis"]').hidden
       )
         redrawGraph();

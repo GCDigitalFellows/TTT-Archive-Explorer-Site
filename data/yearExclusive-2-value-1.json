@@ -3,12 +3,12 @@
     "year": "2012–2013",
     "analyzedPosts": 35,
     "allTypes": 2836,
-    "exclusiveTypes": 580,
-    "singlePostTypes": 549,
+    "exclusiveTypes": 579,
+    "singlePostTypes": 548,
     "multiplePostTypes": 31,
-    "singleOccurrenceTypes": 516,
-    "sharedAcrossYearsTypes": 2256,
-    "exclusiveShare": 0.20451339915373765,
+    "singleOccurrenceTypes": 515,
+    "sharedAcrossYearsTypes": 2257,
+    "exclusiveShare": 0.2041607898448519,
     "forms": [
       {
         "word": "ferpa",
@@ -2260,14 +2260,6 @@
         "posts": 1,
         "ids": [
           "19740"
-        ]
-      },
-      {
-        "word": "happening",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19734"
         ]
       },
       {

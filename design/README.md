@@ -32,3 +32,7 @@ python3 analysis/package_report.py STYLE_METHODOLOGY.md
 The JavaScript checks use Node's built-in test runner; the page itself needs no Node installation or server. Open `analysis/interactive_explorer.html` in a browser. Select a writer or academic-year range, then change the design year and check that the analysis selection stays fixed. Review at a narrow window width and with the keyboard as well as a pointer.
 
 `test_styles.js` checks source coverage, safe settings, neutral mode, appearance-only bookmarks, and contrast across 270 combinations. The separate analysis tests check numerical behavior. `verify_revision.py` compares 43 saved scientific result files against the earlier snapshot; changing appearance does not rerun NLTK or MALLET.
+
+## Source-based reference palettes
+
+The [NYC PIT Pop Up flyer palette](https://github.com/GCDigitalFellows/TTT-Archive-Explorer/blob/main/analysis/design/palettes/nyc-pit-2026/README.md) records exact sampled colors, proposed roles, CSS tokens and contrast pairings. It is a reference, not an applied theme or change to annual presets.

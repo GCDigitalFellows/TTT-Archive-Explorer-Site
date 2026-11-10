@@ -1,8 +1,38 @@
 {
-  "export": "digitalinitiativesatthegradcenter.WordPress.2026-11-01.xml",
-  "export_sha256": "ba4bb721c4f32b3340126f78e93f8b812e0ef79cd31810a9bc1c6f6dccb49ee7",
+  "export": "composite.xml",
+  "export_sha256": "5d5608fe030aee200efe6e9b1849bfe5691cb0c734fcfbf20c6507146ff87ad7",
   "basis": "Primary article bodies from the supplied export, with corrected author credits. Connections are the analyst’s interpretation; source statements and participant testimony are not independent evaluations of program effects.",
   "sources": [
+    {
+      "post_id": "25049",
+      "interpretive_connection": "Tool access and browser-based workflows shape entry into GIS",
+      "title": "GeoLibre: Open-Source GIS in Your Browser",
+      "date": "2026-11-09",
+      "academic_year": "2026–2027",
+      "credited_authors": "Shokran Rahiminezhad",
+      "credit_basis": "author taxonomy",
+      "authorship_tier": "declared-credit",
+      "credit_evidence": "",
+      "posting_account": "Sophie Bala",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+      "body_excerpt": "Working with geographic data can involve a surprisingly high barrier to entry. Before making a map, you may need to install specialized software, learn unfamiliar file formats, or move data between several tools. These requirements make free and open-source geographic information systems (GIS) especially valuable. GIS software helps users organize, analyze, and map data connected to places. GeoLibre is one such system, and it runs directly in a web browser. GeoLibre was created by geospatial software developer Qiusheng Wu and is available in a stand-alone desktop application and mobile app. It can also be used inside Jupyter notebooks, but it",
+      "normalized_body_sha256": "d8e060e17d29dbbd3928f835fb00ba15697fbf284a0160f5ed979517a3a8f92f"
+    },
+    {
+      "post_id": "24957",
+      "interpretive_connection": "A reported gathering makes cross-campus convening visible",
+      "title": "2026 CUNY DHI Lightning Talks In Review",
+      "date": "2026-11-02",
+      "academic_year": "2026–2027",
+      "credited_authors": "Meha Gupta",
+      "credit_basis": "author taxonomy",
+      "authorship_tier": "declared-credit",
+      "credit_evidence": "",
+      "posting_account": "Meha Gupta",
+      "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+      "body_excerpt": "On Tuesday, October 20, 2026, with the support of the DH community across CUNY, we held the Twelfth Annual CUNY DHI Lightning Talks. The event was a hybrid gathering held in the CUNY Graduate Center Skylight Room and on Zoom, bringing together faculty, students, and staff from across campuses for an evening of shared digital scholarship. Our program began with welcoming remarks from Matthew K. Gold, Advisor to the Provost for Digital Initiatives, followed by an incisive keynote address from Dr. Yomaira C. Figueroa-Vásquez, Professor at Hunter College and Director of CENTRO. Drawing on her extensive community-engaged scholarship, Dr. Figueroa-",
+      "normalized_body_sha256": "b076f0b705871bf9e1edb653659adcaf2bae98e05e2bd8964bfaf18ec5935ace"
+    },
     {
       "post_id": "19729",
       "interpretive_connection": "Scholarly purpose guides technical choices",

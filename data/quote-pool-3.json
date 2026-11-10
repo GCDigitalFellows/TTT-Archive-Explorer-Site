@@ -1,8 +1,8 @@
 {
-  "localPosts": 325,
-  "publishedPosts": 421,
+  "localPosts": 327,
+  "publishedPosts": 423,
   "note": "Sentence extraction is new; source cleaning, authorship, model weights and publication scope are unchanged.",
-  "poolId": "a31e694d2fb0e7cc",
+  "poolId": "b7046901bb7328a4",
   "collection": {
     "version": "1.0",
     "entries": [

@@ -1,6 +1,15 @@
 {
-  "as_of": "2026-11-02",
-  "scope": "Six-theme archive interpretation and its 19-post evidence companion",
+  "as_of": "2026-11-09",
+  "corpus_refresh": {
+    "human": "Ian supplied two new articles and requested corpus/analysis updates",
+    "ai": "Codex read and selected two additional literal passages; original authors and declared-credit uncertainty retained",
+    "new_source_ids": [
+      "24957",
+      "25049"
+    ],
+    "independent_human_review": false
+  },
+  "scope": "Six-theme archive interpretation and its 21-post evidence companion",
   "human_contributor": "Ian G. Williams",
   "human_roles": [
     {
@@ -24,7 +33,7 @@
     {
       "role": "Resources",
       "meaning": "Supply materials or tools.",
-      "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details.",
+      "human": "Ian G. Williams supplied the WordPress XML export. Source writers’ contributions are acknowledged separately below. Ian supplied TTT-Website-review.md and the public contact details. On November 9, 2026, Ian supplied a second WordPress XML export containing two new published posts and requested integration and recomputation; Codex performed the processing and checks.",
       "status": "Documented provision"
     },
     {
@@ -66,7 +75,7 @@
       "category": "Data Management",
       "id": "0000025",
       "task": "Data curation and organization",
-      "work": "Selected 19 posts, joined corrected author credits and organized the source ledger."
+      "work": "Selected 21 posts (including two November 2026 additions), joined corrected author credits and organized the source ledger."
     },
     {
       "category": "Data Management",

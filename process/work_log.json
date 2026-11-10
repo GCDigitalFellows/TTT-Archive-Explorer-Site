@@ -2458,6 +2458,493 @@
         "../archives/exports/inventory.json"
       ],
       "limit": "This record describes release preparation; final push and deployment results are reported after observation. Remote Git metadata does not establish production methods. No website behavior, source records, fitted models, rights, visibility or archive bytes changed; no learner or assistive-technology evaluation."
+    },
+    {
+      "id": "additional-lda-method-research-plan",
+      "date": "2026-11-09",
+      "status": "research and plan documented; no model fitting",
+      "task": "Researched LDA and drafted a source-linked implementation plan extending the existing MALLET analysis.",
+      "human": "Ian G. Williams requested research into LDA methodology and a plan for additional blog-post analysis. No approval of specific new model settings, population changes or execution is established.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub repositories for incoming changes, inspected eight primary publications/official documentation sources and the existing NLTK/MALLET recipe, corpus manifest and saved model-comparison tables, and drafted a bounded versioned experiment/evaluation plan. Distinguished the existing LDA fits from proposed work, audited 421 reading records versus 299 modeled records and exclusion reasons, and recommended cross-seed/preprocessing sensitivity, source-linked review and shared-model academic-year summaries. No new model was fit; research files and attribution records were updated. Applied existing code-review/DH knowledge-base S06–S11 as reproducibility/interpretation guidance. All 8 process tests and 4 credit tests passed; documented baseline counts/exclusion totals and local research-document links were checked.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000030",
+        "0000032",
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "../docs/research/lda/PLAN.md",
+        "../docs/research/lda/SOURCES.md",
+        "nlp/corpus_manifest.csv",
+        "nlp/model_comparison.csv",
+        "nlp/nlp_audit.json",
+        "nlp_settings.py"
+      ],
+      "limit": "Targeted English-language search and selected PDF sections, not a systematic review or replication. Abstract/model/diagnostic evidence is separated from proposed project adaptations. No human scholarly validation, new fit, dependency installation, source-population change, frontend work or publication. Existing model scientific validity and historical author accuracy were not independently re-established."
+    },
+    {
+      "id": "additional-lda-isolated-pilot",
+      "date": "2026-11-09",
+      "status": "completed locally; public models unchanged",
+      "task": "Ran an isolated 30-fit LDA pilot with seed, cleaning and iteration comparisons, attributed evidence cards and readable figures.",
+      "human": "Ian G. Williams authorized execution of the previously documented LDA pilot by requesting run it. Human model labeling, numerical execution, comprehensive source reading and public replacement approval are not established.",
+      "agent": "OpenAI Codex (exact build not recorded) wrote annotated experiment/summary modules, checked both GitHub main branches, and ran 20 fresh baseline fits (K=4/6/8/10/12; four seeds), 8 K=8 cleaning variants and 2 K=8 longer runs using local NLTK/MALLET. Verified normalization reconstruction for 299 posts, all mixture IDs and normalized weights, unchanged 667 baseline files, and byte-identical reproduction of 15 saved output files from five earlier configurations. Prepared seed/cleaning/year tables, 4 PNG/SVG figure pairs, source-linked candidate cards with reviewed name grouping/evidence tiers, provenance and a qualified findings memo. Training time was about 170 seconds excluding preparation/reporting. Applied alt-text-design and colour-independence guidance through descriptive alternatives, text/CSV equivalents, distinct line marks and annotated heatmap cells. Four targeted regression tests passed; all 8 process tests and 4 credit tests passed, and the existing saved-result verification passed. Added a VS Code check task and excluded frozen executed-code snapshots from source formatting. Four plots were visually inspected for labels/cutoff, with CSV/text equivalents; no assistive-technology test was performed. Six accessibility installation/provenance tests also passed (not a website accessibility test), for 22 relevant tests total. Final recheck confirmed all 667 baseline hashes unchanged. Source and report links and formatting checks passed.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000028",
+        "0000030",
+        "0000044",
+        "0000046",
+        "0000047"
+      ],
+      "evidence": [
+        "nlp_experiments/README.md",
+        "nlp_experiments/run_lda_pilot.py",
+        "nlp_experiments/summarize_lda_pilot.py",
+        "nlp_experiments/lda_v2/REPORT.md",
+        "nlp_experiments/lda_v2/FINDINGS.md",
+        "nlp_experiments/lda_v2/validation.json",
+        "nlp_experiments/lda_v2/provenance.json",
+        "nlp_experiments/lda_v2/summary_provenance.json",
+        "nlp_experiments/lda_v2/baseline_reproduction.csv"
+      ],
+      "limit": "NLTK prepares tokens and MALLET performs sampling; numeric outputs are software calculations, while code/selection/reporting were AI-assisted. Same 299 published post IDs; no drafts or new population. In-sample metrics and forced alignment are not historical truth or confidence intervals. No held-out evaluation, human model review, independent accessibility/learner test or model promotion. Original workspace Git index unavailable; executed-code snapshots/hashes record uncommitted recipes. No push/public deployment; raw experiments remain outside public allowlist."
+    },
+    {
+      "id": "local-cleaning-comparison-demo",
+      "date": "2026-11-09",
+      "status": "implemented locally; public release unchanged",
+      "task": "Built a local interactive comparison of saved LDA cleaning recipes with matched words and credited article evidence.",
+      "human": "Ian G. Williams requested an explanation of the cleaning comparison, then authorized proceeding with the proposed local interactive demo. No public integration, new fit or comprehensive human evaluation was requested.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub main branches, read relevant inclusive-design and Design Slop guidance, built a reviewable data/template/style/UI demo from the completed pilot, chained topic matching across seeds/recipes, showed exact project stopwords, and preserved credit evidence tiers and literal excerpts. Added an optional standalone export, JSON download, source links, text differences, native keyboard controls and loading/error states. Browser checks observed topic/seed/count selection, keyboard excerpt opening, narrow layout, served standalone export and successful JSON download. No model was fitted. Applied code-review knowledge-base S04–S05 and S08 as purpose/data-flow and manageable-source guidance; no learner effectiveness claim. Validation completed: 5 demo-data tests, 2 Node overlap regressions, 8 process tests, 4 credit tests and 6 accessibility installation/provenance tests passed (25 total). The initial process check detected an unregenerated changelog; regeneration and rerun passed. Source formatting checks passed. Browser protocol restrictions left direct file mode untested; the loaded served standalone page remains playable without further data requests.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "demos/cleaning_comparison/README.md",
+        "demos/cleaning_comparison/build_demo.py",
+        "demos/cleaning_comparison/template.html",
+        "demos/cleaning_comparison/app.js",
+        "demos/cleaning_comparison/build_receipt.json",
+        "demos/cleaning_comparison/test_demo.py",
+        "demos/cleaning_comparison/test_overlap.js"
+      ],
+      "limit": "Read-only reuse of saved eight-topic fits for 299 published posts; controls do not refit NLTK/MALLET. Forced matching is not semantic equivalence. Leading-word counts and top-five examples are truncated rankings; uncertainty remains. Exact stoplists confirm community is not removed. Used plain-language-design, keyboard-navigation, colour-independence and Design Slop guidance; no conformance claim. Direct file navigation was blocked by browser protocol policy; standalone data embedding verified and tested via local HTTP. No induced failure, screen-reader, participant/all-viewport evaluation, push or public deployment."
+    },
+    {
+      "id": "cleaning-demo-educational-explanation",
+      "date": "2026-11-09",
+      "status": "implemented locally; no model or public-site change",
+      "task": "Added an educational explanation of LDA, cleaning steps and comparison interpretation to the local demo.",
+      "human": "Ian G. Williams asked for clearer viewer-facing explanation of the analysis and process, emphasizing that the project is an educational tool.",
+      "agent": "OpenAI Codex (exact build not recorded) checked shared main branches, consulted contextual-help-design and readable-content guidance alongside the existing plain-language/Design Slop approach, and revised source copy/layout to explain topic mixtures, stopwords, seeds, NLTK preparation, MALLET fitting/matching and source reading. Added a concrete T0/seed-42 comparison, an explicitly illustrative mixture-weight example, scope denominators and inline metric/ranking guidance, then rebuilt modular and standalone HTML. Browser checks on local HTTP observed the educational headings, working topic selection and keyboard opening of the detailed explanation. Applied existing knowledge-base S08 as explained-computation guidance; proposed teaching usefulness is untested. All 25 relevant checks passed: 5 demo-data, 2 Node overlap, 8 process, 4 credit and 6 accessibility installation/provenance tests. Source formatting passed; installation checks do not assess reader comprehension or accessibility conformance.",
+      "credit_roles": [
+        "Conceptualization",
+        "Writing – review & editing"
+      ],
+      "gaidet": [
+        "0000030",
+        "0000031",
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "demos/cleaning_comparison/template.html",
+        "demos/cleaning_comparison/styles.css",
+        "demos/cleaning_comparison/app.js",
+        "demos/cleaning_comparison/README.md",
+        "demos/cleaning_comparison/build_receipt.json"
+      ],
+      "limit": "Copy/layout revision reuses identical saved topic-model inputs; no training, new topic interpretation, population change, push or public deployment. Five demo-data tests and two overlap regressions passed. Direct-file browser navigation remains untested because of the tool protocol restriction; served standalone copy was checked. No novice participant, comprehension, independent scholarly or screen-reader evaluation; illustrative percentages are explicitly not measured results."
+    },
+    {
+      "id": "cleaning-integration-review",
+      "date": "2026-11-09",
+      "status": "review completed; recommendations only",
+      "task": "Reviewed placement, scope, evidence and accessibility requirements for integrating the cleaning comparison into Text patterns.",
+      "human": "Ian G. Williams requested reviewing the proposed main-site integration. The preceding recommendation explicitly deferred implementation; no integration or publication approval is inferred.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both GitHub main branches, inspected the current analysis/about markup, analysis/route controllers, modular methods and local demo source/data, then documented three major integration concerns and two moderate issues with evidence, proposed fixes and release checks. Recommended an expandable section after the topic chart, explicit independent corpus scope, scoped/lazy-loaded component architecture, main-reader context/rights/return handling and simplified public labels. Readable-content, contextual-help, information-density, heading-structure, keyboard and Design Slop guidance informed recommendations; existing knowledge-base S03–S05 and S09–S11 supported context and interpretive boundaries. No code, models or live page changed. Review-record validation passed: all 8 process tests and 4 credit tests. These checks verify attribution/document structure, not the proposed interface.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/cleaning_integration/REVIEW.md",
+        "reviews/cleaning_integration/review_scope.json"
+      ],
+      "limit": "AI source/data review, not human usability evaluation or current live-site browser check. Existing browser observations are explicitly historical. No independent authorship re-audit, participant/AT testing, new fit, integration, push or deployment. Layout/wording recommendations remain proposed; review does not authorize public changes."
+    },
+    {
+      "id": "cleaning-integrated-local-preview",
+      "date": "2026-11-09",
+      "status": "implemented and verified locally; not promoted",
+      "task": "Built an isolated main-site cleaning comparison with shared topic selection, explicit corpus scope and reader return.",
+      "human": "Ian G. Williams authorized proceeding with the reviewed integrated local preview and requested resuming its implementation. This does not establish approval of public promotion or complete human validation.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub main branches, built scoped component source and a fresh-directory preview builder, and extended the existing modular builder with optional destination/script/deferred-group parameters while preserving default output bytes. Connected main-topic selection, canonical article/credit/rights records, state/focus return, People and methods cross-link, progressive research settings, inherited design eras and narrow recipe selection. Reused the checked atomic loader for a deferred comparison field. Browser checks observed filter-scope separation, reader/rights/focus return, link, seed/topic controls, 2012 styling and 636px/1200px layouts without horizontal overflow. An induced checksum mismatch left 421-post browsing available and recovered on retry after exact bytes were restored. No model was trained and the public allowlist/active frontend were not replaced. All 41 relevant tests passed: 10 demo/integration Python, 5 existing modular Python, 4 comparison Node, 4 loader Node, 8 process, 4 credit and 6 accessibility installation/provenance checks. Black/Prettier checks passed; VS Code task, formatter inputs and code map were updated. The final isolated preview preserves all reading text/credits/rights and existing data recipes. Original shared Git index remains unavailable, so the healthy checkout was used for remote comparison and file fingerprints record local source evidence.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "demos/cleaning_comparison/integration_methods.md",
+        "demos/cleaning_comparison/integration_validation.json",
+        "demos/cleaning_comparison/build_integrated_preview.py",
+        "demos/cleaning_comparison/integrated_panel.html",
+        "demos/cleaning_comparison/integrated_ui.js",
+        "demos/cleaning_comparison/integrated_styles.css",
+        "demos/cleaning_comparison/test_integration.py",
+        "reviews/mockups/welcoming-pathways/build_modular.py"
+      ],
+      "limit": "Local preview only, based on the hash-recorded existing main offline build; default builder and reading data were byte-compared. New component source is not a public promotion. Saved 299-post eight-topic fits, identities, cohorts and primary interpretation remain unchanged. Applied contextual-help/readable-content, density, headings, keyboard and Design Slop guidance; knowledge-base S04–S05/S08 informed explained source and evidence flow. No participant/AT evaluation, comprehensive zoom/contrast testing, independent scientific validation, push or deployment."
+    },
+    {
+      "id": "critical-methods-working-knowledge-base",
+      "date": "2026-11-09",
+      "status": "research and knowledge base completed locally",
+      "task": "Developed a code-linked methods knowledge base on data cleaning, digital humanities, critical data studies and design justice.",
+      "human": "Ian G. Williams requested research into additional methods already used in the project, including cleaning, and a working knowledge base attentive to digital humanities, critical data studies and design justice principles.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub main branches, inspected the relevant local code/ledgers, searched primary publisher/author/community sources and official technical documentation, and prepared 17 annotated entries with structured metadata and generated BibTeX. Wrote a method inventory, synthesis, project-specific design-justice discussion guide, reviewer worksheet and search/access record. Distinguished current post-share gaps, smoothed token-rate ratios, dictionary signals, topic models and selected interpretation; treated TF-IDF as a proposed comparator rather than an existing operation. Flagged older documentation-count drift without rewriting history. Preserved limited-access/edition/rights notes, including abstract-only Caswell/Cifor, record-only Vancouver, historical Santa Barbara and unmodified Design Justice Network principles. Added a small annotated metadata/notes/BibTeX generator and consistency checks, plus navigation links to the new reference. No new analytical fit, source-data change, public UI or governance process was implemented. Validation passed: 4 knowledge-base consistency/evidence tests, 8 process tests and 4 credit tests (16 total), generated-note/BibTeX checks, navigation/local-evidence links and Black formatting. Readable-content guidance informed task-based reading routes and chunked explanations; no reading-grade or learner comprehension claim was assessed.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000025",
+        "0000030",
+        "0000032",
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000023"
+      ],
+      "evidence": [
+        "../docs/knowledge/critical-methods/README.md",
+        "../docs/knowledge/critical-methods/METHODS_MAP.md",
+        "../docs/knowledge/critical-methods/ANNOTATED_SOURCES.md",
+        "../docs/knowledge/critical-methods/DESIGN_JUSTICE.md",
+        "../docs/knowledge/critical-methods/REVIEW_WORKSHEET.md",
+        "../docs/knowledge/critical-methods/SEARCH_METHODS.md",
+        "../docs/knowledge/critical-methods/sources.json",
+        "../docs/knowledge/critical-methods/references.bib",
+        "../docs/knowledge/critical-methods/test_knowledge.py"
+      ],
+      "limit": "Targeted English-language research and selected sections, not a systematic review, full-book reading, replication, independent scholarly approval or community consultation. Two annotated entries have explicitly limited full-text access. Source/license metadata is not broad permission; frameworks are not certifications or automatic methodological mandates. Author scholars/community source authors retain publication credit, not automatic project contribution roles. No demographic inference, recruitment, source identity/cohort change, new model fit, AGENTS policy change, push or deployment."
+    },
+    {
+      "id": "critical-methods-website-reassessment",
+      "date": "2026-11-09",
+      "status": "review completed; recommendations not implemented",
+      "task": "Reassessed website narrative, analysis and interface through the critical-methods knowledge base and raised decisions for Ian.",
+      "human": "Ian G. Williams requested reassessment, questions for consideration and proposed improvements; no approval or independent human validation of findings is recorded.",
+      "agent": "OpenAI Codex (exact build not recorded) checked shared remote comparisons, inspected saved corpus/quote rules and route sources, observed live home and interpretation disclosures, and wrote a prioritized review with proposed changes and decision questions. Distinguished illustrative value from prevalence, data coverage from program activity, credit from appointment, and correction contact from shared interpretive authority. No frontend or model changes were implemented. Attribution structure checks passed: 8 process and 4 credit tests; the README and full changelog were regenerated.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/critical_methods_reassessment_2026-11-09/README.md",
+        "reviews/mockups/welcoming-pathways/build_quotes.py",
+        "nlp/corpus_manifest.csv",
+        "../docs/knowledge/critical-methods/README.md"
+      ],
+      "limit": "Source/browser review, not participant research, screen-reader assessment, complete accessibility audit or independent scientific validation. Local cleaning integration is newer than live release. Original workspace Git index unavailable; healthy checkout used for remote scan. No publication, refit, author/roster changes or governance adoption."
+    },
+    {
+      "id": "critical-methods-explanations-implementation",
+      "date": "2026-11-09",
+      "status": "implemented and checked locally; not published",
+      "task": "Implemented clearer corpus coverage, situated interpretation, quote eligibility, chart guidance and feedback explanations, with a six-case saved-text cleaning audit.",
+      "human": "Ian G. Williams requested implementation of the preceding review proposals; supplied priorities and authorized revision. No independent human review of the resulting code, audit or interpretation is recorded.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories through the healthy checkout, revised editable frontend sources and rebuilt modular/offline outputs and an isolated cleaning-comparison preview. Added filtered-versus-full coverage calculations and a regression check, theme selection/counterquestions, article eligibility labels, chart questions/units/example, network evidence limits and separate factual/interpretive feedback links. Inspected six purposively selected saved readable/cleaned texts without rerunning NLTK or MALLET, recorded exact hashes and literal counts, and explained limited findings. Browser checks found and corrected narrow-screen table overflow. Verified all shared saved-data fields against the previous preview after manifest-order reconstruction. Validation: 9 Node analysis, 5 modular Python and 10 cleaning/integration Python tests passed; 8 process and 4 credit structure checks passed. Updated the code guide, implementation record and generated changelogs.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000025",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/critical_methods_reassessment_2026-11-09/IMPLEMENTATION.md",
+        "reviews/critical_methods_reassessment_2026-11-09/implementation_validation.json",
+        "reviews/critical_methods_reassessment_2026-11-09/audit_cleaning.py",
+        "reviews/critical_methods_reassessment_2026-11-09/cleaning_audit.json",
+        "reviews/mockups/welcoming-pathways/views/home.html",
+        "reviews/mockups/welcoming-pathways/views/wisdom.html",
+        "reviews/mockups/welcoming-pathways/views/analysis.html",
+        "reviews/mockups/welcoming-pathways/views/about.html",
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/ui.js",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/test_analysis.js",
+        "reviews/mockups/welcoming-pathways/modular_methods.md"
+      ],
+      "limit": "Local implementation, not publication or public promotion of the isolated cleaning demo. Six cases are purposive, literal counts do not reproduce all NLP stages, and no language/tagging validity or preferred stop list is established. No participant/screen-reader evaluation, recruitment, community governance adoption, source-credit/cohort changes or new model fit. Original workspace index remains unavailable; no unrelated local changes discarded. Applied K01/K02/K04–K06/K09–K13 and plain-language/information-density guidance; no measured reading level or conformance claim."
+    },
+    {
+      "id": "authorship-networks-critical-methods-review",
+      "date": "2026-11-09",
+      "status": "review completed; recommendations not implemented",
+      "task": "Reviewed authorship network definitions, projections, uncertainty, controls and source-reading routes through the critical-methods knowledge base.",
+      "human": "Ian G. Williams requested a network-subpage review and suggested improvements based on the knowledge base; no implementation approval or independent human validation is inferred.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub main branches, inspected current local network markup/calculations/interactions and aggregated saved credit metadata. Documented four multi-credit posts generating all 72 pairs (55 from one 11-name article), evidence-filter populations, default truncation/automatic focus, repeated controls and source-route accessibility risks. Proposed a post-centered shared-writing view, explicit mixed-evidence counts, task-based entry, simpler controls and consistent evidence/return paths. Source-level interaction findings are not a new browser, participant or screen-reader test. Validation: 8 process and 4 credit structure checks passed; saved metadata assertions confirmed all 72 pairs have one supporting post.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000044",
+        "0000046",
+        "0000047",
+        "0000030"
+      ],
+      "evidence": [
+        "reviews/authorship_networks_2026-11-09/README.md",
+        "reviews/authorship_networks_2026-11-09/evidence.json",
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/analysis_ui.js"
+      ],
+      "limit": "Review only. Local sources are newer than public main. Recorded co-credit is not collaboration, confirmed human identity, appointment or productivity; account-only status does not prove an attribution false. No network redesign, model fit, source-credit edit, participant/AT evaluation, recruitment, push or publication. Original workspace Git index unavailable; healthy checkout used for remote scan. Applied K04/K05/K10–K12 and alt-text/colour-independence/keyboard guidance without conformance claims."
+    },
+    {
+      "id": "question-led-shared-writing-networks",
+      "date": "2026-11-09",
+      "status": "implemented and checked locally; not published",
+      "task": "Added the approved question-led network entry and article-centered shared-writing paths while preserving existing network modes.",
+      "human": "Ian G. Williams explicitly approved shared-writing through articles and a question-led entry after reviewing the network recommendations; no independent human validation of implementation or all credit records is inferred.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both remote main branches, added sharedWriting aggregation over already filtered saved posts, built three native task-entry routes and responsive name–article–name cards, preserved evidence toggles/year graph/matrix/optional pair view, and reused the source/reader with return-focus support. Hid duplicate text-analysis controls on the network tab, documented retained filters/reset and the eleven-name-to-55-pair transformation. Browser testing caught a missing render target, corrected and rechecked in the source template. Saved-data comparison preserved all shared evidence fields from the preceding delivery. Passed 11 analysis Node, 5 modular Python, 10 cleaning/integration Python, 8 process and 4 credit tests (38 total). Formatting and syntax checks passed; updated code guide and generated attributed records.",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/authorship_networks_2026-11-09/IMPLEMENTATION.md",
+        "reviews/authorship_networks_2026-11-09/implementation_validation.json",
+        "reviews/mockups/welcoming-pathways/analysis_core.js",
+        "reviews/mockups/welcoming-pathways/analysis_ui.js",
+        "reviews/mockups/welcoming-pathways/views/analysis.html",
+        "reviews/mockups/welcoming-pathways/styles.css",
+        "reviews/mockups/welcoming-pathways/test_analysis.js",
+        "reviews/mockups/welcoming-pathways/modular_methods.md"
+      ],
+      "limit": "Local implementation and isolated updated preview, no commit/push/deployment or release-manifest expansion. No changed source credits, identities, cohorts, corpus membership or model weights. Other recommendations remain proposals. Browser checked focus return, source reading, empty scope, task routes, optional pairs and 636px reflow; no full keyboard, screen-reader or participant evaluation, scholarly approval or learner-comprehension claim. K04/K10 and wayfinding/heading/keyboard/plain-language/density guidance informed implementation. Original workspace index unavailable; no unrelated local edits discarded."
+    },
+    {
+      "id": "november-9-additive-corpus-refresh",
+      "date": "2026-11-09",
+      "status": "completed and checked locally; prepared release, not published",
+      "task": "Integrated two newly supplied published posts, preserved the earlier snapshot, reran cleaning and models, and rebuilt article accounting, analyses and visualization populations.",
+      "human": "Ian G. Williams supplied the November 9 WordPress export, identified two recent posts and requested cleaning, addition to the corpus and updated analyses/counts. This is source provision and task direction, not independent human processing or validation.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, preserved the complete pre-refresh analysis tree and hashes, merged the supplement without changing original article records, separated two articles from 35 attachments, retained author-taxonomy versus account/photography evidence, and reused a documented roster spelling resolution. Ran NLTK with existing settings and five main MALLET fits plus a separately versioned 30-fit pilot. Logged three existing byline/bio cleaning changes removing ten tokens, topic-ID alignment and provisional labels, refreshed 21 source-linked interpretive examples, rebuilt lexical/topic/year/credit/cohort/rights/word and topic-map outputs and current count labels. Reapplying the existing quote rule exposed previously recovered bylines: all 872 old candidates and 30 selected excerpts remain intact, while the mechanical pool grows to 1631 sentences/90 articles. Added only three explicit generated public-data shards; raw source/archive/model files remain excluded. Browser checks verified both new credits/readers, 423/301 counts and refreshed cleaning/word/sunburst displays. Validation passed: 115 targeted checks (35 frontend Node, 4 cleaning Node, 23 frontend Python, 4 coverage, 7 membership, 4 identity, 2 rights, 8 process, 4 credits, 6 accessibility provenance, 4 LDA pilot, 10 cleaning/integration and 4 knowledge-base). Historical count assertions were updated to new known totals after their initial failures; independent source/record comparisons were retained. Additive preservation and the original historical 43-file audit both passed. Black/Prettier applied; the reviewed packager prepared a local release with synchronized README/CHANGELOG.",
+      "credit_roles": [
+        "Conceptualization",
+        "Resources"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000024",
+        "0000025",
+        "0000026",
+        "0000027",
+        "0000028",
+        "0000023",
+        "0000030",
+        "0000031",
+        "0000046"
+      ],
+      "evidence": [
+        "refresh/2026-11-09/README.md",
+        "refresh/2026-11-09/receipt.json",
+        "refresh/2026-11-09/cleaning_changes.json",
+        "refresh/2026-11-09/topic_alignment.json",
+        "refresh/2026-11-09/quote_pool_lineage.json",
+        "refresh/2026-11-09/verification.json",
+        "refresh/verify_20261109.py",
+        "source_snapshot.json",
+        "nlp/nlp_audit.json",
+        "nlp_experiments/lda_v3_20261109/validation.json",
+        "identity/review.json",
+        "attribution_revision/taxonomy_names.json",
+        "../scripts/public_release_manifest.json",
+        "refresh/2026-11-09/validation.json",
+        "refresh/2026-11-09/test_results.json"
+      ],
+      "limit": "Local integration, not a GitHub push or public deployment. 423 published/327 local/301 modeled posts; drafts and attachments excluded. Original 430 private metadata records retained unchanged, including nine draft metadata records outside public/model projections. Three historical token files change by documented byline cleanup; new fitted results are not directly comparable by raw topic ID. Provisional labels and selected interpretations are AI-assisted, not independent human coding or endorsement. Photography credits do not establish article authorship; preferred spelling confirmation is not recorded. No participant/full keyboard/screen-reader evaluation. Original workspace index remains unavailable; unrelated local contributions preserved."
+    },
+    {
+      "id": "home-lead-human-contributions-copy",
+      "date": "2026-11-09",
+      "status": "implemented locally; not published",
+      "task": "Replaced the homepage lead with Ian’s supplied sentence about doctoral student contributions.",
+      "human": "Ian G. Williams supplied the exact replacement sentence in a browser comment: “Learn from over 14 years of doctoral student contributions.”",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, applied the supplied wording to the editable home template, updated the scoped human writing credit and rebuilt the frontend/local integrated preview. The change follows plain-language guidance without altering research data. Process/credit structure checks and browser verification are recorded with this change. Eight process and four credit checks passed. Browser reload at the reused address reported a script-loading error despite correct on-disk integrity hashes; the same build loaded successfully on fresh local origin port8915, where the exact supplied sentence was observed and captured. Preview remains running; no data/model changes.",
+      "credit_roles": [
+        "Writing – original draft"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/views/home.html",
+        "credits/process_profile.json"
+      ],
+      "limit": "Exact human-supplied copy; this task does not independently establish the duration claim, doctoral status of every source writer, learner understanding or endorsement. Corpus, attribution decisions, counts and model results unchanged. No push or deployment."
+    },
+    {
+      "id": "nyc-pit-flyer-reference-palette",
+      "date": "2026-11-09",
+      "status": "reference created; not applied to website",
+      "task": "Extracted an exact-color reference palette from the supplied NYC PIT Pop Up flyer, with swatches, reusable CSS tokens and contrast guidance.",
+      "human": "Ian G. Williams supplied the flyer PNG and requested a color palette to reference in future website revisions. This is source provision and direction, not an established claim of artistic authorship or approval of suggested roles.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, counted exact RGB pixels at original 2121×3000 resolution, selected eleven source colors, recorded the input hash and frequencies, computed 144 foreground/background pairings, and created a labeled PNG/SVG reference, JSON provenance, optional CSS tokens and human-readable guidance. Confirmed the forest-ink value matches the existing dark surface. Checked official W3C contrast and color-use explanations, inspected the rendered swatch sheet and added navigation links. All palette values are exact source pixels; suggested roles are editorial proposals. Source image and live styles remain unchanged. Extraction assertions and black/white contrast sanity checks passed; the final generator ran successfully, 8 process and 4 credit tests passed, and Black formatting was applied. The swatch PNG was visually inspected for readable labels and complete layout.",
+      "credit_roles": [
+        "Conceptualization",
+        "Resources"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000026",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "design/palettes/nyc-pit-2026/README.md",
+        "design/palettes/nyc-pit-2026/palette.json",
+        "design/palettes/nyc-pit-2026/palette.png",
+        "design/palettes/nyc-pit-2026/palette.svg",
+        "design/palettes/nyc-pit-2026/palette.css",
+        "design/palettes/nyc-pit-2026/contrast.csv",
+        "design/palettes/nyc-pit-2026/build_palette.py"
+      ],
+      "limit": "Reference only: not imported by the frontend, assigned to model categories or added to the public allowlist. Assumes sRGB; no calibrated display/print check, color-vision simulation, participant evaluation or whole-site accessibility assessment. White is only a comparison color, not sampled. Flyer creator/license not established from image; original artwork not copied or relicensed. No data/model/attribution changes, push or deployment."
+    },
+    {
+      "id": "flyer-font-pairing-interactive-demo",
+      "date": "2026-11-09",
+      "status": "isolated demo built and checked; not promoted",
+      "task": "Built an in-page typography comparison using Pixelify Sans headings, Atkinson Hyperlegible Next reading text and optional flyer heading accents.",
+      "human": "Ian G. Williams requested a demo version of the recommended font pairing in the page; no production promotion, independent readability validation or universal font preference is inferred.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, checked official font metadata/licenses, downloaded three unmodified variable TTFs and OFL notices from pinned upstream revisions, and built a separate preview layer with native independent checkboxes and a current-design reset. Added scoped font/accent CSS, local font loading status, preference overrides, credits and an integrity-preserving copy builder. Python TLS verification failed initially; system curl succeeded with verification enabled. Corrected a hidden-root insertion assumption and CSS cascade order during isolated iterations. Browser checks confirmed loaded faces/computed fonts, reset behavior, reader credit preservation, Atkinson SVG network labels and no horizontal overflow at 375px/1200px; viewport restored. Original web assets/data/scripts remained byte-identical; fonts fit the existing per-file budget. Final checks passed: eight process tests, four credit tests, Black for both Python modules and Prettier for CSS/JS/HTML. A second GitHub scan found no incoming commits in either repository before documentation packaging.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000027",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "demos/flyer_typography/README.md",
+        "demos/flyer_typography/build_demo.py",
+        "demos/flyer_typography/fetch_fonts.py",
+        "demos/flyer_typography/demo.css",
+        "demos/flyer_typography/demo.js",
+        "demos/flyer_typography/controls.html",
+        "demos/flyer_typography/fonts/manifest.json"
+      ],
+      "limit": "Local demo only, not an active frontend or public allowlist change. Font files retain SIL OFL 1.1, not project MIT; upstream designers are not automatically website contributors or endorsers. No source credit, model or research-filter changes, system-font installation, push or deployment. Light-mode/high-contrast behavior inspected in source, not fully browser-tested; no complete keyboard, screen-reader, participant or learner evaluation. Font choice alone is not accessibility certification."
+    },
+    {
+      "id": "flyer-typography-active-site",
+      "date": "2026-11-09",
+      "status": "implemented and locally checked; not pushed or deployed",
+      "task": "Promoted the approved flyer typography to the active default appearance, with preserved historical styles and local font licenses.",
+      "human": "Ian G. Williams approved the demonstrated pairing and requested implementation in the site. No independent accessibility or learner validation is inferred.",
+      "agent": "OpenAI Codex (exact build not recorded) checked both GitHub repositories twice with no incoming commits, added a focused readable typography stylesheet, copied pinned unmodified fonts and notices with hash verification, updated the explicit release allowlist, embedded fonts in the optional offline export and added typeface credits. Corrected three existing refreshed-data release destinations and a relative evidence link exposed by packaging checks; updated the stale release-test population assertion to the already-approved 423 records. Passed 23 frontend Python tests, 35 JavaScript tests and six release tests after the path fixes. Browser confirmed default Atkinson/Pixelify families and orchid color, complete archive startup at 423 records, no horizontal overflow at the observed 674px viewport, 2012 font restoration and default reset. Used flexible-typography guidance for relative sizing, fallback fonts and preference overrides; no universal readability claim. Eight process and four credit tests also passed; final release was prepared with synchronized short/full changelogs. Final pre-packaging scan again found no incoming GitHub commits.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000030",
+        "0000046"
+      ],
+      "evidence": [
+        "reviews/mockups/welcoming-pathways/typography.css",
+        "reviews/mockups/welcoming-pathways/fonts/manifest.json",
+        "reviews/mockups/welcoming-pathways/build_modular.py",
+        "reviews/mockups/welcoming-pathways/build_prototype.py",
+        "reviews/mockups/welcoming-pathways/modular_methods.md",
+        "reviews/mockups/welcoming-pathways/views/about.html",
+        "../scripts/public_release_manifest.json",
+        "../scripts/test_public_release.py",
+        "identity/build_review.py"
+      ],
+      "limit": "Active default 2026 treatment applies across internal routes; other selected historical years retain prior typography. Original data, author decisions and fitted models were not changed. Font rights remain SIL OFL, separate from MIT. No complete keyboard/screen-reader, light-mode, high-contrast or participant evaluation in this promotion. Local implementation and release preparation only; no GitHub push or deployment."
+    },
+    {
+      "id": "publish-flyer-and-current-corpus-20261109",
+      "date": "2026-11-09",
+      "task": "Publish the approved flyer typography and accumulated current corpus/interface revisions to the private source and public website repositories.",
+      "status": "release prepared; publication verification pending",
+      "human": "Ian G. Williams approved the integrated appearance and explicitly requested the push; earlier requests authorized the corpus refresh and interface/analysis revisions preserved in the preceding task records.",
+      "agent": "OpenAI Codex (exact build not recorded) scanned both repositories, found no incoming commits, used the existing healthy private checkout because the workspace Git index remained unreadable, preserved Git history and synchronized current project files without deleting or resetting shared files. Prepared an explicit-allowlist public release; publication outcomes and checks will be recorded after execution.",
+      "credit_roles": [
+        "Conceptualization",
+        "Supervision"
+      ],
+      "gaidet": [
+        "0000025",
+        "0000023",
+        "0000028"
+      ],
+      "evidence": [
+        "../scripts/public_release_manifest.json",
+        "../scripts/check_shared_updates.py",
+        "../scripts/prepare_public_site.py",
+        "reviews/mockups/welcoming-pathways/build_audit.json"
+      ],
+      "limit": "Git author metadata is recorded attribution, not proof of manual authorship. This publication does not establish complete source authorship accuracy, human usability approval or accessibility conformance. Original fonts and article rights remain separate; raw exports, archives and fitted model binaries remain outside the public allowlist."
     }
   ],
   "remaining": [

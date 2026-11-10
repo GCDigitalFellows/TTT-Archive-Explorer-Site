@@ -2178,12 +2178,12 @@
     "year": "2015–2016",
     "analyzedPosts": 32,
     "allTypes": 2897,
-    "exclusiveTypes": 517,
-    "singlePostTypes": 497,
-    "multiplePostTypes": 20,
-    "singleOccurrenceTypes": 413,
-    "sharedAcrossYearsTypes": 2380,
-    "exclusiveShare": 0.17846047635484985,
+    "exclusiveTypes": 513,
+    "singlePostTypes": 495,
+    "multiplePostTypes": 18,
+    "singleOccurrenceTypes": 411,
+    "sharedAcrossYearsTypes": 2384,
+    "exclusiveShare": 0.1770797376596479,
     "forms": [
       {
         "word": "subdomain",
@@ -2298,17 +2298,6 @@
         "ids": [
           "19820",
           "3393"
-        ]
-      },
-      {
-        "word": "misshula",
-        "occurrences": 6,
-        "posts": 4,
-        "ids": [
-          "3393",
-          "19815",
-          "19813",
-          "19806"
         ]
       },
       {
@@ -2691,15 +2680,6 @@
         "ids": [
           "19814",
           "19805"
-        ]
-      },
-      {
-        "word": "senior",
-        "occurrences": 2,
-        "posts": 2,
-        "ids": [
-          "19822",
-          "19815"
         ]
       },
       {
@@ -4562,14 +4542,6 @@
         ]
       },
       {
-        "word": "jeff",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19815"
-        ]
-      },
-      {
         "word": "jensen",
         "occurrences": 1,
         "posts": 1,
@@ -5679,14 +5651,6 @@
         "posts": 1,
         "ids": [
           "19818"
-        ]
-      },
-      {
-        "word": "sean",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19815"
         ]
       },
       {

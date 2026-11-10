@@ -68,6 +68,19 @@
         "https://gcdi.commons.gc.cuny.edu/people/"
       ],
       "confirmation": "User-confirmed identity equivalence, November 2, 2026"
+    },
+    {
+      "canonical": "Shokraan Rahiminezhad",
+      "variants": [
+        "Shokraan Rahiminezhad",
+        "Shokran Rahiminezhad"
+      ],
+      "basis": "Reuse the saved directory-data resolution explicitly documenting Shokran/Shokraan as the unique current team member (directory_data.json signed-name resolution limits). New post 25049 declares author taxonomy shokran-rahiminezhad and separately spells the full name in a photography credit. The photo credit is not the basis for article authorship. Source author_terms and credited_authors retain Shokran; canonical spelling follows the existing roster, not a newly confirmed preference.",
+      "sources": [
+        "analysis/membership/directory_data.json",
+        "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/"
+      ],
+      "confirmation": "Evidence-supported reuse of previously documented spelling resolution; individual/preferred-name confirmation not recorded"
     }
   ],
   "retained_separately": [

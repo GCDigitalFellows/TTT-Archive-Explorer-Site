@@ -162,6 +162,8 @@
   max-width: 68ch;
 }
 #welcoming-prototype .stack {
+  /* Let wide evidence tables scroll within a grid instead of widening the page. */
+  min-width: 0;
   display: grid;
   gap: var(--space);
 }
@@ -476,6 +478,7 @@
   display: block;
 }
 #welcoming-prototype .analysis-section {
+  min-width: 0;
   display: grid;
   gap: 14px;
   border-top: 1px solid var(--line);
@@ -1010,4 +1013,144 @@
 }
 #welcoming-prototype .network-evidence-grid > * {
   min-width: 0;
+}
+
+/* Coverage is a conventional reading table, not the rotated word heatmap.
+ * The focusable wrapper keeps the full evidence available on narrow screens.
+ */
+#welcoming-prototype .coverage-scroll {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+}
+#welcoming-prototype .coverage-scroll table {
+  min-width: 44rem;
+}
+#welcoming-prototype #wp-a-texts details {
+  min-width: 0;
+}
+
+/* Shared writing preserves the article between credited names. Plain HTML
+ * reading order matches the left-to-right path and stacks on small screens.
+ * Lists retain complete names; arrows describe direction, not causality.
+ */
+#welcoming-prototype .shared-post-path {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1.4fr);
+  gap: 1.5rem;
+  border-top: 1px solid var(--line);
+  padding: 1rem 0;
+}
+#welcoming-prototype .shared-post-path > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+#welcoming-prototype .shared-post-path ul {
+  padding-left: 1rem;
+}
+#welcoming-prototype .shared-post-path button.link {
+  text-align: left;
+}
+@media (max-width: 750px) {
+  #welcoming-prototype .shared-post-path {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+}
+
+/* Default flyer typography, approved by Ian on November 9, 2026.
+ * Edit families, sizes and accents here. This sheet is assembled last so card
+ * font shorthands cannot replace the pairing. Other design years retain their
+ * historical fonts; preference overrides below still take priority.
+ * Fonts are unmodified upstream variable TTFs, with separate OFL notices.
+ */
+@font-face {
+  font-family: "TTT Pixelify";
+  src: url("../fonts/pixelify.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TTT Atkinson";
+  src: url("../fonts/atkinson.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TTT Atkinson";
+  src: url("../fonts/atkinson-italic.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+#welcoming-prototype[data-design-year="2026"] {
+  font-family: "TTT Atkinson", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+#welcoming-prototype[data-design-year="2026"]
+  :is(
+    p,
+    label,
+    button,
+    input,
+    select,
+    textarea,
+    h3,
+    small,
+    th,
+    td,
+    summary,
+    li,
+    svg text
+  ) {
+  font-family: "TTT Atkinson", system-ui, sans-serif;
+}
+#welcoming-prototype[data-design-year="2026"] :is(h1, h2),
+#welcoming-prototype[data-design-year="2026"] .brand > span {
+  font-family: "TTT Pixelify", "TTT Atkinson", system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+#welcoming-prototype[data-design-year="2026"] .brand > span {
+  font-size: 1.625rem;
+}
+#welcoming-prototype[data-design-year="2026"] h1 {
+  font-size: clamp(2rem, 4.2vw, 3rem);
+}
+#welcoming-prototype[data-design-year="2026"] h2 {
+  font-size: 1.75rem;
+}
+/* Original sampled accents are used on the dark background. The darker light
+ * adaptations are light-surface adaptations, not colors extracted from the flyer.
+ */
+#welcoming-prototype[data-design-year="2026"] h1,
+#welcoming-prototype[data-design-year="2026"] .brand > span {
+  color: light-dark(#6f2680, #c67de0);
+}
+#welcoming-prototype[data-design-year="2026"] h2 {
+  color: light-dark(#006475, #7edaf2);
+}
+/* Higher contrast and system palettes take priority over decorative accents. */
+@media (prefers-contrast: more) {
+  #welcoming-prototype[data-design-year="2026"] :is(h1, h2),
+  #welcoming-prototype[data-design-year="2026"] .brand > span {
+    color: var(--ink);
+  }
+}
+@media (forced-colors: active) {
+  #welcoming-prototype[data-design-year="2026"] :is(h1, h2),
+  #welcoming-prototype[data-design-year="2026"] .brand > span {
+    color: CanvasText;
+  }
+}
+
+/* Preserve readable auxiliary text in the default pairing. */
+#welcoming-prototype[data-design-year="2026"] .small,
+#welcoming-prototype[data-design-year="2026"] .brand small {
+  font-size: 0.875rem;
+  line-height: 1.5;
 }

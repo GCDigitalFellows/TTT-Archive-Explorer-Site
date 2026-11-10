@@ -28,6 +28,30 @@ const PathwaysAnalysis = (() => {
       };
     });
   }
+  // Compare the complete published snapshot with the CURRENT filtered model
+  // selection. Exclusions are reported separately: they are not missing topics.
+  function coverageYears(allPosts, selectedPosts, years) {
+    return years.map((year) => {
+      const published = allPosts.filter((p) => p.year === year);
+      const local = published.filter((p) => p.kind === "local/unflagged");
+      const modeled = local.filter((p) => p.weights);
+      const reasons = new Map();
+      for (const post of published.filter((p) => !p.weights)) {
+        const reason = post.exclusion || "No saved model weight";
+        reasons.set(reason, (reasons.get(reason) || 0) + 1);
+      }
+      return {
+        year,
+        published: published.length,
+        local: local.length,
+        modeled: modeled.length,
+        selected: selectedPosts.filter((p) => p.year === year && p.weights).length,
+        exclusions:
+          [...reasons].map(([reason, count]) => `${count} ${reason}`).join("; ") ||
+          "None",
+      };
+    });
+  }
   function signalYears(posts, years, signal) {
     return years.map((year) => {
       const selected = posts.filter((p) => p.year === year);
@@ -78,6 +102,18 @@ const PathwaysAnalysis = (() => {
       .map((row) => ({ ...row, years: [...row.years].sort() }))
       .sort((a, b) => b.count - a.count || a.author.localeCompare(b.author));
   }
+  // Keep articles as the direct evidence: one record per multi-credit post,
+  // rather than one inferred relationship for every possible pair of names.
+  // The input is already filtered by year, selected name and evidence choice.
+  function sharedWriting(posts) {
+    return posts
+      .map((post) => ({
+        ...post,
+        names: [...new Set(post.authors)].sort((a, b) => a.localeCompare(b)),
+      }))
+      .filter((post) => post.names.length > 1)
+      .sort((a, b) => a.year.localeCompare(b.year) || a.title.localeCompare(b.title));
+  }
   function sharedBylines(posts) {
     const pairs = new Map();
     for (const post of posts) {
@@ -106,10 +142,12 @@ const PathwaysAnalysis = (() => {
   return {
     population,
     topicYears,
+    coverageYears,
     signalYears,
     authorYears,
     authorTotals,
     sharedBylines,
+    sharedWriting,
   };
 })();
 if (typeof module !== "undefined" && module.exports) module.exports = PathwaysAnalysis;

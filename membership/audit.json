@@ -9,18 +9,18 @@
   "current_role_names": 20,
   "current_roles_have_inferred_appointment_years": false,
   "local_post_matches_by_basis": {
-    "signed": 147,
-    "resolved-signed": 148,
+    "signed": 148,
+    "resolved-signed": 150,
     "directory-digital": 273,
     "directory-any": 278,
-    "combined": 282
+    "combined": 284
   },
   "modeled_post_matches_by_basis": {
-    "signed": 129,
-    "resolved-signed": 130,
+    "signed": 130,
+    "resolved-signed": 132,
     "directory-digital": 250,
     "directory-any": 255,
-    "combined": 257
+    "combined": 259
   },
   "unresolved_signed_entries": 2,
   "reviewed_signed_name_resolutions": 6,

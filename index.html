@@ -30,8 +30,7 @@
     ><div class="tight"
       ><h1>Explore Tagging the Tower</h1
       ><p class="lead"
-        >Search the blog for tutorials, workshop recaps, and reflections on digital
-        scholarship at the CUNY Graduate Center.</p
+        >Learn from over 14 years of doctoral student contributions.</p
       ></div
     ><aside class="context"
       ><h2>Who are the Digital Fellows?</h2
@@ -50,11 +49,12 @@
       ><h2>Search posts</h2><p>Look up a writer, tool, or topic in the full text.</p
       ><button type="button" data-route="browse">Browse the archive →</button></article
     ><article class="path"
-      ><h2>Random post</h2><p>Open one of the 421 published records at random.</p
+      ><h2>Random post</h2
+      ><p>Open one of the 423 published records at random.</p
       ><button type="button" data-random="all">Surprise me →</button></article
     ><article class="path"
       ><h2>Read the interpretation</h2
-      ><p>See what 19 selected posts suggest about digital scholarship.</p
+      ><p>See what 21 selected posts suggest about digital scholarship.</p
       ><button type="button" data-route="wisdom"
         >Explore what the archive suggests →</button
       ></article
@@ -82,7 +82,8 @@
   >
   <div class="row"
     ><span class="small"
-      >421 published records · 2012–2026 · November 1, 2026 snapshot</span
+      >423 published records · 2012–2026 · November 9, 2026
+      snapshot</span
     ><button type="button" class="link" data-route="about"
       >What is included?</button
     ></div
@@ -92,11 +93,15 @@
 
     <label for="quote-collection"><span>Excerpt collection</span></label
     ><select id="quote-collection" aria-describedby="quote-collection-help"
-      ><option value="selected">Selected voices · 30 excerpts</option
-      ><option value="broad">Broader random discovery · 872 excerpts</option></select
+      ><option value="selected">Selected voices · 25 articles, 30 excerpts</option
+      ><option value="broad"
+        >Broader discovery · 90 articles, 1631 excerpts</option
+      ></select
     >
     <p id="quote-collection-help" class="small"
-      >Both collections pick an article at random, then pick a sentence from it.</p
+      >Each collection draws an eligible article at random, then one sentence. The
+      broader collection requires source-supported credits; neither covers all
+      423 records.</p
     >
     <blockquote id="quote-text">Loading an excerpt…</blockquote
     ><p id="quote-caption" class="small"></p>
@@ -127,7 +132,7 @@
         perspectives and inclusive-design guidance, rather than measured reader
         preferences. They have not received comprehensive independent human review.</p
       ><p
-        >Broader random discovery keeps 872 mechanically eligible sentences from 48
+        >Broader random discovery keeps 1631 mechanically eligible sentences from 90
         source-supported local articles. NLTK identifies literal spans, filtered to
         12–45 words and at most 300 characters with source-markup, notice, repetition
         and context heuristics. Those fallible rules can miss fragments or historical
@@ -243,7 +248,7 @@
     published posts.
     <a
       href="ARCHIVE_COVERAGE.html"
-      >Coverage of 421 published records and nine drafts</a
+      >Coverage of 423 published records and nine drafts</a
     >.</p
   >
 </section>
@@ -257,11 +262,13 @@
   <div class="tight"
     ><h1>What the archive suggests</h1
     ><p class="lead"
-      >An AI-assisted reading of 19 selected posts. Choose a theme to see the passages
-      and the writers behind it.</p
+      >An AI-assisted reading of 21 selected posts. Choose a theme to see the passages
+      and the writers behind it. This is a situated interpretation directed by Ian G.
+      Williams and drafted with AI assistance, not a collective statement approved by
+      the writers.</p
     ><p class="small"
       >The themes come from the essay. MALLET topics appear separately in Analysis &amp;
-      networks. The 19 examples cannot establish how common a theme is or whether
+      networks. The 21 examples cannot establish how common a theme is or whether
       writers agree.</p
     ></div
   ><div class="wisdom-grid"
@@ -313,6 +320,9 @@
   <div id="wp-a-texts" class="stack">
     <section class="analysis-section"
       ><h2>Recurring word groups over time</h2
+      ><p
+        >How does average topic weight change among modeled local posts? The chart
+        describes selected prose, not all blog activity or university outcomes.</p
       ><label
         ><span>Topic from the saved eight-topic MALLET model</span
         ><select id="wp-a-topic" aria-label="Saved topic"></select></label
@@ -326,7 +336,24 @@
         class="annual-bars"
         aria-label="Mean topic weights by academic year"
       ></div
-    ></section>
+      ><details
+        ><summary>Compare yearly coverage and exclusions</summary>
+        <p
+          >Published includes curated/source-linked records. Local excludes those
+          records; modeled also excludes welcome posts and texts too short for this
+          recipe. Selected modeled applies the current name, year and credit filters.
+          Different coverage can affect comparisons; it does not explain a topic change
+          by itself.</p
+        >
+        <div
+          id="wp-a-coverage"
+          class="coverage-scroll"
+          role="region"
+          aria-label="Yearly corpus coverage"
+          tabindex="0"
+        ></div>
+      </details>
+    </section>
     <section class="analysis-section"
       ><h2>Keyword signals in titles and tags</h2
       ><label
@@ -347,11 +374,32 @@
   <div id="wp-a-words" class="stack" hidden>
     <section class="analysis-section"
       ><h2>Words across the archive</h2>
+      <details
+        ><summary>Start with a two-year comparison</summary>
+        <ol
+          ><li
+            >Choose Compare years · heatmap to see the same saved measurements across
+            years.</li
+          ><li
+            >Pick two year columns. Check their analyzed-post counts before comparing
+            the colours.</li
+          ><li
+            >Select a word or topic and read its source posts. A difference suggests a
+            question; it does not explain its cause.</li
+          ></ol
+        >
+      </details>
       <p
-        >Explore the entire saved <strong>299-post analyzed corpus</strong> or one
-        academic year. This is a subset of the 421 published archive records. These word
-        views have their own year control; the author and evidence filters used in other
-        displays do not apply.</p
+        >Which words recur, or occur more often in one year? Common and distinctive
+        answer different questions; neither measures scholarly importance or statistical
+        significance.</p
+      >
+      <p
+        >Explore the entire saved
+        <strong>301-post analyzed corpus</strong> or one academic year.
+        This is a subset of the 423 published archive records. These
+        word views have their own year control; the author and evidence filters used in
+        other displays do not apply.</p
       >
       <label id="wp-word-year-label"
         >Word-view academic year<select id="wp-word-year"></select
@@ -412,7 +460,8 @@
       <p id="ranking-help"
         >Common ranks by occurrences or posts. Distinctive ranks by how much more often
         a word appears across posts in one year than across posts in all other years. It
-        requires at least two matching posts in the selected year.</p
+        requires at least two matching posts in the selected year. Its unit is
+        percentage points, not statistical significance or originality.</p
       >
     </fieldset>
     <div class="controls">
@@ -570,10 +619,11 @@
         >
         <p
           >These are <strong>year-exclusive cleaned forms</strong>: present in one
-          observed academic year and absent from the other years of the saved 299-post
-          corpus. This is different from distinctive vocabulary, which can appear
-          elsewhere. A form is counted once here regardless of repetition. It is not a
-          claim of originality, first use, importance or absence from excluded posts.</p
+          observed academic year and absent from the other years of the saved
+          301-post corpus. This is different from distinctive vocabulary,
+          which can appear elsewhere. A form is counted once here regardless of
+          repetition. It is not a claim of originality, first use, importance or absence
+          from excluded posts.</p
         >
         <p id="wp-exclusive-summary" class="small"></p>
         <details open
@@ -645,6 +695,12 @@
           separate from the sunburst’s smoothed token score. Select a word to follow its
           yearly post shares, read short exact-form excerpts, or pick a related post.
           The count table gives exact denominators.</p
+        ><p
+          >Worked example (invented counts): if “archive” occurs in 6 of 20 posts in one
+          year and 10 of 100 posts in the other years, the cloud's distinctive gap is
+          30% minus 10% = 20 percentage points. The sunburst uses a different, smoothed
+          token-rate score: wedge size is a share of selected scores, not a percentage
+          of posts. Neither calculation is a significance test.</p
         >
         <p
           >Choose a lens to change the question.
@@ -689,13 +745,13 @@
           source text for context, negation and multilingual writing.</p
         >
         <p
-          >The saved manifest includes 299 of 421 published records;
-          curated/source-linked posts, welcome/roster material, exact cleaned duplicates
-          and items below the 30-cleaned-token threshold are excluded by the documented
-          recipe. Drafts are excluded. Academic years use the saved August–July
-          assignment; 2026–2027 is partial in the November 1, 2026 export. No later
-          years or missing observations are invented. Raw counts weight longer posts
-          more heavily; differences may reflect post volume, genre, author mix,
+          >The saved manifest includes 301 of 423
+          published records; curated/source-linked posts, welcome/roster material, exact
+          cleaned duplicates and items below the 30-cleaned-token threshold are excluded
+          by the documented recipe. Drafts are excluded. Academic years use the saved
+          August–July assignment; 2026–2027 is partial in the November 9, 2026 export.
+          No later years or missing observations are invented. Raw counts weight longer
+          posts more heavily; differences may reflect post volume, genre, author mix,
           exclusions and incomplete years. Frequency does not establish a theme,
           consensus, impact or fellowship membership. Word and phrase frequencies remain
           separate from the essay’s interpretive themes; Subject mixtures explicitly
@@ -721,100 +777,129 @@
     >
   </div>
   <div id="wp-a-networks" class="stack" hidden>
-    <section class="analysis-section"
-      ><h2>Recorded authorship connections</h2
-      ><fieldset class="network-switches"
-        ><legend>Network scope</legend
-        ><p
-          >Choose a year, a credited name, or both. Selecting a name keeps the whole
-          post and its coauthors.</p
-        ><button type="button" id="wp-net-all" aria-pressed="true"
-          >All years and names</button
-        >
-        <button type="button" id="wp-net-choose" aria-pressed="false"
-          >Select year / person</button
-        ><div id="wp-net-selection" hidden
-          ><label>Network academic year<select id="wp-net-year"></select></label
-          ><label>Network credited name<select id="wp-net-author"></select></label
-          ><p>Choose either or both; All leaves that dimension unrestricted.</p></div
-        ></fieldset
+    <section class="analysis-section" aria-labelledby="wp-network-start-heading">
+      <h2 id="wp-network-start-heading">What would you like to explore?</h2>
+      <p
+        >Follow recorded credits to the posts behind them. These links describe
+        publication credits, not fellowship appointments or social relationships.</p
       >
-      <fieldset class="network-switches"
-        ><legend>Credit evidence in this network</legend
-        ><button type="button" id="wp-net-credits-all" aria-pressed="true"
-          >All recorded credits</button
+      <div class="row" aria-label="Ways into authorship records">
+        <button type="button" data-network-question="writer"
+          >Find a writer's posts</button
         >
-        <button type="button" id="wp-net-credits-supported" aria-pressed="false"
-          >Source-supported credits only</button
-        ><p
-          >Source-supported credits have checked evidence. Personal confirmation may
-          still be missing. Choose All recorded credits to include unresolved account
-          credits. These views count posts. Fellowship and productivity require separate
-          evidence.</p
-        ></fieldset
-      ><div class="analysis-controls"
-        ><label
-          ><span>Network view</span
-          ><select id="wp-a-network-mode" aria-label="Authorship network view"
-            ><option value="years">Authors ↔ academic years</option
-            ><option value="bylines">Shared bylines around one author</option
-            ><option value="matrix"
-              >Authors by academic year · count matrix</option
-            ></select
-          ></label
-        ><label id="wp-network-limit-label"
-          ><span>Names drawn in the graph</span
-          ><select id="wp-a-network-limit" aria-label="Names drawn in the graph"
-            ><option value="12">Up to 12 by recorded post credits</option
-            ><option value="all">All eligible names / partners</option></select
-          ></label
-        ></div
-      ><p id="wp-a-network-scope" class="small"></p
-      ><div id="wp-network-shared-summary" hidden></div
-      ><p class="small"
-        >Lines count published local posts carrying the recorded credits; thicker lines
-        mean more such posts. Curated/source-linked records and drafts are excluded. A
-        shared byline does not establish a working relationship or verified individual
-        productivity. Select a name, year or line to inspect sources.</p
-      ><div class="network-evidence-layout"
-        ><div class="network-evidence-grid"
-          ><div id="wp-network-graph"
-            ><p id="wp-network-preview" class="small network-only"
-              >Hover over or focus a name, year, or line for a preview.</p
-            ><div id="wp-a-network" class="network-only"></div
-            ><div id="wp-network-fallback" hidden
-              ><p class="small"
-                >Use the count matrix to explore individual years at this width.</p
-              ><button type="button" id="wp-open-network-matrix"
-                >Open author–year count matrix</button
+        <button type="button" data-network-question="years"
+          >Compare writing across years</button
+        >
+        <button type="button" data-network-question="shared"
+          >See who shares a post</button
+        >
+      </div>
+      <p id="wp-network-question-status" class="small" role="status" aria-live="polite"
+        >Choose a question to open the views and filters. You can change views at any
+        time.</p
+      >
+    </section>
+    <div id="wp-network-workspace" class="stack" hidden>
+      <section class="analysis-section"
+        ><h2 id="wp-network-view-heading">Recorded authorship connections</h2
+        ><fieldset class="network-switches"
+          ><legend>Network scope</legend
+          ><p
+            >Choose a year, a credited name, or both. Selecting a name keeps the whole
+            post and its coauthors.</p
+          ><button type="button" id="wp-net-all" aria-pressed="true"
+            >All years and names</button
+          >
+          <button type="button" id="wp-net-choose" aria-pressed="false"
+            >Select year / person</button
+          ><div id="wp-net-selection" hidden
+            ><label>Network academic year<select id="wp-net-year"></select></label
+            ><label>Network credited name<select id="wp-net-author"></select></label
+            ><p>Choose either or both; All leaves that dimension unrestricted.</p></div
+          ></fieldset
+        >
+        <fieldset class="network-switches"
+          ><legend>Credit evidence in this network</legend
+          ><button type="button" id="wp-net-credits-all" aria-pressed="true"
+            >All recorded credits</button
+          >
+          <button type="button" id="wp-net-credits-supported" aria-pressed="false"
+            >Source-supported credits only</button
+          ><p
+            >Source-supported credits have checked evidence. Personal confirmation may
+            still be missing. Choose All recorded credits to include unresolved account
+            credits. These views count posts. Fellowship and productivity require
+            separate evidence.</p
+          ></fieldset
+        ><div class="analysis-controls"
+          ><label
+            ><span>Network view</span
+            ><select id="wp-a-network-mode" aria-label="Authorship network view"
+              ><option value="posts">Shared writing · people → posts → people</option
+              ><option value="years">Authors ↔ academic years</option
+              ><option value="bylines"
+                >Person-to-person pairs · optional projection</option
+              ><option value="matrix"
+                >Authors by academic year · count matrix</option
+              ></select
+            ></label
+          ><label id="wp-network-limit-label"
+            ><span>Names drawn in the graph</span
+            ><select id="wp-a-network-limit" aria-label="Names drawn in the graph"
+              ><option value="12">Up to 12 by recorded post credits</option
+              ><option value="all">All eligible names / partners</option></select
+            ></label
+          ></div
+        ><p id="wp-a-network-scope" class="small"></p
+        ><div id="wp-network-shared-summary" hidden></div
+        ><p class="small" id="wp-network-mark-explanation"
+          >Lines count published local posts carrying the recorded credits; thicker
+          lines mean more such posts. Name ordering reflects recorded counts, not
+          importance. Mentoring, organizing and uncredited support are not measured by
+          these links. Curated/source-linked records and drafts are excluded. A shared
+          byline does not establish a working relationship or verified individual
+          productivity. Select a name, year or line to inspect sources.</p
+        ><div id="wp-network-post-paths" class="stack" hidden></div>
+        <div class="network-evidence-layout"
+          ><div class="network-evidence-grid"
+            ><div id="wp-network-graph"
+              ><p id="wp-network-preview" class="small network-only"
+                >Hover over or focus a name, year, or line for a preview.</p
+              ><div id="wp-a-network" class="network-only"></div
+              ><div id="wp-network-fallback" hidden
+                ><p class="small"
+                  >Use the count matrix to explore individual years at this width.</p
+                ><button type="button" id="wp-open-network-matrix"
+                  >Open author–year count matrix</button
+                ></div
               ></div
-            ></div
-          ><div id="wp-network-matrix-controls" hidden
-            ><label
-              >Order names<select id="wp-network-matrix-order"
-                ><option value="count">Most post credits first</option
-                ><option value="name">Alphabetical by displayed name</option></select
-              ></label
-            ><div
-              id="wp-network-matrix"
-              class="word-heat-scroll"
-              role="region"
-              aria-label="Author by academic year counts"
-              tabindex="0"
-            ></div></div
-          ><div id="wp-network-evidence-slot"></div></div></div
-      ><details id="wp-a-network-table"
-        ><summary>Every eligible credited name and its post counts</summary
-        ><div id="wp-a-author-table"></div></details
-    ></section>
-    <section class="analysis-section"
-      ><h2>Shared recorded bylines</h2
-      ><p class="small"
-        >A shared post counts once for each pair of credited names. One group article
-        can create many pairs. The graph records shared bylines. Collaboration requires
-        separate evidence.</p
-      ><div id="wp-a-pairs"></div
-    ></section>
+            ><div id="wp-network-matrix-controls" hidden
+              ><label
+                >Order names<select id="wp-network-matrix-order"
+                  ><option value="count">Most post credits first</option
+                  ><option value="name">Alphabetical by displayed name</option></select
+                ></label
+              ><div
+                id="wp-network-matrix"
+                class="word-heat-scroll"
+                role="region"
+                aria-label="Author by academic year counts"
+                tabindex="0"
+              ></div></div
+            ><div id="wp-network-evidence-slot"></div></div></div
+        ><details id="wp-a-network-table"
+          ><summary>Every eligible credited name and its post counts</summary
+          ><div id="wp-a-author-table"></div></details
+      ></section>
+      <section class="analysis-section" id="wp-network-pairs-section"
+        ><h2>Shared recorded bylines</h2
+        ><p class="small"
+          >A shared post counts once for each pair of credited names. One group article
+          can create many pairs. The graph records shared bylines. Collaboration
+          requires separate evidence.</p
+        ><div id="wp-a-pairs"></div
+      ></section>
+    </div>
   </div>
   <div id="wp-analysis-evidence-slot"
     ><section class="analysis-section" id="wp-analysis-posts"
@@ -823,7 +908,7 @@
         >Select a year, network connection or author to inspect the source posts.</p
       ><p id="wp-network-detail-tiers" class="small" hidden></p
       ><button type="button" id="wp-network-return-cell" hidden
-        >Return to selected matrix cell</button
+        >Return to selected connection</button
       ><div id="wp-a-posts" class="results"></div
       ><button type="button" id="wp-a-more" hidden
         >Show more source posts</button
@@ -856,7 +941,10 @@
     <nav aria-label="On this page"
       ><a data-people-jump href="#wp-writers-heading">Who wrote the posts?</a
       ><a data-people-jump href="#wp-cohorts-heading">Who served and when?</a
-      ><a data-people-jump href="#wp-sources-heading">How do we know?</a></nav
+      ><a data-people-jump href="#wp-sources-heading">How do we know?</a
+      ><a data-people-jump href="#wp-feedback-heading"
+        >Corrections and other readings</a
+      ></nav
     >
     <section class="analysis-section" aria-labelledby="wp-writers-heading">
       <h2 id="wp-writers-heading" tabindex="-1">Who wrote the posts?</h2>
@@ -971,9 +1059,9 @@
       <details
         ><summary>Archive coverage and limits</summary
         ><p
-          >The explorer includes 421 published records, including labeled curated and
-          source-linked entries. The saved MALLET model covers 299 posts. The
-          interpretation uses 19 selected examples.</p
+          >The explorer includes 423 published records, including
+          labeled curated and source-linked entries. The saved MALLET model covers
+          301 posts. The interpretation uses 19 selected examples.</p
         ><p
           ><a
             href="ARCHIVE_COVERAGE.html"
@@ -1107,10 +1195,67 @@
           uncertainty and reviewer access are preserved as design requirements.</p
         ></details
       >
+      <details
+        ><summary>What did the cleaning audit find?</summary>
+        <p
+          >A targeted check of six saved posts compared readable text, cleaned tokens
+          and the institution-related stop list. In “Doing humanidades digitales at
+          CUNY,” the saved cleaned text retains “humanidades digitales” and “español,”
+          while removing institution labels such as CUNY and fellow. This is a
+          documented recipe choice, not evidence that the removed words lack meaning.</p
+        >
+        <p
+          >English grammar processing is not a multilingual language assessment. This
+          small audit does not validate translation, grammatical tags or topic quality.
+          The original reading text remains available. The separate cleaning-comparison
+          preview compares already fitted recipes; these checks did not fit another
+          model.</p
+        >
+      </details>
       <p
         ><a href="https://gcdi.commons.gc.cuny.edu/category/tagging-the-tower/"
           >Visit the original publication</a
         ></p
+      >
+    </section>
+    <section class="analysis-section" aria-labelledby="wp-feedback-heading">
+      <h2 id="wp-feedback-heading" tabindex="-1"
+        >Question a credit or suggest another reading</h2
+      >
+      <p
+        >Factual corrections and interpretive disagreements are different contributions.
+        Send a post link, the claim or excerpt you are questioning, and your evidence or
+        alternative reading to Ian G. Williams.</p
+      >
+      <p
+        ><a
+          href="mailto:ian.williams52@gc.cuny.edu?subject=Tagging%20the%20Tower%20factual%20correction"
+          >Send a factual correction</a
+        >
+        ·
+        <a
+          href="mailto:ian.williams52@gc.cuny.edu?subject=Tagging%20the%20Tower%20interpretation%20or%20excerpt%20feedback"
+          >Suggest an interpretation, context or excerpt change</a
+        ></p
+      >
+      <p class="small"
+        >Ian is the project maintainer and receives these requests. Suggestions are not
+        automatically accepted; changes should retain the earlier claim, evidence and
+        decision in the project record. No response time is promised. Source authorship
+        does not imply endorsement of this analysis. A feedback route does not establish
+        community approval or shared governance; broader contributor review remains to
+        be arranged.</p
+      >
+      <p class="small"
+        >These revisions draw on
+        <a
+          href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51"
+          >Rawson and Muñoz on cleaning as interpretation</a
+        >
+        and the
+        <a href="https://designjustice.org/read-the-principles"
+          >Design Justice Network principles on participation and accountability</a
+        >. These references inform the questions; they do not certify this project.</p
       >
     </section>
     <section class="analysis-section" id="wp-people-evidence" hidden
@@ -1119,6 +1264,24 @@
       ><p id="wp-people-selection"></p><div id="wp-people-detail"></div
     ></section>
   </div>
+  <section class="stack" aria-labelledby="font-credits-heading">
+    <h2 id="font-credits-heading">Website typefaces</h2>
+    <p
+      >The default appearance uses Pixelify Sans by Stefie Justprince and the Pixelify
+      Sans Project Authors for headings, and Atkinson Hyperlegible Next by Braille
+      Institute, Applied Design Works, Elliott Scott, Megan Eiswerth, Letters From
+      Sweden and the Atkinson Hyperlegible Next Project Authors for reading text and
+      controls. These designers created the typefaces; their inclusion does not imply
+      endorsement of this project.</p
+    >
+    <p
+      >Both fonts are hosted locally under the SIL Open Font License 1.1, separate from
+      the project’s MIT license.
+      <a href="assets/fonts/pixelify-OFL.txt">Pixelify Sans license</a> ·
+      <a href="assets/fonts/atkinson-OFL.txt">Atkinson Hyperlegible Next license</a
+      >. Historical appearances remain available in Design history.</p
+    >
+  </section>
 </section>
  <section
   data-view="design"
@@ -1155,8 +1318,8 @@
       href="PUBLIC_GUIDE.html"
       >How to use the explorer</a
     ><span class="small"
-      >Working research release · source export November 1, 2026<br />Directed by Ian G.
-      Williams · developed with AI assistance<br /><a
+      >Working research release · source export November 9, 2026<br />Directed by Ian
+      G. Williams · developed with AI assistance<br /><a
         href="REUSE_AND_CITATION.html"
         >MIT for original project work; source posts retain separate rights</a
       ></span
@@ -1182,4 +1345,4 @@
   
   
 </div>
-<script defer src="assets/scripts/loader.js" data-manifest-sha256="92693332420b204fdf86e484a907e3ddcd79dee43fd6263b0592d22727063e68"></script></body></html>
+<script defer src="assets/scripts/loader.js" data-manifest-sha256="b5c4c908693f4dfdca4a48e593a858b379049623901ab42b59a2034c63a2df43"></script></body></html>

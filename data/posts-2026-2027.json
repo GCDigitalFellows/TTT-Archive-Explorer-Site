@@ -1,5 +1,181 @@
 [
   {
+    "id": "25049",
+    "title": "GeoLibre: Open-Source GIS in Your Browser",
+    "date": "2026-11-09",
+    "year": "2026–2027",
+    "authors": [
+      "Shokraan Rahiminezhad"
+    ],
+    "originalAuthors": [
+      "Shokran Rahiminezhad"
+    ],
+    "aliases": [
+      "Shokraan Rahiminezhad",
+      "Shokran Rahiminezhad"
+    ],
+    "account": "Sophie Bala",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "gis",
+      "Guides, Tutorials, Reviews",
+      "mapping",
+      "open source"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/11/09/geolibre-open-source-gis-in-your-browser/",
+    "signals": [
+      "Maps & visualization",
+      "Ethics, access & power"
+    ],
+    "paragraphs": [
+      "Working with geographic data can involve a surprisingly high barrier to entry. Before making a map, you may need to install specialized software, learn unfamiliar file formats, or move data between several tools. These requirements make free and open-source geographic information systems (GIS) especially valuable. GIS software helps users organize, analyze, and map data connected to places. GeoLibre is one such system, and it runs directly in a web browser.",
+      "GeoLibre was created by geospatial software developer Qiusheng Wu and is available in a stand-alone desktop application and mobile app. It can also be used inside Jupyter notebooks, but its browser version requires no installation. To get started, you can just open the application and arrive at a recognizable GIS workspace: a Layers panel on the left, a map in the center, styling controls on the right, and an attribute table along the bottom.",
+      "GeoLibre's main workspace places the…"
+    ],
+    "fullParagraphs": [
+      "Working with geographic data can involve a surprisingly high barrier to entry. Before making a map, you may need to install specialized software, learn unfamiliar file formats, or move data between several tools. These requirements make free and open-source geographic information systems (GIS) especially valuable. GIS software helps users organize, analyze, and map data connected to places. GeoLibre is one such system, and it runs directly in a web browser.",
+      "GeoLibre was created by geospatial software developer Qiusheng Wu and is available in a stand-alone desktop application and mobile app. It can also be used inside Jupyter notebooks, but its browser version requires no installation. To get started, you can just open the application and arrive at a recognizable GIS workspace: a Layers panel on the left, a map in the center, styling controls on the right, and an attribute table along the bottom.",
+      "GeoLibre's main workspace places the Layers panel beside the map and provides controls for styling, navigation, and other tools.",
+      "Source: Screenshot from the official GeoLibre documentation, Interface Overview",
+      "From data to a readable map",
+      "A useful way to understand GeoLibre is to make a first map. From the Add Data menu, you can open common vector and raster files. Vector files represent features such as points, roads, and boundaries. Raster files store information in a grid of cells, as satellite images do. You can also drag certain files directly onto the map or connect to web-based datasets and mapping services. GeoLibre supports formats including GeoJSON, GeoParquet, GeoPackage, KML, zipped Shapefiles, and GeoTIFFs, among others. The data guide explains the available sources and formats.",
+      "The Add Vector Layer panel can open a dataset from a local file or a web address.",
+      "Source: Screenshot from the official GeoLibre documentation, Your First Map",
+      "After loading a vector layer, select it in the Layers panel to change its appearance. You can adjust fill and outline colors, transparency, labels, and other properties. For numeric data, GeoLibre can vary an area's color according to its value, such as population by county. This kind of map is called a choropleth. The attribute table lets you search, sort, select, and inspect the records behind the features on the map.",
+      "GeoLibre workspace showing a map of United States cities above an attribute table with search, statistics, charts, dashboard, and export controls.",
+      "This workflow is useful for teaching as well as research. A class can open a shared dataset and explore how choices involving color, classification, labels, and scale affect the story a map tells. Researchers can inspect a new spatial dataset before deciding what additional cleaning or analysis it needs. When the work is ready to leave GeoLibre, vector layers can be exported in several formats, including GeoJSON, GeoParquet, GeoPackage, KML, zipped Shapefile, and CSV.",
+      "It can do more:",
+      "GeoLibre also includes tools for vector and raster analysis, spatial SQL, terrain work, hydrology, remote sensing, and other geoprocessing tasks. Its browser-based toolbox now includes more than 1,000 tools that run directly in the browser. This depth is worth knowing about, but you do not have to master it before beginning. Loading one layer, changing its style, and examining its attributes is enough for a productive first session.",
+      "In the browser version, processing happens locally on your device rather than requiring you to upload your data to a separate processing server. Projects can be saved as GeoLibre project files and reopened later. The platform also supports sharing and embedding maps when a project needs to reach a wider audience.",
+      "Getting started",
+      "The simplest way to evaluate GeoLibre is to open GeoLibre Web and try it with a small dataset. The official Your First Map tutorial walks through adding a layer, creating a choropleth, examining the attribute table, and saving or sharing the result. The documentation provides more detailed guides for adding data, styling layers, processing, and working in Jupyter.",
+      "GeoLibre will not replace every established desktop GIS workflow, and it does not need to. Its appeal is that it makes a substantial set of mapping and analysis tools available wherever a browser is available. Visit GeoLibre Web to experiment, consult the documentation for guided examples, or explore the project on GitHub to see how it is being developed.",
+      "If you want to learn more about maps, be sure to join us for our GIS day event on Tuesday, November 17th!",
+      "All images in this post were taken by Shokran Rahiminezhad."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.24409700389524178,
+      0.06820223211726033,
+      0.09940076863528545,
+      0.00045737489350996743,
+      0.00033184815419743145,
+      0.0005012135255599348,
+      0.14483854743605484,
+      0.44217101134289033
+    ],
+    "words": [
+      [
+        "geolibre",
+        16
+      ],
+      [
+        "map",
+        15
+      ],
+      [
+        "data",
+        9
+      ],
+      [
+        "layer",
+        9
+      ],
+      [
+        "file",
+        7
+      ],
+      [
+        "open",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "24957",
+    "title": "2026 CUNY DHI Lightning Talks In Review",
+    "date": "2026-11-02",
+    "year": "2026–2027",
+    "authors": [
+      "Meha Gupta"
+    ],
+    "originalAuthors": [
+      "Meha Gupta"
+    ],
+    "aliases": [
+      "Meha Gupta"
+    ],
+    "account": "Meha Gupta",
+    "kind": "local/unflagged",
+    "tier": "declared-credit",
+    "creditStatus": "author taxonomy",
+    "creditQuote": "",
+    "tags": [
+      "Digital GC",
+      "Digital Humanities",
+      "Events"
+    ],
+    "url": "https://gcdi.commons.gc.cuny.edu/2026/11/02/2026-cuny-dhi-lightning-talks-in-review/",
+    "signals": [],
+    "paragraphs": [
+      "On Tuesday, October 20, 2026, with the support of the DH community across CUNY, we held the Twelfth Annual CUNY DHI Lightning Talks. The event was a hybrid gathering held in the CUNY Graduate Center Skylight Room and on Zoom, bringing together faculty, students, and staff from across campuses for an evening of shared digital scholarship.",
+      "Our program began with welcoming remarks from Matthew K. Gold, Advisor to the Provost for Digital Initiatives, followed by an incisive keynote address from Dr. Yomaira C. Figueroa-Vásquez, Professor at Hunter College and Director of CENTRO. Drawing on her extensive community-engaged scholarship, Dr. Figueroa-Vásquez theorized the profound intersections between public humanities, digital humanities, and personal history, illustrating how we often encounter the deeply personal during archival research—an affective methodological turn she grounded in her own experience of uncovering her cousin's history…"
+    ],
+    "fullParagraphs": [
+      "On Tuesday, October 20, 2026, with the support of the DH community across CUNY, we held the Twelfth Annual CUNY DHI Lightning Talks. The event was a hybrid gathering held in the CUNY Graduate Center Skylight Room and on Zoom, bringing together faculty, students, and staff from across campuses for an evening of shared digital scholarship.",
+      "Our program began with welcoming remarks from Matthew K. Gold, Advisor to the Provost for Digital Initiatives, followed by an incisive keynote address from Dr. Yomaira C. Figueroa-Vásquez, Professor at Hunter College and Director of CENTRO. Drawing on her extensive community-engaged scholarship, Dr. Figueroa-Vásquez theorized the profound intersections between public humanities, digital humanities, and personal history, illustrating how we often encounter the deeply personal during archival research—an affective methodological turn she grounded in her own experience of uncovering her cousin's history within a documentary archive. She then detailed her cross-regional collaborative praxis bridging projects between Michigan and New York, presenting a structural framework that maps the essential infrastructures of care required for this work. Her diagram illuminated how community members and institutional partners must collaboratively anchor public-facing projects. The keynote concluded with a Q&A session that tackled the practical and ethical dimensions of sustaining community partnerships and mentoring students as they develop their own projects.",
+      "Below you will find the program and slides from the presenters. We hope to see you at our upcoming Lightning Talks!",
+      "Presenters shared their ongoing work in rapid 3-slide presentations that flowed across five key themes. Ian G. Williams, Meha Gupta, Matthew K. Gold, Stefano Morello, Zach Muhlbauer, Parisa Setayesh, and Jeff Tobias highlighted the latest Institutional Projects across the university. Next, Sean Patrick Palmer, Noah Wistman, Annastecia Ebisike, John Winstead, and Shokran Rahiminezhad explored new methods and classroom tools in Digital Pedagogy. For the Digital Projects panel, Jonah Brucker-Cohen and Evan Misshula shared their app development and visualization research, followed by Alec Lichtenberg and Kelly Karst presenting on historical narratives in Digital Archives. Finally, Kate Singh, Cortnie Belser, Joseph Pentangelo, and Lisa Brundage rounded out the presentations by showcasing their work in Digital Publishing. Lisa Rhody ended the talks with input on new updates on Zotero and how to incorporate them.",
+      "These projects showcased current work in digital pedagogy, archives, publishing, platform development, and open data, highlighting the vibrant future of DH across CUNY community colleges, senior colleges, and Graduate Center programs.",
+      "Remember to join the Digital Humanities Initiative Group to keep abreast of the happenings of DH at CUNY.",
+      "You can also download the event program here and the presenters' slides here!",
+      "All photos in this post were taken by Ian Williams."
+    ],
+    "sourceLicense": "CC BY-NC-SA; version unspecified in export",
+    "exclusion": "No saved model profile is available for this post.",
+    "weights": [
+      0.0009005158971061926,
+      0.025649799400069402,
+      0.7724174900690598,
+      0.12145599421609542,
+      0.05049400857736163,
+      0.0008308091303935714,
+      0.027821940564067605,
+      0.0004294421458463421
+    ],
+    "words": [
+      [
+        "digital",
+        9
+      ],
+      [
+        "project",
+        6
+      ],
+      [
+        "community",
+        5
+      ],
+      [
+        "across",
+        5
+      ],
+      [
+        "program",
+        5
+      ],
+      [
+        "talk",
+        4
+      ]
+    ]
+  },
+  {
     "id": "24863",
     "title": "A few important considerations when making charts and graphs",
     "date": "2026-10-27",
@@ -47,14 +223,14 @@
     "sourceLicense": "CC BY-NC-SA; version unspecified in export",
     "exclusion": "No saved model profile is available for this post.",
     "weights": [
-      0.01534180599961299,
-      0.0005563256535276306,
-      0.018229944409493472,
-      0.00018859213317947728,
-      0.745536823892959,
-      0.21785337310239952,
-      0.0006098126553100158,
-      0.0016833221535177973
+      0.0006396275080042458,
+      0.00048145596987538225,
+      0.05199490203532198,
+      0.027144514164622487,
+      0.0003907091964972628,
+      0.0005901154831452673,
+      0.18531017446101236,
+      0.733448501181521
     ],
     "words": [
       [
@@ -154,14 +330,14 @@
     "sourceLicense": "CC BY-NC-SA; version unspecified in export",
     "exclusion": "No saved model profile is available for this post.",
     "weights": [
-      0.031103692103201564,
-      0.39046805544409247,
-      0.00014983841581218802,
-      0.004606936247905224,
-      0.007381196840422021,
-      0.16709984038920264,
-      0.0010973949860084578,
-      0.39809304557335545
+      0.0011045130419650147,
+      0.01286048796623487,
+      0.41641789521848166,
+      0.36792283499138,
+      0.018280872082153326,
+      0.000181261741181176,
+      0.18041431234839586,
+      0.0028178226102079777
     ],
     "words": [
       [
@@ -251,14 +427,14 @@
     "sourceLicense": "CC BY-NC-SA; version unspecified in export",
     "exclusion": "No saved model profile is available for this post.",
     "weights": [
-      0.021318352729782126,
-      0.4034258825698097,
-      0.00019304263396261413,
-      0.005935294383438933,
-      0.01654213363601948,
-      0.1543315460156943,
-      0.020167554835819616,
-      0.37808619319547315
+      0.000253573387228977,
+      0.010738533291714899,
+      0.3616539927728164,
+      0.4361836484246726,
+      0.03648573955005328,
+      0.00023394488205222164,
+      0.1332343118630185,
+      0.021216255828443168
     ],
     "words": [
       [

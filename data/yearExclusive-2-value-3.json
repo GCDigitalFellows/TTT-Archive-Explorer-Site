@@ -3,12 +3,12 @@
     "year": "2017–2018",
     "analyzedPosts": 21,
     "allTypes": 2378,
-    "exclusiveTypes": 390,
-    "singlePostTypes": 363,
+    "exclusiveTypes": 389,
+    "singlePostTypes": 362,
     "multiplePostTypes": 27,
-    "singleOccurrenceTypes": 294,
-    "sharedAcrossYearsTypes": 1988,
-    "exclusiveShare": 0.16400336417157274,
+    "singleOccurrenceTypes": 293,
+    "sharedAcrossYearsTypes": 1989,
+    "exclusiveShare": 0.16358284272497897,
     "forms": [
       {
         "word": "soundcamp",
@@ -2594,14 +2594,6 @@
         ]
       },
       {
-        "word": "saving",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19844"
-        ]
-      },
-      {
         "word": "schafer",
         "occurrences": 1,
         "posts": 1,
@@ -3166,13 +3158,13 @@
   {
     "year": "2018–2019",
     "analyzedPosts": 14,
-    "allTypes": 2596,
-    "exclusiveTypes": 402,
-    "singlePostTypes": 383,
+    "allTypes": 2594,
+    "exclusiveTypes": 398,
+    "singlePostTypes": 379,
     "multiplePostTypes": 19,
-    "singleOccurrenceTypes": 324,
-    "sharedAcrossYearsTypes": 2194,
-    "exclusiveShare": 0.15485362095531588,
+    "singleOccurrenceTypes": 320,
+    "sharedAcrossYearsTypes": 2196,
+    "exclusiveShare": 0.15343099460292983,
     "forms": [
       {
         "word": "asmr",
@@ -3972,14 +3964,6 @@
         ]
       },
       {
-        "word": "batist",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "7527"
-        ]
-      },
-      {
         "word": "battle",
         "occurrences": 1,
         "posts": 1,
@@ -4089,14 +4073,6 @@
         "posts": 1,
         "ids": [
           "4934"
-        ]
-      },
-      {
-        "word": "carly",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "7527"
         ]
       },
       {
@@ -4692,14 +4668,6 @@
         ]
       },
       {
-        "word": "geojson",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "5184"
-        ]
-      },
-      {
         "word": "geolode",
         "occurrences": 1,
         "posts": 1,
@@ -4777,14 +4745,6 @@
         "posts": 1,
         "ids": [
           "4825"
-        ]
-      },
-      {
-        "word": "guided",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "4920"
         ]
       },
       {
@@ -6417,12 +6377,12 @@
     "year": "2019–2020",
     "analyzedPosts": 22,
     "allTypes": 2304,
-    "exclusiveTypes": 356,
-    "singlePostTypes": 343,
+    "exclusiveTypes": 355,
+    "singlePostTypes": 342,
     "multiplePostTypes": 13,
-    "singleOccurrenceTypes": 290,
-    "sharedAcrossYearsTypes": 1948,
-    "exclusiveShare": 0.1545138888888889,
+    "singleOccurrenceTypes": 289,
+    "sharedAcrossYearsTypes": 1949,
+    "exclusiveShare": 0.1540798611111111,
     "forms": [
       {
         "word": "bookworm",
@@ -6972,14 +6932,6 @@
         "posts": 1,
         "ids": [
           "5386"
-        ]
-      },
-      {
-        "word": "abreast",
-        "occurrences": 1,
-        "posts": 1,
-        "ids": [
-          "19855"
         ]
       },
       {
