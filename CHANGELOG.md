@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Move design feedback below project direction in the prototype footer.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested the credit order.
+- **AI:** OpenAI Codex reordered the footer rows and checked the prototype.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-prototype-footer-credit-order). Existing credit wording and names are preserved.
+
 ### 2026-11-10 — Apply the revised prototype’s readable typography and higher contrast to Analysis & networks.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested that the embedded analysis use the more accessible fonts and contrast.

@@ -39,6 +39,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-10 — Move design feedback below project direction in the prototype footer.
 - 2026-11-10 — Apply the revised prototype’s readable typography and higher contrast to Analysis & networks.
 - 2026-11-10 — Add the interactive Analysis & networks explorer to the revised prototype.
 - 2026-11-10 — Update the prototype heading to “Living and learning with digital transformation.”.
