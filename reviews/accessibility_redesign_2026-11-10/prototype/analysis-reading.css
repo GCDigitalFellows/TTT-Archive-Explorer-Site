@@ -1,0 +1,60 @@
+/* Loaded only in the prototype's embedded explorer. The explorer's era
+   settings use inline custom properties, so these reading tokens take priority. */
+:root[data-reading-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-reading-theme="dark"] {
+  color-scheme: dark;
+}
+
+:root[data-reading-size="larger"] {
+  font-size: 125%;
+}
+
+:root[data-reading-font="system"] {
+  --analysis-reading-font: system-ui, Arial, sans-serif;
+}
+
+#welcoming-prototype {
+  --analysis-font: var(--analysis-reading-font, "TTT Atkinson", Arial, sans-serif);
+  --heading: var(--analysis-font) !important;
+  color-scheme: inherit !important;
+  font: 400 1.125rem/1.65 var(--analysis-font) !important;
+}
+
+#welcoming-prototype[data-design-year] :is(h1, h2, h3, p, label, input, select, textarea, button, small, summary, th, td, li, svg text),
+#welcoming-prototype[data-design-year] .brand > span {
+  font-family: var(--analysis-font) !important;
+}
+
+#welcoming-prototype[data-design-year] :is(h1, h2, h3),
+#welcoming-prototype[data-design-year] .brand > span {
+  font-weight: 700;
+}
+
+#welcoming-prototype :is(.small, label, button, select, th, td) {
+  font-size: max(1rem, 1em);
+}
+
+#welcoming-prototype :focus-visible {
+  outline: 3px solid light-dark(#74228a, #f4c3ff);
+  outline-offset: 3px;
+}
+
+@media (forced-colors: none) {
+  #welcoming-prototype {
+    --paper: light-dark(#faf8f2, #14211b) !important;
+    --ink: light-dark(#1b2923, #f2f7f3) !important;
+    --muted: light-dark(#364941, #d0e0d5) !important;
+    --line: light-dark(#65786d, #a1b6aa) !important;
+    --wash: light-dark(#eef3ed, #1d3026) !important;
+    --action: light-dark(#00565a, #a0e4e2) !important;
+    --on-action: light-dark(#ffffff, #14211b) !important;
+  }
+
+  #welcoming-prototype[data-design-year] :is(h1, h2, h3),
+  #welcoming-prototype[data-design-year] .brand > span {
+    color: light-dark(#4d2865, #e4c1f0);
+  }
+}

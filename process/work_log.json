@@ -3440,6 +3440,24 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "The embedded explorer uses the existing charts, data and interface styles."
+    },
+    {
+      "id": "prototype-analysis-reading-style",
+      "date": "2026-11-10",
+      "status": "implemented",
+      "task": "Apply the revised prototype’s readable typography and higher contrast to Analysis & networks.",
+      "human": "Ian G. Williams requested that the embedded analysis use the more accessible fonts and contrast.",
+      "agent": "OpenAI Codex added a scoped stylesheet and synchronized the prototype’s font, text size and appearance controls with the public embedded explorer.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/analysis-reading.css"
+      ],
+      "limit": "This revision styles the embedded explorer interface and chart typography. Chart series retain their existing colors and analytical meaning."
     }
   ],
   "remaining": [

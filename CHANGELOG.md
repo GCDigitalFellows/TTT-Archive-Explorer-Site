@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Apply the revised prototype’s readable typography and higher contrast to Analysis & networks.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested that the embedded analysis use the more accessible fonts and contrast.
+- **AI:** OpenAI Codex added a scoped stylesheet and synchronized the prototype’s font, text size and appearance controls with the public embedded explorer.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-prototype-analysis-reading-style). This revision styles the embedded explorer interface and chart typography. Chart series retain their existing colors and analytical meaning.
+
 ### 2026-11-10 — Add the interactive Analysis & networks explorer to the revised prototype.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested Analysis & networks in the revised prototype.

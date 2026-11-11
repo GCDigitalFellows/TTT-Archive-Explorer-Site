@@ -95,13 +95,38 @@ get("random").onclick = () => {
   card.focus();
   get("results-status").textContent = "Selected an example: " + rows[index].title;
 };
+const analysisFrame = document.querySelector(".analysis-frame");
+
+// The published prototype and explorer share an origin. A local preview
+// can still display the public explorer with its own styles.
+function applyAnalysisReadingOptions() {
+  const explorer = analysisFrame.contentDocument;
+  if (!explorer?.documentElement || explorer.URL === "about:blank") return;
+
+  if (!explorer.getElementById("prototype-analysis-reading-style")) {
+    const stylesheet = explorer.createElement("link");
+    stylesheet.id = "prototype-analysis-reading-style";
+    stylesheet.rel = "stylesheet";
+    stylesheet.href = new URL("analysis-reading.css", document.baseURI).href;
+    explorer.head.append(stylesheet);
+  }
+
+  explorer.documentElement.dataset.readingTheme = get("appearance").value;
+  explorer.documentElement.dataset.readingFont = get("font").value;
+  explorer.documentElement.dataset.readingSize = get("size").value;
+}
+
+analysisFrame.addEventListener("load", applyAnalysisReadingOptions);
+applyAnalysisReadingOptions();
+
 for (const [control, attribute] of [
   ["font", "data-font"],
   ["size", "data-size"],
   ["spacing", "data-spacing"],
   ["appearance", "data-theme"],
 ])
-  get(control).addEventListener("change", () =>
-    document.documentElement.setAttribute(attribute, get(control).value),
-  );
+  get(control).addEventListener("change", () => {
+    document.documentElement.setAttribute(attribute, get(control).value);
+    applyAnalysisReadingOptions();
+  });
 render();
