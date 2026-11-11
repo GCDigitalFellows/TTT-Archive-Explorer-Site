@@ -596,7 +596,7 @@
     },
     {
       "source": "analysis/reviews/mockups/welcoming-pathways/index.html",
-      "destination": "index.html",
+      "destination": "explorer.html",
       "treatment": "main"
     },
     {
@@ -1547,6 +1547,56 @@
     {
       "source": "analysis/styles/documentation.css",
       "destination": "styles/documentation.css",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "scripts/templates/public_home.html",
+      "destination": "index.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/PLAN.md",
+      "destination": "reviews/accessibility_redesign_2026-11-10/PLAN.md",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/WRITING_GUIDE.md",
+      "destination": "reviews/accessibility_redesign_2026-11-10/WRITING_GUIDE.md",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/preview.js",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/preview.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/styles.css",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/styles.css",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/data.js",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/data.js",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/analysis-reading.css",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/analysis-reading.css",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/fonts/OFL.txt",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/fonts/OFL.txt",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/fonts/atkinson.ttf",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/fonts/atkinson.ttf",
       "treatment": "verbatim"
     }
   ],

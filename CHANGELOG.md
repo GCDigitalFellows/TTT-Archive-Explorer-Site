@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-10 — Make the accessibility redesign the public archive homepage.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested promotion of the revised website to the public entry point.
+- **AI:** OpenAI Codex added the release entry point and updated packaging, preserving existing archive routes and the interactive explorer used by the redesigned page.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-promote-accessibility-redesign-homepage). The new homepage uses the existing saved analysis and retains the planned narrative spaces.
+
 ### 2026-11-10 — Move design feedback below project direction in the prototype footer.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested the credit order.

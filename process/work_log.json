@@ -3476,6 +3476,25 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "Existing credit wording and names are preserved."
+    },
+    {
+      "id": "promote-accessibility-redesign-homepage",
+      "date": "2026-11-10",
+      "status": "implemented",
+      "task": "Make the accessibility redesign the public archive homepage.",
+      "human": "Ian G. Williams requested promotion of the revised website to the public entry point.",
+      "agent": "OpenAI Codex added the release entry point and updated packaging, preserving existing archive routes and the interactive explorer used by the redesigned page.",
+      "credit_roles": [
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017"
+      ],
+      "evidence": [
+        "../scripts/templates/public_home.html",
+        "../scripts/public_release_manifest.json"
+      ],
+      "limit": "The new homepage uses the existing saved analysis and retains the planned narrative spaces."
     }
   ],
   "remaining": [
