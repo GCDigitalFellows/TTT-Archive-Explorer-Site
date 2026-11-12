@@ -3657,6 +3657,26 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/preview.js"
       ],
       "limit": "The trail respects reduced motion and requires mouse input. The toggle state applies to the current page load."
+    },
+    {
+      "id": "list-word-trail-vocabulary",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "List all 13 words and phrases in the word trail guide.",
+      "human": "Ian G. Williams requested the complete list of possible trail text.",
+      "agent": "OpenAI Codex added the list and checked it against the homepage script.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/preview.js"
+      ],
+      "limit": "The list documents the vocabulary in this release."
     }
   ],
   "remaining": [

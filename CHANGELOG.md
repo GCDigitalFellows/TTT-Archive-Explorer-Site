@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — List all 13 words and phrases in the word trail guide.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested the complete list of possible trail text.
+- **AI:** OpenAI Codex added the list and checked it against the homepage script.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-list-word-trail-vocabulary). The list documents the vocabulary in this release.
+
 ### 2026-11-12 — Explain the homepage word trail, turn it on by default where supported, and label its current state.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested the explanation page, link placement, initial state, and button wording.
