@@ -5,8 +5,8 @@
       name="viewport"
       content="width=device-width,initial-scale=1" /><title
       >Tagging The Tower Archive Explorer · Accessibility redesign</title
-    ><link rel="stylesheet" href="styles.css?v=activity-grid-1" /><script defer src="data.js"></script>
-    <script defer src="preview.js?v=word-trail-2"></script>
+    ><link rel="stylesheet" href="styles.css?v=technology-popup-1" /><script defer src="data.js"></script>
+    <script defer src="preview.js?v=technology-popup-1"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -176,6 +176,15 @@
             </figure>
           </div>
         </section>
+        <p><a id="technology-cloud-launch" class="button" href="technology-cloud-interactive.html">Explore technologies mentioned in the archive</a></p>
+        <dialog id="technology-cloud-dialog" aria-labelledby="technology-cloud-title">
+          <div class="technology-dialog-header">
+            <h2 id="technology-cloud-title">Technologies in the archive</h2>
+            <form method="dialog"><button type="submit" autofocus>Close</button></form>
+          </div>
+          <p><a href="technology-cloud-interactive.html">Open the cloud as a full page</a></p>
+          <iframe title="Interactive technology word cloud and matching posts" data-src="technology-cloud-interactive.html"></iframe>
+        </dialog>
         <article class="author-space" aria-labelledby="intro-author"
           ><h2 id="intro-author">An introduction to the archive</h2>
           <p class="byline">Ian G. Williams · Introduction (Draft)</p>

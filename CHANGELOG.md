@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Add an interactive technology cloud popup below the landing page carousel and carry forward the public event notice.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved the popup. Public commit 75ecfda records the incoming event notice edit.
+- **AI:** OpenAI Codex integrated the public notice into source, packaged the cloud and added the modal and standalone entry point.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-embed-interactive-technology-cloud). The cloud uses the November 9 corpus snapshot and a manually selected technology vocabulary.
+
 ### 2026-11-12 — Update the project activity record and place its grid above the AI-use narrative.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested the activity update and placement above his narrative.

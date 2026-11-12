@@ -1585,6 +1585,16 @@
       "treatment": "verbatim"
     },
     {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/technology-cloud-interactive.html",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/technology-cloud-interactive.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/technology-counts.csv",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/technology-counts.csv",
+      "treatment": "verbatim"
+    },
+    {
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
       "treatment": "verbatim"

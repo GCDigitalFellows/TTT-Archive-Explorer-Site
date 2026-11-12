@@ -3718,6 +3718,26 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "The public data contains daily totals only. Commit activity measures a record of repository work rather than total labor time. The earlier local chat activity dataset could not be read, so this update uses Git only."
+    },
+    {
+      "id": "embed-interactive-technology-cloud",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Add an interactive technology cloud popup below the landing page carousel and carry forward the public event notice.",
+      "human": "Ian G. Williams approved the popup. Public commit 75ecfda records the incoming event notice edit.",
+      "agent": "OpenAI Codex integrated the public notice into source, packaged the cloud and added the modal and standalone entry point.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/technology-cloud-interactive.html"
+      ],
+      "limit": "The cloud uses the November 9 corpus snapshot and a manually selected technology vocabulary."
     }
   ],
   "remaining": [

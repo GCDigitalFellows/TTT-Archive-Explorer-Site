@@ -257,3 +257,23 @@ function initializeWordTrail() {
 }
 
 initializeWordTrail();
+
+const technologyDialog = get("technology-cloud-dialog");
+const technologyLauncher = get("technology-cloud-launch");
+const technologyFrame = technologyDialog.querySelector("iframe");
+
+technologyLauncher.addEventListener("click", (event) => {
+  // The ordinary link also works when native dialogs are unavailable.
+  if (!technologyDialog.showModal || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  technologyDialog.showModal();
+  if (!technologyFrame.hasAttribute("src")) technologyFrame.src = technologyFrame.dataset.src;
+});
+
+// Escape inside the embedded document must close the outer dialog too.
+technologyFrame.addEventListener("load", () => {
+  technologyFrame.contentDocument?.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && technologyDialog.open) technologyDialog.close();
+  });
+});
+technologyDialog.addEventListener("close", () => technologyLauncher.focus());
