@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Expand the homepage feature to seven slides on technological change across three academic years.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved the seven-slide draft for implementation.
+- **AI:** OpenAI Codex selected two additional posts, exported four PNGs from the Explorer, and integrated the approved carousel into the homepage.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-publish-three-post-featured-carousel). The charts summarize each academic year’s analyzed posts. The 2013 caption distinguishes the archived original byline from the current account display.
+
 ### 2026-11-12 — Add an introductory digitization carousel pairing a source post with two Explorer exports.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested an early introduction carousel about digitalization using images exported from the Explorer.

@@ -3554,6 +3554,26 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "The two exports summarize the 14 analyzed posts in the academic year. The charts provide context for the featured post and use the existing saved analysis."
+    },
+    {
+      "id": "publish-three-post-featured-carousel",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Expand the homepage feature to seven slides on technological change across three academic years.",
+      "human": "Ian G. Williams approved the seven-slide draft for implementation.",
+      "agent": "OpenAI Codex selected two additional posts, exported four PNGs from the Explorer, and integrated the approved carousel into the homepage.",
+      "credit_roles": [
+        "Conceptualization",
+        "Project administration"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "The charts summarize each academic year’s analyzed posts. The 2013 caption distinguishes the archived original byline from the current account display."
     }
   ],
   "remaining": [
