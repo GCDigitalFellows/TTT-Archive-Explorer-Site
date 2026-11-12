@@ -231,6 +231,7 @@ function initializeWordTrail() {
 
   function setEnabled(enabled) {
     button.setAttribute("aria-pressed", String(enabled));
+    button.textContent = enabled ? "Word Trail On" : "Word Trail Off";
     if (enabled) {
       window.addEventListener("pointermove", drawWord, { passive: true });
     } else {
@@ -252,6 +253,7 @@ function initializeWordTrail() {
   });
   motion.addEventListener("change", updateAvailability);
   updateAvailability();
+  setEnabled(motion.matches);
 }
 
 initializeWordTrail();

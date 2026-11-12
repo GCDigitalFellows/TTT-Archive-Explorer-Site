@@ -545,3 +545,13 @@ footer {
     display: none;
   }
 }
+
+.word-trail-controls {
+  display: grid;
+  justify-items: start;
+  gap: 0.35rem;
+}
+
+.word-trail-controls a {
+  font-size: 0.875rem;
+}

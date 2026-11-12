@@ -1575,6 +1575,11 @@
       "treatment": "verbatim"
     },
     {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
+      "treatment": "verbatim"
+    },
+    {
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/styles.css",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/styles.css",
       "treatment": "verbatim"
