@@ -430,3 +430,31 @@ footer {
   object-position: left;
   margin-bottom: 1rem;
 }
+
+/* Keep the square chart readable without letting it dominate wide screens. */
+.intro-sunburst {
+  margin: 1rem 0 2rem;
+  max-width: 36rem;
+}
+
+.intro-sunburst img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.intro-sunburst figcaption {
+  margin-block: 0.75rem;
+}
+
+.intro-sunburst table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.intro-sunburst :is(th, td) {
+  border-bottom: 1px solid var(--line);
+  padding: 0.35rem;
+  vertical-align: top;
+}

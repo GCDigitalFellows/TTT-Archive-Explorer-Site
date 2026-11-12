@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Place the early distinctive-vocabulary sunburst below the homepage title and document its provenance.
+
+- **Human — Ian G. Williams:** Ian G. Williams supplied the PNG and requested its placement and credit.
+- **AI:** OpenAI Codex compared all 75 visible labels with the archived Welcoming pathways data, matched the center wording with its renderer, and added the original image, source credit and an accessible label table.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-intro-historical-distinctive-sunburst). The archived data and renderer identify display analysis v2.0 and its 299-post snapshot. The exact export build is unrecorded.
+
 ### 2026-11-12 — Expand the homepage feature to seven slides on technological change across three academic years.
 
 - **Human — Ian G. Williams:** Ian G. Williams approved the seven-slide draft for implementation.

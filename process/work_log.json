@@ -3574,6 +3574,28 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "The charts summarize each academic year’s analyzed posts. The 2013 caption distinguishes the archived original byline from the current account display."
+    },
+    {
+      "id": "intro-historical-distinctive-sunburst",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Place the early distinctive-vocabulary sunburst below the homepage title and document its provenance.",
+      "human": "Ian G. Williams supplied the PNG and requested its placement and credit.",
+      "agent": "OpenAI Codex compared all 75 visible labels with the archived Welcoming pathways data, matched the center wording with its renderer, and added the original image, source credit and an accessible label table.",
+      "credit_roles": [
+        "Conceptualization",
+        "Resources"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "../archives/public-site/2026-11-04-before-welcoming-pathways/site/reviews/mockups/welcoming-pathways/word_methods.md"
+      ],
+      "limit": "The archived data and renderer identify display analysis v2.0 and its 299-post snapshot. The exact export build is unrecorded."
     }
   ],
   "remaining": [
