@@ -5,8 +5,8 @@
       name="viewport"
       content="width=device-width,initial-scale=1" /><title
       >Tagging The Tower Archive Explorer · Accessibility redesign</title
-    ><link rel="stylesheet" href="styles.css?v=technology-popup-1" /><script defer src="data.js"></script>
-    <script defer src="preview.js?v=technology-popup-1"></script>
+    ><link rel="stylesheet" href="styles.css?v=sunburst-view-1" /><script defer src="data.js"></script>
+    <script defer src="preview.js?v=sunburst-view-1"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -58,7 +58,7 @@
         ><p class="eyebrow">The Graduate Center, City University of New York</p
         ><h1>Living and learning with digital transformation</h1>
         <figure class="intro-sunburst">
-          <a href="featured-visualizations/sunburst-all-years-distinct.png">
+          <a id="sunburst-view-launch" href="featured-visualizations/sunburst-all-years-distinct.png">
             <img src="featured-visualizations/sunburst-all-years-distinct.png" width="1254" height="1254" alt="Open the full-size distinctive-vocabulary sunburst. Fifteen equal academic-year sectors each show five words. The list below gives every label.">
           </a>
           <figcaption>
@@ -93,6 +93,14 @@
             </table>
           </details>
         </figure>
+        <dialog id="sunburst-view" aria-labelledby="sunburst-view-title">
+          <div class="sunburst-view-controls">
+            <h2 id="sunburst-view-title">Distinctive vocabulary across 15 academic years</h2>
+            <form method="dialog"><button autofocus>Return to landing page</button></form>
+          </div>
+          <img src="featured-visualizations/sunburst-all-years-distinct.png" width="1254" height="1254"
+            alt="Sunburst with 15 academic-year sectors and five distinctive words per year.">
+        </dialog>
         <div class="archive-introduction">
           <p class="lead">
             <strong>Tagging The Tower</strong> is a blog about digital scholarship, managed and published

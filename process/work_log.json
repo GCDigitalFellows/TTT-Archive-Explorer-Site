@@ -3738,6 +3738,25 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/technology-cloud-interactive.html"
       ],
       "limit": "The cloud uses the November 9 corpus snapshot and a manually selected technology vocabulary."
+    },
+    {
+      "id": "return-from-enlarged-sunburst",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Add an enlarged homepage sunburst view with a return button.",
+      "human": "Ian G. Williams requested a way to return to the landing page from the enlarged chart.",
+      "agent": "OpenAI Codex added a viewport-sized dialog, a return button and keyboard dismissal.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "The chart uses the existing historical image."
     }
   ],
   "remaining": [

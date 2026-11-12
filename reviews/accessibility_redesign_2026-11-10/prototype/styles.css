@@ -677,3 +677,40 @@ footer {
   border: 1px solid var(--line);
   background: white;
 }
+
+#sunburst-view {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+  border: 0;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+#sunburst-view[open] {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 0.75rem;
+}
+
+.sunburst-view-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.sunburst-view-controls h2 {
+  margin: 0;
+  font-size: clamp(1.125rem, 3vw, 1.5rem);
+}
+
+#sunburst-view img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

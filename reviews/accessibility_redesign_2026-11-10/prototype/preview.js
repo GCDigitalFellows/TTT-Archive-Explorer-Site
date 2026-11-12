@@ -277,3 +277,11 @@ technologyFrame.addEventListener("load", () => {
   });
 });
 technologyDialog.addEventListener("close", () => technologyLauncher.focus());
+
+const sunburstView = get("sunburst-view");
+get("sunburst-view-launch").addEventListener("click", (event) => {
+  // Keep the original image link available for modified clicks and older browsers.
+  if (!sunburstView.showModal || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  sunburstView.showModal();
+});

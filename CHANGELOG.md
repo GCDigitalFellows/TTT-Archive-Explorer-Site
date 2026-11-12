@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Add an enlarged homepage sunburst view with a return button.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested a way to return to the landing page from the enlarged chart.
+- **AI:** OpenAI Codex added a viewport-sized dialog, a return button and keyboard dismissal.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-return-from-enlarged-sunburst). The chart uses the existing historical image.
+
 ### 2026-11-12 — Add an interactive technology cloud popup below the landing page carousel and carry forward the public event notice.
 
 - **Human — Ian G. Williams:** Ian G. Williams approved the popup. Public commit 75ecfda records the incoming event notice edit.

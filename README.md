@@ -37,6 +37,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-12 — Add an enlarged homepage sunburst view with a return button.
 - 2026-11-12 — Add an interactive technology cloud popup below the landing page carousel and carry forward the public event notice.
 - 2026-11-12 — Update the project activity record and place its grid above the AI-use narrative.
 - 2026-11-12 — Present the word trail vocabulary as two visual groups in the guide.
