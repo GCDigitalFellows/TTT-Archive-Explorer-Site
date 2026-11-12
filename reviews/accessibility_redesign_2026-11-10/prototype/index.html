@@ -5,8 +5,8 @@
       name="viewport"
       content="width=device-width,initial-scale=1" /><title
       >Tagging The Tower Archive Explorer · Accessibility redesign</title
-    ><link rel="stylesheet" href="styles.css" /><script defer src="data.js"></script
-    ><script defer src="preview.js?v=analysis-reading"></script
+    ><link rel="stylesheet" href="styles.css?v=design-evolution-1" /><script defer src="data.js"></script
+    ><script defer src="preview.js?v=design-evolution-1"></script
   ></head>
   <body
     ><a class="skip" href="#main">Skip to content</a>
@@ -183,8 +183,9 @@
         <h2 id="analysis-heading">Analysis &amp; networks</h2>
         <p>Explore text patterns, word clouds, sunbursts and authorship networks.</p>
         <p><a href="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/explorer.html#view=analysis">Open Analysis &amp; networks in the full explorer</a></p>
-        <iframe class="analysis-frame" title="Interactive archive charts and authorship networks"
-          src="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/explorer.html#view=analysis" loading="lazy"></iframe>
+        <button type="button" id="load-analysis" aria-controls="embedded-analysis" hidden>Load interactive charts</button>
+        <iframe id="embedded-analysis" class="analysis-frame" hidden title="Interactive archive charts and authorship networks"
+          data-src="https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/explorer.html#view=analysis"></iframe>
       </section>
       <section id="process"
         ><h2>How this website was made</h2
@@ -220,6 +221,60 @@
             ></details
           ></article
         >
+        <section id="design-evolution" aria-labelledby="design-evolution-heading">
+          <h3 id="design-evolution-heading">Design evolution</h3>
+          <p>The first three screenshots show parallel layout proposals. Later screenshots show changes to the interface and charts.</p>
+          <div class="design-controls" id="design-controls" hidden>
+            <button type="button" id="design-previous" aria-controls="design-slides">Previous</button>
+            <p id="design-position" role="status"></p>
+            <button type="button" id="design-next" aria-controls="design-slides">Next</button>
+            <button type="button" id="design-all" aria-controls="design-slides">View all screenshots</button>
+          </div>
+          <div id="design-slides" class="design-slides">
+            <figure data-design-slide>
+              <img src="design-screenshots/01-open-library.jpg" loading="lazy" alt="Search and example posts share the page with a short introduction to the interpretation.">
+              <figcaption><strong>Open library</strong> · Parallel layout proposal<br>Search and example posts share the page with a short introduction to the interpretation.
+                <br><a href="design-screenshots/01-open-library.jpg">View full-size screenshot of Open library</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/02-collective-wisdom.jpg" loading="lazy" alt="The interpretation leads, with a post search beside it.">
+              <figcaption><strong>Collective wisdom</strong> · Parallel layout proposal<br>The interpretation leads, with a post search beside it.
+                <br><a href="design-screenshots/02-collective-wisdom.jpg">View full-size screenshot of Collective wisdom</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/03-welcoming-pathways.jpg" loading="lazy" alt="Three starting points invite readers to browse, discover a random post, or explore the interpretation.">
+              <figcaption><strong>Welcoming pathways</strong> · Parallel layout proposal<br>Three starting points invite readers to browse, discover a random post, or explore the interpretation.
+                <br><a href="design-screenshots/03-welcoming-pathways.jpg">View full-size screenshot of Welcoming pathways</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/04-flyer-typography-integrated.jpg" loading="lazy" alt="Pixel-style headings and a dark palette bring the event flyer’s typography into the welcome page.">
+              <figcaption><strong>Flyer-inspired typography</strong> · Interface iteration<br>Pixel-style headings and a dark palette bring the event flyer’s typography into the welcome page.
+                <br><a href="design-screenshots/04-flyer-typography-integrated.jpg">View full-size screenshot of Flyer-inspired typography</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/05-sunburst-year-comparisons.jpg" loading="lazy" alt="Numbered chart segments connect to full phrase labels and counts in an adjacent key.">
+              <figcaption><strong>Annual sunburst comparison</strong> · Chart iteration<br>Numbered chart segments connect to full phrase labels and counts in an adjacent key.
+                <br><a href="design-screenshots/05-sunburst-year-comparisons.jpg">View full-size screenshot of Annual sunburst comparison</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/06-accessibility-redesign-prototype.jpg" loading="lazy" alt="A light palette, larger sans-serif headings and reading controls shift the emphasis to readability.">
+              <figcaption><strong>Accessibility redesign prototype</strong> · Prototype<br>A light palette, larger sans-serif headings and reading controls shift the emphasis to readability.
+                <br><a href="design-screenshots/06-accessibility-redesign-prototype.jpg">View full-size screenshot of Accessibility redesign prototype</a>
+              </figcaption>
+            </figure>
+            <figure data-design-slide>
+              <img src="design-screenshots/07-published-redesign-home.jpg" loading="lazy" alt="The release introduces the archive under “Living and learning with digital transformation.”">
+              <figcaption><strong>Published redesign</strong> · Public release<br>The release introduces the archive under “Living and learning with digital transformation.”
+                <br><a href="design-screenshots/07-published-redesign-home.jpg">View full-size screenshot of Published redesign</a>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
         <div class="process-steps"
           ><article
             ><h3>1. Read the sources</h3

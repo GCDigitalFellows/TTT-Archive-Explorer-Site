@@ -390,3 +390,43 @@ footer {
   min-height: 44rem;
   border: 1px solid currentColor;
 }
+
+/* Keep hidden controls out of both the layout and keyboard navigation. */
+.analysis-frame[hidden],
+.design-controls[hidden],
+.design-slides figure[hidden] {
+  display: none;
+}
+
+#design-evolution {
+  margin-block: 2rem;
+}
+
+.design-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.design-controls p {
+  margin: 0;
+}
+
+.design-slides figure {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.design-slides img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 42rem;
+  object-fit: contain;
+  object-position: left;
+  margin-bottom: 1rem;
+}

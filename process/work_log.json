@@ -3495,6 +3495,27 @@
         "../scripts/public_release_manifest.json"
       ],
       "limit": "The new homepage uses the existing saved analysis and retains the planned narrative spaces."
+    },
+    {
+      "id": "public-design-evolution-carousel",
+      "date": "2026-11-11",
+      "status": "implemented",
+      "task": "Add the design evolution carousel and keep Start here as the homepage entry.",
+      "human": "Ian G. Williams approved the carousel placement and identified the landing problem. The public landing draft is credited to Ian G. Williams on the page.",
+      "agent": "OpenAI Codex preserved the public landing and README edits in source, compiled the reviewed screenshots into a manual carousel, and delayed embedded analysis until requested.",
+      "credit_roles": [
+        "Conceptualization",
+        "Writing – original draft",
+        "Validation"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "Screenshots represent selected proposals and releases captured at different viewport sizes."
     }
   ],
   "remaining": [

@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-11 — Add the design evolution carousel and keep Start here as the homepage entry.
+
+- **Human — Ian G. Williams:** Ian G. Williams approved the carousel placement and identified the landing problem. The public landing draft is credited to Ian G. Williams on the page.
+- **AI:** OpenAI Codex preserved the public landing and README edits in source, compiled the reviewed screenshots into a manual carousel, and delayed embedded analysis until requested.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-public-design-evolution-carousel). Screenshots represent selected proposals and releases captured at different viewport sizes.
+
 ### 2026-11-10 — Make the accessibility redesign the public archive homepage.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested promotion of the revised website to the public entry point.

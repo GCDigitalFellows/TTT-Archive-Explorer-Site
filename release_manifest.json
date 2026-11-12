@@ -1598,6 +1598,41 @@
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/fonts/atkinson.ttf",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/fonts/atkinson.ttf",
       "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/01-open-library.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/01-open-library.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/02-collective-wisdom.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/02-collective-wisdom.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/03-welcoming-pathways.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/03-welcoming-pathways.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/04-flyer-typography-integrated.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/04-flyer-typography-integrated.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/05-sunburst-year-comparisons.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/05-sunburst-year-comparisons.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/06-accessibility-redesign-prototype.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/06-accessibility-redesign-prototype.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/07-published-redesign-home.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/07-published-redesign-home.jpg",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {

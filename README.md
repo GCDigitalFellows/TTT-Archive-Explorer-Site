@@ -37,6 +37,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-11 — Add the design evolution carousel and keep Start here as the homepage entry.
 - 2026-11-10 — Make the accessibility redesign the public archive homepage.
 - 2026-11-10 — Move design feedback below project direction in the prototype footer.
 - 2026-11-10 — Apply the revised prototype’s readable typography and higher contrast to Analysis & networks.

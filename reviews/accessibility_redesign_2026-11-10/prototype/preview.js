@@ -116,7 +116,26 @@ function applyAnalysisReadingOptions() {
   explorer.documentElement.dataset.readingSize = get("size").value;
 }
 
+// The embedded explorer can focus its heading on load. Start it only after
+// someone chooses Analysis, so it cannot pull the homepage away from Start here.
+const loadAnalysisButton = get("load-analysis");
+
+function loadAnalysis() {
+  if (analysisFrame.hasAttribute("src")) return;
+  analysisFrame.hidden = false;
+  analysisFrame.src = analysisFrame.dataset.src;
+  loadAnalysisButton.hidden = true;
+}
+
+function loadAnalysisFromRoute() {
+  if (location.hash === "#analysis") loadAnalysis();
+}
+
+loadAnalysisButton.hidden = false;
+loadAnalysisButton.addEventListener("click", loadAnalysis);
+window.addEventListener("hashchange", loadAnalysisFromRoute);
 analysisFrame.addEventListener("load", applyAnalysisReadingOptions);
+loadAnalysisFromRoute();
 applyAnalysisReadingOptions();
 
 for (const [control, attribute] of [
@@ -130,3 +149,38 @@ for (const [control, attribute] of [
     applyAnalysisReadingOptions();
   });
 render();
+
+// Without JavaScript, all screenshots remain available in reading order.
+const designSlides = [...document.querySelectorAll("[data-design-slide]")];
+let designIndex = 2;
+let showAllDesigns = false;
+
+function renderDesignGallery() {
+  for (const [index, slide] of designSlides.entries()) {
+    slide.hidden = !showAllDesigns && index !== designIndex;
+  }
+  const title = designSlides[designIndex].querySelector("strong").textContent;
+  get("design-position").textContent = showAllDesigns
+    ? `Showing all ${designSlides.length} screenshots`
+    : `${designIndex + 1} of ${designSlides.length} · ${title}`;
+  get("design-all").textContent = showAllDesigns
+    ? "Return to carousel"
+    : "View all screenshots";
+  get("design-previous").disabled = showAllDesigns;
+  get("design-next").disabled = showAllDesigns;
+}
+
+get("design-previous").addEventListener("click", () => {
+  designIndex = (designIndex + designSlides.length - 1) % designSlides.length;
+  renderDesignGallery();
+});
+get("design-next").addEventListener("click", () => {
+  designIndex = (designIndex + 1) % designSlides.length;
+  renderDesignGallery();
+});
+get("design-all").addEventListener("click", () => {
+  showAllDesigns = !showAllDesigns;
+  renderDesignGallery();
+});
+get("design-controls").hidden = false;
+renderDesignGallery();
