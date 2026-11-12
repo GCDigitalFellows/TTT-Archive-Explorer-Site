@@ -1633,6 +1633,21 @@
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/07-published-redesign-home.jpg",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/design-screenshots/07-published-redesign-home.jpg",
       "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-charts-and-graphs-post.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-charts-and-graphs-post.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-geolibre-post.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-geolibre-post.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-tagging-the-tower-listing.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-tagging-the-tower-listing.jpg",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {

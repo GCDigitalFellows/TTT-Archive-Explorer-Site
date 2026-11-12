@@ -3516,6 +3516,25 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "Screenshots represent selected proposals and releases captured at different viewport sizes."
+    },
+    {
+      "id": "original-blog-screenshot-carousel",
+      "date": "2026-11-11",
+      "status": "implemented",
+      "task": "Illustrate the opening narrative with screenshots of the original GCDI blog.",
+      "human": "Ian G. Williams requested visual examples of the original blog within the opening narrative.",
+      "agent": "OpenAI Codex added three captioned source screenshots and reused the manual gallery controls for both carousels.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "Screenshots illustrate the live GCDI category and two article views at capture time."
     }
   ],
   "remaining": [

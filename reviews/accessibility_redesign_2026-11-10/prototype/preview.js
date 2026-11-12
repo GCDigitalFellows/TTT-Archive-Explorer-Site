@@ -150,37 +150,45 @@ for (const [control, attribute] of [
   });
 render();
 
-// Without JavaScript, all screenshots remain available in reading order.
-const designSlides = [...document.querySelectorAll("[data-design-slide]")];
-let designIndex = 2;
-let showAllDesigns = false;
+// Each gallery keeps its own position. With JavaScript disabled, all
+// screenshots remain visible in reading order.
+function initializeScreenshotGallery(prefix, initialIndex) {
+  const slides = [...get(prefix + "-slides").querySelectorAll("figure")];
+  const previous = get(prefix + "-previous");
+  const next = get(prefix + "-next");
+  const all = get(prefix + "-all");
+  const position = get(prefix + "-position");
+  let activeIndex = initialIndex;
+  let showAll = false;
 
-function renderDesignGallery() {
-  for (const [index, slide] of designSlides.entries()) {
-    slide.hidden = !showAllDesigns && index !== designIndex;
+  function renderGallery() {
+    for (const [index, slide] of slides.entries()) {
+      slide.hidden = !showAll && index !== activeIndex;
+    }
+    const title = slides[activeIndex].querySelector("strong").textContent;
+    position.textContent = showAll
+      ? `Showing all ${slides.length} screenshots`
+      : `${activeIndex + 1} of ${slides.length} · ${title}`;
+    all.textContent = showAll ? "Return to carousel" : "View all screenshots";
+    previous.disabled = showAll;
+    next.disabled = showAll;
   }
-  const title = designSlides[designIndex].querySelector("strong").textContent;
-  get("design-position").textContent = showAllDesigns
-    ? `Showing all ${designSlides.length} screenshots`
-    : `${designIndex + 1} of ${designSlides.length} · ${title}`;
-  get("design-all").textContent = showAllDesigns
-    ? "Return to carousel"
-    : "View all screenshots";
-  get("design-previous").disabled = showAllDesigns;
-  get("design-next").disabled = showAllDesigns;
+
+  previous.addEventListener("click", () => {
+    activeIndex = (activeIndex + slides.length - 1) % slides.length;
+    renderGallery();
+  });
+  next.addEventListener("click", () => {
+    activeIndex = (activeIndex + 1) % slides.length;
+    renderGallery();
+  });
+  all.addEventListener("click", () => {
+    showAll = !showAll;
+    renderGallery();
+  });
+  get(prefix + "-controls").hidden = false;
+  renderGallery();
 }
 
-get("design-previous").addEventListener("click", () => {
-  designIndex = (designIndex + designSlides.length - 1) % designSlides.length;
-  renderDesignGallery();
-});
-get("design-next").addEventListener("click", () => {
-  designIndex = (designIndex + 1) % designSlides.length;
-  renderDesignGallery();
-});
-get("design-all").addEventListener("click", () => {
-  showAllDesigns = !showAllDesigns;
-  renderDesignGallery();
-});
-get("design-controls").hidden = false;
-renderDesignGallery();
+initializeScreenshotGallery("original-blog", 0);
+initializeScreenshotGallery("design", 2);

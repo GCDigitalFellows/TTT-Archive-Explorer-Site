@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-11 — Illustrate the opening narrative with screenshots of the original GCDI blog.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested visual examples of the original blog within the opening narrative.
+- **AI:** OpenAI Codex added three captioned source screenshots and reused the manual gallery controls for both carousels.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-original-blog-screenshot-carousel). Screenshots illustrate the live GCDI category and two article views at capture time.
+
 ### 2026-11-11 — Add the design evolution carousel and keep Start here as the homepage entry.
 
 - **Human — Ian G. Williams:** Ian G. Williams approved the carousel placement and identified the landing problem. The public landing draft is credited to Ian G. Williams on the page.
