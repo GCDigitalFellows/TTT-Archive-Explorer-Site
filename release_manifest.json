@@ -1648,6 +1648,21 @@
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-tagging-the-tower-listing.jpg",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/original-blog-screenshots/gcdi-tagging-the-tower-listing.jpg",
       "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/sunburst-2018-2019-phrases-leading-five.png",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/sunburst-2018-2019-phrases-leading-five.png",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/transforming-tei-source.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/transforming-tei-source.jpg",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/word-cloud-2018-2019-common.png",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/featured-visualizations/word-cloud-2018-2019-common.png",
+      "treatment": "verbatim"
     }
   ],
   "redirects": {

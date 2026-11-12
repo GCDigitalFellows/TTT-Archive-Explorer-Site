@@ -158,6 +158,7 @@ function initializeScreenshotGallery(prefix, initialIndex) {
   const next = get(prefix + "-next");
   const all = get(prefix + "-all");
   const position = get(prefix + "-position");
+  const showAllLabel = all.textContent;
   let activeIndex = initialIndex;
   let showAll = false;
 
@@ -169,7 +170,7 @@ function initializeScreenshotGallery(prefix, initialIndex) {
     position.textContent = showAll
       ? `Showing all ${slides.length} screenshots`
       : `${activeIndex + 1} of ${slides.length} · ${title}`;
-    all.textContent = showAll ? "Return to carousel" : "View all screenshots";
+    all.textContent = showAll ? "Return to carousel" : showAllLabel;
     previous.disabled = showAll;
     next.disabled = showAll;
   }
@@ -192,3 +193,4 @@ function initializeScreenshotGallery(prefix, initialIndex) {
 
 initializeScreenshotGallery("original-blog", 0);
 initializeScreenshotGallery("design", 2);
+initializeScreenshotGallery("featured-visualizations", 0);

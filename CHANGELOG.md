@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Add an introductory digitization carousel pairing a source post with two Explorer exports.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested an early introduction carousel about digitalization using images exported from the Explorer.
+- **AI:** OpenAI Codex selected Filipa Calado’s TEI post, used the Explorer’s PNG controls to export the 2018–2019 common word cloud and leading phrase sunburst, captured the original post and integrated the three images.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-intro-digitization-chart-exports). The two exports summarize the 14 analyzed posts in the academic year. The charts provide context for the featured post and use the existing saved analysis.
+
 ### 2026-11-11 — Illustrate the opening narrative with screenshots of the original GCDI blog.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested visual examples of the original blog within the opening narrative.

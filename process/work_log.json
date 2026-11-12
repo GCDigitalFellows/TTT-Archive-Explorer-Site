@@ -3535,6 +3535,25 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
       ],
       "limit": "Screenshots illustrate the live GCDI category and two article views at capture time."
+    },
+    {
+      "id": "intro-digitization-chart-exports",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Add an introductory digitization carousel pairing a source post with two Explorer exports.",
+      "human": "Ian G. Williams requested an early introduction carousel about digitalization using images exported from the Explorer.",
+      "agent": "OpenAI Codex selected Filipa Calado’s TEI post, used the Explorer’s PNG controls to export the 2018–2019 common word cloud and leading phrase sunburst, captured the original post and integrated the three images.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "The two exports summarize the 14 analyzed posts in the academic year. The charts provide context for the featured post and use the existing saved analysis."
     }
   ],
   "remaining": [

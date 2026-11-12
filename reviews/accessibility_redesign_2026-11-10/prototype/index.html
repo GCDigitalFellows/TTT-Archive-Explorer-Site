@@ -6,7 +6,7 @@
       content="width=device-width,initial-scale=1" /><title
       >Tagging The Tower Archive Explorer · Accessibility redesign</title
     ><link rel="stylesheet" href="styles.css?v=design-evolution-1" /><script defer src="data.js"></script>
-    <script defer src="preview.js?v=original-blog-1"></script>
+    <script defer src="preview.js?v=featured-visualizations-1"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -71,6 +71,36 @@
           <a href="#process">Read about this website’s making</a></div>
         <p class="scope">
           <strong>423 published records</strong> · 2012–2026 · November 9, 2026 snapshot</p>
+        <section id="featured-visualizations" aria-labelledby="featured-visualizations-heading">
+          <h2 id="featured-visualizations-heading">From manuscript to web</h2>
+          <p>In <a href="https://gcdi.commons.gc.cuny.edu/2019/04/24/transforming-tei-for-the-web-2/">Transforming TEI for the Web</a>, Filipa Calado describes using the Text Encoding Initiative (TEI) to record handwritten revisions in a form people and software can read. The Explorer charts show words and phrases across 14 analyzed posts from 2018–2019, the academic year of Calado’s post.</p>
+          <div class="design-controls" id="featured-visualizations-controls" hidden>
+            <button type="button" id="featured-visualizations-previous" aria-controls="featured-visualizations-slides">Previous</button>
+            <p id="featured-visualizations-position" role="status"></p>
+            <button type="button" id="featured-visualizations-next" aria-controls="featured-visualizations-slides">Next</button>
+            <button type="button" id="featured-visualizations-all" aria-controls="featured-visualizations-slides">View all images</button>
+          </div>
+          <div id="featured-visualizations-slides" class="design-slides">
+            <figure>
+              <img src="featured-visualizations/word-cloud-2018-2019-common.png" loading="lazy" alt="A word cloud of 20 common words, including data, digital, file, map, text and TEI.">
+              <figcaption><strong>Common words · 2018–2019</strong><br>The word cloud sizes terms by occurrences across the 14 analyzed posts.
+                <br><a href="featured-visualizations/word-cloud-2018-2019-common.png">Open full-size image</a>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="featured-visualizations/sunburst-2018-2019-phrases-leading-five.png" loading="lazy" alt="A ring chart of five phrases: ArcGIS Online (15), digital research (14), open source (12), TEI Boilerplate (11), and internet access (10).">
+              <figcaption><strong>Leading phrases · 2018–2019</strong><br>The five phrases account for 1.79% of the year’s counted adjacent-word pairs. The chart rescales those five to fill the ring.
+                <br><a href="featured-visualizations/sunburst-2018-2019-phrases-leading-five.png">Open full-size image</a>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="featured-visualizations/transforming-tei-source.jpg" loading="lazy" alt="The original GCDI article displays Filipa Calado’s byline and introduces a workshop on encoding manuscript revisions.">
+              <figcaption><strong>Transforming TEI for the Web</strong><br>Read Calado’s account of marking up revisions in Oscar Wilde’s manuscript.
+                <br><a href="featured-visualizations/transforming-tei-source.jpg">Open full-size image</a>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
         <article class="author-space" aria-labelledby="intro-author"
           ><h2 id="intro-author">An introduction to the archive</h2>
           <p class="byline">Ian G. Williams · Introduction (Draft)</p>
