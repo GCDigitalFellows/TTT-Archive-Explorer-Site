@@ -555,3 +555,48 @@ footer {
 .word-trail-controls a {
   font-size: 0.875rem;
 }
+
+/* Color and headings show where the vocabulary came from. */
+.trail-vocabulary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 0.8rem;
+  max-width: 55rem;
+  margin-block: 1rem 2rem;
+}
+
+.trail-vocabulary > div {
+  padding: clamp(0.9rem, 3vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: var(--panel);
+  color: var(--link);
+}
+
+.trail-vocabulary > div + div {
+  color: var(--heading);
+}
+
+.trail-vocabulary h3 {
+  margin: 0 0 0.85rem;
+  color: inherit;
+  font-size: 1rem;
+}
+
+.trail-vocabulary ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trail-vocabulary li {
+  padding: 0.3em 0.75em;
+  border: 1px solid var(--line);
+  border-radius: 1em;
+  background: var(--paper);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}

@@ -3677,6 +3677,26 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/preview.js"
       ],
       "limit": "The list documents the vocabulary in this release."
+    },
+    {
+      "id": "visualize-word-trail-vocabulary",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Present the word trail vocabulary as two visual groups in the guide.",
+      "human": "Ian G. Williams requested a visual presentation of the existing vocabulary.",
+      "agent": "OpenAI Codex built the responsive vocabulary display and verified all 13 entries against the trail script.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/styles.css"
+      ],
+      "limit": "The groups show the two vocabulary sources. All entries use the same type size."
     }
   ],
   "remaining": [
