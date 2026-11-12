@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Add an optional archive word trail and hover feedback for the homepage reading link.
+
+- **Human — Ian G. Williams:** Ian G. Williams proposed the word trail and requested a hover response for the starting-point link.
+- **AI:** OpenAI Codex selected words and fragments from saved public analysis and excerpts, implemented the toggle and motion safeguards, and updated the link styling.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-homepage-word-trail-experiment). The trail starts off, uses a small sample, and is unavailable when reduced motion is requested or hover is unsupported.
+
 ### 2026-11-12 — Shorten the homepage sunburst caption and emphasize the archive introduction.
 
 - **Human — Ian G. Williams:** Ian G. Williams marked up the published page and requested the changes to visual hierarchy.

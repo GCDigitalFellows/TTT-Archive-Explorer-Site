@@ -194,3 +194,64 @@ function initializeScreenshotGallery(prefix, initialIndex) {
 initializeScreenshotGallery("original-blog", 0);
 initializeScreenshotGallery("design", 2);
 initializeScreenshotGallery("featured-visualizations", 0);
+
+// Use words from the saved common-word cloud and short phrases from the
+// published excerpts in data.js. Sampling never reads raw posts or bylines.
+function initializeWordTrail() {
+  const vocabulary = [
+    "digital", "research", "project", "data", "workshop", "technology",
+    "create", "learning new skills", "building community", "geographic data",
+    "the ethics of boundaries", "what we produce", "how we behave",
+  ];
+  const button = get("word-trail-toggle");
+  const layer = get("word-trail");
+  const motion = matchMedia("(any-hover: hover) and (prefers-reduced-motion: no-preference)");
+  let lastDraw = -Infinity;
+  let previousWord = "";
+
+  function drawWord(event) {
+    if (event.pointerType !== "mouse" || event.buttons || event.target.closest("a, button, input, select, summary")) return;
+    if (event.timeStamp - lastDraw < 125) return;
+
+    lastDraw = event.timeStamp;
+    const choices = vocabulary.filter((word) => word !== previousWord);
+    const word = choices[Math.floor(Math.random() * choices.length)];
+    previousWord = word;
+    const fragment = make("span", word);
+    fragment.className = "word-trail-fragment";
+    const placeToLeft = event.clientX > layer.clientWidth / 2;
+    fragment.style.left = `${event.clientX + (placeToLeft ? -16 : 16)}px`;
+    fragment.style.top = `${Math.max(36, event.clientY - 18)}px`;
+    fragment.style.setProperty("--trail-offset", placeToLeft ? "-100%" : "0px");
+    fragment.addEventListener("animationend", () => fragment.remove(), { once: true });
+    // Bound the number of elements even when an animation is interrupted.
+    if (layer.childElementCount >= 10) layer.firstElementChild.remove();
+    layer.append(fragment);
+  }
+
+  function setEnabled(enabled) {
+    button.setAttribute("aria-pressed", String(enabled));
+    if (enabled) {
+      window.addEventListener("pointermove", drawWord, { passive: true });
+    } else {
+      window.removeEventListener("pointermove", drawWord);
+      layer.replaceChildren();
+    }
+  }
+
+  function updateAvailability() {
+    if (!motion.matches) setEnabled(false);
+    button.hidden = !motion.matches;
+  }
+
+  button.addEventListener("click", () => {
+    setEnabled(motion.matches && button.getAttribute("aria-pressed") === "false");
+  });
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setEnabled(false);
+  });
+  motion.addEventListener("change", updateAvailability);
+  updateAvailability();
+}
+
+initializeWordTrail();

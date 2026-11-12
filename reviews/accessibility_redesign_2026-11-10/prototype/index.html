@@ -5,8 +5,8 @@
       name="viewport"
       content="width=device-width,initial-scale=1" /><title
       >Tagging The Tower Archive Explorer · Accessibility redesign</title
-    ><link rel="stylesheet" href="styles.css?v=intro-sunburst-2" /><script defer src="data.js"></script>
-    <script defer src="preview.js?v=featured-visualizations-1"></script>
+    ><link rel="stylesheet" href="styles.css?v=word-trail-1" /><script defer src="data.js"></script>
+    <script defer src="preview.js?v=word-trail-1"></script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
@@ -47,7 +47,9 @@
           </label>
           </div>
           </details>
-          </header>
+      <button type="button" id="word-trail-toggle" aria-pressed="false" hidden>Word trail</button>
+    </header>
+    <div id="word-trail" aria-hidden="true"></div>
     <main id="main"
       ><section id="introduction" class="intro"
         ><p class="eyebrow">The Graduate Center, City University of New York</p
@@ -105,7 +107,7 @@
           </p>
         </div>
         <div class="actions">
-          <a class="button primary" href="#read">Find a starting point</a>
+          <a class="button primary starting-point" href="#read">Find a starting point</a>
           <a href="#process">Read about this website’s making</a></div>
         <p class="scope">
           <strong>423 published records</strong> · 2012–2026 · November 9, 2026 snapshot</p>

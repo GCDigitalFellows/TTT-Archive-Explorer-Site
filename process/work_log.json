@@ -3617,6 +3617,26 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/styles.css"
       ],
       "limit": "The disclosure uses native browser controls for keyboard, touch and pointer access. The historical chart and its analysis are unchanged."
+    },
+    {
+      "id": "homepage-word-trail-experiment",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Add an optional archive word trail and hover feedback for the homepage reading link.",
+      "human": "Ian G. Williams proposed the word trail and requested a hover response for the starting-point link.",
+      "agent": "OpenAI Codex selected words and fragments from saved public analysis and excerpts, implemented the toggle and motion safeguards, and updated the link styling.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/preview.js"
+      ],
+      "limit": "The trail starts off, uses a small sample, and is unavailable when reduced motion is requested or hover is unsupported."
     }
   ],
   "remaining": [

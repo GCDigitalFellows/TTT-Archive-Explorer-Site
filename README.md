@@ -37,6 +37,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-12 — Add an optional archive word trail and hover feedback for the homepage reading link.
 - 2026-11-12 — Shorten the homepage sunburst caption and emphasize the archive introduction.
 - 2026-11-12 — Place the early distinctive-vocabulary sunburst below the homepage title and document its provenance.
 - 2026-11-12 — Expand the homepage feature to seven slides on technological change across three academic years.
