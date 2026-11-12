@@ -4,6 +4,12 @@ The [README](README.md) gives a one-sentence summary of each update. This file r
 
 Dates below follow the saved work log. Historical summaries describe the work at that time and may contain superseded counts; use the current coverage ledger for present totals. Human direction or confirmation does not establish full human verification. Codex model/build details remain unrecorded; external-model provenance is requester-reported. Source-post authors retain their separate attribution. [Detailed task evidence and limits](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html).
 
+### 2026-11-12 — Update the project activity record and place its grid above the AI-use narrative.
+
+- **Human — Ian G. Williams:** Ian G. Williams requested the activity update and placement above his narrative.
+- **AI:** OpenAI Codex aggregated Git activity by day and counted distinct hours across both repositories, built the accessible table, and captured the screenshot.
+- **Evidence and limits:** [Task record](https://gcdigitalfellows.github.io/TTT-Archive-Explorer-Site/WORK_LOG.html#work-refresh-project-activity-grid). The public data contains daily totals only. Commit activity measures a record of repository work rather than total labor time. The earlier local chat activity dataset could not be read, so this update uses Git only.
+
 ### 2026-11-12 — Present the word trail vocabulary as two visual groups in the guide.
 
 - **Human — Ian G. Williams:** Ian G. Williams requested a visual presentation of the existing vocabulary.

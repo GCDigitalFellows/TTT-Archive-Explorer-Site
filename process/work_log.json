@@ -3697,6 +3697,27 @@
         "reviews/accessibility_redesign_2026-11-10/prototype/styles.css"
       ],
       "limit": "The groups show the two vocabulary sources. All entries use the same type size."
+    },
+    {
+      "id": "refresh-project-activity-grid",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Update the project activity record and place its grid above the AI-use narrative.",
+      "human": "Ian G. Williams requested the activity update and placement above his narrative.",
+      "agent": "OpenAI Codex aggregated Git activity by day and counted distinct hours across both repositories, built the accessible table, and captured the screenshot.",
+      "credit_roles": [
+        "Conceptualization"
+      ],
+      "gaidet": [
+        "0000017",
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/project-activity.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html"
+      ],
+      "limit": "The public data contains daily totals only. Commit activity measures a record of repository work rather than total labor time. The earlier local chat activity dataset could not be read, so this update uses Git only."
     }
   ],
   "remaining": [

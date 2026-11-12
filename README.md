@@ -37,6 +37,7 @@ The [full disclosure and contributor register](https://gcdigitalfellows.github.i
 
 See the [full changelog](CHANGELOG.md) for human and AI attribution, evidence, and limitations.
 
+- 2026-11-12 — Update the project activity record and place its grid above the AI-use narrative.
 - 2026-11-12 — Present the word trail vocabulary as two visual groups in the guide.
 - 2026-11-12 — List all 13 words and phrases in the word trail guide.
 - 2026-11-12 — Explain the homepage word trail, turn it on by default where supported, and label its current state.

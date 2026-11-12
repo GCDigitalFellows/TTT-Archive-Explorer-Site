@@ -1575,6 +1575,16 @@
       "treatment": "verbatim"
     },
     {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/project-activity.html",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/project-activity.html",
+      "treatment": "verbatim"
+    },
+    {
+      "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/project-activity-grid.jpg",
+      "destination": "reviews/accessibility_redesign_2026-11-10/prototype/project-activity-grid.jpg",
+      "treatment": "verbatim"
+    },
+    {
       "source": "analysis/reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
       "destination": "reviews/accessibility_redesign_2026-11-10/prototype/word-trail.html",
       "treatment": "verbatim"
