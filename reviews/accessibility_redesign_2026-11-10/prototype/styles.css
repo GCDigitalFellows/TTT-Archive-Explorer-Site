@@ -600,3 +600,44 @@ footer {
   font-weight: 600;
   overflow-wrap: anywhere;
 }
+
+.project-activity-grid {
+  width: 100%;
+  max-width: 46rem;
+  border-collapse: collapse;
+  font-size: clamp(0.95rem, 2vw, 1.125rem);
+}
+
+.project-activity-grid caption {
+  text-align: left;
+  margin-bottom: 0.6rem;
+  color: var(--secondary);
+}
+
+.project-activity-grid :is(th, td) {
+  border: 1px solid var(--line);
+  padding: 0.4em 0.6em;
+  text-align: start;
+}
+
+.project-activity-grid .recorded {
+  background: var(--link);
+  color: var(--paper);
+}
+
+.project-activity-figure {
+  max-width: 46rem;
+  margin: 1.5rem 0;
+}
+
+.project-activity-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
+.project-activity-figure figcaption {
+  margin-block-start: 0.5rem;
+  font-size: 1rem;
+}
