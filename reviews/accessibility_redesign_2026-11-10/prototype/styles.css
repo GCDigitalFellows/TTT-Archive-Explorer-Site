@@ -444,7 +444,42 @@ footer {
 }
 
 .intro-sunburst figcaption {
-  margin-block: 0.75rem;
+  margin-block: 0.65rem 0.25rem;
+  color: var(--secondary);
+}
+
+.intro-sunburst :is(figcaption, summary) {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.intro-sunburst figcaption p {
+  margin-block: 0.25rem 0.75rem;
+}
+
+/* Give the blog introduction its own reading area below the figure. */
+.archive-introduction {
+  max-width: 70ch;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-inline-start: 0.25rem solid var(--heading);
+  background: var(--panel);
+  font-size: 1.125rem;
+}
+
+.archive-introduction > :first-child {
+  margin-block-start: 0;
+}
+
+.archive-introduction > :last-child {
+  margin-block-end: 0;
+}
+
+.archive-introduction .lead {
+  font-size: clamp(1.375rem, 1.15rem + 0.75vw, 1.65rem);
+}
+
+.archive-introduction .lead strong {
+  color: var(--heading);
 }
 
 .intro-sunburst table {

@@ -3596,6 +3596,27 @@
         "../archives/public-site/2026-11-04-before-welcoming-pathways/site/reviews/mockups/welcoming-pathways/word_methods.md"
       ],
       "limit": "The archived data and renderer identify display analysis v2.0 and its 299-post snapshot. The exact export build is unrecorded."
+    },
+    {
+      "id": "refine-sunburst-caption-and-archive-introduction",
+      "date": "2026-11-12",
+      "status": "implemented",
+      "task": "Shorten the homepage sunburst caption and emphasize the archive introduction.",
+      "human": "Ian G. Williams marked up the published page and requested the changes to visual hierarchy.",
+      "agent": "OpenAI Codex added an expandable caption with the chart methods and credits and styled the opening description as a distinct reading area.",
+      "credit_roles": [
+        "Conceptualization",
+        "Writing – Review & Editing"
+      ],
+      "gaidet": [
+        "0000023",
+        "0000031"
+      ],
+      "evidence": [
+        "reviews/accessibility_redesign_2026-11-10/prototype/index.html",
+        "reviews/accessibility_redesign_2026-11-10/prototype/styles.css"
+      ],
+      "limit": "The disclosure uses native browser controls for keyboard, touch and pointer access. The historical chart and its analysis are unchanged."
     }
   ],
   "remaining": [
